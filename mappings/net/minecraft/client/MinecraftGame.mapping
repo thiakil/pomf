@@ -142,6 +142,7 @@ CLASS bhz net/minecraft/client/MinecraftGame
 	METHOD aj getTickDelta ()F
 	METHOD al getBlockColorMap ()Lbii;
 	METHOD an hasReducedDebugInfo ()Z
+	METHOD ao getToastGui ()Lbka;
 	METHOD aq init ()V
 	METHOD as registerMetadataDeserializers ()V
 	METHOD at createDisplay ()V

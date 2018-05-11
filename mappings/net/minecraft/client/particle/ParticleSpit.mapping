@@ -1,5 +1,5 @@
-CLASS btn
-	CLASS btn$a
+CLASS btn net/minecraft/client/particle/ParticleSpit
+	CLASS btn$a Factory
 		METHOD a createParticle (ILams;DDDDDD[I)Lbtd;
 			ARG 0 id
 			ARG 1 world

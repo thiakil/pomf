@@ -1,0 +1,10 @@
+CLASS chy net/minecraft/client/tutorial/ITutorialStep
+	METHOD a update ()V
+	METHOD a onItemPickup (Lain;)V
+		ARG 0 stack
+	METHOD a onHitBlock (Lbrz;Let;Lawr;F)V
+		ARG 0 worldClient
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 diggingProgress
+	METHOD b onStop ()V

@@ -1,0 +1,3 @@
+CLASS chu net/minecraft/client/tutorial/TutorialMovementStep
+	METHOD a update ()V
+	METHOD b onStop ()V

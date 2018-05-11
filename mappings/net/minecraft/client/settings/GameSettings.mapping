@@ -120,6 +120,7 @@ CLASS bib net/minecraft/client/settings/GameSettings
 	FIELD as keysAll [Lbhw;
 	FIELD at game Lbhz;
 	FIELD au difficulty Ltx;
+	FIELD av hideGui Z
 	FIELD ax debugEnabled Z
 	FIELD ay debugPieEnabled Z
 	FIELD az debugGraphEnabled Z

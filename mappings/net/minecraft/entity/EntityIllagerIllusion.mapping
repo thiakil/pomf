@@ -1,4 +1,4 @@
-CLASS ada
+CLASS ada net/minecraft/entity/EntityIllagerIllusion
 	CLASS ada$a
 		METHOD a canStart ()Z
 		METHOD c start ()V

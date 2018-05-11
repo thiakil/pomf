@@ -1,0 +1,22 @@
+CLASS bka net/minecraft/client/gui/ingame/GuiToast
+	CLASS bka$a ToastInstance
+		FIELD b toast Lbjz;
+		FIELD c animationTime J
+		FIELD d visibleTime J
+		FIELD e visibility Lbjz$a;
+		METHOD a getToast ()Lbjz;
+		METHOD a render (II)Z
+		METHOD a getVisibility (J)F
+			ARG 0 time
+	FIELD a mc Lbhz;
+	FIELD f visible [Lbka$a;
+	FIELD g queue Ljava/util/Deque;
+	METHOD <init> (Lbhz;)V
+		ARG 0 mc
+	METHOD a clear ()V
+	METHOD a drawToast (Lbir;)V
+		ARG 0 displayScale
+	METHOD a add (Lbjz;)V
+		ARG 0 toast
+	METHOD a getToast (Ljava/lang/Class;Ljava/lang/Object;)Lbjz;
+	METHOD b getMinecraftInstance ()Lbhz;

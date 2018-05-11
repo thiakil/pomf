@@ -1,0 +1,19 @@
+CLASS chw net/minecraft/client/tutorial/TutorialPunchTreeStep
+	FIELD a LOG_BLOCKS Ljava/util/Set;
+	FIELD b TITLE Lhh;
+	FIELD c DESCRIPTION Lhh;
+	FIELD d tutorial Lchx;
+	FIELD e toast Lbkb;
+	FIELD f waitTime I
+	FIELD g resetCount I
+	METHOD <init> (Lchx;)V
+		ARG 0 tutorial
+	METHOD a update ()V
+	METHOD a onItemPickup (Lain;)V
+		ARG 0 stack
+	METHOD a onHitBlock (Lbrz;Let;Lawr;F)V
+		ARG 0 worldClient
+		ARG 1 pos
+		ARG 2 state
+		ARG 3 diggingProgress
+	METHOD b onStop ()V

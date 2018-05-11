@@ -1,0 +1,4 @@
+CLASS chx net/minecraft/client/tutorial/Tutorial
+	METHOD a setStep (Lchz;)V
+	METHOD e getMinecraftInstance ()Lbhz;
+	METHOD f getGameMode ()Lamq;

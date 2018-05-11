@@ -1,0 +1,3 @@
+CLASS chv net/minecraft/client/tutorial/TutorialOpenInventoryStep
+	METHOD a update ()V
+	METHOD b onStop ()V

@@ -1,0 +1,5 @@
+CLASS chs net/minecraft/client/tutorial/TutorialCraftPlanksStep
+	METHOD a update ()V
+	METHOD a onItemPickup (Lain;)V
+		ARG 0 stack
+	METHOD b onStop ()V

@@ -1,4 +1,4 @@
-CLASS brc
+CLASS brc net/minecraft/client/render/entity/model/EntityModelVex
 	METHOD a setRotationAngles (FFFFFFLve;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

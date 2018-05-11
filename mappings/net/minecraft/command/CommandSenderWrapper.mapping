@@ -1,4 +1,4 @@
-CLASS bo
+CLASS bo net/minecraft/command/CommandSenderWrapper
 	METHOD C_ getServer ()Lnet/minecraft/server/MinecraftServer;
 	METHOD a hasPermission (ILjava/lang/String;)Z
 		ARG 0 permissionLevel
