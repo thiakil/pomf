@@ -1,2 +1,0 @@
-CLASS bit net/minecraft/client/NarratorChatListener
-	FIELD a INSTANCE Lbit;

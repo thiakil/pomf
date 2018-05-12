@@ -18,3 +18,4 @@ CLASS ayk net/minecraft/world/gen/WorldProvider
 	METHOD o getLightValues ()[F
 	METHOD p createWorldBorderHandler ()Laxl;
 	METHOD q getWorldType ()Layl;
+	METHOD r serialize ()V
