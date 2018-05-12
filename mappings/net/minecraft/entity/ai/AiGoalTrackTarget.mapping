@@ -27,5 +27,5 @@ CLASS yy net/minecraft/entity/ai/AiGoalTrackTarget
 	METHOD b setMaxTimeWithoutVisibility (I)Lyy;
 		ARG 0 maxTimeWithoutVisibility
 	METHOD c start ()V
-	METHOD d stop ()V
+	METHOD d onRemove ()V
 	METHOD i getFollowRange ()D

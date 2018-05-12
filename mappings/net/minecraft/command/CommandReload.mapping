@@ -1,4 +1,4 @@
-CLASS da
+CLASS da net/minecraft/command/CommandReload
 	METHOD a getMinPermissionLevel ()I
 	METHOD a execute (Lnet/minecraft/server/MinecraftServer;Lbn;[Ljava/lang/String;)V
 		ARG 0 server

@@ -1,6 +1,5 @@
 CLASS zz net/minecraft/entity/passive/EntityOcelot
 	FIELD bB OCELOT_TYPE Lmx;
-	METHOD B attackEntity (Lve;)Z
 	METHOD F getSoundAmbient ()Lqc;
 	METHOD J getLootTableId ()Lnd;
 	METHOD M mobTick ()V

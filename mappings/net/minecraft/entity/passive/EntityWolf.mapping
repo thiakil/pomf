@@ -5,7 +5,6 @@ CLASS aak net/minecraft/entity/passive/EntityWolf
 		METHOD e tick ()V
 	FIELD bB WOLF_HEALTH Lmx;
 	FIELD bD COLLAR_COLOR Lmx;
-	METHOD B attackEntity (Lve;)Z
 	METHOD B_ update ()V
 	METHOD F getSoundAmbient ()Lqc;
 	METHOD J getLootTableId ()Lnd;

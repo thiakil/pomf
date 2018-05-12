@@ -6,5 +6,5 @@ CLASS yd net/minecraft/entity/ai/AiGoalStayInside
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V
-	METHOD d stop ()V
+	METHOD d onRemove ()V
 	METHOD e tick ()V

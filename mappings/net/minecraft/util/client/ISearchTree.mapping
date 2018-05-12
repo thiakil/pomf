@@ -1,0 +1,3 @@
+CLASS cgw net/minecraft/util/client/ISearchTree
+	METHOD a search (Ljava/lang/String;)Ljava/util/List;
+		ARG 0 text

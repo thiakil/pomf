@@ -1,5 +1,4 @@
 CLASS acp net/minecraft/entity/mob/EntityCaveSpider
-	METHOD B attackEntity (Lve;)Z
 	METHOD J getLootTableId ()Lnd;
 	METHOD a registerTagUpgraders (Lrw;)V
 		ARG 0 handler

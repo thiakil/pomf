@@ -21,7 +21,6 @@ CLASS vn net/minecraft/entity/EntityLiving
 	FIELD f HEALTH Lmx;
 	FIELD g POTION_SWIRLS_COLOR Lmx;
 	FIELD h POTION_SWIRLS_AMBIENT Lmx;
-	METHOD B attackEntity (Lve;)Z
 	METHOD B_ update ()V
 	METHOD C pushAway (Lve;)V
 		ARG 0 entity

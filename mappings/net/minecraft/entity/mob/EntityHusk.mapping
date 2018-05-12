@@ -1,5 +1,4 @@
 CLASS acz net/minecraft/entity/mob/EntityHusk
-	METHOD B attackEntity (Lve;)Z
 	METHOD F getSoundAmbient ()Lqc;
 	METHOD J getLootTableId ()Lnd;
 	METHOD P canSpawn ()Z

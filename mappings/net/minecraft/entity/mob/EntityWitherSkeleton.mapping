@@ -1,5 +1,4 @@
 CLASS adq net/minecraft/entity/mob/EntityWitherSkeleton
-	METHOD B attackEntity (Lve;)Z
 	METHOD F getSoundAmbient ()Lqc;
 	METHOD J getLootTableId ()Lnd;
 	METHOD a registerTagUpgraders (Lrw;)V

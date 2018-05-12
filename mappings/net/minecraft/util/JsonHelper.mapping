@@ -18,6 +18,7 @@ CLASS ra net/minecraft/util/JsonHelper
 	METHOD a getFloat (Lcom/google/gson/JsonObject;Ljava/lang/String;F)F
 		ARG 0 object
 		ARG 1 element
+		ARG 2 defaultValue
 	METHOD a getInt (Lcom/google/gson/JsonObject;Ljava/lang/String;I)I
 		ARG 0 object
 		ARG 1 element

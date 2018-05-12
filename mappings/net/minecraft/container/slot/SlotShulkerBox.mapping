@@ -1,0 +1,3 @@
+CLASS ago net/minecraft/container/slot/SlotShulkerBox
+	METHOD a canInsert (Lain;)Z
+		ARG 0 stack

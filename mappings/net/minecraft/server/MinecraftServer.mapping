@@ -132,6 +132,7 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD aI getMainThread ()Ljava/lang/Thread;
 	METHOD aK getServerAdvancementManager ()Lnq;
 	METHOD aL getFunctionManager ()Lnr;
+	METHOD aM reload ()V
 	METHOD a_ updateSpawnAreaProgress (Ljava/lang/String;I)V
 		ARG 0 message
 		ARG 1 percentage

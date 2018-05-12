@@ -176,7 +176,7 @@ CLASS aeb net/minecraft/entity/player/EntityPlayer
 		ARG 0 height
 	METHOD e canSeePlayer (Laeb;)Z
 		ARG 0 player
-	METHOD f playerAttack (Lve;)V
+	METHOD f attack (Lve;)V
 		ARG 0 entity
 	METHOD g shouldEchoCommandFeedback ()Z
 	METHOD g addScore (I)V
