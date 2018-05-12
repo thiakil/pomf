@@ -1,2 +1,3 @@
 CLASS bfn net/minecraft/block/Blocks
+	FIELD B BUBBLE_COLUMN Lbfm;
 	FIELD a AIR Lbfm;

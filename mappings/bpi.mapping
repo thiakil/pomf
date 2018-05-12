@@ -1,0 +1,2 @@
+CLASS bpi
+	METHOD a_ getBlockState (Lef;)Lbnv;

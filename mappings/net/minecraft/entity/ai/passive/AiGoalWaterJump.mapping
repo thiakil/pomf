@@ -1,0 +1,9 @@
+CLASS ajj net/minecraft/entity/ai/passive/AiGoalWaterJump
+	FIELD a ower Laik;
+	METHOD a canStart ()Z
+	METHOD a canBreath (Lbbb;Lef;)Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD e tick ()V
+	METHOD f canStop ()Z
+	METHOD g selectJumpPosition ()V

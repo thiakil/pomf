@@ -106,4 +106,5 @@ CLASS bfm net/minecraft/block/Block
 	METHOD h getItem ()Lawc;
 	METHOD l getLightValue (Lbnv;)I
 	METHOD m getMaterial (Lbnv;)Lcbb;
+	METHOD n getDefaultState ()Lbnv;
 	METHOD r doesTickRandomly (Lbnv;)Z

@@ -3,5 +3,7 @@ CLASS bpl
 		FIELD a IMMEDIATE Lbpl$a;
 		FIELD b QUEUED Lbpl$a;
 		FIELD c NEVER Lbpl$a;
+	METHOD a_ getBlockState (Lef;)Lbnv;
+	METHOD b getFluidState (Lef;)Lcax;
 	METHOD f getBlockEntity (Lef;)Lbmb;
 		ARG 0 pos

@@ -1,4 +1,4 @@
-CLASS bnt net/minecraft/block/state/BlockStateBase
+CLASS bnt net/minecraft/state/StateHolder
 	FIELD a value Ljava/lang/Object;
 	FIELD b MAP_ENTRY_TO_STRING Ljava/util/function/Function;
 	METHOD <init> (Ljava/lang/Object;Lcom/google/common/collect/ImmutableMap;)V

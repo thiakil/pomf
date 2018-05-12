@@ -1,0 +1,4 @@
+CLASS cba net/minecraft/fluid/FluidLava
+	CLASS cba$a Flowing
+	CLASS cba$b Still
+	METHOD a getRenderLayer ()Lbam;

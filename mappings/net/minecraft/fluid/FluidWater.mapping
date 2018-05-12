@@ -1,0 +1,4 @@
+CLASS cbe net/minecraft/fluid/FluidWater
+	CLASS cbe$a Flowing
+	CLASS cbe$b Still
+	METHOD a getRenderLayer ()Lbam;

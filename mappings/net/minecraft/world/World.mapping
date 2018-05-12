@@ -169,6 +169,7 @@ CLASS bax net/minecraft/world/World
 	METHOD a setSpawnEnabled (ZZ)V
 		ARG 0 monsters
 		ARG 1 animals
+	METHOD a_ getBlockState (Lef;)Lbnv;
 	METHOD ae getVillageManager ()Lamk;
 	METHOD b getWorld ()Lbay;
 	METHOD b setSeaLevel (I)V
@@ -190,6 +191,7 @@ CLASS bax net/minecraft/world/World
 		ARG 0 blockEntity
 	METHOD b doesAreaContainFireSource (Lcfy;)Z
 		ARG 0 area
+	METHOD b getFluidState (Lef;)Lcax;
 	METHOD b updateNeighbors (Lef;Lbfm;)V
 		ARG 0 pos
 	METHOD b markDirty (Lef;Lbmb;)V

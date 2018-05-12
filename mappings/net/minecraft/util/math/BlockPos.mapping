@@ -80,6 +80,13 @@ CLASS ef net/minecraft/util/math/BlockPos
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
+	METHOD a iterateBoxPositions (IIIIII)Ljava/lang/Iterable;
+		ARG 0 minX
+		ARG 1 minY
+		ARG 2 minZ
+		ARG 3 maxX
+		ARG 4 maxY
+		ARG 5 maxZ
 	METHOD a fromLong (J)Lef;
 		ARG 0 l
 	METHOD a iterateBoxPositions (Lef;Lef;)Ljava/lang/Iterable;
@@ -95,6 +102,13 @@ CLASS ef net/minecraft/util/math/BlockPos
 	METHOD b down ()Lef;
 	METHOD b up (I)Lef;
 		ARG 0 distance
+	METHOD b iterateBoxPositionsMutable (IIIIII)Ljava/lang/Iterable;
+		ARG 0 minX
+		ARG 1 minY
+		ARG 2 minz
+		ARG 3 maxX
+		ARG 4 maxY
+		ARG 5 maxZ
 	METHOD b iterateBoxPositionsMutable (Lef;Lef;)Ljava/lang/Iterable;
 		ARG 0 pos1
 		ARG 1 pos2
