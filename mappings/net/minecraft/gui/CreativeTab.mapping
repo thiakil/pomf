@@ -26,7 +26,10 @@ CLASS ava net/minecraft/gui/CreativeTab
 	CLASS ava$12
 		METHOD f getIconItem ()Lawg;
 	FIELD a TABS [Lava;
+	FIELD b BUILDING_BLOCKS Lava;
+	FIELD c DECORATIONS Lava;
 	FIELD d REDSTONE Lava;
+	FIELD e TRANSPORTATION Lava;
 	FIELD f MISC Lava;
 	FIELD g SEARCH Lava;
 	FIELD h FOOD Lava;
@@ -34,9 +37,11 @@ CLASS ava net/minecraft/gui/CreativeTab
 	FIELD j COMBAT Lava;
 	FIELD k BREWING Lava;
 	FIELD l MATERIALS Lava;
+	FIELD m HOTBAR Lava;
 	FIELD n INVENTORY Lava;
 	FIELD o id I
-	FIELD p unlocalizedName Ljava/lang/String;
+	FIELD p untranslatedName Ljava/lang/String;
+	FIELD q identifier Ljava/lang/String;
 	FIELD r texture Ljava/lang/String;
 	FIELD s useScrollBar Z
 	FIELD t tooltip Z
@@ -44,7 +49,7 @@ CLASS ava net/minecraft/gui/CreativeTab
 	FIELD v stack Lawg;
 	METHOD <init> (ILjava/lang/String;)V
 		ARG 0 id
-		ARG 1 unlocalizedName
+		ARG 1 untranslatedName
 	METHOD a getId ()I
 	METHOD a containsEnchantmentType (Lazg;)Z
 		ARG 0 value
@@ -55,6 +60,9 @@ CLASS ava net/minecraft/gui/CreativeTab
 	METHOD a setEnchantmentTypes ([Lazg;)Lava;
 		ARG 0 value
 	METHOD b getUntranslatedName ()Ljava/lang/String;
+	METHOD b setIdentifier (Ljava/lang/String;)Lava;
+		ARG 0 value
+	METHOD c getIdentifier ()Ljava/lang/String;
 	METHOD d getTranslationKey ()Ljava/lang/String;
 	METHOD e getIconItemStack ()Lawg;
 	METHOD f getIconItem ()Lawg;

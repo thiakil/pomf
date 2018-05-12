@@ -1,0 +1,9 @@
+CLASS dck net/minecraft/client/render/entity/EntityRendererZombie
+	CLASS dck$1
+		METHOD ap_ init ()V
+	METHOD a getTexture (Laht;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Laid;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Laqx;)Loj;
+		ARG 0 model

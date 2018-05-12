@@ -1,0 +1,5 @@
+CLASS dbu net/minecraft/client/render/entity/EntityRendererTrident
+	METHOD a getTexture (Laht;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Lasf;)Loj;
+		ARG 0 model

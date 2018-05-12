@@ -1,0 +1,31 @@
+CLASS amy net/minecraft/entity/passive/EntityOcelot
+	METHOD B attackEntity (Laht;)Z
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD K mobTick ()V
+	METHOD N_ getNameAsComponent ()Lic;
+	METHOD a (Lagl;Laif;Lawg;)Laif;
+		ARG 0 difficulty
+	METHOD a damage (Lahc;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a createChild (Lahq;)Lahq;
+		ARG 0 other
+	METHOD a interactMob (Larh;Lagm;)Z
+		ARG 0 player
+		ARG 1 playerHand
+	METHOD a deserializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD b createChild (Lahq;)Lamy;
+		ARG 0 other
+	METHOD b serializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD c handleFallDamage (FF)V
+		ARG 0 fallDistance
+	METHOD cE getSoundVolume ()F
+	METHOD ca initAttributes ()V
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahc;)Lvo;
+	METHOD dD onTamedChanged ()V
+	METHOD n ()V
+	METHOD w_ initDataTracker ()V

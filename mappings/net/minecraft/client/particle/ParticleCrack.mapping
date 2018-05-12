@@ -1,4 +1,55 @@
 CLASS cst net/minecraft/client/particle/ParticleCrack
+	CLASS cst$a
+		METHOD a createParticle (Lff;Lbax;DDDDDD)Lctp;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
+		METHOD a createParticle (Lfg;Lbax;DDDDDD)Lctp;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
+	CLASS cst$b
+		METHOD a createParticle (Lfg;Lbax;DDDDDD)Lctp;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
+		METHOD a createParticle (Lfj;Lbax;DDDDDD)Lctp;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
+	CLASS cst$c
+		METHOD a createParticle (Lfg;Lbax;DDDDDD)Lctp;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
+		METHOD a createParticle (Lfj;Lbax;DDDDDD)Lctp;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
 	METHOD <init> (Lbax;DDDDDDLawg;)V
 		ARG 0 world
 	METHOD a buildGeometry (Lcut;Laht;FFFFFF)V

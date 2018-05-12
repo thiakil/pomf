@@ -1,0 +1,2 @@
+CLASS bfn net/minecraft/block/Blocks
+	FIELD a AIR Lbfm;

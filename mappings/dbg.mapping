@@ -1,5 +1,0 @@
-CLASS dbg
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Lane;)Loj;
-		ARG 0 model

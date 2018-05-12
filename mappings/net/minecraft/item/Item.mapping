@@ -23,6 +23,7 @@ CLASS awc net/minecraft/item/Item
 	METHOD a getTranslationKey ()Ljava/lang/String;
 	METHOD a getAttributeModifiers (Lahy;)Lcom/google/common/collect/Multimap;
 		ARG 0 effectiveSlot
+	METHOD a isInTab (Lava;)Z
 	METHOD a addStacksForDisplay (Lava;Leu;)V
 		ARG 1 items
 	METHOD a isTool (Lawg;)Z

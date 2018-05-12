@@ -1,6 +1,0 @@
-CLASS amt
-	METHOD E getSoundAmbient ()Lvo;
-	METHOD H getLootTableId ()Loj;
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahc;)Lvo;
-	METHOD n ()V

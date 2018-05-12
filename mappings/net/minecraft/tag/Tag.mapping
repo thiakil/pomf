@@ -1,0 +1,2 @@
+CLASS wf net/minecraft/tag/Tag
+	FIELD a key Loj;

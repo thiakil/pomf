@@ -4,3 +4,4 @@ CLASS aue ArmorMaterial
 	FIELD c IRON Laue;
 	FIELD d GOLD Laue;
 	FIELD e DIAMOND Laue;
+	FIELD f TURTLE Laue;

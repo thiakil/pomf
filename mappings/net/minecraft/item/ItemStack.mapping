@@ -69,6 +69,7 @@ CLASS awg net/minecraft/item/ItemStack
 	METHOD a setChildTag (Ljava/lang/String;Lhj;)V
 		ARG 0 tagName
 		ARG 1 tag
+	METHOD b isEmpty ()Z
 	METHOD b isEqualIgnoreDurability (Lawg;)Z
 		ARG 0 other
 	METHOD b areEqual (Lawg;Lawg;)Z

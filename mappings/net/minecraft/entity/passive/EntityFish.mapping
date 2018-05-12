@@ -1,0 +1,22 @@
+CLASS amp net/minecraft/entity/passive/EntityFish
+	CLASS amp$a
+		METHOD a tick ()V
+	CLASS amp$b
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	METHOD R_ update ()V
+	METHOD a interactMob (Larh;Lagm;)Z
+		ARG 0 player
+		ARG 1 playerHand
+	METHOD a deserializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD ae getSoundSwim ()Lvo;
+	METHOD b createNavigation (Lbax;)Laly;
+		ARG 0 world
+	METHOD b serializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD ca initAttributes ()V
+	METHOD dk getLimitPerChunk ()I
+	METHOD k updateMovement ()V
+	METHOD n ()V
+	METHOD w_ initDataTracker ()V

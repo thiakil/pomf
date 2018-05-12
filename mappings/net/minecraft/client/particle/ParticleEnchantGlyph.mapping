@@ -1,4 +1,38 @@
 CLASS ctb net/minecraft/client/particle/ParticleEnchantGlyph
+	CLASS ctb$a
+		METHOD a createParticle (Lfg;Lbax;DDDDDD)Lctp;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
+		METHOD a createParticle (Lfj;Lbax;DDDDDD)Lctp;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
+	CLASS ctb$b Factory
+		METHOD a createParticle (Lfg;Lbax;DDDDDD)Lctp;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
+		METHOD a createParticle (Lfj;Lbax;DDDDDD)Lctp;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
 	FIELD J startX D
 	FIELD K startY D
 	FIELD L startZ D

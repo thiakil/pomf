@@ -1,0 +1,5 @@
+CLASS dba net/minecraft/client/render/entity/EntityRendererPhantom
+	METHOD a getTexture (Laht;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Laqi;)Loj;
+		ARG 0 model
