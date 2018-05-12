@@ -1,6 +1,9 @@
 CLASS adc net/minecraft/entity/mob/EntityHostile
+	METHOD B attackEntity (Lve;)Z
 	METHOD B_ update ()V
 	METHOD P canSpawn ()Z
+	METHOD a getTargetWeight (Let;)F
+		ARG 0 pos
 	METHOD a damage (Lup;F)Z
 		ARG 0 source
 		ARG 1 damage

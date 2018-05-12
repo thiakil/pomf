@@ -5,6 +5,8 @@ CLASS zt net/minecraft/entity/passive/EntityAnimal
 	METHOD a interactMob (Laeb;Ltz;)Z
 		ARG 0 player
 		ARG 1 playerHand
+	METHOD a getTargetWeight (Let;)F
+		ARG 0 pos
 	METHOD a deserializeCustomData (Lfy;)V
 		ARG 0 tag
 	METHOD a damage (Lup;F)Z

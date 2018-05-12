@@ -10,6 +10,8 @@ CLASS acy net/minecraft/entity/mob/EntityGuardian
 	METHOD F getSoundAmbient ()Lqc;
 	METHOD J getLootTableId ()Lnd;
 	METHOD P canSpawn ()Z
+	METHOD a getTargetWeight (Let;)F
+		ARG 0 pos
 	METHOD a onTrackedDataSet (Lmx;)V
 		ARG 0 data
 	METHOD a damage (Lup;F)Z

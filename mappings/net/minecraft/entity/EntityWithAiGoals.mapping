@@ -1,13 +1,17 @@
 CLASS vv net/minecraft/entity/EntityWithAiGoals
 	FIELD a aiHome Let;
 	FIELD b aiRadius F
-	FIELD bv ID Ljava/util/UUID;
+	FIELD bv SPEED_BONUS_ID Ljava/util/UUID;
+	FIELD bw FLEEING_SPEED_BONUS Lwc;
 	METHOD <init> (Lams;)V
 		ARG 0 world
 	METHOD P canSpawn ()Z
+	METHOD a getTargetWeight (Let;)F
+		ARG 0 pos
 	METHOD a setAiHome (Let;I)V
 		ARG 0 home
 		ARG 1 radius
+	METHOD de isNavigationActive ()Z
 	METHOD df isInAiRange ()Z
 	METHOD dg getAiHome ()Let;
 	METHOD dh getAiRadius ()F

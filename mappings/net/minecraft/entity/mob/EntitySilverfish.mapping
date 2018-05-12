@@ -10,6 +10,8 @@ CLASS adh net/minecraft/entity/mob/EntitySilverfish
 	METHOD F getSoundAmbient ()Lqc;
 	METHOD J getLootTableId ()Lnd;
 	METHOD P canSpawn ()Z
+	METHOD a getTargetWeight (Let;)F
+		ARG 0 pos
 	METHOD a playStepSound (Let;Laou;)V
 		ARG 0 pos
 		ARG 1 block

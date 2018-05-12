@@ -15,6 +15,7 @@ CLASS aad net/minecraft/entity/passive/EntityRabbit
 		METHOD b shouldContinue ()Z
 		METHOD e tick ()V
 	FIELD bx RABBIT_TYPE Lmx;
+	METHOD B attackEntity (Lve;)Z
 	METHOD F getSoundAmbient ()Lqc;
 	METHOD J getLootTableId ()Lnd;
 	METHOD M mobTick ()V

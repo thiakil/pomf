@@ -10,9 +10,10 @@ CLASS aac net/minecraft/entity/passive/EntityPolarBear
 		METHOD a attackTarget (Lvn;D)V
 			ARG 0 target
 			ARG 1 squaredDistance
-		METHOD d onRemove ()V
+		METHOD d stop ()V
 	CLASS aac$e
 		METHOD a canStart ()Z
+	METHOD B attackEntity (Lve;)Z
 	METHOD B_ update ()V
 	METHOD F getSoundAmbient ()Lqc;
 	METHOD J getLootTableId ()Lnd;

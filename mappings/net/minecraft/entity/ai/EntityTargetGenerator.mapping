@@ -1,0 +1,32 @@
+CLASS zj net/minecraft/entity/ai/EntityTargetGenerator
+	METHOD a getSurface (Let;Lvv;)Let;
+		ARG 0 pos
+		ARG 1 entity
+	METHOD a (Lvv;II)Lbhc;
+		ARG 0 entity
+		ARG 1 horizontalRange
+		ARG 2 verticalRange
+	METHOD a (Lvv;IILbhc;)Lbhc;
+		ARG 0 entity
+		ARG 1 horizontalRange
+		ARG 2 verticalRange
+	METHOD a (Lvv;IILbhc;Z)Lbhc;
+		ARG 0 entity
+		ARG 1 horizontalRange
+		ARG 2 verticalRange
+		ARG 4 ignoreSurface
+	METHOD b isWater (Let;Lvv;)Z
+		ARG 0 pos
+		ARG 1 entity
+	METHOD b (Lvv;II)Lbhc;
+		ARG 0 entity
+		ARG 1 horizontalRange
+		ARG 2 verticalRange
+	METHOD b (Lvv;IILbhc;)Lbhc;
+		ARG 0 entity
+		ARG 1 horizontalRange
+		ARG 2 verticalRange
+	METHOD c (Lvv;IILbhc;)Lbhc;
+		ARG 0 entity
+		ARG 1 horizontalRange
+		ARG 2 verticalRange

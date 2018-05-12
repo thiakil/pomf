@@ -1,6 +1,7 @@
 CLASS zc net/minecraft/entity/ai/pathing/EntityNavigation
 	FIELD a entity Lvo;
 	FIELD b world Lams;
+	FIELD c currentPath Lbej;
 	FIELD e tickCount I
 	FIELD g idle Z
 	FIELD i followRange Lwb;
@@ -9,12 +10,32 @@ CLASS zc net/minecraft/entity/ai/pathing/EntityNavigation
 		ARG 0 entity
 		ARG 1 world
 	METHOD a createPathNodeNavigator ()Lbek;
+	METHOD a getPathTo (DDD)Lbej;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD a moveTo (DDDD)Z
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 speed
+	METHOD a setPath (Lbej;D)Z
+		ARG 0 path
+		ARG 1 speed
 	METHOD a isValidPosition (Let;)Z
 		ARG 0 pos
 	METHOD a getPathTo (Lve;)Lbej;
 		ARG 0 target
+	METHOD a moveTo (Lve;D)Z
+		ARG 0 entity
+		ARG 1 speed
 	METHOD b isAtValidPosition ()Z
+	METHOD b getPathTo (Let;)Lbej;
+		ARG 0 pos
 	METHOD d tick ()V
 	METHOD i getFollowRange ()F
 	METHOD j isIdle ()Z
+	METHOD l getCurrentPath ()Lbej;
+	METHOD o isInactive ()Z
+	METHOD p clearPath ()V
 	METHOD q isInLiquid ()Z
