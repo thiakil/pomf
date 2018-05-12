@@ -4,5 +4,5 @@ CLASS xb net/minecraft/entity/ai/AiGoalFollowParent
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V
-	METHOD d onRemove ()V
+	METHOD d stop ()V
 	METHOD e tick ()V

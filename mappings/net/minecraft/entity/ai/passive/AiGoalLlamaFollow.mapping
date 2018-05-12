@@ -4,5 +4,5 @@ CLASS xi net/minecraft/entity/ai/passive/AiGoalLlamaFollow
 		ARG 0 entity
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
-	METHOD d onRemove ()V
+	METHOD d stop ()V
 	METHOD e tick ()V

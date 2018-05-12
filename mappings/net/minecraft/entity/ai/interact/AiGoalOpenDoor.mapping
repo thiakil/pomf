@@ -6,5 +6,5 @@ CLASS xv net/minecraft/entity/ai/interact/AiGoalOpenDoor
 		ARG 1 closeDoor
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V
-	METHOD d onRemove ()V
+	METHOD d stop ()V
 	METHOD e tick ()V

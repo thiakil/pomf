@@ -14,5 +14,5 @@ CLASS xm net/minecraft/entity/ai/mob/AiGoalMeleeAttack
 		ARG 1 squaredDistance
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V
-	METHOD d onRemove ()V
+	METHOD d stop ()V
 	METHOD e tick ()V
