@@ -1,0 +1,20 @@
+CLASS bxy net/minecraft/client/render/FrustumVisibilityTester
+	FIELD a frustum Lbxz;
+	FIELD b viewX D
+	FIELD c viewY D
+	FIELD d viewZ D
+	METHOD <init> (Lbxz;)V
+		ARG 0 frustum
+	METHOD a updateViewPosition (DDD)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD a isVisible (Lbgz;)Z
+		ARG 0 box
+	METHOD b isVisible (DDDDDD)Z
+		ARG 0 minX
+		ARG 1 minY
+		ARG 2 minZ
+		ARG 3 maxX
+		ARG 4 maxY
+		ARG 5 maxZ

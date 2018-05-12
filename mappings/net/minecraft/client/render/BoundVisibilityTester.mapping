@@ -1,0 +1,7 @@
+CLASS bxw net/minecraft/client/render/BoundVisibilityTester
+	METHOD a updateViewPosition (DDD)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD a isVisible (Lbgz;)Z
+		ARG 0 box
