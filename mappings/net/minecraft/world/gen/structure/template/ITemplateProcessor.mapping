@@ -1,0 +1,5 @@
+CLASS bcg net/minecraft/world/gen/structure/template/ITemplateProcessor
+	METHOD a process (Lams;Let;Lbch$b;)Lbch$b;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 blockInfo

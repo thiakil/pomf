@@ -1,0 +1,10 @@
+CLASS bcd net/minecraft/world/gen/structure/template/BlockRotationProcessor
+	FIELD a integrity F
+	FIELD b random Ljava/util/Random;
+	METHOD <init> (Let;Lbcf;)V
+		ARG 0 pos
+		ARG 1 settings
+	METHOD a process (Lams;Let;Lbch$b;)Lbch$b;
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 blockInfo

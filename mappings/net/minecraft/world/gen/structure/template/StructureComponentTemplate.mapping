@@ -1,0 +1,24 @@
+CLASS bbx net/minecraft/world/gen/structure/template/StructureComponentTemplate
+	FIELD a template Lbch;
+	FIELD b settings Lbcf;
+	FIELD c pos Let;
+	FIELD d DEFAULT_SETTINGS Lbcf;
+	METHOD <init> (I)V
+		ARG 0 type
+	METHOD a translate (III)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 region
+	METHOD a setup (Lbch;Let;Lbcf;)V
+		ARG 0 template
+		ARG 1 pos
+		ARG 2 settings
+	METHOD a serializeStructureData (Lfy;)V
+		ARG 0 tag
+	METHOD a deserializeStructureData (Lfy;Lbce;)V
+		ARG 0 tag
+	METHOD b setBoundingBoxFromTemplate ()V

@@ -1,0 +1,3 @@
+CLASS bcf net/minecraft/world/gen/structure/template/PlacementSettings
+	METHOD a getRandom (Let;)Ljava/util/Random;
+	METHOD f getIntegrity ()F

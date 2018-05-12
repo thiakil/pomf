@@ -45,9 +45,10 @@ CLASS bbn net/minecraft/world/gen/structure/StructurePiecesMonument
 			ARG 1 rand
 			ARG 2 region
 	CLASS bbn$r
-		METHOD a serializeCustomData (Lfy;)V
+		METHOD a serializeStructureData (Lfy;)V
 			ARG 0 tag
-		METHOD a deserializeCustomData (Lfy;Lbce;)V
+		METHOD a deserializeStructureData (Lfy;Lbce;)V
+			ARG 0 tag
 	CLASS bbn$s
 		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
 			ARG 0 world

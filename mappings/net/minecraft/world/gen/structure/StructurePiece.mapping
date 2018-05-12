@@ -16,9 +16,10 @@ CLASS bbv net/minecraft/world/gen/structure/StructurePiece
 		ARG 2 region
 	METHOD a setOrientation (Lfa;)V
 		ARG 0 orientation
-	METHOD a serializeCustomData (Lfy;)V
+	METHOD a serializeStructureData (Lfy;)V
 		ARG 0 tag
-	METHOD a deserializeCustomData (Lfy;Lbce;)V
+	METHOD a deserializeStructureData (Lfy;Lbce;)V
+		ARG 0 tag
 	METHOD c serialize ()Lfy;
 	METHOD d getBoundingBox ()Lbbe;
 	METHOD f getOrientation ()Lfa;
