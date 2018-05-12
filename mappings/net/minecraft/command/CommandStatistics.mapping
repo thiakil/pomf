@@ -11,7 +11,7 @@ CLASS bp net/minecraft/command/CommandStatistics
 			ARG 0 feedback
 		METHOD c getBlockPos ()Let;
 		METHOD d getPos ()Lbhc;
-		METHOD e getWorld ()Lams;
+		METHOD e getSenderWorld ()Lams;
 		METHOD f getEntity ()Lve;
 		METHOD g shouldEchoCommandFeedback ()Z
 		METHOD h_ getName ()Ljava/lang/String;
@@ -30,5 +30,9 @@ CLASS bp net/minecraft/command/CommandStatistics
 		METHOD c getAllNames ()[Ljava/lang/String;
 	METHOD a deserialize (Lfy;)V
 		ARG 0 tag
+	METHOD a (Lnet/minecraft/server/MinecraftServer;Lbn;Lbp$a;I)V
+		ARG 0 server
+		ARG 1 sender
+		ARG 2 statType
 	METHOD b serialize (Lfy;)V
 		ARG 0 tag

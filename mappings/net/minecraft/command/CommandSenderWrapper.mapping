@@ -1,17 +1,21 @@
 CLASS bo net/minecraft/command/CommandSenderWrapper
 	METHOD C_ getServer ()Lnet/minecraft/server/MinecraftServer;
+	METHOD a withPermissionLevel (I)Lbo;
 	METHOD a hasPermission (ILjava/lang/String;)Z
 		ARG 0 permissionLevel
 		ARG 1 commandName
+	METHOD a create (Lbn;)Lbo;
 	METHOD a updateCommandStat (Lbp$a;I)V
 		ARG 0 statType
 		ARG 1 value
 	METHOD a appendCommandFeedback (Lhh;)V
 		ARG 0 feedback
+	METHOD a sendCommandFeedback (Z)Lbo;
 	METHOD c getBlockPos ()Let;
 	METHOD d getPos ()Lbhc;
-	METHOD e getWorld ()Lams;
+	METHOD e getSenderWorld ()Lams;
 	METHOD f getEntity ()Lve;
 	METHOD g shouldEchoCommandFeedback ()Z
 	METHOD h_ getName ()Ljava/lang/String;
+	METHOD i getPositionVector ()Lbo;
 	METHOD i_ getNameComponent ()Lhh;

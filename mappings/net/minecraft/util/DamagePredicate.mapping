@@ -1,13 +1,21 @@
-CLASS ac net/minecraft/util/DamagePredicate
-	FIELD a ANY Lac;
-	FIELD b isProjectile Ljava/lang/Boolean;
-	FIELD c isExplosion Ljava/lang/Boolean;
-	FIELD d bypassesArmor Ljava/lang/Boolean;
-	FIELD e bypassesInvulnerability Ljava/lang/Boolean;
-	FIELD f bypassesMagic Ljava/lang/Boolean;
-	FIELD g isFire Ljava/lang/Boolean;
-	FIELD h isMagic Ljava/lang/Boolean;
-	FIELD j sourceEntity Laj;
-	METHOD a getBoolean (Lcom/google/gson/JsonObject;Ljava/lang/String;)Ljava/lang/Boolean;
-		ARG 0 obj
-		ARG 1 name
+CLASS ab net/minecraft/util/DamagePredicate
+	FIELD a ANY Lab;
+	FIELD b dealt Las;
+	FIELD c taken Las;
+	FIELD d source Laj;
+	FIELD e blocked Ljava/lang/Boolean;
+	FIELD f type Lac;
+	METHOD <init> (Las;Las;Laj;Ljava/lang/Boolean;Lac;)V
+		ARG 0 dealt
+		ARG 1 taken
+		ARG 2 source
+		ARG 3 blocked
+		ARG 4 type
+	METHOD a (Lcom/google/gson/JsonElement;)Lab;
+		ARG 0 jsonElement
+	METHOD a (Loo;Lup;FFZ)Z
+		ARG 0 serverPlayer
+		ARG 1 source
+		ARG 2 dealt
+		ARG 3 taken
+		ARG 4 blocked

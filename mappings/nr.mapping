@@ -4,6 +4,9 @@ CLASS nr
 		METHOD a hasPermission (ILjava/lang/String;)Z
 			ARG 0 permissionLevel
 			ARG 1 commandName
-		METHOD e getWorld ()Lams;
+		METHOD e getSenderWorld ()Lams;
 		METHOD h_ getName ()Ljava/lang/String;
+	METHOD a execute (Lbm;Lbn;)I
+	METHOD a getFunction (Lnd;)Lbm;
+	METHOD d getFunctions ()Ljava/util/Map;
 	METHOD e update ()V

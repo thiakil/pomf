@@ -131,6 +131,7 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD aH getServerStartTime ()J
 	METHOD aI getMainThread ()Ljava/lang/Thread;
 	METHOD aK getServerAdvancementManager ()Lnq;
+	METHOD aL getFunctionManager ()Lnr;
 	METHOD a_ updateSpawnAreaProgress (Ljava/lang/String;I)V
 		ARG 0 message
 		ARG 1 percentage
@@ -182,7 +183,7 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 		ARG 0 name
 	METHOD d setOnlineMode (Z)V
 		ARG 0 value
-	METHOD e getWorld ()Lams;
+	METHOD e getSenderWorld ()Lams;
 	METHOD e info (Ljava/lang/String;)V
 		ARG 0 msg
 	METHOD e setPreventProxyConnections (Z)V

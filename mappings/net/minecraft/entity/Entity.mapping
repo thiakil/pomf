@@ -289,7 +289,7 @@ CLASS ve net/minecraft/entity/Entity
 		ARG 0 pos
 	METHOD d setUnaffectedByGravity (Z)V
 		ARG 0 value
-	METHOD e getWorld ()Lams;
+	METHOD e getSenderWorld ()Lams;
 	METHOD e distanceTo (DDD)D
 		ARG 0 x
 		ARG 1 y
