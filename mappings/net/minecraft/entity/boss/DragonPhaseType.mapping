@@ -1,0 +1,15 @@
+CLASS abr net/minecraft/entity/boss/DragonPhaseType
+	FIELD a HOLDING_PATTERN Labr;
+	FIELD b STRAFE_PLAYER Labr;
+	FIELD c LANDING_APPROACH Labr;
+	FIELD d LANDING Labr;
+	FIELD e TAKEOFF Labr;
+	FIELD f SITTING_FLAMING Labr;
+	FIELD g SITTING_SCANNING Labr;
+	FIELD h SITTING_ATTACKING Labr;
+	FIELD i CHARGING_PLAYER Labr;
+	FIELD j DYING Labr;
+	FIELD k HOVER Labr;
+	FIELD o key Ljava/lang/String;
+	METHOD <init> (ILjava/lang/Class;Ljava/lang/String;)V
+		ARG 2 key

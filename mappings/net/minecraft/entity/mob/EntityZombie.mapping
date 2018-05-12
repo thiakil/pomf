@@ -4,6 +4,7 @@ CLASS adr net/minecraft/entity/mob/EntityZombie
 	FIELD bx BABY Lmx;
 	FIELD bz ARMS_RAISED Lmx;
 	FIELD c BABY_SPEED_BONUS Lwc;
+	METHOD B attackEntity (Lve;)Z
 	METHOD F getSoundAmbient ()Lqc;
 	METHOD J getLootTableId ()Lnd;
 	METHOD a setSize (FF)V

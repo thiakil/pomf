@@ -14,6 +14,7 @@ CLASS bcy net/minecraft/util/MapColor
 	FIELD a COLORS [Lbcy;
 	FIELD ac color I
 	FIELD ad id I
+	FIELD b DYE_COLOR_MAP [Lbcy;
 	FIELD c AIR Lbcy;
 	FIELD d GRASS Lbcy;
 	FIELD e SAND Lbcy;
@@ -43,3 +44,4 @@ CLASS bcy net/minecraft/util/MapColor
 		ARG 1 color
 	METHOD a getRenderColor (I)I
 		ARG 0 shade
+	METHOD a fromDyeColor (Lahq;)Lbcy;

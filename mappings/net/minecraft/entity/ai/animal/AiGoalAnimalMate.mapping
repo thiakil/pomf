@@ -9,6 +9,6 @@ CLASS wt net/minecraft/entity/ai/animal/AiGoalAnimalMate
 		ARG 1 chance
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
-	METHOD d onRemove ()V
+	METHOD d stop ()V
 	METHOD e tick ()V
 	METHOD f findMate ()Lzt;

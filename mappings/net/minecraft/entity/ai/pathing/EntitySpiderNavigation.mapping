@@ -1,4 +1,6 @@
 CLASS ze net/minecraft/entity/ai/pathing/EntitySpiderNavigation
 	METHOD a getPathTo (Lve;)Lbej;
 		ARG 0 target
+	METHOD a moveTo (Lve;D)Z
+	METHOD b getPathTo (Let;)Lbej;
 	METHOD d tick ()V

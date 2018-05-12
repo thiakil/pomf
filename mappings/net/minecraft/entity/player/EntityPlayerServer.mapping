@@ -121,7 +121,7 @@ CLASS oo net/minecraft/entity/player/EntityPlayerServer
 	METHOD dw isPvpEnabled ()Z
 	METHOD e setCameraEntity (Lve;)V
 		ARG 0 entity
-	METHOD f attack (Lve;)V
+	METHOD f playerAttack (Lve;)V
 		ARG 0 entity
 	METHOD k_ updateNetwork ()V
 	METHOD l createCooldownManager ()Laim;

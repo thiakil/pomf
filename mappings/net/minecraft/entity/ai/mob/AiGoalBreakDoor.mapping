@@ -6,5 +6,5 @@ CLASS ws net/minecraft/entity/ai/mob/AiGoalBreakDoor
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V
-	METHOD d onRemove ()V
+	METHOD d stop ()V
 	METHOD e tick ()V

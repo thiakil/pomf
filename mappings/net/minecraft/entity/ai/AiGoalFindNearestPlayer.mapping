@@ -11,4 +11,4 @@ CLASS yt net/minecraft/entity/ai/AiGoalFindNearestPlayer
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V
-	METHOD d onRemove ()V
+	METHOD d stop ()V

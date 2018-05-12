@@ -1,5 +1,6 @@
 CLASS aaa net/minecraft/entity/passive/EntityParrot
 	FIELD bG ATTR_VARIANT Lmx;
+	METHOD B attackEntity (Lve;)Z
 	METHOD C pushAway (Lve;)V
 		ARG 0 entity
 	METHOD F getSoundAmbient ()Lqc;

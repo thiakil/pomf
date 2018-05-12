@@ -1,4 +1,4 @@
-CLASS ayu net/minecraft/world/gen/chunk/ChunkBlockStore
+CLASS ayu net/minecraft/world/gen/chunk/ProtoChunk
 	FIELD a AIR Lawr;
 	FIELD b stateIds [C
 	METHOD a findFirstNonAir (II)I
