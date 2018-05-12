@@ -16,4 +16,4 @@ CLASS amu net/minecraft/entity/passive/EntityCow
 	METHOD ca initAttributes ()V
 	METHOD ct getSoundDeath ()Lvo;
 	METHOD d getSoundHurt (Lahc;)Lvo;
-	METHOD n initAi ()V
+	METHOD n ()V

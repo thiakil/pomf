@@ -33,7 +33,7 @@ CLASS anf net/minecraft/entity/passive/EntitySheep
 	METHOD dC getColor ()Lave;
 	METHOD dD isSheared ()Z
 	METHOD k updateMovement ()V
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD s setSheared (Z)V
 		ARG 0 value
 	METHOD w_ initDataTracker ()V

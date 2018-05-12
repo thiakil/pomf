@@ -11,3 +11,4 @@ CLASS bjp
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
+	METHOD l getLightValue (Lbnv;)I

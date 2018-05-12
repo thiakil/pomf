@@ -98,7 +98,7 @@ CLASS aid net/minecraft/entity/mob/EntityMob
 	METHOD e getPreferredEquipmentSlot (Lawg;)Lahy;
 		ARG 0 stack
 	METHOD k updateMovement ()V
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD p getActionLook ()Lajc;
 	METHOD p setCanPickUpLoot (Z)V
 		ARG 0 value

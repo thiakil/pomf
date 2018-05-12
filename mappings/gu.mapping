@@ -9,3 +9,4 @@ CLASS gu
 	METHOD b copy ()Lhj;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object
+	METHOD f copy ()Lgu;

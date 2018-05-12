@@ -1,0 +1,9 @@
+CLASS caz net/minecraft/fluid/Fluids
+	FIELD a EMPTY Lcaw;
+	FIELD b FLOWING_WATER Lcav;
+	FIELD c WATER Lcav;
+	FIELD d FLOWING_LAVA Lcav;
+	FIELD e LAVA Lcav;
+	FIELD f FLUIDS Ljava/util/Set;
+	METHOD a getFluid (Ljava/lang/String;)Lcaw;
+		ARG 0 fluid

@@ -1,6 +1,14 @@
-CLASS bny net/minecraft/block/state/IBlockState
-	METHOD a getProperties ()Ljava/util/Collection;
-	METHOD a with (Lbou;Ljava/lang/Comparable;)Ljava/lang/Object;
-	METHOD b getValues ()Lcom/google/common/collect/ImmutableMap;
-	METHOD c get (Lbou;)Ljava/lang/Comparable;
-		ARG 0 property
+CLASS bnv net/minecraft/block/state/IBlockState
+	METHOD a canEntitySpawn (Laht;)Z
+		ARG 0 entity
+	METHOD a (Lbal;Lef;)Z
+		ARG 0 blockView
+		ARG 1 pos
+	METHOD b (Lbal;Lef;)I
+		ARG 0 blockView
+		ARG 1 pos
+	METHOD c getBlock ()Lbfm;
+	METHOD d getMaterial ()Lcbb;
+	METHOD e getLightValue ()I
+	METHOD s getFluidState ()Lcax;
+	METHOD t doesTickRandomly ()Z

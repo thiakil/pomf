@@ -38,7 +38,7 @@ CLASS aoy net/minecraft/entity/boss/EntityWither
 	METHOD e setInvulTimer (I)V
 		ARG 0 value
 	METHOD k updateMovement ()V
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD n canStartRiding (Laht;)Z
 		ARG 0 entity
 	METHOD p getTrackedEntityId (I)I

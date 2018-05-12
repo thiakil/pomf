@@ -2,12 +2,14 @@ CLASS aqm net/minecraft/entity/mob/EntityShulker
 	CLASS aqm$a
 		METHOD a canStart ()Z
 		METHOD c start ()V
-		METHOD d onRemove ()V
+		METHOD d stop ()V
 		METHOD e tick ()V
 	CLASS aqm$c
 		METHOD a canStart ()Z
 		METHOD a getFollowBounds (D)Lcfy;
 			ARG 0 range
+		METHOD a canNavigateToEntity (Laic;)Z
+			ARG 0 entity
 	CLASS aqm$d
 		METHOD a canStart ()Z
 		METHOD a getFollowBounds (D)Lcfy;
@@ -16,7 +18,7 @@ CLASS aqm net/minecraft/entity/mob/EntityShulker
 		METHOD a canStart ()Z
 		METHOD b shouldContinue ()Z
 		METHOD c start ()V
-		METHOD d onRemove ()V
+		METHOD d stop ()V
 		METHOD e tick ()V
 	FIELD a ATTACHED_FACE Lny;
 	FIELD b ATTACHED_BLOCK Lny;
@@ -65,5 +67,5 @@ CLASS aqm net/minecraft/entity/mob/EntityShulker
 	METHOD i pushAwayFrom (Laht;)V
 		ARG 0 other
 	METHOD k updateMovement ()V
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD w_ initDataTracker ()V

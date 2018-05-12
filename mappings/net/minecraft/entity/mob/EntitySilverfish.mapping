@@ -22,4 +22,4 @@ CLASS aqn net/minecraft/entity/mob/EntitySilverfish
 	METHOD ct getSoundDeath ()Lvo;
 	METHOD d getSoundHurt (Lahc;)Lvo;
 	METHOD k setYaw (F)V
-	METHOD n initAi ()V
+	METHOD n ()V

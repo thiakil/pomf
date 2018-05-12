@@ -12,7 +12,7 @@ CLASS aqv net/minecraft/entity/mob/EntityWitch
 	METHOD d getSoundHurt (Lahc;)Lvo;
 	METHOD k updateMovement ()V
 	METHOD l isDrinking ()Z
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD s setAiming (Z)V
 		ARG 0 value
 	METHOD w_ initDataTracker ()V

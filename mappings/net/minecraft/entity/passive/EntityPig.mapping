@@ -26,7 +26,7 @@ CLASS ana net/minecraft/entity/passive/EntityPig
 	METHOD ct getSoundDeath ()Lvo;
 	METHOD d getSoundHurt (Lahc;)Lvo;
 	METHOD dC isSaddled ()Z
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD s setSaddled (Z)V
 		ARG 0 value
 	METHOD w_ initDataTracker ()V

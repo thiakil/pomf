@@ -140,7 +140,7 @@ CLASS aic net/minecraft/entity/EntityLiving
 		ARG 0 value
 	METHOD m getSoundFall (I)Lvo;
 		ARG 0 height
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD n setStuckArrows (I)V
 		ARG 0 value
 	METHOD o doJump (Z)V

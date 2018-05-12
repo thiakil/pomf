@@ -40,7 +40,7 @@ CLASS aqx net/minecraft/entity/mob/EntityZombie
 	METHOD dF getSkull ()Lawg;
 	METHOD dL canBreakDoors ()Z
 	METHOD k updateMovement ()V
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD s setArmsRaised (Z)V
 		ARG 0 value
 	METHOD t setBreakDoors (Z)V

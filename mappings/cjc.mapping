@@ -1,6 +1,16 @@
 CLASS cjc
 	CLASS cjc$b
+		METHOD a (I)Lcjc$a;
+			ARG 0 index
+		METHOD a (ILcjc$a;)Lcjc$a;
+			ARG 0 index
+			ARG 1 value
 		METHOD add add (ILjava/lang/Object;)V
+			ARG 0 index
+			ARG 1 value
+		METHOD b (I)Lcjc$a;
+			ARG 0 index
+		METHOD b (ILcjc$a;)V
 			ARG 0 index
 			ARG 1 value
 		METHOD get get (I)Ljava/lang/Object;

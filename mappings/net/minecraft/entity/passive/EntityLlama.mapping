@@ -34,7 +34,7 @@ CLASS ant net/minecraft/entity/passive/EntityLlama
 	METHOD dE getInventorySize ()I
 	METHOD ek getStrength ()I
 	METHOD el getVariant ()I
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD s setVariant (I)V
 	METHOD s setAiming (Z)V
 		ARG 0 value

@@ -30,5 +30,5 @@ CLASS apu net/minecraft/entity/mob/EntityCreeper
 	METHOD dE getIgnited ()Z
 	METHOD dF setIgnited ()V
 	METHOD l isCharged ()Z
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD w_ initDataTracker ()V

@@ -63,7 +63,7 @@ CLASS aht net/minecraft/entity/Entity
 	METHOD F updatePortalCooldown ()V
 	METHOD N_ getNameAsComponent ()Lic;
 	METHOD O_ hasCustomName ()Z
-	METHOD P getNameComponent ()Lic;
+	METHOD P getDisplayName ()Lic;
 	METHOD R getEntityId ()I
 	METHOD R_ update ()V
 	METHOD S getScoreboardTags ()Ljava/util/Set;

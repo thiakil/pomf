@@ -31,6 +31,6 @@ CLASS amv
 	METHOD ct getSoundDeath ()Lvo;
 	METHOD d getSoundHurt (Lahc;)Lvo;
 	METHOD dn canPickUpLoot ()Z
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD n canStartRiding (Laht;)Z
 		ARG 0 entity

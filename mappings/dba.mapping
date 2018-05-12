@@ -1,3 +1,5 @@
 CLASS dba
 	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
+	METHOD a getTexture (Laqi;)Loj;
+		ARG 0 model

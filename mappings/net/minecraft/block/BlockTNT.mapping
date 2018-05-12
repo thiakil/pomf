@@ -1,4 +1,4 @@
-CLASS blc
+CLASS blc net/minecraft/block/BlockTNT
 	METHOD a onEntityCollision (Lbnv;Lbax;Lef;Laht;)V
 		ARG 1 world
 		ARG 2 pos

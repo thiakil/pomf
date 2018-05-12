@@ -1,3 +1,5 @@
 CLASS dbz
 	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
+	METHOD a getTexture (Lank;)Loj;
+		ARG 0 model

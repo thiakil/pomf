@@ -16,6 +16,8 @@ CLASS amy
 		ARG 1 playerHand
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
+	METHOD b createChild (Lahq;)Lamy;
+		ARG 0 other
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
 	METHOD c handleFallDamage (FF)V
@@ -25,5 +27,5 @@ CLASS amy
 	METHOD ct getSoundDeath ()Lvo;
 	METHOD d getSoundHurt (Lahc;)Lvo;
 	METHOD dD onTamedChanged ()V
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD w_ initDataTracker ()V

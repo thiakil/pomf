@@ -53,7 +53,7 @@ CLASS anp net/minecraft/entity/passive/EntityHorseBase
 	METHOD dZ isSaddled ()Z
 	METHOD dk getLimitPerChunk ()I
 	METHOD k updateMovement ()V
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD p getHorseFlag (I)Z
 		ARG 0 index
 	METHOD q setTemper (I)V

@@ -1,8 +1,9 @@
-CLASS bfm
+CLASS bfm net/minecraft/block/Block
 	CLASS bfm$a EnumOffsetType
 		FIELD a NONE Lbfm$a;
 		FIELD b XZ Lbfm$a;
 		FIELD c XYZ Lbfm$a;
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD X_ getRenderLayer ()Lbam;
 	METHOD a canMobSpawnInside ()Z
 	METHOD a onEntityLand (Lbal;Laht;)V
@@ -35,6 +36,7 @@ CLASS bfm
 		ARG 0 world
 		ARG 1 pos
 		ARG 3 player
+	METHOD a canEntitySpawn (Lbnv;Laht;)Z
 	METHOD a isNotSolid (Lbnv;Lbal;Lef;)Z
 		ARG 2 pos
 	METHOD a getWeakRedstonePower (Lbnv;Lbal;Lef;Lel;)I
@@ -82,6 +84,7 @@ CLASS bfm
 		ARG 2 pos
 		ARG 3 random
 	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I
+	METHOD a register (Ljava/lang/String;Lbfm;)V
 	METHOD b getStrongRedstonePower (Lbnv;Lbal;Lef;Lel;)I
 		ARG 1 view
 		ARG 2 pos
@@ -100,3 +103,7 @@ CLASS bfm
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 rand
+	METHOD h getItem ()Lawc;
+	METHOD l getLightValue (Lbnv;)I
+	METHOD m getMaterial (Lbnv;)Lcbb;
+	METHOD r doesTickRandomly (Lbnv;)Z

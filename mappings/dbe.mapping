@@ -1,3 +1,5 @@
 CLASS dbe
 	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
+	METHOD a getTexture (Lanc;)Loj;
+		ARG 0 model

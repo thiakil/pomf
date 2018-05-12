@@ -19,7 +19,7 @@ CLASS anh net/minecraft/entity/passive/EntitySnowman
 	METHOD d getSoundHurt (Lahc;)Lvo;
 	METHOD k updateMovement ()V
 	METHOD l hasPumpkin ()Z
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD s setAiming (Z)V
 		ARG 0 value
 	METHOD w_ initDataTracker ()V

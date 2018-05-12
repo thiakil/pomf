@@ -39,7 +39,7 @@ CLASS and net/minecraft/entity/passive/EntityRabbit
 	METHOD d getSoundHurt (Lahc;)Lvo;
 	METHOD dE getRabbitType ()I
 	METHOD k updateMovement ()V
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD o doJump (Z)V
 	METHOD p setRabbitType (I)V
 		ARG 0 value

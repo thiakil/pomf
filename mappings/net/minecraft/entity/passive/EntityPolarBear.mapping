@@ -27,5 +27,5 @@ CLASS anb net/minecraft/entity/passive/EntityPolarBear
 	METHOD ca initAttributes ()V
 	METHOD ct getSoundDeath ()Lvo;
 	METHOD d getSoundHurt (Lahc;)Lvo;
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD w_ initDataTracker ()V

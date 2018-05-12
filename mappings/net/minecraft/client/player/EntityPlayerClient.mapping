@@ -32,7 +32,9 @@ CLASS cum net/minecraft/client/player/EntityPlayerClient
 		ARG 0 entityItem
 	METHOD a openBookEditor (Lawg;Lagm;)V
 	METHOD a openVillagerGui (Lbae;)V
+		ARG 0 villager
 	METHOD a openCommandBlockMinecart (Lbai;)V
+		ARG 0 commandBlock
 	METHOD a openCommandBlock (Lbmf;)V
 	METHOD a openSignEditor (Lbmw;)V
 		ARG 0 sign

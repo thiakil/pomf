@@ -20,4 +20,4 @@ CLASS ams net/minecraft/entity/passive/EntityChicken
 	METHOD ct getSoundDeath ()Lvo;
 	METHOD d getSoundHurt (Lahc;)Lvo;
 	METHOD k updateMovement ()V
-	METHOD n initAi ()V
+	METHOD n ()V

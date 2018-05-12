@@ -1,6 +1,8 @@
 CLASS cfc
 	CLASS cfc$a
 		METHOD a serialize (Lcom/google/gson/JsonObject;Lcew;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfc;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfi;)Lcfc;
 		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfi;)Lcew;
 	METHOD a apply (Lawg;Ljava/util/Random;Lcep;)Lawg;
 		ARG 0 stack

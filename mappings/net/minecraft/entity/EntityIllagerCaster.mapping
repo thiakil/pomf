@@ -2,7 +2,7 @@ CLASS aqq net/minecraft/entity/EntityIllagerCaster
 	CLASS aqq$b AiGoalLookAtTarget
 		METHOD a canStart ()Z
 		METHOD c start ()V
-		METHOD d onRemove ()V
+		METHOD d stop ()V
 		METHOD e tick ()V
 	CLASS aqq$c AiGoalCastSpell
 		FIELD b spellCooldown I

@@ -1,3 +1,5 @@
 CLASS czn
 	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
+	METHOD a getTexture (Lamv;)Loj;
+		ARG 0 model

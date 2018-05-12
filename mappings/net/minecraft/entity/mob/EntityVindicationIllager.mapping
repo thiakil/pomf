@@ -15,7 +15,7 @@ CLASS aqu net/minecraft/entity/mob/EntityVindicationIllager
 	METHOD ca initAttributes ()V
 	METHOD ct getSoundDeath ()Lvo;
 	METHOD d getSoundHurt (Lahc;)Lvo;
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD r isTeammate (Laht;)Z
 		ARG 0 entity
 	METHOD w_ initDataTracker ()V

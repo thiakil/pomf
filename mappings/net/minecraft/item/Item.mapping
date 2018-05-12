@@ -1,4 +1,4 @@
-CLASS awc
+CLASS awc net/minecraft/item/Item
 	CLASS awc$1
 		METHOD a getProperty (Lawg;Lbax;Laic;)F
 			ARG 0 stack
@@ -74,5 +74,6 @@ CLASS awc
 		ARG 0 stack
 	METHOD e getRarity (Lawg;)Laws;
 		ARG 0 stack
+	METHOD h getItem ()Lawc;
 	METHOD i getTranslatedNameTrimmed (Lawg;)Lic;
 		ARG 0 stack

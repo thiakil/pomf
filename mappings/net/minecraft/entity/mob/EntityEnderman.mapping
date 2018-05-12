@@ -7,7 +7,7 @@ CLASS apx net/minecraft/entity/mob/EntityEnderman
 		METHOD a canStart ()Z
 		METHOD b shouldContinue ()Z
 		METHOD c start ()V
-		METHOD d onRemove ()V
+		METHOD d stop ()V
 		METHOD e tick ()V
 	CLASS apx$c AiGoalPickBlock
 		FIELD a owner Lapx;
@@ -39,5 +39,5 @@ CLASS apx net/minecraft/entity/mob/EntityEnderman
 	METHOD e setTarget (Laic;)V
 		ARG 0 value
 	METHOD k updateMovement ()V
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD w_ initDataTracker ()V

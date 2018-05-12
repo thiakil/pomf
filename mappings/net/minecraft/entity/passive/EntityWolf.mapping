@@ -39,7 +39,7 @@ CLASS ann net/minecraft/entity/passive/EntityWolf
 	METHOD e setTarget (Laic;)V
 		ARG 0 value
 	METHOD k updateMovement ()V
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD t setTamed (Z)V
 		ARG 0 value
 	METHOD v setAngry (Z)V

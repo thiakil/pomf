@@ -1,4 +1,4 @@
-CLASS biu
+CLASS biu net/minecraft/block/BlockMushroom
 	METHOD a isFertilizable (Lbal;Lef;Lbnv;Z)Z
 		ARG 1 pos
 		ARG 3 remote

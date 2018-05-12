@@ -8,4 +8,4 @@ CLASS coe net/minecraft/client/gui/menu/GuiLevelSelect
 		ARG 1 mouseY
 		ARG 2 delta
 	METHOD c init ()V
-	METHOD n handleMouseEvent ()V
+	METHOD n onClosed ()V

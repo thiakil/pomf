@@ -53,5 +53,5 @@ CLASS arc net/minecraft/entity/passive/EntityVillager
 	METHOD dH getInventory ()Lagv;
 	METHOD e setVillagerType (I)V
 		ARG 0 value
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD w_ initDataTracker ()V

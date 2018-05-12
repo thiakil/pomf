@@ -3,7 +3,7 @@ CLASS aqt net/minecraft/entity/mob/EntityVex
 		METHOD a canStart ()Z
 		METHOD b shouldContinue ()Z
 		METHOD c start ()V
-		METHOD d onRemove ()V
+		METHOD d stop ()V
 		METHOD e tick ()V
 	CLASS aqt$b AiGoalTrackOwnerTarget
 		METHOD <init> (Laqt;Laik;)V
@@ -50,5 +50,5 @@ CLASS aqt net/minecraft/entity/mob/EntityVex
 	METHOD g setBounds (Lef;)V
 		ARG 0 value
 	METHOD l getOwner ()Laid;
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD w_ initDataTracker ()V

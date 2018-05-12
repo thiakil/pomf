@@ -27,3 +27,4 @@ CLASS cxj
 			ARG 5 headPitch
 			ARG 6 scale
 	METHOD a render (Lbmb;DDDFI)V
+	METHOD a render (Lbmh;DDDFI)V

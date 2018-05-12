@@ -17,4 +17,4 @@ CLASS apy net/minecraft/entity/mob/EntityEndermite
 	METHOD d getSoundHurt (Lahc;)Lvo;
 	METHOD k updateMovement ()V
 	METHOD k setYaw (F)V
-	METHOD n initAi ()V
+	METHOD n ()V

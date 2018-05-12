@@ -23,6 +23,9 @@ CLASS bf net/minecraft/advancement/criterion/TriggerRecipeUnlocked
 		ARG 1 condition
 	METHOD a handle (Lsl;Layl;)V
 		ARG 0 player
+	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbf$b;
+		ARG 0 obj
+		ARG 1 context
 	METHOD b removeCondition (Lot;Ls$a;)V
 		ARG 0 manager
 		ARG 1 condition

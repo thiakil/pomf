@@ -38,7 +38,7 @@ CLASS arh net/minecraft/entity/player/EntityPlayer
 	FIELD f spawnForced Z
 	FIELD h gameProfile Lcom/mojang/authlib/GameProfile;
 	METHOD N_ getNameAsComponent ()Lic;
-	METHOD P getNameComponent ()Lic;
+	METHOD P getDisplayName ()Lic;
 	METHOD R_ update ()V
 	METHOD S_ stopRiding ()V
 	METHOD W invalidate ()V
@@ -78,7 +78,9 @@ CLASS arh net/minecraft/entity/player/EntityPlayer
 	METHOD a dropItem (Lawg;ZZ)Lapn;
 		ARG 0 stack
 	METHOD a openVillagerGui (Lbae;)V
+		ARG 0 villager
 	METHOD a openCommandBlockMinecart (Lbai;)V
+		ARG 0 commandBlock
 	METHOD a setGameMode (Lbau;)V
 		ARG 0 value
 	METHOD a openCommandBlock (Lbmf;)V
@@ -170,6 +172,7 @@ CLASS arh net/minecraft/entity/player/EntityPlayer
 	METHOD k updateMovement ()V
 	METHOD m getSoundFall (I)Lvo;
 		ARG 0 height
+	METHOD n ()V
 	METHOD o initAi ()V
 	METHOD p setScore (I)V
 		ARG 0 value

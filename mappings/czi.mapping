@@ -1,3 +1,5 @@
 CLASS czi
 	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
+	METHOD a getTexture (Lamt;)Loj;
+		ARG 0 model

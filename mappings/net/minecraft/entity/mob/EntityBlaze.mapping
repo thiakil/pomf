@@ -2,7 +2,7 @@ CLASS aps net/minecraft/entity/mob/EntityBlaze
 	CLASS aps$a
 		METHOD a canStart ()Z
 		METHOD c start ()V
-		METHOD d onRemove ()V
+		METHOD d stop ()V
 		METHOD e tick ()V
 	FIELD c BLAZE_FLAGS Lny;
 	METHOD E getSoundAmbient ()Lvo;
@@ -18,5 +18,5 @@ CLASS aps net/minecraft/entity/mob/EntityBlaze
 	METHOD d getSoundHurt (Lahc;)Lvo;
 	METHOD k updateMovement ()V
 	METHOD l isFireActive ()Z
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD w_ initDataTracker ()V

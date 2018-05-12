@@ -9,7 +9,7 @@ CLASS aqb net/minecraft/entity/mob/EntityGhast
 		FIELD b owner Laqb;
 		METHOD a canStart ()Z
 		METHOD c start ()V
-		METHOD d onRemove ()V
+		METHOD d stop ()V
 		METHOD e tick ()V
 	CLASS aqb$d AiGoalFlyRandomly
 		METHOD a canStart ()Z
@@ -38,5 +38,5 @@ CLASS aqb net/minecraft/entity/mob/EntityGhast
 	METHOD dk getLimitPerChunk ()I
 	METHOD dv getFireballStrength ()I
 	METHOD l isShooting ()Z
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD w_ initDataTracker ()V

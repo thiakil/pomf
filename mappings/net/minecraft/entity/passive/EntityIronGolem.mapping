@@ -22,7 +22,7 @@ CLASS anl net/minecraft/entity/passive/EntityIronGolem
 	METHOD dE isPlayerCreated ()Z
 	METHOD k updateMovement ()V
 	METHOD l getVillageProperties ()Lami;
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD s setPlayerCreated (Z)V
 		ARG 0 value
 	METHOD w_ initDataTracker ()V

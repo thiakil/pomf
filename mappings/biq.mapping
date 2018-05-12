@@ -3,6 +3,7 @@ CLASS biq
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 entity
+	METHOD a canEntitySpawn (Lbnv;Laht;)Z
 	METHOD a update (Lbnv;Lbax;Lef;Lbfm;Lef;)V
 		ARG 1 world
 		ARG 2 pos

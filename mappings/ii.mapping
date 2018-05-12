@@ -3,3 +3,4 @@ CLASS ii
 	METHOD e getTextComponent ()Lic;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object
+	METHOD h getTextComponent ()Lii;

@@ -22,7 +22,7 @@ CLASS aqf net/minecraft/entity/EntityIllagerIllusion
 	METHOD ct getSoundDeath ()Lvo;
 	METHOD d getSoundHurt (Lahc;)Lvo;
 	METHOD k updateMovement ()V
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD r isTeammate (Laht;)Z
 		ARG 0 entity
 	METHOD s setAiming (Z)V

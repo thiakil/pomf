@@ -1,3 +1,5 @@
 CLASS dby
 	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
+	METHOD a getTexture (Lanj;)Loj;
+		ARG 0 model

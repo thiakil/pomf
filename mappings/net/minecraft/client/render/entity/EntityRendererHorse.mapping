@@ -2,3 +2,5 @@ CLASS dag net/minecraft/client/render/entity/EntityRendererHorse
 	FIELD a SKIN Ljava/util/Map;
 	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
+	METHOD a getTexture (Lanp;)Loj;
+		ARG 0 model

@@ -20,3 +20,4 @@ CLASS bjz
 		ARG 0 world
 		ARG 1 rand
 		ARG 2 pos
+	METHOD l getLightValue (Lbnv;)I

@@ -17,9 +17,14 @@ CLASS oa net/minecraft/entity/tracker/TrackedDataHandlerRegistry
 			ARG 0 id
 		METHOD a read (Lht;)Ljava/lang/Object;
 			ARG 0 buf
+		METHOD a write (Lht;Lfg;)V
+			ARG 0 buf
+			ARG 1 data
 		METHOD a write (Lht;Ljava/lang/Object;)V
 			ARG 0 buf
 			ARG 1 data
+		METHOD b read (Lht;)Lfg;
+			ARG 0 buf
 	CLASS oa$3
 		METHOD a create (I)Lny;
 			ARG 0 id
@@ -54,6 +59,11 @@ CLASS oa net/minecraft/entity/tracker/TrackedDataHandlerRegistry
 		METHOD a write (Lht;Ljava/lang/Object;)V
 			ARG 0 buf
 			ARG 1 data
+		METHOD a write (Lht;Ljava/util/Optional;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD b read (Lht;)Ljava/util/Optional;
+			ARG 0 buf
 	CLASS oa$6
 		METHOD a create (I)Lny;
 			ARG 0 id
@@ -75,6 +85,11 @@ CLASS oa net/minecraft/entity/tracker/TrackedDataHandlerRegistry
 		METHOD a write (Lht;Ljava/lang/Object;)V
 			ARG 0 buf
 			ARG 1 data
+		METHOD a write (Lht;Ljava/util/Optional;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD b read (Lht;)Ljava/util/Optional;
+			ARG 0 buf
 	CLASS oa$8
 		METHOD a create (I)Lny;
 			ARG 0 id
@@ -148,6 +163,11 @@ CLASS oa net/minecraft/entity/tracker/TrackedDataHandlerRegistry
 		METHOD a write (Lht;Ljava/lang/Object;)V
 			ARG 0 buf
 			ARG 1 data
+		METHOD a write (Lht;Ljava/util/Optional;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD b read (Lht;)Ljava/util/Optional;
+			ARG 0 buf
 	CLASS oa$14
 		METHOD a create (I)Lny;
 			ARG 0 id
@@ -169,6 +189,11 @@ CLASS oa net/minecraft/entity/tracker/TrackedDataHandlerRegistry
 		METHOD a write (Lht;Ljava/lang/Object;)V
 			ARG 0 buf
 			ARG 1 data
+		METHOD a write (Lht;Ljava/util/Optional;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD b read (Lht;)Ljava/util/Optional;
+			ARG 0 buf
 	CLASS oa$16
 		METHOD a create (I)Lny;
 			ARG 0 id

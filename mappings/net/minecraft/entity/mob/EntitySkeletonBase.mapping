@@ -1,7 +1,7 @@
 CLASS apr net/minecraft/entity/mob/EntitySkeletonBase
 	CLASS apr$1
 		METHOD c start ()V
-		METHOD d onRemove ()V
+		METHOD d stop ()V
 	FIELD a AIMING Lny;
 	METHOD a initEquipment (Lagl;)V
 		ARG 0 difficulty
@@ -23,7 +23,7 @@ CLASS apr net/minecraft/entity/mob/EntitySkeletonBase
 	METHOD ca initAttributes ()V
 	METHOD dC isAiming ()Z
 	METHOD k updateMovement ()V
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD s setAiming (Z)V
 		ARG 0 value
 	METHOD w_ initDataTracker ()V

@@ -37,6 +37,7 @@ CLASS sl
 		ARG 1 stacks
 	METHOD a openBookEditor (Lawg;Lagm;)V
 	METHOD a openVillagerGui (Lbae;)V
+		ARG 0 villager
 	METHOD a setGameMode (Lbau;)V
 		ARG 0 value
 	METHOD a openCommandBlock (Lbmf;)V
@@ -66,6 +67,7 @@ CLASS sl
 	METHOD f attackPlayer (Laht;)V
 		ARG 0 entity
 	METHOD g createCooldownManager ()Lawd;
+	METHOD n ()V
 	METHOD t isSpectator ()Z
 	METHOD u isCreative ()Z
 	METHOD y getBlockPos ()Lef;

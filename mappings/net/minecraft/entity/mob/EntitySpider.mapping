@@ -27,6 +27,6 @@ CLASS aqr net/minecraft/entity/mob/EntitySpider
 	METHOD d isPotionEffective (Lahm;)Z
 		ARG 0 effect
 	METHOD l getCanClimb ()Z
-	METHOD n initAi ()V
+	METHOD n ()V
 	METHOD w_ initDataTracker ()V
 	METHOD y_ canClimb ()Z
