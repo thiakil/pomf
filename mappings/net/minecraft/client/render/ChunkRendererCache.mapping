@@ -1,4 +1,4 @@
-CLASS bvf net/minecraft/client/render/bpk
+CLASS bvf net/minecraft/client/render/ChunkRendererCache
 	FIELD b world Lams;
 	METHOD <init> (Lams;ILbuw;Lbxq;)V
 		ARG 0 world

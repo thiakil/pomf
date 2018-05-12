@@ -1,0 +1,2 @@
+CLASS abp
+	METHOD i getType ()Labr;

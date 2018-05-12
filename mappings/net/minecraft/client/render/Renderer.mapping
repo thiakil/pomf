@@ -1,5 +1,6 @@
 CLASS buw net/minecraft/client/render/Renderer
 	FIELD A framebuffer Lbvb;
+	FIELD O chunkLayerRenderer Lbul;
 	FIELD P renderDistance I
 	FIELD R totalEntities I
 	FIELD S renderedEntities I
@@ -54,6 +55,7 @@ CLASS buw net/minecraft/client/render/Renderer
 		ARG 5 z
 		ARG 6 volume
 		ARG 7 pitch
+	METHOD a renderChunkLayer (Lamk;)V
 	METHOD a onBlockUpdate (Lams;Let;Lawr;Lawr;I)V
 		ARG 0 world
 		ARG 1 pos

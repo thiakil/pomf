@@ -1,11 +1,18 @@
 CLASS xa net/minecraft/entity/ai/passive/AiGoalFollowOwner
 	FIELD a world Lams;
-	FIELD c minDistance F
+	FIELD b minStopDistance F
+	FIELD c minStartDistance F
 	FIELD d caller Lvz;
 	FIELD e owner Lvn;
+	FIELD f speed D
+	FIELD g navigation Lzc;
+	FIELD h teleportCooldown I
+	FIELD i previousWaterWeight F
 	METHOD <init> (Lvz;DFF)V
 		ARG 0 caller
-		ARG 2 minDistance
+		ARG 1 speed
+		ARG 2 minStartDistance
+		ARG 3 minStopDistance
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V

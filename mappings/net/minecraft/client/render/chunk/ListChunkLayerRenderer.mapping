@@ -1,0 +1,3 @@
+CLASS buy net/minecraft/client/render/chunk/ListChunkLayerRenderer
+	METHOD a renderLayer (Lamk;)V
+		ARG 0 layer

@@ -1,0 +1,18 @@
+CLASS ew net/minecraft/util/IteratorUtils
+	CLASS ew$a IntoList
+	CLASS ew$b FlattenIterable
+		FIELD a type Ljava/lang/Class;
+		FIELD b iterable [Ljava/lang/Iterable;
+	METHOD a flattenArray (Ljava/lang/Class;Ljava/lang/Iterable;)Ljava/lang/Iterable;
+		ARG 0 type
+		ARG 1 iterable
+	METHOD a flattenList (Ljava/lang/Iterable;)Ljava/lang/Iterable;
+		ARG 0 iterable
+	METHOD b createTypedArray (Ljava/lang/Class;I)[Ljava/lang/Object;
+		ARG 0 type
+		ARG 1 size
+	METHOD b toArray (Ljava/lang/Class;Ljava/lang/Iterable;)[Ljava/lang/Object;
+		ARG 0 type
+		ARG 1 iterable
+	METHOD b transformToList (Ljava/lang/Iterable;)Ljava/lang/Iterable;
+		ARG 0 iterable

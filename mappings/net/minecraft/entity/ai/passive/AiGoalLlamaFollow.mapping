@@ -1,4 +1,4 @@
-CLASS xi net/minecraft/entity/ai/passive/AILlamaFollow
+CLASS xi net/minecraft/entity/ai/passive/AiGoalLlamaFollow
 	FIELD a entity Laaq;
 	METHOD <init> (Laaq;D)V
 		ARG 0 entity

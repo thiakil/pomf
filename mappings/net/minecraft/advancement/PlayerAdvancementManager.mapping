@@ -11,6 +11,8 @@ CLASS nn net/minecraft/advancement/PlayerAdvancementManager
 		ARG 1 file
 		ARG 2 player
 	METHOD a clearAllTriggers ()V
+	METHOD a markSeen (Li;)V
+		ARG 0 advancement
 	METHOD a apply (Li;Ljava/lang/String;)Z
 		ARG 0 advancement
 		ARG 1 id

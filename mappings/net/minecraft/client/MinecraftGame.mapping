@@ -1,6 +1,7 @@
 CLASS bhz net/minecraft/client/MinecraftGame
 	CLASS bhz$7
 		METHOD run run ()V
+	FIELD A lastRenderNanoTime J
 	FIELD B profiler Lrj;
 	FIELD C isRunning Z
 	FIELD D fpsDebugString Ljava/lang/String;

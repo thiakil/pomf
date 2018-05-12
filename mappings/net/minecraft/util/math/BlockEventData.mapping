@@ -1,4 +1,4 @@
-CLASS amj net/minecraft/utill/math/BlockEventData
+CLASS amj net/minecraft/util/math/BlockEventData
 	FIELD a pos Let;
 	FIELD b block Laou;
 	FIELD c id I

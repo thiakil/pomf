@@ -16,4 +16,5 @@ CLASS bxp net/minecraft/client/render/chunk/ChunkRenderer
 	METHOD c getChunkRenderLock ()Ljava/util/concurrent/locks/ReentrantLock;
 	METHOD f distanceToPlayerSquared ()D
 	METHOD h getChunkRenderData ()Lbxm;
+	METHOD k getChunkOrigin ()Let;
 	METHOD p getWorld ()Lams;

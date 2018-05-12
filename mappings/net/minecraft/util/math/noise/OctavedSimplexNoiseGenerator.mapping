@@ -1,0 +1,7 @@
+CLASS bcn net/minecraft/util/math/noise/OctavedSimplexNoiseGenerator
+	FIELD a octaves [Lbcm;
+	FIELD b octaveCount I
+	METHOD <init> (Ljava/util/Random;I)V
+		ARG 1 octaveCount
+	METHOD a genreate ([DIIIIDDD)[D
+	METHOD a generate ([DIIIIIIDDD)[D

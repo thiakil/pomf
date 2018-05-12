@@ -1,0 +1,18 @@
+CLASS lt net/minecraft/network/packet/server/SPacketSeeAdvancement
+	CLASS lt$a Action
+		FIELD a SEE Llt$a;
+		FIELD b CLOSE Llt$a;
+	FIELD a action Llt$a;
+	FIELD b advancementId Lnd;
+	METHOD <init> (Llt$a;Lnd;)V
+		ARG 1 advancementId
+	METHOD a readPacket (Lgy;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lhb;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lkw;)V
+		ARG 0 handler
+	METHOD b getAction ()Llt$a;
+	METHOD b writePacket (Lgy;)V
+		ARG 0 buf
+	METHOD c getAdvancementId ()Lnd;

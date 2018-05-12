@@ -1,0 +1,4 @@
+CLASS bwu net/minecraft/client/render/block/entity/BlockEntityBedRenderer
+	FIELD a TEXTURES [Lnd;
+	METHOD a render (Lavg;DDDFIF)V
+	METHOD a render (Lavh;DDDFIF)V

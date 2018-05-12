@@ -1,6 +1,8 @@
 CLASS kw net/minecraft/network/handler/INetworkGameHandlerServer
 	METHOD a onTeleportConfirm (Lkx;)V
 		ARG 0 packet
+	METHOD a onRecipePlacement (Lky;)V
+		ARG 0 packet
 	METHOD a onChatTabCompleteRequest (Lkz;)V
 		ARG 0 packet
 	METHOD a onChatMessage (Lla;)V
@@ -37,8 +39,11 @@ CLASS kw net/minecraft/network/handler/INetworkGameHandlerServer
 		ARG 0 packet
 	METHOD a onVehicleSteer (Llq;)V
 		ARG 0 packet
-	METHOD a handleRecipeBookUpdate (Llr;)V
+	METHOD a onRecipeBookUpdate (Llr;)V
+		ARG 0 packet
 	METHOD a onResourcePackStatus (Lls;)V
+		ARG 0 packet
+	METHOD a onSeeAdvancement (Llt;)V
 		ARG 0 packet
 	METHOD a onPlayerHeldItemUpdate (Llu;)V
 		ARG 0 packet
