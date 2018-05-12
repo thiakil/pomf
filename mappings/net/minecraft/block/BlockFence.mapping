@@ -19,6 +19,11 @@ CLASS aqm net/minecraft/block/BlockFence
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
+	METHOD a getBlockFaceShape (Lamw;Lawr;Let;Lfa;)Lawp;
+		ARG 0 blockView
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 face
 	METHOD a addBoundingBoxes (Lawr;Lams;Let;Lbgz;Ljava/util/List;Lve;Z)V
 		ARG 0 state
 		ARG 1 world

@@ -20,6 +20,7 @@ CLASS aug net/minecraft/block/BlockStoneBrick
 	METHOD a deserializeState (I)Lawr;
 		ARG 0 meta
 	METHOD a addStacksForDisplay (Lahn;Lfi;)V
+		ARG 0 tab
 		ARG 1 list
 	METHOD b createStateFactory ()Laws;
 	METHOD d getDropItemDamage (Lawr;)I

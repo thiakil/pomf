@@ -1,4 +1,7 @@
 CLASS aad net/minecraft/entity/passive/EntityRabbit
+	CLASS aad$a
+		METHOD a getAttackRangeSquared (Lvn;)D
+			ARG 0 target
 	CLASS aad$b
 		METHOD a canStart ()Z
 	CLASS aad$d

@@ -51,11 +51,13 @@ CLASS aou net/minecraft/block/Block
 	METHOD a setCreativeTab (Lahn;)Laou;
 		ARG 0 creativeTab
 	METHOD a addStacksForDisplay (Lahn;Lfi;)V
+		ARG 0 tab
 		ARG 1 list
 	METHOD a getBlockFromItem (Lail;)Laou;
 		ARG 0 item
 	METHOD a addInformation (Lain;Lams;Ljava/util/List;Lajz;)V
 		ARG 0 stack
+		ARG 1 world
 		ARG 2 tooltip
 	METHOD a shouldDropItemsOnExplosion (Lamn;)Z
 		ARG 0 explosion
@@ -108,7 +110,7 @@ CLASS aou net/minecraft/block/Block
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
-	METHOD a (Lams;Let;Lawr;Ljava/util/Random;)V
+	METHOD a randomTick (Lams;Let;Lawr;Ljava/util/Random;)V
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 state
@@ -150,6 +152,11 @@ CLASS aou net/minecraft/block/Block
 	METHOD a onEntityLand (Lams;Lve;)V
 		ARG 0 world
 		ARG 1 entity
+	METHOD a getBlockFaceShape (Lamw;Lawr;Let;Lfa;)Lawp;
+		ARG 0 blockView
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 face
 	METHOD a isAir (Lamw;Let;)Z
 		ARG 0 view
 		ARG 1 pos
@@ -223,6 +230,7 @@ CLASS aou net/minecraft/block/Block
 		ARG 1 entity
 	METHOD a canCollideWith (Lawr;Z)Z
 		ARG 0 state
+		ARG 1 hitLiquid
 	METHOD a addCollisionBox (Let;Lbgz;Ljava/util/List;Lbgz;)V
 		ARG 0 pos
 		ARG 1 mask
@@ -257,7 +265,7 @@ CLASS aou net/minecraft/block/Block
 		ARG 1 pos
 		ARG 2 state
 		ARG 3 fortune
-	METHOD b randomTick (Lams;Let;Lawr;Ljava/util/Random;)V
+	METHOD b updateTick (Lams;Let;Lawr;Ljava/util/Random;)V
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 state
@@ -302,6 +310,9 @@ CLASS aou net/minecraft/block/Block
 		ARG 1 world
 		ARG 2 pos
 	METHOD c getMapColor (Lawr;Lamw;Let;)Lbcy;
+		ARG 0 state
+		ARG 1 blockView
+		ARG 2 pos
 	METHOD c getStrongRedstonePower (Lawr;Lamw;Let;Lfa;)I
 		ARG 0 state
 		ARG 1 view
@@ -312,7 +323,7 @@ CLASS aou net/minecraft/block/Block
 	METHOD d canMobSpawnInside ()Z
 	METHOD d getStateByRawId (I)Lawr;
 		ARG 0 id
-	METHOD d (Lams;Let;Lawr;)V
+	METHOD d onDestroyedByPlayer (Lams;Let;Lawr;)V
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 state
@@ -355,7 +366,7 @@ CLASS aou net/minecraft/block/Block
 	METHOD l hasBlockEntity ()Z
 	METHOD l isFullBoundsCube (Lawr;)Z
 		ARG 0 state
-	METHOD m canCollideWith ()Z
+	METHOD m isCollidable ()Z
 	METHOD m getLightOpacityLevel (Lawr;)I
 		ARG 0 state
 	METHOD n shouldDropSilkTouch ()Z

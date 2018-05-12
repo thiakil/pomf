@@ -9,4 +9,7 @@ CLASS ato net/minecraft/block/BlockSeaLantern
 	METHOD a getDropAmount (Ljava/util/Random;)I
 		ARG 0 random
 	METHOD c getMapColor (Lawr;Lamw;Let;)Lbcy;
+		ARG 0 state
+		ARG 1 blockView
+		ARG 2 pos
 	METHOD n shouldDropSilkTouch ()Z

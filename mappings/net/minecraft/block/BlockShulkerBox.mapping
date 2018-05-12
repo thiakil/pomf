@@ -7,6 +7,7 @@ CLASS atp net/minecraft/block/BlockShulkerBox
 		ARG 0 meta
 	METHOD a addInformation (Lain;Lams;Ljava/util/List;Lajz;)V
 		ARG 0 stack
+		ARG 1 world
 		ARG 2 tooltip
 	METHOD a createBlockEntity (Lams;I)Lavh;
 		ARG 0 world
@@ -51,6 +52,11 @@ CLASS atp net/minecraft/block/BlockShulkerBox
 		ARG 5 hitZ
 		ARG 6 metadata
 		ARG 7 player
+	METHOD a getBlockFaceShape (Lamw;Lawr;Let;Lfa;)Lawp;
+		ARG 0 blockView
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 face
 	METHOD a getRenderType (Lawr;)Lath;
 		ARG 0 state
 	METHOD a applyMirror (Lawr;Larw;)Lawr;

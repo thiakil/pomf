@@ -52,6 +52,11 @@ CLASS aos net/minecraft/block/BlockBed
 	METHOD a onEntityLand (Lams;Lve;)V
 		ARG 0 world
 		ARG 1 entity
+	METHOD a getBlockFaceShape (Lamw;Lawr;Let;Lfa;)Lawp;
+		ARG 0 blockView
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 face
 	METHOD a getRenderType (Lawr;)Lath;
 		ARG 0 state
 	METHOD a update (Lawr;Lams;Let;Laou;Let;)V
@@ -86,6 +91,9 @@ CLASS aos net/minecraft/block/BlockBed
 	METHOD c isFullBoundsCubeForConnection (Lawr;)Z
 		ARG 0 state
 	METHOD c getMapColor (Lawr;Lamw;Let;)Lbcy;
+		ARG 0 state
+		ARG 1 blockView
+		ARG 2 pos
 	METHOD d getRenderingState (Lawr;Lamw;Let;)Lawr;
 		ARG 0 state
 		ARG 1 view

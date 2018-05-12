@@ -2,6 +2,7 @@ CLASS aty net/minecraft/block/BlockGlassStained
 	METHOD a deserializeState (I)Lawr;
 		ARG 0 meta
 	METHOD a addStacksForDisplay (Lahn;Lfi;)V
+		ARG 0 tab
 		ARG 1 list
 	METHOD a getDropAmount (Ljava/util/Random;)I
 		ARG 0 random
@@ -17,6 +18,9 @@ CLASS aty net/minecraft/block/BlockGlassStained
 	METHOD c isFullBoundsCubeForConnection (Lawr;)Z
 		ARG 0 state
 	METHOD c getMapColor (Lawr;Lamw;Let;)Lbcy;
+		ARG 0 state
+		ARG 1 blockView
+		ARG 2 pos
 	METHOD d getDropItemDamage (Lawr;)I
 		ARG 0 state
 	METHOD e serializeState (Lawr;)I

@@ -37,6 +37,11 @@ CLASS apk net/minecraft/block/BlockCocoa
 		ARG 1 rand
 		ARG 2 pos
 		ARG 3 state
+	METHOD a getBlockFaceShape (Lamw;Lawr;Let;Lfa;)Lawp;
+		ARG 0 blockView
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 face
 	METHOD a update (Lawr;Lams;Let;Laou;Let;)V
 		ARG 0 state
 		ARG 1 world
@@ -50,7 +55,7 @@ CLASS apk net/minecraft/block/BlockCocoa
 		ARG 0 state
 		ARG 1 rotation
 	METHOD b createStateFactory ()Laws;
-	METHOD b randomTick (Lams;Let;Lawr;Ljava/util/Random;)V
+	METHOD b updateTick (Lams;Let;Lawr;Ljava/util/Random;)V
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 state

@@ -1,0 +1,14 @@
+CLASS avg net/minecraft/block/entity/BlockEntityBed
+	FIELD a color Lahq;
+	METHOD a getColor ()Lahq;
+	METHOD a setColor (Lahq;)V
+		ARG 0 color
+	METHOD a setColorFromStack (Lain;)V
+		ARG 0 stack
+	METHOD a deserialize (Lfy;)V
+		ARG 0 tag
+	METHOD b serialize (Lfy;)Lfy;
+		ARG 0 tag
+	METHOD c getUpdatePacket ()Lih;
+	METHOD d serializeInitialChunkData ()Lfy;
+	METHOD f getBedStack ()Lain;

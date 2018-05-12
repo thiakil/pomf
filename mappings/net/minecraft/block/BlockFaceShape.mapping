@@ -1,0 +1,10 @@
+CLASS awp net/minecraft/block/BlockFaceShape
+	FIELD a SOLID Lawp;
+	FIELD b BOWL Lawp;
+	FIELD c CENTER_SMALL Lawp;
+	FIELD d MIDDLE_POLE_THIN Lawp;
+	FIELD e CENTER Lawp;
+	FIELD f MIDDLE_POLE Lawp;
+	FIELD g CENTER_BIG Lawp;
+	FIELD h MIDDLE_POLE_THICK Lawp;
+	FIELD i NONE Lawp;

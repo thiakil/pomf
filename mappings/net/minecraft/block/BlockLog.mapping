@@ -3,9 +3,13 @@ CLASS asm net/minecraft/block/BlockLog
 	METHOD a deserializeState (I)Lawr;
 		ARG 0 meta
 	METHOD a addStacksForDisplay (Lahn;Lfi;)V
+		ARG 0 tab
 		ARG 1 list
 	METHOD b createStateFactory ()Laws;
 	METHOD c getMapColor (Lawr;Lamw;Let;)Lbcy;
+		ARG 0 state
+		ARG 1 blockView
+		ARG 2 pos
 	METHOD d getDropItemDamage (Lawr;)I
 		ARG 0 state
 	METHOD e serializeState (Lawr;)I

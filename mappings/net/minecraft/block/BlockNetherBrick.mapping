@@ -1,2 +1,5 @@
 CLASS asb net/minecraft/block/BlockNetherBrick
 	METHOD c getMapColor (Lawr;Lamw;Let;)Lbcy;
+		ARG 0 state
+		ARG 1 blockView
+		ARG 2 pos

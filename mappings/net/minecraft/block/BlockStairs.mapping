@@ -62,6 +62,11 @@ CLASS aub net/minecraft/block/BlockStairs
 		ARG 1 pos
 		ARG 2 entity
 		ARG 3 movement
+	METHOD a getBlockFaceShape (Lamw;Lawr;Let;Lfa;)Lawp;
+		ARG 0 blockView
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 face
 	METHOD a addBoundingBoxes (Lawr;Lams;Let;Lbgz;Ljava/util/List;Lve;Z)V
 		ARG 0 state
 		ARG 1 world
@@ -88,6 +93,7 @@ CLASS aub net/minecraft/block/BlockStairs
 		ARG 1 rotation
 	METHOD a canCollideWith (Lawr;Z)Z
 		ARG 0 state
+		ARG 1 hitLiquid
 	METHOD a getExplosionResistance (Lve;)F
 		ARG 0 entity
 	METHOD b createStateFactory ()Laws;
@@ -95,7 +101,7 @@ CLASS aub net/minecraft/block/BlockStairs
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 state
-	METHOD b randomTick (Lams;Let;Lawr;Ljava/util/Random;)V
+	METHOD b updateTick (Lams;Let;Lawr;Ljava/util/Random;)V
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 state
@@ -113,7 +119,10 @@ CLASS aub net/minecraft/block/BlockStairs
 	METHOD c isFullBoundsCubeForConnection (Lawr;)Z
 		ARG 0 state
 	METHOD c getMapColor (Lawr;Lamw;Let;)Lbcy;
-	METHOD d (Lams;Let;Lawr;)V
+		ARG 0 state
+		ARG 1 blockView
+		ARG 2 pos
+	METHOD d onDestroyedByPlayer (Lams;Let;Lawr;)V
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 state
@@ -130,4 +139,4 @@ CLASS aub net/minecraft/block/BlockStairs
 	METHOD f getRenderLayer ()Lamk;
 	METHOD k hasSolidTopSurface (Lawr;)Z
 		ARG 0 state
-	METHOD m canCollideWith ()Z
+	METHOD m isCollidable ()Z

@@ -1,5 +1,7 @@
 CLASS adl net/minecraft/entity/mob/EntitySpider
 	CLASS adl$a
+		METHOD a getAttackRangeSquared (Lvn;)D
+			ARG 0 target
 		METHOD b shouldContinue ()Z
 	CLASS adl$c
 		METHOD a canStart ()Z

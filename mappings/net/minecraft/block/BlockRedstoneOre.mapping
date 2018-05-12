@@ -49,7 +49,7 @@ CLASS atc net/minecraft/block/BlockRedstoneOre
 	METHOD b lightUp (Lams;Let;)V
 		ARG 0 world
 		ARG 1 pos
-	METHOD b randomTick (Lams;Let;Lawr;Ljava/util/Random;)V
+	METHOD b updateTick (Lams;Let;Lawr;Ljava/util/Random;)V
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 state

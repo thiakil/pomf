@@ -32,6 +32,7 @@ CLASS ary net/minecraft/block/BlockMonsterEgg
 	METHOD a deserializeState (I)Lawr;
 		ARG 0 meta
 	METHOD a addStacksForDisplay (Lahn;Lfi;)V
+		ARG 0 tab
 		ARG 1 list
 	METHOD a getPickStack (Lams;Let;Lawr;)Lain;
 		ARG 0 world

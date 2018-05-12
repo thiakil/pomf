@@ -14,6 +14,7 @@ CLASS apw net/minecraft/block/BlockDirt
 	METHOD a deserializeState (I)Lawr;
 		ARG 0 meta
 	METHOD a addStacksForDisplay (Lahn;Lfi;)V
+		ARG 0 tab
 		ARG 1 list
 	METHOD a getPickStack (Lams;Let;Lawr;)Lain;
 		ARG 0 world
@@ -21,6 +22,9 @@ CLASS apw net/minecraft/block/BlockDirt
 		ARG 2 state
 	METHOD b createStateFactory ()Laws;
 	METHOD c getMapColor (Lawr;Lamw;Let;)Lbcy;
+		ARG 0 state
+		ARG 1 blockView
+		ARG 2 pos
 	METHOD d getDropItemDamage (Lawr;)I
 		ARG 0 state
 	METHOD d getRenderingState (Lawr;Lamw;Let;)Lawr;

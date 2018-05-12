@@ -58,5 +58,8 @@ CLASS arl net/minecraft/block/BlockMushroomHuge
 		ARG 0 random
 	METHOD b createStateFactory ()Laws;
 	METHOD c getMapColor (Lawr;Lamw;Let;)Lbcy;
+		ARG 0 state
+		ARG 1 blockView
+		ARG 2 pos
 	METHOD e serializeState (Lawr;)I
 		ARG 0 state

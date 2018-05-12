@@ -17,6 +17,7 @@ CLASS aul net/minecraft/block/BlockTallGrass
 		ARG 0 fortune
 		ARG 1 random
 	METHOD a addStacksForDisplay (Lahn;Lfi;)V
+		ARG 0 tab
 		ARG 1 list
 	METHOD a afterBreak (Lams;Laeb;Let;Lawr;Lavh;Lain;)V
 		ARG 0 world

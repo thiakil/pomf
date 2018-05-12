@@ -4,3 +4,6 @@ CLASS ask net/minecraft/block/BlockObsidian
 		ARG 1 random
 		ARG 2 fortune
 	METHOD c getMapColor (Lawr;Lamw;Let;)Lbcy;
+		ARG 0 state
+		ARG 1 blockView
+		ARG 2 pos

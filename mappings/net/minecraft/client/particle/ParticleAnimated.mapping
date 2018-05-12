@@ -19,3 +19,4 @@ CLASS btj net/minecraft/client/particle/ParticleAnimated
 		ARG 0 color
 	METHOD d setTargetColor (I)V
 		ARG 0 color
+	METHOD f setAirFriction (F)V

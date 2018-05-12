@@ -34,7 +34,7 @@ CLASS aun net/minecraft/block/BlockTNT
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 state
-	METHOD d (Lams;Let;Lawr;)V
+	METHOD d onDestroyedByPlayer (Lams;Let;Lawr;)V
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 state

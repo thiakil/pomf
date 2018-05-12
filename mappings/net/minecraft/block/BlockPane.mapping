@@ -8,6 +8,11 @@ CLASS aum net/minecraft/block/BlockPane
 	METHOD <init> (Lbcx;Z)V
 		ARG 0 material
 		ARG 1 harvestable
+	METHOD a getBlockFaceShape (Lamw;Lawr;Let;Lfa;)Lawp;
+		ARG 0 blockView
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 face
 	METHOD a addBoundingBoxes (Lawr;Lams;Let;Lbgz;Ljava/util/List;Lve;Z)V
 		ARG 0 state
 		ARG 1 world

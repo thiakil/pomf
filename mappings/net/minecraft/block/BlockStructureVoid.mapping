@@ -6,6 +6,11 @@ CLASS auk net/minecraft/block/BlockStructureVoid
 		ARG 2 state
 		ARG 3 dropChance
 		ARG 4 fortune
+	METHOD a getBlockFaceShape (Lamw;Lawr;Let;Lfa;)Lawp;
+		ARG 0 blockView
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 face
 	METHOD a getRenderType (Lawr;)Lath;
 		ARG 0 state
 	METHOD a getCollisionBox (Lawr;Lamw;Let;)Lbgz;

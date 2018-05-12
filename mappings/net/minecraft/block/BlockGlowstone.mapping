@@ -9,3 +9,6 @@ CLASS aqy net/minecraft/block/BlockGlowstone
 	METHOD a getDropAmount (Ljava/util/Random;)I
 		ARG 0 random
 	METHOD c getMapColor (Lawr;Lamw;Let;)Lbcy;
+		ARG 0 state
+		ARG 1 blockView
+		ARG 2 pos

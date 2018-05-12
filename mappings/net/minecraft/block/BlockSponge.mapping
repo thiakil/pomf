@@ -3,6 +3,7 @@ CLASS atx net/minecraft/block/BlockSponge
 	METHOD a deserializeState (I)Lawr;
 		ARG 0 meta
 	METHOD a addStacksForDisplay (Lahn;Lfi;)V
+		ARG 0 tab
 		ARG 1 list
 	METHOD a update (Lawr;Lams;Let;Laou;Let;)V
 		ARG 0 state

@@ -31,6 +31,11 @@ CLASS awh net/minecraft/block/BlockPiston
 		ARG 1 pos
 		ARG 2 dir
 		ARG 3 forward
+	METHOD a getBlockFaceShape (Lamw;Lawr;Let;Lfa;)Lawp;
+		ARG 0 blockView
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 face
 	METHOD a onBlockAction (Lawr;Lams;Let;II)Z
 		ARG 0 state
 		ARG 1 world

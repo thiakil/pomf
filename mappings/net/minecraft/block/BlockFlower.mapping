@@ -29,6 +29,7 @@ CLASS aqp net/minecraft/block/BlockFlower
 	METHOD a deserializeState (I)Lawr;
 		ARG 0 meta
 	METHOD a addStacksForDisplay (Lahn;Lfi;)V
+		ARG 0 tab
 		ARG 1 list
 	METHOD b createStateFactory ()Laws;
 	METHOD b getBoundingBox (Lawr;Lamw;Let;)Lbgz;

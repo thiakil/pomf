@@ -15,6 +15,11 @@ CLASS aqo net/minecraft/block/BlockFire
 		ARG 0 world
 		ARG 1 pos
 	METHOD a trySpreadFire (Lams;Let;ILjava/util/Random;I)V
+	METHOD a getBlockFaceShape (Lamw;Lawr;Let;Lfa;)Lawp;
+		ARG 0 blockView
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 face
 	METHOD a registerFlammable (Laou;II)V
 		ARG 0 block
 	METHOD a update (Lawr;Lams;Let;Laou;Let;)V
@@ -35,7 +40,7 @@ CLASS aqo net/minecraft/block/BlockFire
 	METHOD a getDropAmount (Ljava/util/Random;)I
 		ARG 0 random
 	METHOD b createStateFactory ()Laws;
-	METHOD b randomTick (Lams;Let;Lawr;Ljava/util/Random;)V
+	METHOD b updateTick (Lams;Let;Lawr;Ljava/util/Random;)V
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 state
@@ -55,6 +60,9 @@ CLASS aqo net/minecraft/block/BlockFire
 	METHOD c isFullBoundsCubeForConnection (Lawr;)Z
 		ARG 0 state
 	METHOD c getMapColor (Lawr;Lamw;Let;)Lbcy;
+		ARG 0 state
+		ARG 1 blockView
+		ARG 2 pos
 	METHOD d getRenderingState (Lawr;Lamw;Let;)Lawr;
 		ARG 0 state
 		ARG 1 view
@@ -67,5 +75,5 @@ CLASS aqo net/minecraft/block/BlockFire
 	METHOD f getRenderLayer ()Lamk;
 	METHOD f getFireBurnChance (Laou;)I
 		ARG 0 block
-	METHOD m canCollideWith ()Z
+	METHOD m isCollidable ()Z
 	METHOD r canUpdate ()Z

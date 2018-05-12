@@ -31,6 +31,11 @@ CLASS aqi net/minecraft/block/BlockEnderChest
 		ARG 5 hitZ
 		ARG 6 metadata
 		ARG 7 player
+	METHOD a getBlockFaceShape (Lamw;Lawr;Let;Lfa;)Lawp;
+		ARG 0 blockView
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 face
 	METHOD a getRenderType (Lawr;)Lath;
 		ARG 0 state
 	METHOD a randomDisplayTick (Lawr;Lams;Let;Ljava/util/Random;)V

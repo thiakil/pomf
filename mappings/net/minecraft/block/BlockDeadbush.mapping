@@ -21,5 +21,8 @@ CLASS aps net/minecraft/block/BlockDeadbush
 		ARG 1 view
 		ARG 2 pos
 	METHOD c getMapColor (Lawr;Lamw;Let;)Lbcy;
+		ARG 0 state
+		ARG 1 blockView
+		ARG 2 pos
 	METHOD x isValidSoil (Lawr;)Z
 		ARG 0 state

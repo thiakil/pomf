@@ -20,6 +20,11 @@ CLASS atq net/minecraft/block/BlockSign
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
+	METHOD a getBlockFaceShape (Lamw;Lawr;Let;Lfa;)Lawp;
+		ARG 0 blockView
+		ARG 1 state
+		ARG 2 pos
+		ARG 3 face
 	METHOD a getCollisionBox (Lawr;Lamw;Let;)Lbgz;
 		ARG 0 state
 		ARG 1 view

@@ -3,6 +3,7 @@ CLASS atz net/minecraft/block/BlockGlassPaneStained
 	METHOD a deserializeState (I)Lawr;
 		ARG 0 meta
 	METHOD a addStacksForDisplay (Lahn;Lfi;)V
+		ARG 0 tab
 		ARG 1 list
 	METHOD a applyMirror (Lawr;Larw;)Lawr;
 		ARG 0 state
@@ -20,6 +21,9 @@ CLASS atz net/minecraft/block/BlockGlassPaneStained
 		ARG 1 pos
 		ARG 2 state
 	METHOD c getMapColor (Lawr;Lamw;Let;)Lbcy;
+		ARG 0 state
+		ARG 1 blockView
+		ARG 2 pos
 	METHOD d getDropItemDamage (Lawr;)I
 		ARG 0 state
 	METHOD e serializeState (Lawr;)I
