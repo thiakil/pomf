@@ -1,0 +1,8 @@
+CLASS ww net/minecraft/entity/ai/AiFleeSun
+	FIELD a entity Lvv;
+	FIELD f world Lams;
+	METHOD <init> (Lvv;D)V
+		ARG 0 entity
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V

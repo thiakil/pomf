@@ -1,0 +1,9 @@
+CLASS wq net/minecraft/entity/ai/AiAvoidEntity
+	FIELD c entityPredicate Lcom/google/common/base/Predicate;
+	METHOD <init> (Lvv;Ljava/lang/Class;Lcom/google/common/base/Predicate;FDD)V
+		ARG 2 entityPredicate
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD d onRemove ()V
+	METHOD e tick ()V

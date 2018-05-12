@@ -37,6 +37,7 @@ CLASS kw net/minecraft/network/handler/INetworkGameHandlerServer
 		ARG 0 packet
 	METHOD a onVehicleSteer (Llq;)V
 		ARG 0 packet
+	METHOD a handleRecipeBookUpdate (Llr;)V
 	METHOD a onResourcePackStatus (Lls;)V
 		ARG 0 packet
 	METHOD a onPlayerHeldItemUpdate (Llu;)V

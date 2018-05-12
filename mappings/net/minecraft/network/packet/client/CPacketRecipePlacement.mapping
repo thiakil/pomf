@@ -1,4 +1,4 @@
-CLASS lr
+CLASS ky net/minecraft/network/packet/client/CPacketRecipePlacement
 	METHOD a readPacket (Lgy;)V
 		ARG 0 buf
 	METHOD a applyPacket (Lhb;)V
