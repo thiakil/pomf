@@ -9,11 +9,17 @@ CLASS buo net/minecraft/client/render/WorldRenderer
 	METHOD <init> (Lbhz;Lcen;)V
 		ARG 0 game
 		ARG 1 resourceContainer
+	METHOD a (F)V
+		ARG 0 tickDelta
 	METHOD a draw (FJ)V
 		ARG 0 tickDelta
 		ARG 1 nanoTime
+	METHOD a (IFJ)V
+		ARG 1 tickDelta
 	METHOD a onResourceReload (Lcen;)V
 		ARG 0 container
 	METHOD a onSetCameraEntity (Lve;)V
 		ARG 0 entity
+	METHOD b (FJ)V
+		ARG 0 tickDelta
 	METHOD e tick ()V

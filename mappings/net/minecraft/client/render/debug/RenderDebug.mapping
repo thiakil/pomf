@@ -1,15 +1,26 @@
 CLASS bye net/minecraft/client/render/debug/RenderDebug
 	CLASS bye$a IRenderDebug
 		METHOD a render (FJ)V
-	FIELD a renderDebugPathfinding Lbye$a;
-	FIELD b renderDebugWater Lbye$a;
-	FIELD c renderDebugChunkBorder Lbye$a;
-	FIELD d renderDebugHeightMap Lbye$a;
+			ARG 0 tickDelta
+	FIELD a pathfindingRenderer Lbye$a;
+	FIELD b waterRenderer Lbye$a;
+	FIELD c chunkBorderRenderer Lbye$a;
+	FIELD d heightMapRenderer Lbye$a;
+	FIELD e boundingBoxRenderer Lbye$a;
+	FIELD f neighborUpdateRenderer Lbye$a;
+	FIELD g blockFaceRenderer Lbye$a;
 	FIELD h showChunkBorder Z
 	FIELD i showPathfinding Z
 	FIELD j showWater Z
 	FIELD k showHeightmap Z
+	FIELD l showBoundingBoxes Z
+	FIELD m showNeighborUpdates Z
+	FIELD n showBlockFaces Z
 	METHOD <init> (Lbhz;)V
 		ARG 0 game
+	METHOD a isEnabled ()Z
 	METHOD a renderDebuggers (FJ)V
+		ARG 0 tickDelta
+	METHOD a (Ljava/lang/String;DDDFI)V
+		ARG 4 tickDelta
 	METHOD b toggleShowChunkBorder ()Z

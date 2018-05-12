@@ -69,6 +69,7 @@ CLASS bhz net/minecraft/client/MinecraftGame
 	FIELD m currentGui Lbli;
 	FIELD n progressBar Lbic;
 	FIELD o worldRenderer Lbuo;
+	FIELD p debugRenderer Lbye;
 	FIELD q hudInGame Lbio;
 	FIELD s hitResult Lbha;
 	FIELD t settings Lbib;

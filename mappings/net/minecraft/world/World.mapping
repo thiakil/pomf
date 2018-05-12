@@ -280,10 +280,12 @@ CLASS ams net/minecraft/world/World
 		ARG 4 power
 		ARG 5 createFire
 		ARG 6 destroyBlocks
+	METHOD a getCollidingBounds (Lve;Lbgz;)Ljava/util/List;
 	METHOD a getEntitiesIn (Lve;Lbgz;Lcom/google/common/base/Predicate;)Ljava/util/List;
 		ARG 0 except
 		ARG 1 area
 		ARG 2 filter
+	METHOD a getCollidingBlockBounds (Lve;Lbgz;ZLjava/util/List;)Z
 	METHOD a tickScheduledBlocks (Z)Z
 		ARG 0 tickAllNow
 	METHOD a setSpawnEnabled (ZZ)V

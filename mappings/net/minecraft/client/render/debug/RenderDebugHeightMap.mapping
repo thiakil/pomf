@@ -3,3 +3,4 @@ CLASS byf net/minecraft/client/render/debug/RenderDebugHeightMap
 	METHOD <init> (Lbhz;)V
 		ARG 0 game
 	METHOD a render (FJ)V
+		ARG 0 tickDelta

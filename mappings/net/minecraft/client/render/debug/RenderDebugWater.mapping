@@ -3,3 +3,4 @@ CLASS byj net/minecraft/client/render/debug/RenderDebugWater
 	METHOD <init> (Lbhz;)V
 		ARG 0 game
 	METHOD a render (FJ)V
+		ARG 0 tickDelta
