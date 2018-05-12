@@ -1,4 +1,4 @@
-CLASS bui net/minecraft/client/render/VertexBuffer
+CLASS bui net/minecraft/client/render/BufferBuilder
 	CLASS bui$a BufferState
 		FIELD b rawBuffer [I
 		FIELD c format Lcdy;
