@@ -1,8 +1,13 @@
-CLASS bnv
+CLASS bnv net/minecraft/client/gui/widget/WidgetListResourcePackEntry
 	CLASS bnv$1
 		METHOD a handle (ZI)V
 			ARG 0 result
 			ARG 1 callbackId
+	FIELD a mc Lbhz;
+	FIELD b gui Lbnu;
+	FIELD c TEXTURES Lnd;
+	METHOD <init> (Lbnu;)V
+		ARG 0 gui
 	METHOD a drawEntry (IIIF)V
 	METHOD a handleMouseClick (IIIIII)Z
 		ARG 0 index

@@ -1,0 +1,3 @@
+CLASS xf net/minecraft/entity/ai/AiWatchClosest2
+	METHOD <init> (Lvo;Ljava/lang/Class;FF)V
+		ARG 0 entity

@@ -1,0 +1,4 @@
+CLASS ang net/minecraft/world/biome/BiomeCache
+	FIELD a provider Lanj;
+	METHOD <init> (Lanj;)V
+		ARG 0 provider

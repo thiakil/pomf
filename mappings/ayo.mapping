@@ -1,0 +1,36 @@
+CLASS ayo
+	CLASS ayo$1
+		METHOD a (Lom;Layp;Ljava/util/List;ILet;)V
+			ARG 0 worldServer
+			ARG 1 dragonManager
+			ARG 2 crystalList
+			ARG 4 pos
+	CLASS ayo$2
+		METHOD a (Lom;Layp;Ljava/util/List;ILet;)V
+			ARG 0 worldServer
+			ARG 1 dragonManager
+			ARG 2 crystalList
+			ARG 4 pos
+	CLASS ayo$3
+		METHOD a (Lom;Layp;Ljava/util/List;ILet;)V
+			ARG 0 worldServer
+			ARG 1 dragonManager
+			ARG 2 crystalList
+			ARG 4 pos
+	CLASS ayo$4
+		METHOD a (Lom;Layp;Ljava/util/List;ILet;)V
+			ARG 0 worldServer
+			ARG 1 dragonManager
+			ARG 2 crystalList
+			ARG 4 pos
+	CLASS ayo$5
+		METHOD a (Lom;Layp;Ljava/util/List;ILet;)V
+			ARG 0 worldServer
+			ARG 1 dragonManager
+			ARG 2 crystalList
+			ARG 4 pos
+	METHOD a (Lom;Layp;Ljava/util/List;ILet;)V
+		ARG 0 worldServer
+		ARG 1 dragonManager
+		ARG 2 crystalList
+		ARG 4 pos
