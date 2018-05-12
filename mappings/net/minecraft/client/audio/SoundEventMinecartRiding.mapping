@@ -1,6 +1,6 @@
-CLASS cgl net/minecraft/client/audio/SoundEventMinecartRiding
-	FIELD m minecart Lafc;
-	FIELD n distance F
-	METHOD <init> (Lafc;)V
+CLASS dgv net/minecraft/client/audio/SoundEventMinecartRiding
+	FIELD n minecart Lasi;
+	FIELD o distance F
+	METHOD <init> (Lasi;)V
 		ARG 0 minecart
-	METHOD e update ()V
+	METHOD Y_ update ()V

@@ -1,17 +1,17 @@
-CLASS agi net/minecraft/container/ContainerVillager
-	FIELD a villager Lamd;
-	FIELD f villagerInventory Lagh;
-	FIELD g world Lams;
-	METHOD <init> (Laea;Lamd;Lams;)V
+CLASS atp net/minecraft/container/ContainerVillager
+	FIELD a villager Lbae;
+	FIELD f villagerInventory Lato;
+	FIELD g world Lbax;
+	METHOD <init> (Larg;Lbae;Lbax;)V
 		ARG 0 playerInv
 		ARG 1 villager
 		ARG 2 world
-	METHOD a canUse (Laeb;)Z
-		ARG 0 player
-	METHOD a onContentChanged (Ltt;)V
+	METHOD a onContentChanged (Lagg;)V
 		ARG 0 inventory
-	METHOD b close (Laeb;)V
+	METHOD a canUse (Larh;)Z
 		ARG 0 player
-	METHOD b getStack (Laeb;I)Lain;
+	METHOD b close (Larh;)V
+		ARG 0 player
+	METHOD b getStack (Larh;I)Lawg;
 		ARG 0 player
 		ARG 1 slot

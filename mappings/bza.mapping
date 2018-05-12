@@ -1,0 +1,5 @@
+CLASS bza
+	METHOD a deserialize (Lgu;)V
+		ARG 0 tag
+	METHOD b serialize (Lgu;)Lgu;
+		ARG 0 tag

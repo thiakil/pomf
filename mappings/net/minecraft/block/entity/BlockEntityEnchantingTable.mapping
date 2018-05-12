@@ -1,18 +1,14 @@
-CLASS avp net/minecraft/block/entity/BlockEntityEnchantingTable
+CLASS bml net/minecraft/block/entity/BlockEntityEnchantingTable
 	FIELD a ticks I
-	FIELD o RANDOM Ljava/util/Random;
-	FIELD p name Ljava/lang/String;
-	METHOD a createContainer (Laea;Laeb;)Lafp;
+	FIELD n RANDOM Ljava/util/Random;
+	METHOD N_ getNameAsComponent ()Lic;
+	METHOD O_ hasCustomName ()Z
+	METHOD Y_ update ()V
+	METHOD a createContainer (Larg;Larh;)Lasw;
 		ARG 0 playerInv
 		ARG 1 player
-	METHOD a deserialize (Lfy;)V
+	METHOD a serialize (Lgu;)Lgu;
 		ARG 0 tag
-	METHOD a setName (Ljava/lang/String;)V
-		ARG 0 name
-	METHOD b serialize (Lfy;)Lfy;
+	METHOD b deserialize (Lgu;)V
 		ARG 0 tag
-	METHOD e update ()V
-	METHOD h_ getName ()Ljava/lang/String;
-	METHOD i_ getNameAsComponent ()Lhh;
 	METHOD l getContainerId ()Ljava/lang/String;
-	METHOD n_ hasCustomName ()Z

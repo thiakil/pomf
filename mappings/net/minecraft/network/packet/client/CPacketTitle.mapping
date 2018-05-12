@@ -1,12 +1,10 @@
-CLASS ko net/minecraft/network/packet/client/CPacketTitle
-	CLASS ko$a Action
-		FIELD d DISPLAY Lko$a;
-		FIELD e HIDE Lko$a;
-		FIELD f RESET Lko$a;
-		METHOD a names ()[Ljava/lang/String;
-		METHOD a byName (Ljava/lang/String;)Lko$a;
-	FIELD a action Lko$a;
-	FIELD b text Lhh;
+CLASS lm net/minecraft/network/packet/client/CPacketTitle
+	CLASS lm$a Action
+		FIELD d DISPLAY Llm$a;
+		FIELD e HIDE Llm$a;
+		FIELD f RESET Llm$a;
+	FIELD a action Llm$a;
+	FIELD b text Lic;
 	FIELD c ticksFadeIn I
 	FIELD d ticksDisplay I
 	FIELD e ticksFadeOut I
@@ -14,24 +12,24 @@ CLASS ko net/minecraft/network/packet/client/CPacketTitle
 		ARG 0 ticksFadeIn
 		ARG 1 ticksDisplay
 		ARG 2 ticksFadeOut
-	METHOD <init> (Lko$a;Lhh;)V
+	METHOD <init> (Llm$a;Lic;)V
 		ARG 0 action
 		ARG 1 text
-	METHOD <init> (Lko$a;Lhh;III)V
+	METHOD <init> (Llm$a;Lic;III)V
 		ARG 0 action
 		ARG 1 text
 		ARG 2 ticksFadeIn
 		ARG 3 ticksDisplay
 		ARG 4 ticksFadeOut
-	METHOD a getAction ()Lko$a;
-	METHOD a readPacket (Lgy;)V
+	METHOD a getAction ()Llm$a;
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
-		ARG 0 handler
 	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
-	METHOD b getText ()Lhh;
-	METHOD b writePacket (Lgy;)V
+	METHOD a applyPacket (Lis;)V
+		ARG 0 handler
+	METHOD b getText ()Lic;
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf
 	METHOD c getTicksFadeIn ()I
 	METHOD d getTicksDisplay ()I

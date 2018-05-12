@@ -1,21 +1,21 @@
-CLASS alu net/minecraft/enchantment/EnchantmentProtection
-	CLASS alu$a Type
-		FIELD a ALL Lalu$a;
-		FIELD b FIRE Lalu$a;
-		FIELD c FALL Lalu$a;
-		FIELD d EXPLOSION Lalu$a;
-		FIELD e PROJECTILE Lalu$a;
+CLASS azr net/minecraft/enchantment/EnchantmentProtection
+	CLASS azr$a Type
+		FIELD a ALL Lazr$a;
+		FIELD b FIRE Lazr$a;
+		FIELD c FALL Lazr$a;
+		FIELD d EXPLOSION Lazr$a;
+		FIELD e PROJECTILE Lazr$a;
 		FIELD f name Ljava/lang/String;
 		METHOD a getName ()Ljava/lang/String;
-	FIELD a type Lalu$a;
-	METHOD <init> (Lali$a;Lalu$a;[Lvj;)V
+	FIELD a type Lazr$a;
+	METHOD <init> (Lazf$a;Lazr$a;[Lahy;)V
 		ARG 0 weight
 		ARG 1 type
 		ARG 2 slotTypes
 	METHOD a getTranslationKey ()Ljava/lang/String;
-	METHOD a getProtectionAmount (ILup;)I
+	METHOD a getProtectionAmount (ILahc;)I
 		ARG 0 level
 		ARG 1 source
-	METHOD a isEqual (Lali;)Z
+	METHOD a isEqual (Lazf;)Z
 		ARG 0 other
 	METHOD b getHighestLevel ()I

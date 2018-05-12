@@ -1,6 +1,6 @@
-CLASS cag net/minecraft/client/render/entity/EntityRendererPainting
-	FIELD a TEX Lnd;
-	METHOD a getTexture (Lacb;)Lnd;
+CLASS day net/minecraft/client/render/entity/EntityRendererPainting
+	FIELD a TEX Loj;
+	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lve;)Lnd;
+	METHOD a getTexture (Lapf;)Loj;
 		ARG 0 model

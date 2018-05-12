@@ -1,6 +1,6 @@
-CLASS bzk net/minecraft/client/render/entity/EntityRendererFishHook
-	FIELD a TEX Lnd;
-	METHOD a getTexture (Lacd;)Lnd;
+CLASS dac net/minecraft/client/render/entity/EntityRendererFishHook
+	FIELD a TEX Loj;
+	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lve;)Lnd;
+	METHOD a getTexture (Laph;)Loj;
 		ARG 0 model

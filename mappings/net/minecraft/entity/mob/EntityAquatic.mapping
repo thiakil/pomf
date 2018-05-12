@@ -1,3 +1,5 @@
-CLASS aaj net/minecraft/entity/mob/EntityAquatic
-	METHOD P canSpawn ()Z
-	METHOD Y updateLogic ()V
+CLASS anm net/minecraft/entity/mob/EntityAquatic
+	METHOD X updateLogic ()V
+	METHOD a canBeLeashedBy (Larh;)Z
+		ARG 0 player
+	METHOD cB getEntityAttribute ()Laih;

@@ -1,11 +1,11 @@
-CLASS zm net/minecraft/village/VillageProperties
-	CLASS zm$a AttackerInfo
-		FIELD a attacker Lvn;
+CLASS ami net/minecraft/village/VillageProperties
+	CLASS ami$a AttackerInfo
+		FIELD a attacker Laic;
 		FIELD b tick I
-	FIELD a world Lams;
+	FIELD a world Lbax;
 	FIELD b doors Ljava/util/List;
-	FIELD c doorPositionsAggregate Let;
-	FIELD d center Let;
+	FIELD c doorPositionsAggregate Lef;
+	FIELD d center Lef;
 	FIELD e radius I
 	FIELD f stable I
 	FIELD g tick I
@@ -14,39 +14,39 @@ CLASS zm net/minecraft/village/VillageProperties
 	FIELD j players Ljava/util/Map;
 	FIELD k attackerInfos Ljava/util/List;
 	FIELD l golems I
-	METHOD <init> (Lams;)V
+	METHOD <init> (Lbax;)V
 		ARG 0 world
-	METHOD a getCenter ()Let;
+	METHOD a getCenter ()Lef;
 	METHOD a update (I)V
 		ARG 0 tick
-	METHOD a setWorld (Lams;)V
-		ARG 0 world
-	METHOD a isInRadius (Let;)Z
-		ARG 0 pos
-	METHOD a deserialize (Lfy;)V
-		ARG 0 tag
-	METHOD a addAttacker (Lvn;)V
+	METHOD a addAttacker (Laic;)V
 		ARG 0 attacker
-	METHOD a addDoor (Lzl;)V
+	METHOD a addDoor (Lamh;)V
 		ARG 0 door
-	METHOD b getRadius ()I
-	METHOD b getClosestDoor (Let;)Lzl;
+	METHOD a setWorld (Lbax;)V
+		ARG 0 world
+	METHOD a isInRadius (Lef;)Z
 		ARG 0 pos
-	METHOD b serialize (Lfy;)V
+	METHOD a deserialize (Lgu;)V
 		ARG 0 tag
-	METHOD b getNearestAttacker (Lvn;)Lvn;
+	METHOD b getRadius ()I
+	METHOD b getNearestAttacker (Laic;)Laic;
 		ARG 0 entity
-	METHOD c getDoorCount ()I
-	METHOD c getNearestDoor (Let;)Lzl;
+	METHOD b getClosestDoor (Lef;)Lamh;
 		ARG 0 pos
-	METHOD c getNearestPlayer (Lvn;)Laeb;
+	METHOD b serialize (Lgu;)V
+		ARG 0 tag
+	METHOD c getDoorCount ()I
+	METHOD c getNearestPlayer (Laic;)Larh;
 		ARG 0 entity
+	METHOD c getNearestDoor (Lef;)Lamh;
+		ARG 0 pos
 	METHOD d getStableTicks ()I
 	METHOD e getPopulationSize ()I
-	METHOD e getDoorAtPosition (Let;)Lzl;
+	METHOD e getDoorAtPosition (Lef;)Lamh;
 		ARG 0 pos
 	METHOD f getDoors ()Ljava/util/List;
-	METHOD f isValidDoor (Let;)Z
+	METHOD f isValidDoor (Lef;)Z
 		ARG 0 pos
 	METHOD g hasNoDoors ()Z
 	METHOD h onVillagerDeath ()V

@@ -1,17 +1,17 @@
-CLASS ls net/minecraft/network/packet/server/SPacketResourcePackStatus
-	CLASS ls$a Status
-		FIELD a SUCCESS Lls$a;
-		FIELD b DECLINED Lls$a;
-		FIELD c DOWNLOAD_FAILED Lls$a;
-		FIELD d ACCEPTED Lls$a;
-	FIELD a status Lls$a;
-	METHOD <init> (Lls$a;)V
+CLASS mt net/minecraft/network/packet/server/SPacketResourcePackStatus
+	CLASS mt$a Status
+		FIELD a SUCCESS Lmt$a;
+		FIELD b DECLINED Lmt$a;
+		FIELD c DOWNLOAD_FAILED Lmt$a;
+		FIELD d ACCEPTED Lmt$a;
+	FIELD a status Lmt$a;
+	METHOD <init> (Lmt$a;)V
 		ARG 0 status
-	METHOD a readPacket (Lgy;)V
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
+	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lkw;)V
+	METHOD a applyPacket (Llx;)V
 		ARG 0 handler
-	METHOD b writePacket (Lgy;)V
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf

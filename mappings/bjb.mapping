@@ -1,0 +1,2 @@
+CLASS bjb
+	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I

@@ -1,47 +1,37 @@
-CLASS ar net/minecraft/advancement/criterion/TriggerLocationArrival
-	CLASS ar$a Handler
-		FIELD a manager Lnn;
+CLASS ay net/minecraft/advancement/criterion/TriggerLocationArrival
+	CLASS ay$a Handler
+		FIELD a manager Lot;
 		FIELD b conditions Ljava/util/Set;
-		METHOD <init> (Lnn;)V
+		METHOD <init> (Lot;)V
 			ARG 0 manager
 		METHOD a isEmpty ()Z
-		METHOD a handle (Lom;DDD)V
+		METHOD a addCondition (Ls$a;)V
+			ARG 0 condition
+		METHOD a handle (Lsj;DDD)V
 			ARG 0 world
 			ARG 1 x
 			ARG 2 y
 			ARG 3 z
-		METHOD a addCondition (Lp$a;)V
+		METHOD b removeCondition (Ls$a;)V
 			ARG 0 condition
-		METHOD b removeCondition (Lp$a;)V
-			ARG 0 condition
-	CLASS ar$b Conditions
-		FIELD a location Laq;
-		METHOD <init> (Lnd;Laq;)V
-			ARG 0 id
-			ARG 1 location
-		METHOD a matches (Lom;DDD)Z
-			ARG 0 world
-			ARG 1 x
-			ARG 2 y
-			ARG 3 z
-	FIELD a id Lnd;
+	FIELD a id Loj;
 	FIELD b handlers Ljava/util/Map;
-	METHOD <init> (Lnd;)V
+	METHOD <init> (Loj;)V
 		ARG 0 id
-	METHOD a getId ()Lnd;
-	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lq;
+	METHOD a getId ()Loj;
+	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lt;
 		ARG 0 obj
 		ARG 1 context
-	METHOD a removePlayer (Lnn;)V
+	METHOD a removePlayer (Lot;)V
 		ARG 0 manager
-	METHOD a addCondition (Lnn;Lp$a;)V
+	METHOD a addCondition (Lot;Ls$a;)V
 		ARG 0 manager
 		ARG 1 condition
-	METHOD a handle (Loo;)V
+	METHOD a handle (Lsl;)V
 		ARG 0 player
-	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lar$b;
+	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lay$b;
 		ARG 0 obj
 		ARG 1 context
-	METHOD b removeCondition (Lnn;Lp$a;)V
+	METHOD b removeCondition (Lot;Ls$a;)V
 		ARG 0 manager
 		ARG 1 condition

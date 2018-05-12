@@ -1,6 +1,6 @@
-CLASS byf net/minecraft/client/render/debug/RenderDebugHeightMap
-	FIELD a game Lbhz;
-	METHOD <init> (Lbhz;)V
+CLASS cyp net/minecraft/client/render/debug/RenderDebugHeightMap
+	FIELD a game Lchp;
+	METHOD <init> (Lchp;)V
 		ARG 0 game
 	METHOD a render (FJ)V
 		ARG 0 tickDelta

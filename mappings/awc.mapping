@@ -1,0 +1,78 @@
+CLASS awc
+	CLASS awc$1
+		METHOD a getProperty (Lawg;Lbax;Laic;)F
+			ARG 0 stack
+			ARG 1 world
+			ARG 2 user
+	CLASS awc$2
+		METHOD a getProperty (Lawg;Lbax;Laic;)F
+			ARG 0 stack
+			ARG 1 world
+			ARG 2 user
+	CLASS awc$3
+		METHOD a getProperty (Lawg;Lbax;Laic;)F
+			ARG 0 stack
+			ARG 1 world
+			ARG 2 user
+	CLASS awc$4
+		METHOD a getProperty (Lawg;Lbax;Laic;)F
+			ARG 0 stack
+			ARG 1 world
+			ARG 2 user
+	METHOD W_ isMap ()Z
+	METHOD a getTranslationKey ()Ljava/lang/String;
+	METHOD a getAttributeModifiers (Lahy;)Lcom/google/common/collect/Multimap;
+		ARG 0 effectiveSlot
+	METHOD a addStacksForDisplay (Lava;Leu;)V
+		ARG 1 items
+	METHOD a isTool (Lawg;)Z
+		ARG 0 stack
+	METHOD a onEntityDamaged (Lawg;Laic;Laic;)Z
+		ARG 0 stack
+		ARG 1 target
+		ARG 2 user
+	METHOD a canRepair (Lawg;Lawg;)Z
+		ARG 0 item
+		ARG 1 repairItem
+	METHOD a onUpdate (Lawg;Lbax;Laht;IZ)V
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 invSlot
+		ARG 4 held
+	METHOD a onItemFinishedUsing (Lawg;Lbax;Laic;)Lawg;
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 user
+	METHOD a onItemStopUsing (Lawg;Lbax;Laic;I)V
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 player
+		ARG 3 remainingTime
+	METHOD a onBlockBroken (Lawg;Lbax;Lbnv;Lef;Laic;)Z
+		ARG 0 stack
+		ARG 1 world
+		ARG 3 pos
+		ARG 4 user
+	METHOD a addInformation (Lawg;Lbax;Ljava/util/List;Laxo;)V
+		ARG 0 stack
+		ARG 2 tooltip
+	METHOD a onRightClick (Lbax;Larh;Lagm;)Lagp;
+		ARG 0 world
+		ARG 1 player
+		ARG 2 hand
+	METHOD b hasEnchantmentGlow (Lawg;)Z
+		ARG 0 stack
+	METHOD b onCrafted (Lawg;Lbax;Larh;)V
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 player
+	METHOD c getEnchantability ()I
+	METHOD c getMaxUseTime (Lawg;)I
+		ARG 0 stack
+	METHOD d getUseAction (Lawg;)Laxq;
+		ARG 0 stack
+	METHOD e getRarity (Lawg;)Laws;
+		ARG 0 stack
+	METHOD i getTranslatedNameTrimmed (Lawg;)Lic;
+		ARG 0 stack

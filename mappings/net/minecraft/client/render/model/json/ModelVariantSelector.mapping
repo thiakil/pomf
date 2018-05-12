@@ -1,4 +1,3 @@
-CLASS bwi net/minecraft/client/render/model/json/ModelVariantSelector
-	CLASS bwi$a Parser
+CLASS cwt net/minecraft/client/render/model/json/ModelVariantSelector
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object

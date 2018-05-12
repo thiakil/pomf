@@ -1,4 +1,4 @@
-CLASS bpj net/minecraft/client/render/entity/model/EntityModelChest
-	FIELD a lid Lbrq;
-	FIELD b base Lbrq;
-	FIELD c hatch Lbrq;
+CLASS cpi net/minecraft/client/render/entity/model/EntityModelChest
+	FIELD a lid Lcrz;
+	FIELD b base Lcrz;
+	FIELD c hatch Lcrz;

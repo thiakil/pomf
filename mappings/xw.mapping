@@ -1,4 +1,16 @@
 CLASS xw
-	METHOD a canStart ()Z
-	METHOD b shouldContinue ()Z
-	METHOD c start ()V
+	CLASS xw$a
+		METHOD equals (Ljava/lang/Object;)Z
+			ARG 0 object
+	CLASS xw$c
+		METHOD equals (Ljava/lang/Object;)Z
+			ARG 0 object
+	CLASS xw$d
+		METHOD equals (Ljava/lang/Object;)Z
+			ARG 0 object
+	CLASS xw$g
+		METHOD equals (Ljava/lang/Object;)Z
+			ARG 0 object
+	CLASS xw$h
+		METHOD equals (Ljava/lang/Object;)Z
+			ARG 0 object

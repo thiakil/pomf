@@ -1,4 +1,0 @@
-CLASS sa net/minecraft/migration/TagUpgraderBedItem
-	METHOD a getTargetVersion ()I
-	METHOD a upgradeTag (Lfy;)Lfy;
-		ARG 0 tag

@@ -1,0 +1,5 @@
+CLASS so
+	METHOD a spawnEntity (Laht;)Z
+		ARG 0 entity
+	METHOD f getBlockEntity (Lef;)Lbmb;
+		ARG 0 pos

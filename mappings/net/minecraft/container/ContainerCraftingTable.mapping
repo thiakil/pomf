@@ -1,18 +1,10 @@
-CLASS afx net/minecraft/container/ContainerCraftingTable
-	FIELD a craftingInv Lafw;
-	FIELD f resultInv Lagl;
-	FIELD g world Lams;
-	FIELD h pos Let;
-	METHOD <init> (Laea;Lams;Let;)V
-		ARG 0 playerInv
-		ARG 1 world
-		ARG 2 pos
-	METHOD a canUse (Laeb;)Z
-		ARG 0 player
-	METHOD a onContentChanged (Ltt;)V
+CLASS ate net/minecraft/container/ContainerCraftingTable
+	METHOD a onContentChanged (Lagg;)V
 		ARG 0 inventory
-	METHOD b close (Laeb;)V
+	METHOD a canUse (Larh;)Z
 		ARG 0 player
-	METHOD b getStack (Laeb;I)Lain;
+	METHOD b close (Larh;)V
+		ARG 0 player
+	METHOD b getStack (Larh;I)Lawg;
 		ARG 0 player
 		ARG 1 slot

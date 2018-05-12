@@ -1,15 +1,13 @@
-CLASS adq net/minecraft/entity/mob/EntityWitherSkeleton
-	METHOD B attackEntity (Lve;)Z
-	METHOD F getSoundAmbient ()Lqc;
-	METHOD J getLootTableId ()Lnd;
-	METHOD a registerTagUpgraders (Lrw;)V
-		ARG 0 handler
-	METHOD a initEquipment (Lty;)V
+CLASS aqw net/minecraft/entity/mob/EntityWitherSkeleton
+	METHOD B attackEntity (Laht;)Z
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD a initEquipment (Lagl;)V
 		ARG 0 difficulty
-	METHOD a (Lty;Lvq;)Lvq;
+	METHOD a (Lagl;Laif;Lawg;)Laif;
 		ARG 0 difficulty
-	METHOD a onDeath (Lup;)V
+	METHOD a onDeath (Lahc;)V
 		ARG 0 damageSource
-	METHOD by getEyeHeight ()F
-	METHOD cf getSoundDeath ()Lqc;
-	METHOD d getSoundHurt (Lup;)Lqc;
+	METHOD bI getEyeHeight ()F
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahc;)Lvo;

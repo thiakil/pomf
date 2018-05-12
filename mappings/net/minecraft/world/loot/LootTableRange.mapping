@@ -1,7 +1,7 @@
-CLASS bfu net/minecraft/world/loot/LootTableRange
-	CLASS bfu$a Serializer
-		METHOD a serialize (Lbfu;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
-		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lbfu;
+CLASS ces net/minecraft/world/loot/LootTableRange
+	CLASS ces$a Serializer
+		METHOD a serialize (Lces;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lces;
 	FIELD a min F
 	FIELD b max F
 	METHOD <init> (F)V

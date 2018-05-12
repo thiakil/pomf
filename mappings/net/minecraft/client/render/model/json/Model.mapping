@@ -1,24 +1,24 @@
-CLASS bvs net/minecraft/client/render/model/json/Model
+CLASS cwd net/minecraft/client/render/model/json/Model
 	FIELD a GSON Lcom/google/gson/Gson;
 	FIELD c textureMap Ljava/util/Map;
-	FIELD d parentModel Lbvs;
-	FIELD e parentId Lnd;
+	FIELD d parentModel Lcwd;
+	FIELD e parentId Loj;
 	FIELD f LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD g elements Ljava/util/List;
 	FIELD i ambientOcclusion Z
 	FIELD k overrides Ljava/util/List;
-	METHOD <init> (Lnd;Ljava/util/List;Ljava/util/Map;ZZLbwa;Ljava/util/List;)V
+	METHOD <init> (Loj;Ljava/util/List;Ljava/util/Map;ZZLcwl;Ljava/util/List;)V
 		ARG 0 parentId
 		ARG 1 elements
 		ARG 2 textureMap
 		ARG 3 ambientOcclusion
 		ARG 6 overrides
 	METHOD a getElements ()Ljava/util/List;
-	METHOD a getTransformation (Lbwa$b;)Lbvz;
-	METHOD a load (Ljava/io/Reader;)Lbvs;
-	METHOD a load (Ljava/lang/String;)Lbvs;
+	METHOD a getTransformation (Lcwl$b;)Lcwk;
+	METHOD a load (Ljava/io/Reader;)Lcwd;
+	METHOD a load (Ljava/lang/String;)Lcwd;
 	METHOD b hasAmbientOcclusion ()Z
 	METHOD f getOverrides ()Ljava/util/List;
-	METHOD g getOverrideList ()Lbvy;
-	METHOD j getTransformationList ()Lbwa;
+	METHOD g getOverrideList ()Lcwj;
+	METHOD j getTransformationList ()Lcwl;
 	METHOD k hasParent ()Z

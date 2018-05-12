@@ -1,9 +1,9 @@
-CLASS bzr net/minecraft/client/render/entity/RenderIllagerIllusion
-	CLASS bzr$1
-		METHOD a render (Lvn;FFFFFFF)V
+CLASS daj net/minecraft/client/render/entity/RenderIllagerIllusion
+	CLASS daj$1
+		METHOD a render (Laic;FFFFFFF)V
 			ARG 0 entity
-	FIELD a TEXTURE Lnd;
-	METHOD a getTexture (Ladc;)Lnd;
+	FIELD a TEXTURE Loj;
+	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lve;)Lnd;
+	METHOD a getTexture (Laqh;)Loj;
 		ARG 0 model

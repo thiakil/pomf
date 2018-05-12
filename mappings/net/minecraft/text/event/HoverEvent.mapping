@@ -1,18 +1,17 @@
-CLASS hj net/minecraft/text/event/HoverEvent
-	CLASS hj$a Action
-		FIELD a SHOW_TEXT Lhj$a;
-		FIELD b SHOW_ITEM Lhj$a;
-		FIELD c SHOW_ENTITY Lhj$a;
-		FIELD d ACTIONS Ljava/util/Map;
+CLASS ie net/minecraft/text/event/HoverEvent
+	CLASS ie$a Action
+		FIELD a SHOW_TEXT Lie$a;
+		FIELD b SHOW_ITEM Lie$a;
+		FIELD c SHOW_ENTITY Lie$a;
 		FIELD f name Ljava/lang/String;
-		METHOD a get (Ljava/lang/String;)Lhj$a;
+		METHOD a get (Ljava/lang/String;)Lie$a;
 		METHOD b getName ()Ljava/lang/String;
-	FIELD a action Lhj$a;
-	FIELD b value Lhh;
-	METHOD <init> (Lhj$a;Lhh;)V
+	FIELD a action Lie$a;
+	FIELD b value Lic;
+	METHOD <init> (Lie$a;Lic;)V
 		ARG 0 action
 		ARG 1 component
-	METHOD a getAction ()Lhj$a;
-	METHOD b getValue ()Lhh;
+	METHOD a getAction ()Lie$a;
+	METHOD b getValue ()Lic;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object

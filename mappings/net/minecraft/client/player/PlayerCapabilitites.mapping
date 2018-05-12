@@ -1,19 +1,19 @@
-CLASS bry net/minecraft/client/player/PlayerCapabilitites
-	FIELD a game Lbhz;
-	FIELD b networkHandler Lbrx;
-	FIELD c currentBreakingPos Let;
+CLASS csi net/minecraft/client/player/PlayerCapabilitites
+	FIELD a game Lchp;
+	FIELD b networkHandler Lcsg;
+	FIELD c currentBreakingPos Lef;
 	FIELD e currentBreakingProgress F
 	FIELD h breakingBlock Z
-	FIELD i currentGameMode Lamq;
-	METHOD <init> (Lbhz;Lbrx;)V
+	FIELD i currentGameMode Lbau;
+	METHOD <init> (Lchp;Lcsg;)V
 		ARG 0 game
 		ARG 1 networkHandler
 	METHOD a hasSpectatorHud ()Z
 	METHOD a sendItemPickPacket (I)V
 		ARG 0 selectedSlot
-	METHOD a copyAbilities (Laeb;)V
+	METHOD a copyAbilities (Larh;)V
 		ARG 0 playerEntity
-	METHOD a setCurrentGameMode (Lamq;)V
+	METHOD a setCurrentGameMode (Lbau;)V
 		ARG 0 value
 	METHOD b hasStatusBars ()Z
 	METHOD c cancelBlockBreaking ()V
@@ -23,5 +23,5 @@ CLASS bry net/minecraft/client/player/PlayerCapabilitites
 	METHOD i hasExtendedReach ()Z
 	METHOD j hasRidingInventory ()Z
 	METHOD k isFlyingLocked ()Z
-	METHOD l getCurrentGameMode ()Lamq;
+	METHOD l getCurrentGameMode ()Lbau;
 	METHOD m isBreakingBlock ()Z

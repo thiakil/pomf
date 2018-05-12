@@ -1,11 +1,8 @@
-CLASS acz net/minecraft/entity/mob/EntityHusk
-	METHOD B attackEntity (Lve;)Z
-	METHOD F getSoundAmbient ()Lqc;
-	METHOD J getLootTableId ()Lnd;
-	METHOD P canSpawn ()Z
-	METHOD a registerTagUpgraders (Lrw;)V
-		ARG 0 handler
-	METHOD cf getSoundDeath ()Lqc;
-	METHOD d getSoundHurt (Lup;)Lqc;
-	METHOD dm getSoundStep ()Lqc;
-	METHOD dn getSkull ()Lain;
+CLASS aqe net/minecraft/entity/mob/EntityHusk
+	METHOD B attackEntity (Laht;)Z
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahc;)Lvo;
+	METHOD dE getSoundStep ()Lvo;
+	METHOD dF getSkull ()Lawg;

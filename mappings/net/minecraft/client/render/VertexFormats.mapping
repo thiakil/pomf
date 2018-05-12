@@ -1,10 +1,10 @@
-CLASS cdw net/minecraft/client/render/VertexFormats
-	FIELD f POSITION_COLOR Lcdy;
-	FIELD g POSITION_UV Lcdy;
-	FIELD i POSITION_UV_COLOR Lcdy;
-	FIELD m POSITION Lcdz;
-	FIELD n COLOR Lcdz;
-	FIELD o UV Lcdz;
-	FIELD p UV1 Lcdz;
-	FIELD q NORMAL Lcdz;
-	FIELD r PADDING Lcdz;
+CLASS dfb net/minecraft/client/render/VertexFormats
+	FIELD f POSITION_COLOR Ldfd;
+	FIELD g POSITION_UV Ldfd;
+	FIELD i POSITION_UV_COLOR Ldfd;
+	FIELD m POSITION Ldfe;
+	FIELD n COLOR Ldfe;
+	FIELD o UV Ldfe;
+	FIELD p UV1 Ldfe;
+	FIELD q NORMAL Ldfe;
+	FIELD r PADDING Ldfe;

@@ -1,10 +1,8 @@
-CLASS ael net/minecraft/entity/projectile/EntityFireball
+CLASS ars net/minecraft/entity/projectile/EntityFireball
 	FIELD e explosionPower I
-	METHOD a onCollision (Lbha;)V
+	METHOD a onCollision (Lcfz;)V
 		ARG 0 hit
-	METHOD a deserializeCustomData (Lfy;)V
+	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD a registerTagUpgraders (Lrw;)V
-		ARG 0 handler
-	METHOD b serializeCustomData (Lfy;)V
+	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag

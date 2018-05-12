@@ -1,0 +1,6 @@
+CLASS aue ArmorMaterial
+	FIELD a LEATHER Laue;
+	FIELD b CHAINMAIL Laue;
+	FIELD c IRON Laue;
+	FIELD d GOLD Laue;
+	FIELD e DIAMOND Laue;

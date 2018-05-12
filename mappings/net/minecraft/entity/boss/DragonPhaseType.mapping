@@ -1,15 +1,15 @@
-CLASS abr net/minecraft/entity/boss/DragonPhaseType
-	FIELD a HOLDING_PATTERN Labr;
-	FIELD b STRAFE_PLAYER Labr;
-	FIELD c LANDING_APPROACH Labr;
-	FIELD d LANDING Labr;
-	FIELD e TAKEOFF Labr;
-	FIELD f SITTING_FLAMING Labr;
-	FIELD g SITTING_SCANNING Labr;
-	FIELD h SITTING_ATTACKING Labr;
-	FIELD i CHARGING_PLAYER Labr;
-	FIELD j DYING Labr;
-	FIELD k HOVER Labr;
+CLASS aou net/minecraft/entity/boss/DragonPhaseType
+	FIELD a HOLDING_PATTERN Laou;
+	FIELD b STRAFE_PLAYER Laou;
+	FIELD c LANDING_APPROACH Laou;
+	FIELD d LANDING Laou;
+	FIELD e TAKEOFF Laou;
+	FIELD f SITTING_FLAMING Laou;
+	FIELD g SITTING_SCANNING Laou;
+	FIELD h SITTING_ATTACKING Laou;
+	FIELD i CHARGING_PLAYER Laou;
+	FIELD j DYING Laou;
+	FIELD k HOVER Laou;
 	FIELD o key Ljava/lang/String;
 	METHOD <init> (ILjava/lang/Class;Ljava/lang/String;)V
 		ARG 2 key

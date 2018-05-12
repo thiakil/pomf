@@ -1,5 +1,5 @@
-CLASS ahd net/minecraft/item/ItemGlassBottle
-	METHOD a onRightClick (Lams;Laeb;Ltz;)Luc;
+CLASS aup net/minecraft/item/ItemGlassBottle
+	METHOD a onRightClick (Lbax;Larh;Lagm;)Lagp;
 		ARG 0 world
 		ARG 1 player
 		ARG 2 hand

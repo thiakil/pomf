@@ -1,0 +1,11 @@
+CLASS bpx
+	METHOD a run ()Z
+	METHOD a saveEntities (Lbal;Lbpl;)V
+		ARG 1 chunk
+	METHOD a saveChunk (Lbax;Lbpa;)V
+		ARG 0 world
+		ARG 1 chunk
+	METHOD a loadChunk (Lbay;IILjava/util/function/Consumer;)Lbpl;
+		ARG 1 x
+		ARG 2 y
+	METHOD c flushChunks ()V

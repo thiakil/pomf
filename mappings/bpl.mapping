@@ -1,0 +1,7 @@
+CLASS bpl
+	CLASS bpl$a CreationMode
+		FIELD a IMMEDIATE Lbpl$a;
+		FIELD b QUEUED Lbpl$a;
+		FIELD c NEVER Lbpl$a;
+	METHOD f getBlockEntity (Lef;)Lbmb;
+		ARG 0 pos

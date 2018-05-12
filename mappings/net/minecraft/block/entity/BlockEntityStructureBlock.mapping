@@ -1,75 +1,69 @@
-CLASS awc net/minecraft/block/entity/BlockEntityStructureBlock
-	CLASS awc$a Mode
-		FIELD a SAVE Lawc$a;
-		FIELD b LOAD Lawc$a;
-		FIELD c CORNER Lawc$a;
-		FIELD d DATA Lawc$a;
-		FIELD e VALUES [Lawc$a;
-		FIELD f translationKey Ljava/lang/String;
-		FIELD g id I
-		METHOD a getId ()I
-		METHOD a byId (I)Lawc$a;
-		METHOD a getTranslationKey (Lawc$a;)Ljava/lang/String;
+CLASS bmy net/minecraft/block/entity/BlockEntityStructureBlock
+	CLASS bmy$a Mode
+		FIELD a SAVE Lbmy$a;
+		FIELD b LOAD Lbmy$a;
+		FIELD c CORNER Lbmy$a;
+		FIELD d DATA Lbmy$a;
+		FIELD e translationKey Ljava/lang/String;
 		METHOD m asString ()Ljava/lang/String;
 	FIELD a name Ljava/lang/String;
-	FIELD f author Ljava/lang/String;
-	FIELD g metadata Ljava/lang/String;
-	FIELD h offset Let;
-	FIELD i size Let;
-	FIELD j mirror Larw;
-	FIELD k rotation Latk;
-	FIELD l mode Lawc$a;
-	FIELD m ignoreEntities Z
-	FIELD n powered Z
-	FIELD o showAir Z
-	FIELD p showBoundingBox Z
-	FIELD q integrity F
-	FIELD r seed J
-	METHOD F isPowered ()Z
-	METHOD G shouldShowAir ()Z
-	METHOD I shouldShowBoundingBox ()Z
-	METHOD a getName ()Ljava/lang/String;
+	FIELD e author Ljava/lang/String;
+	FIELD f metadata Ljava/lang/String;
+	FIELD g offset Lef;
+	FIELD h size Lef;
+	FIELD i mirror Lbis;
+	FIELD j rotation Lbjv;
+	FIELD k mode Lbmy$a;
+	FIELD l ignoreEntities Z
+	FIELD m powered Z
+	FIELD n showAir Z
+	FIELD o showBoundingBox Z
+	FIELD p integrity F
+	FIELD q seed J
+	METHOD D isPowered ()Z
+	METHOD E shouldShowAir ()Z
+	METHOD F shouldShowBoundingBox ()Z
+	METHOD Z_ getUpdatePacket ()Ljc;
 	METHOD a setIntegrity (F)V
 		ARG 0 value
 	METHOD a setSeed (J)V
 		ARG 0 value
-	METHOD a setMode (Lawc$a;)V
+	METHOD a setAuthor (Laic;)V
+		ARG 0 entity
+	METHOD a setMode (Lbmy$a;)V
 		ARG 0 value
-	METHOD a deserialize (Lfy;)V
+	METHOD a serialize (Lgu;)Lgu;
 		ARG 0 tag
 	METHOD a setName (Ljava/lang/String;)V
 		ARG 0 value
-	METHOD a setAuthor (Lvn;)V
-		ARG 0 entity
 	METHOD a setIgnoreEntities (Z)V
 		ARG 0 value
-	METHOD b setMirror (Larw;)V
+	METHOD aa_ serializeInitialChunkData ()Lgu;
+	METHOD b setMirror (Lbis;)V
 		ARG 0 mirror
-	METHOD b setRotation (Latk;)V
+	METHOD b setRotation (Lbjv;)V
 		ARG 0 value
-	METHOD b setOffset (Let;)V
+	METHOD b setOffset (Lef;)V
 		ARG 0 value
-	METHOD b serialize (Lfy;)Lfy;
+	METHOD b deserialize (Lgu;)V
 		ARG 0 tag
 	METHOD b setMetadata (Ljava/lang/String;)V
 		ARG 0 vallue
-	METHOD c getUpdatePacket ()Lih;
-	METHOD c setSize (Let;)V
+	METHOD c getName ()Ljava/lang/String;
+	METHOD c setSize (Lef;)V
 		ARG 0 value
-	METHOD d serializeInitialChunkData ()Lfy;
+	METHOD d getOffset ()Lef;
 	METHOD d setPowered (Z)V
 		ARG 0 value
-	METHOD e getOffset ()Let;
+	METHOD e getSize ()Lef;
 	METHOD e setShowAir (Z)V
 		ARG 0 value
-	METHOD f getSize ()Let;
+	METHOD f getMirror ()Lbis;
 	METHOD f setShowBoundingBox (Z)V
 		ARG 0 value
-	METHOD h getMirror ()Larw;
-	METHOD i getRotation ()Latk;
-	METHOD i_ getNameAsComponent ()Lhh;
-	METHOD j getMetadata ()Ljava/lang/String;
-	METHOD k getMode ()Lawc$a;
-	METHOD m shouldIgnoreEntities ()Z
-	METHOD n getIntegrity ()F
-	METHOD o getSeed ()J
+	METHOD h getRotation ()Lbjv;
+	METHOD i getMetadata ()Ljava/lang/String;
+	METHOD j getMode ()Lbmy$a;
+	METHOD l shouldIgnoreEntities ()Z
+	METHOD m getIntegrity ()F
+	METHOD n getSeed ()J

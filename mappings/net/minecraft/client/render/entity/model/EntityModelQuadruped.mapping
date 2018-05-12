@@ -1,11 +1,11 @@
-CLASS bqk net/minecraft/client/render/entity/model/EntityModelQuadruped
-	FIELD a head Lbrq;
-	FIELD b body Lbrq;
-	FIELD c leg1 Lbrq;
-	FIELD d leg2 Lbrq;
-	FIELD e leg3 Lbrq;
-	FIELD f leg4 Lbrq;
-	METHOD a setRotationAngles (FFFFFFLve;)V
+CLASS cqp net/minecraft/client/render/entity/model/EntityModelQuadruped
+	FIELD a head Lcrz;
+	FIELD b body Lcrz;
+	FIELD c leg1 Lcrz;
+	FIELD d leg2 Lcrz;
+	FIELD e leg3 Lcrz;
+	FIELD f leg4 Lcrz;
+	METHOD a setRotationAngles (FFFFFFLaht;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount
 		ARG 2 age
@@ -13,7 +13,7 @@ CLASS bqk net/minecraft/client/render/entity/model/EntityModelQuadruped
 		ARG 4 headPitch
 		ARG 5 scale
 		ARG 6 entity
-	METHOD a render (Lve;FFFFFF)V
+	METHOD a render (Laht;FFFFFF)V
 		ARG 0 entity
 		ARG 1 limbMoveAngle
 		ARG 2 limbMoveAmount

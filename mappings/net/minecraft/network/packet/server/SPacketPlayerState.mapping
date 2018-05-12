@@ -1,27 +1,27 @@
-CLASS lo net/minecraft/network/packet/server/SPacketPlayerState
-	CLASS lo$a State
-		FIELD a BREAK_START Llo$a;
-		FIELD b BREAK_CANCEL Llo$a;
-		FIELD c BREAK_END Llo$a;
-		FIELD d DROP_STACK Llo$a;
-		FIELD e DROP_ITEM Llo$a;
-		FIELD f ITEM_USE_FINISH Llo$a;
-		FIELD g ITEM_HAND_SWAP Llo$a;
-	FIELD a pos Let;
-	FIELD b hitFace Lfa;
-	FIELD c state Llo$a;
-	METHOD <init> (Llo$a;Let;Lfa;)V
+CLASS mp net/minecraft/network/packet/server/SPacketPlayerState
+	CLASS mp$a State
+		FIELD a BREAK_START Lmp$a;
+		FIELD b BREAK_CANCEL Lmp$a;
+		FIELD c BREAK_END Lmp$a;
+		FIELD d DROP_STACK Lmp$a;
+		FIELD e DROP_ITEM Lmp$a;
+		FIELD f ITEM_USE_FINISH Lmp$a;
+		FIELD g ITEM_HAND_SWAP Lmp$a;
+	FIELD a pos Lef;
+	FIELD b hitFace Lel;
+	FIELD c state Lmp$a;
+	METHOD <init> (Lmp$a;Lef;Lel;)V
 		ARG 0 state
 		ARG 1 pos
 		ARG 2 facing
-	METHOD a getPos ()Let;
-	METHOD a readPacket (Lgy;)V
+	METHOD a getPos ()Lef;
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
+	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lkw;)V
+	METHOD a applyPacket (Llx;)V
 		ARG 0 handler
-	METHOD b getHitFace ()Lfa;
-	METHOD b writePacket (Lgy;)V
+	METHOD b getHitFace ()Lel;
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf
-	METHOD c getState ()Llo$a;
+	METHOD c getState ()Lmp$a;

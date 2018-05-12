@@ -1,9 +1,9 @@
-CLASS avl net/minecraft/block/entity/BlockEntityComparator
+CLASS bmg net/minecraft/block/entity/BlockEntityComparator
 	FIELD a outputSignal I
-	METHOD a getOutputSignal ()I
 	METHOD a setOutputSignal (I)V
 		ARG 0 outputSignal
-	METHOD a deserialize (Lfy;)V
+	METHOD a serialize (Lgu;)Lgu;
 		ARG 0 tag
-	METHOD b serialize (Lfy;)Lfy;
+	METHOD b deserialize (Lgu;)V
 		ARG 0 tag
+	METHOD c getOutputSignal ()I

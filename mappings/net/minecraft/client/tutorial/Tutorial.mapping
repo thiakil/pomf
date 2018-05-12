@@ -1,4 +1,4 @@
-CLASS chx net/minecraft/client/tutorial/Tutorial
-	METHOD a setStep (Lchz;)V
-	METHOD e getMinecraftInstance ()Lbhz;
-	METHOD f getGameMode ()Lamq;
+CLASS dik net/minecraft/client/tutorial/Tutorial
+	METHOD a setStep (Ldim;)V
+	METHOD e getMinecraftInstance ()Lchp;
+	METHOD f getGameMode ()Lbau;

@@ -1,0 +1,21 @@
+CLASS big
+	METHOD a getComparatorOutput (Lbnv;Lbax;Lef;)I
+		ARG 1 world
+		ARG 2 pos
+	METHOD a dropItems (Lbnv;Lbax;Lef;FI)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 dropChance
+		ARG 4 fortune
+	METHOD a activate (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a onBlockRemoved (Lbnv;Lbax;Lef;Lbnv;)V
+		ARG 1 world
+		ARG 2 pos

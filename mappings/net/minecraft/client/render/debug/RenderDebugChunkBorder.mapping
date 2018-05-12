@@ -1,6 +1,6 @@
-CLASS byc net/minecraft/client/render/debug/RenderDebugChunkBorder
-	FIELD a game Lbhz;
-	METHOD <init> (Lbhz;)V
+CLASS cym net/minecraft/client/render/debug/RenderDebugChunkBorder
+	FIELD a game Lchp;
+	METHOD <init> (Lchp;)V
 		ARG 0 game
 	METHOD a render (FJ)V
 		ARG 0 tickDelta

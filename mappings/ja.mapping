@@ -1,0 +1,7 @@
+CLASS ja
+	METHOD a readPacket (Lht;)V
+		ARG 0 buf
+	METHOD a applyPacket (Lhw;)V
+		ARG 0 handler
+	METHOD b writePacket (Lht;)V
+		ARG 0 buf

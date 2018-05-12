@@ -1,6 +1,6 @@
-CLASS bzv net/minecraft/client/render/entity/EntityRendererMagmaCube
-	FIELD a SKIN Lnd;
-	METHOD a getTexture (Ladb;)Lnd;
+CLASS dan net/minecraft/client/render/entity/EntityRendererMagmaCube
+	FIELD a SKIN Loj;
+	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lve;)Lnd;
+	METHOD a getTexture (Laqg;)Loj;
 		ARG 0 model

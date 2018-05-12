@@ -1,0 +1,11 @@
+CLASS alw
+	METHOD a createPathNodeNavigator ()Lcdg;
+	METHOD a getPathTo (Laht;)Lcdf;
+		ARG 0 target
+	METHOD a isValidPosition (Lef;)Z
+		ARG 0 pos
+	METHOD b isAtValidPosition ()Z
+	METHOD c setCanSwim (Z)V
+		ARG 0 value
+	METHOD d tick ()V
+	METHOD g canSwim ()Z

@@ -1,25 +1,24 @@
-CLASS lr net/minecraft/network/packet/client/CPacketRecipeInfo
-	CLASS lr$a Purpose
-		FIELD a SHOWN Llr$a;
-		FIELD b SETTINGS Llr$a;
-	FIELD a purpose Llr$a;
-	FIELD b recipe Lakr;
+CLASS ms net/minecraft/network/packet/client/CPacketRecipeInfo
+	CLASS ms$a Purpose
+		FIELD a SHOWN Lms$a;
+		FIELD b SETTINGS Lms$a;
+	FIELD a purpose Lms$a;
 	FIELD c guiOpen Z
 	FIELD d filtering Z
-	METHOD <init> (Lakr;)V
+	METHOD <init> (Layl;)V
 		ARG 0 recipe
-	METHOD <init> (ZZ)V
+	METHOD <init> (ZZZZ)V
 		ARG 0 guiOpen
-		ARG 1 filtering
-	METHOD a getPurpose ()Llr$a;
-	METHOD a readPacket (Lgy;)V
+		ARG 3 filtering
+	METHOD a getPurpose ()Lms$a;
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
+	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lkw;)V
+	METHOD a applyPacket (Llx;)V
 		ARG 0 handler
-	METHOD b getRecipe ()Lakr;
-	METHOD b writePacket (Lgy;)V
+	METHOD b getRecipe ()Loj;
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf
 	METHOD c isGuiOpen ()Z
 	METHOD d isFiltering ()Z

@@ -1,0 +1,4 @@
+CLASS tu
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a open (Lts;Loj;)Ljava/io/InputStream;
+	METHOD b canHandle (Lts;Loj;)Z

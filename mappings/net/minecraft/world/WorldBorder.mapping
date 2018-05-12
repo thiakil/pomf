@@ -1,4 +1,4 @@
-CLASS axl net/minecraft/world/WorldBorder
+CLASS boy net/minecraft/world/WorldBorder
 	FIELD a listeners Ljava/util/List;
 	FIELD b centerX D
 	FIELD c centerZ D
@@ -19,16 +19,16 @@ CLASS axl net/minecraft/world/WorldBorder
 		ARG 2 duration
 	METHOD a setPortalTeleportPosLimit (I)V
 		ARG 0 value
-	METHOD a containsFully (Laml;)Z
-		ARG 0 pos
-	METHOD a registerListener (Laxj;)V
-		ARG 0 listener
-	METHOD a containsFully (Lbgz;)Z
-		ARG 0 box
-	METHOD a containsFully (Let;)Z
-		ARG 0 pos
-	METHOD a distanceFromBorder (Lve;)D
+	METHOD a distanceFromBorder (Laht;)D
 		ARG 0 entity
+	METHOD a containsFully (Lban;)Z
+		ARG 0 pos
+	METHOD a registerListener (Lbow;)V
+		ARG 0 listener
+	METHOD a containsFully (Lcfy;)Z
+		ARG 0 box
+	METHOD a containsFully (Lef;)Z
+		ARG 0 pos
 	METHOD b getXMin ()D
 	METHOD b setSafeZone (D)V
 		ARG 0 value

@@ -1,6 +1,6 @@
-CLASS ahj net/minecraft/item/ItemClock
-	CLASS ahj$1
-		METHOD a getProperty (Lain;Lams;Lvn;)F
+CLASS auv net/minecraft/item/ItemClock
+	CLASS auv$1
+		METHOD a getProperty (Lawg;Lbax;Laic;)F
 			ARG 0 stack
 			ARG 1 world
 			ARG 2 user

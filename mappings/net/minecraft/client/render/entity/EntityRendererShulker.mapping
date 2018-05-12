@@ -1,12 +1,11 @@
-CLASS cao net/minecraft/client/render/entity/EntityRendererShulker
-	CLASS cao$a
+CLASS dbj net/minecraft/client/render/entity/EntityRendererShulker
+	CLASS dbj$a
 		METHOD a shouldMergeTextures ()Z
-		METHOD a render (Ladg;FFFFFFF)V
+		METHOD a render (Laic;FFFFFFF)V
 			ARG 0 entity
-		METHOD a render (Lvn;FFFFFFF)V
+		METHOD a render (Laqm;FFFFFFF)V
 			ARG 0 entity
-	FIELD a SKIN [Lnd;
-	METHOD a getTexture (Ladg;)Lnd;
+	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lve;)Lnd;
+	METHOD a getTexture (Laqm;)Loj;
 		ARG 0 model

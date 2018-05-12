@@ -1,4 +1,0 @@
-CLASS abd
-	FIELD a entity Labb;
-	METHOD <init> (Labb;)V
-		ARG 0 entity

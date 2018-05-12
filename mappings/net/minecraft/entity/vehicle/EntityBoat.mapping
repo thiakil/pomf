@@ -1,50 +1,48 @@
-CLASS afb net/minecraft/entity/vehicle/EntityBoat
-	CLASS afb$b BoatType
-		FIELD a OAK Lafb$b;
-		FIELD b SPRUCE Lafb$b;
-		FIELD c BIRCH Lafb$b;
-		FIELD d JUNGLE Lafb$b;
-		FIELD e ACACIA Lafb$b;
-		FIELD f DARK_OAK Lafb$b;
+CLASS ask net/minecraft/entity/vehicle/EntityBoat
+	CLASS ask$b BoatType
+		FIELD a OAK Lask$b;
+		FIELD b SPRUCE Lask$b;
+		FIELD c BIRCH Lask$b;
+		FIELD d JUNGLE Lask$b;
+		FIELD e ACACIA Lask$b;
+		FIELD f DARK_OAK Lask$b;
 		FIELD g name Ljava/lang/String;
-		FIELD h id I
 		METHOD a getName ()Ljava/lang/String;
-		METHOD a getType (I)Lafb$b;
-		METHOD a getType (Ljava/lang/String;)Lafb$b;
-		METHOD b getId ()I
-	FIELD d BOAT_TYPE Lmx;
-	METHOD <init> (Lams;DDD)V
+		METHOD a getType (I)Lask$b;
+		METHOD a getType (Ljava/lang/String;)Lask$b;
+	FIELD d BOAT_TYPE Lny;
+	METHOD <init> (Lbax;DDD)V
 		ARG 0 world
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD B_ update ()V
+	METHOD R_ update ()V
 	METHOD a setPositionAndRotations (DDDFFIZ)V
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
 		ARG 3 yaw
 		ARG 4 pitch
-	METHOD a setBoatType (Lafb$b;)V
-		ARG 0 value
-	METHOD a deserializeCustomData (Lfy;)V
-		ARG 0 tag
-	METHOD a damage (Lup;F)Z
+	METHOD a damage (Lahc;F)Z
 		ARG 0 source
 		ARG 1 damage
-	METHOD a copyEntityData (Lve;)V
+	METHOD a copyEntityData (Laht;)V
 		ARG 0 entity
-	METHOD aG getMountedHeightOffset ()D
-	METHOD ay doesCollide ()Z
-	METHOD b interact (Laeb;Ltz;)Z
+	METHOD a setBoatType (Lask$b;)V
+		ARG 0 value
+	METHOD a deserializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD aD doesCollide ()Z
+	METHOD aL getMountedHeightOffset ()D
+	METHOD b interact (Larh;Lagm;)Z
 		ARG 0 player
 		ARG 1 hand
-	METHOD b serializeCustomData (Lfy;)V
+	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD i initDataTracker ()V
-	METHOD i pushAwayFrom (Lve;)V
+	METHOD f asItem ()Lawc;
+	METHOD i pushAwayFrom (Laht;)V
 		ARG 0 other
-	METHOD j asItem ()Lail;
-	METHOD q canAddPassenger (Lve;)Z
+	METHOD p getBoatType ()Lask$b;
+	METHOD q canAddPassenger (Laht;)Z
 		ARG 0 entity
-	METHOD s getBoatType ()Lafb$b;
+	METHOD w_ initDataTracker ()V

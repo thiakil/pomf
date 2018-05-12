@@ -1,0 +1,3 @@
+CLASS dhh
+	METHOD a onResourceReload (Lul;)V
+		ARG 0 container

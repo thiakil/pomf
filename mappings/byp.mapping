@@ -1,0 +1,4 @@
+CLASS byp
+	METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
+		ARG 1 rand
+		ARG 2 region

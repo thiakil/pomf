@@ -1,0 +1,4 @@
+CLASS ow
+	METHOD Y_ update ()V
+	METHOD a onResourceReload (Lul;)V
+		ARG 0 container

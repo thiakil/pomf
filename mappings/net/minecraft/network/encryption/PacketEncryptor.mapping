@@ -1,4 +1,4 @@
-CLASS gt net/minecraft/network/encryption/PacketEncryptor
-	FIELD a manager Lgr;
+CLASS ho net/minecraft/network/encryption/PacketEncryptor
+	FIELD a manager Lhm;
 	METHOD <init> (Ljavax/crypto/Cipher;)V
 		ARG 0 cipher

@@ -1,0 +1,8 @@
+CLASS bnt
+	METHOD a getProperties ()Ljava/util/Collection;
+	METHOD a with (Lbou;Ljava/lang/Comparable;)Ljava/lang/Object;
+	METHOD b getValues ()Lcom/google/common/collect/ImmutableMap;
+	METHOD c get (Lbou;)Ljava/lang/Comparable;
+		ARG 0 property
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object

@@ -1,12 +1,12 @@
-CLASS kp net/minecraft/network/packet/client/CPacketSoundPlayId
-	FIELD a sound Lqc;
-	FIELD b category Lqe;
+CLASS ln net/minecraft/network/packet/client/CPacketSoundPlayId
+	FIELD a sound Lvo;
+	FIELD b category Lvq;
 	FIELD c fixedX I
 	FIELD d fixedY I
 	FIELD e fixedZ I
 	FIELD f volume F
 	FIELD g pitch F
-	METHOD <init> (Lqc;Lqe;DDDFF)V
+	METHOD <init> (Lvo;Lvq;DDDFF)V
 		ARG 0 sound
 		ARG 1 category
 		ARG 2 x
@@ -14,15 +14,15 @@ CLASS kp net/minecraft/network/packet/client/CPacketSoundPlayId
 		ARG 4 z
 		ARG 5 volume
 		ARG 6 pitch
-	METHOD a getSound ()Lqc;
-	METHOD a readPacket (Lgy;)V
+	METHOD a getSound ()Lvo;
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
-		ARG 0 handler
 	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
-	METHOD b getCategory ()Lqe;
-	METHOD b writePacket (Lgy;)V
+	METHOD a applyPacket (Lis;)V
+		ARG 0 handler
+	METHOD b getCategory ()Lvq;
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf
 	METHOD c getX ()D
 	METHOD d getY ()D

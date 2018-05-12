@@ -1,29 +1,29 @@
-CLASS ahe net/minecraft/item/ItemBow
-	CLASS ahe$1
-		METHOD a getProperty (Lain;Lams;Lvn;)F
+CLASS auq net/minecraft/item/ItemBow
+	CLASS auq$1
+		METHOD a getProperty (Lawg;Lbax;Laic;)F
 			ARG 0 stack
 			ARG 1 world
 			ARG 2 user
-	CLASS ahe$2
-		METHOD a getProperty (Lain;Lams;Lvn;)F
+	CLASS auq$2
+		METHOD a getProperty (Lawg;Lbax;Laic;)F
 			ARG 0 stack
 			ARG 1 world
 			ARG 2 user
-	METHOD a getAmmo (Laeb;)Lain;
+	METHOD a getAmmo (Larh;)Lawg;
 		ARG 0 player
-	METHOD a onItemStopUsing (Lain;Lams;Lvn;I)V
+	METHOD a onItemStopUsing (Lawg;Lbax;Laic;I)V
 		ARG 0 stack
 		ARG 1 world
 		ARG 2 player
 		ARG 3 remainingTime
-	METHOD a onRightClick (Lams;Laeb;Ltz;)Luc;
+	METHOD a onRightClick (Lbax;Larh;Lagm;)Lagp;
 		ARG 0 world
 		ARG 1 player
 		ARG 2 hand
 	METHOD c getEnchantability ()I
-	METHOD d isAmmo (Lain;)Z
+	METHOD c getMaxUseTime (Lawg;)I
 		ARG 0 stack
-	METHOD e getMaxUseTime (Lain;)I
+	METHOD d getUseAction (Lawg;)Laxq;
 		ARG 0 stack
-	METHOD f getUseAction (Lain;)Laka;
+	METHOD e_ isAmmo (Lawg;)Z
 		ARG 0 stack

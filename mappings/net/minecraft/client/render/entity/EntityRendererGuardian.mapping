@@ -1,7 +1,7 @@
-CLASS bzn net/minecraft/client/render/entity/EntityRendererGuardian
-	FIELD a SKIN Lnd;
-	FIELD j EXPLOSION_BEAM_TEX Lnd;
-	METHOD a getTexture (Lacy;)Lnd;
+CLASS daf net/minecraft/client/render/entity/EntityRendererGuardian
+	FIELD a SKIN Loj;
+	FIELD j EXPLOSION_BEAM_TEX Loj;
+	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lve;)Lnd;
+	METHOD a getTexture (Laqd;)Loj;
 		ARG 0 model

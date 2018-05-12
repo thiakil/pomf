@@ -1,8 +1,8 @@
-CLASS bmt net/minecraft/client/gui/container/GuiHopper
-	FIELD v BG_TEX Lnd;
-	FIELD w playerInv Ltt;
-	FIELD x inventory Ltt;
-	METHOD <init> (Laea;Ltt;)V
+CLASS cmr net/minecraft/client/gui/container/GuiHopper
+	FIELD v BG_TEX Loj;
+	FIELD w playerInv Lagg;
+	FIELD x inventory Lagg;
+	METHOD <init> (Larg;Lagg;)V
 		ARG 0 playerInv
 		ARG 1 inventory
 	METHOD a drawBackground (FII)V

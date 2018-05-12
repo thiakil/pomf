@@ -1,20 +1,20 @@
-CLASS bef net/minecraft/entity/ai/pathing/PathNodeType
-	FIELD a BLOCKED Lbef;
-	FIELD b AIR Lbef;
-	FIELD c NORMAL Lbef;
-	FIELD d TRAPDOOR Lbef;
-	FIELD e FENCE Lbef;
-	FIELD f LAVA Lbef;
-	FIELD g WATER Lbef;
-	FIELD h RAIL Lbef;
-	FIELD i FIRE_NEAR Lbef;
-	FIELD j FIRE Lbef;
-	FIELD k CACTUS_NEAR Lbef;
-	FIELD l CACTUS Lbef;
-	FIELD o DOOR_OPEN Lbef;
-	FIELD p DOOR_WOOD Lbef;
-	FIELD q DOOR_METAL Lbef;
-	FIELD r weight F
+CLASS cdb net/minecraft/entity/ai/pathing/PathNodeType
+	FIELD a BLOCKED Lcdb;
+	FIELD b AIR Lcdb;
+	FIELD c NORMAL Lcdb;
+	FIELD d TRAPDOOR Lcdb;
+	FIELD e FENCE Lcdb;
+	FIELD f LAVA Lcdb;
+	FIELD g WATER Lcdb;
+	FIELD i RAIL Lcdb;
+	FIELD j FIRE_NEAR Lcdb;
+	FIELD k FIRE Lcdb;
+	FIELD l CACTUS_NEAR Lcdb;
+	FIELD m CACTUS Lcdb;
+	FIELD p DOOR_OPEN Lcdb;
+	FIELD q DOOR_WOOD Lcdb;
+	FIELD r DOOR_METAL Lcdb;
+	FIELD t weight F
 	METHOD <init> (Ljava/lang/String;IF)V
 		ARG 0 weight
 	METHOD a getWeight ()F

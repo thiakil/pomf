@@ -1,6 +1,6 @@
-CLASS cbd net/minecraft/client/render/entity/EntityRendererIronGolem
-	FIELD a SKIN Lnd;
-	METHOD a getTexture (Laai;)Lnd;
+CLASS dcc net/minecraft/client/render/entity/EntityRendererIronGolem
+	FIELD a SKIN Loj;
+	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lve;)Lnd;
+	METHOD a getTexture (Lanl;)Loj;
 		ARG 0 model

@@ -1,19 +1,19 @@
-CLASS lz net/minecraft/network/packet/server/SPacketPlayerBlockPlace
-	FIELD a pos Let;
-	FIELD b face Lfa;
-	FIELD c hand Ltz;
-	METHOD <init> (Let;Lfa;Ltz;FFF)V
+CLASS na net/minecraft/network/packet/server/SPacketPlayerBlockPlace
+	FIELD a pos Lef;
+	FIELD b face Lel;
+	FIELD c hand Lagm;
+	METHOD <init> (Lef;Lel;Lagm;FFF)V
 		ARG 0 pos
 		ARG 1 face
 		ARG 2 hand
-	METHOD a getPos ()Let;
-	METHOD a readPacket (Lgy;)V
+	METHOD a getPos ()Lef;
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
+	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lkw;)V
+	METHOD a applyPacket (Llx;)V
 		ARG 0 handler
-	METHOD b getFace ()Lfa;
-	METHOD b writePacket (Lgy;)V
+	METHOD b getFace ()Lel;
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf
-	METHOD c getHand ()Ltz;
+	METHOD c getHand ()Lagm;

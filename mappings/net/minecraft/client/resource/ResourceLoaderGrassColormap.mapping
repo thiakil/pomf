@@ -1,4 +1,4 @@
-CLASS cek net/minecraft/client/resource/ResourceLoaderGrassColormap
-	FIELD a GRASS_COLORMAP_LOC Lnd;
-	METHOD a onResourceReload (Lcen;)V
+CLASS dfm net/minecraft/client/resource/ResourceLoaderGrassColormap
+	FIELD a GRASS_COLORMAP_LOC Loj;
+	METHOD a onResourceReload (Lul;)V
 		ARG 0 container

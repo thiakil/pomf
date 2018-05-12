@@ -1,19 +1,19 @@
-CLASS iu net/minecraft/network/packet/client/CPacketGuiSlotUpdate
+CLASS jq net/minecraft/network/packet/client/CPacketGuiSlotUpdate
 	FIELD a id I
 	FIELD b slot I
-	FIELD c itemStack Lain;
-	METHOD <init> (IILain;)V
+	FIELD c itemStack Lawg;
+	METHOD <init> (IILawg;)V
 		ARG 0 id
 		ARG 1 slot
 		ARG 2 itemStack
 	METHOD a getId ()I
-	METHOD a readPacket (Lgy;)V
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
-		ARG 0 handler
 	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
+	METHOD a applyPacket (Lis;)V
+		ARG 0 handler
 	METHOD b getSlot ()I
-	METHOD b writePacket (Lgy;)V
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf
-	METHOD c getItemStack ()Lain;
+	METHOD c getItemStack ()Lawg;

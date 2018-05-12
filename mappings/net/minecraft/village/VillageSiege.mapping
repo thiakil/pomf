@@ -1,2 +1,2 @@
-CLASS zn net/minecraft/village/VillageSiege
-	FIELD a world Lams;
+CLASS amj net/minecraft/village/VillageSiege
+	FIELD a world Lbax;

@@ -1,11 +1,9 @@
-CLASS ns net/minecraft/server/dedicated/IDedicatedServer
-	METHOD G getVersion ()Ljava/lang/String;
-	METHOD H getCurrentPlayerCount ()I
-	METHOD I getMaxPlayerCount ()I
-	METHOD J getPlayerNames ()[Ljava/lang/String;
-	METHOD L isDebuggingEnabled ()Z
-	METHOD S getLevelName ()Ljava/lang/String;
-	METHOD a saveProperties ()V
+CLASS ox net/minecraft/server/dedicated/IDedicatedServer
+	METHOD A getCurrentPlayerCount ()I
+	METHOD B getMaxPlayerCount ()I
+	METHOD C getPlayerNames ()[Ljava/lang/String;
+	METHOD E isDebuggingEnabled ()Z
+	METHOD K getLevelName ()Ljava/lang/String;
 	METHOD a getInt (Ljava/lang/String;I)I
 		ARG 0 key
 		ARG 1 defaultValue
@@ -17,15 +15,17 @@ CLASS ns net/minecraft/server/dedicated/IDedicatedServer
 		ARG 1 defaultValue
 	METHOD a_ executeCommand (Ljava/lang/String;)Ljava/lang/String;
 		ARG 0 command
-	METHOD b getPropertiesFilename ()Ljava/lang/String;
-	METHOD d_ getHostname ()Ljava/lang/String;
-	METHOD e info (Ljava/lang/String;)V
+	METHOD c_ saveProperties ()V
+	METHOD d info (Ljava/lang/String;)V
 		ARG 0 msg
-	METHOD e_ getPort ()I
-	METHOD f warn (Ljava/lang/String;)V
+	METHOD d_ getPropertiesFilename ()Ljava/lang/String;
+	METHOD e getHostname ()Ljava/lang/String;
+	METHOD e warn (Ljava/lang/String;)V
 		ARG 0 msg
-	METHOD f_ getMotd ()Ljava/lang/String;
-	METHOD g logError (Ljava/lang/String;)V
+	METHOD e_ getMotd ()Ljava/lang/String;
+	METHOD f getPort ()I
+	METHOD f logError (Ljava/lang/String;)V
 		ARG 0 message
-	METHOD h log (Ljava/lang/String;)V
+	METHOD g log (Ljava/lang/String;)V
 		ARG 0 message
+	METHOD z getVersion ()Ljava/lang/String;

@@ -1,4 +1,4 @@
-CLASS alg net/minecraft/enchantment/EnchantmentUnbreaking
-	METHOD a isAcceptableItem (Lain;)Z
+CLASS azd net/minecraft/enchantment/EnchantmentUnbreaking
+	METHOD a isAcceptableItem (Lawg;)Z
 		ARG 0 item
 	METHOD b getHighestLevel ()I

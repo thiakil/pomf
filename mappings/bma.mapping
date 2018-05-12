@@ -1,0 +1,2 @@
+CLASS bma
+	METHOD Z_ getUpdatePacket ()Ljc;

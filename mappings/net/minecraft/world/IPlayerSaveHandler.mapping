@@ -1,6 +1,6 @@
-CLASS bfi net/minecraft/world/IPlayerSaveHandler
-	METHOD a savePlayerData (Laeb;)V
+CLASS ceg net/minecraft/world/IPlayerSaveHandler
+	METHOD a savePlayerData (Larh;)V
 		ARG 0 player
-	METHOD b loadPlayerData (Laeb;)Lfy;
+	METHOD b loadPlayerData (Larh;)Lgu;
 		ARG 0 player
 	METHOD f getSavedPlayerIds ()[Ljava/lang/String;

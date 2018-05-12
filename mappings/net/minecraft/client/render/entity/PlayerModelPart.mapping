@@ -1,19 +1,19 @@
-CLASS aec net/minecraft/client/render/entity/PlayerModelPart
-	FIELD a CAPE Laec;
-	FIELD b BODY Laec;
-	FIELD c LEFT_ARM Laec;
-	FIELD d RIGHT_ARM Laec;
-	FIELD e LEFT_LEG Laec;
-	FIELD f RIGHT_LEG Laec;
-	FIELD g HEAD Laec;
+CLASS ari net/minecraft/client/render/entity/PlayerModelPart
+	FIELD a CAPE Lari;
+	FIELD b BODY Lari;
+	FIELD c LEFT_ARM Lari;
+	FIELD d RIGHT_ARM Lari;
+	FIELD e LEFT_LEG Lari;
+	FIELD f RIGHT_LEG Lari;
+	FIELD g HEAD Lari;
 	FIELD h id I
 	FIELD i bitFlag I
 	FIELD j name Ljava/lang/String;
-	FIELD k localizedName Lhh;
+	FIELD k localizedName Lic;
 	METHOD <init> (Ljava/lang/String;IILjava/lang/String;)V
 		ARG 0 id
 		ARG 1 name
 	METHOD a getBitFlag ()I
 	METHOD b getId ()I
 	METHOD c getName ()Ljava/lang/String;
-	METHOD d getLocalizedName ()Lhh;
+	METHOD d getLocalizedName ()Lic;

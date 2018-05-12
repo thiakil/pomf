@@ -1,19 +1,19 @@
-CLASS ih net/minecraft/network/packet/client/CPacketBlockEntityUpdate
-	FIELD a pos Let;
+CLASS jc net/minecraft/network/packet/client/CPacketBlockEntityUpdate
+	FIELD a pos Lef;
 	FIELD b actionId I
-	FIELD c tag Lfy;
-	METHOD <init> (Let;ILfy;)V
+	FIELD c tag Lgu;
+	METHOD <init> (Lef;ILgu;)V
 		ARG 0 pos
 		ARG 1 action
 		ARG 2 tag
-	METHOD a getPos ()Let;
-	METHOD a readPacket (Lgy;)V
+	METHOD a getPos ()Lef;
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
-		ARG 0 handler
 	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
+	METHOD a applyPacket (Lis;)V
+		ARG 0 handler
 	METHOD b getActionId ()I
-	METHOD b writePacket (Lgy;)V
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf
-	METHOD c getTagCompound ()Lfy;
+	METHOD c getTagCompound ()Lgu;

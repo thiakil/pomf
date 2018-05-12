@@ -1,0 +1,18 @@
+CLASS bgq
+	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a getWeakRedstonePower (Lbnv;Lbal;Lef;Lel;)I
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD a activate (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ

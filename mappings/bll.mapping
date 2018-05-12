@@ -1,0 +1,7 @@
+CLASS bll
+	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a isNotSolid (Lbnv;Lbal;Lef;)Z
+		ARG 2 pos

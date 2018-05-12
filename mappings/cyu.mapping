@@ -1,0 +1,3 @@
+CLASS cyu
+	METHOD a render (FJ)V
+		ARG 0 tickDelta

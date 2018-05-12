@@ -1,12 +1,10 @@
-CLASS aes net/minecraft/entity/projectile/EntitySpectralArrow
+CLASS arz net/minecraft/entity/projectile/EntitySpectralArrow
 	FIELD f duration I
-	METHOD B_ update ()V
-	METHOD a deserializeCustomData (Lfy;)V
-		ARG 0 tag
-	METHOD a onHit (Lvn;)V
+	METHOD R_ update ()V
+	METHOD a onHit (Laic;)V
 		ARG 0 entity
-	METHOD b serializeCustomData (Lfy;)V
+	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD c registerTagUpgraders2 (Lrw;)V
-		ARG 0 handler
-	METHOD j asItemStack ()Lain;
+	METHOD b serializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD k asItemStack ()Lawg;

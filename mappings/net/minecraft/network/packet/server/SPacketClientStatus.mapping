@@ -1,15 +1,15 @@
-CLASS lb net/minecraft/network/packet/server/SPacketClientStatus
-	CLASS lb$a Action
-		FIELD a RESPAWN Llb$a;
-	FIELD a action Llb$a;
-	METHOD <init> (Llb$a;)V
+CLASS ma net/minecraft/network/packet/server/SPacketClientStatus
+	CLASS ma$a Action
+		FIELD a RESPAWN Lma$a;
+	FIELD a action Lma$a;
+	METHOD <init> (Lma$a;)V
 		ARG 0 action
-	METHOD a getAction ()Llb$a;
-	METHOD a readPacket (Lgy;)V
+	METHOD a getAction ()Lma$a;
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
+	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lkw;)V
+	METHOD a applyPacket (Llx;)V
 		ARG 0 handler
-	METHOD b writePacket (Lgy;)V
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf

@@ -1,56 +1,54 @@
-CLASS adn net/minecraft/entity/mob/EntityVex
-	CLASS adn$a AiGoalChargeTarget
+CLASS aqt net/minecraft/entity/mob/EntityVex
+	CLASS aqt$a AiGoalChargeTarget
 		METHOD a canStart ()Z
 		METHOD b shouldContinue ()Z
 		METHOD c start ()V
 		METHOD d onRemove ()V
 		METHOD e tick ()V
-	CLASS adn$b AiGoalTrackOwnerTarget
-		METHOD <init> (Ladn;Lvv;)V
+	CLASS aqt$b AiGoalTrackOwnerTarget
+		METHOD <init> (Laqt;Laik;)V
 			ARG 0 entity
 		METHOD a canStart ()Z
 		METHOD c start ()V
-	CLASS adn$c
-		METHOD <init> (Ladn;Ladn;)V
+	CLASS aqt$c
+		METHOD <init> (Laqt;Laqt;)V
 			ARG 0 enttiyVex
 		METHOD a tick ()V
-	CLASS adn$d AiGoalLookAtTarget
+	CLASS aqt$d AiGoalLookAtTarget
 		METHOD a canStart ()Z
 		METHOD b shouldContinue ()Z
 		METHOD e tick ()V
-	FIELD b owner Lvo;
-	FIELD bx alive Z
-	FIELD by lifeTicks I
-	FIELD c bounds Let;
-	METHOD <init> (Lams;)V
+	FIELD bA lifeTicks I
+	FIELD b owner Laid;
+	FIELD bz alive Z
+	FIELD c bounds Lef;
+	METHOD <init> (Lbax;)V
 		ARG 0 world
-	METHOD B_ update ()V
-	METHOD F getSoundAmbient ()Lqc;
-	METHOD J getLootTableId ()Lnd;
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD R_ update ()V
 	METHOD a setLifeTicks (I)V
 		ARG 0 value
-	METHOD a deserializeCustomData (Lfy;)V
-		ARG 0 tag
-	METHOD a registerTagUpgraders (Lrw;)V
-		ARG 0 migrationHandler
-	METHOD a initEquipment (Lty;)V
+	METHOD a initEquipment (Lagl;)V
 		ARG 0 difficulty
-	METHOD a (Lty;Lvq;)Lvq;
+	METHOD a (Lagl;Laif;Lawg;)Laif;
 		ARG 0 difficulty
-	METHOD a setOwner (Lvo;)V
+	METHOD a setOwner (Laid;)V
 		ARG 0 value
-	METHOD a move (Lvt;DDD)V
+	METHOD a move (Laii;DDD)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD b serializeCustomData (Lfy;)V
+	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD bM initAttributes ()V
-	METHOD cf getSoundDeath ()Lqc;
-	METHOD d getSoundHurt (Lup;)Lqc;
-	METHOD dm getBounds ()Let;
-	METHOD g setBounds (Let;)V
+	METHOD b serializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD ca initAttributes ()V
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahc;)Lvo;
+	METHOD dD getBounds ()Lef;
+	METHOD g setBounds (Lef;)V
 		ARG 0 value
-	METHOD i initDataTracker ()V
-	METHOD p getOwner ()Lvo;
-	METHOD r initAi ()V
+	METHOD l getOwner ()Laid;
+	METHOD n initAi ()V
+	METHOD w_ initDataTracker ()V

@@ -1,32 +1,24 @@
-CLASS bmh net/minecraft/client/gui/ingame/GuiEditBook
-	CLASS bmh$a
-		METHOD a draw (Lbhz;IIF)V
-			ARG 0 game
-			ARG 1 mouseX
-			ARG 2 mouseY
-			ARG 3 delta
+CLASS cmf net/minecraft/client/gui/ingame/GuiEditBook
+	CLASS cmf$a
+		METHOD a draw (IIF)V
+			ARG 1 mouseY
+			ARG 2 delta
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD f BG_TEX Lnd;
-	FIELD g player Laeb;
-	FIELD h stack Lain;
-	METHOD <init> (Laeb;Lain;Z)V
+	FIELD f BG_TEX Loj;
+	FIELD g player Larh;
+	FIELD h stack Lawg;
+	METHOD <init> (Larh;Lawg;Z)V
 		ARG 0 player
 		ARG 1 stack
-	METHOD a onKeyPressed (CI)V
-		ARG 0 keyChar
-		ARG 1 keyCode
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY
 		ARG 2 delta
-	METHOD a onMousePressed (III)V
-		ARG 0 mouseX
-		ARG 1 mouseY
-		ARG 2 mouseButton
-	METHOD a onWidgetPressed (Lbiy;)V
-		ARG 0 widget
-	METHOD a handleTextComponentClick (Lhh;)Z
+	METHOD c init ()V
+	METHOD charTyped onKeyPressed (CI)Z
+		ARG 0 keyChar
+		ARG 1 keyCode
+	METHOD d handleTextComponentClick (Lic;)Z
 		ARG 0 component
-	METHOD b init ()V
-	METHOD e update ()V
-	METHOD m onClosed ()V
+	METHOD f update ()V
+	METHOD n onClosed ()V

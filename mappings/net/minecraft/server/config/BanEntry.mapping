@@ -1,4 +1,4 @@
-CLASS pe net/minecraft/server/config/BanEntry
+CLASS uq net/minecraft/server/config/BanEntry
 	FIELD a DATETIME_FORMAT Ljava/text/SimpleDateFormat;
 	FIELD b creationDate Ljava/util/Date;
 	FIELD c source Ljava/lang/String;
@@ -13,5 +13,4 @@ CLASS pe net/minecraft/server/config/BanEntry
 	METHOD a save (Lcom/google/gson/JsonObject;)V
 		ARG 0 json
 	METHOD c getBanExpirationDate ()Ljava/util/Date;
-	METHOD d getReason ()Ljava/lang/String;
-	METHOD e isExpired ()Z
+	METHOD f isExpired ()Z

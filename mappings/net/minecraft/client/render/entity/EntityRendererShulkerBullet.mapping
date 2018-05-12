@@ -1,6 +1,6 @@
-CLASS can net/minecraft/client/render/entity/EntityRendererShulkerBullet
-	FIELD a SKIN Lnd;
-	METHOD a getTexture (Laep;)Lnd;
+CLASS dbi net/minecraft/client/render/entity/EntityRendererShulkerBullet
+	FIELD a SKIN Loj;
+	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lve;)Lnd;
+	METHOD a getTexture (Larw;)Loj;
 		ARG 0 model

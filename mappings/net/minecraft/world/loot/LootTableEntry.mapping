@@ -1,11 +1,11 @@
-CLASS bfp net/minecraft/world/loot/LootTableEntry
-	CLASS bfp$a DeSerializer
-		METHOD a serialize (Lbfp;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
-		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lbfp;
+CLASS cen net/minecraft/world/loot/LootTableEntry
+	CLASS cen$a DeSerializer
+		METHOD a serialize (Lcen;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lcen;
 	FIELD c weight I
 	FIELD d quality I
-	FIELD e conditions [Lbgj;
-	METHOD <init> (II[Lbgj;)V
+	FIELD e conditions [Lcfi;
+	METHOD <init> (II[Lcfi;)V
 		ARG 0 weight
 		ARG 1 quality
 		ARG 2 conditions
@@ -14,7 +14,7 @@ CLASS bfp net/minecraft/world/loot/LootTableEntry
 	METHOD a serialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonSerializationContext;)V
 		ARG 0 json
 		ARG 1 serializationContext
-	METHOD a apply (Ljava/util/Collection;Ljava/util/Random;Lbfr;)V
+	METHOD a apply (Ljava/util/Collection;Ljava/util/Random;Lcep;)V
 		ARG 0 stacks
 		ARG 1 rand
 		ARG 2 context

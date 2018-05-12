@@ -1,12 +1,11 @@
-CLASS chb net/minecraft/server/IntegratedServer
-	CLASS chb$3
+CLASS dhm net/minecraft/server/IntegratedServer
+	CLASS dhm$3
 		METHOD run run ()V
-	FIELD k LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD l game Lbhz;
-	FIELD m levelInfo Lamv;
-	FIELD o openedToLan Z
-	FIELD p lanPinger Lchf;
-	METHOD <init> (Lbhz;Ljava/lang/String;Ljava/lang/String;Lamv;Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;Lcom/mojang/authlib/minecraft/MinecraftSessionService;Lcom/mojang/authlib/GameProfileRepository;Lpf;)V
+	FIELD h LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD i game Lchp;
+	FIELD j levelInfo Lbbc;
+	FIELD m lanPinger Ldhp;
+	METHOD <init> (Lchp;Ljava/lang/String;Ljava/lang/String;Lbbc;Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;Lcom/mojang/authlib/minecraft/MinecraftSessionService;Lcom/mojang/authlib/GameProfileRepository;Lur;)V
 		ARG 0 game
 		ARG 1 levelName
 		ARG 2 displayName
@@ -15,31 +14,26 @@ CLASS chb net/minecraft/server/IntegratedServer
 		ARG 5 sessionService
 		ARG 6 profileRepo
 		ARG 7 userCache
-	METHOD A getRunDirectory ()Ljava/io/File;
-	METHOD C doServerTick ()V
-	METHOD Z isSnooperEnabled ()Z
-	METHOD a isOpenToLan ()Z
-	METHOD a setDefaultGameMode (Lamq;)V
-		ARG 0 gameMode
-	METHOD a setDifficulty (Ltx;)V
+	METHOD H getServerPort ()I
+	METHOD R isSnooperEnabled ()Z
+	METHOD X isUsingNativeTransport ()Z
+	METHOD a setDifficulty (Lagk;)V
 		ARG 0 difficulty
-	METHOD a addSnooperInfo (Luj;)V
+	METHOD a addSnooperInfo (Lagw;)V
 		ARG 0 snooper
-	METHOD a saveWorlds (Z)V
-		ARG 0 dontLog
-	METHOD aa isDedicated ()Z
-	METHOD af isUsingNativeTransport ()Z
-	METHOD ai areCommandBlocksEnabled ()Z
+	METHOD a setDefaultGameMode (Lbau;)V
+		ARG 0 gameMode
+	METHOD aa areCommandBlocksEnabled ()Z
 	METHOD b addServerInfoToCrashReport (Lb;)Lb;
 		ARG 0 report
-	METHOD i createCommandManager ()Ldh;
-	METHOD j setupServer ()Z
-	METHOD m shouldGenerateStructures ()Z
-	METHOD n getDefaultGameMode ()Lamq;
-	METHOD o getDefaultDifficulty ()Ltx;
-	METHOD p isHardcore ()Z
-	METHOD q getOpPermissionLevel ()I
-	METHOD r shouldBroadcastRconToOps ()Z
-	METHOD s shouldBroadcastConsoleToOps ()Z
-	METHOD u shutdown ()V
-	METHOD x stop ()V
+	METHOD d setupServer ()Z
+	METHOD g shouldGenerateStructures ()Z
+	METHOD h getDefaultGameMode ()Lbau;
+	METHOD h_ shutdown ()V
+	METHOD i getDefaultDifficulty ()Lagk;
+	METHOD j isHardcore ()Z
+	METHOD k getOpPermissionLevel ()I
+	METHOD l shouldBroadcastRconToOps ()Z
+	METHOD q stop ()V
+	METHOD t getRunDirectory ()Ljava/io/File;
+	METHOD v doServerTick ()V

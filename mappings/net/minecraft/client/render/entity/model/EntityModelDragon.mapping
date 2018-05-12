@@ -1,19 +1,19 @@
-CLASS brl net/minecraft/client/render/entity/model/EntityModelDragon
-	FIELD a head Lbrq;
-	FIELD b neck Lbrq;
-	FIELD c jaw Lbrq;
-	FIELD d body Lbrq;
-	FIELD e rearLeg Lbrq;
-	FIELD f frontLeg Lbrq;
-	FIELD g rearLegTip Lbrq;
-	FIELD h frontLegTip Lbrq;
-	FIELD i rearFoot Lbrq;
-	FIELD j frontFoot Lbrq;
-	FIELD k wing Lbrq;
-	FIELD l wingTip Lbrq;
+CLASS cru net/minecraft/client/render/entity/model/EntityModelDragon
+	FIELD a head Lcrz;
+	FIELD b neck Lcrz;
+	FIELD c jaw Lcrz;
+	FIELD d body Lcrz;
+	FIELD e rearLeg Lcrz;
+	FIELD f frontLeg Lcrz;
+	FIELD g rearLegTip Lcrz;
+	FIELD h frontLegTip Lcrz;
+	FIELD i rearFoot Lcrz;
+	FIELD j frontFoot Lcrz;
+	FIELD k wing Lcrz;
+	FIELD l wingTip Lcrz;
 	FIELD m partialTicks F
 	METHOD a updateRotations (D)F
-	METHOD a render (Lve;FFFFFF)V
+	METHOD a render (Laht;FFFFFF)V
 		ARG 0 entity
 		ARG 1 limbMoveAngle
 		ARG 2 limbMoveAmount
@@ -21,7 +21,7 @@ CLASS brl net/minecraft/client/render/entity/model/EntityModelDragon
 		ARG 4 headYaw
 		ARG 5 headPitch
 		ARG 6 scale
-	METHOD a animateModel (Lvn;FFF)V
+	METHOD a animateModel (Laic;FFF)V
 		ARG 0 entity
 		ARG 1 swingAmount
 		ARG 2 swingDelta

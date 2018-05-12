@@ -1,12 +1,12 @@
-CLASS bou net/minecraft/client/gui/hud/spectator/SpectatorTeleportTeamMenu
-	CLASS bou$a
-		METHOD K_ enabled ()Z
+CLASS cor net/minecraft/client/gui/hud/spectator/SpectatorTeleportTeamMenu
+	CLASS cor$a
 		METHOD a renderIcon (FI)V
-		METHOD a selectElement (Lboo;)V
+		METHOD a selectElement (Lcok;)V
 			ARG 0 menu
-	METHOD K_ enabled ()Z
+		METHOD an_ enabled ()Z
 	METHOD a getElements ()Ljava/util/List;
 	METHOD a renderIcon (FI)V
-	METHOD a selectElement (Lboo;)V
+	METHOD a selectElement (Lcok;)V
 		ARG 0 menu
-	METHOD b getMessage ()Lhh;
+	METHOD an_ enabled ()Z
+	METHOD b getMessage ()Lic;

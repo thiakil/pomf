@@ -1,17 +1,17 @@
-CLASS boo net/minecraft/client/gui/hud/spectator/SpectatorMenu
-	CLASS boo$1
-		METHOD K_ enabled ()Z
+CLASS cok net/minecraft/client/gui/hud/spectator/SpectatorMenu
+	CLASS cok$1
 		METHOD a renderIcon (FI)V
-		METHOD a selectElement (Lboo;)V
+		METHOD a selectElement (Lcok;)V
 			ARG 0 menu
-	CLASS boo$a
-		METHOD K_ enabled ()Z
+		METHOD an_ enabled ()Z
+	CLASS cok$a
 		METHOD a renderIcon (FI)V
-		METHOD a selectElement (Lboo;)V
+		METHOD a selectElement (Lcok;)V
 			ARG 0 menu
-	CLASS boo$b
-		METHOD K_ enabled ()Z
+		METHOD an_ enabled ()Z
+	CLASS cok$b
 		METHOD a renderIcon (FI)V
-		METHOD a selectElement (Lboo;)V
+		METHOD a selectElement (Lcok;)V
 			ARG 0 menu
-	METHOD a selectElement (Lbop;)V
+		METHOD an_ enabled ()Z
+	METHOD a selectElement (Lcol;)V

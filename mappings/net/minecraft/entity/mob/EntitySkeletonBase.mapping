@@ -1,29 +1,29 @@
-CLASS acn net/minecraft/entity/mob/EntitySkeletonBase
-	CLASS acn$1
+CLASS apr net/minecraft/entity/mob/EntitySkeletonBase
+	CLASS apr$1
 		METHOD c start ()V
 		METHOD d onRemove ()V
-	FIELD a AIMING Lmx;
-	METHOD a playStepSound (Let;Laou;)V
-		ARG 0 pos
-		ARG 1 block
-	METHOD a deserializeCustomData (Lfy;)V
-		ARG 0 tag
-	METHOD a initEquipment (Lty;)V
+	FIELD a AIMING Lny;
+	METHOD a initEquipment (Lagl;)V
 		ARG 0 difficulty
-	METHOD a (Lty;Lvq;)Lvq;
+	METHOD a (Lagl;Laif;Lawg;)Laif;
 		ARG 0 difficulty
-	METHOD a setEquippedStack (Lvj;Lain;)V
+	METHOD a setEquippedStack (Lahy;Lawg;)V
 		ARG 0 slot
 		ARG 1 stack
-	METHOD a attackDistant (Lvn;F)V
+	METHOD a attackDistant (Laic;F)V
 		ARG 0 target
-	METHOD aF getHeightOffset ()D
-	METHOD bM initAttributes ()V
-	METHOD by getEyeHeight ()F
-	METHOD cn getEntityAttribute ()Lvs;
-	METHOD dl isAiming ()Z
-	METHOD i initDataTracker ()V
-	METHOD n updateMovement ()V
-	METHOD p setAiming (Z)V
+	METHOD a playStepSound (Lef;Lbfm;)V
+		ARG 0 pos
+		ARG 1 block
+	METHOD a deserializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD aK getHeightOffset ()D
+	METHOD bI getEyeHeight ()F
+	METHOD cB getEntityAttribute ()Laih;
+	METHOD ca initAttributes ()V
+	METHOD dC isAiming ()Z
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD s setAiming (Z)V
 		ARG 0 value
-	METHOD r initAi ()V
+	METHOD w_ initDataTracker ()V

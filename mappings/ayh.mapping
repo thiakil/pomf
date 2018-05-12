@@ -1,0 +1,4 @@
+CLASS ayh
+	METHOD a matches (Lagg;Lbax;)Z
+		ARG 1 world
+	METHOD d getOutput ()Lawg;

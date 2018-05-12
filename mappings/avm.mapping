@@ -1,0 +1,3 @@
+CLASS avm
+	METHOD b hasEnchantmentGlow (Lawg;)Z
+		ARG 0 stack

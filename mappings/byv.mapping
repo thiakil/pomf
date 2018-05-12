@@ -1,0 +1,9 @@
+CLASS byv
+	CLASS byv$a
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
+			ARG 1 rand
+			ARG 2 region
+		METHOD a serializeStructureData (Lgu;)V
+			ARG 0 tag
+		METHOD a deserializeStructureData (Lgu;Lbzn;)V
+			ARG 0 tag

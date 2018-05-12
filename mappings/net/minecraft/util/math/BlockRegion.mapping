@@ -1,4 +1,4 @@
-CLASS bbe net/minecraft/util/math/BlockRegion
+CLASS byh net/minecraft/util/math/BlockRegion
 	FIELD a minX I
 	FIELD b minY I
 	FIELD c minZ I
@@ -17,9 +17,9 @@ CLASS bbe net/minecraft/util/math/BlockRegion
 		ARG 3 maxX
 		ARG 4 maxY
 		ARG 5 maxZ
-	METHOD <init> (Lbbe;)V
+	METHOD <init> (Lbyh;)V
 		ARG 0 region
-	METHOD <init> (Lfq;Lfq;)V
+	METHOD <init> (Lfb;Lfb;)V
 		ARG 0 a
 		ARG 1 b
 	METHOD <init> ([I)V
@@ -33,21 +33,21 @@ CLASS bbe net/minecraft/util/math/BlockRegion
 		ARG 1 minZ
 		ARG 2 maxX
 		ARG 3 maxZ
-	METHOD a createSorted (IIIIII)Lbbe;
+	METHOD a createSorted (IIIIII)Lbyh;
 		ARG 0 x1
 		ARG 1 y1
 		ARG 2 z1
 		ARG 3 x2
 		ARG 4 y2
 		ARG 5 z2
-	METHOD a contains (Lbbe;)Z
+	METHOD a contains (Lbyh;)Z
 		ARG 0 region
-	METHOD b getSize ()Lfq;
-	METHOD b expand (Lbbe;)V
+	METHOD b getSize ()Lfb;
+	METHOD b expand (Lbyh;)V
 		ARG 0 region
-	METHOD b contains (Lfq;)Z
+	METHOD b contains (Lfb;)Z
 		ARG 0 pos
 	METHOD c getWidth ()I
 	METHOD d getDepth ()I
 	METHOD e getHeight ()I
-	METHOD g serialize ()Lgc;
+	METHOD g serialize ()Lgy;

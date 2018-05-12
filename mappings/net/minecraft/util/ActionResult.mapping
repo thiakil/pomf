@@ -1,4 +1,4 @@
-CLASS ub net/minecraft/util/ActionResult
-	FIELD a SUCCESS Lub;
-	FIELD b PASS Lub;
-	FIELD c FAILURE Lub;
+CLASS ago net/minecraft/util/ActionResult
+	FIELD a SUCCESS Lago;
+	FIELD b PASS Lago;
+	FIELD c FAILURE Lago;

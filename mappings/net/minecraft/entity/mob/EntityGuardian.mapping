@@ -1,30 +1,26 @@
-CLASS acy net/minecraft/entity/mob/EntityGuardian
-	CLASS acy$a
+CLASS aqd net/minecraft/entity/mob/EntityGuardian
+	CLASS aqd$a
 		METHOD a canStart ()Z
 		METHOD b shouldContinue ()Z
 		METHOD c start ()V
 		METHOD d onRemove ()V
 		METHOD e tick ()V
-	CLASS acy$c
+	CLASS aqd$c
 		METHOD a tick ()V
-	METHOD F getSoundAmbient ()Lqc;
-	METHOD J getLootTableId ()Lnd;
-	METHOD P canSpawn ()Z
-	METHOD a getTargetWeight (Let;)F
-		ARG 0 pos
-	METHOD a onTrackedDataSet (Lmx;)V
-		ARG 0 data
-	METHOD a damage (Lup;F)Z
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD a damage (Lahc;F)Z
 		ARG 0 source
 		ARG 1 damage
-	METHOD b createNavigation (Lams;)Lzc;
+	METHOD a onTrackedDataSet (Lny;)V
+		ARG 0 data
+	METHOD b createNavigation (Lbax;)Laly;
 		ARG 0 world
-	METHOD bM initAttributes ()V
-	METHOD by getEyeHeight ()F
-	METHOD c registerTagUpgraders2 (Lrw;)V
-		ARG 0 handler
-	METHOD cf getSoundDeath ()Lqc;
-	METHOD d getSoundHurt (Lup;)Lqc;
-	METHOD i initDataTracker ()V
-	METHOD n updateMovement ()V
-	METHOD r initAi ()V
+	METHOD bI getEyeHeight ()F
+	METHOD cB getEntityAttribute ()Laih;
+	METHOD ca initAttributes ()V
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahc;)Lvo;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD w_ initDataTracker ()V

@@ -1,0 +1,5 @@
+CLASS bqh
+	METHOD b getFogColor (FF)Lcgc;
+	METHOD m setupBiomeProvider ()V
+	METHOD o hasClouds ()Z
+	METHOD q getWorldType ()Lbqf;

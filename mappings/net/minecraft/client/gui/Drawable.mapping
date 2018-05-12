@@ -1,7 +1,7 @@
-CLASS bip net/minecraft/client/gui/Drawable
-	FIELD b OPTIONS_BG Lnd;
-	FIELD c STAT_ICONS Lnd;
-	FIELD d ICONS Lnd;
+CLASS cii net/minecraft/client/gui/Drawable
+	FIELD b OPTIONS_BG Loj;
+	FIELD c STAT_ICONS Loj;
+	FIELD d ICONS Loj;
 	FIELD e z F
 	METHOD a drawTexturedRect (FFIIII)V
 		ARG 0 x
@@ -30,13 +30,13 @@ CLASS bip net/minecraft/client/gui/Drawable
 		ARG 3 bottom
 		ARG 4 color1
 		ARG 5 color2
-	METHOD a drawTexturedRect (IILcdo;II)V
+	METHOD a drawTexturedRect (IILdet;II)V
 		ARG 0 x
 		ARG 1 y
 		ARG 2 sprite
 		ARG 3 width
 		ARG 4 height
-	METHOD a drawStringCentered (Lbin;Ljava/lang/String;III)V
+	METHOD a drawStringCentered (Lcig;Ljava/lang/String;III)V
 		ARG 0 fontRenderer
 		ARG 1 str
 		ARG 2 x
@@ -54,7 +54,7 @@ CLASS bip net/minecraft/client/gui/Drawable
 		ARG 3 v
 		ARG 4 width
 		ARG 5 height
-	METHOD c drawString (Lbin;Ljava/lang/String;III)V
+	METHOD c drawString (Lcig;Ljava/lang/String;III)V
 		ARG 0 fontRenderer
 		ARG 1 str
 		ARG 2 x

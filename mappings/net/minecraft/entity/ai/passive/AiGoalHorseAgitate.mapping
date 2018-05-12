@@ -1,10 +1,10 @@
-CLASS yf net/minecraft/entity/ai/passive/AiGoalHorseAgitate
-	FIELD a owner Laam;
+CLASS ala net/minecraft/entity/ai/passive/AiGoalHorseAgitate
+	FIELD a owner Lanp;
 	FIELD b speed D
 	FIELD c targetX D
 	FIELD d targetY D
 	FIELD e targetZ D
-	METHOD <init> (Laam;D)V
+	METHOD <init> (Lanp;D)V
 		ARG 0 owner
 		ARG 1 speed
 	METHOD a canStart ()Z

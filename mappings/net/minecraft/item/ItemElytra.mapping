@@ -1,15 +1,15 @@
-CLASS ahu net/minecraft/item/ItemElytra
-	CLASS ahu$1
-		METHOD a getProperty (Lain;Lams;Lvn;)F
+CLASS avi net/minecraft/item/ItemElytra
+	CLASS avi$1
+		METHOD a getProperty (Lawg;Lbax;Laic;)F
 			ARG 0 stack
 			ARG 1 world
 			ARG 2 user
-	METHOD a canRepair (Lain;Lain;)Z
+	METHOD a canRepair (Lawg;Lawg;)Z
 		ARG 0 item
 		ARG 1 repairItem
-	METHOD a onRightClick (Lams;Laeb;Ltz;)Luc;
+	METHOD a onRightClick (Lbax;Larh;Lagm;)Lagp;
 		ARG 0 world
 		ARG 1 player
 		ARG 2 hand
-	METHOD d isUsable (Lain;)Z
+	METHOD g_ isUsable (Lawg;)Z
 		ARG 0 stack

@@ -1,13 +1,13 @@
-CLASS oa net/minecraft/server/gui/ServerGui
-	CLASS oa$4
+CLASS rx net/minecraft/server/gui/ServerGui
+	CLASS rx$4
 		METHOD run run ()V
-	CLASS oa$5
+	CLASS rx$5
 		METHOD run run ()V
 	FIELD a FONT Ljava/awt/Font;
 	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD c server Lnx;
-	METHOD <init> (Lnx;)V
+	FIELD c server Lru;
+	METHOD <init> (Lru;)V
 		ARG 0 server
-	METHOD a createWindow (Lnx;)V
+	METHOD a createWindow (Lru;)V
 		ARG 0 server
-	METHOD b getPlayerListComponent ()Ljavax/swing/JComponent;
+	METHOD c getPlayerListComponent ()Ljavax/swing/JComponent;

@@ -1,2 +1,2 @@
-CLASS nv net/minecraft/util/ITickable
-	METHOD e update ()V
+CLASS pa net/minecraft/util/ITickable
+	METHOD Y_ update ()V

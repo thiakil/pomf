@@ -1,6 +1,6 @@
-CLASS xe net/minecraft/entity/ai/AiGoalHarvestFarmland
-	FIELD c owner Ladw;
-	METHOD <init> (Ladw;D)V
+CLASS ajx net/minecraft/entity/ai/AiGoalHarvestFarmland
+	FIELD f owner Larc;
+	METHOD <init> (Larc;D)V
 		ARG 0 owner
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z

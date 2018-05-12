@@ -1,2 +1,2 @@
-CLASS aaf net/minecraft/entity/passive/EntityParrotBase
-	METHOD B_ update ()V
+CLASS ang net/minecraft/entity/passive/EntityParrotBase
+	METHOD R_ update ()V

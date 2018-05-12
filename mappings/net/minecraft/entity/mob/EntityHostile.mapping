@@ -1,19 +1,15 @@
-CLASS adc net/minecraft/entity/mob/EntityHostile
-	METHOD B attackEntity (Lve;)Z
-	METHOD B_ update ()V
-	METHOD P canSpawn ()Z
-	METHOD a getTargetWeight (Let;)F
-		ARG 0 pos
-	METHOD a damage (Lup;F)Z
+CLASS aqh net/minecraft/entity/mob/EntityHostile
+	METHOD R_ update ()V
+	METHOD a damage (Lahc;F)Z
 		ARG 0 source
 		ARG 1 damage
-	METHOD ae getSoundSwim ()Lqc;
-	METHOD af getSoundSplash ()Lqc;
-	METHOD bK getSoundCategory ()Lqe;
-	METHOD bM initAttributes ()V
-	METHOD bP canDropLootAndXp ()Z
-	METHOD cf getSoundDeath ()Lqc;
-	METHOD d getSoundHurt (Lup;)Lqc;
-	METHOD e getSoundFall (I)Lqc;
+	METHOD ae getSoundSwim ()Lvo;
+	METHOD af getSoundSplash ()Lvo;
+	METHOD bX getSoundCategory ()Lvq;
+	METHOD ca initAttributes ()V
+	METHOD cd canDropLootAndXp ()Z
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahc;)Lvo;
+	METHOD k updateMovement ()V
+	METHOD m getSoundFall (I)Lvo;
 		ARG 0 height
-	METHOD n updateMovement ()V

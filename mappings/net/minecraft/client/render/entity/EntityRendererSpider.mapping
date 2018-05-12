@@ -1,6 +1,6 @@
-CLASS cau net/minecraft/client/render/entity/EntityRendererSpider
-	FIELD a SKIN Lnd;
-	METHOD a getTexture (Ladl;)Lnd;
+CLASS dbp net/minecraft/client/render/entity/EntityRendererSpider
+	FIELD a SKIN Loj;
+	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lve;)Lnd;
+	METHOD a getTexture (Laqr;)Loj;
 		ARG 0 model

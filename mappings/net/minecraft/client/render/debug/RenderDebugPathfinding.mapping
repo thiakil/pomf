@@ -1,6 +1,6 @@
-CLASS byh net/minecraft/client/render/debug/RenderDebugPathfinding
-	FIELD a game Lbhz;
-	FIELD e player Laeb;
+CLASS cys net/minecraft/client/render/debug/RenderDebugPathfinding
+	FIELD a game Lchp;
+	FIELD e player Larh;
 	FIELD f viewX D
 	FIELD g viewY D
 	FIELD h viewZ D

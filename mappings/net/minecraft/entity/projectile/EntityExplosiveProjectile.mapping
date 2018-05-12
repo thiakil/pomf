@@ -1,25 +1,17 @@
-CLASS aej net/minecraft/entity/projectile/EntityExplosiveProjectile
-	FIELD a owner Lvn;
-	METHOD <init> (Lams;DDDDDD)V
-		ARG 0 world
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD <init> (Lams;Lvn;DDD)V
-		ARG 0 world
-		ARG 1 owner
-	METHOD B_ update ()V
+CLASS arm net/minecraft/entity/projectile/EntityExplosiveProjectile
+	FIELD a owner Laic;
+	METHOD R_ update ()V
 	METHOD a shouldRender (D)Z
 		ARG 0 distanceSq
-	METHOD a onCollision (Lbha;)V
-		ARG 0 hit
-	METHOD a deserializeCustomData (Lfy;)V
-		ARG 0 tag
-	METHOD a damage (Lup;F)Z
+	METHOD a damage (Lahc;F)Z
 		ARG 0 source
 		ARG 1 damage
-	METHOD ay doesCollide ()Z
-	METHOD b serializeCustomData (Lfy;)V
+	METHOD a onCollision (Lcfz;)V
+		ARG 0 hit
+	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD i initDataTracker ()V
-	METHOD j getParticleType ()Lfj;
+	METHOD aD doesCollide ()Z
+	METHOD b serializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD i getParticleType ()Lfg;
+	METHOD w_ initDataTracker ()V

@@ -1,9 +1,7 @@
-CLASS acp net/minecraft/entity/mob/EntityCaveSpider
-	METHOD B attackEntity (Lve;)Z
-	METHOD J getLootTableId ()Lnd;
-	METHOD a registerTagUpgraders (Lrw;)V
-		ARG 0 handler
-	METHOD a (Lty;Lvq;)Lvq;
+CLASS apt net/minecraft/entity/mob/EntityCaveSpider
+	METHOD B attackEntity (Laht;)Z
+	METHOD H getLootTableId ()Loj;
+	METHOD a (Lagl;Laif;Lawg;)Laif;
 		ARG 0 difficulty
-	METHOD bM initAttributes ()V
-	METHOD by getEyeHeight ()F
+	METHOD bI getEyeHeight ()F
+	METHOD ca initAttributes ()V

@@ -1,8 +1,5 @@
-CLASS adm net/minecraft/entity/mob/EntityStray
-	METHOD F getSoundAmbient ()Lqc;
-	METHOD J getLootTableId ()Lnd;
-	METHOD P canSpawn ()Z
-	METHOD a registerTagUpgraders (Lrw;)V
-		ARG 0 handler
-	METHOD cf getSoundDeath ()Lqc;
-	METHOD d getSoundHurt (Lup;)Lqc;
+CLASS aqs net/minecraft/entity/mob/EntityStray
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahc;)Lvo;

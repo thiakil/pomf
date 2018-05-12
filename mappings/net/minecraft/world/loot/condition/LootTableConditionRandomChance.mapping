@@ -1,12 +1,12 @@
-CLASS bgn net/minecraft/world/loot/condition/LootTableConditionRandomChance
-	CLASS bgn$a Provider
-		METHOD a serialize (Lcom/google/gson/JsonObject;Lbgj;Lcom/google/gson/JsonSerializationContext;)V
-		METHOD a serialize (Lcom/google/gson/JsonObject;Lbgn;Lcom/google/gson/JsonSerializationContext;)V
-		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbgn;
-		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbgj;
+CLASS cfm net/minecraft/world/loot/condition/LootTableConditionRandomChance
+	CLASS cfm$a Provider
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfi;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfm;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcfm;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcfi;
 	FIELD a chance F
 	METHOD <init> (F)V
 		ARG 0 chance
-	METHOD a matches (Ljava/util/Random;Lbfr;)Z
+	METHOD a matches (Ljava/util/Random;Lcep;)Z
 		ARG 0 rand
 		ARG 1 context

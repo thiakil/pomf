@@ -1,44 +1,40 @@
-CLASS bin net/minecraft/client/render/FontRenderer
+CLASS cig net/minecraft/client/render/FontRenderer
 	FIELD a FONT_HEIGHT I
 	FIELD b rand Ljava/util/Random;
-	FIELD c UNICODE_PAGE_TEX [Lnd;
-	FIELD d charWidths [I
-	FIELD e glyphWidths [B
-	FIELD f chatColors [I
-	FIELD g fontTextureLoc Lnd;
-	FIELD h textureManager Lcdp;
-	FIELD i renderX F
-	FIELD j renderY F
-	FIELD k useUnicodeFont Z
-	FIELD l rightToLeft Z
-	FIELD m colorRed F
-	FIELD n colorGreen F
-	FIELD o colorBlue F
-	FIELD p colorAlpha F
-	FIELD q chatColor I
-	FIELD r chatObfuscated Z
-	FIELD s chatBold Z
-	FIELD t chatItalic Z
-	FIELD u chatUnderline Z
-	FIELD v chatStrikethrough Z
-	METHOD <init> (Lbib;Lnd;Lcdp;Z)V
-		ARG 0 settings
-		ARG 1 fontTextureLoc
-		ARG 2 textureManager
-		ARG 3 useUnicodeFont
+	FIELD e charWidths [I
+	FIELD f glyphWidths [B
+	FIELD g chatColors [I
+	FIELD h fontTextureLoc Loj;
+	FIELD i textureManager Ldeu;
+	FIELD j renderX F
+	FIELD k renderY F
+	FIELD l useUnicodeFont Z
+	FIELD m rightToLeft Z
+	FIELD n colorRed F
+	FIELD o colorGreen F
+	FIELD p colorBlue F
+	FIELD q colorAlpha F
+	FIELD r chatColor I
+	FIELD s chatObfuscated Z
+	FIELD t chatBold Z
+	FIELD u chatItalic Z
+	FIELD v chatUnderline Z
+	FIELD w chatStrikethrough Z
+	METHOD <init> (Loj;Ldeu;Z)V
+		ARG 0 fontTextureLoc
+		ARG 1 textureManager
+		ARG 2 useUnicodeFont
 	METHOD a usesUnicodeFont ()Z
 	METHOD a getCharWidth (C)I
 		ARG 0 c
 	METHOD a renderChar (CZ)F
 		ARG 0 c
 		ARG 1 shadow
-	METHOD a getUnicodeTexture (I)Lnd;
+	METHOD a getUnicodeTexture (I)Loj;
 		ARG 0 page
 	METHOD a renderNormalChar (IZ)F
 		ARG 0 index
 		ARG 1 shadow
-	METHOD a onResourceReload (Lcen;)V
-		ARG 0 container
 	METHOD a getStringWidth (Ljava/lang/String;)I
 		ARG 0 str
 	METHOD a drawString (Ljava/lang/String;FFI)I
@@ -79,10 +75,12 @@ CLASS bin net/minecraft/client/render/FontRenderer
 	METHOD a renderText (Ljava/lang/String;Z)V
 		ARG 0 str
 		ARG 1 shadow
+	METHOD a onResourceReload (Lul;)V
+		ARG 0 container
 	METHOD a setUnicodeFont (Z)V
 		ARG 0 value
 	METHOD b isRightToLeft ()Z
-	METHOD b getChatColor (C)I
+	METHOD b isChatColorModifier (C)Z
 		ARG 0 chr
 	METHOD b renderUnicodeChar (CZ)F
 		ARG 0 c
@@ -100,15 +98,12 @@ CLASS bin net/minecraft/client/render/FontRenderer
 		ARG 1 maxWidth
 	METHOD b setRightToLeft (Z)V
 		ARG 0 value
-	METHOD c reloadFontTexture ()V
-	METHOD c isChatColorModifier (C)Z
+	METHOD c isChatFormattingModifier (C)Z
 		ARG 0 chr
 	METHOD c mirror (Ljava/lang/String;)Ljava/lang/String;
 		ARG 0 s
 	METHOD c wrapStringToList (Ljava/lang/String;I)Ljava/util/List;
 	METHOD d reloadGlyphSizes ()V
-	METHOD d isChatFormattingModifier (C)Z
-		ARG 0 chr
 	METHOD d trimEndNewlines (Ljava/lang/String;)Ljava/lang/String;
 		ARG 0 str
 	METHOD e resetChatFormatting ()V

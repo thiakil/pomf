@@ -1,19 +1,19 @@
-CLASS je net/minecraft/network/packet/client/CPacketChunkData
+CLASS ka net/minecraft/network/packet/client/CPacketChunkData
 	FIELD a chunkX I
 	FIELD b chunkZ I
 	FIELD c verticalStripBitmask I
 	FIELD d data [B
 	FIELD e blockEntityList Ljava/util/List;
 	FIELD f containsVerticalStrip Z
-	METHOD a getReadBuffer ()Lgy;
-	METHOD a readPacket (Lgy;)V
+	METHOD a getReadBuffer ()Lht;
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
-		ARG 0 handler
 	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
+	METHOD a applyPacket (Lis;)V
+		ARG 0 handler
 	METHOD b getX ()I
-	METHOD b writePacket (Lgy;)V
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf
 	METHOD c getZ ()I
 	METHOD d getVerticalStripBitmask ()I

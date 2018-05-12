@@ -1,0 +1,7 @@
+CLASS bvw
+	CLASS bvw$a StructureVillage
+		FIELD e valid Z
+		METHOD a serializeCustomData (Lgu;)V
+			ARG 0 tag
+		METHOD b deserializeCustomData (Lgu;)V
+			ARG 0 tag

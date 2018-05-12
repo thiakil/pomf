@@ -1,23 +1,20 @@
-CLASS act net/minecraft/entity/mob/EntityEndermite
-	METHOD B_ update ()V
-	METHOD F getSoundAmbient ()Lqc;
-	METHOD J getLootTableId ()Lnd;
-	METHOD P canSpawn ()Z
-	METHOD a playStepSound (Let;Laou;)V
+CLASS apy net/minecraft/entity/mob/EntityEndermite
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD R_ update ()V
+	METHOD a playStepSound (Lef;Lbfm;)V
 		ARG 0 pos
 		ARG 1 block
-	METHOD a deserializeCustomData (Lfy;)V
+	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD a registerTagUpgraders (Lrw;)V
-		ARG 0 handler
-	METHOD aF getHeightOffset ()D
-	METHOD b serializeCustomData (Lfy;)V
+	METHOD aK getHeightOffset ()D
+	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD bM initAttributes ()V
-	METHOD by getEyeHeight ()F
-	METHOD cf getSoundDeath ()Lqc;
-	METHOD cn getEntityAttribute ()Lvs;
-	METHOD d getSoundHurt (Lup;)Lqc;
-	METHOD h setYaw (F)V
-	METHOD n updateMovement ()V
-	METHOD r initAi ()V
+	METHOD bI getEyeHeight ()F
+	METHOD cB getEntityAttribute ()Laih;
+	METHOD ca initAttributes ()V
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahc;)Lvo;
+	METHOD k updateMovement ()V
+	METHOD k setYaw (F)V
+	METHOD n initAi ()V

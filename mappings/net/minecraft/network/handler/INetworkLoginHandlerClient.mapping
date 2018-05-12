@@ -1,9 +1,9 @@
-CLASS mf net/minecraft/network/handler/INetworkLoginHandlerClient
-	METHOD a onLoginSuccess (Lmg;)V
+CLASS ng net/minecraft/network/handler/INetworkLoginHandlerClient
+	METHOD a onLoginSuccess (Lnh;)V
 		ARG 0 packet
-	METHOD a onLoginEncryptionRequest (Lmh;)V
+	METHOD a onLoginEncryptionRequest (Lni;)V
 		ARG 0 packet
-	METHOD a onLoginCompression (Lmi;)V
+	METHOD a onLoginCompression (Lnj;)V
 		ARG 0 packet
-	METHOD a onLoginDisconnect (Lmj;)V
+	METHOD a onLoginDisconnect (Lnk;)V
 		ARG 0 packet

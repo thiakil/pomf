@@ -1,18 +1,18 @@
-CLASS bxl net/minecraft/client/render/chunk/ChunkRenderWorker
-	CLASS bxl$1
+CLASS cxw net/minecraft/client/render/chunk/ChunkRenderWorker
+	CLASS cxw$1
 		METHOD run run ()V
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b batcher Lbxk;
+	FIELD b batcher Lcxv;
 	FIELD d running Z
-	METHOD <init> (Lbxk;)V
+	METHOD <init> (Lcxv;)V
 		ARG 0 batcher
-	METHOD <init> (Lbxk;Lbuk;)V
+	METHOD <init> (Lcxv;Lcuv;)V
 		ARG 0 batcher
 		ARG 1 vertexBuffer
 	METHOD a stop ()V
-	METHOD a runTask (Lbxj;)V
+	METHOD a runTask (Lcxu;)V
 		ARG 0 chunkRenderDataTask
-	METHOD a loadChunk (Let;Lams;)Z
+	METHOD a loadChunk (Lef;Lbax;)Z
 		ARG 0 pos
 		ARG 1 world
 	METHOD run run ()V

@@ -1,43 +1,39 @@
-CLASS bbi net/minecraft/world/gen/structure/StructurePiecesMineshaft
-	CLASS bbi$a MineshaftPieceCorridor
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+CLASS byr net/minecraft/world/gen/structure/StructurePiecesMineshaft
+	CLASS byr$a MineshaftPieceCorridor
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-		METHOD a serializeStructureData (Lfy;)V
+		METHOD a serializeStructureData (Lgu;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lfy;Lbce;)V
+		METHOD a deserializeStructureData (Lgu;Lbzn;)V
 			ARG 0 tag
-	CLASS bbi$b MineshaftPieceCrossing
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS byr$b MineshaftPieceCrossing
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-		METHOD a serializeStructureData (Lfy;)V
+		METHOD a serializeStructureData (Lgu;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lfy;Lbce;)V
+		METHOD a deserializeStructureData (Lgu;Lbzn;)V
 			ARG 0 tag
-	CLASS bbi$c MineshaftPiece
-		METHOD a serializeStructureData (Lfy;)V
+	CLASS byr$c MineshaftPiece
+		METHOD a serializeStructureData (Lgu;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lfy;Lbce;)V
+		METHOD a deserializeStructureData (Lgu;Lbzn;)V
 			ARG 0 tag
-	CLASS bbi$d MineshaftPieceRoom
+	CLASS byr$d MineshaftPieceRoom
 		METHOD a translate (III)V
 			ARG 0 x
 			ARG 1 y
 			ARG 2 z
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-		METHOD a serializeStructureData (Lfy;)V
+		METHOD a serializeStructureData (Lgu;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lfy;Lbce;)V
+		METHOD a deserializeStructureData (Lgu;Lbzn;)V
 			ARG 0 tag
-	CLASS bbi$e MineshaftPieceStairs
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS byr$e MineshaftPieceStairs
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
 	METHOD a registerPieces ()V

@@ -1,7 +1,7 @@
-CLASS alh net/minecraft/enchantment/EnchantmentEfficiency
-	METHOD <init> (Lali$a;[Lvj;)V
+CLASS aze net/minecraft/enchantment/EnchantmentEfficiency
+	METHOD <init> (Lazf$a;[Lahy;)V
 		ARG 0 weight
 		ARG 1 slotTypes
-	METHOD a isAcceptableItem (Lain;)Z
+	METHOD a isAcceptableItem (Lawg;)Z
 		ARG 0 item
 	METHOD b getHighestLevel ()I

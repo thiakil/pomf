@@ -1,0 +1,3 @@
+CLASS cne
+	CLASS cne$1
+		METHOD run run ()V

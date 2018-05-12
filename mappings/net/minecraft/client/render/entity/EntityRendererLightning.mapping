@@ -1,5 +1,5 @@
-CLASS bzx net/minecraft/client/render/entity/EntityRendererLightning
-	METHOD a getTexture (Lacg;)Lnd;
+CLASS dap net/minecraft/client/render/entity/EntityRendererLightning
+	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lve;)Lnd;
+	METHOD a getTexture (Lapk;)Loj;
 		ARG 0 model

@@ -1,8 +1,8 @@
-CLASS alp net/minecraft/enchantment/EnchantmentFrostWalker
-	METHOD <init> (Lali$a;[Lvj;)V
+CLASS azm net/minecraft/enchantment/EnchantmentFrostWalker
+	METHOD <init> (Lazf$a;[Lahy;)V
 		ARG 0 weight
 		ARG 1 slotTypes
-	METHOD a isEqual (Lali;)Z
+	METHOD a isEqual (Lazf;)Z
 		ARG 0 other
 	METHOD b getHighestLevel ()I
 	METHOD c isLootOnly ()Z

@@ -1,6 +1,6 @@
-CLASS zx net/minecraft/entity/EntityGolem
-	METHOD F getSoundAmbient ()Lqc;
-	METHOD cf getSoundDeath ()Lqc;
-	METHOD d getSoundHurt (Lup;)Lqc;
-	METHOD e handleFallDamage (FF)V
+CLASS amq net/minecraft/entity/EntityGolem
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD c handleFallDamage (FF)V
 		ARG 0 fallDistance
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahc;)Lvo;

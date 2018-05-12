@@ -1,5 +1,5 @@
-CLASS brf net/minecraft/client/render/entity/model/ModelZombieVillager
-	METHOD a setRotationAngles (FFFFFFLve;)V
+CLASS cro net/minecraft/client/render/entity/model/ModelZombieVillager
+	METHOD a setRotationAngles (FFFFFFLaht;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount
 		ARG 2 age

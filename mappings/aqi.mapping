@@ -1,0 +1,46 @@
+CLASS aqi
+	CLASS aqi$b
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	CLASS aqi$c
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS aqi$e
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+	CLASS aqi$f
+		METHOD a tick ()V
+	CLASS aqi$g
+		METHOD a tick ()V
+	CLASS aqi$i
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD K mobTick ()V
+	METHOD R_ update ()V
+	METHOD a shouldRender (D)Z
+		ARG 0 distanceSq
+	METHOD a (Lagl;Laif;Lawg;)Laif;
+		ARG 0 difficulty
+	METHOD a deserializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD a onTrackedDataSet (Lny;)V
+		ARG 0 data
+	METHOD b serializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD b canTrack (Ljava/lang/Class;)Z
+	METHOD bI getEyeHeight ()F
+	METHOD bX getSoundCategory ()Lvq;
+	METHOD cB getEntityAttribute ()Laih;
+	METHOD cE getSoundVolume ()F
+	METHOD ca initAttributes ()V
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahc;)Lvo;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V
+	METHOD w_ initDataTracker ()V

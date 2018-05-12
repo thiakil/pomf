@@ -1,4 +1,4 @@
-CLASS cdd net/minecraft/client/texture/Texture
+CLASS deh net/minecraft/client/texture/Texture
 	FIELD a glId I
 	FIELD b bilinear Z
 	FIELD c mipmap Z

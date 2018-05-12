@@ -1,24 +1,24 @@
-CLASS lk net/minecraft/network/packet/server/SPacketPlayerUpdate
-	CLASS lk$a Position
-		METHOD a readPacket (Lgy;)V
+CLASS mk net/minecraft/network/packet/server/SPacketPlayerUpdate
+	CLASS mk$a Position
+		METHOD a readPacket (Lht;)V
 			ARG 0 buf
-		METHOD a applyPacket (Lhb;)V
+		METHOD a applyPacket (Lhw;)V
 			ARG 0 handler
-		METHOD b writePacket (Lgy;)V
+		METHOD b writePacket (Lht;)V
 			ARG 0 buf
-	CLASS lk$b PositionRotation
-		METHOD a readPacket (Lgy;)V
+	CLASS mk$b PositionRotation
+		METHOD a readPacket (Lht;)V
 			ARG 0 buf
-		METHOD a applyPacket (Lhb;)V
+		METHOD a applyPacket (Lhw;)V
 			ARG 0 handler
-		METHOD b writePacket (Lgy;)V
+		METHOD b writePacket (Lht;)V
 			ARG 0 buf
-	CLASS lk$c Rotation
-		METHOD a readPacket (Lgy;)V
+	CLASS mk$c Rotation
+		METHOD a readPacket (Lht;)V
 			ARG 0 buf
-		METHOD a applyPacket (Lhb;)V
+		METHOD a applyPacket (Lhw;)V
 			ARG 0 handler
-		METHOD b writePacket (Lgy;)V
+		METHOD b writePacket (Lht;)V
 			ARG 0 buf
 	FIELD a x D
 	FIELD b yFeet D
@@ -35,17 +35,17 @@ CLASS lk net/minecraft/network/packet/server/SPacketPlayerUpdate
 		ARG 0 old
 	METHOD a getYaw (F)F
 		ARG 0 old
-	METHOD a readPacket (Lgy;)V
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
+	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lkw;)V
+	METHOD a applyPacket (Llx;)V
 		ARG 0 handler
 	METHOD b getYFeet (D)D
 		ARG 0 old
 	METHOD b getPitch (F)F
 		ARG 0 old
-	METHOD b writePacket (Lgy;)V
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf
 	METHOD c getZ (D)D
 		ARG 0 old

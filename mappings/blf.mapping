@@ -1,0 +1,9 @@
+CLASS blf
+	METHOD a getWeakRedstonePower (Lbnv;Lbal;Lef;Lel;)I
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD b getStrongRedstonePower (Lbnv;Lbal;Lef;Lel;)I
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom

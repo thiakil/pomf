@@ -1,7 +1,7 @@
-CLASS biv net/minecraft/client/chat/ChatMessageListener
-	FIELD a game Lbhz;
-	METHOD <init> (Lbhz;)V
+CLASS cin net/minecraft/client/chat/ChatMessageListener
+	FIELD a game Lchp;
+	METHOD <init> (Lchp;)V
 		ARG 0 game
-	METHOD a onMessageReceived (Lhf;Lhh;)V
+	METHOD a onMessageReceived (Lia;Lic;)V
 		ARG 0 type
 		ARG 1 message

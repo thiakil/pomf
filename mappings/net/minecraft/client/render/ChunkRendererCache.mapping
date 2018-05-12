@@ -1,5 +1,5 @@
-CLASS bvf net/minecraft/client/render/ChunkRendererCache
-	FIELD b world Lams;
-	METHOD <init> (Lams;ILbuw;Lbxq;)V
+CLASS cvq net/minecraft/client/render/ChunkRendererCache
+	FIELD b world Lbax;
+	METHOD <init> (Lbax;ILcvg;Lcyb;)V
 		ARG 0 world
 	METHOD a markRegionForRenderUpdate (IIIIIIZ)V

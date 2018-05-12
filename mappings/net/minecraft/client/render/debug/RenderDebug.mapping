@@ -1,22 +1,21 @@
-CLASS bye net/minecraft/client/render/debug/RenderDebug
-	CLASS bye$a IRenderDebug
+CLASS cyo net/minecraft/client/render/debug/RenderDebug
+	CLASS cyo$a IRenderDebug
 		METHOD a render (FJ)V
 			ARG 0 tickDelta
-	FIELD a pathfindingRenderer Lbye$a;
-	FIELD b waterRenderer Lbye$a;
-	FIELD c chunkBorderRenderer Lbye$a;
-	FIELD d heightMapRenderer Lbye$a;
-	FIELD e boundingBoxRenderer Lbye$a;
-	FIELD f neighborUpdateRenderer Lbye$a;
-	FIELD g blockFaceRenderer Lbye$a;
-	FIELD h showChunkBorder Z
-	FIELD i showPathfinding Z
-	FIELD j showWater Z
-	FIELD k showHeightmap Z
-	FIELD l showBoundingBoxes Z
-	FIELD m showNeighborUpdates Z
-	FIELD n showBlockFaces Z
-	METHOD <init> (Lbhz;)V
+	FIELD b waterRenderer Lcyo$a;
+	FIELD c chunkBorderRenderer Lcyo$a;
+	FIELD d heightMapRenderer Lcyo$a;
+	FIELD e boundingBoxRenderer Lcyo$a;
+	FIELD f neighborUpdateRenderer Lcyo$a;
+	FIELD k blockFaceRenderer Lcyo$a;
+	FIELD l showChunkBorder Z
+	FIELD m showPathfinding Z
+	FIELD n showWater Z
+	FIELD o showHeightmap Z
+	FIELD p showBoundingBoxes Z
+	FIELD q showNeighborUpdates Z
+	FIELD t showBlockFaces Z
+	METHOD <init> (Lchp;)V
 		ARG 0 game
 	METHOD a isEnabled ()Z
 	METHOD a renderDebuggers (FJ)V

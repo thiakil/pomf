@@ -1,7 +1,7 @@
-CLASS yc net/minecraft/entity/ai/mob/AiGoalDistantAttack
-	FIELD a owner Ladc;
+CLASS akw net/minecraft/entity/ai/mob/AiGoalDistantAttack
+	FIELD a owner Laqh;
 	FIELD d rangeSquared F
-	METHOD <init> (Ladc;DIF)V
+	METHOD <init> (Laqh;DIF)V
 		ARG 0 owner
 		ARG 3 range
 	METHOD a canStart ()Z
@@ -9,4 +9,4 @@ CLASS yc net/minecraft/entity/ai/mob/AiGoalDistantAttack
 	METHOD c start ()V
 	METHOD d stop ()V
 	METHOD e tick ()V
-	METHOD f hasAttackItem ()Z
+	METHOD g hasAttackItem ()Z

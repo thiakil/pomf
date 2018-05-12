@@ -1,8 +1,8 @@
-CLASS pg net/minecraft/server/config/BannedIpsList
-	METHOD a createEntryFromJson (Lcom/google/gson/JsonObject;)Lpm;
+CLASS us net/minecraft/server/config/BannedIpsList
+	METHOD a createEntryFromJson (Lcom/google/gson/JsonObject;)Luy;
 		ARG 0 json
 	METHOD a contains (Ljava/net/SocketAddress;)Z
 		ARG 0 address
-	METHOD b get (Ljava/net/SocketAddress;)Lph;
+	METHOD b get (Ljava/net/SocketAddress;)Lut;
 	METHOD c stringifyAddress (Ljava/net/SocketAddress;)Ljava/lang/String;
 		ARG 0 address

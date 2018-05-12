@@ -1,5 +1,5 @@
-CLASS boq net/minecraft/client/gui/hud/spectator/ISpectatorMenuElement
-	METHOD K_ enabled ()Z
+CLASS com net/minecraft/client/gui/hud/spectator/ISpectatorMenuElement
 	METHOD a renderIcon (FI)V
-	METHOD a selectElement (Lboo;)V
+	METHOD a selectElement (Lcok;)V
 		ARG 0 menu
+	METHOD an_ enabled ()Z

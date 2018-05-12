@@ -1,6 +1,6 @@
-CLASS ahm net/minecraft/item/ItemMap
-	METHOD a createMapPacket (Lain;Lams;Laeb;)Lht;
+CLASS auz net/minecraft/item/ItemMap
+	METHOD W_ isMap ()Z
+	METHOD a createMapPacket (Lawg;Lbax;Larh;)Lip;
 		ARG 0 stack
 		ARG 1 world
 		ARG 2 player
-	METHOD f isMap ()Z

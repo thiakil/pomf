@@ -1,71 +1,68 @@
-CLASS ahn net/minecraft/gui/CreativeTab
-	CLASS ahn$1
-		METHOD e getIconItem ()Lain;
-	CLASS ahn$2
-		METHOD e getIconItem ()Lain;
-	CLASS ahn$3
-		METHOD a getStacksForDisplay (Lfi;)V
+CLASS ava net/minecraft/gui/CreativeTab
+	CLASS ava$1
+		METHOD f getIconItem ()Lawg;
+	CLASS ava$2
+		METHOD f getIconItem ()Lawg;
+	CLASS ava$3
+		METHOD a getStacksForDisplay (Leu;)V
 			ARG 0 stackList
-		METHOD e getIconItem ()Lain;
-	CLASS ahn$4
-		METHOD e getIconItem ()Lain;
-	CLASS ahn$5
-		METHOD e getIconItem ()Lain;
-	CLASS ahn$6
-		METHOD e getIconItem ()Lain;
-	CLASS ahn$7
-		METHOD e getIconItem ()Lain;
-	CLASS ahn$8
-		METHOD e getIconItem ()Lain;
-	CLASS ahn$9
-		METHOD e getIconItem ()Lain;
-	CLASS ahn$10
-		METHOD e getIconItem ()Lain;
-	CLASS ahn$11
-		METHOD e getIconItem ()Lain;
-	CLASS ahn$12
-		METHOD e getIconItem ()Lain;
-	FIELD a TABS [Lahn;
-	FIELD b BUILDING_BLOCKS Lahn;
-	FIELD c DECORATIONS Lahn;
-	FIELD d REDSTONE Lahn;
-	FIELD e TRANSPORTATION Lahn;
-	FIELD f MISC Lahn;
-	FIELD g SEARCH Lahn;
-	FIELD h FOOD Lahn;
-	FIELD i TOOLS Lahn;
-	FIELD j COMBAT Lahn;
-	FIELD k BREWING Lahn;
-	FIELD l MATERIALS Lahn;
-	FIELD n INVENTORY Lahn;
+		METHOD f getIconItem ()Lawg;
+	CLASS ava$4
+		METHOD f getIconItem ()Lawg;
+	CLASS ava$5
+		METHOD f getIconItem ()Lawg;
+	CLASS ava$6
+		METHOD f getIconItem ()Lawg;
+	CLASS ava$7
+		METHOD f getIconItem ()Lawg;
+	CLASS ava$8
+		METHOD f getIconItem ()Lawg;
+	CLASS ava$9
+		METHOD f getIconItem ()Lawg;
+	CLASS ava$10
+		METHOD f getIconItem ()Lawg;
+	CLASS ava$11
+		METHOD f getIconItem ()Lawg;
+	CLASS ava$12
+		METHOD f getIconItem ()Lawg;
+	FIELD a TABS [Lava;
+	FIELD d REDSTONE Lava;
+	FIELD f MISC Lava;
+	FIELD g SEARCH Lava;
+	FIELD h FOOD Lava;
+	FIELD i TOOLS Lava;
+	FIELD j COMBAT Lava;
+	FIELD k BREWING Lava;
+	FIELD l MATERIALS Lava;
+	FIELD n INVENTORY Lava;
 	FIELD o id I
 	FIELD p unlocalizedName Ljava/lang/String;
-	FIELD q texture Ljava/lang/String;
-	FIELD r useScrollBar Z
-	FIELD s tooltip Z
-	FIELD t enchantmentTypes [Lalj;
-	FIELD u stack Lain;
+	FIELD r texture Ljava/lang/String;
+	FIELD s useScrollBar Z
+	FIELD t tooltip Z
+	FIELD u enchantmentTypes [Lazg;
+	FIELD v stack Lawg;
 	METHOD <init> (ILjava/lang/String;)V
 		ARG 0 id
 		ARG 1 unlocalizedName
 	METHOD a getId ()I
-	METHOD a containsEnchantmentType (Lalj;)Z
+	METHOD a containsEnchantmentType (Lazg;)Z
 		ARG 0 value
-	METHOD a getStacksForDisplay (Lfi;)V
+	METHOD a getStacksForDisplay (Leu;)V
 		ARG 0 stackList
-	METHOD a setTexture (Ljava/lang/String;)Lahn;
+	METHOD a setTexture (Ljava/lang/String;)Lava;
 		ARG 0 texture
-	METHOD a setEnchantmentTypes ([Lalj;)Lahn;
+	METHOD a setEnchantmentTypes ([Lazg;)Lava;
 		ARG 0 value
 	METHOD b getUntranslatedName ()Ljava/lang/String;
-	METHOD c getTranslationKey ()Ljava/lang/String;
-	METHOD d getIconItemStack ()Lain;
-	METHOD e getIconItem ()Lain;
-	METHOD f getTexture ()Ljava/lang/String;
-	METHOD g hasTooltip ()Z
-	METHOD h disableTooltip ()Lahn;
-	METHOD i useScrollBar ()Z
-	METHOD j setNotUseScrollBar ()Lahn;
-	METHOD k getColumn ()I
-	METHOD l isTopRow ()Z
-	METHOD n getEnchantmentTypes ()[Lalj;
+	METHOD d getTranslationKey ()Ljava/lang/String;
+	METHOD e getIconItemStack ()Lawg;
+	METHOD f getIconItem ()Lawg;
+	METHOD g getTexture ()Ljava/lang/String;
+	METHOD h hasTooltip ()Z
+	METHOD i disableTooltip ()Lava;
+	METHOD j useScrollBar ()Z
+	METHOD k setNotUseScrollBar ()Lava;
+	METHOD l getColumn ()I
+	METHOD m isTopRow ()Z
+	METHOD o getEnchantmentTypes ()[Lazg;

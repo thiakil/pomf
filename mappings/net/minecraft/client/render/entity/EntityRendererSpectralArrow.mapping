@@ -1,6 +1,6 @@
-CLASS cat net/minecraft/client/render/entity/EntityRendererSpectralArrow
-	FIELD a SKIN Lnd;
-	METHOD a getTexture (Laes;)Lnd;
+CLASS dbo net/minecraft/client/render/entity/EntityRendererSpectralArrow
+	FIELD a SKIN Loj;
+	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lve;)Lnd;
+	METHOD a getTexture (Larz;)Loj;
 		ARG 0 model

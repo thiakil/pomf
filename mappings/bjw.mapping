@@ -1,3 +1,0 @@
-CLASS bjw
-	METHOD a draw (Lbka;J)Lbjz$a;
-		ARG 0 toastGui

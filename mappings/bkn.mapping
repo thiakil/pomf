@@ -1,0 +1,5 @@
+CLASS bkn
+	METHOD b updateTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 random

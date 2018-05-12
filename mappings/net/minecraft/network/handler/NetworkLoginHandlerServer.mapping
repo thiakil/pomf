@@ -1,24 +1,22 @@
-CLASS pa net/minecraft/network/handler/NetworkLoginHandlerServer
-	CLASS pa$a State
-	FIELD a connection Lgw;
+CLASS tk net/minecraft/network/handler/NetworkLoginHandlerServer
+	CLASS tk$a State
+	FIELD a connection Lhr;
 	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD d RAND Ljava/util/Random;
 	FIELD f server Lnet/minecraft/server/MinecraftServer;
-	FIELD g state Lpa$a;
+	FIELD g state Ltk$a;
 	FIELD h loginTicks I
 	FIELD i profile Lcom/mojang/authlib/GameProfile;
-	FIELD l playerEntity Loo;
-	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lgw;)V
+	FIELD l playerEntity Lsl;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lhr;)V
 		ARG 0 server
 		ARG 1 connection
-	METHOD a getOfflineProfile (Lcom/mojang/authlib/GameProfile;)Lcom/mojang/authlib/GameProfile;
-		ARG 0 profile
-	METHOD a onConnectionLost (Lhh;)V
+	METHOD Y_ update ()V
+	METHOD a onConnectionLost (Lic;)V
 		ARG 0 reason
-	METHOD a onLoginStart (Lml;)V
+	METHOD a onLoginStart (Lnm;)V
 		ARG 0 packet
-	METHOD a onLoginEncryptionResponse (Lmm;)V
+	METHOD a onLoginEncryptionResponse (Lnn;)V
 		ARG 0 packet
-	METHOD b disconnect (Lhh;)V
+	METHOD b disconnect (Lic;)V
 	METHOD c getConnectionString ()Ljava/lang/String;
-	METHOD e update ()V

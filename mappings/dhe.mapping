@@ -1,0 +1,5 @@
+CLASS dhe
+	CLASS dhe$a
+		METHOD Y_ update ()V
+	CLASS dhe$b
+		METHOD Y_ update ()V

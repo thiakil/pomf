@@ -1,6 +1,6 @@
-CLASS uk net/minecraft/util/snooper/ISnooperDataProvider
-	METHOD Z isSnooperEnabled ()Z
-	METHOD a addSnooperInfo (Luj;)V
+CLASS agx net/minecraft/util/snooper/ISnooperDataProvider
+	METHOD R isSnooperEnabled ()Z
+	METHOD a addSnooperInfo (Lagw;)V
 		ARG 0 snooper
-	METHOD b addSnooperInitialInfo (Luj;)V
+	METHOD b addSnooperInitialInfo (Lagw;)V
 		ARG 0 snooper

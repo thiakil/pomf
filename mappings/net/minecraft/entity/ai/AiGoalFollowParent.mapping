@@ -1,6 +1,6 @@
-CLASS xb net/minecraft/entity/ai/AiGoalFollowParent
-	FIELD a owner Lzt;
-	FIELD b parent Lzt;
+CLASS aju net/minecraft/entity/ai/AiGoalFollowParent
+	FIELD a owner Lamr;
+	FIELD b parent Lamr;
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V

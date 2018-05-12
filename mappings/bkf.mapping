@@ -1,11 +1,8 @@
 CLASS bkf
-	METHOD a isSelected (I)Z
-		ARG 0 index
-	METHOD a drawEntries (IIIIF)V
-	METHOD a drawEntry (IIIIIIF)V
-		ARG 0 x
-		ARG 1 y
-	METHOD b getEntryCount ()I
-	METHOD d getScrollbarPosition ()I
-	METHOD k getContentHeight ()I
-	METHOD p handleMouseEvent ()V
+	CLASS bkf$a
+		METHOD m asString ()Ljava/lang/String;
+	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I

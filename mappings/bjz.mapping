@@ -1,0 +1,22 @@
+CLASS bjz
+	METHOD a isFertilizable (Lbal;Lef;Lbnv;Z)Z
+		ARG 1 pos
+		ARG 3 remote
+	METHOD a canGrow (Lbax;Ljava/util/Random;Lef;Lbnv;)Z
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 pos
+	METHOD a activate (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I
+	METHOD b grow (Lbax;Ljava/util/Random;Lef;Lbnv;)V
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 pos

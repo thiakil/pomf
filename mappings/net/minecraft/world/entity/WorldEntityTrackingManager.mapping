@@ -1,31 +1,31 @@
-CLASS oj net/minecraft/world/entity/WorldEntityTrackingManager
+CLASS sf net/minecraft/world/entity/WorldEntityTrackingManager
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b world Lom;
+	FIELD b world Lsj;
 	FIELD c trackers Ljava/util/Set;
-	FIELD d trackersById Lre;
-	METHOD <init> (Lom;)V
+	FIELD d trackersById Lwt;
+	METHOD <init> (Lsj;)V
 		ARG 0 world
 	METHOD a setChunkDistance (I)V
 		ARG 0 value
-	METHOD a sendChunkEntityData (Loo;Laxu;)V
-		ARG 0 player
-		ARG 1 chunk
-	METHOD a startTracking (Lve;)V
+	METHOD a startTracking (Laht;)V
 		ARG 0 entity
-	METHOD a startTracking (Lve;II)V
+	METHOD a startTracking (Laht;II)V
 		ARG 0 entity
 		ARG 1 trackingRange
 		ARG 2 updateInterval
-	METHOD a startTracking (Lve;IIZ)V
+	METHOD a startTracking (Laht;IIZ)V
 		ARG 0 entity
 		ARG 1 trackingRange
 		ARG 2 updateInterval
 		ARG 3 sendVelocityUpdates
-	METHOD a sendToAllTracking (Lve;Lht;)V
+	METHOD a sendToAllTracking (Laht;Lip;)V
 		ARG 0 entity
 		ARG 1 packet
-	METHOD b stopTracking (Lve;)V
+	METHOD a sendChunkEntityData (Lsl;Lbpl;)V
+		ARG 0 player
+		ARG 1 chunk
+	METHOD b stopTracking (Laht;)V
 		ARG 0 entity
-	METHOD b sendToAllTrackingAndSelf (Lve;Lht;)V
+	METHOD b sendToAllTrackingAndSelf (Laht;Lip;)V
 		ARG 0 entity
 		ARG 1 packet

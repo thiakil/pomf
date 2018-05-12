@@ -1,4 +1,4 @@
-CLASS cad net/minecraft/client/render/entity/EntityMobRenderer
-	METHOD <init> (Lbzd;Lbqd;F)V
+CLASS dav net/minecraft/client/render/entity/EntityMobRenderer
+	METHOD <init> (Lczv;Lcqe;F)V
 		ARG 0 renderManager
 		ARG 1 model

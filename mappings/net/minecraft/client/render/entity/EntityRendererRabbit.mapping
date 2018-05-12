@@ -1,12 +1,12 @@
-CLASS cal net/minecraft/client/render/entity/EntityRendererRabbit
-	FIELD a BROWN_SKIN Lnd;
-	FIELD j WHITE_SKIN Lnd;
-	FIELD k BLACK_SKIN Lnd;
-	FIELD l GOLD_SKIN Lnd;
-	FIELD m SALT_SKIN Lnd;
-	FIELD n WHITE_SPOTTED_SKIN Lnd;
-	FIELD o TOAST_SKIN Lnd;
-	METHOD a getTexture (Laad;)Lnd;
+CLASS dbf net/minecraft/client/render/entity/EntityRendererRabbit
+	FIELD a BROWN_SKIN Loj;
+	FIELD j WHITE_SKIN Loj;
+	FIELD k BLACK_SKIN Loj;
+	FIELD l GOLD_SKIN Loj;
+	FIELD m SALT_SKIN Loj;
+	FIELD n WHITE_SPOTTED_SKIN Loj;
+	FIELD o TOAST_SKIN Loj;
+	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lve;)Lnd;
+	METHOD a getTexture (Land;)Loj;
 		ARG 0 model

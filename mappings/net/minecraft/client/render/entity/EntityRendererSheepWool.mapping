@@ -1,7 +1,7 @@
-CLASS ccf net/minecraft/client/render/entity/EntityRendererSheepWool
-	FIELD a SKIN Lnd;
+CLASS ddh net/minecraft/client/render/entity/EntityRendererSheepWool
+	FIELD a SKIN Loj;
 	METHOD a shouldMergeTextures ()Z
-	METHOD a render (Laae;FFFFFFF)V
+	METHOD a render (Laic;FFFFFFF)V
 		ARG 0 entity
-	METHOD a render (Lvn;FFFFFFF)V
+	METHOD a render (Lanf;FFFFFFF)V
 		ARG 0 entity

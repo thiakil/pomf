@@ -1,11 +1,6 @@
-CLASS akr net/minecraft/recipe/Recipe
-	METHOD a craft (Lafw;)Lain;
-		ARG 0 inv
-	METHOD a matches (Lafw;Lams;)Z
-		ARG 0 inv
+CLASS ayl net/minecraft/recipe/Recipe
+	METHOD a matches (Lagg;Lbax;)Z
 		ARG 1 world
-	METHOD b getOutput ()Lain;
-	METHOD b getRemainingStacks (Lafw;)Lfi;
-		ARG 0 inv
 	METHOD c isIgnoredInRecipeBook ()Z
-	METHOD d getPreviewInputs ()Lfi;
+	METHOD d getOutput ()Lawg;
+	METHOD e getPreviewInputs ()Leu;

@@ -1,0 +1,2 @@
+CLASS t
+	METHOD a getId ()Loj;

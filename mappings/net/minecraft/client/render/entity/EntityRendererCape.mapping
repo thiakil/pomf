@@ -1,9 +1,9 @@
-CLASS cbp net/minecraft/client/render/entity/EntityRendererCape
-	FIELD a renderer Lccr;
-	METHOD <init> (Lccr;)V
+CLASS dco net/minecraft/client/render/entity/EntityRendererCape
+	FIELD a renderer Lddv;
+	METHOD <init> (Lddv;)V
 		ARG 0 renderer
 	METHOD a shouldMergeTextures ()Z
-	METHOD a render (Lbty;FFFFFFF)V
+	METHOD a render (Laic;FFFFFFF)V
 		ARG 0 entity
-	METHOD a render (Lvn;FFFFFFF)V
+	METHOD a render (Lcuj;FFFFFFF)V
 		ARG 0 entity

@@ -1,16 +1,16 @@
-CLASS in net/minecraft/network/packet/client/CPacketChatMessage
-	FIELD a message Lhh;
-	FIELD b location Lhf;
-	METHOD <init> (Lhh;)V
+CLASS jh net/minecraft/network/packet/client/CPacketChatMessage
+	FIELD a message Lic;
+	FIELD b location Lia;
+	METHOD <init> (Lic;)V
 		ARG 0 message
-	METHOD a getMessage ()Lhh;
-	METHOD a readPacket (Lgy;)V
+	METHOD a getMessage ()Lic;
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
-		ARG 0 handler
 	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
+	METHOD a applyPacket (Lis;)V
+		ARG 0 handler
 	METHOD b isNonChat ()Z
-	METHOD b writePacket (Lgy;)V
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf
-	METHOD c getLocation ()Lhf;
+	METHOD c getLocation ()Lia;

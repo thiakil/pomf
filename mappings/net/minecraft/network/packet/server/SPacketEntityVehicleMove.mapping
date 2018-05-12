@@ -1,20 +1,20 @@
-CLASS ll net/minecraft/network/packet/server/SPacketEntityVehicleMove
+CLASS ml net/minecraft/network/packet/server/SPacketEntityVehicleMove
 	FIELD a x D
 	FIELD b y D
 	FIELD c z D
 	FIELD d yaw F
 	FIELD e pitch F
-	METHOD <init> (Lve;)V
+	METHOD <init> (Laht;)V
 		ARG 0 entity
 	METHOD a getX ()D
-	METHOD a readPacket (Lgy;)V
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
+	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lkw;)V
+	METHOD a applyPacket (Llx;)V
 		ARG 0 handler
 	METHOD b getY ()D
-	METHOD b writePacket (Lgy;)V
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf
 	METHOD c getZ ()D
 	METHOD d getYaw ()F

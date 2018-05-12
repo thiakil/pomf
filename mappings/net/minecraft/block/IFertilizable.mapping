@@ -1,16 +1,12 @@
-CLASS aox net/minecraft/block/IFertilizable
-	METHOD a isFertilizable (Lams;Let;Lawr;Z)Z
-		ARG 0 world
+CLASS bfp net/minecraft/block/IFertilizable
+	METHOD a isFertilizable (Lbal;Lef;Lbnv;Z)Z
 		ARG 1 pos
-		ARG 2 state
 		ARG 3 remote
-	METHOD a canGrow (Lams;Ljava/util/Random;Let;Lawr;)Z
+	METHOD a canGrow (Lbax;Ljava/util/Random;Lef;Lbnv;)Z
 		ARG 0 world
 		ARG 1 rand
 		ARG 2 pos
-		ARG 3 state
-	METHOD b grow (Lams;Ljava/util/Random;Let;Lawr;)V
+	METHOD b grow (Lbax;Ljava/util/Random;Lef;Lbnv;)V
 		ARG 0 world
 		ARG 1 rand
 		ARG 2 pos
-		ARG 3 state

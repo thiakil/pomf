@@ -1,23 +1,15 @@
-CLASS bmw net/minecraft/client/gui/container/GuiVillager
-	CLASS bmw$a WidgetButtonPage
-		FIELD o next Z
-		METHOD <init> (IIIZ)V
-			ARG 0 id
-			ARG 1 x
-			ARG 2 y
-			ARG 3 next
-		METHOD a draw (Lbhz;IIF)V
-			ARG 0 game
-			ARG 1 mouseX
-			ARG 2 mouseY
-			ARG 3 delta
-	FIELD B villagerName Lhh;
+CLASS cmu net/minecraft/client/gui/container/GuiVillager
+	CLASS cmu$a
+		METHOD a draw (IIF)V
+			ARG 1 mouseY
+			ARG 2 delta
+	FIELD B villagerName Lic;
 	FIELD v LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD w BG_TEX Lnd;
-	FIELD x villager Lamd;
-	FIELD y buttonPageNext Lbmw$a;
-	FIELD z buttonPagePrevious Lbmw$a;
-	METHOD <init> (Laea;Lamd;Lams;)V
+	FIELD w BG_TEX Loj;
+	FIELD x villager Lbae;
+	FIELD y buttonPageNext Lcmu$a;
+	FIELD z buttonPagePrevious Lcmu$a;
+	METHOD <init> (Larg;Lbae;Lbax;)V
 		ARG 0 playerInv
 		ARG 1 villager
 		ARG 2 world
@@ -29,10 +21,8 @@ CLASS bmw net/minecraft/client/gui/container/GuiVillager
 		ARG 0 mouseX
 		ARG 1 mouseY
 		ARG 2 delta
-	METHOD a onWidgetPressed (Lbiy;)V
-		ARG 0 widget
-	METHOD b init ()V
+	METHOD c init ()V
 	METHOD c drawForeground (II)V
 		ARG 0 mouseX
 		ARG 1 mouseY
-	METHOD e update ()V
+	METHOD f update ()V

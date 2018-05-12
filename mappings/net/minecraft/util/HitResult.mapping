@@ -1,28 +1,20 @@
-CLASS bha net/minecraft/util/HitResult
-	CLASS bha$a Type
-		FIELD a NONE Lbha$a;
-		FIELD b BLOCK Lbha$a;
-		FIELD c ENTITY Lbha$a;
-	FIELD a type Lbha$a;
-	FIELD b side Lfa;
-	FIELD c pos Lbhc;
-	FIELD d entity Lve;
-	FIELD e blockPos Let;
-	METHOD <init> (Lbha$a;Lbhc;Lfa;Let;)V
+CLASS cfz net/minecraft/util/HitResult
+	CLASS cfz$a Type
+		FIELD a NONE Lcfz$a;
+		FIELD b BLOCK Lcfz$a;
+		FIELD c ENTITY Lcfz$a;
+	FIELD a type Lcfz$a;
+	FIELD c pos Lcgc;
+	FIELD d entity Laht;
+	FIELD e blockPos Lef;
+	METHOD <init> (Laht;)V
+		ARG 0 entity
+	METHOD <init> (Laht;Lcgc;)V
+		ARG 0 entity
+		ARG 1 pos
+	METHOD <init> (Lcfz$a;Lcgc;Lel;Lef;)V
 		ARG 0 type
 		ARG 1 pos
 		ARG 2 side
 		ARG 3 blockPos
-	METHOD <init> (Lbhc;Lfa;)V
-		ARG 0 pos
-		ARG 1 side
-	METHOD <init> (Lbhc;Lfa;Let;)V
-		ARG 0 pos
-		ARG 1 side
-		ARG 2 blockPos
-	METHOD <init> (Lve;)V
-		ARG 0 entity
-	METHOD <init> (Lve;Lbhc;)V
-		ARG 0 entity
-		ARG 1 pos
-	METHOD a getBlockPos ()Let;
+	METHOD a getBlockPos ()Lef;

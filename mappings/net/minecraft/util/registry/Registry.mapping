@@ -1,4 +1,4 @@
-CLASS fo net/minecraft/util/registry/Registry
+CLASS ez net/minecraft/util/registry/Registry
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD b valueCache [Ljava/lang/Object;
 	FIELD c map Ljava/util/Map;
@@ -8,7 +8,6 @@ CLASS fo net/minecraft/util/registry/Registry
 	METHOD a getRandom (Ljava/util/Random;)Ljava/lang/Object;
 		ARG 0 random
 	METHOD b createMap ()Ljava/util/Map;
-	METHOD c getKeys ()Ljava/util/Set;
 	METHOD c get (Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 0 key
 	METHOD d containsKey (Ljava/lang/Object;)Z

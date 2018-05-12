@@ -1,8 +1,0 @@
-CLASS aj net/minecraft/util/EntityPredicate
-	FIELD a ANY Laj;
-	FIELD b id Lnd;
-	METHOD <init> (Lnd;Lad;Laq;Lat;Lau;)V
-		ARG 0 id
-	METHOD a deserialize (Lcom/google/gson/JsonElement;)Laj;
-		ARG 0 el
-	METHOD a matches (Loo;Lve;)Z

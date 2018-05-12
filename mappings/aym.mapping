@@ -1,0 +1,3 @@
+CLASS aym
+	METHOD a onResourceReload (Lul;)V
+		ARG 0 container

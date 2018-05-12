@@ -1,21 +1,16 @@
-CLASS ayk net/minecraft/world/gen/WorldProvider
-	FIELD b world Lams;
-	FIELD c biomeProvider Lanj;
-	FIELD d waterEvaporates Z
-	FIELD e noSky Z
-	FIELD g lightValues [F
-	FIELD h generatorType Lamx;
-	FIELD i generatorOptions Ljava/lang/String;
-	METHOD a init (Lams;)V
+CLASS bqe net/minecraft/world/gen/WorldProvider
+	FIELD b world Lbax;
+	FIELD c waterEvaporates Z
+	FIELD d noSky Z
+	FIELD f lightValues [F
+	METHOD a init (Lbax;)V
 		ARG 0 world
-	METHOD b setupBiomeProvider ()V
-	METHOD b getFogColor (FF)Lbhc;
-	METHOD c getChunkGenerator ()Laxo;
-	METHOD d hasClouds ()Z
-	METHOD k getBiomeProvider ()Lanj;
-	METHOD l doesWaterEvaporate ()Z
-	METHOD n hasNoSky ()Z
-	METHOD o getLightValues ()[F
-	METHOD p createWorldBorderHandler ()Laxl;
-	METHOD q getWorldType ()Layl;
-	METHOD r serialize ()V
+	METHOD b getFogColor (FF)Lcgc;
+	METHOD f doesWaterEvaporate ()Z
+	METHOD h hasNoSky ()Z
+	METHOD i getLightValues ()[F
+	METHOD j createWorldBorderHandler ()Lboy;
+	METHOD k serialize ()V
+	METHOD m setupBiomeProvider ()V
+	METHOD o hasClouds ()Z
+	METHOD q getWorldType ()Lbqf;

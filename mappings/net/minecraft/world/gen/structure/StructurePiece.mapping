@@ -1,25 +1,23 @@
-CLASS bbv net/minecraft/world/gen/structure/StructurePiece
-	FIELD a orientation Lfa;
-	FIELD b mirror Larw;
-	FIELD c rotation Latk;
-	FIELD l boundingBox Lbbe;
+CLASS bzc net/minecraft/world/gen/structure/StructurePiece
+	FIELD a orientation Lel;
+	FIELD b mirror Lbis;
+	FIELD c rotation Lbjv;
+	FIELD m boundingBox Lbyh;
 	METHOD a translate (III)V
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
-	METHOD a deserialize (Lams;Lfy;)V
-		ARG 0 world
+	METHOD a deserialize (Lbay;Lgu;)V
 		ARG 1 tag
-	METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-		ARG 0 world
+	METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 		ARG 1 rand
 		ARG 2 region
-	METHOD a setOrientation (Lfa;)V
+	METHOD a setOrientation (Lel;)V
 		ARG 0 orientation
-	METHOD a serializeStructureData (Lfy;)V
+	METHOD a serializeStructureData (Lgu;)V
 		ARG 0 tag
-	METHOD a deserializeStructureData (Lfy;Lbce;)V
+	METHOD a deserializeStructureData (Lgu;Lbzn;)V
 		ARG 0 tag
-	METHOD c serialize ()Lfy;
-	METHOD d getBoundingBox ()Lbbe;
-	METHOD f getOrientation ()Lfa;
+	METHOD c serialize ()Lgu;
+	METHOD d getBoundingBox ()Lbyh;
+	METHOD f getOrientation ()Lel;

@@ -1,61 +1,55 @@
-CLASS kw net/minecraft/network/handler/INetworkGameHandlerServer
-	METHOD a onTeleportConfirm (Lkx;)V
+CLASS lx net/minecraft/network/handler/INetworkGameHandlerServer
+	METHOD a onTeleportConfirm (Lly;)V
 		ARG 0 packet
-	METHOD a onRecipePlacement (Lky;)V
+	METHOD a onChatMessage (Llz;)V
 		ARG 0 packet
-	METHOD a onChatTabCompleteRequest (Lkz;)V
+	METHOD a onClientStatus (Lma;)V
 		ARG 0 packet
-	METHOD a onChatMessage (Lla;)V
+	METHOD a onClientSettings (Lmb;)V
 		ARG 0 packet
-	METHOD a onClientStatus (Llb;)V
+	METHOD a onGuiActionConfirm (Lmd;)V
 		ARG 0 packet
-	METHOD a onClientSettings (Llc;)V
+	METHOD a onItemEnchant (Lme;)V
 		ARG 0 packet
-	METHOD a onGuiActionConfirm (Lld;)V
+	METHOD a onGuiSlotUpdate (Lmf;)V
 		ARG 0 packet
-	METHOD a onItemEnchant (Lle;)V
+	METHOD a onGuiClose (Lmg;)V
 		ARG 0 packet
-	METHOD a onGuiSlotUpdate (Llf;)V
+	METHOD a onCustomPayload (Lmh;)V
 		ARG 0 packet
-	METHOD a onGuiClose (Llg;)V
+	METHOD a onEntityUse (Lmi;)V
 		ARG 0 packet
-	METHOD a onCustomPayload (Llh;)V
+	METHOD a onPlayerUpdate (Lmk;)V
 		ARG 0 packet
-	METHOD a onEntityUse (Lli;)V
+	METHOD a onEntityVehicleMove (Lml;)V
 		ARG 0 packet
-	METHOD a onKeepAlive (Llj;)V
+	METHOD a onBoatRenderUpdate (Lmm;)V
 		ARG 0 packet
-	METHOD a onPlayerUpdate (Llk;)V
+	METHOD a onPlayerAbilities (Lmo;)V
 		ARG 0 packet
-	METHOD a onEntityVehicleMove (Lll;)V
+	METHOD a onPlayerState (Lmp;)V
 		ARG 0 packet
-	METHOD a onBoatRenderUpdate (Llm;)V
+	METHOD a onEntityAction (Lmq;)V
 		ARG 0 packet
-	METHOD a onPlayerAbilities (Lln;)V
+	METHOD a onVehicleSteer (Lmr;)V
 		ARG 0 packet
-	METHOD a onPlayerState (Llo;)V
+	METHOD a onRecipeBookUpdate (Lms;)V
 		ARG 0 packet
-	METHOD a onEntityAction (Llp;)V
+	METHOD a onResourcePackStatus (Lmt;)V
 		ARG 0 packet
-	METHOD a onVehicleSteer (Llq;)V
+	METHOD a onSeeAdvancement (Lmu;)V
 		ARG 0 packet
-	METHOD a onRecipeBookUpdate (Llr;)V
+	METHOD a onPlayerHeldItemUpdate (Lmv;)V
 		ARG 0 packet
-	METHOD a onResourcePackStatus (Lls;)V
+	METHOD a onInventoryUpdateCreative (Lmw;)V
 		ARG 0 packet
-	METHOD a onSeeAdvancement (Llt;)V
+	METHOD a onSignUpdate (Lmx;)V
 		ARG 0 packet
-	METHOD a onPlayerHeldItemUpdate (Llu;)V
+	METHOD a onClientHandSwing (Lmy;)V
 		ARG 0 packet
-	METHOD a onInventoryUpdateCreative (Llv;)V
+	METHOD a onSpectate (Lmz;)V
 		ARG 0 packet
-	METHOD a onSignUpdate (Llw;)V
+	METHOD a onPlayerBlockPlace (Lna;)V
 		ARG 0 packet
-	METHOD a onClientHandSwing (Llx;)V
-		ARG 0 packet
-	METHOD a onSpectate (Lly;)V
-		ARG 0 packet
-	METHOD a onPlayerBlockPlace (Llz;)V
-		ARG 0 packet
-	METHOD a onPlayerSwingHand (Lma;)V
+	METHOD a onPlayerSwingHand (Lnb;)V
 		ARG 0 packet

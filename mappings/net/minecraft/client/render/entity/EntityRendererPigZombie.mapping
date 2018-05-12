@@ -1,10 +1,10 @@
-CLASS caj net/minecraft/client/render/entity/EntityRendererPigZombie
-	CLASS caj$1
-		METHOD M_ init ()V
-	FIELD a SKIN Lnd;
-	METHOD a getTexture (Ladd;)Lnd;
+CLASS dbc net/minecraft/client/render/entity/EntityRendererPigZombie
+	CLASS dbc$1
+		METHOD ap_ init ()V
+	FIELD a SKIN Loj;
+	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lve;)Lnd;
+	METHOD a getTexture (Laid;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lvo;)Lnd;
+	METHOD a getTexture (Laqj;)Loj;
 		ARG 0 model

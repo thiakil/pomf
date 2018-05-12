@@ -1,8 +1,5 @@
-CLASS ass net/minecraft/block/BlockRedstone
-	METHOD b getWeakRedstonePower (Lawr;Lamw;Let;Lfa;)I
-		ARG 0 state
+CLASS bjh net/minecraft/block/BlockRedstone
+	METHOD a getWeakRedstonePower (Lbnv;Lbal;Lef;Lel;)I
 		ARG 1 view
 		ARG 2 pos
 		ARG 3 facingFrom
-	METHOD g emitsRedstonePower (Lawr;)Z
-		ARG 0 state

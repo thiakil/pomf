@@ -1,67 +1,55 @@
-CLASS bbn net/minecraft/world/gen/structure/StructurePiecesMonument
-	CLASS bbn$h
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+CLASS byt net/minecraft/world/gen/structure/StructurePiecesMonument
+	CLASS byt$h
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-	CLASS bbn$j
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS byt$j
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-	CLASS bbn$k
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS byt$k
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-	CLASS bbn$l
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS byt$l
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-	CLASS bbn$m
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS byt$m
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-	CLASS bbn$n
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS byt$n
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-	CLASS bbn$o
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS byt$o
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-	CLASS bbn$p
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS byt$p
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-	CLASS bbn$q
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS byt$q
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-	CLASS bbn$r
-		METHOD a serializeStructureData (Lfy;)V
+	CLASS byt$r
+		METHOD a serializeStructureData (Lgu;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lfy;Lbce;)V
+		METHOD a deserializeStructureData (Lgu;Lbzn;)V
 			ARG 0 tag
-	CLASS bbn$s
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS byt$s
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-	CLASS bbn$t
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS byt$t
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-	CLASS bbn$u
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS byt$u
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
 	METHOD a registerPieces ()V

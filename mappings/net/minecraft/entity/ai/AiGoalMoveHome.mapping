@@ -1,10 +1,10 @@
-CLASS xq net/minecraft/entity/ai/AiGoalMoveHome
-	FIELD a owner Lvv;
+CLASS akk net/minecraft/entity/ai/AiGoalMoveHome
+	FIELD a owner Laik;
 	FIELD b targetX D
 	FIELD c targetY D
 	FIELD d targetZ D
 	FIELD e speed D
-	METHOD <init> (Lvv;D)V
+	METHOD <init> (Laik;D)V
 		ARG 0 owner
 		ARG 1 speed
 	METHOD a canStart ()Z

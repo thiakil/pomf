@@ -1,12 +1,11 @@
-CLASS bxc net/minecraft/client/render/block/entity/BlockEntityShulkerBox
-	FIELD a model Lbqq;
-	METHOD <init> (Lbqq;)V
+CLASS cxn net/minecraft/client/render/block/entity/BlockEntityShulkerBox
+	FIELD a model Lcqw;
+	METHOD <init> (Lcqw;)V
 		ARG 0 model
-	METHOD a render (Lavh;DDDFIF)V
-	METHOD a render (Lavz;DDDFIF)V
+	METHOD a render (Lbmb;DDDFI)V
+	METHOD a render (Lbmv;DDDFI)V
 		ARG 0 shulkerBox
 		ARG 1 posX
 		ARG 2 posY
 		ARG 3 posZ
 		ARG 5 destroyStage
-		ARG 6 alpha

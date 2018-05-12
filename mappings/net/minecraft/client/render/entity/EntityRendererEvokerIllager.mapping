@@ -1,13 +1,13 @@
-CLASS bzg net/minecraft/client/render/entity/EntityRendererEvokerIllager
-	CLASS bzg$1
-		METHOD a render (Lvn;FFFFFFF)V
+CLASS czy net/minecraft/client/render/entity/EntityRendererEvokerIllager
+	CLASS czy$1
+		METHOD a render (Laic;FFFFFFF)V
 			ARG 0 entity
-	FIELD a EVOKER_TEXTURE Lnd;
-	METHOD <init> (Lbzd;)V
+	FIELD a EVOKER_TEXTURE Loj;
+	METHOD <init> (Lczv;)V
 		ARG 0 entityRenderManager
-	METHOD a getTexture (Ladc;)Lnd;
+	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
-	METHOD a scale (Ladc;F)V
+	METHOD a getTexture (Laqh;)Loj;
+		ARG 0 model
+	METHOD a scale (Laqh;F)V
 		ARG 0 entity
-	METHOD a getTexture (Lve;)Lnd;
-		ARG 0 model

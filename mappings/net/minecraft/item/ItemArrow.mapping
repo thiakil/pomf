@@ -1,5 +1,5 @@
-CLASS agv net/minecraft/item/ItemArrow
-	METHOD a createEntityArrow (Lams;Lain;Lvn;)Laef;
+CLASS aug net/minecraft/item/ItemArrow
+	METHOD a createEntityArrow (Lbax;Lawg;Laic;)Larl;
 		ARG 0 world
 		ARG 1 stack
 		ARG 2 owner

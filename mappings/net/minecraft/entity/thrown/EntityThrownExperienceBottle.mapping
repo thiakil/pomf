@@ -1,6 +1,4 @@
-CLASS aew net/minecraft/entity/thrown/EntityThrownExperienceBottle
-	METHOD a onCollision (Lbha;)V
+CLASS asd net/minecraft/entity/thrown/EntityThrownExperienceBottle
+	METHOD a onCollision (Lcfz;)V
 		ARG 0 hitResult
-	METHOD a registerTagUpgraders (Lrw;)V
-		ARG 0 handler
-	METHOD j getGravity ()F
+	METHOD f getGravity ()F

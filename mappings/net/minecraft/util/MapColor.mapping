@@ -1,48 +1,35 @@
-CLASS bcy net/minecraft/util/MapColor
-	FIELD A PURPLE Lbcy;
-	FIELD B BLUE Lbcy;
-	FIELD C BROWN Lbcy;
-	FIELD D GREEN Lbcy;
-	FIELD E RED Lbcy;
-	FIELD F BLACK Lbcy;
-	FIELD G GOLD Lbcy;
-	FIELD H DIAMOND Lbcy;
-	FIELD I LAPIS Lbcy;
-	FIELD J EMERALD Lbcy;
-	FIELD K SPRUCE Lbcy;
-	FIELD L NETHER Lbcy;
-	FIELD a COLORS [Lbcy;
-	FIELD ac color I
-	FIELD ad id I
-	FIELD b WOOL_COLORS [Lbcy;
-	FIELD c AIR Lbcy;
-	FIELD d GRASS Lbcy;
-	FIELD e SAND Lbcy;
-	FIELD f WEB Lbcy;
-	FIELD g LAVA Lbcy;
-	FIELD h ICE Lbcy;
-	FIELD i IRON Lbcy;
-	FIELD j LEAVES Lbcy;
-	FIELD k WHITE Lbcy;
-	FIELD l CLAY Lbcy;
-	FIELD m DIRT Lbcy;
-	FIELD n STONE Lbcy;
-	FIELD o WATER Lbcy;
-	FIELD p WOOD Lbcy;
-	FIELD q QUARTZ Lbcy;
-	FIELD r ORANGE Lbcy;
-	FIELD s MAGENTA Lbcy;
-	FIELD t LIGHT_BLUE Lbcy;
-	FIELD u YELLOW Lbcy;
-	FIELD v LIME Lbcy;
-	FIELD w PINK Lbcy;
-	FIELD x GRAY Lbcy;
-	FIELD y LIGHT_GRAY Lbcy;
-	FIELD z CYAN Lbcy;
+CLASS cbc net/minecraft/util/MapColor
+	FIELD B BROWN Lcbc;
+	FIELD C GREEN Lcbc;
+	FIELD D RED Lcbc;
+	FIELD E BLACK Lcbc;
+	FIELD F GOLD Lcbc;
+	FIELD G DIAMOND Lcbc;
+	FIELD H LAPIS Lcbc;
+	FIELD I EMERALD Lcbc;
+	FIELD K NETHER Lcbc;
+	FIELD a COLORS [Lcbc;
+	FIELD ab color I
+	FIELD ac id I
+	FIELD b AIR Lcbc;
+	FIELD c GRASS Lcbc;
+	FIELD d SAND Lcbc;
+	FIELD e WEB Lcbc;
+	FIELD f LAVA Lcbc;
+	FIELD g ICE Lcbc;
+	FIELD h IRON Lcbc;
+	FIELD i LEAVES Lcbc;
+	FIELD j WHITE Lcbc;
+	FIELD k CLAY Lcbc;
+	FIELD m STONE Lcbc;
+	FIELD n WATER Lcbc;
+	FIELD q ORANGE Lcbc;
+	FIELD r MAGENTA Lcbc;
+	FIELD t YELLOW Lcbc;
+	FIELD y CYAN Lcbc;
+	FIELD z PURPLE Lcbc;
 	METHOD <init> (II)V
 		ARG 0 id
 		ARG 1 color
 	METHOD a getRenderColor (I)I
 		ARG 0 shade
-	METHOD a fromDyeColor (Lahq;)Lbcy;
-		ARG 0 dyeColor

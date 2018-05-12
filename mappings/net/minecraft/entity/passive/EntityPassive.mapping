@@ -1,23 +1,23 @@
-CLASS vb net/minecraft/entity/passive/EntityPassive
+CLASS ahq net/minecraft/entity/passive/EntityPassive
 	FIELD a breedingAge I
-	FIELD bx CHILD Lmx;
+	FIELD bz CHILD Lny;
 	METHOD a setSize (FF)V
 		ARG 0 width
 		ARG 1 height
-	METHOD a interactMob (Laeb;Ltz;)Z
+	METHOD a createChild (Lahq;)Lahq;
+		ARG 0 other
+	METHOD a interactMob (Larh;Lagm;)Z
 		ARG 0 player
 		ARG 1 playerHand
-	METHOD a deserializeCustomData (Lfy;)V
+	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD a onTrackedDataSet (Lmx;)V
+	METHOD a onTrackedDataSet (Lny;)V
 		ARG 0 data
-	METHOD a createChild (Lvb;)Lvb;
-		ARG 0 other
-	METHOD b serializeCustomData (Lfy;)V
+	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD c setBreedingAge (I)V
+	METHOD b_ setBreedingAge (I)V
 		ARG 0 value
-	METHOD i initDataTracker ()V
-	METHOD l getBreedingAge ()I
-	METHOD l_ isChild ()Z
-	METHOD n updateMovement ()V
+	METHOD i getBreedingAge ()I
+	METHOD k updateMovement ()V
+	METHOD w_ initDataTracker ()V
+	METHOD x_ isChild ()Z

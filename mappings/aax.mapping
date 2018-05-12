@@ -1,0 +1,10 @@
+CLASS aax
+	CLASS aax$l
+		METHOD equals (Ljava/lang/Object;)Z
+			ARG 0 object
+	CLASS aax$m
+		METHOD equals (Ljava/lang/Object;)Z
+			ARG 0 object
+	CLASS aax$n
+		METHOD equals (Ljava/lang/Object;)Z
+			ARG 0 object

@@ -1,22 +1,22 @@
-CLASS bey net/minecraft/world/level/LevelPropertiesImmutable
-	FIELD b properties Lbfb;
+CLASS cdw net/minecraft/world/level/LevelPropertiesImmutable
+	FIELD b properties Lcdz;
 	METHOD a getSeed ()J
 	METHOD a setSpawnX (I)V
 		ARG 0 value
-	METHOD a setGeneratorType (Lamx;)V
+	METHOD a setDifficulty (Lagk;)V
 		ARG 0 value
-	METHOD a getWorldData (Layl;)Lfy;
+	METHOD a setGeneratorType (Lbbe;)V
+		ARG 0 value
+	METHOD a getWorldData (Lbqf;)Lgu;
 		ARG 0 type
-	METHOD a setWorldData (Layl;Lfy;)V
+	METHOD a setWorldData (Lbqf;Lgu;)V
 		ARG 0 type
 		ARG 1 value
-	METHOD a setSpawnPos (Let;)V
+	METHOD a setSpawnPos (Lef;)V
 		ARG 0 pos
-	METHOD a cloneWorldTag (Lfy;)Lfy;
+	METHOD a cloneWorldTag (Lgu;)Lgu;
 		ARG 0 playerTag
 	METHOD a setLevelName (Ljava/lang/String;)V
-		ARG 0 value
-	METHOD a setDifficulty (Ltx;)V
 		ARG 0 value
 	METHOD a setThundering (Z)V
 		ARG 0 value
@@ -48,7 +48,7 @@ CLASS bey net/minecraft/world/level/LevelPropertiesImmutable
 	METHOD g getSizeOnDisk ()J
 	METHOD g setRainTime (I)V
 		ARG 0 value
-	METHOD h getPlayerData ()Lfy;
+	METHOD h getPlayerData ()Lgu;
 	METHOD j getLevelName ()Ljava/lang/String;
 	METHOD k getVersion ()I
 	METHOD l getLastPlayed ()J
@@ -56,12 +56,12 @@ CLASS bey net/minecraft/world/level/LevelPropertiesImmutable
 	METHOD n getThunderTime ()I
 	METHOD o isRaining ()Z
 	METHOD p getRainTime ()I
-	METHOD q getGameMode ()Lamq;
+	METHOD q getGameMode ()Lbau;
 	METHOD r hasStructures ()Z
 	METHOD s isHardcore ()Z
-	METHOD t getGeneratorType ()Lamx;
+	METHOD t getGeneratorType ()Lbbe;
 	METHOD u areCommandsAllowed ()Z
 	METHOD v isInitialized ()Z
-	METHOD w getGameRules ()Lamp;
-	METHOD x getDifficulty ()Ltx;
+	METHOD w getGameRules ()Lbat;
+	METHOD x getDifficulty ()Lagk;
 	METHOD y isDifficultyLocked ()Z

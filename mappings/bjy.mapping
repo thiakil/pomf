@@ -1,5 +1,2 @@
 CLASS bjy
-	METHOD a getType ()Lbjy$a;
-	METHOD a draw (Lbka;J)Lbjz$a;
-		ARG 0 toastGui
-	METHOD b getType ()Ljava/lang/Object;
+	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I

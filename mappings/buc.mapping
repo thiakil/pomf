@@ -1,0 +1,9 @@
+CLASS buc
+	CLASS buc$a StructureMonument
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)V
+			ARG 1 rand
+			ARG 2 region
+		METHOD a serializeCustomData (Lgu;)V
+			ARG 0 tag
+		METHOD b deserializeCustomData (Lgu;)V
+			ARG 0 tag

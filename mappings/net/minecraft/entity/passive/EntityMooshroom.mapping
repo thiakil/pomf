@@ -1,13 +1,11 @@
-CLASS zy net/minecraft/entity/passive/EntityMooshroom
-	METHOD J getLootTableId ()Lnd;
-	METHOD a interactMob (Laeb;Ltz;)Z
+CLASS amx net/minecraft/entity/passive/EntityMooshroom
+	METHOD H getLootTableId ()Loj;
+	METHOD a createChild (Lahq;)Lahq;
+		ARG 0 other
+	METHOD a interactMob (Larh;Lagm;)Z
 		ARG 0 player
 		ARG 1 playerHand
-	METHOD a createChild (Lvb;)Lvb;
+	METHOD b createChild (Lahq;)Lamu;
 		ARG 0 other
-	METHOD b createChild (Lvb;)Lzv;
-		ARG 0 other
-	METHOD c registerTagUpgraders2 (Lrw;)V
-		ARG 0 handler
-	METHOD c createChild (Lvb;)Lzy;
+	METHOD c createChild (Lahq;)Lamx;
 		ARG 0 other

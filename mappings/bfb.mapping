@@ -1,0 +1,10 @@
+CLASS bfb
+	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a dropItems (Lbnv;Lbax;Lef;FI)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 dropChance
+		ARG 4 fortune

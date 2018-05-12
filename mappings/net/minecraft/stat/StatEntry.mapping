@@ -1,9 +1,1 @@
-CLASS qo net/minecraft/stat/StatEntry
-	FIELD a value I
-	FIELD b extraData Lqp;
-	METHOD a get ()I
-	METHOD a set (I)V
-		ARG 0 value
-	METHOD a setExtraData (Lqp;)V
-		ARG 0 value
-	METHOD b getExtraData ()Lqp;
+CLASS cbh net/minecraft/stat/StatEntry

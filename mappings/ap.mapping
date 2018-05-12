@@ -1,0 +1,13 @@
+CLASS ap
+	METHOD a getId ()Loj;
+	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lt;
+		ARG 0 obj
+		ARG 1 context
+	METHOD a removePlayer (Lot;)V
+		ARG 0 manager
+	METHOD a addCondition (Lot;Ls$a;)V
+		ARG 0 manager
+		ARG 1 condition
+	METHOD b removeCondition (Lot;Ls$a;)V
+		ARG 0 manager
+		ARG 1 condition

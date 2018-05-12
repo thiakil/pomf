@@ -1,7 +1,7 @@
-CLASS alc net/minecraft/enchantment/EnchantmentInfinity
-	METHOD <init> (Lali$a;[Lvj;)V
+CLASS ayz net/minecraft/enchantment/EnchantmentInfinity
+	METHOD <init> (Lazf$a;[Lahy;)V
 		ARG 0 weight
 		ARG 1 slotTypes
-	METHOD a isEqual (Lali;)Z
+	METHOD a isEqual (Lazf;)Z
 		ARG 0 other
 	METHOD b getHighestLevel ()I

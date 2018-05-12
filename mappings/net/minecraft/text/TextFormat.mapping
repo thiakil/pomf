@@ -23,9 +23,7 @@ CLASS a net/minecraft/text/TextFormat
 	FIELD t UNDERLINE La;
 	FIELD u ITALIC La;
 	FIELD v RESET La;
-	FIELD w NAME_LOOKUP Ljava/util/Map;
 	FIELD x FORMAT_PATTERN Ljava/util/regex/Pattern;
-	FIELD y name Ljava/lang/String;
 	FIELD z formatChar C
 	METHOD a byId (I)La;
 		ARG 0 id

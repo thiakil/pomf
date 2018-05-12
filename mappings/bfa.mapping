@@ -1,0 +1,17 @@
+CLASS bfa
+	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a onBreak (Lbax;Lef;Lbnv;Larh;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 3 player
+	METHOD a dropItems (Lbnv;Lbax;Lef;FI)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 dropChance
+		ARG 4 fortune
+	METHOD a onBlockRemoved (Lbnv;Lbax;Lef;Lbnv;)V
+		ARG 1 world
+		ARG 2 pos

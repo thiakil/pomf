@@ -1,4 +1,4 @@
-CLASS kg net/minecraft/network/packet/client/CPacketExperienceBarUpdate
+CLASS le net/minecraft/network/packet/client/CPacketExperienceBarUpdate
 	FIELD a barProgress F
 	FIELD b experienceLevel I
 	FIELD c experience I
@@ -7,13 +7,13 @@ CLASS kg net/minecraft/network/packet/client/CPacketExperienceBarUpdate
 		ARG 1 experienceLevel
 		ARG 2 experience
 	METHOD a getBarProgress ()F
-	METHOD a readPacket (Lgy;)V
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
-		ARG 0 handler
 	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
+	METHOD a applyPacket (Lis;)V
+		ARG 0 handler
 	METHOD b getExperienceLevel ()I
-	METHOD b writePacket (Lgy;)V
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf
 	METHOD c getExperience ()I

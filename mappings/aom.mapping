@@ -1,0 +1,2 @@
+CLASS aom
+	METHOD i getType ()Laou;

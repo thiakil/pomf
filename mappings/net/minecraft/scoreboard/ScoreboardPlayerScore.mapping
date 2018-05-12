@@ -1,26 +1,23 @@
-CLASS bhg net/minecraft/scoreboard/ScoreboardPlayerScore
+CLASS cgy net/minecraft/scoreboard/ScoreboardPlayerScore
 	FIELD a COMPARATOR Ljava/util/Comparator;
-	FIELD b scoreboard Lbhi;
-	FIELD c objective Lbhe;
+	FIELD b scoreboard Lcgz;
+	FIELD c objective Lcgw;
 	FIELD d playerName Ljava/lang/String;
 	FIELD e score I
 	FIELD f disabled Z
 	FIELD g forceUpdate Z
-	METHOD <init> (Lbhi;Lbhe;Ljava/lang/String;)V
+	METHOD <init> (Lcgz;Lcgw;Ljava/lang/String;)V
 		ARG 0 scoreboard
 		ARG 1 objective
 		ARG 2 playerName
-	METHOD a incrementScore ()V
 	METHOD a incrementScore (I)V
 		ARG 0 value
 	METHOD a setDisabled (Z)V
 		ARG 0 value
-	METHOD b decrementScore (I)V
-		ARG 0 value
-	METHOD c getScore ()I
+	METHOD b getScore ()I
 	METHOD c setScore (I)V
 		ARG 0 value
-	METHOD d getObjective ()Lbhe;
+	METHOD d getObjective ()Lcgw;
 	METHOD e getPlayerName ()Ljava/lang/String;
-	METHOD f getScoreboard ()Lbhi;
+	METHOD f getScoreboard ()Lcgz;
 	METHOD g isDisabled ()Z

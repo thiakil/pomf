@@ -1,23 +1,23 @@
-CLASS afr net/minecraft/container/ContainerBeacon
-	CLASS afr$a SlotPayment
+CLASS asy net/minecraft/container/ContainerBeacon
+	CLASS asy$a SlotPayment
 		METHOD a getMaxStackAmount ()I
-		METHOD a canInsert (Lain;)Z
+		METHOD a canInsert (Lawg;)Z
 			ARG 0 stack
-	FIELD a inventory Ltt;
-	FIELD f slotPayment Lafr$a;
-	METHOD <init> (Ltt;Ltt;)V
+	FIELD a inventory Lagg;
+	FIELD f slotPayment Lasy$a;
+	METHOD <init> (Lagg;Lagg;)V
 		ARG 0 playerInv
 		ARG 1 inventory
-	METHOD a canUse (Laeb;)Z
+	METHOD a canUse (Larh;)Z
 		ARG 0 player
-	METHOD a addListener (Lafv;)V
+	METHOD a addListener (Latc;)V
 		ARG 0 listener
 	METHOD b setProperty (II)V
 		ARG 0 pos
 		ARG 1 value
-	METHOD b close (Laeb;)V
+	METHOD b close (Larh;)V
 		ARG 0 player
-	METHOD b getStack (Laeb;I)Lain;
+	METHOD b getStack (Larh;I)Lawg;
 		ARG 0 player
 		ARG 1 slot
-	METHOD e getInventory ()Ltt;
+	METHOD d getInventory ()Lagg;

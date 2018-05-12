@@ -1,0 +1,2 @@
+CLASS bic
+	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I

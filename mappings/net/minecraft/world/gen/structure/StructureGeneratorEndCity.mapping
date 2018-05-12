@@ -1,3 +1,2 @@
-CLASS bbf net/minecraft/world/gen/structure/StructureGeneratorEndCity
-	CLASS bbf$a StructureEndCity
-	METHOD a findClosest (Lams;Let;Z)Let;
+CLASS bsl net/minecraft/world/gen/structure/StructureGeneratorEndCity
+	CLASS bsl$a StructureEndCity

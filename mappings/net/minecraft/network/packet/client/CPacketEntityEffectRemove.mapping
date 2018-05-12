@@ -1,17 +1,17 @@
-CLASS jt net/minecraft/network/packet/client/CPacketEntityEffectRemove
+CLASS kr net/minecraft/network/packet/client/CPacketEntityEffectRemove
 	FIELD a entityId I
-	FIELD b effectType Lux;
-	METHOD <init> (ILux;)V
+	FIELD b effectType Lahl;
+	METHOD <init> (ILahl;)V
 		ARG 0 entityId
 		ARG 1 effectType
-	METHOD a getEffectType ()Lux;
-	METHOD a getEntity (Lams;)Lve;
+	METHOD a getEffectType ()Lahl;
+	METHOD a getEntity (Lbax;)Laht;
 		ARG 0 world
-	METHOD a readPacket (Lgy;)V
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
-		ARG 0 handler
 	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
-	METHOD b writePacket (Lgy;)V
+	METHOD a applyPacket (Lis;)V
+		ARG 0 handler
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf

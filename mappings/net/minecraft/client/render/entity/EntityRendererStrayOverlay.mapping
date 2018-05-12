@@ -1,11 +1,11 @@
-CLASS ccj net/minecraft/client/render/entity/EntityRendererStrayOverlay
-	FIELD a SKIN Lnd;
-	FIELD b renderer Lbzy;
-	FIELD c model Lbqu;
-	METHOD <init> (Lbzy;)V
+CLASS ddm net/minecraft/client/render/entity/EntityRendererStrayOverlay
+	FIELD a SKIN Loj;
+	FIELD b renderer Ldaq;
+	FIELD c model Lcra;
+	METHOD <init> (Ldaq;)V
 		ARG 0 renderer
 	METHOD a shouldMergeTextures ()Z
-	METHOD a render (Ladm;FFFFFFF)V
+	METHOD a render (Laic;FFFFFFF)V
 		ARG 0 entity
-	METHOD a render (Lvn;FFFFFFF)V
+	METHOD a render (Laqs;FFFFFFF)V
 		ARG 0 entity

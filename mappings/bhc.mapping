@@ -1,0 +1,14 @@
+CLASS bhc
+	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a onEntityCollision (Lbnv;Lbax;Lef;Laht;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 entity
+	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I
+	METHOD c randomDisplayTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 rand

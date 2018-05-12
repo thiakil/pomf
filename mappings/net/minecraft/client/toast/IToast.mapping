@@ -1,14 +1,14 @@
-CLASS bjz net/minecraft/client/toast/IToast
-	CLASS bjz$a Visibility
-		FIELD a SHOW Lbjz$a;
-		FIELD b HIDE Lbjz$a;
-		FIELD c sound Lqc;
-		METHOD <init> (Ljava/lang/String;ILqc;)V
+CLASS cjw net/minecraft/client/toast/IToast
+	CLASS cjw$a Visibility
+		FIELD a SHOW Lcjw$a;
+		FIELD b HIDE Lcjw$a;
+		FIELD c sound Lvo;
+		METHOD <init> (Ljava/lang/String;ILvo;)V
 			ARG 2 sound
-		METHOD a playSound (Lchm;)V
+		METHOD a playSound (Ldhy;)V
 			ARG 0 soundLoader
-	FIELD a TEXTURE_TOASTS Lnd;
+	FIELD a TEXTURE_TOASTS Loj;
 	FIELD b NO_TYPE Ljava/lang/Object;
-	METHOD a draw (Lbka;J)Lbjz$a;
+	METHOD a draw (Lcjx;J)Lcjw$a;
 		ARG 0 toastGui
 	METHOD b getType ()Ljava/lang/Object;

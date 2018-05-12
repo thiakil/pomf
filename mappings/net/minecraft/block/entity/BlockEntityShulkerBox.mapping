@@ -1,50 +1,48 @@
-CLASS avz net/minecraft/block/entity/BlockEntityShulkerBox
-	CLASS avz$a AnimationStage
-		FIELD a CLOSED Lavz$a;
-		FIELD c OPENED Lavz$a;
-	FIELD a SLOTS [I
-	FIELD f inv Lfi;
-	FIELD g cleared Z
-	FIELD i animationStage Lavz$a;
-	FIELD j animationProgress F
-	FIELD k prevAnimationProgress F
-	FIELD l color Lahq;
-	METHOD <init> (Lahq;)V
+CLASS bmv net/minecraft/block/entity/BlockEntityShulkerBox
+	CLASS bmv$a AnimationStage
+		FIELD a CLOSED Lbmv$a;
+		FIELD c OPENED Lbmv$a;
+	FIELD e inv Leu;
+	FIELD f cleared Z
+	FIELD k animationStage Lbmv$a;
+	FIELD l animationProgress F
+	FIELD m prevAnimationProgress F
+	FIELD n color Lave;
+	METHOD <init> (Lave;)V
 		ARG 0 color
+	METHOD D getColor ()Lave;
+	METHOD N_ getNameAsComponent ()Lic;
+	METHOD P_ isInvEmpty ()Z
+	METHOD T_ getInvSize ()I
+	METHOD Y_ update ()V
+	METHOD Z_ getUpdatePacket ()Ljc;
 	METHOD a getAnimationProgress (F)F
 		ARG 0 deltaTicks
-	METHOD a canInsertInvStack (ILain;Lfa;)Z
+	METHOD a canInsertInvStack (ILawg;Lel;)Z
 		ARG 0 slot
 		ARG 1 stack
 		ARG 2 facing
-	METHOD a createContainer (Laea;Laeb;)Lafp;
+	METHOD a createContainer (Larg;Larh;)Lasw;
 		ARG 0 playerInv
 		ARG 1 player
-	METHOD a getInvAvailableSlots (Lfa;)[I
+	METHOD a getInvAvailableSlots (Lel;)[I
 		ARG 0 facing
-	METHOD a deserialize (Lfy;)V
+	METHOD a serialize (Lgu;)Lgu;
 		ARG 0 tag
-	METHOD a registerTagUpgraders (Lrw;)V
-	METHOD b canExtractInvStack (ILain;Lfa;)Z
+	METHOD b canExtractInvStack (ILawg;Lel;)Z
 		ARG 0 slot
 		ARG 1 stack
 		ARG 2 facing
-	METHOD b onInvOpen (Laeb;)V
+	METHOD b onInvOpen (Larh;)V
 		ARG 0 player
-	METHOD b serialize (Lfy;)Lfy;
+	METHOD b deserialize (Lgu;)V
 		ARG 0 tag
-	METHOD c getUpdatePacket ()Lih;
-	METHOD c onInvClose (Laeb;)V
+	METHOD c onInvClose (Larh;)V
 		ARG 0 player
-	METHOD e update ()V
-	METHOD h_ getName ()Ljava/lang/String;
+	METHOD f getInvMaxStackAmount ()I
 	METHOD l getContainerId ()Ljava/lang/String;
 	METHOD m clearInv ()V
-	METHOD o updateAnimation ()V
-	METHOD p getAnimationStage ()Lavz$a;
-	METHOD q getInvStackList ()Lfi;
-	METHOD r hasBeenCleared ()Z
-	METHOD s getColor ()Lahq;
-	METHOD w_ getInvSize ()I
-	METHOD x_ isInvEmpty ()Z
-	METHOD z_ getInvMaxStackAmount ()I
+	METHOD p updateAnimation ()V
+	METHOD q getInvStackList ()Leu;
+	METHOD r getAnimationStage ()Lbmv$a;
+	METHOD s hasBeenCleared ()Z

@@ -1,6 +1,5 @@
-CLASS ri net/minecraft/util/math/MathUtils
+CLASS wx net/minecraft/util/math/MathUtils
 	FIELD a SQUARE_ROOT_2 F
-	FIELD b sinTable [F
 	FIELD c rand Ljava/util/Random;
 	FIELD d MULTIPLY_DE_BRUIJN_BIT_POSITION [I
 	FIELD e SMALLEST_FRACTION_FREE_DOUBLE D
@@ -34,18 +33,8 @@ CLASS ri net/minecraft/util/math/MathUtils
 		ARG 0 value
 		ARG 1 min
 		ARG 2 max
-	METHOD a hashCode (Lfq;)J
+	METHOD a hashCode (Lfb;)J
 		ARG 0 vec
-	METHOD a getDouble (Ljava/lang/String;D)D
-		ARG 0 value
-		ARG 1 defaultValue
-	METHOD a getDouble (Ljava/lang/String;DD)D
-		ARG 0 firstValue
-		ARG 1 firstValueDefault
-		ARG 2 secondValue
-	METHOD a getInt (Ljava/lang/String;I)I
-		ARG 0 value
-		ARG 1 defaultValue
 	METHOD a getInt (Ljava/lang/String;II)I
 		ARG 0 firstValue
 		ARG 1 firstValueDefault
@@ -78,10 +67,6 @@ CLASS ri net/minecraft/util/math/MathUtils
 	METHOD b modFloor (FF)F
 		ARG 0 num
 		ARG 1 denom
-	METHOD b packRgbFloats (FFF)I
-		ARG 0 r
-		ARG 1 g
-		ARG 2 b
 	METHOD b wrapDegrees (I)I
 		ARG 0 value
 	METHOD b modFloor (II)I
@@ -102,10 +87,6 @@ CLASS ri net/minecraft/util/math/MathUtils
 		ARG 2 v1
 	METHOD c sqrt (F)F
 		ARG 0 value
-	METHOD c hsvToRgb (FFF)I
-		ARG 0 hue
-		ARG 1 saturation
-		ARG 2 value
 	METHOD c smallestEncompassingPowerOfTwo (I)I
 		ARG 0 value
 	METHOD c roundUp (II)I
@@ -117,15 +98,21 @@ CLASS ri net/minecraft/util/math/MathUtils
 		ARG 0 value
 	METHOD d floor (F)I
 		ARG 0 value
+	METHOD d packRgbFloats (FFF)I
+		ARG 0 r
+		ARG 1 g
+		ARG 2 b
 	METHOD d log2DeBruijn (I)I
 		ARG 0 value
 	METHOD d multiplyColors (II)I
 		ARG 0 c0
 		ARG 1 c1
-	METHOD e absFloor (D)I
-		ARG 0 value
 	METHOD e abs (F)F
 		ARG 0 value
+	METHOD e hsvToRgb (FFF)I
+		ARG 0 hue
+		ARG 1 saturation
+		ARG 2 value
 	METHOD e log2 (I)I
 		ARG 0 value
 	METHOD f ceil (D)I

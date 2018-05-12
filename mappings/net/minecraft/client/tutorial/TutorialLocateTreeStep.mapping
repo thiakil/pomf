@@ -1,6 +1,6 @@
-CLASS cht net/minecraft/client/tutorial/TutorialLocateTreeStep
+CLASS dig net/minecraft/client/tutorial/TutorialLocateTreeStep
 	METHOD a update ()V
-	METHOD a onItemPickup (Lain;)V
+	METHOD a onItemPickup (Lawg;)V
 		ARG 0 stack
-	METHOD a hasPreviouslyPunchedTree (Lbub;)Z
+	METHOD a hasPreviouslyPunchedTree (Lcum;)Z
 	METHOD b onStop ()V

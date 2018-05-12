@@ -1,6 +1,6 @@
-CLASS cbt net/minecraft/client/render/entity/EntityRendererDeadmau5
+CLASS dcs net/minecraft/client/render/entity/EntityRendererDeadmau5
 	METHOD a shouldMergeTextures ()Z
-	METHOD a render (Lbty;FFFFFFF)V
+	METHOD a render (Laic;FFFFFFF)V
 		ARG 0 entity
-	METHOD a render (Lvn;FFFFFFF)V
+	METHOD a render (Lcuj;FFFFFFF)V
 		ARG 0 entity

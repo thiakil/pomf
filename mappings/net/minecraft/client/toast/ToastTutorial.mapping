@@ -1,7 +1,7 @@
-CLASS bkb net/minecraft/client/toast/ToastTutorial
-	CLASS bkb$a Icons
-		FIELD c TREE Lbkb$a;
+CLASS cjy net/minecraft/client/toast/ToastTutorial
+	CLASS cjy$a Icons
+		FIELD c TREE Lcjy$a;
 	METHOD a hide ()V
 	METHOD a setProgress (F)V
-	METHOD a draw (Lbka;J)Lbjz$a;
+	METHOD a draw (Lcjx;J)Lcjw$a;
 		ARG 0 toastGui

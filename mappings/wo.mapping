@@ -1,0 +1,7 @@
+CLASS wo
+	CLASS wo$b
+		METHOD equals (Ljava/lang/Object;)Z
+			ARG 0 object
+	CLASS wo$d
+		METHOD equals (Ljava/lang/Object;)Z
+			ARG 0 object

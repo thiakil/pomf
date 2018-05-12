@@ -1,27 +1,25 @@
-CLASS aag net/minecraft/entity/passive/EntitySnowman
-	FIELD a SNOWMAN_FLAGS Lmx;
-	METHOD F getSoundAmbient ()Lqc;
-	METHOD J getLootTableId ()Lnd;
-	METHOD a interactMob (Laeb;Ltz;)Z
+CLASS anh net/minecraft/entity/passive/EntitySnowman
+	FIELD a SNOWMAN_FLAGS Lny;
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD a attackDistant (Laic;F)V
+		ARG 0 target
+	METHOD a interactMob (Larh;Lagm;)Z
 		ARG 0 player
 		ARG 1 playerHand
-	METHOD a deserializeCustomData (Lfy;)V
+	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD a registerTagUpgraders (Lrw;)V
-		ARG 0 handler
-	METHOD a attackDistant (Lvn;F)V
-		ARG 0 target
 	METHOD a setHasPumpkin (Z)V
 		ARG 0 value
-	METHOD b serializeCustomData (Lfy;)V
+	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD bM initAttributes ()V
-	METHOD by getEyeHeight ()F
-	METHOD cf getSoundDeath ()Lqc;
-	METHOD d getSoundHurt (Lup;)Lqc;
-	METHOD i initDataTracker ()V
-	METHOD n updateMovement ()V
-	METHOD p hasPumpkin ()Z
-	METHOD p setAiming (Z)V
+	METHOD bI getEyeHeight ()F
+	METHOD ca initAttributes ()V
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahc;)Lvo;
+	METHOD k updateMovement ()V
+	METHOD l hasPumpkin ()Z
+	METHOD n initAi ()V
+	METHOD s setAiming (Z)V
 		ARG 0 value
-	METHOD r initAi ()V
+	METHOD w_ initDataTracker ()V

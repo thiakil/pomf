@@ -1,17 +1,17 @@
-CLASS jo net/minecraft/network/packet/client/CPacketPlayerList
-	CLASS jo$a Type
-		FIELD a ADD Ljo$a;
-		FIELD b UPDATE_GAMEMODE Ljo$a;
-		FIELD c UPDATE_LATENCY Ljo$a;
-		FIELD d UPDATE_DISPLAY_NAME Ljo$a;
-		FIELD e REMOVE Ljo$a;
-	FIELD a type Ljo$a;
-	METHOD a readPacket (Lgy;)V
+CLASS kl net/minecraft/network/packet/client/CPacketPlayerList
+	CLASS kl$a Type
+		FIELD a ADD Lkl$a;
+		FIELD b UPDATE_GAMEMODE Lkl$a;
+		FIELD c UPDATE_LATENCY Lkl$a;
+		FIELD d UPDATE_DISPLAY_NAME Lkl$a;
+		FIELD e REMOVE Lkl$a;
+	FIELD a type Lkl$a;
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
-		ARG 0 handler
 	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
-	METHOD b getType ()Ljo$a;
-	METHOD b writePacket (Lgy;)V
+	METHOD a applyPacket (Lis;)V
+		ARG 0 handler
+	METHOD b getType ()Lkl$a;
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf

@@ -1,81 +1,72 @@
-CLASS bub net/minecraft/client/player/EntityPlayerClient
-	FIELD cb stats Lqr;
-	FIELD cc recipeBook Lqj;
-	FIELD cd clientPermissionLevel I
-	FIELD co serverBrand Ljava/lang/String;
-	FIELD d networkHandler Lbrx;
-	FIELD f game Lbhz;
-	METHOD B openRidingInventory ()V
-	METHOD B_ update ()V
-	METHOD C getServerBrand ()Ljava/lang/String;
-	METHOD D getStats ()Lqr;
-	METHOD E getRecipeBook ()Lqj;
-	METHOD F getClientPermissionLevel ()I
-	METHOD a hasPermission (ILjava/lang/String;)Z
-		ARG 0 permissionLevel
-		ARG 1 commandName
-	METHOD a openHorseInventory (Laam;Ltt;)V
-	METHOD a spawnEntityItem (Lacj;)Lain;
-		ARG 0 entityItem
-	METHOD a openBookEditor (Lain;Ltz;)V
-	METHOD a openVillagerGui (Lamd;)V
-	METHOD a openCommandBlockMinecart (Lamh;)V
-	METHOD a openCommandBlock (Lavk;)V
-	METHOD a openSignEditor (Lawa;)V
-		ARG 0 sign
-	METHOD a openStructureBlock (Lawc;)V
-	METHOD a appendCommandFeedback (Lhh;)V
-		ARG 0 feedback
-	METHOD a addChatMessage (Lhh;Z)V
-		ARG 0 message
-	METHOD a onTrackedDataSet (Lmx;)V
-		ARG 0 data
-	METHOD a playSoundAtEntity (Lqc;FF)V
-		ARG 0 sound
-		ARG 1 volume
-		ARG 2 pitch
-	METHOD a incrementStat (Lqm;I)V
-		ARG 0 stat
-		ARG 1 amount
-	METHOD a openInventory (Ltt;)V
+CLASS cum net/minecraft/client/player/EntityPlayerClient
+	FIELD cf stats Lvz;
+	FIELD cg recipeBook Lchg;
+	FIELD ci clientPermissionLevel I
+	FIELD ct serverBrand Ljava/lang/String;
+	FIELD d networkHandler Lcsg;
+	FIELD f game Lchp;
+	METHOD A getRecipeBook ()Lchg;
+	METHOD R_ update ()V
+	METHOD S_ stopRiding ()V
+	METHOD a setClientPermissionLevel (I)V
+		ARG 0 value
+	METHOD a openInventory (Lagg;)V
 		ARG 0 inv
-	METHOD a swingHand (Ltz;)V
+	METHOD a swingHand (Lagm;)V
 		ARG 0 hand
-	METHOD a openContainer (Lua;)V
-	METHOD a damage (Lup;F)Z
+	METHOD a openContainer (Lagn;)V
+	METHOD a damage (Lahc;F)Z
 		ARG 0 source
 		ARG 1 damage
-	METHOD a copyEntityData (Lve;)V
+	METHOD a copyEntityData (Laht;)V
 		ARG 0 entity
-	METHOD a startRiding (Lve;Z)Z
+	METHOD a startRiding (Laht;Z)Z
 		ARG 0 entity
 		ARG 1 ignoreRequirements
-	METHOD a move (Lvt;DDD)V
+	METHOD a move (Laii;DDD)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD a dropSelectedItem (Z)Lacj;
-	METHOD aU isSneaking ()Z
-	METHOD b heal (F)V
+	METHOD a openHorseInventory (Lanp;Lagg;)V
+	METHOD a spawnEntityItem (Lapn;)Lawg;
+		ARG 0 entityItem
+	METHOD a openBookEditor (Lawg;Lagm;)V
+	METHOD a openVillagerGui (Lbae;)V
+	METHOD a openCommandBlockMinecart (Lbai;)V
+	METHOD a openCommandBlock (Lbmf;)V
+	METHOD a openSignEditor (Lbmw;)V
+		ARG 0 sign
+	METHOD a openStructureBlock (Lbmy;)V
+	METHOD a appendCommandFeedback (Lic;)V
+		ARG 0 feedback
+	METHOD a addChatMessage (Lic;Z)V
+		ARG 0 message
+	METHOD a onTrackedDataSet (Lny;)V
+		ARG 0 data
+	METHOD a playSoundAtEntity (Lvo;FF)V
+		ARG 0 sound
+		ARG 1 volume
+		ARG 2 pitch
+	METHOD a dropSelectedItem (Z)Lapn;
+	METHOD bb isSneaking ()Z
+	METHOD c heal (F)V
 		ARG 0 amount
-	METHOD c getBlockPos ()Let;
-	METHOD c setCurrentHand (Ltz;)V
-	METHOD c removePotionEffect (Lux;)Luy;
+	METHOD c setCurrentHand (Lagm;)V
+	METHOD c removePotionEffect (Lahl;)Lahm;
 		ARG 0 effect
-	METHOD d damage (Lup;F)V
+	METHOD d damage (Lahc;F)V
 		ARG 0 damageSource
 		ARG 1 damage
-	METHOD e getForwardVector (F)Lbhc;
-		ARG 0 lerpTime
+	METHOD f sendChatMessage (Ljava/lang/String;)V
+		ARG 0 message
 	METHOD f setSprinting (Z)V
 		ARG 0 value
-	METHOD g sendChatMessage (Ljava/lang/String;)V
-		ARG 0 message
-	METHOD h setServerBrand (Ljava/lang/String;)V
-	METHOD n updateMovement ()V
-	METHOD n setClientPermissionLevel (I)V
-		ARG 0 value
-	METHOD o stopRiding ()V
-	METHOD o updateHealth (F)V
+	METHOD g setServerBrand (Ljava/lang/String;)V
+	METHOD k updateMovement ()V
+	METHOD p closeGui ()V
+	METHOD s updateHealth (F)V
 		ARG 0 health
-	METHOD x closeGui ()V
+	METHOD v openRidingInventory ()V
+	METHOD w getServerBrand ()Ljava/lang/String;
+	METHOD x getStats ()Lvz;
+	METHOD y getBlockPos ()Lef;

@@ -1,13 +1,12 @@
-CLASS bmr net/minecraft/client/gui/container/GuiEnchanting
-	FIELD C BG_TEX Lnd;
-	FIELD D BOOK_TEX Lnd;
-	FIELD F playerInv Laea;
+CLASS cmp net/minecraft/client/gui/container/GuiEnchanting
+	FIELD C BG_TEX Loj;
+	FIELD D BOOK_TEX Loj;
+	FIELD F playerInv Larg;
 	FIELD G rand Ljava/util/Random;
-	FIELD H container Lafz;
-	METHOD <init> (Laea;Lams;Lug;)V
+	FIELD H container Latg;
+	METHOD <init> (Larg;Lbax;Lagt;)V
 		ARG 0 playerInv
 		ARG 1 world
-	METHOD a calculateOffset ()V
 	METHOD a drawBackground (FII)V
 		ARG 0 delta
 		ARG 1 mouseX
@@ -16,11 +15,8 @@ CLASS bmr net/minecraft/client/gui/container/GuiEnchanting
 		ARG 0 mouseX
 		ARG 1 mouseY
 		ARG 2 delta
-	METHOD a onMousePressed (III)V
-		ARG 0 mouseX
-		ARG 1 mouseY
-		ARG 2 mouseButton
 	METHOD c drawForeground (II)V
 		ARG 0 mouseX
 		ARG 1 mouseY
-	METHOD e update ()V
+	METHOD f update ()V
+	METHOD h calculateOffset ()V

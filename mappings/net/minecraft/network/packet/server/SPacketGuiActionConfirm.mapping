@@ -1,4 +1,4 @@
-CLASS ld net/minecraft/network/packet/server/SPacketGuiActionConfirm
+CLASS md net/minecraft/network/packet/server/SPacketGuiActionConfirm
 	FIELD a id I
 	FIELD b actionId S
 	FIELD c accepted Z
@@ -7,12 +7,12 @@ CLASS ld net/minecraft/network/packet/server/SPacketGuiActionConfirm
 		ARG 1 actionId
 		ARG 2 accepted
 	METHOD a getId ()I
-	METHOD a readPacket (Lgy;)V
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
+	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lkw;)V
+	METHOD a applyPacket (Llx;)V
 		ARG 0 handler
 	METHOD b getActionId ()S
-	METHOD b writePacket (Lgy;)V
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf

@@ -1,0 +1,3 @@
+CLASS aye
+	METHOD c isIgnoredInRecipeBook ()Z
+	METHOD d getOutput ()Lawg;

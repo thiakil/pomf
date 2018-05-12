@@ -1,0 +1,4 @@
+CLASS cxy
+	METHOD a create (Lbax;Lcvg;I)Lcya;
+		ARG 0 world
+		ARG 1 renderer

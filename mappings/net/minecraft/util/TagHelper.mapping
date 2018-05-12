@@ -1,29 +1,24 @@
-CLASS gj net/minecraft/util/TagHelper
-	METHOD a withProperty (Lawr;Laxh;Ljava/lang/String;Lfy;Lfy;)Lawr;
+CLASS hf net/minecraft/util/TagHelper
+	METHOD a withProperty (Lbny;Lbou;Ljava/lang/String;Lgu;Lgu;)Lbny;
 		ARG 0 state
 		ARG 1 property
-	METHOD a getPropertyValue (Laxh;Ljava/lang/Comparable;)Ljava/lang/String;
+	METHOD a getPropertyValue (Lbou;Ljava/lang/Comparable;)Ljava/lang/String;
 		ARG 0 property
 		ARG 1 value
-	METHOD a serializeBlockPos (Let;)Lfy;
+	METHOD a serializeBlockPos (Lef;)Lgu;
 		ARG 0 pos
-	METHOD a deserializeProfile (Lfy;)Lcom/mojang/authlib/GameProfile;
+	METHOD a deserializeProfile (Lgu;)Lcom/mojang/authlib/GameProfile;
 		ARG 0 tag
-	METHOD a serializeBlockState (Lfy;Lawr;)Lfy;
-		ARG 0 tag
-		ARG 1 state
-	METHOD a serializeProfile (Lfy;Lcom/mojang/authlib/GameProfile;)Lfy;
+	METHOD a serializeProfile (Lgu;Lcom/mojang/authlib/GameProfile;)Lgu;
 		ARG 0 tag
 		ARG 1 profile
-	METHOD a areTagsEqual (Lgn;Lgn;Z)Z
+	METHOD a areTagsEqual (Lhj;Lhj;Z)Z
 		ARG 0 tag1
 		ARG 1 tag2
 		ARG 2 deepCheck
-	METHOD a serializeUuid (Ljava/util/UUID;)Lfy;
+	METHOD a serializeUuid (Ljava/util/UUID;)Lgu;
 		ARG 0 uuid
-	METHOD b deserializeUuid (Lfy;)Ljava/util/UUID;
+	METHOD b deserializeUuid (Lgu;)Ljava/util/UUID;
 		ARG 0 tag
-	METHOD c deserializeBlockPos (Lfy;)Let;
-		ARG 0 tag
-	METHOD d deserializeBlockState (Lfy;)Lawr;
+	METHOD c deserializeBlockPos (Lgu;)Lef;
 		ARG 0 tag

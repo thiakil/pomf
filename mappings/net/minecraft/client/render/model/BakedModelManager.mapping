@@ -1,14 +1,14 @@
-CLASS cga net/minecraft/client/render/model/BakedModelManager
-	FIELD a modelRegistry Lfm;
-	FIELD b spriteMap Lcdn;
-	FIELD c blockStateMaps Lbvj;
-	FIELD d missingModel Lcfw;
-	METHOD <init> (Lcdn;)V
+CLASS dgj net/minecraft/client/render/model/BakedModelManager
+	FIELD a modelRegistry Lex;
+	FIELD b spriteMap Ldes;
+	FIELD c blockStateMaps Lcvu;
+	FIELD d missingModel Ldgf;
+	METHOD <init> (Ldes;)V
 		ARG 0 textures
-	METHOD a getMissingModel ()Lcfw;
-	METHOD a onResourceReload (Lcen;)V
-		ARG 0 container
-	METHOD a getModel (Lcgb;)Lcfw;
+	METHOD a getMissingModel ()Ldgf;
+	METHOD a getModel (Ldgk;)Ldgf;
 		ARG 0 identifier
-	METHOD b getSpriteMap ()Lcdn;
-	METHOD c getBlockStateMaps ()Lbvj;
+	METHOD a onResourceReload (Lul;)V
+		ARG 0 container
+	METHOD b getSpriteMap ()Ldes;
+	METHOD c getBlockStateMaps ()Lcvu;

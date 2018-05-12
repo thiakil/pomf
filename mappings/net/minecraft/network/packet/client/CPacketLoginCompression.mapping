@@ -1,13 +1,13 @@
-CLASS mi net/minecraft/network/packet/client/CPacketLoginCompression
+CLASS nj net/minecraft/network/packet/client/CPacketLoginCompression
 	FIELD a minCompressedSize I
 	METHOD <init> (I)V
 		ARG 0 minCompressedSize
 	METHOD a getMinCompressedSize ()I
-	METHOD a readPacket (Lgy;)V
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
+	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lmf;)V
+	METHOD a applyPacket (Lng;)V
 		ARG 0 handler
-	METHOD b writePacket (Lgy;)V
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf

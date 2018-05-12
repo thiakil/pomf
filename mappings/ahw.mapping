@@ -1,0 +1,4 @@
+CLASS ahw
+	CLASS ahw$a CanPickup
+		FIELD a itemstack Lawg;
+		METHOD a apply (Laht;)Z

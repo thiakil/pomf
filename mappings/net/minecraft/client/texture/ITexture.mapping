@@ -1,6 +1,6 @@
-CLASS cdq net/minecraft/client/texture/ITexture
+CLASS dev net/minecraft/client/texture/ITexture
 	METHOD a popFilter ()V
-	METHOD a load (Lcen;)V
+	METHOD a load (Lul;)V
 		ARG 0 resourceContainer
 	METHOD b getGlId ()I
 	METHOD b pushFilter (ZZ)V

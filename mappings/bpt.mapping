@@ -1,0 +1,3 @@
+CLASS bpt
+	METHOD f getBlockEntity (Lef;)Lbmb;
+		ARG 0 pos

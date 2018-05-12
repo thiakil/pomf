@@ -1,7 +1,5 @@
-CLASS cem net/minecraft/client/resource/IResource
-	METHOD a getId ()Lnd;
-	METHOD a getMetadataSection (Ljava/lang/String;)Lcfc;
-		ARG 0 name
+CLASS uk net/minecraft/client/resource/IResource
+	METHOD a getId ()Loj;
 	METHOD b getInputStream ()Ljava/io/InputStream;
 	METHOD c hasMetadata ()Z
 	METHOD d getName ()Ljava/lang/String;

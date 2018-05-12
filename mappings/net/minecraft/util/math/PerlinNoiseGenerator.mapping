@@ -1,2 +1,2 @@
-CLASS bcr net/minecraft/util/math/PerlinNoiseGenerator
+CLASS cam net/minecraft/util/math/PerlinNoiseGenerator
 	FIELD e GRADIENTS [[I

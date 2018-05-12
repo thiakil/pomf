@@ -1,4 +1,4 @@
-CLASS hk net/minecraft/text/TextComponentKeybind
+CLASS ig net/minecraft/text/TextComponentKeybind
 	FIELD b displaySupplierFunction Ljava/util/function/Function;
 	FIELD c keybind Ljava/lang/String;
 	FIELD d displaySupplier Ljava/util/function/Supplier;
@@ -6,9 +6,9 @@ CLASS hk net/minecraft/text/TextComponentKeybind
 		ARG 0 keybind
 	METHOD b (Ljava/lang/String;)Ljava/util/function/Supplier;
 		ARG 0 keybind
-	METHOD e getText ()Ljava/lang/String;
+	METHOD d getText ()Ljava/lang/String;
+	METHOD e getTextComponent ()Lic;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object
-	METHOD f getTextComponent ()Lhh;
-	METHOD g getTextComponent ()Lhk;
-	METHOD h getKeybind ()Ljava/lang/String;
+	METHOD f getTextComponent ()Lig;
+	METHOD g getKeybind ()Ljava/lang/String;

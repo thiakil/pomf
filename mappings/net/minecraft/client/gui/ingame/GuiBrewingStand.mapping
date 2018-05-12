@@ -1,8 +1,8 @@
-CLASS bmi net/minecraft/client/gui/ingame/GuiBrewingStand
-	FIELD v BG_TEX Lnd;
-	FIELD x playerInv Laea;
-	FIELD y inventory Ltt;
-	METHOD <init> (Laea;Ltt;)V
+CLASS cmg net/minecraft/client/gui/ingame/GuiBrewingStand
+	FIELD v BG_TEX Loj;
+	FIELD x playerInv Larg;
+	FIELD y inventory Lagg;
+	METHOD <init> (Larg;Lagg;)V
 		ARG 0 playerInv
 		ARG 1 inventory
 	METHOD a drawBackground (FII)V

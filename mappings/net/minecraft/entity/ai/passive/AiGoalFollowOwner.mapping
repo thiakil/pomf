@@ -1,14 +1,13 @@
-CLASS xa net/minecraft/entity/ai/passive/AiGoalFollowOwner
-	FIELD a world Lams;
-	FIELD b minStopDistance F
-	FIELD c minStartDistance F
-	FIELD d caller Lvz;
-	FIELD e owner Lvn;
-	FIELD f speed D
-	FIELD g navigation Lzc;
-	FIELD h teleportCooldown I
+CLASS ajt net/minecraft/entity/ai/passive/AiGoalFollowOwner
+	FIELD b caller Lain;
+	FIELD c owner Laic;
+	FIELD d speed D
+	FIELD e navigation Laly;
+	FIELD f teleportCooldown I
+	FIELD g minStopDistance F
+	FIELD h minStartDistance F
 	FIELD i previousWaterWeight F
-	METHOD <init> (Lvz;DFF)V
+	METHOD <init> (Lain;DFF)V
 		ARG 0 caller
 		ARG 1 speed
 		ARG 2 minStartDistance

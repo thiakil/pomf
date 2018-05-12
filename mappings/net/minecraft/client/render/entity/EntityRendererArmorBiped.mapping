@@ -1,7 +1,7 @@
-CLASS cbz net/minecraft/client/render/entity/EntityRendererArmorBiped
-	METHOD M_ init ()V
-	METHOD a hideModel (Lbpv;)V
+CLASS dda net/minecraft/client/render/entity/EntityRendererArmorBiped
+	METHOD a hideModel (Lcpw;)V
 		ARG 0 model
-	METHOD a handleModelAdjustments (Lbpv;Lvj;)V
+	METHOD a handleModelAdjustments (Lcpw;Lahy;)V
 		ARG 0 model
 		ARG 1 slot
+	METHOD ap_ init ()V

@@ -1,18 +1,18 @@
-CLASS aal net/minecraft/entity/passive/EntityDonkeyBase
-	FIELD bH CHEST Lmx;
-	METHOD a interactMob (Laeb;Ltz;)Z
+CLASS ano net/minecraft/entity/passive/EntityDonkeyBase
+	FIELD bJ CHEST Lny;
+	METHOD a onDeath (Lahc;)V
+		ARG 0 damageSource
+	METHOD a interactMob (Larh;Lagm;)Z
 		ARG 0 player
 		ARG 1 playerHand
-	METHOD a deserializeCustomData (Lfy;)V
+	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD a onDeath (Lup;)V
-		ARG 0 damageSource
-	METHOD aG getMountedHeightOffset ()D
-	METHOD b serializeCustomData (Lfy;)V
+	METHOD aL getMountedHeightOffset ()D
+	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD bM initAttributes ()V
-	METHOD dm hasChest ()Z
-	METHOD dn getInventorySize ()I
-	METHOD i initDataTracker ()V
-	METHOD q setHasChest (Z)V
+	METHOD ca initAttributes ()V
+	METHOD dD hasChest ()Z
+	METHOD dE getInventorySize ()I
+	METHOD t setHasChest (Z)V
 		ARG 0 value
+	METHOD w_ initDataTracker ()V

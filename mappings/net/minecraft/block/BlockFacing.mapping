@@ -1,2 +1,2 @@
-CLASS apv net/minecraft/block/BlockFacing
-	FIELD H FACING Laxe;
+CLASS bgu net/minecraft/block/BlockFacing
+	FIELD a FACING Lbor;

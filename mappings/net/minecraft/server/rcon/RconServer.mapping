@@ -1,9 +1,9 @@
-CLASS qa net/minecraft/server/rcon/RconServer
+CLASS vm net/minecraft/server/rcon/RconServer
 	FIELD h port I
 	FIELD i serverPort I
 	FIELD k listener Ljava/net/ServerSocket;
 	FIELD m clients Ljava/util/Map;
-	METHOD <init> (Lns;)V
+	METHOD <init> (Lox;)V
 		ARG 0 server
 	METHOD a start ()V
 	METHOD f cleanClientList ()V

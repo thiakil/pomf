@@ -1,74 +1,25 @@
-CLASS awi net/minecraft/block/BlockPistonHead
-	CLASS awi$a Type
-		FIELD a NORMAL Lawi$a;
-		FIELD b STICKY Lawi$a;
+CLASS bnp net/minecraft/block/BlockPistonHead
+	CLASS bnp$a Type
+		FIELD a NORMAL Lbnp$a;
+		FIELD b STICKY Lbnp$a;
 		FIELD c name Ljava/lang/String;
 		METHOD m asString ()Ljava/lang/String;
-	FIELD a TYPE Laxf;
-	FIELD b SHORT Laxd;
-	METHOD a deserializeState (I)Lawr;
-		ARG 0 meta
-	METHOD a canPlaceAt (Lams;Let;)Z
-		ARG 0 world
-		ARG 1 pos
-	METHOD a getPickStack (Lams;Let;Lawr;)Lain;
-		ARG 0 world
-		ARG 1 pos
-		ARG 2 state
-	METHOD a onBreak (Lams;Let;Lawr;Laeb;)V
-		ARG 0 world
-		ARG 1 pos
-		ARG 2 state
-		ARG 3 player
-	METHOD a getBlockFaceShape (Lamw;Lawr;Let;Lfa;)Lawp;
+	FIELD b TYPE Lbos;
+	FIELD c SHORT Lboq;
+	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
 		ARG 0 blockView
-		ARG 1 state
 		ARG 2 pos
 		ARG 3 face
-	METHOD a update (Lawr;Lams;Let;Laou;Let;)V
-		ARG 0 state
+	METHOD a onBreak (Lbax;Lef;Lbnv;Larh;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 3 player
+	METHOD a update (Lbnv;Lbax;Lef;Lbfm;Lef;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 block
 		ARG 4 updatePos
-	METHOD a addBoundingBoxes (Lawr;Lams;Let;Lbgz;Ljava/util/List;Lve;Z)V
-		ARG 0 state
+	METHOD a onBlockRemoved (Lbnv;Lbax;Lef;Lbnv;)V
 		ARG 1 world
 		ARG 2 pos
-		ARG 3 bounds
-		ARG 4 list
-		ARG 5 entity
-	METHOD a shouldRenderSide (Lawr;Lamw;Let;Lfa;)Z
-		ARG 0 state
-		ARG 1 view
-		ARG 2 pos
-		ARG 3 facing
-	METHOD a applyMirror (Lawr;Larw;)Lawr;
-		ARG 0 state
-		ARG 1 mirror
-	METHOD a applyRotation (Lawr;Latk;)Lawr;
-		ARG 0 state
-		ARG 1 rotation
-	METHOD a getDropAmount (Ljava/util/Random;)I
-		ARG 0 random
-	METHOD b createStateFactory ()Laws;
-	METHOD b onBlockRemoved (Lams;Let;Lawr;)V
-		ARG 0 world
-		ARG 1 pos
-		ARG 2 state
-	METHOD b canPlaceAtSide (Lams;Let;Lfa;)Z
-		ARG 0 world
-		ARG 1 pos
-		ARG 2 side
-	METHOD b isFullBoundsCubeForCulling (Lawr;)Z
-		ARG 0 state
-	METHOD b getBoundingBox (Lawr;Lamw;Let;)Lbgz;
-		ARG 0 state
-		ARG 1 view
-		ARG 2 pos
-	METHOD c isFullBoundsCubeForConnection (Lawr;)Z
-		ARG 0 state
-	METHOD e serializeState (Lawr;)I
-		ARG 0 state
-	METHOD k hasSolidTopSurface (Lawr;)Z
-		ARG 0 state
+	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I

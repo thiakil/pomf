@@ -1,6 +1,6 @@
 CLASS bje
-	METHOD a draw (Lbhz;IIF)V
-		ARG 0 game
-		ARG 1 mouseX
-		ARG 2 mouseY
-		ARG 3 delta
+	METHOD a onPlaced (Lbax;Lef;Lbnv;Laic;Lawg;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 3 placer
+		ARG 4 stack

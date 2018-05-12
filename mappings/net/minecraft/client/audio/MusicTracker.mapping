@@ -1,24 +1,24 @@
-CLASS chj net/minecraft/client/audio/MusicTracker
-	CLASS chj$a MusicType
-		FIELD a MENU Lchj$a;
-		FIELD b GAME Lchj$a;
-		FIELD c CREATIVE Lchj$a;
-		FIELD d CREDITS Lchj$a;
-		FIELD e NETHER Lchj$a;
-		FIELD f DRAGON Lchj$a;
-		FIELD g END Lchj$a;
-		FIELD h sound Lqc;
+CLASS dhv net/minecraft/client/audio/MusicTracker
+	CLASS dhv$a MusicType
+		FIELD a MENU Ldhv$a;
+		FIELD b GAME Ldhv$a;
+		FIELD c CREATIVE Ldhv$a;
+		FIELD d CREDITS Ldhv$a;
+		FIELD e NETHER Ldhv$a;
+		FIELD f DRAGON Ldhv$a;
+		FIELD g END Ldhv$a;
+		FIELD h sound Lvo;
 		FIELD i minDelay I
 		FIELD j maxDelay I
-		METHOD a getSound ()Lqc;
+		METHOD a getSound ()Lvo;
 		METHOD b getMinDelay ()I
 		METHOD c getMaxDelay ()I
 	FIELD a rand Ljava/util/Random;
-	FIELD b game Lbhz;
-	FIELD c current Lcgr;
+	FIELD b game Lchp;
+	FIELD c current Ldhb;
 	FIELD d timeUntilNextSong I
-	METHOD <init> (Lbhz;)V
+	METHOD <init> (Lchp;)V
 		ARG 0 minecraft
-	METHOD a play (Lchj$a;)V
+	METHOD Y_ update ()V
+	METHOD a play (Ldhv$a;)V
 		ARG 0 type
-	METHOD e update ()V

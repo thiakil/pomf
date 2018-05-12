@@ -1,4 +1,4 @@
-CLASS bcm net/minecraft/util/math/noise/SimplexNoiseGenerator
+CLASS caj net/minecraft/util/math/noise/SimplexNoiseGenerator
 	FIELD e GRADIENT_X3 [D
 	FIELD f GRADIENT_Y3 [D
 	FIELD g GRADIENT_Z3 [D

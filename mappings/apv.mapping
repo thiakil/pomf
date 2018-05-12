@@ -1,0 +1,42 @@
+CLASS apv
+	CLASS apv$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	CLASS apv$d
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+	CLASS apv$e
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+	CLASS apv$f
+		METHOD a tick ()V
+	CLASS apv$g
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS apv$h
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD R_ update ()V
+	METHOD a initEquipment (Lagl;)V
+		ARG 0 difficulty
+	METHOD a (Lagl;Laif;Lawg;)Laif;
+		ARG 0 difficulty
+	METHOD a attackDistant (Laic;F)V
+		ARG 0 target
+	METHOD ae getSoundSwim ()Lvo;
+	METHOD b createNavigation (Lbax;)Laly;
+		ARG 0 world
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahc;)Lvo;
+	METHOD dE getSoundStep ()Lvo;
+	METHOD dF getSkull ()Lawg;
+	METHOD w_ initDataTracker ()V

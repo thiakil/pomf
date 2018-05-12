@@ -1,14 +1,13 @@
-CLASS ats net/minecraft/block/BlockSlime
-	METHOD a onSteppedOn (Lams;Let;Lve;)V
+CLASS bkg net/minecraft/block/BlockSlime
+	METHOD X_ getRenderLayer ()Lbam;
+	METHOD a onEntityLand (Lbal;Laht;)V
+		ARG 1 entity
+	METHOD a onSteppedOn (Lbax;Lef;Laht;)V
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 entity
-	METHOD a onLandedUpon (Lams;Let;Lve;F)V
+	METHOD a onLandedUpon (Lbax;Lef;Laht;F)V
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 entity
 		ARG 3 fallDistance
-	METHOD a onEntityLand (Lams;Lve;)V
-		ARG 0 world
-		ARG 1 entity
-	METHOD f getRenderLayer ()Lamk;

@@ -1,11 +1,11 @@
-CLASS px net/minecraft/server/rcon/RconBase
+CLASS vj net/minecraft/server/rcon/RconBase
 	FIELD a running Z
-	FIELD b server Lns;
+	FIELD b server Lox;
 	FIELD c description Ljava/lang/String;
 	FIELD d thread Ljava/lang/Thread;
 	FIELD f sockets Ljava/util/List;
 	FIELD g serverSockets Ljava/util/List;
-	METHOD <init> (Lns;Ljava/lang/String;)V
+	METHOD <init> (Lox;Ljava/lang/String;)V
 		ARG 0 server
 		ARG 1 description
 	METHOD a start ()V

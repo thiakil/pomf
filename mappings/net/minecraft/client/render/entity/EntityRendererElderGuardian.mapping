@@ -1,6 +1,6 @@
-CLASS byy net/minecraft/client/render/entity/EntityRendererElderGuardian
-	FIELD a SKIN Lnd;
-	METHOD a getTexture (Lacy;)Lnd;
+CLASS czq net/minecraft/client/render/entity/EntityRendererElderGuardian
+	FIELD a SKIN Loj;
+	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lve;)Lnd;
+	METHOD a getTexture (Laqd;)Loj;
 		ARG 0 model

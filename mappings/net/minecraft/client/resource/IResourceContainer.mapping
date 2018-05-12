@@ -1,6 +1,6 @@
-CLASS cen net/minecraft/client/resource/IResourceContainer
+CLASS ul net/minecraft/client/resource/IResourceContainer
 	METHOD a getProvidedAssets ()Ljava/util/Set;
-	METHOD a getResource (Lnd;)Lcem;
+	METHOD a getResource (Loj;)Luk;
 		ARG 0 id
-	METHOD b getAllResources (Lnd;)Ljava/util/List;
+	METHOD b getAllResources (Loj;)Ljava/util/List;
 		ARG 0 id

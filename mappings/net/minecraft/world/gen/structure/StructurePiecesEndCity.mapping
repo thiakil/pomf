@@ -1,7 +1,7 @@
-CLASS bbg net/minecraft/world/gen/structure/StructurePiecesEndCity
-	CLASS bbg$a
-		METHOD a serializeStructureData (Lfy;)V
+CLASS byn net/minecraft/world/gen/structure/StructurePiecesEndCity
+	CLASS byn$a
+		METHOD a serializeStructureData (Lgu;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lfy;Lbce;)V
+		METHOD a deserializeStructureData (Lgu;Lbzn;)V
 			ARG 0 tag
 	METHOD a registerPieces ()V

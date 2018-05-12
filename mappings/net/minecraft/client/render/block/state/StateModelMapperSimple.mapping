@@ -1,3 +1,1 @@
-CLASS bwo net/minecraft/client/render/block/state/StateModelMapperSimple
-	METHOD a getModelName (Lawr;)Lcgb;
-		ARG 0 state
+CLASS cwz net/minecraft/client/render/block/state/StateModelMapperSimple

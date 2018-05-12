@@ -1,16 +1,16 @@
-CLASS o net/minecraft/advancement/criterion/CriterionProgress
+CLASS r net/minecraft/advancement/criterion/CriterionProgress
 	FIELD a FORMAT Ljava/text/SimpleDateFormat;
-	FIELD b advancement Lk;
+	FIELD b advancement Ln;
 	FIELD c obtained Ljava/util/Date;
-	METHOD <init> (Lk;)V
+	METHOD <init> (Ln;)V
 		ARG 0 advancement
 	METHOD a isObtained ()Z
-	METHOD a serialize (Lgy;)V
+	METHOD a serialize (Lht;)V
 		ARG 0 buf
-	METHOD a deserialize (Lgy;Lk;)Lo;
+	METHOD a deserialize (Lht;Ln;)Lr;
 		ARG 0 buf
 		ARG 1 advancement
-	METHOD a create (Lk;Ljava/lang/String;)Lo;
+	METHOD a create (Ln;Ljava/lang/String;)Lr;
 		ARG 0 advancement
 		ARG 1 date
 	METHOD b obtain ()V

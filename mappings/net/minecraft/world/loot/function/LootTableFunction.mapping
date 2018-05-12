@@ -1,16 +1,16 @@
-CLASS bfx net/minecraft/world/loot/function/LootTableFunction
-	CLASS bfx$a Serializer
-		FIELD a id Lnd;
+CLASS cew net/minecraft/world/loot/function/LootTableFunction
+	CLASS cew$a Serializer
+		FIELD a id Loj;
 		FIELD b function Ljava/lang/Class;
-		METHOD a getId ()Lnd;
-		METHOD a serialize (Lcom/google/gson/JsonObject;Lbfx;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a getId ()Loj;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcew;Lcom/google/gson/JsonSerializationContext;)V
 		METHOD b getFunctionClass ()Ljava/lang/Class;
-		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lbgj;)Lbfx;
-	FIELD a conditions [Lbgj;
-	METHOD <init> ([Lbgj;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfi;)Lcew;
+	FIELD a conditions [Lcfi;
+	METHOD <init> ([Lcfi;)V
 		ARG 0 conditions
-	METHOD a getConditions ()[Lbgj;
-	METHOD a apply (Lain;Ljava/util/Random;Lbfr;)Lain;
+	METHOD a apply (Lawg;Ljava/util/Random;Lcep;)Lawg;
 		ARG 0 stack
 		ARG 1 rand
 		ARG 2 context
+	METHOD b getConditions ()[Lcfi;

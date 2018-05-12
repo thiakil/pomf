@@ -1,3 +1,2 @@
-CLASS bbk net/minecraft/world/gen/structure/StructureGeneratorNetherFortress
-	CLASS bbk$a StructureNetherFortress
-	METHOD a findClosest (Lams;Let;Z)Let;
+CLASS bty net/minecraft/world/gen/structure/StructureGeneratorNetherFortress
+	CLASS bty$a StructureNetherFortress

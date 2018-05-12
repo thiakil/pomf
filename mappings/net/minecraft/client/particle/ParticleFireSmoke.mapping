@@ -1,16 +1,5 @@
-CLASS btk net/minecraft/client/particle/ParticleFireSmoke
-	CLASS btk$a Factory
-		METHOD a createParticle (ILams;DDDDDD[I)Lbtd;
-			ARG 0 id
-			ARG 1 world
-			ARG 2 x
-			ARG 3 y
-			ARG 4 z
-			ARG 5 velocityX
-			ARG 6 velocityY
-			ARG 7 velocityZ
-			ARG 8 extra
-	METHOD <init> (Lams;DDDDDDF)V
+CLASS ctv net/minecraft/client/particle/ParticleFireSmoke
+	METHOD <init> (Lbax;DDDDDDF)V
 		ARG 0 world
 		ARG 1 x
 		ARG 2 y
@@ -19,7 +8,7 @@ CLASS btk net/minecraft/client/particle/ParticleFireSmoke
 		ARG 5 velocityY
 		ARG 6 velocityZ
 	METHOD a update ()V
-	METHOD a buildGeometry (Lbui;Lve;FFFFFF)V
+	METHOD a buildGeometry (Lcut;Laht;FFFFFF)V
 		ARG 0 vertexBuffer
 		ARG 1 entity
 		ARG 2 deltaTicks

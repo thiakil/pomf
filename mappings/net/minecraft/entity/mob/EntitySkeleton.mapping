@@ -1,9 +1,7 @@
-CLASS adi net/minecraft/entity/mob/EntitySkeleton
-	METHOD F getSoundAmbient ()Lqc;
-	METHOD J getLootTableId ()Lnd;
-	METHOD a registerTagUpgraders (Lrw;)V
-		ARG 0 handler
-	METHOD a onDeath (Lup;)V
+CLASS aqo net/minecraft/entity/mob/EntitySkeleton
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD a onDeath (Lahc;)V
 		ARG 0 damageSource
-	METHOD cf getSoundDeath ()Lqc;
-	METHOD d getSoundHurt (Lup;)Lqc;
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahc;)Lvo;

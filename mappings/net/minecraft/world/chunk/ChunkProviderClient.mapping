@@ -1,15 +1,7 @@
-CLASS brv net/minecraft/world/chunk/ChunkProviderClient
+CLASS cse net/minecraft/world/chunk/ChunkProviderClient
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b emptyChunk Laxu;
+	FIELD b emptyChunk Lbpl;
 	FIELD c chunkByIdMap Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;
-	FIELD d world Lams;
-	METHOD <init> (Lams;)V
+	FIELD d world Lbax;
+	METHOD <init> (Lbax;)V
 		ARG 0 world
-	METHOD a getChunk (II)Laxu;
-		ARG 0 x
-		ARG 1 z
-	METHOD c provideChunk (II)Laxu;
-		ARG 0 x
-		ARG 1 z
-	METHOD d update ()Z
-	METHOD f getStatus ()Ljava/lang/String;

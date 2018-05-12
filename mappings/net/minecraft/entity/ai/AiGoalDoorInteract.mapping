@@ -1,13 +1,10 @@
-CLASS wu net/minecraft/entity/ai/AiGoalDoorInteract
-	FIELD a owner Lvo;
-	FIELD b doorPos Let;
-	FIELD c door Lapy;
+CLASS ajl net/minecraft/entity/ai/AiGoalDoorInteract
+	FIELD a owner Laid;
+	FIELD b doorPos Lef;
 	FIELD d shouldStop Z
-	METHOD <init> (Lvo;)V
+	METHOD <init> (Laid;)V
 		ARG 0 owner
 	METHOD a canStart ()Z
-	METHOD a getDoor (Let;)Lapy;
-		ARG 0 pos
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V
 	METHOD e tick ()V

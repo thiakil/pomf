@@ -1,22 +1,22 @@
-CLASS ii net/minecraft/network/packet/client/CPacketBlockAction
-	FIELD a pos Let;
+CLASS jd net/minecraft/network/packet/client/CPacketBlockAction
+	FIELD a pos Lef;
 	FIELD b arg1 I
 	FIELD c arg2 I
-	FIELD d block Laou;
-	METHOD <init> (Let;Laou;II)V
+	FIELD d block Lbfm;
+	METHOD <init> (Lef;Lbfm;II)V
 		ARG 0 pos
 		ARG 1 block
 		ARG 2 arg1
 		ARG 3 arg2
-	METHOD a getPos ()Let;
-	METHOD a readPacket (Lgy;)V
+	METHOD a getPos ()Lef;
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
-		ARG 0 handler
 	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
+	METHOD a applyPacket (Lis;)V
+		ARG 0 handler
 	METHOD b getArgumentFirst ()I
-	METHOD b writePacket (Lgy;)V
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf
 	METHOD c getArgumentSecond ()I
-	METHOD d getBlock ()Laou;
+	METHOD d getBlock ()Lbfm;

@@ -1,6 +1,6 @@
-CLASS all net/minecraft/enchantment/EnchantmentInfo
-	FIELD b enchantment Lali;
+CLASS azi net/minecraft/enchantment/EnchantmentInfo
+	FIELD b enchantment Lazf;
 	FIELD c level I
-	METHOD <init> (Lali;I)V
+	METHOD <init> (Lazf;I)V
 		ARG 0 enchantment
 		ARG 1 level

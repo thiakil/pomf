@@ -1,6 +1,6 @@
-CLASS cak net/minecraft/client/render/entity/EntityRendererPolarBear
-	FIELD a SKIN Lnd;
-	METHOD a getTexture (Laac;)Lnd;
+CLASS dbd net/minecraft/client/render/entity/EntityRendererPolarBear
+	FIELD a SKIN Loj;
+	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lve;)Lnd;
+	METHOD a getTexture (Lanb;)Loj;
 		ARG 0 model

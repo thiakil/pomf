@@ -1,24 +1,21 @@
-CLASS ado net/minecraft/entity/mob/EntityVindicationIllager
-	CLASS ado$a
+CLASS aqu net/minecraft/entity/mob/EntityVindicationIllager
+	CLASS aqu$a
 		METHOD a canStart ()Z
-	METHOD F getSoundAmbient ()Lqc;
-	METHOD J getLootTableId ()Lnd;
-	METHOD M mobTick ()V
-	METHOD a deserializeCustomData (Lfy;)V
-		ARG 0 tag
-	METHOD a registerTagUpgraders (Lrw;)V
-	METHOD a initEquipment (Lty;)V
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD K mobTick ()V
+	METHOD a initEquipment (Lagl;)V
 		ARG 0 difficulty
-	METHOD a (Lty;Lvq;)Lvq;
+	METHOD a (Lagl;Laif;Lawg;)Laif;
 		ARG 0 difficulty
-	METHOD b serializeCustomData (Lfy;)V
+	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD bM initAttributes ()V
-	METHOD c setCustomName (Ljava/lang/String;)V
-		ARG 0 value
-	METHOD cf getSoundDeath ()Lqc;
-	METHOD d getSoundHurt (Lup;)Lqc;
-	METHOD i initDataTracker ()V
-	METHOD r initAi ()V
-	METHOD r isTeammate (Lve;)Z
+	METHOD b serializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD ca initAttributes ()V
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahc;)Lvo;
+	METHOD n initAi ()V
+	METHOD r isTeammate (Laht;)Z
 		ARG 0 entity
+	METHOD w_ initDataTracker ()V

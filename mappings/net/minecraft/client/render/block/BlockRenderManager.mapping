@@ -1,20 +1,15 @@
-CLASS bvk net/minecraft/client/render/block/BlockRenderManager
-	FIELD a maps Lbvj;
-	FIELD b renderer Lbvm;
-	FIELD d liquidRenderer Lbvl;
-	METHOD <init> (Lbvj;Lbii;)V
+CLASS cvv net/minecraft/client/render/block/BlockRenderManager
+	FIELD a maps Lcvu;
+	FIELD b renderer Lcvx;
+	FIELD d liquidRenderer Lcvw;
+	METHOD <init> (Lcvu;Lcib;)V
 		ARG 0 maps
 		ARG 1 colorMap
-	METHOD a getStateMaps ()Lbvj;
-	METHOD a getModel (Lawr;)Lcfw;
-		ARG 0 state
-	METHOD a render (Lawr;F)V
-		ARG 0 state
+	METHOD a getStateMaps ()Lcvu;
+	METHOD a render (Lbnv;F)V
 		ARG 1 colorMultiplier
-	METHOD a tesselate (Lawr;Let;Lcdo;Lamw;)V
-		ARG 0 state
+	METHOD a tesselate (Lbnv;Lef;Ldet;Lbbd;)V
 		ARG 1 pos
-		ARG 3 view
-	METHOD a onResourceReload (Lcen;)V
+	METHOD a onResourceReload (Lul;)V
 		ARG 0 container
-	METHOD b getRenderer ()Lbvm;
+	METHOD b getRenderer ()Lcvx;

@@ -1,12 +1,12 @@
-CLASS jy net/minecraft/network/packet/client/CPacketWorldBorder
-	CLASS jy$a Type
-		FIELD a SET_SIZE Ljy$a;
-		FIELD b INTERPOLATE_SIZE Ljy$a;
-		FIELD c SET_CENTER Ljy$a;
-		FIELD d INITIALIZE Ljy$a;
-		FIELD e SET_WARNING_TIME Ljy$a;
-		FIELD f SET_WARNING_BLOCKS Ljy$a;
-	FIELD a type Ljy$a;
+CLASS kw net/minecraft/network/packet/client/CPacketWorldBorder
+	CLASS kw$a Type
+		FIELD a SET_SIZE Lkw$a;
+		FIELD b INTERPOLATE_SIZE Lkw$a;
+		FIELD c SET_CENTER Lkw$a;
+		FIELD d INITIALIZE Lkw$a;
+		FIELD e SET_WARNING_TIME Lkw$a;
+		FIELD f SET_WARNING_BLOCKS Lkw$a;
+	FIELD a type Lkw$a;
 	FIELD b portalTeleportPosLimit I
 	FIELD c centerX D
 	FIELD d centerZ D
@@ -15,16 +15,16 @@ CLASS jy net/minecraft/network/packet/client/CPacketWorldBorder
 	FIELD g interpolationDuration J
 	FIELD h warningTime I
 	FIELD i warningBlocks I
-	METHOD <init> (Laxl;Ljy$a;)V
+	METHOD <init> (Lboy;Lkw$a;)V
 		ARG 0 border
 		ARG 1 type
-	METHOD a apply (Laxl;)V
+	METHOD a apply (Lboy;)V
 		ARG 0 border
-	METHOD a readPacket (Lgy;)V
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
-		ARG 0 handler
 	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
-	METHOD b writePacket (Lgy;)V
+	METHOD a applyPacket (Lis;)V
+		ARG 0 handler
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf

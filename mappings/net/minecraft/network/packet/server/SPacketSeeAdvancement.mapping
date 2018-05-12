@@ -1,18 +1,18 @@
-CLASS lt net/minecraft/network/packet/server/SPacketSeeAdvancement
-	CLASS lt$a Action
-		FIELD a SEE Llt$a;
-		FIELD b CLOSE Llt$a;
-	FIELD a action Llt$a;
-	FIELD b advancementId Lnd;
-	METHOD <init> (Llt$a;Lnd;)V
+CLASS mu net/minecraft/network/packet/server/SPacketSeeAdvancement
+	CLASS mu$a Action
+		FIELD a SEE Lmu$a;
+		FIELD b CLOSE Lmu$a;
+	FIELD a action Lmu$a;
+	FIELD b advancementId Loj;
+	METHOD <init> (Lmu$a;Loj;)V
 		ARG 1 advancementId
-	METHOD a readPacket (Lgy;)V
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
+	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lkw;)V
+	METHOD a applyPacket (Llx;)V
 		ARG 0 handler
-	METHOD b getAction ()Llt$a;
-	METHOD b writePacket (Lgy;)V
+	METHOD b getAction ()Lmu$a;
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf
-	METHOD c getAdvancementId ()Lnd;
+	METHOD c getAdvancementId ()Loj;

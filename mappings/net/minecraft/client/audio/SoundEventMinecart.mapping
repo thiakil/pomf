@@ -1,7 +1,7 @@
-CLASS cgm net/minecraft/client/audio/SoundEventMinecart
-	FIELD m player Laeb;
-	FIELD n minecart Lafc;
-	METHOD <init> (Laeb;Lafc;)V
+CLASS dgw net/minecraft/client/audio/SoundEventMinecart
+	FIELD n player Larh;
+	FIELD o minecart Lasi;
+	METHOD <init> (Larh;Lasi;)V
 		ARG 0 player
 		ARG 1 minecart
-	METHOD e update ()V
+	METHOD Y_ update ()V

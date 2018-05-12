@@ -1,91 +1,79 @@
-CLASS bbz net/minecraft/world/gen/structure/StructurePiecesVillage
-	CLASS bbz$a
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+CLASS bzi net/minecraft/world/gen/structure/StructurePiecesVillage
+	CLASS bzi$a
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-	CLASS bbz$b
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS bzi$b
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-		METHOD a serializeStructureData (Lfy;)V
+		METHOD a serializeStructureData (Lgu;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lfy;Lbce;)V
+		METHOD a deserializeStructureData (Lgu;Lbzn;)V
 			ARG 0 tag
-	CLASS bbz$c
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS bzi$c
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-		METHOD a serializeStructureData (Lfy;)V
+		METHOD a serializeStructureData (Lgu;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lfy;Lbce;)V
+		METHOD a deserializeStructureData (Lgu;Lbzn;)V
 			ARG 0 tag
-	CLASS bbz$d
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS bzi$d
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-	CLASS bbz$f
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS bzi$f
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-	CLASS bbz$g
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS bzi$g
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-		METHOD a serializeStructureData (Lfy;)V
+		METHOD a serializeStructureData (Lgu;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lfy;Lbce;)V
+		METHOD a deserializeStructureData (Lgu;Lbzn;)V
 			ARG 0 tag
-	CLASS bbz$h
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS bzi$h
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-		METHOD a serializeStructureData (Lfy;)V
+		METHOD a serializeStructureData (Lgu;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lfy;Lbce;)V
+		METHOD a deserializeStructureData (Lgu;Lbzn;)V
 			ARG 0 tag
-	CLASS bbz$i
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS bzi$i
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-	CLASS bbz$j
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS bzi$j
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-		METHOD a serializeStructureData (Lfy;)V
+		METHOD a serializeStructureData (Lgu;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lfy;Lbce;)V
+		METHOD a deserializeStructureData (Lgu;Lbzn;)V
 			ARG 0 tag
-	CLASS bbz$l
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS bzi$l
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-		METHOD a serializeStructureData (Lfy;)V
+		METHOD a serializeStructureData (Lgu;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lfy;Lbce;)V
+		METHOD a deserializeStructureData (Lgu;Lbzn;)V
 			ARG 0 tag
-	CLASS bbz$m
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS bzi$m
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
-	CLASS bbz$n
-		METHOD a serializeStructureData (Lfy;)V
+	CLASS bzi$o
+		METHOD a serializeStructureData (Lgu;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lfy;Lbce;)V
+		METHOD a deserializeStructureData (Lgu;Lbzn;)V
 			ARG 0 tag
-	CLASS bbz$p
-		METHOD a generate (Lams;Ljava/util/Random;Lbbe;)Z
-			ARG 0 world
+	CLASS bzi$q
+		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 			ARG 1 rand
 			ARG 2 region
 	METHOD a registerPieces ()V

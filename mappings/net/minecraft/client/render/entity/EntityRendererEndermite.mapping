@@ -1,6 +1,6 @@
-CLASS bzc net/minecraft/client/render/entity/EntityRendererEndermite
-	FIELD a SKIN Lnd;
-	METHOD a getTexture (Lve;)Lnd;
+CLASS czu net/minecraft/client/render/entity/EntityRendererEndermite
+	FIELD a SKIN Loj;
+	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
-	METHOD b getTexture (Lact;)Lnd;
+	METHOD b getTexture (Lapy;)Loj;
 		ARG 0 model

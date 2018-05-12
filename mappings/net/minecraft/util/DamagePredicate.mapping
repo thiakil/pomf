@@ -1,19 +1,18 @@
-CLASS ab net/minecraft/util/DamagePredicate
-	FIELD a ANY Lab;
-	FIELD b dealt Las;
-	FIELD c taken Las;
-	FIELD d source Laj;
+CLASS ag net/minecraft/util/DamagePredicate
+	FIELD b dealt Laz;
+	FIELD c taken Laz;
+	FIELD d source Lao;
 	FIELD e blocked Ljava/lang/Boolean;
-	FIELD f type Lac;
-	METHOD <init> (Las;Las;Laj;Ljava/lang/Boolean;Lac;)V
+	FIELD f type Lah;
+	METHOD <init> (Laz;Laz;Lao;Ljava/lang/Boolean;Lah;)V
 		ARG 0 dealt
 		ARG 1 taken
 		ARG 2 source
 		ARG 3 blocked
 		ARG 4 type
-	METHOD a (Lcom/google/gson/JsonElement;)Lab;
+	METHOD a (Lcom/google/gson/JsonElement;)Lag;
 		ARG 0 jsonElement
-	METHOD a (Loo;Lup;FFZ)Z
+	METHOD a (Lsl;Lahc;FFZ)Z
 		ARG 0 serverPlayer
 		ARG 1 source
 		ARG 2 dealt

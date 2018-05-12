@@ -1,7 +1,7 @@
-CLASS ayi net/minecraft/world/region/RegionFileManager
+CLASS bqc net/minecraft/world/region/RegionFileManager
 	FIELD a openRegionFiles Ljava/util/Map;
 	METHOD a closeAll ()V
-	METHOD a open (Ljava/io/File;II)Layh;
+	METHOD a open (Ljava/io/File;II)Lbqb;
 		ARG 0 worldDir
 		ARG 1 x
 		ARG 2 y

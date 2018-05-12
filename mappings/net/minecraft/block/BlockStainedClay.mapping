@@ -1,6 +1,0 @@
-CLASS aua net/minecraft/block/BlockStainedClay
-	FIELD b COLORS [Lbcy;
-	METHOD c getMapColor (Lawr;Lamw;Let;)Lbcy;
-		ARG 0 state
-		ARG 1 blockView
-		ARG 2 pos

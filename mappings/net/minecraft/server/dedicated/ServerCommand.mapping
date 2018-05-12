@@ -1,6 +1,6 @@
-CLASS ni net/minecraft/server/dedicated/ServerCommand
+CLASS oo net/minecraft/server/dedicated/ServerCommand
 	FIELD a command Ljava/lang/String;
-	FIELD b commandSender Lbn;
-	METHOD <init> (Ljava/lang/String;Lbn;)V
+	FIELD b commandSender Lbr;
+	METHOD <init> (Ljava/lang/String;Lbr;)V
 		ARG 0 command
 		ARG 1 commandSender

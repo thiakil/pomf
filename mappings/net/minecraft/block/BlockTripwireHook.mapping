@@ -1,87 +1,34 @@
-CLASS aur net/minecraft/block/BlockTripwireHook
-	FIELD a FACING Laxe;
-	FIELD b POWERED Laxd;
-	FIELD c ATTACHED Laxd;
-	METHOD a deserializeState (I)Lawr;
-		ARG 0 meta
-	METHOD a canPlaceAt (Lams;Let;)Z
-		ARG 0 world
-		ARG 1 pos
-	METHOD a randomTick (Lams;Let;Lawr;Ljava/util/Random;)V
-		ARG 0 world
-		ARG 1 pos
-		ARG 2 state
-		ARG 3 random
-	METHOD a onPlaced (Lams;Let;Lawr;Lvn;Lain;)V
-		ARG 0 world
-		ARG 1 pos
-		ARG 2 state
-		ARG 3 placer
-		ARG 4 stack
-	METHOD a getStateForPlacement (Lams;Let;Lfa;FFFILvn;)Lawr;
-		ARG 0 world
-		ARG 1 pos
-		ARG 2 facing
-		ARG 3 hitX
-		ARG 4 hitY
-		ARG 5 hitZ
-		ARG 6 metadata
-		ARG 7 player
-	METHOD a getBlockFaceShape (Lamw;Lawr;Let;Lfa;)Lawp;
+CLASS blh net/minecraft/block/BlockTripwireHook
+	FIELD a FACING Lbor;
+	FIELD b POWERED Lboq;
+	FIELD c ATTACHED Lboq;
+	METHOD X_ getRenderLayer ()Lbam;
+	METHOD a deserializeState (Laul;)Lbnv;
+	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
 		ARG 0 blockView
-		ARG 1 state
 		ARG 2 pos
 		ARG 3 face
-	METHOD a update (Lawr;Lams;Let;Laou;Let;)V
-		ARG 0 state
+	METHOD a onPlaced (Lbax;Lef;Lbnv;Laic;Lawg;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 3 placer
+		ARG 4 stack
+	METHOD a getWeakRedstonePower (Lbnv;Lbal;Lef;Lel;)I
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD a onBlockRemoved (Lbnv;Lbax;Lef;Lbnv;)V
 		ARG 1 world
 		ARG 2 pos
-		ARG 3 block
-		ARG 4 updatePos
-	METHOD a getCollisionBox (Lawr;Lamw;Let;)Lbgz;
-		ARG 0 state
-		ARG 1 view
+	METHOD a randomTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
+		ARG 1 world
 		ARG 2 pos
-	METHOD a applyMirror (Lawr;Larw;)Lawr;
-		ARG 0 state
-		ARG 1 mirror
-	METHOD a applyRotation (Lawr;Latk;)Lawr;
-		ARG 0 state
-		ARG 1 rotation
-	METHOD b createStateFactory ()Laws;
-	METHOD b onBlockRemoved (Lams;Let;Lawr;)V
-		ARG 0 world
-		ARG 1 pos
-		ARG 2 state
-	METHOD b updateTick (Lams;Let;Lawr;Ljava/util/Random;)V
-		ARG 0 world
-		ARG 1 pos
-		ARG 2 state
 		ARG 3 random
-	METHOD b canPlaceAtSide (Lams;Let;Lfa;)Z
-		ARG 0 world
-		ARG 1 pos
-		ARG 2 side
-	METHOD b isFullBoundsCubeForCulling (Lawr;)Z
-		ARG 0 state
-	METHOD b getBoundingBox (Lawr;Lamw;Let;)Lbgz;
-		ARG 0 state
-		ARG 1 view
-		ARG 2 pos
-	METHOD b getWeakRedstonePower (Lawr;Lamw;Let;Lfa;)I
-		ARG 0 state
+	METHOD b getStrongRedstonePower (Lbnv;Lbal;Lef;Lel;)I
 		ARG 1 view
 		ARG 2 pos
 		ARG 3 facingFrom
-	METHOD c isFullBoundsCubeForConnection (Lawr;)Z
-		ARG 0 state
-	METHOD c getStrongRedstonePower (Lawr;Lamw;Let;Lfa;)I
-		ARG 0 state
-		ARG 1 view
+	METHOD b updateTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
+		ARG 1 world
 		ARG 2 pos
-		ARG 3 facingFrom
-	METHOD e serializeState (Lawr;)I
-		ARG 0 state
-	METHOD f getRenderLayer ()Lamk;
-	METHOD g emitsRedstonePower (Lawr;)Z
-		ARG 0 state
+		ARG 3 random

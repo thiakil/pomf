@@ -1,8 +1,8 @@
-CLASS byg net/minecraft/render/debug/RenderDebugNeighborUpdate
-	FIELD a mc Lbhz;
-	METHOD <init> (Lbhz;)V
+CLASS cyr net/minecraft/render/debug/RenderDebugNeighborUpdate
+	FIELD a mc Lchp;
+	METHOD <init> (Lchp;)V
 		ARG 0 mc
 	METHOD a render (FJ)V
 		ARG 0 tickDelta
-	METHOD a (JLet;)V
+	METHOD a (JLef;)V
 		ARG 1 pos

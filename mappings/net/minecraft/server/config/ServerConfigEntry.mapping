@@ -1,4 +1,4 @@
-CLASS pm net/minecraft/server/config/ServerConfigEntry
+CLASS uy net/minecraft/server/config/ServerConfigEntry
 	FIELD a key Ljava/lang/Object;
 	METHOD <init> (Ljava/lang/Object;)V
 		ARG 0 key
@@ -7,5 +7,5 @@ CLASS pm net/minecraft/server/config/ServerConfigEntry
 		ARG 1 json
 	METHOD a save (Lcom/google/gson/JsonObject;)V
 		ARG 0 json
-	METHOD e isExpired ()Z
-	METHOD f getKey ()Ljava/lang/Object;
+	METHOD f isExpired ()Z
+	METHOD g getKey ()Ljava/lang/Object;

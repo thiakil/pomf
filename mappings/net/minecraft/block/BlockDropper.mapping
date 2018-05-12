@@ -1,7 +1,4 @@
-CLASS aqb net/minecraft/block/BlockDropper
-	FIELD e behavior Lfb;
-	METHOD a getDispenserBehavior (Lain;)Lfb;
+CLASS bgz net/minecraft/block/BlockDropper
+	METHOD a getDispenserBehavior (Lawg;)Len;
 		ARG 0 stack
-	METHOD a createBlockEntity (Lams;I)Lavh;
-		ARG 0 world
-		ARG 1 meta
+	METHOD a createBlockEntity (Lbal;)Lbmb;

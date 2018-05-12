@@ -1,0 +1,7 @@
+CLASS uo
+	METHOD a getId ()Loj;
+	METHOD b getInputStream ()Ljava/io/InputStream;
+	METHOD c hasMetadata ()Z
+	METHOD d getName ()Ljava/lang/String;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object

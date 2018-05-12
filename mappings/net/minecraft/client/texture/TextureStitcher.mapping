@@ -1,18 +1,18 @@
-CLASS cdl net/minecraft/client/texture/TextureStitcher
-	CLASS cdl$a Holder
-		FIELD a sprite Lcdo;
+CLASS deq net/minecraft/client/texture/TextureStitcher
+	CLASS deq$a Holder
+		FIELD a sprite Ldet;
 		FIELD b width I
 		FIELD c height I
 		FIELD d mipLevel I
-		METHOD a getSprite ()Lcdo;
-	CLASS cdl$b Slot
+		METHOD a getSprite ()Ldet;
+	CLASS deq$b Slot
 		FIELD a x I
 		FIELD b y I
 		FIELD c width I
 		FIELD d height I
-		FIELD f spriteHolder Lcdl$a;
-		METHOD a getSpriteHolder ()Lcdl$a;
-		METHOD a tryFit (Lcdl$a;)Z
+		FIELD f spriteHolder Ldeq$a;
+		METHOD a getSpriteHolder ()Ldeq$a;
+		METHOD a tryFit (Ldeq$a;)Z
 		METHOD a addAllFilledSlots (Ljava/util/List;)V
 		METHOD b getX ()I
 		METHOD c getY ()I
@@ -28,9 +28,9 @@ CLASS cdl net/minecraft/client/texture/TextureStitcher
 		ARG 1 maxHeight
 		ARG 3 mipLevel
 	METHOD a getWidth ()I
-	METHOD a tryFit (Lcdl$a;)Z
+	METHOD a tryFit (Ldeq$a;)Z
 		ARG 0 holder
-	METHOD a add (Lcdo;)V
+	METHOD a add (Ldet;)V
 		ARG 0 sprite
 	METHOD b getHeight ()I
 	METHOD c stitch ()V

@@ -1,5 +1,5 @@
-CLASS fh net/minecraft/util/registry/IdRegistry
-	FIELD a idStore Lqx;
+CLASS et net/minecraft/util/registry/IdRegistry
+	FIELD a idStore Lwm;
 	FIELD b valueKeyMap Ljava/util/Map;
 	METHOD a get (I)Ljava/lang/Object;
 		ARG 0 id
@@ -9,6 +9,9 @@ CLASS fh net/minecraft/util/registry/IdRegistry
 		ARG 2 value
 	METHOD a getId (Ljava/lang/Object;)I
 		ARG 0 value
+	METHOD a put (Ljava/lang/Object;Ljava/lang/Object;)V
+		ARG 0 key
+		ARG 1 value
 	METHOD b createMap ()Ljava/util/Map;
 	METHOD b getKey (Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 0 value

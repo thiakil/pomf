@@ -1,0 +1,4 @@
+CLASS aog
+	FIELD a entity Laoe;
+	METHOD <init> (Laoe;)V
+		ARG 0 entity

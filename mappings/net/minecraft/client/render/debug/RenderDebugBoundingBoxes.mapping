@@ -1,10 +1,4 @@
-CLASS byd net/minecraft/client/render/debug/RenderDebugBoundingBoxes
-	FIELD a game Lbhz;
-	FIELD b player Laeb;
-	FIELD c viewX D
-	FIELD d viewY D
-	FIELD e viewZ D
-	METHOD <init> (Lbhz;)V
-		ARG 0 game
+CLASS cyn net/minecraft/client/render/debug/RenderDebugBoundingBoxes
+	FIELD a game Lchp;
 	METHOD a render (FJ)V
 		ARG 0 tickDelta

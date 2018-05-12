@@ -1,10 +1,10 @@
-CLASS caq net/minecraft/client/render/entity/EntityRendererSkeleton
-	CLASS caq$1
-		METHOD M_ init ()V
-	FIELD a SKIN Lnd;
-	METHOD a getTexture (Lacn;)Lnd;
+CLASS dbl net/minecraft/client/render/entity/EntityRendererSkeleton
+	CLASS dbl$1
+		METHOD ap_ init ()V
+	FIELD a SKIN Loj;
+	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lve;)Lnd;
+	METHOD a getTexture (Laid;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lvo;)Lnd;
+	METHOD a getTexture (Lapr;)Loj;
 		ARG 0 model

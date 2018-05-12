@@ -1,5 +1,5 @@
-CLASS wo net/minecraft/entity/ai/action/ActionMove
-	FIELD a owner Lvo;
-	METHOD <init> (Lvo;)V
+CLASS ajd net/minecraft/entity/ai/action/ActionMove
+	FIELD a owner Laid;
+	METHOD <init> (Laid;)V
 		ARG 0 owner
 	METHOD a tick ()V

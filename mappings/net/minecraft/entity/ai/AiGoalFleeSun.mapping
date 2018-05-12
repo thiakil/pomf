@@ -1,7 +1,7 @@
-CLASS ww net/minecraft/entity/ai/AiGoalFleeSun
-	FIELD a owner Lvv;
-	FIELD f world Lams;
-	METHOD <init> (Lvv;D)V
+CLASS ajn net/minecraft/entity/ai/AiGoalFleeSun
+	FIELD a owner Laik;
+	FIELD f world Lbax;
+	METHOD <init> (Laik;D)V
 		ARG 0 owner
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z

@@ -1,10 +1,10 @@
-CLASS hq net/minecraft/text/TranslateException
-	METHOD <init> (Lhp;I)V
+CLASS im net/minecraft/text/TranslateException
+	METHOD <init> (Lil;I)V
 		ARG 0 component
 		ARG 1 value
-	METHOD <init> (Lhp;Ljava/lang/String;)V
+	METHOD <init> (Lil;Ljava/lang/String;)V
 		ARG 0 component
 		ARG 1 value
-	METHOD <init> (Lhp;Ljava/lang/Throwable;)V
+	METHOD <init> (Lil;Ljava/lang/Throwable;)V
 		ARG 0 component
 		ARG 1 value

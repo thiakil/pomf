@@ -1,5 +1,5 @@
-CLASS bqb net/minecraft/client/render/entity/model/EntityModelLlamaSpit
-	METHOD a render (Lve;FFFFFF)V
+CLASS cqc net/minecraft/client/render/entity/model/EntityModelLlamaSpit
+	METHOD a render (Laht;FFFFFF)V
 		ARG 0 entity
 		ARG 1 limbMoveAngle
 		ARG 2 limbMoveAmount

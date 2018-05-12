@@ -1,203 +1,204 @@
-CLASS mz net/minecraft/entity/tracker/TrackedDataHandlerRegistry
-	CLASS mz$1
-		METHOD a create (I)Lmx;
+CLASS oa net/minecraft/entity/tracker/TrackedDataHandlerRegistry
+	CLASS oa$1
+		METHOD a create (I)Lny;
 			ARG 0 id
-		METHOD a read (Lgy;)Ljava/lang/Object;
+		METHOD a read (Lht;)Ljava/lang/Object;
 			ARG 0 buf
-		METHOD a write (Lgy;Ljava/lang/Byte;)V
-			ARG 0 buf
-			ARG 1 data
-		METHOD a write (Lgy;Ljava/lang/Object;)V
+		METHOD a write (Lht;Ljava/lang/Byte;)V
 			ARG 0 buf
 			ARG 1 data
-		METHOD b read (Lgy;)Ljava/lang/Byte;
+		METHOD a write (Lht;Ljava/lang/Object;)V
 			ARG 0 buf
-	CLASS mz$2
-		METHOD a create (I)Lmx;
+			ARG 1 data
+		METHOD b read (Lht;)Ljava/lang/Byte;
+			ARG 0 buf
+	CLASS oa$2
+		METHOD a create (I)Lny;
 			ARG 0 id
-		METHOD a read (Lgy;)Ljava/lang/Object;
+		METHOD a read (Lht;)Ljava/lang/Object;
 			ARG 0 buf
-		METHOD a write (Lgy;Let;)V
-			ARG 0 buf
-			ARG 1 data
-		METHOD a write (Lgy;Ljava/lang/Object;)V
+		METHOD a write (Lht;Ljava/lang/Object;)V
 			ARG 0 buf
 			ARG 1 data
-		METHOD b read (Lgy;)Let;
-			ARG 0 buf
-	CLASS mz$3
-		METHOD a create (I)Lmx;
+	CLASS oa$3
+		METHOD a create (I)Lny;
 			ARG 0 id
-		METHOD a read (Lgy;)Ljava/lang/Object;
+		METHOD a read (Lht;)Ljava/lang/Object;
 			ARG 0 buf
-		METHOD a write (Lgy;Lcom/google/common/base/Optional;)V
-			ARG 0 buf
-			ARG 1 data
-		METHOD a write (Lgy;Ljava/lang/Object;)V
+		METHOD a write (Lht;Ley;)V
 			ARG 0 buf
 			ARG 1 data
-		METHOD b read (Lgy;)Lcom/google/common/base/Optional;
+		METHOD a write (Lht;Ljava/lang/Object;)V
 			ARG 0 buf
-	CLASS mz$4
-		METHOD a create (I)Lmx;
+			ARG 1 data
+		METHOD b read (Lht;)Ley;
+			ARG 0 buf
+	CLASS oa$4
+		METHOD a create (I)Lny;
 			ARG 0 id
-		METHOD a read (Lgy;)Ljava/lang/Object;
+		METHOD a read (Lht;)Ljava/lang/Object;
 			ARG 0 buf
-		METHOD a write (Lgy;Lfa;)V
-			ARG 0 buf
-			ARG 1 data
-		METHOD a write (Lgy;Ljava/lang/Object;)V
+		METHOD a write (Lht;Lef;)V
 			ARG 0 buf
 			ARG 1 data
-		METHOD b read (Lgy;)Lfa;
+		METHOD a write (Lht;Ljava/lang/Object;)V
 			ARG 0 buf
-	CLASS mz$5
-		METHOD a create (I)Lmx;
+			ARG 1 data
+		METHOD b read (Lht;)Lef;
+			ARG 0 buf
+	CLASS oa$5
+		METHOD a create (I)Lny;
 			ARG 0 id
-		METHOD a read (Lgy;)Ljava/lang/Object;
+		METHOD a read (Lht;)Ljava/lang/Object;
 			ARG 0 buf
-		METHOD a write (Lgy;Lcom/google/common/base/Optional;)V
-			ARG 0 buf
-			ARG 1 data
-		METHOD a write (Lgy;Ljava/lang/Object;)V
+		METHOD a write (Lht;Ljava/lang/Object;)V
 			ARG 0 buf
 			ARG 1 data
-		METHOD b read (Lgy;)Lcom/google/common/base/Optional;
-			ARG 0 buf
-	CLASS mz$6
-		METHOD a create (I)Lmx;
+	CLASS oa$6
+		METHOD a create (I)Lny;
 			ARG 0 id
-		METHOD a read (Lgy;)Ljava/lang/Object;
+		METHOD a read (Lht;)Ljava/lang/Object;
 			ARG 0 buf
-		METHOD a write (Lgy;Lfy;)V
-			ARG 0 buf
-			ARG 1 data
-		METHOD a write (Lgy;Ljava/lang/Object;)V
+		METHOD a write (Lht;Lel;)V
 			ARG 0 buf
 			ARG 1 data
-		METHOD b read (Lgy;)Lfy;
+		METHOD a write (Lht;Ljava/lang/Object;)V
 			ARG 0 buf
-	CLASS mz$7
-		METHOD a create (I)Lmx;
+			ARG 1 data
+		METHOD b read (Lht;)Lel;
+			ARG 0 buf
+	CLASS oa$7
+		METHOD a create (I)Lny;
 			ARG 0 id
-		METHOD a read (Lgy;)Ljava/lang/Object;
+		METHOD a read (Lht;)Ljava/lang/Object;
 			ARG 0 buf
-		METHOD a write (Lgy;Ljava/lang/Integer;)V
-			ARG 0 buf
-			ARG 1 data
-		METHOD a write (Lgy;Ljava/lang/Object;)V
+		METHOD a write (Lht;Ljava/lang/Object;)V
 			ARG 0 buf
 			ARG 1 data
-		METHOD b read (Lgy;)Ljava/lang/Integer;
-			ARG 0 buf
-	CLASS mz$8
-		METHOD a create (I)Lmx;
+	CLASS oa$8
+		METHOD a create (I)Lny;
 			ARG 0 id
-		METHOD a read (Lgy;)Ljava/lang/Object;
+		METHOD a read (Lht;)Ljava/lang/Object;
 			ARG 0 buf
-		METHOD a write (Lgy;Ljava/lang/Float;)V
-			ARG 0 buf
-			ARG 1 data
-		METHOD a write (Lgy;Ljava/lang/Object;)V
+		METHOD a write (Lht;Lgu;)V
 			ARG 0 buf
 			ARG 1 data
-		METHOD b read (Lgy;)Ljava/lang/Float;
+		METHOD a write (Lht;Ljava/lang/Object;)V
 			ARG 0 buf
-	CLASS mz$9
-		METHOD a create (I)Lmx;
+			ARG 1 data
+		METHOD b read (Lht;)Lgu;
+			ARG 0 buf
+	CLASS oa$9
+		METHOD a create (I)Lny;
 			ARG 0 id
-		METHOD a read (Lgy;)Ljava/lang/Object;
+		METHOD a read (Lht;)Ljava/lang/Object;
 			ARG 0 buf
-		METHOD a write (Lgy;Ljava/lang/Object;)V
-			ARG 0 buf
-			ARG 1 data
-		METHOD a write (Lgy;Ljava/lang/String;)V
+		METHOD a write (Lht;Ljava/lang/Integer;)V
 			ARG 0 buf
 			ARG 1 data
-		METHOD b read (Lgy;)Ljava/lang/String;
+		METHOD a write (Lht;Ljava/lang/Object;)V
 			ARG 0 buf
-	CLASS mz$10
-		METHOD a create (I)Lmx;
+			ARG 1 data
+		METHOD b read (Lht;)Ljava/lang/Integer;
+			ARG 0 buf
+	CLASS oa$10
+		METHOD a create (I)Lny;
 			ARG 0 id
-		METHOD a read (Lgy;)Ljava/lang/Object;
+		METHOD a read (Lht;)Ljava/lang/Object;
 			ARG 0 buf
-		METHOD a write (Lgy;Lhh;)V
-			ARG 0 buf
-			ARG 1 data
-		METHOD a write (Lgy;Ljava/lang/Object;)V
+		METHOD a write (Lht;Ljava/lang/Float;)V
 			ARG 0 buf
 			ARG 1 data
-		METHOD b read (Lgy;)Lhh;
+		METHOD a write (Lht;Ljava/lang/Object;)V
 			ARG 0 buf
-	CLASS mz$11
-		METHOD a create (I)Lmx;
+			ARG 1 data
+		METHOD b read (Lht;)Ljava/lang/Float;
+			ARG 0 buf
+	CLASS oa$11
+		METHOD a create (I)Lny;
 			ARG 0 id
-		METHOD a read (Lgy;)Ljava/lang/Object;
+		METHOD a read (Lht;)Ljava/lang/Object;
 			ARG 0 buf
-		METHOD a write (Lgy;Lain;)V
-			ARG 0 buf
-			ARG 1 data
-		METHOD a write (Lgy;Ljava/lang/Object;)V
+		METHOD a write (Lht;Ljava/lang/Object;)V
 			ARG 0 buf
 			ARG 1 data
-		METHOD b read (Lgy;)Lain;
+		METHOD a write (Lht;Ljava/lang/String;)V
 			ARG 0 buf
-	CLASS mz$12
-		METHOD a create (I)Lmx;
+			ARG 1 data
+		METHOD b read (Lht;)Ljava/lang/String;
+			ARG 0 buf
+	CLASS oa$12
+		METHOD a create (I)Lny;
 			ARG 0 id
-		METHOD a read (Lgy;)Ljava/lang/Object;
+		METHOD a read (Lht;)Ljava/lang/Object;
 			ARG 0 buf
-		METHOD a write (Lgy;Lcom/google/common/base/Optional;)V
-			ARG 0 buf
-			ARG 1 data
-		METHOD a write (Lgy;Ljava/lang/Object;)V
+		METHOD a write (Lht;Lic;)V
 			ARG 0 buf
 			ARG 1 data
-		METHOD b read (Lgy;)Lcom/google/common/base/Optional;
+		METHOD a write (Lht;Ljava/lang/Object;)V
 			ARG 0 buf
-	CLASS mz$13
-		METHOD a create (I)Lmx;
+			ARG 1 data
+		METHOD b read (Lht;)Lic;
+			ARG 0 buf
+	CLASS oa$13
+		METHOD a create (I)Lny;
 			ARG 0 id
-		METHOD a read (Lgy;)Ljava/lang/Object;
+		METHOD a read (Lht;)Ljava/lang/Object;
 			ARG 0 buf
-		METHOD a write (Lgy;Ljava/lang/Boolean;)V
-			ARG 0 buf
-			ARG 1 data
-		METHOD a write (Lgy;Ljava/lang/Object;)V
+		METHOD a write (Lht;Ljava/lang/Object;)V
 			ARG 0 buf
 			ARG 1 data
-		METHOD b read (Lgy;)Ljava/lang/Boolean;
-			ARG 0 buf
-	CLASS mz$14
-		METHOD a create (I)Lmx;
+	CLASS oa$14
+		METHOD a create (I)Lny;
 			ARG 0 id
-		METHOD a read (Lgy;)Ljava/lang/Object;
+		METHOD a read (Lht;)Ljava/lang/Object;
 			ARG 0 buf
-		METHOD a write (Lgy;Lfn;)V
-			ARG 0 buf
-			ARG 1 data
-		METHOD a write (Lgy;Ljava/lang/Object;)V
+		METHOD a write (Lht;Lawg;)V
 			ARG 0 buf
 			ARG 1 data
-		METHOD b read (Lgy;)Lfn;
+		METHOD a write (Lht;Ljava/lang/Object;)V
 			ARG 0 buf
-	FIELD a BYTE Lmy;
-	FIELD b INTEGER Lmy;
-	FIELD c FLOAT Lmy;
-	FIELD d STRING Lmy;
-	FIELD e TEXT_COMPONENT Lmy;
-	FIELD f ITEM_STACK Lmy;
-	FIELD g OPTIONAL_BLOCK_STATE Lmy;
-	FIELD h BOOLEAN Lmy;
-	FIELD i ROTATION Lmy;
-	FIELD j BLOCK_POS Lmy;
-	FIELD k OPTIONAL_BLOCK_POS Lmy;
-	FIELD l FACING Lmy;
-	FIELD m OPTIONAL_UUID Lmy;
-	FIELD o REGISTRY Lqx;
-	METHOD a get (I)Lmy;
+			ARG 1 data
+		METHOD b read (Lht;)Lawg;
+			ARG 0 buf
+	CLASS oa$15
+		METHOD a create (I)Lny;
+			ARG 0 id
+		METHOD a read (Lht;)Ljava/lang/Object;
+			ARG 0 buf
+		METHOD a write (Lht;Ljava/lang/Object;)V
+			ARG 0 buf
+			ARG 1 data
+	CLASS oa$16
+		METHOD a create (I)Lny;
+			ARG 0 id
+		METHOD a read (Lht;)Ljava/lang/Object;
+			ARG 0 buf
+		METHOD a write (Lht;Ljava/lang/Boolean;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD a write (Lht;Ljava/lang/Object;)V
+			ARG 0 buf
+			ARG 1 data
+		METHOD b read (Lht;)Ljava/lang/Boolean;
+			ARG 0 buf
+	FIELD a BYTE Lnz;
+	FIELD b INTEGER Lnz;
+	FIELD c FLOAT Lnz;
+	FIELD d STRING Lnz;
+	FIELD e TEXT_COMPONENT Lnz;
+	FIELD g ITEM_STACK Lnz;
+	FIELD h OPTIONAL_BLOCK_STATE Lnz;
+	FIELD i BOOLEAN Lnz;
+	FIELD k ROTATION Lnz;
+	FIELD l BLOCK_POS Lnz;
+	FIELD m OPTIONAL_BLOCK_POS Lnz;
+	FIELD n FACING Lnz;
+	FIELD o OPTIONAL_UUID Lnz;
+	FIELD q REGISTRY Lwm;
+	METHOD a get (I)Lnz;
 		ARG 0 id
-	METHOD a register (Lmy;)V
+	METHOD a register (Lnz;)V
 		ARG 0 handler
-	METHOD b getId (Lmy;)I
+	METHOD b getId (Lnz;)I
 		ARG 0 handler

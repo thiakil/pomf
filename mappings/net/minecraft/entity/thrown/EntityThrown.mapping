@@ -1,28 +1,21 @@
-CLASS aet net/minecraft/entity/thrown/EntityThrown
+CLASS asa net/minecraft/entity/thrown/EntityThrown
 	FIELD a inGround Z
-	FIELD at ownerPlayerName Ljava/lang/String;
 	FIELD b shake I
-	FIELD d blockX I
-	FIELD e blockY I
-	FIELD f blockZ I
-	FIELD g block Laou;
-	FIELD h owner Lvn;
-	METHOD <init> (Lams;DDD)V
-		ARG 0 world
+	FIELD c owner Laic;
+	FIELD e blockX I
+	FIELD f blockY I
+	METHOD <init> (Lahx;DDDLbax;)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD <init> (Lams;Lvn;)V
-		ARG 0 world
-		ARG 1 owner
-	METHOD B_ update ()V
+	METHOD R_ update ()V
 	METHOD a shouldRender (D)Z
 		ARG 0 distanceSq
-	METHOD a onCollision (Lbha;)V
+	METHOD a onCollision (Lcfz;)V
 		ARG 0 hitResult
-	METHOD a deserializeCustomData (Lfy;)V
+	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD b serializeCustomData (Lfy;)V
+	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
 	METHOD c setVelocity (DDDFF)V
 		ARG 0 dirX
@@ -30,10 +23,10 @@ CLASS aet net/minecraft/entity/thrown/EntityThrown
 		ARG 2 dirZ
 		ARG 3 force
 		ARG 4 variation
+	METHOD f getGravity ()F
 	METHOD h setVelocityClient (DDD)V
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
-	METHOD i initDataTracker ()V
-	METHOD j getGravity ()F
-	METHOD k getOwner ()Lvn;
+	METHOD i getOwner ()Laic;
+	METHOD w_ initDataTracker ()V

@@ -1,6 +1,6 @@
-CLASS cai net/minecraft/client/render/entity/EntityRendererPig
-	FIELD a SKIN Lnd;
-	METHOD a getTexture (Laab;)Lnd;
+CLASS dbb net/minecraft/client/render/entity/EntityRendererPig
+	FIELD a SKIN Loj;
+	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lve;)Lnd;
+	METHOD a getTexture (Lana;)Loj;
 		ARG 0 model

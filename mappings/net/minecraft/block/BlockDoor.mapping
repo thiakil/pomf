@@ -1,101 +1,52 @@
-CLASS apy net/minecraft/block/BlockDoor
-	CLASS apy$a Half
-		FIELD a UPPER Lapy$a;
-		FIELD b LOWER Lapy$a;
+CLASS bgw net/minecraft/block/BlockDoor
+	CLASS bgw$a Half
+		FIELD a UPPER Lbgw$a;
+		FIELD b LOWER Lbgw$a;
 		METHOD m asString ()Ljava/lang/String;
-	CLASS apy$b Hinge
-		FIELD a LEFT Lapy$b;
-		FIELD b RIGHT Lapy$b;
+	CLASS bgw$b Hinge
+		FIELD a LEFT Lbgw$b;
+		FIELD b RIGHT Lbgw$b;
 		METHOD m asString ()Ljava/lang/String;
-	FIELD B BOX_EAST Lbgz;
-	FIELD C BOX_WEST Lbgz;
-	FIELD a FACING Laxe;
-	FIELD b OPEN Laxd;
-	FIELD c HINGE Laxf;
-	FIELD d POWERED Laxd;
-	FIELD e HALF Laxf;
-	FIELD f BOX_NORTH Lbgz;
-	FIELD g BOX_SOUTH Lbgz;
-	METHOD a deserializeState (I)Lawr;
-		ARG 0 meta
-	METHOD a canPlaceAt (Lams;Let;)Z
+	FIELD a FACING Lbor;
+	FIELD b OPEN Lboq;
+	FIELD c HINGE Lbos;
+	FIELD t POWERED Lboq;
+	FIELD u HALF Lbos;
+	METHOD X_ getRenderLayer ()Lbam;
+	METHOD a deserializeState (Laul;)Lbnv;
+	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a afterBreak (Lbax;Larh;Lef;Lbnv;Lbmb;Lawg;)V
+		ARG 0 world
+		ARG 1 player
+		ARG 2 pos
+		ARG 4 blockEntity
+		ARG 5 stack
+	METHOD a onPlaced (Lbax;Lef;Lbnv;Laic;Lawg;)V
 		ARG 0 world
 		ARG 1 pos
-	METHOD a getPickStack (Lams;Let;Lawr;)Lain;
+		ARG 3 placer
+		ARG 4 stack
+	METHOD a onBreak (Lbax;Lef;Lbnv;Larh;)V
 		ARG 0 world
 		ARG 1 pos
-		ARG 2 state
-	METHOD a onBreak (Lams;Let;Lawr;Laeb;)V
-		ARG 0 world
-		ARG 1 pos
-		ARG 2 state
 		ARG 3 player
-	METHOD a activate (Lams;Let;Lawr;Laeb;Ltz;Lfa;FFF)Z
-		ARG 0 world
-		ARG 1 pos
-		ARG 2 state
+	METHOD a isNotSolid (Lbnv;Lbal;Lef;)Z
+		ARG 2 pos
+	METHOD a getDropItem (Lbnv;Lbax;Lef;I)Lbaw;
+	METHOD a activate (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+		ARG 1 world
+		ARG 2 pos
 		ARG 3 player
 		ARG 4 hand
 		ARG 5 facing
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
-	METHOD a setOpen (Lams;Let;Z)V
-		ARG 0 world
-		ARG 1 pos
-		ARG 2 open
-	METHOD a getBlockFaceShape (Lamw;Lawr;Let;Lfa;)Lawp;
-		ARG 0 blockView
-		ARG 1 state
-		ARG 2 pos
-		ARG 3 face
-	METHOD a update (Lawr;Lams;Let;Laou;Let;)V
-		ARG 0 state
+	METHOD a update (Lbnv;Lbax;Lef;Lbfm;Lef;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 block
 		ARG 4 updatePos
-	METHOD a applyMirror (Lawr;Larw;)Lawr;
-		ARG 0 state
-		ARG 1 mirror
-	METHOD a applyRotation (Lawr;Latk;)Lawr;
-		ARG 0 state
-		ARG 1 rotation
-	METHOD a getDropItem (Lawr;Ljava/util/Random;I)Lail;
-		ARG 0 state
-		ARG 1 random
-		ARG 2 fortune
-	METHOD b createStateFactory ()Laws;
-	METHOD b isNotSolid (Lamw;Let;)Z
-		ARG 0 view
-		ARG 1 pos
-	METHOD b isFullBoundsCubeForCulling (Lawr;)Z
-		ARG 0 state
-	METHOD b getBoundingBox (Lawr;Lamw;Let;)Lbgz;
-		ARG 0 state
-		ARG 1 view
-		ARG 2 pos
-	METHOD c getTranslatedName ()Ljava/lang/String;
-	METHOD c getCombinedMeta (Lamw;Let;)I
-		ARG 0 view
-		ARG 1 pos
-	METHOD c isFullBoundsCubeForConnection (Lawr;)Z
-		ARG 0 state
-	METHOD c getMapColor (Lawr;Lamw;Let;)Lbcy;
-		ARG 0 state
-		ARG 1 blockView
-		ARG 2 pos
-	METHOD d isOpen (Lamw;Let;)Z
-	METHOD d getRenderingState (Lawr;Lamw;Let;)Lawr;
-		ARG 0 state
-		ARG 1 view
-		ARG 2 pos
-	METHOD e serializeState (Lawr;)I
-		ARG 0 state
-	METHOD f getRenderLayer ()Lamk;
-	METHOD f getFacing (Lamw;Let;)Lfa;
-	METHOD h getDropItemInternal ()Lail;
-	METHOD h getPistonBehavior (Lawr;)Lbda;
-		ARG 0 state
-	METHOD i isUpperHalf (I)Z
-		ARG 0 meta

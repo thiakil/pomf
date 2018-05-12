@@ -1,0 +1,6 @@
+CLASS bzj
+	CLASS bzj$i
+		METHOD a serializeCustomData (Lgu;)V
+			ARG 0 tag
+		METHOD a deserializeCustomData (Lgu;Lbzn;)V
+			ARG 0 tag

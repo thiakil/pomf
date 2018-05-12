@@ -1,40 +1,40 @@
-CLASS ame net/minecraft/village/VillagerRecipe
-	FIELD a buyItem Lain;
-	FIELD b secondBuyItem Lain;
-	FIELD c sellItem Lain;
+CLASS baf net/minecraft/village/VillagerRecipe
+	FIELD a buyItem Lawg;
+	FIELD b secondBuyItem Lawg;
+	FIELD c sellItem Lawg;
 	FIELD d uses I
 	FIELD e maxUses I
 	FIELD f rewardExp Z
-	METHOD <init> (Lain;Lail;)V
+	METHOD <init> (Lawg;Lawc;)V
 		ARG 0 buyItem
 		ARG 1 sellItem
-	METHOD <init> (Lain;Lain;)V
+	METHOD <init> (Lawg;Lawg;)V
 		ARG 0 buyItem
 		ARG 1 sellItem
-	METHOD <init> (Lain;Lain;Lain;)V
+	METHOD <init> (Lawg;Lawg;Lawg;)V
 		ARG 0 buyItem
 		ARG 1 secondBuyItem
 		ARG 2 sellItem
-	METHOD <init> (Lain;Lain;Lain;II)V
+	METHOD <init> (Lawg;Lawg;Lawg;II)V
 		ARG 0 buyItem
 		ARG 1 secondBuyItem
 		ARG 2 sellItem
 		ARG 3 uses
 		ARG 4 maxUses
-	METHOD <init> (Lfy;)V
+	METHOD <init> (Lgu;)V
 		ARG 0 tag
-	METHOD a getBuyItem ()Lain;
+	METHOD a getBuyItem ()Lawg;
 	METHOD a increasedMaxUses (I)V
 		ARG 0 uses
-	METHOD a serialize (Lfy;)V
+	METHOD a serialize (Lgu;)V
 		ARG 0 tag
-	METHOD b getSecondBuyItem ()Lain;
+	METHOD b getSecondBuyItem ()Lawg;
 	METHOD c hasSecondBuyItem ()Z
-	METHOD d getSellItem ()Lain;
+	METHOD d getSellItem ()Lawg;
 	METHOD e getUses ()I
 	METHOD f getMaxUses ()I
 	METHOD g use ()V
 	METHOD h isDisabled ()Z
 	METHOD i clearUses ()V
 	METHOD j getRewardExp ()Z
-	METHOD k deserialize ()Lfy;
+	METHOD k deserialize ()Lgu;

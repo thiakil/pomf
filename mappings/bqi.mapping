@@ -1,0 +1,36 @@
+CLASS bqi
+	CLASS bqi$1
+		METHOD a (Lsj;Lbqj;Ljava/util/List;ILef;)V
+			ARG 0 worldServer
+			ARG 1 dragonManager
+			ARG 2 crystalList
+			ARG 4 pos
+	CLASS bqi$2
+		METHOD a (Lsj;Lbqj;Ljava/util/List;ILef;)V
+			ARG 0 worldServer
+			ARG 1 dragonManager
+			ARG 2 crystalList
+			ARG 4 pos
+	CLASS bqi$3
+		METHOD a (Lsj;Lbqj;Ljava/util/List;ILef;)V
+			ARG 0 worldServer
+			ARG 1 dragonManager
+			ARG 2 crystalList
+			ARG 4 pos
+	CLASS bqi$4
+		METHOD a (Lsj;Lbqj;Ljava/util/List;ILef;)V
+			ARG 0 worldServer
+			ARG 1 dragonManager
+			ARG 2 crystalList
+			ARG 4 pos
+	CLASS bqi$5
+		METHOD a (Lsj;Lbqj;Ljava/util/List;ILef;)V
+			ARG 0 worldServer
+			ARG 1 dragonManager
+			ARG 2 crystalList
+			ARG 4 pos
+	METHOD a (Lsj;Lbqj;Ljava/util/List;ILef;)V
+		ARG 0 worldServer
+		ARG 1 dragonManager
+		ARG 2 crystalList
+		ARG 4 pos

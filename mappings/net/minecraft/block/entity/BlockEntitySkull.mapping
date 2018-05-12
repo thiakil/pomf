@@ -1,33 +1,21 @@
-CLASS awb net/minecraft/block/entity/BlockEntitySkull
-	FIELD a type I
-	FIELD f rotation I
-	FIELD g owner Lcom/mojang/authlib/GameProfile;
-	FIELD j userCache Lpf;
-	FIELD k sessionService Lcom/mojang/authlib/minecraft/MinecraftSessionService;
-	METHOD a getOwner ()Lcom/mojang/authlib/GameProfile;
-	METHOD a setType (I)V
-		ARG 0 type
-	METHOD a applyMirror (Larw;)V
-		ARG 0 mirror
-	METHOD a applyRotation (Latk;)V
-		ARG 0 rotation
+CLASS bmx net/minecraft/block/entity/BlockEntitySkull
+	FIELD a owner Lcom/mojang/authlib/GameProfile;
+	FIELD h userCache Lur;
+	FIELD i sessionService Lcom/mojang/authlib/minecraft/MinecraftSessionService;
+	METHOD Y_ update ()V
+	METHOD Z_ getUpdatePacket ()Ljc;
 	METHOD a setOwnerAndType (Lcom/mojang/authlib/GameProfile;)V
 		ARG 0 owner
 	METHOD a setSessionService (Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V
 		ARG 0 value
-	METHOD a deserialize (Lfy;)V
+	METHOD a serialize (Lgu;)Lgu;
 		ARG 0 tag
-	METHOD a setUserCache (Lpf;)V
+	METHOD a setUserCache (Lur;)V
 		ARG 0 value
-	METHOD b setRotation (I)V
-		ARG 0 value
+	METHOD aa_ serializeInitialChunkData ()Lgu;
 	METHOD b loadProperties (Lcom/mojang/authlib/GameProfile;)Lcom/mojang/authlib/GameProfile;
 		ARG 0 profile
-	METHOD b serialize (Lfy;)Lfy;
+	METHOD b deserialize (Lgu;)V
 		ARG 0 tag
-	METHOD c getUpdatePacket ()Lih;
-	METHOD d serializeInitialChunkData ()Lfy;
-	METHOD e update ()V
-	METHOD f getType ()I
-	METHOD h getRotation ()I
-	METHOD i loadOwnerProperties ()V
+	METHOD c getOwner ()Lcom/mojang/authlib/GameProfile;
+	METHOD f loadOwnerProperties ()V

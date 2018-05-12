@@ -1,12 +1,12 @@
-CLASS nf net/minecraft/block/dispenser/DispenserBehaviorProjectile
+CLASS ol net/minecraft/block/dispenser/DispenserBehaviorProjectile
 	METHOD a getProjectileForce ()F
-	METHOD a createProjectile (Lams;Lfk;Lain;)Laen;
+	METHOD a createProjectile (Lbax;Lev;Lawg;)Laru;
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 stack
-	METHOD a playSound (Leu;)V
+	METHOD a playSound (Leg;)V
 		ARG 0 block
 	METHOD b getProjectileVariation ()F
-	METHOD b doDispense (Leu;Lain;)Lain;
+	METHOD b doDispense (Leg;Lawg;)Lawg;
 		ARG 0 block
 		ARG 1 stack

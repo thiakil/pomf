@@ -1,6 +1,6 @@
-CLASS xi net/minecraft/entity/ai/passive/AiGoalLlamaFollow
-	FIELD a owner Laaq;
-	METHOD <init> (Laaq;D)V
+CLASS akc net/minecraft/entity/ai/passive/AiGoalLlamaFollow
+	FIELD a owner Lant;
+	METHOD <init> (Lant;D)V
 		ARG 0 owner
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z

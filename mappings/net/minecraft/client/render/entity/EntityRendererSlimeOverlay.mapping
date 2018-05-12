@@ -1,10 +1,10 @@
-CLASS ccg net/minecraft/client/render/entity/EntityRendererSlimeOverlay
-	FIELD a renderer Lcar;
-	FIELD b model Lbqd;
-	METHOD <init> (Lcar;)V
+CLASS ddi net/minecraft/client/render/entity/EntityRendererSlimeOverlay
+	FIELD a renderer Ldbm;
+	FIELD b model Lcqe;
+	METHOD <init> (Ldbm;)V
 		ARG 0 renderer
 	METHOD a shouldMergeTextures ()Z
-	METHOD a render (Ladj;FFFFFFF)V
+	METHOD a render (Laic;FFFFFFF)V
 		ARG 0 entity
-	METHOD a render (Lvn;FFFFFFF)V
+	METHOD a render (Laqp;FFFFFFF)V
 		ARG 0 entity

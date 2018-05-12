@@ -1,25 +1,23 @@
-CLASS zu net/minecraft/entity/passive/EntityChicken
-	FIELD bD eggLayTime I
-	METHOD F getSoundAmbient ()Lqc;
-	METHOD J getLootTableId ()Lnd;
-	METHOD a playStepSound (Let;Laou;)V
+CLASS ams net/minecraft/entity/passive/EntityChicken
+	FIELD bF eggLayTime I
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD a createChild (Lahq;)Lahq;
+		ARG 0 other
+	METHOD a playStepSound (Lef;Lbfm;)V
 		ARG 0 pos
 		ARG 1 block
-	METHOD a deserializeCustomData (Lfy;)V
+	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD a registerTagUpgraders (Lrw;)V
-		ARG 0 handler
-	METHOD a createChild (Lvb;)Lvb;
+	METHOD b createChild (Lahq;)Lams;
 		ARG 0 other
-	METHOD b serializeCustomData (Lfy;)V
+	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD b createChild (Lvb;)Lzu;
-		ARG 0 other
-	METHOD bM initAttributes ()V
-	METHOD by getEyeHeight ()F
-	METHOD cf getSoundDeath ()Lqc;
-	METHOD d getSoundHurt (Lup;)Lqc;
-	METHOD e handleFallDamage (FF)V
+	METHOD bI getEyeHeight ()F
+	METHOD c handleFallDamage (FF)V
 		ARG 0 fallDistance
-	METHOD n updateMovement ()V
-	METHOD r initAi ()V
+	METHOD ca initAttributes ()V
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahc;)Lvo;
+	METHOD k updateMovement ()V
+	METHOD n initAi ()V

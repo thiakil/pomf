@@ -1,2 +1,0 @@
-CLASS abi
-	METHOD i getType ()Labr;

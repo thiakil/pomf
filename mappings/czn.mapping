@@ -1,0 +1,3 @@
+CLASS czn
+	METHOD a getTexture (Laht;)Loj;
+		ARG 0 model

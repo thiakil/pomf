@@ -1,4 +1,4 @@
-CLASS alx net/minecraft/enchantment/EnchantmentSilkTouch
-	METHOD a isEqual (Lali;)Z
+CLASS azy net/minecraft/enchantment/EnchantmentSilkTouch
+	METHOD a isEqual (Lazf;)Z
 		ARG 0 other
 	METHOD b getHighestLevel ()I

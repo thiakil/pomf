@@ -1,0 +1,31 @@
+CLASS clh
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD a drawStackTooltip (Lawg;II)V
+		ARG 0 stack
+		ARG 1 x
+		ARG 2 y
+	METHOD a onMousePressed (Lchp;II)V
+		ARG 1 mouseY
+		ARG 2 mouseButton
+	METHOD a drawTooltip (Ljava/lang/String;II)V
+		ARG 0 text
+		ARG 1 x
+		ARG 2 y
+	METHOD a drawTooltip (Ljava/util/List;II)V
+		ARG 0 text
+		ARG 1 x
+		ARG 2 y
+	METHOD c init ()V
+	METHOD c_ drawBackground (I)V
+		ARG 0 id
+	METHOD confirmResult handle (ZI)V
+		ARG 0 result
+		ARG 1 callbackId
+	METHOD d drawBackground ()V
+	METHOD d handleTextComponentClick (Lic;)Z
+		ARG 0 component
+	METHOD f update ()V
+	METHOD n onClosed ()V

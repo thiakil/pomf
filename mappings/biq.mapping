@@ -1,0 +1,17 @@
+CLASS biq
+	METHOD a onSteppedOn (Lbax;Lef;Laht;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 entity
+	METHOD a update (Lbnv;Lbax;Lef;Lbfm;Lef;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 block
+		ARG 4 updatePos
+	METHOD b onBlockAdded (Lbnv;Lbax;Lef;Lbnv;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD b updateTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 random

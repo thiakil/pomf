@@ -1,9 +1,8 @@
-CLASS ayq net/minecraft/world/gen/WorldProviderEnd
-	FIELD h dragonFight Layp;
-	METHOD b setupBiomeProvider ()V
-	METHOD b getFogColor (FF)Lbhc;
-	METHOD c getChunkGenerator ()Laxo;
-	METHOD d hasClouds ()Z
-	METHOD q getWorldType ()Layl;
-	METHOD r serialize ()V
-	METHOD t getDragonManager ()Layp;
+CLASS bqk net/minecraft/world/gen/WorldProviderEnd
+	FIELD g dragonFight Lbqj;
+	METHOD b getFogColor (FF)Lcgc;
+	METHOD k serialize ()V
+	METHOD m setupBiomeProvider ()V
+	METHOD o hasClouds ()Z
+	METHOD q getWorldType ()Lbqf;
+	METHOD r getDragonManager ()Lbqj;

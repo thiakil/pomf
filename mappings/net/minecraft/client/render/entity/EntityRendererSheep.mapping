@@ -1,6 +1,6 @@
-CLASS cam net/minecraft/client/render/entity/EntityRendererSheep
-	FIELD a SKIN Lnd;
-	METHOD a getTexture (Laae;)Lnd;
+CLASS dbh net/minecraft/client/render/entity/EntityRendererSheep
+	FIELD a SKIN Loj;
+	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lve;)Lnd;
+	METHOD a getTexture (Lanf;)Loj;
 		ARG 0 model

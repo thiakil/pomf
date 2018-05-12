@@ -1,25 +1,17 @@
-CLASS axn net/minecraft/block/state/BlockStateDataExpander
-	FIELD a BLOCK_AIR Lawr;
-	FIELD b packedData Lqu;
-	FIELD c blockStateData Laxy;
-	FIELD d BLOCK_STATE_DATA_COMPLETE Laxy;
-	FIELD e sizeBits I
+CLASS bps net/minecraft/block/state/BlockStateDataExpander
+	FIELD a packedData Lwj;
+	FIELD h blockStateData Lbpq;
+	FIELD i sizeBits I
 	METHOD a getSizeBytes ()I
-	METHOD a getBlockState (I)Lawr;
-		ARG 0 index
-	METHOD a getBlockState (III)Lawr;
+	METHOD a getBlockState (III)Ljava/lang/Object;
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
-	METHOD a setBlockState (IIILawr;)V
+	METHOD a setBlockState (IIILjava/lang/Object;)V
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
-		ARG 3 state
-	METHOD a expandDataAndGetStateId (ILawr;)I
-		ARG 0 expandedBitSize
-		ARG 1 state
-	METHOD a readData (Lgy;)V
+	METHOD a readData (Lht;)V
 		ARG 0 buffer
 	METHOD b setSizeBits (I)V
 		ARG 0 value
@@ -27,8 +19,7 @@ CLASS axn net/minecraft/block/state/BlockStateDataExpander
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
-	METHOD b setBlockState (ILawr;)V
-		ARG 0 index
-		ARG 1 state
-	METHOD b writeData (Lgy;)V
+	METHOD b writeData (Lht;)V
 		ARG 0 buffer
+	METHOD onResize expandDataAndGetStateId (ILjava/lang/Object;)I
+		ARG 0 expandedBitSize

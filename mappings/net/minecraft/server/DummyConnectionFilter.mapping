@@ -1,10 +1,10 @@
-CLASS ow net/minecraft/server/DummyConnectionFilter
+CLASS tg net/minecraft/server/DummyConnectionFilter
 	FIELD a server Lnet/minecraft/server/MinecraftServer;
-	FIELD b connection Lgw;
-	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lgw;)V
+	FIELD b connection Lhr;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lhr;)V
 		ARG 0 server
 		ARG 1 connection
-	METHOD a onConnectionLost (Lhh;)V
+	METHOD a onConnectionLost (Lic;)V
 		ARG 0 reason
-	METHOD a handlePacket (Lmc;)V
+	METHOD a handlePacket (Lnd;)V
 		ARG 0 handshake

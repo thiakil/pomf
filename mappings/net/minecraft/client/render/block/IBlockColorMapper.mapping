@@ -1,6 +1,4 @@
-CLASS bih net/minecraft/client/render/block/IBlockColorMapper
-	METHOD a getColor (Lawr;Lamw;Let;I)I
-		ARG 0 state
-		ARG 1 view
+CLASS cia net/minecraft/client/render/block/IBlockColorMapper
+	METHOD a getColor (Lbnv;Lbbb;Lef;I)I
 		ARG 2 pos
 		ARG 3 tintIndex

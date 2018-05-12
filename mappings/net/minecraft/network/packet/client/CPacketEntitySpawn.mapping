@@ -1,4 +1,4 @@
-CLASS hx net/minecraft/network/packet/client/CPacketEntitySpawn
+CLASS it net/minecraft/network/packet/client/CPacketEntitySpawn
 	FIELD a id I
 	FIELD b uuid Ljava/util/UUID;
 	FIELD c x D
@@ -11,14 +11,14 @@ CLASS hx net/minecraft/network/packet/client/CPacketEntitySpawn
 	FIELD j yaw I
 	FIELD k entityTypeId I
 	FIELD l entityData I
-	METHOD <init> (Lve;I)V
+	METHOD <init> (Laht;I)V
 		ARG 0 entity
 		ARG 1 typeId
-	METHOD <init> (Lve;II)V
+	METHOD <init> (Laht;II)V
 		ARG 0 entity
 		ARG 1 typeId
 		ARG 2 data
-	METHOD <init> (Lve;IILet;)V
+	METHOD <init> (Laht;IILef;)V
 		ARG 0 entity
 		ARG 1 typeId
 		ARG 2 data
@@ -26,16 +26,16 @@ CLASS hx net/minecraft/network/packet/client/CPacketEntitySpawn
 	METHOD a getId ()I
 	METHOD a setVelocityX (I)V
 		ARG 0 value
-	METHOD a readPacket (Lgy;)V
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
-		ARG 0 handler
 	METHOD a applyPacket (Lhw;)V
+		ARG 0 handler
+	METHOD a applyPacket (Lis;)V
 		ARG 0 handler
 	METHOD b getUuid ()Ljava/util/UUID;
 	METHOD b setVelocityY (I)V
 		ARG 0 value
-	METHOD b writePacket (Lgy;)V
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf
 	METHOD c getX ()D
 	METHOD c setVelocityZ (I)V

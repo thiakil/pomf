@@ -1,13 +1,13 @@
-CLASS ma net/minecraft/network/packet/server/SPacketPlayerSwingHand
-	FIELD a hand Ltz;
-	METHOD <init> (Ltz;)V
+CLASS nb net/minecraft/network/packet/server/SPacketPlayerSwingHand
+	FIELD a hand Lagm;
+	METHOD <init> (Lagm;)V
 		ARG 0 hand
-	METHOD a getHand ()Ltz;
-	METHOD a readPacket (Lgy;)V
+	METHOD a getHand ()Lagm;
+	METHOD a readPacket (Lht;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhb;)V
+	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lkw;)V
+	METHOD a applyPacket (Llx;)V
 		ARG 0 handler
-	METHOD b writePacket (Lgy;)V
+	METHOD b writePacket (Lht;)V
 		ARG 0 buf

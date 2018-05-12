@@ -1,79 +1,38 @@
-CLASS aqo net/minecraft/block/BlockFire
-	FIELD B fireSpreadChance Ljava/util/Map;
-	FIELD a AGE Laxg;
-	FIELD b NORTH Laxd;
-	FIELD c EAST Laxd;
-	FIELD d SOUTH Laxd;
-	FIELD e WEST Laxd;
-	FIELD f UP Laxd;
-	FIELD g fireBurnChance Ljava/util/Map;
-	METHOD a deserializeState (I)Lawr;
-		ARG 0 meta
-	METHOD a getTickRate (Lams;)I
-		ARG 0 world
-	METHOD a canPlaceAt (Lams;Let;)Z
-		ARG 0 world
-		ARG 1 pos
-	METHOD a trySpreadFire (Lams;Let;ILjava/util/Random;I)V
-	METHOD a getBlockFaceShape (Lamw;Lawr;Let;Lfa;)Lawp;
+CLASS bhm net/minecraft/block/BlockFire
+	FIELD a AGE Lbot;
+	FIELD x fireBurnChance Ljava/util/Map;
+	FIELD y fireSpreadChance Ljava/util/Map;
+	METHOD X_ getRenderLayer ()Lbam;
+	METHOD a deserializeState (Laul;)Lbnv;
+	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
 		ARG 0 blockView
-		ARG 1 state
 		ARG 2 pos
 		ARG 3 face
-	METHOD a registerFlammable (Laou;II)V
+	METHOD a trySpreadFire (Lbax;Lef;ILjava/util/Random;I)V
+	METHOD a registerFlammable (Lbfm;II)V
 		ARG 0 block
-	METHOD a update (Lawr;Lams;Let;Laou;Let;)V
-		ARG 0 state
+	METHOD a update (Lbnv;Lbax;Lef;Lbfm;Lef;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 block
 		ARG 4 updatePos
-	METHOD a randomDisplayTick (Lawr;Lams;Let;Ljava/util/Random;)V
-		ARG 0 state
+	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I
+	METHOD b onBlockAdded (Lbnv;Lbax;Lef;Lbnv;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD b updateTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 random
+	METHOD c registerDefaultFlammables ()V
+	METHOD c randomDisplayTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 rand
-	METHOD a getCollisionBox (Lawr;Lamw;Let;)Lbgz;
-		ARG 0 state
-		ARG 1 view
-		ARG 2 pos
-	METHOD a getDropAmount (Ljava/util/Random;)I
-		ARG 0 random
-	METHOD b createStateFactory ()Laws;
-	METHOD b updateTick (Lams;Let;Lawr;Ljava/util/Random;)V
-		ARG 0 world
-		ARG 1 pos
-		ARG 2 state
-		ARG 3 random
-	METHOD b isFullBoundsCubeForCulling (Lawr;)Z
-		ARG 0 state
-	METHOD c isAnyNeighborFlammable (Lams;Let;)Z
-		ARG 0 world
-		ARG 1 pos
-	METHOD c onBlockAdded (Lams;Let;Lawr;)V
-		ARG 0 world
-		ARG 1 pos
-		ARG 2 state
-	METHOD c isFlammable (Lamw;Let;)Z
+	METHOD d isFlammable (Lbal;Lef;)Z
 		ARG 0 view
 		ARG 1 pos
-	METHOD c isFullBoundsCubeForConnection (Lawr;)Z
-		ARG 0 state
-	METHOD c getMapColor (Lawr;Lamw;Let;)Lbcy;
-		ARG 0 state
-		ARG 1 blockView
-		ARG 2 pos
-	METHOD d getRenderingState (Lawr;Lamw;Let;)Lawr;
-		ARG 0 state
-		ARG 1 view
-		ARG 2 pos
-	METHOD e registerDefaultFlammables ()V
-	METHOD e getFireSpreadChance (Laou;)I
+	METHOD e getFireSpreadChance (Lbfm;)I
 		ARG 0 block
-	METHOD e serializeState (Lawr;)I
-		ARG 0 state
-	METHOD f getRenderLayer ()Lamk;
-	METHOD f getFireBurnChance (Laou;)I
+	METHOD f getFireBurnChance (Lbfm;)I
 		ARG 0 block
-	METHOD m isCollidable ()Z
-	METHOD r canUpdate ()Z

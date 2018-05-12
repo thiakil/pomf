@@ -1,11 +1,6 @@
-CLASS bob net/minecraft/client/gui/menu/GuiResourcePackList
-	FIELD u mc Lbhz;
-	METHOD <init> (Lbhz;IILjava/util/List;)V
+CLASS cnx net/minecraft/client/gui/menu/GuiResourcePackList
+	FIELD v mc Lchp;
+	METHOD <init> (Lchp;II)V
 		ARG 0 mc
-	METHOD b getEntryCount ()I
-	METHOD b get (I)Lbjk$a;
-		ARG 0 index
-	METHOD c getEntryWidth ()I
-	METHOD c get (I)Lbnv;
-		ARG 0 index
-	METHOD d getScrollbarPosition ()I
+	METHOD e getEntryWidth ()I
+	METHOD f getScrollbarPosition ()I

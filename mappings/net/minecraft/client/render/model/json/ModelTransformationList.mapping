@@ -1,15 +1,15 @@
-CLASS bwa net/minecraft/client/render/model/json/ModelTransformationList
-	CLASS bwa$b Type
-		FIELD a ORIGIN Lbwa$b;
-		FIELD b THIRD_PERSON_LEFT_HAND Lbwa$b;
-		FIELD c THIRD_PERSON_RIGHT_HAND Lbwa$b;
-		FIELD d FIRST_PERSON_LEFT_HAND Lbwa$b;
-		FIELD e FIRST_PERSON_RIGHT_HAND Lbwa$b;
-		FIELD f HEAD Lbwa$b;
-		FIELD g GUI Lbwa$b;
-		FIELD h GROUND Lbwa$b;
-		FIELD i FIXED Lbwa$b;
-	FIELD a ORIGIN Lbwa;
+CLASS cwl net/minecraft/client/render/model/json/ModelTransformationList
+	CLASS cwl$b Type
+		FIELD a ORIGIN Lcwl$b;
+		FIELD b THIRD_PERSON_LEFT_HAND Lcwl$b;
+		FIELD c THIRD_PERSON_RIGHT_HAND Lcwl$b;
+		FIELD d FIRST_PERSON_LEFT_HAND Lcwl$b;
+		FIELD e FIRST_PERSON_RIGHT_HAND Lcwl$b;
+		FIELD f HEAD Lcwl$b;
+		FIELD g GUI Lcwl$b;
+		FIELD h GROUND Lcwl$b;
+		FIELD i FIXED Lcwl$b;
+	FIELD a ORIGIN Lcwl;
 	FIELD b globalTranslationX F
 	FIELD c globalTranslationY F
 	FIELD d globalTranslationZ F
@@ -19,25 +19,21 @@ CLASS bwa net/minecraft/client/render/model/json/ModelTransformationList
 	FIELD h globalScaleOffsetX F
 	FIELD i globalScaleOffsetY F
 	FIELD j globalScaleOffsetZ F
-	FIELD k thirdPersonLeftHand Lbvz;
-	FIELD l thirdPersonRightHand Lbvz;
-	FIELD m firstPersonLeftHand Lbvz;
-	FIELD n firstPersonRightHand Lbvz;
-	FIELD o head Lbvz;
-	FIELD p gui Lbvz;
-	FIELD q ground Lbvz;
-	FIELD r fixed Lbvz;
-	METHOD <init> (Lbwa;)V
+	FIELD k thirdPersonLeftHand Lcwk;
+	FIELD l thirdPersonRightHand Lcwk;
+	FIELD m firstPersonLeftHand Lcwk;
+	FIELD n firstPersonRightHand Lcwk;
+	FIELD o head Lcwk;
+	FIELD p gui Lcwk;
+	FIELD q ground Lcwk;
+	FIELD r fixed Lcwk;
+	METHOD <init> (Lcwl;)V
 		ARG 0 list
-	METHOD a getRotQuaternion (FFF)Lorg/lwjgl/util/vector/Quaternion;
-		ARG 0 rotX
-		ARG 1 rotY
-		ARG 2 rotZ
-	METHOD a applyGl (Lbvz;Z)V
+	METHOD a applyGl (Lcwk;Z)V
 		ARG 0 transform
-	METHOD a applyGl (Lbwa$b;)V
+	METHOD a applyGl (Lcwl$b;)V
 		ARG 0 type
-	METHOD b getTransformation (Lbwa$b;)Lbvz;
+	METHOD b getTransformation (Lcwl$b;)Lcwk;
 		ARG 0 type
-	METHOD c isTransformationDefined (Lbwa$b;)Z
+	METHOD c isTransformationDefined (Lcwl$b;)Z
 		ARG 0 type

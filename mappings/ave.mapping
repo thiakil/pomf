@@ -1,0 +1,2 @@
+CLASS ave
+	METHOD m asString ()Ljava/lang/String;

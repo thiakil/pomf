@@ -1,39 +1,39 @@
-CLASS bd net/minecraft/advancement/criterion/TriggerUsedEnderEye
-	CLASS bd$a Handler
-		FIELD a manager Lnn;
+CLASS bk net/minecraft/advancement/criterion/TriggerUsedEnderEye
+	CLASS bk$a Handler
+		FIELD a manager Lot;
 		FIELD b conditions Ljava/util/Set;
-		METHOD <init> (Lnn;)V
+		METHOD <init> (Lot;)V
 			ARG 0 manager
 		METHOD a isEmpty ()Z
 		METHOD a handle (D)V
 			ARG 0 distance
-		METHOD a addCondition (Lp$a;)V
+		METHOD a addCondition (Ls$a;)V
 			ARG 0 condition
-		METHOD b removeCondition (Lp$a;)V
+		METHOD b removeCondition (Ls$a;)V
 			ARG 0 condition
-	CLASS bd$b Conditions
-		FIELD a distance Las;
-		METHOD <init> (Las;)V
+	CLASS bk$b Conditions
+		FIELD a distance Laz;
+		METHOD <init> (Laz;)V
 			ARG 0 distance
 		METHOD a matches (D)Z
 			ARG 0 disatnce
-	FIELD a id Lnd;
+	FIELD a id Loj;
 	FIELD b handlers Ljava/util/Map;
-	METHOD a getId ()Lnd;
-	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lq;
+	METHOD a getId ()Loj;
+	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lt;
 		ARG 0 obj
 		ARG 1 context
-	METHOD a removePlayer (Lnn;)V
+	METHOD a removePlayer (Lot;)V
 		ARG 0 manager
-	METHOD a addCondition (Lnn;Lp$a;)V
+	METHOD a addCondition (Lot;Ls$a;)V
 		ARG 0 manager
 		ARG 1 condition
-	METHOD a handle (Loo;Let;)V
+	METHOD a handle (Lsl;Lef;)V
 		ARG 0 player
 		ARG 1 dest
-	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbd$b;
+	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbk$b;
 		ARG 0 obj
 		ARG 1 context
-	METHOD b removeCondition (Lnn;Lp$a;)V
+	METHOD b removeCondition (Lot;Ls$a;)V
 		ARG 0 manager
 		ARG 1 condition

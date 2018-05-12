@@ -1,28 +1,21 @@
-CLASS avd net/minecraft/block/entity/BlockEntityBanner
-	FIELD a customName Ljava/lang/String;
-	FIELD f baseColor Lahq;
-	FIELD g patternListTag Lge;
-	FIELD i patternList Ljava/util/List;
-	FIELD j patternColorList Ljava/util/List;
-	METHOD a deserialize (Lain;Z)V
+CLASS blx net/minecraft/block/entity/BlockEntityBanner
+	FIELD h patternList Ljava/util/List;
+	FIELD i patternColorList Ljava/util/List;
+	METHOD N_ getNameAsComponent ()Lic;
+	METHOD O_ hasCustomName ()Z
+	METHOD Z_ getUpdatePacket ()Ljc;
+	METHOD a getPatternCount (Lawg;)I
 		ARG 0 stack
-		ARG 1 baseColorFromEntityTag
-	METHOD a deserialize (Lfy;)V
+	METHOD a deserialize (Lawg;Lave;)V
+		ARG 0 stack
+	METHOD a serialize (Lgu;)Lgu;
 		ARG 0 tag
-	METHOD b getPatternCount (Lain;)I
+	METHOD aa_ serializeInitialChunkData ()Lgu;
+	METHOD b loadFromItemStack (Lawg;)V
 		ARG 0 stack
-	METHOD b serialize (Lfy;)Lfy;
+	METHOD b deserialize (Lgu;)V
 		ARG 0 tag
-	METHOD c getUpdatePacket ()Lih;
-	METHOD c loadFromItemStack (Lain;)V
-		ARG 0 stack
-	METHOD d serializeInitialChunkData ()Lfy;
-	METHOD d getBaseColor (Lain;)Lahq;
-		ARG 0 stack
-	METHOD h getPatternList ()Ljava/util/List;
-	METHOD h_ getName ()Ljava/lang/String;
-	METHOD i_ getNameAsComponent ()Lhh;
-	METHOD j getPatternColorList ()Ljava/util/List;
-	METHOD l getItemStack ()Lain;
-	METHOD m initPatternLists ()V
-	METHOD n_ hasCustomName ()Z
+	METHOD f getPatternList ()Ljava/util/List;
+	METHOD h getPatternColorList ()Ljava/util/List;
+	METHOD j getItemStack ()Lawg;
+	METHOD l initPatternLists ()V

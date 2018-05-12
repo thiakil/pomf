@@ -1,6 +1,6 @@
-CLASS cab net/minecraft/client/render/entity/EntityRendererMinecart
-	FIELD f SKIN Lnd;
-	METHOD a getTexture (Lafc;)Lnd;
+CLASS dat net/minecraft/client/render/entity/EntityRendererMinecart
+	FIELD f SKIN Loj;
+	METHOD a getTexture (Laht;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lve;)Lnd;
+	METHOD a getTexture (Lasi;)Loj;
 		ARG 0 model
