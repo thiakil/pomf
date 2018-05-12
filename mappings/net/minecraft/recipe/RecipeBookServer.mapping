@@ -1,0 +1,4 @@
+CLASS qk net/minecraft/recipe/RecipeBookServer
+	METHOD a (Ljava/util/List;Loo;)V
+		ARG 0 recipes
+		ARG 1 playerServer

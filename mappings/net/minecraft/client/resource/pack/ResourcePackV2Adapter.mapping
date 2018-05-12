@@ -1,6 +1,9 @@
-CLASS ceq
+CLASS ceq net/minecraft/client/resource/pack/ResourcePackV2Adapter
 	CLASS ceq$1
 		METHOD a getName ()Ljava/lang/String;
+	FIELD a pack Lcep;
+	METHOD <init> (Lcep;)V
+		ARG 0 pack
 	METHOD a getIcon ()Ljava/awt/image/BufferedImage;
 	METHOD a deserialize (Lcfe;Ljava/lang/String;)Lcfc;
 		ARG 0 deserializer
