@@ -1,5 +1,5 @@
 CLASS ye net/minecraft/entity/ai/mob/AiGoalAvoidSunlight
-	FIELD a entity Lvv;
+	FIELD a owner Lvv;
 	METHOD a canStart ()Z
 	METHOD c start ()V
 	METHOD d stop ()V

@@ -1,8 +1,8 @@
-CLASS ww net/minecraft/entity/ai/AiFleeSun
-	FIELD a entity Lvv;
+CLASS ww net/minecraft/entity/ai/AiGoalFleeSun
+	FIELD a owner Lvv;
 	FIELD f world Lams;
 	METHOD <init> (Lvv;D)V
-		ARG 0 entity
+		ARG 0 owner
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V

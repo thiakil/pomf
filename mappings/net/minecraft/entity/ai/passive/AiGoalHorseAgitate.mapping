@@ -1,0 +1,13 @@
+CLASS yf net/minecraft/entity/ai/passive/AiGoalHorseAgitate
+	FIELD a owner Laam;
+	FIELD b speed D
+	FIELD c targetX D
+	FIELD d targetY D
+	FIELD e targetZ D
+	METHOD <init> (Laam;D)V
+		ARG 0 owner
+		ARG 1 speed
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD e tick ()V

@@ -1,10 +1,10 @@
 CLASS xm net/minecraft/entity/ai/mob/AiGoalMeleeAttack
 	FIELD a world Lams;
-	FIELD b entity Lvv;
+	FIELD b owner Lvv;
 	FIELD c attackCooldown I
 	FIELD d followSpeed D
 	METHOD <init> (Lvv;DZ)V
-		ARG 0 entity
+		ARG 0 owner
 		ARG 1 followSpeed
 	METHOD a canStart ()Z
 	METHOD a getAttackRangeSquared (Lvn;)D

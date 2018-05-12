@@ -1,0 +1,5 @@
+CLASS bly net/minecraft/client/gui/menu/AdvancementIconType
+	FIELD a COMPLETED Lbly;
+	FIELD b ACTIVE Lbly;
+	FIELD c textureIndex I
+	METHOD a getTextureIndex ()I

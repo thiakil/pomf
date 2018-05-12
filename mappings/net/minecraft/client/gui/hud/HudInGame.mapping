@@ -24,6 +24,11 @@ CLASS bio net/minecraft/client/gui/hud/HudInGame
 	METHOD a (Lbir;F)V
 		ARG 0 displayScale
 		ARG 1 deltaTicks
+	METHOD a handleMessage (Lhf;Lhh;)V
+		ARG 0 chatType
+		ARG 1 message
+	METHOD a setStatusMessage (Lhh;Z)V
+	METHOD a setStatusMessage (Ljava/lang/String;Z)V
 	METHOD d getHudChat ()Lbiz;
 	METHOD f getFontRenderer ()Lbin;
 	METHOD g getSpectatorWidget ()Lbju;

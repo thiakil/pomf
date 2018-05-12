@@ -1,0 +1,8 @@
+CLASS bit net/minecraft/client/chat/ChatNarratorListener
+	FIELD a INSTANCE Lbit;
+	FIELD b narrator Lcom/mojang/text2speech/Narrator;
+	METHOD a isActive ()Z
+	METHOD a onMessageReceived (Lhf;Lhh;)V
+		ARG 0 type
+		ARG 1 message
+	METHOD b clear ()V

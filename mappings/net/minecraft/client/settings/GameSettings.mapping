@@ -75,6 +75,7 @@ CLASS bib net/minecraft/client/settings/GameSettings
 	FIELD P showSubtitles Z
 	FIELD Q realmsNotifications Z
 	FIELD R autoJump Z
+	FIELD S tutorialStep Lchz;
 	FIELD T keyForward Lbhw;
 	FIELD U keyLeft Lbhw;
 	FIELD V keyBack Lbhw;
@@ -116,7 +117,10 @@ CLASS bib net/minecraft/client/settings/GameSettings
 	FIELD al keySmoothCamera Lbhw;
 	FIELD am keyFullscreen Lbhw;
 	FIELD an keySpectatorOutlines Lbhw;
+	FIELD ao keyAdvancements Lbhw;
 	FIELD ap keysHotbar [Lbhw;
+	FIELD aq keySaveToolbar Lbhw;
+	FIELD ar keyLoadToolbar Lbhw;
 	FIELD as keysAll [Lbhw;
 	FIELD at game Lbhz;
 	FIELD au difficulty Ltx;

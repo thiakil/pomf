@@ -1,2 +1,4 @@
 CLASS wl net/minecraft/entity/ai/action/ActionParrotMove
+	METHOD <init> (Lvo;)V
+		ARG 0 owner
 	METHOD a tick ()V

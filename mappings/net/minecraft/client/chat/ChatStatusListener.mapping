@@ -1,0 +1,5 @@
+CLASS biu net/minecraft/client/chat/ChatStatusListener
+	FIELD a game Lbhz;
+	METHOD a onMessageReceived (Lhf;Lhh;)V
+		ARG 0 type
+		ARG 1 message

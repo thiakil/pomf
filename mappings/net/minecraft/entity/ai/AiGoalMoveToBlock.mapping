@@ -1,0 +1,8 @@
+CLASS xp net/minecraft/entity/ai/AiGoalMoveToBlock
+	FIELD c owner Lvv;
+	METHOD <init> (Lvv;DI)V
+		ARG 0 owner
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD e tick ()V

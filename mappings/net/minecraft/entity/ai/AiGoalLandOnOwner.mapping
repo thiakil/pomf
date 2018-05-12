@@ -1,8 +1,8 @@
-CLASS xg net/minecraft/entity/ai/AiLandOnOwner
-	FIELD a entity Laaf;
+CLASS xg net/minecraft/entity/ai/AiGoalLandOnOwner
+	FIELD a owner Laaf;
 	FIELD b player Laeb;
 	METHOD <init> (Laaf;)V
-		ARG 0 entity
+		ARG 0 owner
 	METHOD a canStart ()Z
 	METHOD c start ()V
 	METHOD e tick ()V
