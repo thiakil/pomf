@@ -10,5 +10,5 @@ CLASS bhd net/minecraft/block/BlockEndPortalFrame
 	METHOD a getComparatorOutput (Lbnv;Lbax;Lef;)I
 		ARG 1 world
 		ARG 2 pos
-	METHOD a getDropItem (Lbnv;Lbax;Lef;I)Lbaw;
+	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
 	METHOD c getCompletedFramePattern ()Lbob;

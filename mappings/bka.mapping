@@ -12,6 +12,7 @@ CLASS bka
 		ARG 0 world
 		ARG 1 rand
 		ARG 2 pos
+	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
 	METHOD b grow (Lbax;Ljava/util/Random;Lef;Lbnv;)V
 		ARG 0 world
 		ARG 1 rand

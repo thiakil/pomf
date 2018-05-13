@@ -5,6 +5,7 @@ CLASS bin
 		ARG 3 face
 	METHOD a isNotSolid (Lbnv;Lbal;Lef;)Z
 		ARG 2 pos
+	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
 	METHOD a update (Lbnv;Lbax;Lef;Lbfm;Lef;)V
 		ARG 1 world
 		ARG 2 pos

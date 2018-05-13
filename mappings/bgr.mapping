@@ -5,4 +5,5 @@ CLASS bgr
 		ARG 2 pos
 		ARG 4 blockEntity
 		ARG 5 stack
+	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
 	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I

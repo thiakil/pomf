@@ -51,6 +51,7 @@ CLASS bfm net/minecraft/block/Block
 		ARG 2 pos
 		ARG 3 dropChance
 		ARG 4 fortune
+	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
 	METHOD a onBlockAction (Lbnv;Lbax;Lef;II)Z
 		ARG 1 world
 		ARG 2 pos

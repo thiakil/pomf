@@ -1,2 +1,3 @@
 CLASS bjy
+	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
 	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I

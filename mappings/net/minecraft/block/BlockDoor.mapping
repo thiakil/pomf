@@ -35,7 +35,7 @@ CLASS bgw net/minecraft/block/BlockDoor
 		ARG 3 player
 	METHOD a isNotSolid (Lbnv;Lbal;Lef;)Z
 		ARG 2 pos
-	METHOD a getDropItem (Lbnv;Lbax;Lef;I)Lbaw;
+	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
 	METHOD a activate (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
 		ARG 1 world
 		ARG 2 pos

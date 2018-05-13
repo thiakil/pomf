@@ -4,6 +4,7 @@ CLASS bih
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
+	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
 	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I
 	METHOD b updateTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
 		ARG 1 world

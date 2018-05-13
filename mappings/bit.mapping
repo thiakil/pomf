@@ -5,3 +5,4 @@ CLASS bit
 		ARG 2 pos
 		ARG 3 dropChance
 		ARG 4 fortune
+	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;

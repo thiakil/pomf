@@ -12,7 +12,7 @@ CLASS bks net/minecraft/block/BlockStem
 		ARG 2 pos
 		ARG 3 dropChance
 		ARG 4 fortune
-	METHOD a getDropItem (Lbnv;Lbax;Lef;I)Lbaw;
+	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
 	METHOD b grow (Lbax;Ljava/util/Random;Lef;Lbnv;)V
 		ARG 0 world
 		ARG 1 rand

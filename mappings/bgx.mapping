@@ -18,3 +18,4 @@ CLASS bgx
 		ARG 0 world
 		ARG 1 pos
 		ARG 3 player
+	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;

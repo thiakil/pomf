@@ -3,3 +3,4 @@ CLASS bhw
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
+	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;

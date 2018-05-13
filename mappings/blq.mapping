@@ -10,6 +10,7 @@ CLASS blq
 		ARG 2 pos
 		ARG 4 blockEntity
 		ARG 5 stack
+	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
 	METHOD a onEntityCollision (Lbnv;Lbax;Lef;Laht;)V
 		ARG 1 world
 		ARG 2 pos
