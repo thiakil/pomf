@@ -1,3 +1,4 @@
 CLASS oj net/minecraft/util/Identifier
+	FIELD c type Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object
