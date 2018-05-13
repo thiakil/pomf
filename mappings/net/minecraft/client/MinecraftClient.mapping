@@ -1,4 +1,4 @@
-CLASS chp net/minecraft/client/MinecraftGame
+CLASS chp net/minecraft/client/MinecraftClient
 	CLASS chp$5
 		METHOD run run ()V
 	FIELD E LOGGER Lorg/apache/logging/log4j/Logger;

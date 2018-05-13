@@ -10,7 +10,8 @@ CLASS axm ToolMaterial
 	FIELD i damage F
 	FIELD j enchantability I
 	METHOD a getDurability ()I
-	METHOD b getEfficiency ()F
+	METHOD b getEfficency ()F
 	METHOD c getWeaponDamage ()F
-	METHOD d getMiningLevel ()I
+	METHOD d getMiningSpeed ()I
 	METHOD e getEnchantability ()I
+	METHOD f getRepairItemPredicate ()Layi;
