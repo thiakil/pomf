@@ -1,4 +1,6 @@
 CLASS apc net/minecraft/entity/decoration/EntityItemFrame
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD g itemDropChance F
 	METHOD a shouldRender (D)Z
 		ARG 0 distanceSq
 	METHOD a damage (Lahc;F)Z
@@ -22,5 +24,3 @@ CLASS apc net/minecraft/entity/decoration/EntityItemFrame
 	METHOD l getHeightPixels ()I
 	METHOD m onDecorationPlaced ()V
 	METHOD w_ initDataTracker ()V
-	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD g itemDropChance F

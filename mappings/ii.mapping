@@ -1,7 +1,7 @@
 CLASS ii
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD d getText ()Ljava/lang/String;
 	METHOD e getTextComponent ()Lic;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object
 	METHOD h getTextComponent ()Lii;
-	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;

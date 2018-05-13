@@ -1,4 +1,5 @@
 CLASS cqf net/minecraft/client/render/entity/model/EntityModelOcelot
+	FIELD g head Lcrz;
 	METHOD a setRotationAngles (FFFFFFLaht;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount
@@ -20,4 +21,3 @@ CLASS cqf net/minecraft/client/render/entity/model/EntityModelOcelot
 		ARG 1 swingAmount
 		ARG 2 swingDelta
 		ARG 3 deltaTicks
-	FIELD g head Lcrz;

@@ -4,6 +4,8 @@ CLASS bbe net/minecraft/world/level/LevelGeneratorType
 	FIELD c FLAT Lbbe;
 	FIELD d LARGE_BIOMES Lbbe;
 	FIELD e AMPLIFIED Lbbe;
+	FIELD f CUSTOMIZED Lbbe;
+	FIELD g BUFFET Lbbe;
 	FIELD h DEBUG_ALL_BLOCK_STATES Lbbe;
 	FIELD i DEFAULT_1_1 Lbbe;
 	FIELD j id I
@@ -33,5 +35,3 @@ CLASS bbe net/minecraft/world/level/LevelGeneratorType
 	METHOD i hasInfo ()Z
 	METHOD j setVersioned ()Lbbe;
 	METHOD k setHasInfo ()Lbbe;
-	FIELD f CUSTOMIZED Lbbe;
-	FIELD g BUFFET Lbbe;

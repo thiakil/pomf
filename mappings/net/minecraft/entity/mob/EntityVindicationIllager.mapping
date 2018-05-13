@@ -1,6 +1,7 @@
 CLASS aqu net/minecraft/entity/mob/EntityVindicationIllager
 	CLASS aqu$a
 		METHOD a canStart ()Z
+	FIELD b johnny Z
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
 	METHOD K mobTick ()V
@@ -19,4 +20,3 @@ CLASS aqu net/minecraft/entity/mob/EntityVindicationIllager
 	METHOD r isTeammate (Laht;)Z
 		ARG 0 entity
 	METHOD w_ initDataTracker ()V
-	FIELD b johnny Z

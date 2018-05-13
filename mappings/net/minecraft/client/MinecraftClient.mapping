@@ -26,12 +26,15 @@ CLASS chp net/minecraft/client/MinecraftClient
 	FIELD aH blockRenderManager Lcvv;
 	FIELD aJ isRunning Z
 	FIELD aL fpsCounter I
+	FIELD aN background Loj;
+	FIELD aP root Ljava/lang/String;
 	FIELD a isSystemMac Z
 	FIELD aa server Ldhm;
 	FIELD ac assetDirectory Ljava/io/File;
 	FIELD ad gameVersion Ljava/lang/String;
 	FIELD ae versionType Ljava/lang/String;
 	FIELD af netProxy Ljava/net/Proxy;
+	FIELD ag saves Lcec;
 	FIELD ah currentFps I
 	FIELD aj autoConnectServerIp Ljava/lang/String;
 	FIELD ak autoConnectServerPort I
@@ -141,6 +144,3 @@ CLASS chp net/minecraft/client/MinecraftClient
 	METHOD v getCurrentServerEntry ()Lcsm;
 	METHOD y getServer ()Ldhm;
 	METHOD z onShutdown ()V
-	FIELD ag saves Lcec;
-	FIELD aN background Loj;
-	FIELD aP root Ljava/lang/String;

@@ -1,5 +1,6 @@
 CLASS arm net/minecraft/entity/projectile/EntityExplosiveProjectile
 	FIELD a owner Laic;
+	FIELD e life I
 	METHOD R_ update ()V
 	METHOD a shouldRender (D)Z
 		ARG 0 distanceSq
@@ -15,4 +16,3 @@ CLASS arm net/minecraft/entity/projectile/EntityExplosiveProjectile
 		ARG 0 tag
 	METHOD i getParticleType ()Lfg;
 	METHOD w_ initDataTracker ()V
-	FIELD e life I

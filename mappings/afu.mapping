@@ -3,6 +3,6 @@ CLASS afu
 		CLASS afu$a$a
 			METHOD equals (Ljava/lang/Object;)Z
 				ARG 0 object
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

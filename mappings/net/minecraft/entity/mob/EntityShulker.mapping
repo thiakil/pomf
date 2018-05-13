@@ -21,6 +21,7 @@ CLASS aqm net/minecraft/entity/mob/EntityShulker
 		METHOD d stop ()V
 		METHOD e tick ()V
 	FIELD a ATTACHED_FACE Lny;
+	FIELD bB COVEREDARMORBONUS Laiq;
 	FIELD b ATTACHED_BLOCK Lny;
 	FIELD c PEEK_AMOUNT Lny;
 	METHOD B playSoundAmbient ()V
@@ -69,4 +70,3 @@ CLASS aqm net/minecraft/entity/mob/EntityShulker
 	METHOD k updateMovement ()V
 	METHOD n ()V
 	METHOD w_ initDataTracker ()V
-	FIELD bB COVEREDARMORBONUS Laiq;

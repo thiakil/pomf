@@ -1,2 +1,0 @@
-CLASS t net/minecraft/advancements/ICriterionInstance
-	METHOD a getId ()Loj;

@@ -3,6 +3,7 @@ CLASS ahr net/minecraft/entity/EntityAreaEffectCloud
 	FIELD aB radiusGrowth F
 	FIELD aC owner Laic;
 	FIELD aD ownerUuid Ljava/util/UUID;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD av duration I
 	FIELD aw waitTime I
 	FIELD ax reapplicationDelay I
@@ -57,4 +58,3 @@ CLASS ahr net/minecraft/entity/EntityAreaEffectCloud
 	METHOD w_ initDataTracker ()V
 	METHOD x updateColor ()V
 	METHOD z_ getPistonBehavior ()Lcbd;
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

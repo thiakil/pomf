@@ -14,6 +14,7 @@ CLASS apx net/minecraft/entity/mob/EntityEnderman
 		METHOD a canStart ()Z
 		METHOD e tick ()V
 	FIELD bB ageWhenTargetSet I
+	FIELD b ATTACKINGSPEEDBOOST Laiq;
 	FIELD bz ANGRY Lny;
 	FIELD c CARRIED_BLOCK Lny;
 	METHOD E getSoundAmbient ()Lvo;
@@ -41,4 +42,3 @@ CLASS apx net/minecraft/entity/mob/EntityEnderman
 	METHOD k updateMovement ()V
 	METHOD n ()V
 	METHOD w_ initDataTracker ()V
-	FIELD b ATTACKINGSPEEDBOOST Laiq;

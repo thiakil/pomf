@@ -1,6 +1,7 @@
 CLASS cig net/minecraft/client/render/FontRenderer
 	FIELD a FONT_HEIGHT I
 	FIELD b rand Ljava/util/Random;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD e charWidths [I
 	FIELD f glyphWidths [B
 	FIELD g chatColors [I
@@ -107,4 +108,3 @@ CLASS cig net/minecraft/client/render/FontRenderer
 	METHOD d trimEndNewlines (Ljava/lang/String;)Ljava/lang/String;
 		ARG 0 str
 	METHOD e resetChatFormatting ()V
-	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;

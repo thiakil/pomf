@@ -8,6 +8,8 @@ CLASS cmy net/minecraft/client/gui/ingame/GuiStructureBlock
 	FIELD C inputIntegrity Lciu;
 	FIELD D inputSeed Lciu;
 	FIELD E inputMetadata Lciu;
+	FIELD F guiDone Lciq;
+	FIELD G guiCancel Lciq;
 	FIELD H buttonSave Lciq;
 	FIELD I buttonLoad Lciq;
 	FIELD J buttonRotate0 Lciq;
@@ -55,5 +57,3 @@ CLASS cmy net/minecraft/client/gui/ingame/GuiStructureBlock
 	METHOD o updateMirrorButton ()V
 	METHOD s updateRotationButton ()V
 	METHOD u updateMode ()V
-	FIELD F guiDone Lciq;
-	FIELD G guiCancel Lciq;

@@ -1,4 +1,16 @@
 CLASS coc
+	FIELD B selectworldCreate Lciq;
+	FIELD C selectworldGamemode Lciq;
+	FIELD D selectworldMoreworldoptions Lciq;
+	FIELD E selectworldMapfeatures Lciq;
+	FIELD F selectworldBonusitems Lciq;
+	FIELD G selectworldMaptype Lciq;
+	FIELD H selectworldAllowcommands Lciq;
+	FIELD I selectworldCustomizetype Lciq;
+	FIELD M selectworldNewworld Ljava/lang/String;
+	FIELD O CON [Ljava/lang/String;
+	FIELD i world Ljava/lang/String;
+	FIELD s survival Ljava/lang/String;
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY
@@ -9,15 +21,3 @@ CLASS coc
 		ARG 1 keyCode
 	METHOD f update ()V
 	METHOD n onClosed ()V
-	FIELD B selectworldCreate Lciq;
-	FIELD C selectworldGamemode Lciq;
-	FIELD D selectworldMoreworldoptions Lciq;
-	FIELD E selectworldMapfeatures Lciq;
-	FIELD F selectworldBonusitems Lciq;
-	FIELD G selectworldMaptype Lciq;
-	FIELD H selectworldAllowcommands Lciq;
-	FIELD i world Ljava/lang/String;
-	FIELD I selectworldCustomizetype Lciq;
-	FIELD M selectworldNewworld Ljava/lang/String;
-	FIELD O CON [Ljava/lang/String;
-	FIELD s survival Ljava/lang/String;

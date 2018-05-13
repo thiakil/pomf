@@ -1,5 +1,6 @@
 CLASS ahq net/minecraft/entity/passive/EntityPassive
 	FIELD a breedingAge I
+	FIELD b forcedAge I
 	FIELD bz CHILD Lny;
 	METHOD a setSize (FF)V
 		ARG 0 width
@@ -21,4 +22,3 @@ CLASS ahq net/minecraft/entity/passive/EntityPassive
 	METHOD k updateMovement ()V
 	METHOD w_ initDataTracker ()V
 	METHOD x_ isChild ()Z
-	FIELD b forcedAge I

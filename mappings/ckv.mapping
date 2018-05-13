@@ -1,4 +1,6 @@
 CLASS ckv
+	FIELD a addserverAdd Lciq;
+	FIELD s addserverResourcepack Lciq;
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY
@@ -6,5 +8,3 @@ CLASS ckv
 	METHOD c init ()V
 	METHOD f update ()V
 	METHOD n onClosed ()V
-	FIELD a addserverAdd Lciq;
-	FIELD s addserverResourcepack Lciq;

@@ -1,4 +1,4 @@
 CLASS dek
+	FIELD f LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD a load (Lul;)V
 		ARG 0 resourceContainer
-	FIELD f LOGGER Lorg/apache/logging/log4j/Logger;

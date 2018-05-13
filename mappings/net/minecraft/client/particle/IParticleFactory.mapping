@@ -1,4 +1,4 @@
-CLASS ctr net/minecraft/client/particle/ParticleFactory
+CLASS ctr net/minecraft/client/particle/IParticleFactory
 	METHOD a createParticle (Lfg;Lbax;DDDDDD)Lctp;
 		ARG 1 world
 		ARG 2 x

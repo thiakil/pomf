@@ -1,4 +1,6 @@
 CLASS cmb
+	FIELD g guiDone Lciq;
+	FIELD h guiCancel Lciq;
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY
@@ -6,5 +8,3 @@ CLASS cmb
 	METHOD c init ()V
 	METHOD f update ()V
 	METHOD n onClosed ()V
-	FIELD g guiDone Lciq;
-	FIELD h guiCancel Lciq;

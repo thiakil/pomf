@@ -1,4 +1,4 @@
 CLASS bs
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD <init> (Z)V
 		ARG 0 dedicatedServer
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

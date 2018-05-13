@@ -1,0 +1,5 @@
+CLASS aud net/minecraft/util/IArmorMaterial
+	METHOD a (Lahy;)I
+		ARG 0 slot
+	METHOD b (Lahy;)I
+		ARG 0 slot

@@ -1,6 +1,8 @@
 CLASS bgb
 	CLASS bgb$a
 		METHOD m asString ()Ljava/lang/String;
+	FIELD b TYPE Lbos;
+	FIELD c WATERLOGGED Lboq;
 	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
 		ARG 0 blockView
 		ARG 2 pos
@@ -25,5 +27,3 @@ CLASS bgb
 	METHOD a onBlockRemoved (Lbnv;Lbax;Lef;Lbnv;)V
 		ARG 1 world
 		ARG 2 pos
-	FIELD b TYPE Lbos;
-	FIELD c WATERLOGGED Lboq;

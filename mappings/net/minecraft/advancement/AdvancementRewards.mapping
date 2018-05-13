@@ -1,4 +1,4 @@
-CLASS o net/minecraft/advancements/AdvancementRewards
+CLASS o net/minecraft/advancement/AdvancementRewards
 	CLASS o$b Deserializer
 		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lo;
 			ARG 0 el

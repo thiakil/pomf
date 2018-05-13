@@ -1,4 +1,5 @@
-CLASS bfb
+CLASS bfb net/minecraft/block/bfb
+	METHOD <init> (Lbfm$b;)V
 	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
 		ARG 0 blockView
 		ARG 2 pos

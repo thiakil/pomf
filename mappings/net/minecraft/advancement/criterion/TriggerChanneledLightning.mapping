@@ -1,4 +1,10 @@
-CLASS ac
+CLASS ac net/minecraft/advancement/criterion/TriggerChanneledLightning
+	CLASS ac$a Listeners
+		FIELD a manager Lot;
+		METHOD <init> (Lot;)V
+			ARG 0 manager
+	CLASS ac$b Instance
+	FIELD a id Loj;
 	METHOD a getId ()Loj;
 	METHOD a deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lt;
 		ARG 0 obj
@@ -14,4 +20,3 @@ CLASS ac
 	METHOD b removeCondition (Lot;Ls$a;)V
 		ARG 0 manager
 		ARG 1 condition
-	FIELD a CHANNELED_LIGHTNING Loj;

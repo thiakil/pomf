@@ -1,6 +1,7 @@
 CLASS bgg net/minecraft/block/BlockCommand
 	FIELD a FACING Lbor;
 	FIELD b CONDITIONAL Lboq;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD a deserializeState (Laul;)Lbnv;
 	METHOD a createBlockEntity (Lbal;)Lbmb;
 	METHOD a onPlaced (Lbax;Lef;Lbnv;Laic;Lawg;)V
@@ -34,4 +35,3 @@ CLASS bgg net/minecraft/block/BlockCommand
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
-	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;

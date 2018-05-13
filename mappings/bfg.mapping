@@ -1,4 +1,5 @@
 CLASS bfg
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD a afterBreak (Lbax;Larh;Lef;Lbnv;Lbmb;Lawg;)V
 		ARG 0 world
 		ARG 1 player
@@ -11,4 +12,3 @@ CLASS bfg
 	METHOD a onBlockRemoved (Lbnv;Lbax;Lef;Lbnv;)V
 		ARG 1 world
 		ARG 2 pos
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

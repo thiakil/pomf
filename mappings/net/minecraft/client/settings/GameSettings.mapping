@@ -107,6 +107,7 @@ CLASS chs net/minecraft/client/settings/GameSettings
 	FIELD av game Lchp;
 	FIELD aw difficulty Lagk;
 	FIELD az debugEnabled Z
+	FIELD b OPTIONS_NARRATOR_OFF [Ljava/lang/String;
 	FIELD d invertYMouse Z
 	FIELD e viewDistance I
 	FIELD f bobView Z
@@ -156,4 +157,3 @@ CLASS chs net/minecraft/client/settings/GameSettings
 	METHOD d getEnabledPlayerModelParts ()Ljava/util/Set;
 	METHOD e getCloudRenderMode ()I
 	METHOD f shouldUseNativeTransport ()Z
-	FIELD b OPTIONS_NARRATOR_OFF [Ljava/lang/String;

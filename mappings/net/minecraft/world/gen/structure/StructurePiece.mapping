@@ -3,6 +3,7 @@ CLASS bzc net/minecraft/world/gen/structure/StructurePiece
 	FIELD b mirror Lbis;
 	FIELD c rotation Lbjv;
 	FIELD m boundingBox Lbyh;
+	FIELD n gd I
 	METHOD a translate (III)V
 		ARG 0 x
 		ARG 1 y
@@ -21,4 +22,3 @@ CLASS bzc net/minecraft/world/gen/structure/StructurePiece
 	METHOD c serialize ()Lgu;
 	METHOD d getBoundingBox ()Lbyh;
 	METHOD f getOrientation ()Lel;
-	FIELD n gd I

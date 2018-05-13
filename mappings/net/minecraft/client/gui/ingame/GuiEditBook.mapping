@@ -3,10 +3,15 @@ CLASS cmf net/minecraft/client/gui/ingame/GuiEditBook
 		METHOD a draw (IIF)V
 			ARG 1 mouseY
 			ARG 2 delta
+	FIELD F guiDone Lciq;
+	FIELD G bookSignbutton Lciq;
+	FIELD H bookFinalizebutton Lciq;
+	FIELD I guiCancel Lciq;
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD f BG_TEX Loj;
 	FIELD g player Larh;
 	FIELD h stack Lawg;
+	FIELD z pages Lha;
 	METHOD <init> (Larh;Lawg;Z)V
 		ARG 0 player
 		ARG 1 stack
@@ -22,8 +27,3 @@ CLASS cmf net/minecraft/client/gui/ingame/GuiEditBook
 		ARG 0 component
 	METHOD f update ()V
 	METHOD n onClosed ()V
-	FIELD F guiDone Lciq;
-	FIELD G bookSignbutton Lciq;
-	FIELD H bookFinalizebutton Lciq;
-	FIELD I guiCancel Lciq;
-	FIELD z pages Lha;

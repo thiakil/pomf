@@ -11,6 +11,7 @@ CLASS cll net/minecraft/client/gui/menu/GuiSettingsAudio
 	FIELD a title Ljava/lang/String;
 	FIELD f parent Lclh;
 	FIELD g settings Lchs;
+	FIELD h optionsOff Ljava/lang/String;
 	METHOD <init> (Lclh;Lchs;)V
 		ARG 0 parent
 		ARG 1 settings
@@ -19,4 +20,3 @@ CLASS cll net/minecraft/client/gui/menu/GuiSettingsAudio
 		ARG 1 mouseY
 		ARG 2 delta
 	METHOD c init ()V
-	FIELD h optionsOff Ljava/lang/String;

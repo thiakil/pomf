@@ -40,6 +40,7 @@ CLASS aht net/minecraft/entity/Entity
 	FIELD av passengerList Ljava/util/List;
 	FIELD aw riddenEntity Laht;
 	FIELD ax boundingBox Lcfy;
+	FIELD az entity Ljava/lang/String;
 	FIELD b NULL_BOX Lcfy;
 	FIELD c renderDistanceMultiplier D
 	FIELD f maxEntityId I
@@ -332,11 +333,10 @@ CLASS aht net/minecraft/entity/Entity
 		ARG 0 other
 	METHOD u setPositionAndAngles (Laht;)V
 		ARG 0 other
-	METHOD v copyEntityData (Laht;)V
+	METHOD v (Laht;)V
 		ARG 0 entity
 	METHOD w hasPassenger (Laht;)Z
 		ARG 0 entity
 	METHOD w_ initDataTracker ()V
 	METHOD y getBlockPos ()Lef;
 	METHOD z_ getPistonBehavior ()Lcbd;
-	FIELD az entity Ljava/lang/String;

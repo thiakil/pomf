@@ -1,4 +1,8 @@
 CLASS bmn
+	FIELD h burnTime I
+	FIELD j cookTime I
+	FIELD k cookTimeTotal I
+	FIELD l customName Lic;
 	METHOD N_ getNameAsComponent ()Lic;
 	METHOD O_ hasCustomName ()Z
 	METHOD P_ isInvEmpty ()Z
@@ -49,7 +53,3 @@ CLASS bmn
 	METHOD h getInvPropertyCount ()I
 	METHOD l getContainerId ()Ljava/lang/String;
 	METHOD m clearInv ()V
-	FIELD h burnTime I
-	FIELD j cookTime I
-	FIELD k cookTimeTotal I
-	FIELD l customName Lic;

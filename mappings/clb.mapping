@@ -1,4 +1,5 @@
 CLASS clb
+	FIELD a options Ljava/lang/String;
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY
@@ -7,4 +8,3 @@ CLASS clb
 	METHOD confirmResult handle (ZI)V
 		ARG 0 result
 		ARG 1 callbackId
-	FIELD a options Ljava/lang/String;

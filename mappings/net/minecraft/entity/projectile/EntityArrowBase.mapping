@@ -6,11 +6,15 @@ CLASS arl net/minecraft/entity/projectile/EntityArrowBase
 		METHOD a fromOrdinal (I)Larl$a;
 	FIELD aA damage D
 	FIELD a inGround Z
+	FIELD av yTile I
+	FIELD aw zTile I
 	FIELD ax inBlock Lbnv;
+	FIELD ay life I
 	FIELD c pickupType Larl$a;
 	FIELD d shake I
 	FIELD e owner Laht;
 	FIELD g ARROW_FLAGS Lny;
+	FIELD h xTile I
 	METHOD <init> (Lahx;DDDLbax;)V
 		ARG 1 x
 		ARG 2 y
@@ -57,7 +61,3 @@ CLASS arl net/minecraft/entity/projectile/EntityArrowBase
 	METHOD l getDamage ()D
 	METHOD n isCritical ()Z
 	METHOD w_ initDataTracker ()V
-	FIELD av yTile I
-	FIELD aw zTile I
-	FIELD h xTile I
-	FIELD ay life I

@@ -1,4 +1,5 @@
 CLASS daq net/minecraft/client/render/entity/EntityRendererLiving
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD a linearRotationInterpolation (FFF)F
 		ARG 0 min
 		ARG 1 max
@@ -12,4 +13,3 @@ CLASS daq net/minecraft/client/render/entity/EntityRendererLiving
 	METHOD a addLayer (Lddg;)Z
 	METHOD c (Laic;F)F
 		ARG 0 entity
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

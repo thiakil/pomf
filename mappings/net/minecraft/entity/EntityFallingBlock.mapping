@@ -1,8 +1,12 @@
 CLASS apm net/minecraft/entity/EntityFallingBlock
+	FIELD a time I
+	FIELD av fallHurtAmount F
 	FIELD b dropItem Z
 	FIELD c blockEntityData Lgu;
 	FIELD d BLOCK_POS Lny;
+	FIELD e blockState Lbnv;
 	FIELD g hurtEntities Z
+	FIELD h fallHurtMax I
 	METHOD <init> (Lbax;DDDLbnv;)V
 		ARG 0 world
 		ARG 1 x
@@ -27,7 +31,3 @@ CLASS apm net/minecraft/entity/EntityFallingBlock
 	METHOD i getWorldClient ()Lbax;
 	METHOD k getBlockState ()Lbnv;
 	METHOD w_ initDataTracker ()V
-	FIELD a time I
-	FIELD e blockState Lbnv;
-	FIELD av fallHurtAmount F
-	FIELD h fallHurtMax I

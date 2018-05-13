@@ -14,6 +14,8 @@ CLASS and net/minecraft/entity/passive/EntityRabbit
 		METHOD a canStart ()Z
 		METHOD b shouldContinue ()Z
 		METHOD e tick ()V
+	FIELD bA KILLER_BUNNY Loj;
+	FIELD bG moreCarrotTicks I
 	FIELD bz RABBIT_TYPE Lny;
 	METHOD B attackEntity (Laht;)Z
 	METHOD E getSoundAmbient ()Lvo;
@@ -44,5 +46,3 @@ CLASS and net/minecraft/entity/passive/EntityRabbit
 	METHOD p setRabbitType (I)V
 		ARG 0 value
 	METHOD w_ initDataTracker ()V
-	FIELD bG moreCarrotTicks I
-	FIELD bA KILLER_BUNNY Loj;

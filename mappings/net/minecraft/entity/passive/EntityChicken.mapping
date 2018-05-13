@@ -1,5 +1,6 @@
 CLASS ams net/minecraft/entity/passive/EntityChicken
 	FIELD bF eggLayTime I
+	FIELD bG isChickenJockey Z
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
 	METHOD a createChild (Lahq;)Lahq;
@@ -21,4 +22,3 @@ CLASS ams net/minecraft/entity/passive/EntityChicken
 	METHOD d getSoundHurt (Lahc;)Lvo;
 	METHOD k updateMovement ()V
 	METHOD n ()V
-	FIELD bG isChickenJockey Z

@@ -1,4 +1,6 @@
 CLASS bjt
+	FIELD a LOCKED Lboq;
+	FIELD t DELAY Lbot;
 	METHOD a activate (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
 		ARG 1 world
 		ARG 2 pos
@@ -12,5 +14,3 @@ CLASS bjt
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 rand
-	FIELD a LOCKED Lboq;
-	FIELD t DELAY Lbot;

@@ -36,6 +36,7 @@ CLASS cej net/minecraft/reference/LootTables
 	FIELD aP GAMEPLAY_FISHING_JUNK Loj;
 	FIELD aQ GAMEPLAY_FISHING_TREASURE Loj;
 	FIELD aR GAMEPLAY_FISHING_FISH Loj;
+	FIELD aS LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD aT LOOT_TABLES Ljava/util/Set;
 	FIELD aa ENTITY_SHEEP_LIGHT_BLUE Loj;
 	FIELD ab ENTITY_SHEEP_YELLOW Loj;
@@ -85,4 +86,3 @@ CLASS cej net/minecraft/reference/LootTables
 		ARG 0 id
 	METHOD a registerLootTable (Loj;)Loj;
 		ARG 0 id
-	FIELD aS LOGGER Lorg/apache/logging/log4j/Logger;

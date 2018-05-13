@@ -1,6 +1,9 @@
 CLASS blx net/minecraft/block/entity/BlockEntityBanner
+	FIELD a customName Lic;
+	FIELD f patterns Lha;
 	FIELD h patternList Ljava/util/List;
 	FIELD i patternColorList Ljava/util/List;
+	FIELD j bannerMissing Ljava/lang/String;
 	METHOD N_ getNameAsComponent ()Lic;
 	METHOD O_ hasCustomName ()Z
 	METHOD Z_ getUpdatePacket ()Ljc;
@@ -19,6 +22,3 @@ CLASS blx net/minecraft/block/entity/BlockEntityBanner
 	METHOD h getPatternColorList ()Ljava/util/List;
 	METHOD j getItemStack ()Lawg;
 	METHOD l initPatternLists ()V
-	FIELD a customName Lic;
-	FIELD f patterns Lha;
-	FIELD j bannerMissing Ljava/lang/String;

@@ -1,6 +1,10 @@
 CLASS ble
 	CLASS ble$a
 		METHOD m asString ()Ljava/lang/String;
+	FIELD a OPEN Lboq;
+	FIELD b HALF Lbos;
+	FIELD c POWERED Lboq;
+	FIELD t WATERLOGGED Lboq;
 	METHOD X_ getRenderLayer ()Lbam;
 	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
 		ARG 0 blockView
@@ -22,7 +26,3 @@ CLASS ble
 		ARG 2 pos
 		ARG 3 block
 		ARG 4 updatePos
-	FIELD a OPEN Lboq;
-	FIELD b HALF Lbos;
-	FIELD c POWERED Lboq;
-	FIELD t WATERLOGGED Lboq;

@@ -15,6 +15,7 @@ CLASS aqp net/minecraft/entity/mob/EntitySlime
 	CLASS aqp$e
 		METHOD a canStart ()Z
 		METHOD e tick ()V
+	FIELD bA wasOnGround Z
 	FIELD bz SLIME_SIZE Lny;
 	METHOD G getLootItem ()Lawc;
 	METHOD H getLootTableId ()Loj;
@@ -37,4 +38,3 @@ CLASS aqp net/minecraft/entity/mob/EntitySlime
 		ARG 0 other
 	METHOD n ()V
 	METHOD w_ initDataTracker ()V
-	FIELD bA wasOnGround Z

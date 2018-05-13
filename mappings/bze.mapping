@@ -1,4 +1,5 @@
 CLASS bze
+	FIELD e witch Z
 	METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
 		ARG 1 rand
 		ARG 2 region
@@ -6,4 +7,3 @@ CLASS bze
 		ARG 0 tag
 	METHOD a deserializeStructureData (Lgu;Lbzn;)V
 		ARG 0 tag
-	FIELD e witch Z

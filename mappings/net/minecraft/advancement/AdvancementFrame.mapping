@@ -1,6 +1,7 @@
 CLASS v net/minecraft/advancement/AdvancementFrame
 	FIELD a TASK Lv;
 	FIELD b CHALLENGE Lv;
+	FIELD c GOAL Lv;
 	FIELD d id Ljava/lang/String;
 	FIELD e texV I
 	METHOD <init> (Ljava/lang/String;ILjava/lang/String;ILa;)V
@@ -10,4 +11,3 @@ CLASS v net/minecraft/advancement/AdvancementFrame
 		ARG 0 name
 	METHOD b texV ()I
 	METHOD values ()[Lv;
-	FIELD c GOAL Lv;

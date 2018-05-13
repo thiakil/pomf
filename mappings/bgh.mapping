@@ -4,6 +4,7 @@ CLASS bgh
 		FIELD b SUBTRACT Lbgh$a;
 		FIELD c name Ljava/lang/String;
 		METHOD m asString ()Ljava/lang/String;
+	FIELD a MODE Lbos;
 	METHOD a onBlockAction (Lbnv;Lbax;Lef;II)Z
 		ARG 1 world
 		ARG 2 pos
@@ -20,4 +21,3 @@ CLASS bgh
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
-	FIELD a MODE Lbos;

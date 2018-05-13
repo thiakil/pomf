@@ -1,4 +1,6 @@
 CLASS bik
+	FIELD a DECAYABLE Lboq;
+	FIELD b CHECK_DECAY Lboq;
 	METHOD X_ getRenderLayer ()Lbam;
 	METHOD a afterBreak (Lbax;Larh;Lef;Lbnv;Lbmb;Lawg;)V
 		ARG 0 world
@@ -24,5 +26,3 @@ CLASS bik
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 rand
-	FIELD a DECAYABLE Lboq;
-	FIELD b CHECK_DECAY Lboq;

@@ -1,5 +1,7 @@
 CLASS arr net/minecraft/entity/EntityFirework
 	FIELD a ITEM_STACK Lny;
+	FIELD c life I
+	FIELD d lifeTime I
 	METHOD R_ update ()V
 	METHOD a shouldRender (D)Z
 		ARG 0 distanceSq
@@ -16,5 +18,3 @@ CLASS arr net/minecraft/entity/EntityFirework
 		ARG 1 y
 		ARG 2 z
 	METHOD w_ initDataTracker ()V
-	FIELD c life I
-	FIELD d lifeTime I

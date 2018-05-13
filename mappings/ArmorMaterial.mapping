@@ -5,3 +5,7 @@ CLASS aue ArmorMaterial
 	FIELD d GOLD Laue;
 	FIELD e DIAMOND Laue;
 	FIELD f TURTLE Laue;
+	METHOD a (Lahy;)I
+		ARG 0 slot
+	METHOD b (Lahy;)I
+		ARG 0 slot

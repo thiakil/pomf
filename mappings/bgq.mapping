@@ -1,4 +1,6 @@
 CLASS bgq
+	FIELD a POWER Lbot;
+	FIELD b INVERTED Lboq;
 	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
 		ARG 0 blockView
 		ARG 2 pos
@@ -16,5 +18,3 @@ CLASS bgq
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
-	FIELD a POWER Lbot;
-	FIELD b INVERTED Lboq;

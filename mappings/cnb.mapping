@@ -1,4 +1,8 @@
 CLASS cnb
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD s selectserverEdit Lciq;
+	FIELD t selectserverSelect Lciq;
+	FIELD u selectserverDelete Lciq;
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY
@@ -9,7 +13,3 @@ CLASS cnb
 		ARG 1 callbackId
 	METHOD f update ()V
 	METHOD n onClosed ()V
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD s selectserverEdit Lciq;
-	FIELD t selectserverSelect Lciq;
-	FIELD u selectserverDelete Lciq;

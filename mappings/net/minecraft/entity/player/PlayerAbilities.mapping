@@ -4,6 +4,7 @@ CLASS arf net/minecraft/entity/player/PlayerAbilities
 	FIELD c allowFlying Z
 	FIELD d creativeMode Z
 	FIELD e allowModifyWorld Z
+	FIELD f flySpeed D
 	FIELD g walkSpeed F
 	METHOD a getFlySpeed ()F
 	METHOD a setWalkSpeed (F)V
@@ -13,4 +14,3 @@ CLASS arf net/minecraft/entity/player/PlayerAbilities
 	METHOD b getWalkSpeed ()F
 	METHOD b deserialize (Lgu;)V
 		ARG 0 tag
-	FIELD f flySpeed D

@@ -1,6 +1,8 @@
 CLASS aqj net/minecraft/entity/mob/EntityPigZombie
 	CLASS aqj$a
 		METHOD a canStart ()Z
+	FIELD b ATTACKINGSPEEDBOOST Laiq;
+	FIELD bz anger I
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
 	METHOD K mobTick ()V
@@ -24,5 +26,3 @@ CLASS aqj net/minecraft/entity/mob/EntityPigZombie
 	METHOD ct getSoundDeath ()Lvo;
 	METHOD d getSoundHurt (Lahc;)Lvo;
 	METHOD dF getSkull ()Lawg;
-	FIELD b ATTACKINGSPEEDBOOST Laiq;
-	FIELD bz anger I

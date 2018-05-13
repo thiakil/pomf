@@ -1,9 +1,9 @@
 CLASS cli
+	FIELD f selectworldAllowcommands Lciq;
+	FIELD g selectworldGamemode Lciq;
+	FIELD h survival Ljava/lang/String;
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY
 		ARG 2 delta
 	METHOD c init ()V
-	FIELD f selectworldAllowcommands Lciq;
-	FIELD g selectworldGamemode Lciq;
-	FIELD h survival Ljava/lang/String;

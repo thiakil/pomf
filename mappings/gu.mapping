@@ -1,4 +1,5 @@
 CLASS gu
+	FIELD f LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD a getType ()B
 	METHOD a read (Ljava/io/DataInput;ILhd;)V
 		ARG 0 input
@@ -10,4 +11,3 @@ CLASS gu
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object
 	METHOD f copy ()Lgu;
-	FIELD f LOGGER Lorg/apache/logging/log4j/Logger;

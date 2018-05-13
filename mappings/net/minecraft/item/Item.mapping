@@ -19,6 +19,7 @@ CLASS awc net/minecraft/item/Item
 			ARG 0 stack
 			ARG 1 world
 			ARG 2 user
+	FIELD o item Ljava/lang/String;
 	METHOD W_ isMap ()Z
 	METHOD a getTranslationKey ()Ljava/lang/String;
 	METHOD a getAttributeModifiers (Lahy;)Lcom/google/common/collect/Multimap;
@@ -78,4 +79,3 @@ CLASS awc net/minecraft/item/Item
 	METHOD h getItem ()Lawc;
 	METHOD i getTranslatedNameTrimmed (Lawg;)Lic;
 		ARG 0 stack
-	FIELD o item Ljava/lang/String;

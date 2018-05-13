@@ -1,7 +1,7 @@
 CLASS dif net/minecraft/client/tutorial/TutorialCraftPlanksStep
+	FIELD a TUTORIAL_CRAFT_PLANKS_TITLE Lic;
+	FIELD b TUTORIAL_CRAFT_PLANKS_DESCRIPTION Lic;
 	METHOD a update ()V
 	METHOD a onItemPickup (Lawg;)V
 		ARG 0 stack
 	METHOD b onStop ()V
-	FIELD a TUTORIAL_CRAFT_PLANKS_TITLE Lic;
-	FIELD b TUTORIAL_CRAFT_PLANKS_DESCRIPTION Lic;

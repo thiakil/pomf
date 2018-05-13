@@ -24,6 +24,7 @@ CLASS clp net/minecraft/client/gui/menu/GuiStats
 			ARG 1 y
 		METHOD d getEntryCount ()I
 		METHOD n getContentHeight ()I
+	FIELD f selectworld Ljava/lang/String;
 	METHOD <init> (Lclh;Lvz;)V
 		ARG 0 parent
 	METHOD a draw (IIF)V
@@ -31,4 +32,3 @@ CLASS clp net/minecraft/client/gui/menu/GuiStats
 		ARG 1 mouseY
 		ARG 2 delta
 	METHOD c init ()V
-	FIELD f selectworld Ljava/lang/String;

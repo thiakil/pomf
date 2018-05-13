@@ -1,5 +1,5 @@
 CLASS dii net/minecraft/client/tutorial/TutorialOpenInventoryStep
-	METHOD a update ()V
-	METHOD b onStop ()V
 	FIELD a TUTORIAL_OPEN_INVENTORY_TITLE Lic;
 	FIELD b TUTORIAL_OPEN_INVENTORY_DESCRIPTION Lic;
+	METHOD a update ()V
+	METHOD b onStop ()V

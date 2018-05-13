@@ -19,6 +19,7 @@ CLASS aqi net/minecraft/entity/mob/EntityPhantom
 		METHOD a canStart ()Z
 		METHOD c start ()V
 		METHOD e tick ()V
+	FIELD c ax Lef;
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
 	METHOD K mobTick ()V
@@ -44,4 +45,3 @@ CLASS aqi net/minecraft/entity/mob/EntityPhantom
 	METHOD k updateMovement ()V
 	METHOD n ()V
 	METHOD w_ initDataTracker ()V
-	FIELD c ax Lef;

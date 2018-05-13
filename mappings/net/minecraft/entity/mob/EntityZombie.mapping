@@ -1,6 +1,7 @@
 CLASS aqx net/minecraft/entity/mob/EntityZombie
 	FIELD a BABY_SPEED_ID Ljava/util/UUID;
 	FIELD bB ARMS_RAISED Lny;
+	FIELD bF inWaterTime I
 	FIELD b BABY_SPEED_BONUS Laiq;
 	FIELD bz BABY Lny;
 	FIELD c SPAWN_REINFORCEMENTS Laio;
@@ -49,4 +50,3 @@ CLASS aqx net/minecraft/entity/mob/EntityZombie
 		ARG 0 value
 	METHOD w_ initDataTracker ()V
 	METHOD x_ isChild ()Z
-	FIELD bF inWaterTime I

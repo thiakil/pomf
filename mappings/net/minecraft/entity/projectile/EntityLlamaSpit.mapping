@@ -1,5 +1,6 @@
 CLASS art net/minecraft/entity/projectile/EntityLlamaSpit
 	FIELD a owner Lant;
+	FIELD b owner Lgu;
 	METHOD R_ update ()V
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
@@ -16,4 +17,3 @@ CLASS art net/minecraft/entity/projectile/EntityLlamaSpit
 		ARG 1 y
 		ARG 2 z
 	METHOD w_ initDataTracker ()V
-	FIELD b owner Lgu;

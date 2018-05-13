@@ -1,6 +1,6 @@
 CLASS bhp
+	FIELD a AGE Lbot;
 	METHOD b updateTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
-	FIELD a AGE Lbot;

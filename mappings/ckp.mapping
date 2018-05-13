@@ -6,10 +6,10 @@ CLASS ckp
 			ARG 0 x
 			ARG 1 y
 		METHOD d getEntryCount ()I
+	FIELD i createworldCustomizeBuffetTitle Ljava/lang/String;
+	FIELD u guiDone Lciq;
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY
 		ARG 2 delta
 	METHOD c init ()V
-	FIELD u guiDone Lciq;
-	FIELD i createworldCustomizeBuffetTitle Ljava/lang/String;

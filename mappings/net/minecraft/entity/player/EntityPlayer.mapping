@@ -34,6 +34,7 @@ CLASS arh net/minecraft/entity/player/EntityPlayer
 	FIELD cB renderOffsetY F
 	FIELD c sleepTimer I
 	FIELD cb itemCooldownManager Lawd;
+	FIELD d selectedItemSlot Z
 	FIELD e spawnPosition Lef;
 	FIELD f spawnForced Z
 	FIELD h gameProfile Lcom/mojang/authlib/GameProfile;
@@ -186,4 +187,3 @@ CLASS arh net/minecraft/entity/player/EntityPlayer
 	METHOD t isSpectator ()Z
 	METHOD u isCreative ()Z
 	METHOD w_ initDataTracker ()V
-	FIELD d selectedItemSlot Z

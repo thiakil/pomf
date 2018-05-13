@@ -10,6 +10,7 @@ CLASS bax net/minecraft/world/World
 	FIELD K border Lboy;
 	FIELD b seaLevel I
 	FIELD c pendingBlockEntities Ljava/util/List;
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD e entities Ljava/util/List;
 	FIELD f unloadedEntities Ljava/util/List;
 	FIELD g blockEntities Ljava/util/List;
@@ -268,4 +269,3 @@ CLASS bax net/minecraft/world/World
 	METHOD v setSpawnPos (Lef;)V
 		ARG 0 pos
 	METHOD x getServer ()Lnet/minecraft/server/MinecraftServer;
-	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;

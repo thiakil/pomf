@@ -5,6 +5,7 @@ CLASS vj net/minecraft/server/rcon/RconBase
 	FIELD d thread Ljava/lang/Thread;
 	FIELD f sockets Ljava/util/List;
 	FIELD g serverSockets Ljava/util/List;
+	FIELD h LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD <init> (Lox;Ljava/lang/String;)V
 		ARG 0 server
 		ARG 1 description
@@ -32,4 +33,3 @@ CLASS vj net/minecraft/server/rcon/RconBase
 	METHOD d logError (Ljava/lang/String;)V
 		ARG 0 msg
 	METHOD e forceClose ()V
-	FIELD h LOGGER Lorg/apache/logging/log4j/Logger;

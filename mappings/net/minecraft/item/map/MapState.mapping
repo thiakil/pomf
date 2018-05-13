@@ -1,5 +1,9 @@
 CLASS cdr net/minecraft/item/map/MapState
+	FIELD a xCenter I
+	FIELD b zCenter I
+	FIELD c dimension B
 	FIELD d showIcons Z
+	FIELD e unlimitedTracking Z
 	FIELD f scale B
 	FIELD g colorArray [B
 	FIELD i icons Ljava/util/Map;
@@ -7,7 +11,3 @@ CLASS cdr net/minecraft/item/map/MapState
 		ARG 0 tag
 	METHOD b serialize (Lgu;)Lgu;
 		ARG 0 tag
-	FIELD a xCenter I
-	FIELD b zCenter I
-	FIELD c dimension B
-	FIELD e unlimitedTracking Z

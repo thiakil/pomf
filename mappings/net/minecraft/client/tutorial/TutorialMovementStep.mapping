@@ -1,7 +1,7 @@
 CLASS dih net/minecraft/client/tutorial/TutorialMovementStep
-	METHOD a update ()V
-	METHOD b onStop ()V
 	FIELD a TUTORIAL_MOVE_TITLE Lic;
 	FIELD b TUTORIAL_MOVE_DESCRIPTION Lic;
 	FIELD c TUTORIAL_LOOK_TITLE Lic;
 	FIELD d TUTORIAL_LOOK_DESCRIPTION Lic;
+	METHOD a update ()V
+	METHOD b onStop ()V

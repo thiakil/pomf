@@ -47,9 +47,9 @@ CLASS azg net/minecraft/enchantment/EnchantmentType
 	FIELD g WEAPON Lazg;
 	FIELD h BREAKER Lazg;
 	FIELD i FISHING Lazg;
+	FIELD j TRIDENT Lazg;
 	FIELD k TOOL Lazg;
 	FIELD l BOW Lazg;
+	FIELD m WEARABLE Lazg;
 	METHOD a isAcceptableItem (Lawc;)Z
 		ARG 0 item
-	FIELD j TRIDENT Lazg;
-	FIELD m WEARABLE Lazg;

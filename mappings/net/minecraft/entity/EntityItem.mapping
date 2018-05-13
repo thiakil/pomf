@@ -3,6 +3,8 @@ CLASS apn net/minecraft/entity/EntityItem
 	FIELD c age I
 	FIELD d pickupDelay I
 	FIELD e health I
+	FIELD f thrower Ljava/util/UUID;
+	FIELD g owner Ljava/util/UUID;
 	METHOD N_ getNameAsComponent ()Lic;
 	METHOD R_ update ()V
 	METHOD a setPickupDelay (I)V
@@ -33,5 +35,3 @@ CLASS apn net/minecraft/entity/EntityItem
 	METHOD q cannotPickup ()Z
 	METHOD v tryMerge ()V
 	METHOD w_ initDataTracker ()V
-	FIELD f thrower Ljava/util/UUID;
-	FIELD g owner Ljava/util/UUID;

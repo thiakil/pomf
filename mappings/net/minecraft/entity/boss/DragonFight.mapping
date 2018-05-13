@@ -1,5 +1,6 @@
 CLASS bqj net/minecraft/entity/boss/DragonFight
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c entityMinecraftEnderDragon Lsh;
 	FIELD d world Lsj;
 	FIELD e gateways Ljava/util/List;
 	FIELD h crystalCount I
@@ -14,4 +15,3 @@ CLASS bqj net/minecraft/entity/boss/DragonFight
 	METHOD g hasPortal ()Z
 	METHOD k scanCrystals ()V
 	METHOD m spawnDragon ()Laoe;
-	FIELD c entityMinecraftEnderDragon Lsh;

@@ -1,4 +1,5 @@
 CLASS aqv net/minecraft/entity/mob/EntityWitch
+	FIELD b DRINKINGSPEEDPENALTY Laiq;
 	FIELD c DRINKING Lny;
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
@@ -16,4 +17,3 @@ CLASS aqv net/minecraft/entity/mob/EntityWitch
 	METHOD s setAiming (Z)V
 		ARG 0 value
 	METHOD w_ initDataTracker ()V
-	FIELD b DRINKINGSPEEDPENALTY Laiq;

@@ -1,9 +1,9 @@
 CLASS aws net/minecraft/util/Rarity
+	FIELD a COMMON Laws;
 	FIELD b UNCOMMON Laws;
+	FIELD c RARE Laws;
+	FIELD d EPIC Laws;
 	FIELD e formatting La;
 	METHOD <init> (Ljava/lang/String;ILa;)V
 		ARG 0 formatting
 		ARG 1 name
-	FIELD a COMMON Laws;
-	FIELD c RARE Laws;
-	FIELD d EPIC Laws;

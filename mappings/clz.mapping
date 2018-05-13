@@ -1,8 +1,8 @@
 CLASS clz
+	FIELD a controls Ljava/lang/String;
+	FIELD u controlsResetall Lciq;
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY
 		ARG 2 delta
 	METHOD c init ()V
-	FIELD a controls Ljava/lang/String;
-	FIELD u controlsResetall Lciq;

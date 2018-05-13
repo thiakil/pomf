@@ -1,4 +1,5 @@
 CLASS bpx
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD a run ()Z
 	METHOD a saveEntities (Lbal;Lbpl;)V
 		ARG 1 chunk
@@ -9,4 +10,3 @@ CLASS bpx
 		ARG 1 x
 		ARG 2 y
 	METHOD c flushChunks ()V
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

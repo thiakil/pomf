@@ -1,5 +1,7 @@
 CLASS amr net/minecraft/entity/passive/EntityAnimal
+	FIELD bA loveCause Ljava/util/UUID;
 	FIELD bC spawningGround Lbfm;
+	FIELD bz inLove I
 	METHOD K mobTick ()V
 	METHOD a damage (Lahc;F)Z
 		ARG 0 source
@@ -13,5 +15,3 @@ CLASS amr net/minecraft/entity/passive/EntityAnimal
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
 	METHOD k updateMovement ()V
-	FIELD bz inLove I
-	FIELD bA loveCause Ljava/util/UUID;

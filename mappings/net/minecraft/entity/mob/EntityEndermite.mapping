@@ -1,4 +1,6 @@
 CLASS apy net/minecraft/entity/mob/EntityEndermite
+	FIELD a lifetime I
+	FIELD b playerSpawned Z
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
 	METHOD R_ update ()V
@@ -18,5 +20,3 @@ CLASS apy net/minecraft/entity/mob/EntityEndermite
 	METHOD k updateMovement ()V
 	METHOD k setYaw (F)V
 	METHOD n ()V
-	FIELD a lifetime I
-	FIELD b playerSpawned Z

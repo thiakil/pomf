@@ -30,6 +30,7 @@ CLASS net/minecraft/server/MinecraftServer
 	FIELD a USER_CACHE_FILE Ljava/io/File;
 	FIELD aa serverStartTime J
 	FIELD ab iconFilePresent Z
+	FIELD ae datapacks Lub;
 	FIELD b profiler Lwz;
 	FIELD c worlds [Lsj;
 	FIELD d proxy Ljava/net/Proxy;
@@ -191,4 +192,3 @@ CLASS net/minecraft/server/MinecraftServer
 	METHOD x isNetherAllowed ()Z
 	METHOD y start ()V
 	METHOD z getVersion ()Ljava/lang/String;
-	FIELD ae datapacks Lub;

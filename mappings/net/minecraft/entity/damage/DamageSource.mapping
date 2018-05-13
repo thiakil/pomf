@@ -10,6 +10,7 @@ CLASS ahc net/minecraft/entity/damage/DamageSource
 	FIELD d LAVA Lahc;
 	FIELD e HOT_FLOOR Lahc;
 	FIELD f IN_WALL Lahc;
+	FIELD g CRAMMING Lahc;
 	FIELD h DROWN Lahc;
 	FIELD i STARVE Lahc;
 	FIELD j CACTUS Lahc;
@@ -22,6 +23,8 @@ CLASS ahc net/minecraft/entity/damage/DamageSource
 	FIELD q ANVIL Lahc;
 	FIELD r FALLING_BLOCK Lahc;
 	FIELD s DRAGON_BREATH Lahc;
+	FIELD t FIREWORKS Lahc;
+	FIELD u DRYOUT Lahc;
 	FIELD v name Ljava/lang/String;
 	FIELD x damageToCreative Z
 	FIELD y unblockable Z
@@ -72,6 +75,3 @@ CLASS ahc net/minecraft/entity/damage/DamageSource
 	METHOD t setMagic ()Z
 	METHOD u setMagic ()Lahc;
 	METHOD v isSourceCreativePlayer ()Z
-	FIELD g CRAMMING Lahc;
-	FIELD t FIREWORKS Lahc;
-	FIELD u DRYOUT Lahc;

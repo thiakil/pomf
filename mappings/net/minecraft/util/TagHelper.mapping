@@ -1,4 +1,5 @@
 CLASS hf net/minecraft/util/TagHelper
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD a withProperty (Lbny;Lbou;Ljava/lang/String;Lgu;Lgu;)Lbny;
 		ARG 0 state
 		ARG 1 property
@@ -22,4 +23,3 @@ CLASS hf net/minecraft/util/TagHelper
 		ARG 0 tag
 	METHOD c deserializeBlockPos (Lgu;)Lef;
 		ARG 0 tag
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

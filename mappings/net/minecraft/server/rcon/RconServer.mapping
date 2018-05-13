@@ -2,6 +2,7 @@ CLASS vm net/minecraft/server/rcon/RconServer
 	FIELD h port I
 	FIELD i serverPort I
 	FIELD k listener Ljava/net/ServerSocket;
+	FIELD l rconPassword Ljava/lang/String;
 	FIELD m clients Ljava/util/Map;
 	METHOD <init> (Lox;)V
 		ARG 0 server
@@ -9,4 +10,3 @@ CLASS vm net/minecraft/server/rcon/RconServer
 	METHOD f cleanClientList ()V
 	METHOD g removeStoppedClients ()V
 	METHOD run ()V
-	FIELD l rconPassword Ljava/lang/String;

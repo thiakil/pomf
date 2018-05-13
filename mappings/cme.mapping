@@ -23,6 +23,7 @@ CLASS cme
 			ARG 2 delta
 		METHOD c isDisabled ()Z
 		METHOD c setDisabled (Z)V
+	FIELD v LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD a drawBackground (FII)V
 		ARG 0 delta
 		ARG 1 mouseX
@@ -36,4 +37,3 @@ CLASS cme
 		ARG 0 mouseX
 		ARG 1 mouseY
 	METHOD f update ()V
-	FIELD v LOGGER Lorg/apache/logging/log4j/Logger;

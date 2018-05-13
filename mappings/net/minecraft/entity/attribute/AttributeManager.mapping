@@ -3,6 +3,7 @@ CLASS aql net/minecraft/entity/attribute/AttributeManager
 	FIELD b FOLLOW_RANGE Laio;
 	FIELD c KNOCKBACK_RESISTANCE Laio;
 	FIELD d MOVEMENT_SPEED Laio;
+	FIELD e GENERIC_FLYINGSPEED Laio;
 	FIELD f ATTACK_DAMAGE Laio;
 	FIELD g ATTACK_SPEED Laio;
 	FIELD h ARMOR Laio;
@@ -17,4 +18,3 @@ CLASS aql net/minecraft/entity/attribute/AttributeManager
 		ARG 0 container
 	METHOD a deserializeFromTag (Lgu;)Laiq;
 		ARG 0 tag
-	FIELD e GENERIC_FLYINGSPEED Laio;

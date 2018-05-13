@@ -8,6 +8,7 @@ CLASS bfc
 			ARG 0 playerInv
 			ARG 1 player
 		METHOD l getContainerId ()Ljava/lang/String;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
 		ARG 0 blockView
 		ARG 2 pos
@@ -21,4 +22,3 @@ CLASS bfc
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
-	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;

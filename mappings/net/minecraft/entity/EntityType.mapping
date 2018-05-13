@@ -1,4 +1,8 @@
 CLASS aie net/minecraft/entity/EntityType
+	FIELD a MONSTER Laie;
+	FIELD b CREATURE Laie;
+	FIELD c AMBIENT Laie;
+	FIELD d WATER_CREATURE Laie;
 	FIELD e entityClass Ljava/lang/Class;
 	FIELD f spawnCap I
 	FIELD g peaceful Z
@@ -12,7 +16,3 @@ CLASS aie net/minecraft/entity/EntityType
 	METHOD b getSpawnCap ()I
 	METHOD c isPeaceful ()Z
 	METHOD d isAnimal ()Z
-	FIELD a MONSTER Laie;
-	FIELD b CREATURE Laie;
-	FIELD c AMBIENT Laie;
-	FIELD d WATER_CREATURE Laie;

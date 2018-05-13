@@ -2,7 +2,12 @@ CLASS arc net/minecraft/entity/passive/EntityVillager
 	FIELD bA VILLAGER_TYPE Lny;
 	FIELD bE properties Lami;
 	FIELD bG recipeList Lbag;
+	FIELD bJ willing Z
+	FIELD bK riches I
+	FIELD bM career I
+	FIELD bN careerLevel I
 	FIELD bQ inventory Lagv;
+	FIELD bR MONUMENT [[[[Larc$f;
 	FIELD bz LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD <init> (Lbax;I)V
 		ARG 0 world
@@ -55,8 +60,3 @@ CLASS arc net/minecraft/entity/passive/EntityVillager
 		ARG 0 value
 	METHOD n ()V
 	METHOD w_ initDataTracker ()V
-	FIELD bR MONUMENT [[[[Larc$f;
-	FIELD bJ willing Z
-	FIELD bK riches I
-	FIELD bM career I
-	FIELD bN careerLevel I

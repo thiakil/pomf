@@ -1,4 +1,6 @@
 CLASS asf net/minecraft/entity/projectile/EntityTrident
+	FIELD av dealtDamage Z
+	FIELD h trident Lawg;
 	METHOD R_ update ()V
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
@@ -10,5 +12,3 @@ CLASS asf net/minecraft/entity/projectile/EntityTrident
 		ARG 2 z
 	METHOD k asItemStack ()Lawg;
 	METHOD w_ initDataTracker ()V
-	FIELD av dealtDamage Z
-	FIELD h trident Lawg;

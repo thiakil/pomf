@@ -1,5 +1,4 @@
 CLASS ave
-	METHOD m asString ()Ljava/lang/String;
 	FIELD a WHITE Lave;
 	FIELD b ORANGE Lave;
 	FIELD c MAGENTA Lave;
@@ -16,3 +15,4 @@ CLASS ave
 	FIELD n GREEN Lave;
 	FIELD o RED Lave;
 	FIELD p BLACK Lave;
+	METHOD m asString ()Ljava/lang/String;

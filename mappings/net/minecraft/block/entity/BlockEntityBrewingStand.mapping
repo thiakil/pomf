@@ -4,6 +4,7 @@ CLASS bmd net/minecraft/block/entity/BlockEntityBrewingStand
 	FIELD f SLOTS_SIDE [I
 	FIELD g inventory Leu;
 	FIELD h brewTime I
+	FIELD k customName Lic;
 	FIELD l fuel I
 	METHOD N_ getNameAsComponent ()Lic;
 	METHOD O_ hasCustomName ()Z
@@ -57,4 +58,3 @@ CLASS bmd net/minecraft/block/entity/BlockEntityBrewingStand
 	METHOD m clearInv ()V
 	METHOD q canCraft ()Z
 	METHOD r craft ()V
-	FIELD k customName Lic;

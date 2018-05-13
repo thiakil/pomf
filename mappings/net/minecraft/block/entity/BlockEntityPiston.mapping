@@ -1,6 +1,8 @@
 CLASS bnq net/minecraft/block/entity/BlockEntityPiston
+	FIELD a blockState Lbnv;
 	FIELD e facing Lel;
 	FIELD f extending Z
+	FIELD g source Z
 	FIELD i nextProgress F
 	FIELD j progress F
 	METHOD Y_ update ()V
@@ -19,5 +21,3 @@ CLASS bnq net/minecraft/block/entity/BlockEntityPiston
 	METHOD d getFacing ()Lel;
 	METHOD d getRenderOffsetZ (F)F
 		ARG 0 deltaTicks
-	FIELD a blockState Lbnv;
-	FIELD g source Z

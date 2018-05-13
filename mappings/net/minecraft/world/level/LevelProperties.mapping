@@ -13,6 +13,7 @@ CLASS cdz net/minecraft/world/level/LevelProperties
 	FIELD L borderWarningBlocks I
 	FIELD M borderWarningTime I
 	FIELD P worldData Ljava/util/Map;
+	FIELD Q customBossEvents Lgu;
 	FIELD R gameRules Lbat;
 	FIELD a DEFAULT_DIFFICULTY Lagk;
 	FIELD b versionName Ljava/lang/String;
@@ -152,4 +153,3 @@ CLASS cdz net/minecraft/world/level/LevelProperties
 	METHOD x getDifficulty ()Lagk;
 	METHOD y isDifficultyLocked ()Z
 	METHOD z getClearWeatherTime ()I
-	FIELD Q customBossEvents Lgu;

@@ -1,4 +1,8 @@
 CLASS clt net/minecraft/advancement/AdvancementTabType
+	FIELD a ABOVE Lclt;
+	FIELD b BELOW Lclt;
+	FIELD c LEFT Lclt;
+	FIELD d RIGHT Lclt;
 	METHOD a drawIcon (IIILdam;Lawg;)V
 		ARG 0 x
 		ARG 1 y
@@ -9,7 +13,3 @@ CLASS clt net/minecraft/advancement/AdvancementTabType
 		ARG 1 x
 		ARG 2 y
 		ARG 3 selected
-	FIELD a ABOVE Lclt;
-	FIELD b BELOW Lclt;
-	FIELD c LEFT Lclt;
-	FIELD d RIGHT Lclt;

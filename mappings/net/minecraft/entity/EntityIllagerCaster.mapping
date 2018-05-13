@@ -16,6 +16,7 @@ CLASS aqq net/minecraft/entity/EntityIllagerCaster
 		METHOD j castSpell ()V
 		METHOD k getSoundPrepare ()Lvo;
 		METHOD m getInitialCooldown ()I
+	FIELD b spellTicks I
 	METHOD K mobTick ()V
 	METHOD R_ update ()V
 	METHOD a deserializeCustomData (Lgu;)V
@@ -23,4 +24,3 @@ CLASS aqq net/minecraft/entity/EntityIllagerCaster
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
 	METHOD w_ initDataTracker ()V
-	FIELD b spellTicks I

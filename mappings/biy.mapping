@@ -1,6 +1,9 @@
 CLASS biy
 	CLASS biy$a
 		METHOD m asString ()Ljava/lang/String;
+	FIELD a INSTRUMENT Lbos;
+	FIELD b POWERED Lboq;
+	FIELD c NOTE Lbot;
 	METHOD a onBlockAction (Lbnv;Lbax;Lef;II)Z
 		ARG 1 world
 		ARG 2 pos
@@ -22,6 +25,3 @@ CLASS biy
 		ARG 2 pos
 		ARG 3 block
 		ARG 4 updatePos
-	FIELD a INSTRUMENT Lbos;
-	FIELD b POWERED Lboq;
-	FIELD c NOTE Lbot;

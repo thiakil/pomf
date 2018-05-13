@@ -1,4 +1,5 @@
 CLASS bim
+	FIELD a POWERED Lboq;
 	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
 		ARG 0 blockView
 		ARG 2 pos
@@ -27,4 +28,3 @@ CLASS bim
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 rand
-	FIELD a POWERED Lboq;

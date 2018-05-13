@@ -1,4 +1,6 @@
 CLASS clh
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f HTTP Ljava/util/Set;
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY
@@ -29,5 +31,3 @@ CLASS clh
 		ARG 0 component
 	METHOD f update ()V
 	METHOD n onClosed ()V
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD f HTTP Ljava/util/Set;

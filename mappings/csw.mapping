@@ -1,9 +1,0 @@
-CLASS csw
-	CLASS csw$a Factory
-	METHOD a update ()V
-	METHOD a setSpriteIndex (I)V
-		ARG 0 value
-	METHOD a buildGeometry (Lcut;Laht;FFFFFF)V
-		ARG 0 vertexBuffer
-		ARG 1 entity
-		ARG 2 deltaTicks

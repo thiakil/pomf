@@ -1,4 +1,5 @@
 CLASS amy net/minecraft/entity/passive/EntityOcelot
+	FIELD bF CAT Loj;
 	METHOD B attackEntity (Laht;)Z
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
@@ -29,4 +30,3 @@ CLASS amy net/minecraft/entity/passive/EntityOcelot
 	METHOD dD onTamedChanged ()V
 	METHOD n ()V
 	METHOD w_ initDataTracker ()V
-	FIELD bF CAT Loj;
