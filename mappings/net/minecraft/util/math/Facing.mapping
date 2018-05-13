@@ -1,5 +1,14 @@
 CLASS el net/minecraft/util/math/Facing
-	CLASS el$a
+	CLASS el$a Axis
+		FIELD a X Lel$a;
+		FIELD b Y Lel$a;
+		FIELD c Z Lel$a;
+		FIELD f plane Lel$c;
+		METHOD a (Lel;)Z
+			ARG 0 facing
+		METHOD a byName (Ljava/lang/String;)Lel$a;
+		METHOD b isVertical ()Z
+		METHOD c isHorizontal ()Z
 		METHOD m asString ()Ljava/lang/String;
 	CLASS el$b Direction
 		FIELD a POSITIVE Lel$b;
@@ -26,14 +35,20 @@ CLASS el net/minecraft/util/math/Facing
 	FIELD k axis Lel$a;
 	FIELD l direction Lel$b;
 	FIELD m vector Lfb;
+	FIELD n VALUES_COPY [Lel;
+	FIELD o NAME_LOOKUP Ljava/util/Map;
+	FIELD p VALUES [Lel;
+	FIELD q HORIZONTALS [Lel;
 	METHOD <init> (Ljava/lang/String;IIIILjava/lang/String;Lel$b;Lel$a;Lfb;)V
 		ARG 0 id
 		ARG 1 idOpposite
-		ARG 2 idHorizontal
-		ARG 3 name
-		ARG 4 direction
-		ARG 5 axis
-		ARG 6 vector
+		ARG 2 index
+		ARG 3 opposite
+		ARG 4 horizontal
+		ARG 5 name
+		ARG 6 direction
+		ARG 7 axis
+		ARG 8 vec
 	METHOD a getId ()I
 	METHOD a fromRotation (D)Lel;
 		ARG 0 rotation
@@ -43,6 +58,7 @@ CLASS el net/minecraft/util/math/Facing
 		ARG 2 z
 	METHOD a byId (I)Lel;
 		ARG 0 id
+	METHOD a (Laht;)[Lel;
 	METHOD a rotateClockwise (Lel$a;)Lel;
 		ARG 0 axis
 	METHOD a get (Lel$b;Lel$a;)Lel;

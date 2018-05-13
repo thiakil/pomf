@@ -41,3 +41,4 @@ CLASS bfk
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
+	METHOD c getMapColor (Lbnv;Lbal;Lef;)Lcbc;

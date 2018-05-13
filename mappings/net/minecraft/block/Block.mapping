@@ -3,9 +3,26 @@ CLASS bfm net/minecraft/block/Block
 		FIELD a NONE Lbfm$a;
 		FIELD b XZ Lbfm$a;
 		FIELD c XYZ Lbfm$a;
+	FIELD a AIR_ID Loj;
 	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD e REGISTRY Lej;
+	FIELD f STATE_IDS Lep;
+	FIELD g lightValue I
+	FIELD h hardness F
+	FIELD i resistance F
+	FIELD j randomTicks Z
+	FIELD k blockEntity Z
+	FIELD l soundGroup Lbkl;
+	FIELD m particleGravity F
+	FIELD n material Lcbb;
+	FIELD o mapColor Lcbc;
+	FIELD p slipperiness F
+	FIELD q stateContainer Lbnx;
+	FIELD s unlocalizedName Ljava/lang/String;
 	METHOD X_ getRenderLayer ()Lbam;
 	METHOD a canMobSpawnInside ()Z
+	METHOD a getBlockFromItem (Lawc;)Lbfm;
+		ARG 0 item
 	METHOD a onEntityLand (Lbal;Laht;)V
 		ARG 1 entity
 	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
@@ -100,11 +117,14 @@ CLASS bfm net/minecraft/block/Block
 	METHOD c onRainTick (Lbax;Lef;)V
 		ARG 0 world
 		ARG 1 pos
+	METHOD c getMapColor (Lbnv;Lbal;Lef;)Lcbc;
 	METHOD c randomDisplayTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 rand
 	METHOD h getItem ()Lawc;
+	METHOD k (Lbnv;)I
+		ARG 0 state
 	METHOD l getLightValue (Lbnv;)I
 	METHOD m getMaterial (Lbnv;)Lcbb;
 	METHOD n getDefaultState ()Lbnv;
