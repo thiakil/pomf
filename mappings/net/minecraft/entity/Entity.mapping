@@ -339,3 +339,4 @@ CLASS aht net/minecraft/entity/Entity
 	METHOD w_ initDataTracker ()V
 	METHOD y getBlockPos ()Lef;
 	METHOD z_ getPistonBehavior ()Lcbd;
+	FIELD az entity Ljava/lang/String;

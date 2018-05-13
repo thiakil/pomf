@@ -1,6 +1,6 @@
 CLASS cxw net/minecraft/client/render/chunk/ChunkRenderWorker
 	CLASS cxw$1
-		METHOD run run ()V
+		METHOD run ()V
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD b batcher Lcxv;
 	FIELD d running Z
@@ -15,4 +15,4 @@ CLASS cxw net/minecraft/client/render/chunk/ChunkRenderWorker
 	METHOD a loadChunk (Lef;Lbax;)Z
 		ARG 0 pos
 		ARG 1 world
-	METHOD run run ()V
+	METHOD run ()V

@@ -14,3 +14,4 @@ CLASS ac
 	METHOD b removeCondition (Lot;Ls$a;)V
 		ARG 0 manager
 		ARG 1 condition
+	FIELD a CHANNELED_LIGHTNING Loj;

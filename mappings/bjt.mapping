@@ -12,3 +12,5 @@ CLASS bjt
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 rand
+	FIELD a LOCKED Lboq;
+	FIELD t DELAY Lbot;

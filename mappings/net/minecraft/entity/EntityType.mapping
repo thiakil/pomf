@@ -12,3 +12,7 @@ CLASS aie net/minecraft/entity/EntityType
 	METHOD b getSpawnCap ()I
 	METHOD c isPeaceful ()Z
 	METHOD d isAnimal ()Z
+	FIELD a MONSTER Laie;
+	FIELD b CREATURE Laie;
+	FIELD c AMBIENT Laie;
+	FIELD d WATER_CREATURE Laie;

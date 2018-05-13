@@ -16,3 +16,5 @@ CLASS bgq
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
+	FIELD a POWER Lbot;
+	FIELD b INVERTED Lboq;

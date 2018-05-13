@@ -9,4 +9,4 @@ CLASS gr
 	METHOD b copy ()Lhj;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object
-	METHOD size size ()I
+	METHOD size ()I

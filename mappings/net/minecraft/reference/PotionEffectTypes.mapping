@@ -28,3 +28,6 @@ CLASS aho net/minecraft/reference/PotionEffectTypes
 	FIELD z LUCK Lahl;
 	METHOD a getPotionEffectFromId (Ljava/lang/String;)Lahl;
 		ARG 0 id
+	FIELD B SLOW_FALLING Lahl;
+	FIELD C CONDUIT_POWER Lahl;
+	FIELD D DOLPHINS_GRACE Lahl;

@@ -4,7 +4,7 @@ CLASS csg net/minecraft/client/network/handler/NetworkGameHandlerClient
 			METHOD confirmResult handle (ZI)V
 				ARG 0 result
 				ARG 1 callbackId
-		METHOD run run ()V
+		METHOD run ()V
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD b connection Lhr;
 	FIELD e game Lchp;

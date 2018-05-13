@@ -1,1 +1,2 @@
 CLASS rc net/minecraft/command/CommandSummon
+	FIELD a COMMANDS_SUMMON_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;

@@ -20,3 +20,4 @@ CLASS cqf net/minecraft/client/render/entity/model/EntityModelOcelot
 		ARG 1 swingAmount
 		ARG 2 swingDelta
 		ARG 3 deltaTicks
+	FIELD g head Lcrz;

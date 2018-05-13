@@ -11,3 +11,5 @@ CLASS bbr
 			ARG 1 weight
 			ARG 2 minGroupSize
 			ARG 3 maxGroupSize
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD aM biome Ljava/lang/String;

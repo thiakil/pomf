@@ -57,3 +57,4 @@ CLASS ahr net/minecraft/entity/EntityAreaEffectCloud
 	METHOD w_ initDataTracker ()V
 	METHOD x updateColor ()V
 	METHOD z_ getPistonBehavior ()Lcbd;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

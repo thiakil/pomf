@@ -3,3 +3,4 @@ CLASS bhp
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
+	FIELD a AGE Lbot;

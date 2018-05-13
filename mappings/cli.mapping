@@ -4,3 +4,6 @@ CLASS cli
 		ARG 1 mouseY
 		ARG 2 delta
 	METHOD c init ()V
+	FIELD f selectworldAllowcommands Lciq;
+	FIELD g selectworldGamemode Lciq;
+	FIELD h survival Ljava/lang/String;

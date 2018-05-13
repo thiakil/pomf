@@ -22,3 +22,6 @@ CLASS biy
 		ARG 2 pos
 		ARG 3 block
 		ARG 4 updatePos
+	FIELD a INSTRUMENT Lbos;
+	FIELD b POWERED Lboq;
+	FIELD c NOTE Lbot;

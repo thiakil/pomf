@@ -5,3 +5,4 @@ CLASS uo
 	METHOD d getName ()Ljava/lang/String;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;

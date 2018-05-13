@@ -3,3 +3,7 @@ CLASS byw
 		ARG 0 tag
 	METHOD a deserializeStructureData (Lgu;Lbzn;)V
 		ARG 0 tag
+	FIELD a width I
+	FIELD b height I
+	FIELD c depth I
+	FIELD d hPos I

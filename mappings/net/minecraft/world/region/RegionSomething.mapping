@@ -1,3 +1,4 @@
 CLASS bqb net/minecraft/world/region/RegionSomething
 	CLASS bqb$a RegionOutputStream
 	METHOD c close ()V
+	FIELD c rw Ljava/io/RandomAccessFile;

@@ -1,6 +1,6 @@
 CLASS chp net/minecraft/client/MinecraftClient
 	CLASS chp$5
-		METHOD run run ()V
+		METHOD run ()V
 	FIELD E LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD G sessionPropertyMap Lcom/mojang/authlib/properties/PropertyMap;
 	FIELD I currentServerEntry Lcsm;
@@ -141,3 +141,6 @@ CLASS chp net/minecraft/client/MinecraftClient
 	METHOD v getCurrentServerEntry ()Lcsm;
 	METHOD y getServer ()Ldhm;
 	METHOD z onShutdown ()V
+	FIELD ag saves Lcec;
+	FIELD aN background Loj;
+	FIELD aP root Ljava/lang/String;

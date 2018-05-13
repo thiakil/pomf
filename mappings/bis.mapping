@@ -1,0 +1,4 @@
+CLASS bis
+	FIELD a NONE Lbis;
+	FIELD b LEFT_RIGHT Lbis;
+	FIELD c FRONT_BACK Lbis;

@@ -9,3 +9,4 @@ CLASS cod
 		ARG 1 keyCode
 	METHOD f update ()V
 	METHOD n onClosed ()V
+	FIELD a selectworldEditSave Lciq;

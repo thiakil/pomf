@@ -186,3 +186,4 @@ CLASS arh net/minecraft/entity/player/EntityPlayer
 	METHOD t isSpectator ()Z
 	METHOD u isCreative ()Z
 	METHOD w_ initDataTracker ()V
+	FIELD d selectedItemSlot Z

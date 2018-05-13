@@ -15,3 +15,4 @@ CLASS arm net/minecraft/entity/projectile/EntityExplosiveProjectile
 		ARG 0 tag
 	METHOD i getParticleType ()Lfg;
 	METHOD w_ initDataTracker ()V
+	FIELD e life I

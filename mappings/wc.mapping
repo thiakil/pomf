@@ -1,0 +1,3 @@
+CLASS wc
+	FIELD a WATER Lwf;
+	FIELD b LAVA Lwf;

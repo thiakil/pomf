@@ -72,3 +72,6 @@ CLASS ahc net/minecraft/entity/damage/DamageSource
 	METHOD t setMagic ()Z
 	METHOD u setMagic ()Lahc;
 	METHOD v isSourceCreativePlayer ()Z
+	FIELD g CRAMMING Lahc;
+	FIELD t FIREWORKS Lahc;
+	FIELD u DRYOUT Lahc;

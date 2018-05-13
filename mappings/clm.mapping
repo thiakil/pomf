@@ -9,3 +9,8 @@ CLASS clm
 		ARG 1 callbackId
 	METHOD f update ()V
 	METHOD n onClosed ()V
+	FIELD a PLEASECLICK Ljava/lang/String;
+	FIELD s menuResetdemo Lciq;
+	FIELD h missingno Ljava/lang/String;
+	FIELD i menuOptions Lciq;
+	FIELD I menuOnline Lciq;

@@ -6,3 +6,5 @@ CLASS byq
 		ARG 0 tag
 	METHOD a deserializeStructureData (Lgu;Lbzn;)V
 		ARG 0 tag
+	FIELD e placedMainChest Z
+	FIELD f placedHiddenChest Z

@@ -8,4 +8,4 @@ CLASS vl net/minecraft/server/rcon/RconClient
 		ARG 0 server
 		ARG 1 socket
 	METHOD g close ()V
-	METHOD run run ()V
+	METHOD run ()V

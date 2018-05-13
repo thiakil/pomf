@@ -1,6 +1,6 @@
 CLASS wr net/minecraft/util/NetworkHelper
 	CLASS wr$1
-		METHOD run run ()V
+		METHOD run ()V
 	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD a downloadResourcePack (Ljava/io/File;Ljava/lang/String;Ljava/util/Map;ILxa;Ljava/net/Proxy;)Lcom/google/common/util/concurrent/ListenableFuture;
 		ARG 0 outputFile

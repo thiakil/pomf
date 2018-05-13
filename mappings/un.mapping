@@ -8,3 +8,4 @@ CLASS un
 		ARG 0 listener
 	METHOD b getAllResources (Loj;)Ljava/util/List;
 		ARG 0 id
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

@@ -5,3 +5,5 @@ CLASS cla
 		ARG 2 delta
 	METHOD c init ()V
 	METHOD n onClosed ()V
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD g logo Loj;

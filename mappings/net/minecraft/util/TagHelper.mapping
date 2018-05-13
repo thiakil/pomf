@@ -22,3 +22,4 @@ CLASS hf net/minecraft/util/TagHelper
 		ARG 0 tag
 	METHOD c deserializeBlockPos (Lgu;)Lef;
 		ARG 0 tag
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

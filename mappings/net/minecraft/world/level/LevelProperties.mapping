@@ -152,3 +152,4 @@ CLASS cdz net/minecraft/world/level/LevelProperties
 	METHOD x getDifficulty ()Lagk;
 	METHOD y isDifficultyLocked ()Z
 	METHOD z getClearWeatherTime ()I
+	FIELD Q customBossEvents Lgu;

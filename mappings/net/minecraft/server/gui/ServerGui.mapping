@@ -1,8 +1,8 @@
 CLASS rx net/minecraft/server/gui/ServerGui
 	CLASS rx$4
-		METHOD run run ()V
+		METHOD run ()V
 	CLASS rx$5
-		METHOD run run ()V
+		METHOD run ()V
 	FIELD a FONT Ljava/awt/Font;
 	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD c server Lru;

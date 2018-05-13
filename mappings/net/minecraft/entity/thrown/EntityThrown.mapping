@@ -30,3 +30,5 @@ CLASS asa net/minecraft/entity/thrown/EntityThrown
 		ARG 2 z
 	METHOD i getOwner ()Laic;
 	METHOD w_ initDataTracker ()V
+	FIELD g zTile I
+	FIELD h owner Ljava/util/UUID;

@@ -17,3 +17,4 @@ CLASS clk net/minecraft/client/gui/menu/GuiSettingsSnooper
 		ARG 1 mouseY
 		ARG 2 delta
 	METHOD c init ()V
+	FIELD i optionsSnooperTitle Ljava/lang/String;

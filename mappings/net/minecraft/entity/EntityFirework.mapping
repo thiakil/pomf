@@ -16,3 +16,5 @@ CLASS arr net/minecraft/entity/EntityFirework
 		ARG 1 y
 		ARG 2 z
 	METHOD w_ initDataTracker ()V
+	FIELD c life I
+	FIELD d lifeTime I

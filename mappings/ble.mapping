@@ -22,3 +22,7 @@ CLASS ble
 		ARG 2 pos
 		ARG 3 block
 		ARG 4 updatePos
+	FIELD a OPEN Lboq;
+	FIELD b HALF Lbos;
+	FIELD c POWERED Lboq;
+	FIELD t WATERLOGGED Lboq;

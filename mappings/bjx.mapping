@@ -14,3 +14,4 @@ CLASS bjx
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
+	FIELD a STAGE Lbot;

@@ -16,3 +16,4 @@ CLASS art net/minecraft/entity/projectile/EntityLlamaSpit
 		ARG 1 y
 		ARG 2 z
 	METHOD w_ initDataTracker ()V
+	FIELD b owner Lgu;

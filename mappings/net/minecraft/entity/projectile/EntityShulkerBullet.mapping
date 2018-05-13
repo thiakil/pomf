@@ -13,3 +13,8 @@ CLASS arw net/minecraft/entity/projectile/EntityShulkerBullet
 		ARG 0 tag
 	METHOD bX getSoundCategory ()Lvq;
 	METHOD w_ initDataTracker ()V
+	FIELD c dir Lel;
+	FIELD d steps I
+	FIELD e txd D
+	FIELD f tyd D
+	FIELD g tzd D

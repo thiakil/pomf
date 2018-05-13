@@ -34,3 +34,4 @@ CLASS bgg net/minecraft/block/BlockCommand
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;

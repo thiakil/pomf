@@ -45,3 +45,6 @@ CLASS bkq
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 rand
+	FIELD b HALF Lbos;
+	FIELD c SHAPE Lbos;
+	FIELD t WATERLOGGED Lboq;

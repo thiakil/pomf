@@ -85,3 +85,4 @@ CLASS cej net/minecraft/reference/LootTables
 		ARG 0 id
 	METHOD a registerLootTable (Loj;)Loj;
 		ARG 0 id
+	FIELD aS LOGGER Lorg/apache/logging/log4j/Logger;

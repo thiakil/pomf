@@ -57,3 +57,4 @@ CLASS bmd net/minecraft/block/entity/BlockEntityBrewingStand
 	METHOD m clearInv ()V
 	METHOD q canCraft ()Z
 	METHOD r craft ()V
+	FIELD k customName Lic;

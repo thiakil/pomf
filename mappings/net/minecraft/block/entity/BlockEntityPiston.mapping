@@ -19,3 +19,5 @@ CLASS bnq net/minecraft/block/entity/BlockEntityPiston
 	METHOD d getFacing ()Lel;
 	METHOD d getRenderOffsetZ (F)F
 		ARG 0 deltaTicks
+	FIELD a blockState Lbnv;
+	FIELD g source Z

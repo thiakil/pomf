@@ -37,3 +37,4 @@ CLASS aqp net/minecraft/entity/mob/EntitySlime
 		ARG 0 other
 	METHOD n ()V
 	METHOD w_ initDataTracker ()V
+	FIELD bA wasOnGround Z

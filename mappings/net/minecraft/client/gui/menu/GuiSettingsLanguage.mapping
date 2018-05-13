@@ -17,3 +17,4 @@ CLASS ckz net/minecraft/client/gui/menu/GuiSettingsLanguage
 		ARG 1 mouseY
 		ARG 2 delta
 	METHOD c init ()V
+	FIELD s guiDone Lcjd;

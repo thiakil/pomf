@@ -7,3 +7,4 @@ CLASS bpl
 	METHOD b getFluidState (Lef;)Lcax;
 	METHOD f getBlockEntity (Lef;)Lbmb;
 		ARG 0 pos
+	FIELD e LOGGER Lorg/apache/logging/log4j/Logger;

@@ -69,3 +69,4 @@ CLASS aqm net/minecraft/entity/mob/EntityShulker
 	METHOD k updateMovement ()V
 	METHOD n ()V
 	METHOD w_ initDataTracker ()V
+	FIELD bB COVEREDARMORBONUS Laiq;

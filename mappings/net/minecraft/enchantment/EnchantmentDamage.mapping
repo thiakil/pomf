@@ -12,3 +12,4 @@ CLASS azc net/minecraft/enchantment/EnchantmentDamage
 	METHOD a isEqual (Lazf;)Z
 		ARG 0 other
 	METHOD b getHighestLevel ()I
+	FIELD e ALL [Ljava/lang/String;

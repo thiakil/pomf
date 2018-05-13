@@ -1,6 +1,6 @@
 CLASS ti net/minecraft/network/handler/NetworkGameHandlerServer
 	CLASS ti$2
-		METHOD run run ()V
+		METHOD run ()V
 	FIELD a connection Lhr;
 	FIELD b player Lsl;
 	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;

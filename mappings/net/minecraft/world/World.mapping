@@ -268,3 +268,4 @@ CLASS bax net/minecraft/world/World
 	METHOD v setSpawnPos (Lef;)V
 		ARG 0 pos
 	METHOD x getServer ()Lnet/minecraft/server/MinecraftServer;
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;

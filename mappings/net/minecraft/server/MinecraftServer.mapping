@@ -1,4 +1,4 @@
-CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
+CLASS net/minecraft/server/MinecraftServer
 	CLASS net/minecraft/server/MinecraftServer$1
 		FIELD b lastProgressUpdate J
 		METHOD a finish ()V
@@ -156,7 +156,7 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD g setSpawnNpcs (Z)V
 		ARG 0 value
 	METHOD g_ generateTerrain ()V
-	METHOD getServerModName getServerModName ()Ljava/lang/String;
+	METHOD getServerModName ()Ljava/lang/String;
 	METHOD h getDefaultGameMode ()Lbau;
 	METHOD h setUserName (Ljava/lang/String;)V
 		ARG 0 value
@@ -176,13 +176,13 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 		ARG 0 value
 	METHOD l shouldBroadcastRconToOps ()Z
 	METHOD m clearSpawnAreaProgress ()V
-	METHOD main main ([Ljava/lang/String;)V
+	METHOD main ([Ljava/lang/String;)V
 		ARG 0 args
 	METHOD o getServerIp ()Ljava/lang/String;
 	METHOD p isRunning ()Z
 	METHOD q stop ()V
 	METHOD r hasIconFile ()Z
-	METHOD run run ()V
+	METHOD run ()V
 	METHOD s getIconFile ()Ljava/io/File;
 	METHOD t getRunDirectory ()Ljava/io/File;
 	METHOD u exit ()V
@@ -191,3 +191,4 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD x isNetherAllowed ()Z
 	METHOD y start ()V
 	METHOD z getVersion ()Ljava/lang/String;
+	FIELD ae datapacks Lub;

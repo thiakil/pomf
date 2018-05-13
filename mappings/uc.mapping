@@ -1,0 +1,6 @@
+CLASS uc
+	FIELD a TOO_OLD Luc;
+	FIELD b TOO_NEW Luc;
+	FIELD c COMPATIBLE Luc;
+	FIELD d resourcepackIncompatible Lic;
+	FIELD e resourcepackIncompatibleConfirm Lic;

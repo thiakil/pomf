@@ -1,1 +1,2 @@
 CLASS qq net/minecraft/command/CommandDisableAutosave
+	FIELD a COMMANDS_SAVE_ALREADYOFF Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;

@@ -1,1 +1,2 @@
 CLASS qh net/minecraft/command/CommandPardon
+	FIELD a COMMANDS_PARDON_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;

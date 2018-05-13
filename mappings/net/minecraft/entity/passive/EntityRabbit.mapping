@@ -44,3 +44,5 @@ CLASS and net/minecraft/entity/passive/EntityRabbit
 	METHOD p setRabbitType (I)V
 		ARG 0 value
 	METHOD w_ initDataTracker ()V
+	FIELD bG moreCarrotTicks I
+	FIELD bA KILLER_BUNNY Loj;

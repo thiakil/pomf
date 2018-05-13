@@ -11,3 +11,5 @@ CLASS ckp
 		ARG 1 mouseY
 		ARG 2 delta
 	METHOD c init ()V
+	FIELD u guiDone Lciq;
+	FIELD i createworldCustomizeBuffetTitle Ljava/lang/String;

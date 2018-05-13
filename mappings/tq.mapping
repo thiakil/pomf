@@ -3,3 +3,4 @@ CLASS tq
 		ARG 0 path
 	METHOD c canHandleByPath (Ljava/lang/String;)Z
 		ARG 0 path
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;

@@ -11,3 +11,4 @@ CLASS bfg
 	METHOD a onBlockRemoved (Lbnv;Lbax;Lef;Lbnv;)V
 		ARG 1 world
 		ARG 2 pos
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

@@ -36,3 +36,5 @@ CLASS bli
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
+	FIELD a HATCH Lbot;
+	FIELD b EGGS Lbot;

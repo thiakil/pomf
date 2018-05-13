@@ -28,3 +28,10 @@ CLASS azj net/minecraft/enchantment/Enchantments
 	FIELD z INFINITY Lazf;
 	METHOD a getEnchantment (Ljava/lang/String;)Lazf;
 		ARG 0 name
+	FIELD C LOYALTY Lazf;
+	FIELD D IMPALING Lazf;
+	FIELD E RIPTIDE Lazf;
+	FIELD F CHANNELING Lazf;
+	FIELD H VANISHING_CURSE Lazf;
+	FIELD k BINDING_CURSE Lazf;
+	FIELD r SWEEPING Lazf;

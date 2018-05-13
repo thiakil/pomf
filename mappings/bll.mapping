@@ -5,3 +5,4 @@ CLASS bll
 		ARG 3 face
 	METHOD a isNotSolid (Lbnv;Lbal;Lef;)Z
 		ARG 2 pos
+	FIELD y UP Lboq;

@@ -16,3 +16,4 @@ CLASS aqv net/minecraft/entity/mob/EntityWitch
 	METHOD s setAiming (Z)V
 		ARG 0 value
 	METHOD w_ initDataTracker ()V
+	FIELD b DRINKINGSPEEDPENALTY Laiq;

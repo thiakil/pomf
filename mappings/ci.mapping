@@ -1,1 +1,2 @@
 CLASS ci
+	FIELD a __ Ljava/util/Collection;

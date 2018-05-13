@@ -1,6 +1,6 @@
 CLASS hr net/minecraft/network/ClientConnection
 	CLASS hr$1
-		METHOD run run ()V
+		METHOD run ()V
 	FIELD c ATTR_KEY_PROTOCOL Lio/netty/util/AttributeKey;
 	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD h side Liq;
@@ -41,3 +41,5 @@ CLASS hr net/minecraft/network/ClientConnection
 	METHOD i getPacketListener ()Lhw;
 	METHOD j getDisconnectReason ()Lic;
 	METHOD l handleDisconnection ()V
+	FIELD a NETWORK Lorg/apache/logging/log4j/Marker;
+	FIELD b NETWORK_PACKETS Lorg/apache/logging/log4j/Marker;

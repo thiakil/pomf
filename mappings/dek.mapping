@@ -1,3 +1,4 @@
 CLASS dek
 	METHOD a load (Lul;)V
 		ARG 0 resourceContainer
+	FIELD f LOGGER Lorg/apache/logging/log4j/Logger;

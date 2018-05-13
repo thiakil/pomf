@@ -10,3 +10,5 @@ CLASS asf net/minecraft/entity/projectile/EntityTrident
 		ARG 2 z
 	METHOD k asItemStack ()Lawg;
 	METHOD w_ initDataTracker ()V
+	FIELD av dealtDamage Z
+	FIELD h trident Lawg;

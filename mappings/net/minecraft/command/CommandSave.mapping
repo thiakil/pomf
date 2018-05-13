@@ -1,1 +1,2 @@
 CLASS qp net/minecraft/command/CommandSave
+	FIELD a COMMANDS_SAVE_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;

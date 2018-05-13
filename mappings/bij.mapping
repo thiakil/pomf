@@ -4,3 +4,4 @@ CLASS bij
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
+	FIELD b WATERLOGGED Lboq;

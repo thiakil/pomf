@@ -29,3 +29,5 @@ CLASS bai net/minecraft/sortme/CommandBlockExecutor
 	METHOD j getLastOutput ()Lic;
 	METHOD k getCommand ()Ljava/lang/String;
 	METHOD m isTrackingOutput ()Z
+	FIELD b lastExecution J
+	FIELD c updateLastExecution Z

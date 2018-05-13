@@ -107,3 +107,4 @@ CLASS cig net/minecraft/client/render/FontRenderer
 	METHOD d trimEndNewlines (Ljava/lang/String;)Ljava/lang/String;
 		ARG 0 str
 	METHOD e resetChatFormatting ()V
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;

@@ -21,3 +21,5 @@ CLASS bjz
 		ARG 1 rand
 		ARG 2 pos
 	METHOD l getLightValue (Lbnv;)I
+	FIELD a PICKLES Lbot;
+	FIELD b WATERLOGGED Lboq;

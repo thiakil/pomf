@@ -1,1 +1,2 @@
 CLASS qj net/minecraft/command/CommandParticle
+	FIELD a COMMANDS_PARTICLE_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;

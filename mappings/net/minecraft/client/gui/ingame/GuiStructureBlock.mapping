@@ -55,3 +55,5 @@ CLASS cmy net/minecraft/client/gui/ingame/GuiStructureBlock
 	METHOD o updateMirrorButton ()V
 	METHOD s updateRotationButton ()V
 	METHOD u updateMode ()V
+	FIELD F guiDone Lciq;
+	FIELD G guiCancel Lciq;

@@ -1,1 +1,3 @@
 CLASS qo net/minecraft/command/CommandReplaceItem
+	FIELD a COMMANDS_REPLACEITEM_BLOCK_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b COMMANDS_REPLACEITEM_SLOT_INAPPLICABLE Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;

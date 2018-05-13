@@ -1,1 +1,2 @@
 CLASS pp net/minecraft/command/CommandDifficulty
+	FIELD a COMMANDS_DIFFICULTY_FAILURE Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;

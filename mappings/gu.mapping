@@ -10,3 +10,4 @@ CLASS gu
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object
 	METHOD f copy ()Lgu;
+	FIELD f LOGGER Lorg/apache/logging/log4j/Logger;

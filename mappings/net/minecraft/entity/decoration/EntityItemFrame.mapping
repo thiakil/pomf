@@ -22,3 +22,5 @@ CLASS apc net/minecraft/entity/decoration/EntityItemFrame
 	METHOD l getHeightPixels ()I
 	METHOD m onDecorationPlaced ()V
 	METHOD w_ initDataTracker ()V
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD g itemDropChance F

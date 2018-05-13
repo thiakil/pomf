@@ -6,3 +6,9 @@ CLASS cuy net/minecraft/sortme/SomethingDirectionSomethingQuadBakery
 		FIELD d NORTH I
 		FIELD e DOWN I
 		FIELD f WEST I
+	FIELD a DOWN Lcuy;
+	FIELD b UP Lcuy;
+	FIELD c NORTH Lcuy;
+	FIELD d SOUTH Lcuy;
+	FIELD e WEST Lcuy;
+	FIELD f EAST Lcuy;

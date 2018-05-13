@@ -13,3 +13,7 @@ CLASS cle net/minecraft/client/gui/menu/GuiNewLevelPresets
 	METHOD c init ()V
 	METHOD f update ()V
 	METHOD n onClosed ()V
+	FIELD t createworldCustomizePresetsSelect Lciq;
+	FIELD g createworldCustomizePresetsTitle Ljava/lang/String;
+	FIELD h createworldCustomizePresetsShare Ljava/lang/String;
+	FIELD i createworldCustomizePresetsList Ljava/lang/String;

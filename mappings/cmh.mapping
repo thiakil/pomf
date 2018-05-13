@@ -1,2 +1,5 @@
 CLASS cmh
 	METHOD c init ()V
+	FIELD u advmodeModeSequence Lciq;
+	FIELD v advmodeModeUnconditional Lciq;
+	FIELD w advmodeModeRedstonetriggered Lciq;

@@ -7,3 +7,4 @@ CLASS ase net/minecraft/entity/thrown/EntityThrownPotion
 		ARG 0 tag
 	METHOD f getGravity ()F
 	METHOD w_ initDataTracker ()V
+	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;

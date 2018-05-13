@@ -13,3 +13,5 @@ CLASS amr net/minecraft/entity/passive/EntityAnimal
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
 	METHOD k updateMovement ()V
+	FIELD bz inLove I
+	FIELD bA loveCause Ljava/util/UUID;

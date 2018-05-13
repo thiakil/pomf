@@ -1,8 +1,8 @@
 CLASS dfn net/minecraft/sortme/PlayerSkinProvider
 	CLASS dfn$3
 		CLASS dfn$3$1
-			METHOD run run ()V
-		METHOD run run ()V
+			METHOD run ()V
+		METHOD run ()V
 	FIELD a EXECUTOR_SERVICE Ljava/util/concurrent/ExecutorService;
 	FIELD b textureManager Ldeu;
 	FIELD c skinCacheDir Ljava/io/File;

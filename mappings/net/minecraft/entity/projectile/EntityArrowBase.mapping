@@ -57,3 +57,7 @@ CLASS arl net/minecraft/entity/projectile/EntityArrowBase
 	METHOD l getDamage ()D
 	METHOD n isCritical ()Z
 	METHOD w_ initDataTracker ()V
+	FIELD av yTile I
+	FIELD aw zTile I
+	FIELD h xTile I
+	FIELD ay life I

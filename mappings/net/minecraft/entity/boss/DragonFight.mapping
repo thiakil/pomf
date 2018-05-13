@@ -14,3 +14,4 @@ CLASS bqj net/minecraft/entity/boss/DragonFight
 	METHOD g hasPortal ()Z
 	METHOD k scanCrystals ()V
 	METHOD m spawnDragon ()Laoe;
+	FIELD c entityMinecraftEnderDragon Lsh;

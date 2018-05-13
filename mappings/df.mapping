@@ -1,0 +1,2 @@
+CLASS df
+	FIELD a ARGUMENTS_ITEM_OVERSTACKED Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;

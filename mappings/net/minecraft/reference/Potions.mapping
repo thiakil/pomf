@@ -37,3 +37,9 @@ CLASS axy net/minecraft/reference/Potions
 	FIELD z HEALING Laxv;
 	METHOD a getPotionFromId (Ljava/lang/String;)Laxv;
 		ARG 0 id
+	FIELD O SLOW_FALLING Laxv;
+	FIELD P LONG_SLOW_FALLING Laxv;
+	FIELD t STRONG_SLOWNESS Laxv;
+	FIELD u TURTLE_MASTER Laxv;
+	FIELD v LONG_TURTLE_MASTER Laxv;
+	FIELD w STRONG_TURTLE_MASTER Laxv;

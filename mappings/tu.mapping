@@ -2,3 +2,4 @@ CLASS tu
 	METHOD a getName ()Ljava/lang/String;
 	METHOD a open (Lts;Loj;)Ljava/io/InputStream;
 	METHOD b canHandle (Lts;Loj;)Z
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;

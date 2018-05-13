@@ -9,3 +9,4 @@ CLASS bpx
 		ARG 1 x
 		ARG 2 y
 	METHOD c flushChunks ()V
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

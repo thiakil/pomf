@@ -21,3 +21,4 @@ CLASS ams net/minecraft/entity/passive/EntityChicken
 	METHOD d getSoundHurt (Lahc;)Lvo;
 	METHOD k updateMovement ()V
 	METHOD n ()V
+	FIELD bG isChickenJockey Z

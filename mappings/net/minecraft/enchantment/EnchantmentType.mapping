@@ -51,3 +51,5 @@ CLASS azg net/minecraft/enchantment/EnchantmentType
 	FIELD l BOW Lazg;
 	METHOD a isAcceptableItem (Lawc;)Z
 		ARG 0 item
+	FIELD j TRIDENT Lazg;
+	FIELD m WEARABLE Lazg;

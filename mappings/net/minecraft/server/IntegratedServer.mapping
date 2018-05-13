@@ -1,6 +1,6 @@
 CLASS dhm net/minecraft/server/IntegratedServer
 	CLASS dhm$3
-		METHOD run run ()V
+		METHOD run ()V
 	FIELD h LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD i game Lchp;
 	FIELD j levelInfo Lbbc;

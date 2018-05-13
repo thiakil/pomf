@@ -1,0 +1,7 @@
+CLASS bjc
+	FIELD a NORTH Lboq;
+	FIELD b EAST Lboq;
+	FIELD c SOUTH Lboq;
+	FIELD t WEST Lboq;
+	FIELD u UP Lboq;
+	FIELD v DOWN Lboq;

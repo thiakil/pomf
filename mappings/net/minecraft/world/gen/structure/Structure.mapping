@@ -13,3 +13,6 @@ CLASS bzd net/minecraft/world/gen/structure/Structure
 		ARG 0 tag
 	METHOD c getBoundingBox ()Lbyh;
 	METHOD d getPieces ()Ljava/util/List;
+	FIELD c chunkX I
+	FIELD d chunkZ I
+	FIELD e biome Lbbr;

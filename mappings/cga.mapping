@@ -1,0 +1,4 @@
+CLASS cga
+	FIELD a NEVER Lcga;
+	FIELD b SOURCE_ONLY Lcga;
+	FIELD c ALWAYS Lcga;

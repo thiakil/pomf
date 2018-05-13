@@ -1,1 +1,2 @@
 CLASS qg net/minecraft/command/CommandOp
+	FIELD a COMMANDS_OP_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;

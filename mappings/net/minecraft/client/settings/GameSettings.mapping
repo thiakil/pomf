@@ -156,3 +156,4 @@ CLASS chs net/minecraft/client/settings/GameSettings
 	METHOD d getEnabledPlayerModelParts ()Ljava/util/Set;
 	METHOD e getCloudRenderMode ()I
 	METHOD f shouldUseNativeTransport ()Z
+	FIELD b OPTIONS_NARRATOR_OFF [Ljava/lang/String;

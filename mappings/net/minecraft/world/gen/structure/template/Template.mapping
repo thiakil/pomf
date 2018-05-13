@@ -1,2 +1,3 @@
 CLASS bzq net/minecraft/world/gen/structure/template/Template
 	CLASS bzq$b BlockInfo
+	FIELD d author Ljava/lang/String;

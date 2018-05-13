@@ -12,3 +12,4 @@ CLASS cvr net/minecraft/client/texture/BannerTextureCache
 	FIELD a BANNERS Lcvr$a;
 	FIELD c DEFAULT_SHIELD Loj;
 	FIELD d DEFAULT_BANNER Loj;
+	FIELD b SHIELD_ Lcvr$a;

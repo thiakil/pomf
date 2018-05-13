@@ -19,3 +19,4 @@ CLASS cll net/minecraft/client/gui/menu/GuiSettingsAudio
 		ARG 1 mouseY
 		ARG 2 delta
 	METHOD c init ()V
+	FIELD h optionsOff Ljava/lang/String;

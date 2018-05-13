@@ -42,3 +42,5 @@ CLASS bfk
 		ARG 7 hitY
 		ARG 8 hitZ
 	METHOD c getMapColor (Lbnv;Lbal;Lef;)Lcbc;
+	FIELD a PART Lbos;
+	FIELD b OCCUPIED Lboq;

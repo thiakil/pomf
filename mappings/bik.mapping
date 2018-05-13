@@ -24,3 +24,5 @@ CLASS bik
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 rand
+	FIELD a DECAYABLE Lboq;
+	FIELD b CHECK_DECAY Lboq;

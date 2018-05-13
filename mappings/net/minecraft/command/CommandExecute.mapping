@@ -1,1 +1,2 @@
 CLASS pt net/minecraft/command/CommandExecute
+	FIELD a COMMANDS_EXECUTE_BLOCKS_TOOBIG Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;

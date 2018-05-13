@@ -118,3 +118,4 @@ CLASS awg net/minecraft/item/ItemStack
 	METHOD x isHeldInItemFrame ()Z
 	METHOD y getHoldingItemFrame ()Lapc;
 	METHOD z getRepairCost ()I
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;

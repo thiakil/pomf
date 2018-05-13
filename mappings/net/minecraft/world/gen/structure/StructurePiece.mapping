@@ -21,3 +21,4 @@ CLASS bzc net/minecraft/world/gen/structure/StructurePiece
 	METHOD c serialize ()Lgu;
 	METHOD d getBoundingBox ()Lbyh;
 	METHOD f getOrientation ()Lel;
+	FIELD n gd I

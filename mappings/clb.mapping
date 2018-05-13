@@ -7,3 +7,4 @@ CLASS clb
 	METHOD confirmResult handle (ZI)V
 		ARG 0 result
 		ARG 1 callbackId
+	FIELD a options Ljava/lang/String;

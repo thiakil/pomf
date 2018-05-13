@@ -33,3 +33,5 @@ CLASS bbe net/minecraft/world/level/LevelGeneratorType
 	METHOD i hasInfo ()Z
 	METHOD j setVersioned ()Lbbe;
 	METHOD k setHasInfo ()Lbbe;
+	FIELD f CUSTOMIZED Lbbe;
+	FIELD g BUFFET Lbbe;

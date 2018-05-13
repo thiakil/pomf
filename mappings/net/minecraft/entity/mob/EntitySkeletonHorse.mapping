@@ -15,3 +15,4 @@ CLASS anv net/minecraft/entity/mob/EntitySkeletonHorse
 	METHOD ct getSoundDeath ()Lvo;
 	METHOD d getSoundHurt (Lahc;)Lvo;
 	METHOD k updateMovement ()V
+	FIELD bL skeletonTrapTime I

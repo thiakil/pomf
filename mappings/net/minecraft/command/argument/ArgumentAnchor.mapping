@@ -1,1 +1,3 @@
 CLASS bw net/minecraft/command/argument/ArgumentAnchor
+	FIELD a EYES Ljava/util/Collection;
+	FIELD b ARGUMENT_ANCHOR_INVALID Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;

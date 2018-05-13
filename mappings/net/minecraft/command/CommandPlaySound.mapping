@@ -1,1 +1,2 @@
 CLASS qk net/minecraft/command/CommandPlaySound
+	FIELD a COMMANDS_PLAYSOUND_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;

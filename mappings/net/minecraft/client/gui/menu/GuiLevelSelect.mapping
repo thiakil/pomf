@@ -9,3 +9,7 @@ CLASS coe net/minecraft/client/gui/menu/GuiLevelSelect
 		ARG 2 delta
 	METHOD c init ()V
 	METHOD n onClosed ()V
+	FIELD s selectworldSelect Lciq;
+	FIELD t selectworldEdit Lciq;
+	FIELD u selectworldRecreate Lciq;
+	FIELD i selectworldDelete Lciq;

@@ -18,3 +18,4 @@ CLASS bin
 	METHOD b onBlockAdded (Lbnv;Lbax;Lef;Lbnv;)V
 		ARG 1 world
 		ARG 2 pos
+	FIELD a LEVEL Lbot;

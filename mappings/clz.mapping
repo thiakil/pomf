@@ -4,3 +4,5 @@ CLASS clz
 		ARG 1 mouseY
 		ARG 2 delta
 	METHOD c init ()V
+	FIELD a controls Ljava/lang/String;
+	FIELD u controlsResetall Lciq;

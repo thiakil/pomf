@@ -25,3 +25,5 @@ CLASS bgb
 	METHOD a onBlockRemoved (Lbnv;Lbax;Lef;Lbnv;)V
 		ARG 1 world
 		ARG 2 pos
+	FIELD b TYPE Lbos;
+	FIELD c WATERLOGGED Lboq;

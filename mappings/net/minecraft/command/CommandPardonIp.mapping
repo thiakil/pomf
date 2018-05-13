@@ -1,1 +1,2 @@
 CLASS qi net/minecraft/command/CommandPardonIp
+	FIELD a COMMANDS_PARDONIP_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;

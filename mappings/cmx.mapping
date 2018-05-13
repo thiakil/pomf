@@ -9,3 +9,4 @@ CLASS cmx
 		ARG 1 keyCode
 	METHOD f update ()V
 	METHOD n onClosed ()V
+	FIELD h guiDone Lciq;

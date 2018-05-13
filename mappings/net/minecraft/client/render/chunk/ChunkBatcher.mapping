@@ -1,10 +1,10 @@
 CLASS cxv net/minecraft/client/render/chunk/ChunkBatcher
 	CLASS cxv$1
-		METHOD run run ()V
+		METHOD run ()V
 	CLASS cxv$2
-		METHOD run run ()V
+		METHOD run ()V
 	CLASS cxv$3
-		METHOD run run ()V
+		METHOD run ()V
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD b THREAD_FACTORY Ljava/util/concurrent/ThreadFactory;
 	FIELD d workerThreads Ljava/util/List;

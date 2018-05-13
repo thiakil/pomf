@@ -8,3 +8,4 @@ CLASS bmb
 	METHOD t getSquaredRenderDistance ()D
 	METHOD y invalidate ()V
 	METHOD z validate ()V
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

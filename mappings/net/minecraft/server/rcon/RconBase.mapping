@@ -32,3 +32,4 @@ CLASS vj net/minecraft/server/rcon/RconBase
 	METHOD d logError (Ljava/lang/String;)V
 		ARG 0 msg
 	METHOD e forceClose ()V
+	FIELD h LOGGER Lorg/apache/logging/log4j/Logger;

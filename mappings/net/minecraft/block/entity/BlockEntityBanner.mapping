@@ -19,3 +19,6 @@ CLASS blx net/minecraft/block/entity/BlockEntityBanner
 	METHOD h getPatternColorList ()Ljava/util/List;
 	METHOD j getItemStack ()Lawg;
 	METHOD l initPatternLists ()V
+	FIELD a customName Lic;
+	FIELD f patterns Lha;
+	FIELD j bannerMissing Ljava/lang/String;

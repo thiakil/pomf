@@ -12,3 +12,4 @@ CLASS daq net/minecraft/client/render/entity/EntityRendererLiving
 	METHOD a addLayer (Lddg;)Z
 	METHOD c (Laic;F)F
 		ARG 0 entity
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

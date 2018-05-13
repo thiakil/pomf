@@ -41,3 +41,4 @@ CLASS apx net/minecraft/entity/mob/EntityEnderman
 	METHOD k updateMovement ()V
 	METHOD n ()V
 	METHOD w_ initDataTracker ()V
+	FIELD b ATTACKINGSPEEDBOOST Laiq;

@@ -1,3 +1,4 @@
 CLASS bhh
 	CLASS bhh$a
 		METHOD m asString ()Ljava/lang/String;
+	FIELD H FACE Lbos;

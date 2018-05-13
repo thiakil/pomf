@@ -49,3 +49,4 @@ CLASS aqx net/minecraft/entity/mob/EntityZombie
 		ARG 0 value
 	METHOD w_ initDataTracker ()V
 	METHOD x_ isChild ()Z
+	FIELD bF inWaterTime I

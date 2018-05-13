@@ -13,3 +13,4 @@ CLASS arf net/minecraft/entity/player/PlayerAbilities
 	METHOD b getWalkSpeed ()F
 	METHOD b deserialize (Lgu;)V
 		ARG 0 tag
+	FIELD f flySpeed D

@@ -19,3 +19,4 @@ CLASS aqu net/minecraft/entity/mob/EntityVindicationIllager
 	METHOD r isTeammate (Laht;)Z
 		ARG 0 entity
 	METHOD w_ initDataTracker ()V
+	FIELD b johnny Z

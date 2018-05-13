@@ -6,3 +6,5 @@ CLASS bkf
 		ARG 2 pos
 		ARG 3 face
 	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I
+	FIELD a TYPE Lbos;
+	FIELD b WATERLOGGED Lboq;

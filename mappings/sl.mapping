@@ -71,3 +71,6 @@ CLASS sl
 	METHOD t isSpectator ()Z
 	METHOD u isCreative ()Z
 	METHOD y getBlockPos ()Lef;
+	FIELD cu seenCredits Z
+	FIELD bZ LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD ca enUs Ljava/lang/String;

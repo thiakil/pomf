@@ -15,3 +15,4 @@ CLASS bkd
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
+	FIELD a WATERLOGGED Lboq;

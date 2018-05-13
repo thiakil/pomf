@@ -1,8 +1,8 @@
 CLASS bfj net/minecraft/block/BlockBeacon
 	CLASS bfj$1
 		CLASS bfj$1$1
-			METHOD run run ()V
-		METHOD run run ()V
+			METHOD run ()V
+		METHOD run ()V
 	METHOD X_ getRenderLayer ()Lbam;
 	METHOD a createBlockEntity (Lbal;)Lbmb;
 	METHOD a onPlaced (Lbax;Lef;Lbnv;Laic;Lawg;)V

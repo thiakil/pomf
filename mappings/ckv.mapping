@@ -6,3 +6,5 @@ CLASS ckv
 	METHOD c init ()V
 	METHOD f update ()V
 	METHOD n onClosed ()V
+	FIELD a addserverAdd Lciq;
+	FIELD s addserverResourcepack Lciq;

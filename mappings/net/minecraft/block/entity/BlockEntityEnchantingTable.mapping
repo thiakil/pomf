@@ -12,3 +12,4 @@ CLASS bml net/minecraft/block/entity/BlockEntityEnchantingTable
 	METHOD b deserialize (Lgu;)V
 		ARG 0 tag
 	METHOD l getContainerId ()Ljava/lang/String;
+	FIELD o customName Lic;

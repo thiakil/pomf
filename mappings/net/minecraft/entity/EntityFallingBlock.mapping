@@ -27,3 +27,7 @@ CLASS apm net/minecraft/entity/EntityFallingBlock
 	METHOD i getWorldClient ()Lbax;
 	METHOD k getBlockState ()Lbnv;
 	METHOD w_ initDataTracker ()V
+	FIELD a time I
+	FIELD e blockState Lbnv;
+	FIELD av fallHurtAmount F
+	FIELD h fallHurtMax I

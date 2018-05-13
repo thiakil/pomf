@@ -5,4 +5,4 @@ CLASS rv net/minecraft/server/dedicated/ServerRunnable
 	METHOD <init> (Lru;)V
 		ARG 0 server
 	METHOD a halt ()V
-	METHOD run run ()V
+	METHOD run ()V

@@ -1,1 +1,3 @@
 CLASS cav net/minecraft/fluid/FluidFlowing
+	FIELD a FALLING Lboq;
+	FIELD b LEVEL Lbot;

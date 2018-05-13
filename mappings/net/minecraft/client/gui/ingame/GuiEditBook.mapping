@@ -22,3 +22,8 @@ CLASS cmf net/minecraft/client/gui/ingame/GuiEditBook
 		ARG 0 component
 	METHOD f update ()V
 	METHOD n onClosed ()V
+	FIELD F guiDone Lciq;
+	FIELD G bookSignbutton Lciq;
+	FIELD H bookFinalizebutton Lciq;
+	FIELD I guiCancel Lciq;
+	FIELD z pages Lha;

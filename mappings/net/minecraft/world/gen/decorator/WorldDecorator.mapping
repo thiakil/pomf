@@ -1,1 +1,2 @@
 CLASS sw net/minecraft/world/gen/decorator/WorldDecorator
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

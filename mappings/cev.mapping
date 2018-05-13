@@ -8,3 +8,4 @@ CLASS cev
 		ARG 0 stack
 		ARG 1 rand
 		ARG 2 context
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

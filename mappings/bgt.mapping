@@ -36,3 +36,4 @@ CLASS bgt
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
+	FIELD c POWERED Lboq;

@@ -1,1 +1,2 @@
 CLASS qr net/minecraft/command/CommandEnableAutosave
+	FIELD a COMMANDS_SAVE_ALREADYON Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;

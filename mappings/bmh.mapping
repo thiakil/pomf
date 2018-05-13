@@ -6,3 +6,4 @@ CLASS bmh
 	METHOD aa_ serializeInitialChunkData ()Lgu;
 	METHOD b deserialize (Lgu;)V
 		ARG 0 tag
+	FIELD j targetUuid Ljava/util/UUID;

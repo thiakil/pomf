@@ -4,3 +4,5 @@ CLASS dig net/minecraft/client/tutorial/TutorialLocateTreeStep
 		ARG 0 stack
 	METHOD a hasPreviouslyPunchedTree (Lcum;)Z
 	METHOD b onStop ()V
+	FIELD b TUTORIAL_FIND_TREE_TITLE Lic;
+	FIELD c TUTORIAL_FIND_TREE_DESCRIPTION Lic;

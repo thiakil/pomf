@@ -1,0 +1,3 @@
+CLASS br
+	FIELD a PERMISSIONS_REQUIRES_PLAYER Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b PERMISSIONS_REQUIRES_ENTITY Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;

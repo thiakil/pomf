@@ -1,6 +1,6 @@
 CLASS dhw net/minecraft/client/audio/SoundManager
 	CLASS dhw$1
-		METHOD run run ()V
+		METHOD run ()V
 	CLASS dhw$a SoundSystemMinecraft
 	FIELD a MARKER Lorg/apache/logging/log4j/Marker;
 	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;

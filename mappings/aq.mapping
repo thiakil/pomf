@@ -14,3 +14,4 @@ CLASS aq
 	METHOD b removeCondition (Lot;Ls$a;)V
 		ARG 0 manager
 		ARG 1 condition
+	FIELD a FISHING_ROD_HOOKED Loj;

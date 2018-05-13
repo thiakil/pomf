@@ -1,3 +1,6 @@
 CLASS wh
 	METHOD a onResourceReload (Lul;)V
 		ARG 0 container
+	FIELD a block Lwe;
+	FIELD b item Lwe;
+	FIELD c fluid Lwe;

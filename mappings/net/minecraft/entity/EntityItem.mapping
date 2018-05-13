@@ -33,3 +33,5 @@ CLASS apn net/minecraft/entity/EntityItem
 	METHOD q cannotPickup ()Z
 	METHOD v tryMerge ()V
 	METHOD w_ initDataTracker ()V
+	FIELD f thrower Ljava/util/UUID;
+	FIELD g owner Ljava/util/UUID;

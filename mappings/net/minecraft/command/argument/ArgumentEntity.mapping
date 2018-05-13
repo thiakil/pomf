@@ -1,1 +1,7 @@
 CLASS bx net/minecraft/command/argument/ArgumentEntity
+	FIELD a ARGUMENT_ENTITY_TOOMANY Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b ARGUMENT_PLAYER_TOOMANY Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c ARGUMENT_PLAYER_ENTITIES Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD d ARGUMENT_ENTITY_NOTFOUND_ENTITY Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD e ARGUMENT_ENTITY_NOTFOUND_PLAYER Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD f PLAYER Ljava/util/Collection;

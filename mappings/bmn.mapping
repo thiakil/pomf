@@ -49,3 +49,7 @@ CLASS bmn
 	METHOD h getInvPropertyCount ()I
 	METHOD l getContainerId ()Ljava/lang/String;
 	METHOD m clearInv ()V
+	FIELD h burnTime I
+	FIELD j cookTime I
+	FIELD k cookTimeTotal I
+	FIELD l customName Lic;

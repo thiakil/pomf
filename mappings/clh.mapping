@@ -29,3 +29,5 @@ CLASS clh
 		ARG 0 component
 	METHOD f update ()V
 	METHOD n onClosed ()V
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f HTTP Ljava/util/Set;
