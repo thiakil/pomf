@@ -1,4 +1,4 @@
-CLASS xi
+CLASS xi net/minecraft/util/datafix/DataFixer
 	CLASS xi$a
 		METHOD equals (Ljava/lang/Object;)Z
 			ARG 0 object
