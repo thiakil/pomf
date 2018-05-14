@@ -43,15 +43,17 @@ CLASS om net/minecraft/reference/Bootstrap
 	CLASS om$a DispenseBehaviorBoat
 		FIELD b itemBehavior Lei;
 		FIELD c boatType Lask$b;
+		METHOD <init> (Lask$b;)V
+			ARG 0 boatType
 		METHOD a playSound (Leg;)V
 			ARG 0 block
 		METHOD b doDispense (Leg;Lawg;)Lawg;
 			ARG 0 block
 			ARG 1 stack
-	CLASS om$c
+	CLASS om$c DispenserBehaviorOptional
 		METHOD a playSound (Leg;)V
 			ARG 0 block
-	CLASS om$d
+	CLASS om$d DispenserBehaviorShulkerBox
 		METHOD b doDispense (Leg;Lawg;)Lawg;
 			ARG 0 block
 			ARG 1 stack
@@ -123,4 +125,5 @@ CLASS om net/minecraft/reference/Bootstrap
 	METHOD a printStdout (Ljava/lang/String;)V
 		ARG 0 message
 	METHOD b registerDefaultDispenserBehaviors ()V
+	METHOD c initialize ()V
 	METHOD d redirectOutputStreams ()V

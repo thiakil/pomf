@@ -1,4 +1,4 @@
-CLASS ape
+CLASS ape net/minecraft/entity/decoration/PaintingType
 	FIELD A DONKEY_KONG Lape;
 	FIELD a KEBAB Lej;
 	FIELD c AZTEC Lape;

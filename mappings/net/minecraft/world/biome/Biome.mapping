@@ -1,4 +1,4 @@
-CLASS bbr
+CLASS bbr net/minecraft/world/biome/Biome
 	CLASS bbr$c TemperatureGroup
 		FIELD a OCEAN Lbbr$c;
 		FIELD b COLD Lbbr$c;

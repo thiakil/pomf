@@ -79,3 +79,4 @@ CLASS awc net/minecraft/item/Item
 	METHOD h getItem ()Lawc;
 	METHOD i getTranslatedNameTrimmed (Lawg;)Lic;
 		ARG 0 stack
+	METHOD r registerItems ()V

@@ -1,0 +1,4 @@
+CLASS axw net/minecraft/potion/PotionBrewing
+	METHOD a register (Lawc;)V
+	METHOD a register (Lawc;Lawc;Lawc;)V
+	METHOD a register (Laxv;Lawc;Laxv;)V

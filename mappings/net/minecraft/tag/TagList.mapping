@@ -1,4 +1,4 @@
-CLASS ha
+CLASS ha net/minecraft/tag/TagList
 	FIELD f LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD a getType ()B
 	METHOD a (I)Lhj;
@@ -9,6 +9,7 @@ CLASS ha
 		ARG 2 tracker
 	METHOD a write (Ljava/io/DataOutput;)V
 		ARG 0 output
+	METHOD a getTextComponent (Ljava/lang/String;I)Lic;
 	METHOD b copy ()Lhj;
 	METHOD b (ILhj;)Lhj;
 		ARG 0 index

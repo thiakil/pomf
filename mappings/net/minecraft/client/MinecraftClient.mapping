@@ -24,8 +24,10 @@ CLASS chp net/minecraft/client/MinecraftClient
 	FIELD aF thread Ljava/lang/Thread;
 	FIELD aG bakedModelManager Ldgj;
 	FIELD aH blockRenderManager Lcvv;
+	FIELD aI guiToast Lcjx;
 	FIELD aJ isRunning Z
 	FIELD aL fpsCounter I
+	FIELD aM tutorial Ldik;
 	FIELD aN background Loj;
 	FIELD aP root Ljava/lang/String;
 	FIELD a isSystemMac Z

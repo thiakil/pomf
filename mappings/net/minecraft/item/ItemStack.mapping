@@ -99,16 +99,17 @@ CLASS awg net/minecraft/item/ItemStack
 	METHOD e setAmount (I)V
 		ARG 0 amount
 	METHOD f hasDurability ()Z
-	METHOD f addAmount (I)V
+	METHOD f add (I)V
 		ARG 0 amount
 	METHOD g isDamaged ()Z
-	METHOD g subtractAmount (I)V
+	METHOD g subtract (I)V
 		ARG 0 amount
 	METHOD i getDurability ()I
 	METHOD j copy ()Lawg;
 	METHOD k getMaxUseTime ()I
 	METHOD l getUseAction ()Laxq;
 	METHOD n getTag ()Lgu;
+	METHOD o getTagSafely ()Lgu;
 	METHOD p getEnchantmentList ()Lha;
 	METHOD r removeDisplayName ()V
 	METHOD s hasDisplayName ()Z
