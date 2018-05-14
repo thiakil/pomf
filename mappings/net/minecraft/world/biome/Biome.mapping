@@ -1,4 +1,26 @@
 CLASS bbr net/minecraft/world/biome/Biome
+	CLASS bbr$a Builder
+		FIELD a surfaceBuilder Lbzs;
+		FIELD b precipitation Lbbr$e;
+		FIELD c category Lbbr$b;
+		FIELD d depth Ljava/lang/Float;
+		FIELD e scale Ljava/lang/Float;
+		FIELD f temperature Ljava/lang/Float;
+		FIELD g downfall Ljava/lang/Float;
+		FIELD h waterColor Ljava/lang/Integer;
+		FIELD i waterFogColor Ljava/lang/Integer;
+		FIELD j parent Ljava/lang/String;
+		METHOD a withDepth (F)Lbbr$a;
+		METHOD a withWaterColor (I)Lbbr$a;
+		METHOD a withCategory (Lbbr$b;)Lbbr$a;
+		METHOD a withPrecipitation (Lbbr$e;)Lbbr$a;
+		METHOD a withSurface (Lbzs;)Lbbr$a;
+		METHOD a withParent (Ljava/lang/String;)Lbbr$a;
+		METHOD b withScale (F)Lbbr$a;
+		METHOD b withWaterFogColor (I)Lbbr$a;
+		METHOD c withTemperature (F)Lbbr$a;
+		METHOD d withDownfall (F)Lbbr$a;
+	CLASS bbr$b Category
 	CLASS bbr$c TemperatureGroup
 		FIELD a OCEAN Lbbr$c;
 		FIELD b COLD Lbbr$c;
@@ -11,5 +33,49 @@ CLASS bbr net/minecraft/world/biome/Biome
 			ARG 1 weight
 			ARG 2 minGroupSize
 			ARG 3 maxGroupSize
+	CLASS bbr$e Precipitation
+	FIELD U AIR Lbnv;
+	FIELD V DIRT Lbnv;
+	FIELD W GRASS Lbnv;
+	FIELD X PODZOL Lbnv;
+	FIELD Y GRAVEL Lbnv;
+	FIELD Z STONE Lbnv;
+	FIELD aL REGISTRY Let;
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD aM biome Ljava/lang/String;
+	FIELD aN depth F
+	FIELD aO scale F
+	FIELD aP temperature F
+	FIELD aQ downfall F
+	FIELD aR waterColor I
+	FIELD aS waterFogColor I
+	FIELD aT parent Ljava/lang/String;
+	FIELD aU surface Lbzs;
+	FIELD aV category Lbbr$b;
+	FIELD aW precipitation Lbbr$e;
+	FIELD aa COARSE_DIRT Lbnv;
+	FIELD ab SAND Lbnv;
+	FIELD ac RED_SAND Lbnv;
+	FIELD ad WHITE_TERRACOTTA Lbnv;
+	FIELD ae MYCELIUM Lbnv;
+	FIELD af NETHERRACK Lbnv;
+	FIELD ag END_STONE Lbnv;
+	FIELD ah EMPTY_SURFACE Lcae;
+	METHOD <init> (Lbbr$a;)V
+		ARG 0 builder
+	METHOD a register (ILjava/lang/String;Lbbr;)V
+	METHOD a getTemperatureAtPos (Lef;)F
+	METHOD b hasParent ()Z
+	METHOD c getPrecipitation ()Lbbr$e;
+	METHOD g getTemperatureGroup ()Lbbr$c;
+	METHOD h getDepth ()F
+	METHOD i getDownfall ()F
+	METHOD j getTranslatedName ()Lic;
+	METHOD k getScale ()F
+	METHOD l getTemperature ()F
+	METHOD m getWaterColor ()I
+	METHOD n getWaterFogColor ()I
+	METHOD o getCategory ()Lbbr$b;
+	METHOD p getSurface ()Lbzs;
+	METHOD r getParent ()Ljava/lang/String;
+	METHOD s registerBiomes ()V

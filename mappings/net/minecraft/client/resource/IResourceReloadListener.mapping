@@ -1,3 +1,0 @@
-CLASS um net/minecraft/client/resource/IResourceReloadListener
-	METHOD a onResourceReload (Lul;)V
-		ARG 0 container

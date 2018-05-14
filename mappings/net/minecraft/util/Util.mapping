@@ -15,7 +15,7 @@ CLASS k net/minecraft/util/Util
 	METHOD a (Lbou;Ljava/lang/Object;)Ljava/lang/String;
 		ARG 0 property
 		ARG 1 value
-	METHOD a getUnlocalizedName (Ljava/lang/String;Loj;)Ljava/lang/String;
+	METHOD a getTranslationKey (Ljava/lang/String;Loj;)Ljava/lang/String;
 		ARG 0 type
 		ARG 1 identifier
 	METHOD a getLastElement (Ljava/util/List;)Ljava/lang/Object;

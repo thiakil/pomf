@@ -1,0 +1,4 @@
+CLASS pe
+	CLASS pe$a Action
+		FIELD a GRANT Lpe$a;
+		FIELD b REVOKE Lpe$a;

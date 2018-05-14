@@ -142,7 +142,7 @@ CLASS bfn net/minecraft/block/Blocks
 	FIELD cI REDSTONE_WALL_TORCH Lbfm;
 	FIELD cJ STONE_BUTTON Lbfm;
 	FIELD cK SNOW_LAYER Lbfm;
-	FIELD cL RICE Lbfm;
+	FIELD cL ICE Lbfm;
 	FIELD c GRANITE Lbfm;
 	FIELD cM SNOW_BLOCK Lbfm;
 	FIELD cN CACTUS Lbfm;

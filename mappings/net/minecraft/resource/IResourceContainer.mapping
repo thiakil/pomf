@@ -1,0 +1,6 @@
+CLASS ul net/minecraft/resource/IResourceContainer
+	METHOD a getProvidedAssets ()Ljava/util/Set;
+	METHOD a getResource (Loj;)Luk;
+		ARG 0 id
+	METHOD b getAllResources (Loj;)Ljava/util/List;
+		ARG 0 id

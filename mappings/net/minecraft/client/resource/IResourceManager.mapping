@@ -1,5 +1,0 @@
-CLASS uj net/minecraft/client/resource/IResourceManager
-	METHOD a reload (Ljava/util/List;)V
-		ARG 0 packs
-	METHOD a registerListener (Lum;)V
-		ARG 0 listener

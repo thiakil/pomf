@@ -1,0 +1,25 @@
+CLASS ui net/minecraft/resource/ResourceContainer
+	CLASS ui$a DebugInputStream
+		FIELD a stream Ljava/io/InputStream;
+		FIELD b warningMessage Ljava/lang/String;
+		FIELD c isClosed Z
+	FIELD a packs Ljava/util/List;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c metadataDeserializer Lts;
+	METHOD <init> (Lts;)V
+		ARG 0 metadataDeserializer
+	METHOD a getProvidedAssets ()Ljava/util/Set;
+	METHOD a getResource (Loj;)Luk;
+		ARG 0 id
+	METHOD a open (Loj;Ltr;)Ljava/io/InputStream;
+		ARG 0 id
+		ARG 1 pack
+	METHOD a add (Ltr;)V
+		ARG 0 pack
+	METHOD b getLogger ()Lorg/apache/logging/log4j/Logger;
+	METHOD b getAllResources (Loj;)Ljava/util/List;
+		ARG 0 id
+	METHOD c getMetadataLocation (Loj;)Loj;
+		ARG 0 id
+	METHOD d validateLocation (Loj;)V
+		ARG 0 id

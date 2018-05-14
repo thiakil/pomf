@@ -40,7 +40,7 @@ CLASS bfm net/minecraft/block/Block
 	FIELD o mapColor Lcbc;
 	FIELD p slipperiness F
 	FIELD q stateContainer Lbnx;
-	FIELD s unlocalizedName Ljava/lang/String;
+	FIELD s translationKey Ljava/lang/String;
 	METHOD <init> (Lbfm$b;)V
 		ARG 0 builder
 	METHOD X_ getRenderLayer ()Lbam;
@@ -160,7 +160,7 @@ CLASS bfm net/minecraft/block/Block
 	METHOD h getItem ()Lawc;
 	METHOD k getStateId (Lbnv;)I
 		ARG 0 state
-	METHOD l getUnlocalizedName ()Ljava/lang/String;
+	METHOD l getTranslationKey ()Ljava/lang/String;
 	METHOD l getLightValue (Lbnv;)I
 	METHOD m getMaterial (Lbnv;)Lcbb;
 	METHOD n getDefaultState ()Lbnv;
