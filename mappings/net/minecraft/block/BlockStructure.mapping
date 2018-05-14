@@ -1,13 +1,14 @@
 CLASS bkw net/minecraft/block/BlockStructure
 	FIELD a MODE Lbos;
-	METHOD a deserializeState (Laul;)Lbnv;
+	METHOD a getDefaultState (Laul;)Lbnv;
 	METHOD a createBlockEntity (Lbal;)Lbmb;
 	METHOD a onPlaced (Lbax;Lef;Lbnv;Laic;Lawg;)V
 		ARG 0 world
 		ARG 1 pos
 		ARG 3 placer
 		ARG 4 stack
-	METHOD a activate (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+	METHOD a onActivated (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 player
@@ -22,3 +23,4 @@ CLASS bkw net/minecraft/block/BlockStructure
 		ARG 3 block
 		ARG 4 updatePos
 	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I
+	METHOD c getRenderType (Lbnv;)Lbjs;

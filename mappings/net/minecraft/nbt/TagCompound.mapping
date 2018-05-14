@@ -67,6 +67,7 @@ CLASS gu net/minecraft/nbt/TagCompound
 		ARG 1 value
 	METHOD d size ()I
 	METHOD d getByte (Ljava/lang/String;)B
+	METHOD e hasKey (Ljava/lang/String;)Z
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object
 	METHOD f copy ()Lgu;

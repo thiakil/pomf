@@ -1,0 +1,29 @@
+CLASS biy net/minecraft/block/BlockNote
+	CLASS biy$a
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a INSTRUMENT Lbos;
+	FIELD b POWERED Lboq;
+	FIELD c NOTE Lbot;
+	METHOD a getDefaultState (Laul;)Lbnv;
+	METHOD a onBlockAction (Lbnv;Lbax;Lef;II)Z
+		ARG 1 world
+		ARG 2 pos
+	METHOD a onBlockBreakStart (Lbnv;Lbax;Lef;Larh;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player
+	METHOD a onActivated (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a update (Lbnv;Lbax;Lef;Lbfm;Lef;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 block
+		ARG 4 updatePos

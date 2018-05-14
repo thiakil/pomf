@@ -8,3 +8,4 @@ CLASS bkx net/minecraft/block/BlockStructureVoid
 		ARG 2 pos
 		ARG 3 dropChance
 		ARG 4 fortune
+	METHOD c getRenderType (Lbnv;)Lbjs;

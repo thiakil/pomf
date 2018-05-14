@@ -1,2 +1,2 @@
 CLASS bht net/minecraft/block/BlockTerracotta
-	METHOD a deserializeState (Laul;)Lbnv;
+	METHOD a getDefaultState (Laul;)Lbnv;

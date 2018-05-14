@@ -12,3 +12,4 @@ CLASS bfg
 	METHOD a onBlockRemoved (Lbnv;Lbax;Lef;Lbnv;)V
 		ARG 1 world
 		ARG 2 pos
+	METHOD c getRenderType (Lbnv;)Lbjs;

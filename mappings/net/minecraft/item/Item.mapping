@@ -19,11 +19,35 @@ CLASS awc net/minecraft/item/Item
 			ARG 0 stack
 			ARG 1 world
 			ARG 2 user
+	CLASS awc$a Builder
+		FIELD a maxStackSize I
+		FIELD b damage I
+		FIELD c containerItem Lawc;
+		FIELD d tab Lava;
+		METHOD a withMaxStackSize (I)Lawc$a;
+			ARG 0 value
+		METHOD a withTab (Lava;)Lawc$a;
+		METHOD a withContainerItem (Lawc;)Lawc$a;
+		METHOD b withDamage (I)Lawc$a;
+			ARG 0 value
+		METHOD c setDamage (I)Lawc$a;
+			ARG 0 value
+	FIELD a DAMAGED_PROPERTY Lawf;
+	FIELD b DAMAGE_PROPERTY Lawf;
+	FIELD c LEFTHANDED_PROPERTY Lawf;
+	FIELD d COOLDOWN_PROPERTY Lawf;
+	FIELD e propertyRegistry Lex;
+	FIELD f REGISTRY Let;
+	FIELD j tab Lava;
+	FIELD l maxStackSize I
+	FIELD m damage I
+	FIELD n containerItem Lawc;
 	FIELD o item Ljava/lang/String;
 	METHOD W_ isMap ()Z
 	METHOD a getTranslationKey ()Ljava/lang/String;
 	METHOD a getAttributeModifiers (Lahy;)Lcom/google/common/collect/Multimap;
 		ARG 0 effectiveSlot
+	METHOD a register (Lauk;)V
 	METHOD a isInTab (Lava;)Z
 	METHOD a addStacksForDisplay (Lava;Leu;)V
 		ARG 1 items
@@ -63,6 +87,10 @@ CLASS awc net/minecraft/item/Item
 		ARG 0 world
 		ARG 1 player
 		ARG 2 hand
+	METHOD a rayTrace (Lbax;Larh;Z)Lcfz;
+	METHOD a registerItemBlock (Lbfm;Lava;)V
+	METHOD a register (Ljava/lang/String;Lawc;)V
+	METHOD a registerProperty (Loj;Lawf;)V
 	METHOD b hasEnchantmentGlow (Lawg;)Z
 		ARG 0 stack
 	METHOD b onCrafted (Lawg;Lbax;Larh;)V
@@ -79,4 +107,8 @@ CLASS awc net/minecraft/item/Item
 	METHOD h getItem ()Lawc;
 	METHOD i getTranslatedNameTrimmed (Lawg;)Lic;
 		ARG 0 stack
+	METHOD m getUnlocalizedName ()Ljava/lang/String;
+	METHOD o getContainerItem ()Lawc;
+	METHOD p hasContainerItem ()Z
+	METHOD q getCreativeTab ()Lava;
 	METHOD r registerItems ()V

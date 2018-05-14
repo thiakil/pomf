@@ -1,7 +1,7 @@
 CLASS bgv net/minecraft/block/BlockDispenser
 	FIELD a FACING Lbor;
 	FIELD b TRIGGERED Lboq;
-	METHOD a deserializeState (Laul;)Lbnv;
+	METHOD a getDefaultState (Laul;)Lbnv;
 	METHOD a getDispenserBehavior (Lawg;)Len;
 		ARG 0 stack
 	METHOD a createBlockEntity (Lbal;)Lbmb;
@@ -14,7 +14,8 @@ CLASS bgv net/minecraft/block/BlockDispenser
 	METHOD a getComparatorOutput (Lbnv;Lbax;Lef;)I
 		ARG 1 world
 		ARG 2 pos
-	METHOD a activate (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+	METHOD a onActivated (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 player
@@ -41,3 +42,4 @@ CLASS bgv net/minecraft/block/BlockDispenser
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
+	METHOD c getRenderType (Lbnv;)Lbjs;

@@ -1,4 +1,5 @@
 CLASS bjr
+	METHOD a getDefaultState (Laul;)Lbnv;
 	METHOD a getWeakRedstonePower (Lbnv;Lbal;Lef;Lel;)I
 		ARG 1 view
 		ARG 2 pos
@@ -7,3 +8,4 @@ CLASS bjr
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 rand
+	METHOD l getUnlocalizedName ()Ljava/lang/String;

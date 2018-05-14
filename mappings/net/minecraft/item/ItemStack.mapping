@@ -78,6 +78,7 @@ CLASS awg net/minecraft/item/ItemStack
 		ARG 1 b
 	METHOD b serialize (Lgu;)Lgu;
 		ARG 0 tag
+	METHOD c getItem ()Lawc;
 	METHOD c isEqual (Lawg;)Z
 		ARG 0 other
 	METHOD c areEqualIgnoreTags (Lawg;Lawg;)Z

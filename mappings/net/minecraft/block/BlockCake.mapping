@@ -8,7 +8,8 @@ CLASS bfx net/minecraft/block/BlockCake
 		ARG 1 world
 		ARG 2 pos
 	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
-	METHOD a activate (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+	METHOD a onActivated (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 player

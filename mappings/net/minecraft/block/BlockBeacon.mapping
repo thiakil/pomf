@@ -10,7 +10,8 @@ CLASS bfj net/minecraft/block/BlockBeacon
 		ARG 1 pos
 		ARG 3 placer
 		ARG 4 stack
-	METHOD a activate (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+	METHOD a onActivated (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 player
@@ -19,3 +20,4 @@ CLASS bfj net/minecraft/block/BlockBeacon
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
+	METHOD c getRenderType (Lbnv;)Lbjs;

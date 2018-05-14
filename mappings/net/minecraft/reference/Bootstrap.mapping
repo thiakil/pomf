@@ -50,6 +50,11 @@ CLASS om net/minecraft/reference/Bootstrap
 		METHOD b doDispense (Leg;Lawg;)Lawg;
 			ARG 0 block
 			ARG 1 stack
+	CLASS om$b
+		METHOD a getPosition ()Lef;
+		METHOD f getPlayerFacing ()Lel;
+		METHOD g isSneaking ()Z
+		METHOD h getPlayerYaw ()F
 	CLASS om$c DispenserBehaviorOptional
 		METHOD a playSound (Leg;)V
 			ARG 0 block

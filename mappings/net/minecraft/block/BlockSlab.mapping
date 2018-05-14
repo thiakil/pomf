@@ -1,0 +1,11 @@
+CLASS bkf net/minecraft/block/BlockSlab
+	CLASS bkf$a
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a TYPE Lbos;
+	FIELD b WATERLOGGED Lboq;
+	METHOD a getDefaultState (Laul;)Lbnv;
+	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I

@@ -2,7 +2,7 @@ CLASS bhd net/minecraft/block/BlockEndPortalFrame
 	FIELD a PROPERTY_FACING Lbor;
 	FIELD b EYE Lboq;
 	FIELD v COMPLETED_FRAME Lbob;
-	METHOD a deserializeState (Laul;)Lbnv;
+	METHOD a getDefaultState (Laul;)Lbnv;
 	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
 		ARG 0 blockView
 		ARG 2 pos

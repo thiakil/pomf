@@ -12,7 +12,7 @@ CLASS bjo net/minecraft/block/BlockRedstoneWire
 	FIELD u POWER Lbot;
 	FIELD x wiresGivePower Z
 	METHOD X_ getRenderLayer ()Lbam;
-	METHOD a deserializeState (Laul;)Lbnv;
+	METHOD a getDefaultState (Laul;)Lbnv;
 	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
 		ARG 0 blockView
 		ARG 2 pos

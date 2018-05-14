@@ -5,3 +5,4 @@ CLASS bgj
 		ARG 1 pos
 		ARG 3 placer
 		ARG 4 stack
+	METHOD c getRenderType (Lbnv;)Lbjs;

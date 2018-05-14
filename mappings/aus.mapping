@@ -1,5 +1,0 @@
-CLASS aus
-	METHOD a onRightClick (Lbax;Larh;Lagm;)Lagp;
-		ARG 0 world
-		ARG 1 player
-		ARG 2 hand

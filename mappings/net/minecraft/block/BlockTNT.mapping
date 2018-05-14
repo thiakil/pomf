@@ -3,7 +3,8 @@ CLASS blc net/minecraft/block/BlockTNT
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 entity
-	METHOD a activate (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+	METHOD a onActivated (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 player

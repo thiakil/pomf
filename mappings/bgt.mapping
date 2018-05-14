@@ -1,6 +1,7 @@
 CLASS bgt
 	FIELD c POWERED Lboq;
 	METHOD X_ getRenderLayer ()Lbam;
+	METHOD a getDefaultState (Laul;)Lbnv;
 	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
 		ARG 0 blockView
 		ARG 2 pos

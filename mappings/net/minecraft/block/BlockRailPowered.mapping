@@ -1,5 +1,5 @@
 CLASS bji net/minecraft/block/BlockRailPowered
 	FIELD t SHAPE Lbos;
 	FIELD u POWERED Lboq;
-	METHOD a deserializeState (Laul;)Lbnv;
+	METHOD a getDefaultState (Laul;)Lbnv;
 	METHOD c getShapeProperty ()Lbou;

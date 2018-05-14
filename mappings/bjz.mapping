@@ -1,6 +1,7 @@
 CLASS bjz
 	FIELD a PICKLES Lbot;
 	FIELD b WATERLOGGED Lboq;
+	METHOD a getDefaultState (Laul;)Lbnv;
 	METHOD a isFertilizable (Lbal;Lef;Lbnv;Z)Z
 		ARG 1 pos
 		ARG 3 remote
@@ -8,7 +9,8 @@ CLASS bjz
 		ARG 0 world
 		ARG 1 rand
 		ARG 2 pos
-	METHOD a activate (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+	METHOD a onActivated (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 player

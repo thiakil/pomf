@@ -3,6 +3,7 @@ CLASS bgb
 		METHOD m asString ()Ljava/lang/String;
 	FIELD b TYPE Lbos;
 	FIELD c WATERLOGGED Lboq;
+	METHOD a getDefaultState (Laul;)Lbnv;
 	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
 		ARG 0 blockView
 		ARG 2 pos
@@ -15,7 +16,8 @@ CLASS bgb
 	METHOD a getComparatorOutput (Lbnv;Lbax;Lef;)I
 		ARG 1 world
 		ARG 2 pos
-	METHOD a activate (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+	METHOD a onActivated (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 player
@@ -27,3 +29,4 @@ CLASS bgb
 	METHOD a onBlockRemoved (Lbnv;Lbax;Lef;Lbnv;)V
 		ARG 1 world
 		ARG 2 pos
+	METHOD c getRenderType (Lbnv;)Lbjs;

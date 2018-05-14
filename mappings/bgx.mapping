@@ -4,6 +4,7 @@ CLASS bgx
 		FIELD b LOWER Lbgx$a;
 		METHOD m asString ()Ljava/lang/String;
 	FIELD a HALF Lbos;
+	METHOD a getDefaultState (Laul;)Lbnv;
 	METHOD a afterBreak (Lbax;Larh;Lef;Lbnv;Lbmb;Lawg;)V
 		ARG 0 world
 		ARG 1 player
@@ -20,3 +21,4 @@ CLASS bgx
 		ARG 1 pos
 		ARG 3 player
 	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
+	METHOD o getOffsetType ()Lbfm$a;

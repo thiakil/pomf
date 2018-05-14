@@ -1,12 +1,14 @@
 CLASS bhf net/minecraft/block/BlockEnderChest
 	FIELD a FACING Lbor;
 	FIELD b WATER Lboq;
+	METHOD a getDefaultState (Laul;)Lbnv;
 	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
 	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
-	METHOD a activate (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+	METHOD a onActivated (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 player
@@ -16,6 +18,7 @@ CLASS bhf net/minecraft/block/BlockEnderChest
 		ARG 7 hitY
 		ARG 8 hitZ
 	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I
+	METHOD c getRenderType (Lbnv;)Lbjs;
 	METHOD c randomDisplayTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos

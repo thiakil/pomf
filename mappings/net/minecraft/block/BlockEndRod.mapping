@@ -1,6 +1,6 @@
 CLASS bhe net/minecraft/block/BlockEndRod
 	METHOD X_ getRenderLayer ()Lbam;
-	METHOD a deserializeState (Laul;)Lbnv;
+	METHOD a getDefaultState (Laul;)Lbnv;
 	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
 		ARG 0 blockView
 		ARG 2 pos

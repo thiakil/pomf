@@ -1,6 +1,6 @@
 CLASS biz net/minecraft/block/BlockObserver
 	FIELD b POWERED Lboq;
-	METHOD a deserializeState (Laul;)Lbnv;
+	METHOD a getDefaultState (Laul;)Lbnv;
 	METHOD a getWeakRedstonePower (Lbnv;Lbal;Lef;Lel;)I
 		ARG 1 view
 		ARG 2 pos

@@ -1,0 +1,5 @@
+CLASS axg net/minecraft/item/ItemSplashPotion
+	METHOD a onRightClick (Lbax;Larh;Lagm;)Lagp;
+		ARG 0 world
+		ARG 1 player
+		ARG 2 hand

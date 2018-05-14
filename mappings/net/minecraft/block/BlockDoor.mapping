@@ -13,7 +13,7 @@ CLASS bgw net/minecraft/block/BlockDoor
 	FIELD t POWERED Lboq;
 	FIELD u HALF Lbos;
 	METHOD X_ getRenderLayer ()Lbam;
-	METHOD a deserializeState (Laul;)Lbnv;
+	METHOD a getDefaultState (Laul;)Lbnv;
 	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
 		ARG 0 blockView
 		ARG 2 pos
@@ -36,7 +36,8 @@ CLASS bgw net/minecraft/block/BlockDoor
 	METHOD a isNotSolid (Lbnv;Lbal;Lef;)Z
 		ARG 2 pos
 	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
-	METHOD a activate (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+	METHOD a onActivated (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 player

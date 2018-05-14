@@ -1,7 +1,7 @@
 CLASS bhq net/minecraft/block/BlockFurnace
 	FIELD a FACING Lbor;
 	FIELD b POWERED Lboq;
-	METHOD a deserializeState (Laul;)Lbnv;
+	METHOD a getDefaultState (Laul;)Lbnv;
 	METHOD a createBlockEntity (Lbal;)Lbmb;
 	METHOD a onPlaced (Lbax;Lef;Lbnv;Laic;Lawg;)V
 		ARG 0 world
@@ -11,7 +11,8 @@ CLASS bhq net/minecraft/block/BlockFurnace
 	METHOD a getComparatorOutput (Lbnv;Lbax;Lef;)I
 		ARG 1 world
 		ARG 2 pos
-	METHOD a activate (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+	METHOD a onActivated (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
+		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 player
@@ -23,6 +24,7 @@ CLASS bhq net/minecraft/block/BlockFurnace
 	METHOD a onBlockRemoved (Lbnv;Lbax;Lef;Lbnv;)V
 		ARG 1 world
 		ARG 2 pos
+	METHOD c getRenderType (Lbnv;)Lbjs;
 	METHOD c randomDisplayTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos

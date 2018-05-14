@@ -1,4 +1,7 @@
 CLASS asi net/minecraft/entity/vehicle/EntityMinecartBase
+	CLASS asi$a
+		FIELD d TNT Lasi$a;
+		FIELD f HOPPER Lasi$a;
 	FIELD d CUSTOM_BLOCK_ID Lny;
 	FIELD e CUSTOM_BLOCK_OFFSET Lny;
 	FIELD f CUSTOM_BLOCK_PRESENT Lny;

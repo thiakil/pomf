@@ -1,5 +1,6 @@
 CLASS bjp net/minecraft/block/BlockRedstoneLamp
 	FIELD a POWERED Lboq;
+	METHOD a getDefaultState (Laul;)Lbnv;
 	METHOD a update (Lbnv;Lbax;Lef;Lbfm;Lef;)V
 		ARG 1 world
 		ARG 2 pos

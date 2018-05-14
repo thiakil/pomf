@@ -1,0 +1,3 @@
+CLASS avg net/minecraft/item/ItemDyeableArmor
+	METHOD f getDyedColor (Lawg;)I
+	METHOD f_ hasColor (Lawg;)Z

@@ -1,9 +1,0 @@
-CLASS bko
-	METHOD X_ getRenderLayer ()Lbam;
-	METHOD a onBlockRemoved (Lbnv;Lbax;Lef;Lbnv;)V
-		ARG 1 world
-		ARG 2 pos
-	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I
-	METHOD b onBlockAdded (Lbnv;Lbax;Lef;Lbnv;)V
-		ARG 1 world
-		ARG 2 pos

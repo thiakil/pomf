@@ -1,2 +1,3 @@
 CLASS bkr
 	FIELD c ROTATION Lbot;
+	METHOD a getDefaultState (Laul;)Lbnv;
