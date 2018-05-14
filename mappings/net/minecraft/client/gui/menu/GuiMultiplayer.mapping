@@ -1,4 +1,4 @@
-CLASS cnb
+CLASS cnb net/minecraft/client/gui/menu/GuiMultiplayer
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD s selectserverEdit Lciq;
 	FIELD t selectserverSelect Lciq;

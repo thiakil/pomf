@@ -41,5 +41,6 @@ CLASS clh net/minecraft/client/gui/GuiScreen
 	METHOD d drawBackground ()V
 	METHOD d handleTextComponentClick (Lic;)Z
 		ARG 0 component
+	METHOD e doesGuiPauseGame ()Z
 	METHOD f update ()V
 	METHOD n onClosed ()V

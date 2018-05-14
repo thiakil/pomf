@@ -32,6 +32,7 @@ CLASS cmc net/minecraft/client/gui/GuiContainer
 	METHOD c drawForeground (II)V
 		ARG 0 mouseX
 		ARG 1 mouseY
+	METHOD e doesGuiPauseGame ()Z
 	METHOD f update ()V
 	METHOD h calculateOffset ()V
 	METHOD n onClosed ()V

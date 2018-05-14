@@ -7,4 +7,5 @@ CLASS ckr
 	METHOD confirmResult handle (ZI)V
 		ARG 0 result
 		ARG 1 callbackId
+	METHOD e doesGuiPauseGame ()Z
 	METHOD f update ()V

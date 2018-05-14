@@ -52,6 +52,7 @@ CLASS ckd net/minecraft/client/gui/menu/GuiRealms
 		ARG 0 result
 		ARG 1 callbackId
 	METHOD d drawBackground ()V
+	METHOD e doesGuiPauseGame ()Z
 	METHOD f update ()V
 	METHOD k getButtons ()Ljava/util/List;
 	METHOD n onClosed ()V
