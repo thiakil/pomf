@@ -1,4 +1,4 @@
-CLASS wd
+CLASS wd net/minecraft/item/tags/ItemTags
 	FIELD A DEAD_CORAL_BLOCKS Lwf;
 	FIELD B CORAL_BLOCKS Lwf;
 	FIELD C CORALS Lwf;

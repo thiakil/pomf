@@ -1,0 +1,2 @@
+CLASS gj net/minecraft/generator/GeneratorBlockTags
+	METHOD b getName ()Ljava/lang/String;

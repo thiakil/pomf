@@ -1,2 +1,2 @@
-CLASS df
+CLASS df net/minecraft/command/argument/verifier/VerifierStackSize
 	FIELD a ARGUMENTS_ITEM_OVERSTACKED Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;

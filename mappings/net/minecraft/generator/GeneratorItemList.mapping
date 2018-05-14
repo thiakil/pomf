@@ -1,0 +1,3 @@
+CLASS fw net/minecraft/generator/GeneratorItemList
+	METHOD a generate ()V
+	METHOD b getName ()Ljava/lang/String;
