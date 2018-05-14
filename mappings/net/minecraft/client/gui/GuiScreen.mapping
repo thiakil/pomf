@@ -1,6 +1,15 @@
-CLASS clh
+CLASS clh net/minecraft/client/gui/GuiScreen
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD f HTTP Ljava/util/Set;
+	FIELD g clickedLink Ljava/net/URI;
+	FIELD j listeners Ljava/util/List;
+	FIELD k mc Lchp;
+	FIELD l itemRenderer Ldam;
+	FIELD m width I
+	FIELD n height I
+	FIELD o buttons Ljava/util/List;
+	FIELD p labels Ljava/util/List;
+	FIELD r fontRenderer Lcig;
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY
@@ -20,6 +29,9 @@ CLASS clh
 		ARG 0 text
 		ARG 1 x
 		ARG 2 y
+	METHOD ah_ close ()V
+	METHOD b (Lchp;II)V
+		ARG 0 mc
 	METHOD c init ()V
 	METHOD c_ drawBackground (I)V
 		ARG 0 id

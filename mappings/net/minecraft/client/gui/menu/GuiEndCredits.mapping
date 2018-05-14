@@ -6,5 +6,6 @@ CLASS clo net/minecraft/client/gui/menu/GuiEndCredits
 		ARG 0 mouseX
 		ARG 1 mouseY
 		ARG 2 delta
+	METHOD ah_ close ()V
 	METHOD c init ()V
 	METHOD f update ()V

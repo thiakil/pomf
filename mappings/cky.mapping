@@ -1,2 +1,3 @@
 CLASS cky
+	METHOD ah_ close ()V
 	METHOD c init ()V

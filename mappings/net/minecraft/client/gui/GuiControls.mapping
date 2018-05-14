@@ -1,5 +1,6 @@
-CLASS clz
-	FIELD a controls Ljava/lang/String;
+CLASS clz net/minecraft/client/gui/GuiControls
+	FIELD a title Ljava/lang/String;
+	FIELD h OPTIONS [Lchs$a;
 	FIELD u controlsResetall Lciq;
 	METHOD a draw (IIF)V
 		ARG 0 mouseX

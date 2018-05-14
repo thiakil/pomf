@@ -42,6 +42,7 @@ CLASS cmy net/minecraft/client/gui/ingame/GuiStructureBlock
 		ARG 2 delta
 	METHOD a parseLong (Ljava/lang/String;)J
 		ARG 0 s
+	METHOD ah_ close ()V
 	METHOD b sendUpdate (I)Z
 		ARG 0 type
 	METHOD b parseFloat (Ljava/lang/String;)F

@@ -1,4 +1,4 @@
-CLASS ciq
+CLASS ciq net/minecraft/client/gui/GuiButton
 	METHOD a onHover (II)V
 		ARG 0 mouseX
 		ARG 1 mouseY
