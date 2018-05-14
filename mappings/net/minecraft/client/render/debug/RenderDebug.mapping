@@ -2,11 +2,16 @@ CLASS cyo net/minecraft/client/render/debug/RenderDebug
 	CLASS cyo$a IRenderDebug
 		METHOD a render (FJ)V
 			ARG 0 tickDelta
+	FIELD a pathRenderer Lcys;
 	FIELD b waterRenderer Lcyo$a;
 	FIELD c chunkBorderRenderer Lcyo$a;
 	FIELD d heightMapRenderer Lcyo$a;
 	FIELD e boundingBoxRenderer Lcyo$a;
 	FIELD f neighborUpdateRenderer Lcyo$a;
+	FIELD g cavesRenderer Lcyl;
+	FIELD h structureRenderer Lcyu;
+	FIELD i skylightRenderer Lcyo$a;
+	FIELD j worldGenAttemptRenderer Lcyo$a;
 	FIELD k blockFaceRenderer Lcyo$a;
 	FIELD l showChunkBorder Z
 	FIELD m showPathfinding Z
@@ -14,7 +19,11 @@ CLASS cyo net/minecraft/client/render/debug/RenderDebug
 	FIELD o showHeightmap Z
 	FIELD p showBoundingBoxes Z
 	FIELD q showNeighborUpdates Z
-	FIELD t showBlockFaces Z
+	FIELD r showCaves Z
+	FIELD s showStructures Z
+	FIELD t showSkylight Z
+	FIELD u showWorldGenAttempts Z
+	FIELD v showBlockFaces Z
 	METHOD <init> (Lchp;)V
 		ARG 0 game
 	METHOD a isEnabled ()Z

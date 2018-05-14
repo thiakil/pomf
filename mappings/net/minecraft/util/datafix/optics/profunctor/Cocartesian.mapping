@@ -1,0 +1,5 @@
+CLASS acx net/minecraft/util/datafix/optics/profunctor/Cocartesian
+	CLASS acx$a Mu
+	METHOD b unbox (Laba;)Lacx;
+	METHOD c right (Labb;)Labb;
+	METHOD d (Labb;)Labb;

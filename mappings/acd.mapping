@@ -1,3 +1,4 @@
 CLASS acd
+	METHOD a wander (Labc;Lxq;)Lxq;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object

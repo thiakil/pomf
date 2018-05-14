@@ -1,0 +1,5 @@
+CLASS aby net/minecraft/util/datafix/optics/IdAdapter
+	METHOD a from (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD b to (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object

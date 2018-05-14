@@ -1,4 +1,6 @@
 CLASS wo
+	CLASS wo$a
+		METHOD a map (Ljava/util/function/Function;Laba;)Laba;
 	CLASS wo$b
 		METHOD equals (Ljava/lang/Object;)Z
 			ARG 0 object

@@ -1,0 +1,7 @@
+CLASS aca net/minecraft/util/datafix/optics/Inj2
+	METHOD a (Ljava/lang/Object;)Lwo;
+	METHOD a (Lwo;)Lwo;
+	METHOD b (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD c (Ljava/lang/Object;)Lwo;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object

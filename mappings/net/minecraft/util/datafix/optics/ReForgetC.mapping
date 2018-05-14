@@ -1,0 +1,4 @@
+CLASS acm net/minecraft/util/datafix/optics/ReForgetC
+	CLASS acm$a
+		METHOD d right (Labb;)Labb;
+	METHOD a impl ()Lwo;

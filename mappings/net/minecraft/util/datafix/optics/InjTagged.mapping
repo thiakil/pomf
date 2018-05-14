@@ -1,0 +1,8 @@
+CLASS acb net/minecraft/util/datafix/optics/InjTagged
+	FIELD a key Ljava/lang/Object;
+	METHOD a (Ljava/lang/Object;)Lwy;
+	METHOD a (Lwy;)Lwo;
+	METHOD b (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD c (Ljava/lang/Object;)Lwo;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object

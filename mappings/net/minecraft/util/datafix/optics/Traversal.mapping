@@ -1,0 +1,3 @@
+CLASS acq net/minecraft/util/datafix/optics/Traversal
+	CLASS acq$a Instance
+	METHOD a unbox (Labb;)Lacq;

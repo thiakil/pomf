@@ -1,0 +1,10 @@
+CLASS ace net/minecraft/util/datafix/optics/Optic
+	CLASS ace$a CompositionOptic
+		FIELD a outer Lace;
+		FIELD b inner Lace;
+		METHOD a getOuter ()Lace;
+		METHOD equals (Ljava/lang/Object;)Z
+			ARG 0 object
+	METHOD a compose (Lace;)Lace;
+	METHOD a upCast (Ljava/util/Set;Lcom/google/common/reflect/TypeToken;)Ljava/util/Optional;
+	METHOD b composeUnchecked (Lace;)Lace;

@@ -1,0 +1,3 @@
+CLASS abh
+	CLASS abh$a
+		METHOD a map (Ljava/util/function/Function;Laba;)Laba;

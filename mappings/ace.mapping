@@ -1,4 +1,0 @@
-CLASS ace
-	CLASS ace$a
-		METHOD equals (Ljava/lang/Object;)Z
-			ARG 0 object

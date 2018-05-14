@@ -1,0 +1,2 @@
+CLASS acr net/minecraft/util/datafix/optics/Wander
+	METHOD a wander (Labc;Lxq;)Lxq;

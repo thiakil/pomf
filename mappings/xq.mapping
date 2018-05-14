@@ -1,0 +1,3 @@
+CLASS xq
+	CLASS xq$a
+		METHOD d right (Labb;)Labb;
