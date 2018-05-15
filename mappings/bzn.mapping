@@ -1,4 +1,0 @@
-CLASS bzn
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD a onResourceReload (Lul;)V
-		ARG 0 container
