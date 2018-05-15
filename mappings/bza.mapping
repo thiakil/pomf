@@ -1,6 +1,3 @@
 CLASS bza
-	FIELD a indexes Lit/unimi/dsi/fastutil/longs/LongArrayList;
 	METHOD a deserialize (Lgu;)V
-		ARG 0 tag
-	METHOD b serialize (Lgu;)Lgu;
 		ARG 0 tag

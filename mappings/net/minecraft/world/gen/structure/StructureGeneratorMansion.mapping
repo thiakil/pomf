@@ -1,5 +1,1 @@
 CLASS bwb net/minecraft/world/gen/structure/StructureGeneratorMansion
-	CLASS bwb$a
-		METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)V
-			ARG 1 rand
-			ARG 2 region

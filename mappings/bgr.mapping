@@ -1,9 +1,1 @@
 CLASS bgr
-	METHOD a afterBreak (Lbax;Larh;Lef;Lbnv;Lbmb;Lawg;)V
-		ARG 0 world
-		ARG 1 player
-		ARG 2 pos
-		ARG 4 blockEntity
-		ARG 5 stack
-	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
-	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I

@@ -1,9 +1,5 @@
 CLASS bmw
-	METHOD Z_ getUpdatePacket ()Ljc;
 	METHOD a serialize (Lgu;)Lgu;
 		ARG 0 tag
-	METHOD a appendCommandFeedback (Lic;)V
-		ARG 0 feedback
-	METHOD aa_ serializeInitialChunkData ()Lgu;
 	METHOD b deserialize (Lgu;)V
 		ARG 0 tag

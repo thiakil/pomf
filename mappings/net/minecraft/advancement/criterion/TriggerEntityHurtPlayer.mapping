@@ -6,12 +6,6 @@ CLASS an net/minecraft/advancement/criterion/TriggerEntityHurtPlayer
 			ARG 0 manager
 		METHOD a isEmpty ()Z
 		METHOD a addCondition (Ls$a;)V
-		METHOD a handle (Lsl;Lahc;FFZ)V
-			ARG 0 player
-			ARG 1 source
-			ARG 2 dealt
-			ARG 3 taken
-			ARG 4 blocked
 		METHOD b removeCondition (Ls$a;)V
 	FIELD a ID Loj;
 	FIELD b handlers Ljava/util/Map;
@@ -24,12 +18,6 @@ CLASS an net/minecraft/advancement/criterion/TriggerEntityHurtPlayer
 	METHOD a addCondition (Lot;Ls$a;)V
 		ARG 0 manager
 		ARG 1 condition
-	METHOD a handle (Lsl;Lahc;FFZ)V
-		ARG 0 player
-		ARG 1 source
-		ARG 2 dealt
-		ARG 3 taken
-		ARG 4 blocked
 	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lan$b;
 		ARG 0 obj
 		ARG 1 context

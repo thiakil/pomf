@@ -5,27 +5,12 @@ CLASS mi net/minecraft/network/packet/server/SPacketEntityUse
 		FIELD c INTERACT_AT Lmi$a;
 	FIELD a targetId I
 	FIELD b type Lmi$a;
-	FIELD c pos Lcgc;
-	FIELD d hand Lagm;
-	METHOD <init> (Laht;)V
-		ARG 0 target
-	METHOD <init> (Laht;Lagm;)V
-		ARG 0 target
-		ARG 1 hand
-	METHOD <init> (Laht;Lagm;Lcgc;)V
-		ARG 0 target
-		ARG 1 hand
-		ARG 2 pos
 	METHOD a getType ()Lmi$a;
-	METHOD a getTarget (Lbax;)Laht;
-		ARG 0 world
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf
 	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
 	METHOD a applyPacket (Llx;)V
 		ARG 0 handler
-	METHOD b getHand ()Lagm;
 	METHOD b writePacket (Lht;)V
 		ARG 0 buf
-	METHOD c getPos ()Lcgc;

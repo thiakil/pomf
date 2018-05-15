@@ -8,7 +8,5 @@ CLASS mz net/minecraft/network/packet/server/SPacketSpectate
 		ARG 0 handler
 	METHOD a applyPacket (Llx;)V
 		ARG 0 handler
-	METHOD a getTarget (Lsj;)Laht;
-		ARG 0 world
 	METHOD b writePacket (Lht;)V
 		ARG 0 buf

@@ -1,8 +1,4 @@
 CLASS ajn net/minecraft/entity/ai/AiGoalFleeSun
-	FIELD a owner Laik;
-	FIELD f world Lbax;
-	METHOD <init> (Laik;D)V
-		ARG 0 owner
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V

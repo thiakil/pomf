@@ -1,4 +1,1 @@
 CLASS cxk net/minecraft/client/render/block/entity/BlockEntityEnchantingTableRenderer
-	FIELD a BOOK_TEX Loj;
-	METHOD a render (Lbmb;DDDFI)V
-	METHOD a render (Lbml;DDDFI)V

@@ -1,7 +1,1 @@
 CLASS cjy net/minecraft/client/toast/ToastTutorial
-	CLASS cjy$a Icons
-		FIELD c TREE Lcjy$a;
-	METHOD a hide ()V
-	METHOD a setProgress (F)V
-	METHOD a draw (Lcjx;J)Lcjw$a;
-		ARG 0 toastGui

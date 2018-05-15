@@ -1,3 +1,2 @@
 CLASS ccl
 	FIELD a NORMAL Lccl;
-	FIELD b FUZZY Lccl;

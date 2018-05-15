@@ -1,9 +1,2 @@
 CLASS cxh net/minecraft/client/render/block/entity/BlockEntityRenderer
-	FIELD c renderManager Lcxg;
-	METHOD a getWorld ()Lbax;
 	METHOD a render (Lbmb;DDDFI)V
-	METHOD a setRenderManager (Lcxg;)V
-		ARG 0 renderManager
-	METHOD a bindTexture (Loj;)V
-		ARG 0 id
-	METHOD b getFontRenderer ()Lcig;

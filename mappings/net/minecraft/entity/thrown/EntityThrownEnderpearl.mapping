@@ -1,7 +1,1 @@
 CLASS asc net/minecraft/entity/thrown/EntityThrownEnderpearl
-	FIELD e owner Laic;
-	METHOD R_ update ()V
-	METHOD a onCollision (Lcfz;)V
-		ARG 0 hitResult
-	METHOD d changeWorld (I)Laht;
-		ARG 0 worldId

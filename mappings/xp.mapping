@@ -1,6 +1,2 @@
 CLASS xp
 	CLASS xp$a
-		METHOD equals (Ljava/lang/Object;)Z
-			ARG 0 object
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 0 object

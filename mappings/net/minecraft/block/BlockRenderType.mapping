@@ -1,3 +1,1 @@
 CLASS bjs net/minecraft/block/BlockRenderType
-	FIELD a NONE Lbjs;
-	FIELD c MODEL Lbjs;

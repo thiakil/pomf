@@ -1,2 +1,1 @@
 CLASS bgi net/minecraft/block/BlockConcretePowder
-	METHOD a getDefaultState (Laul;)Lbnv;

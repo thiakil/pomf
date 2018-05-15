@@ -1,47 +1,11 @@
 CLASS ann net/minecraft/entity/passive/EntityWolf
 	CLASS ann$a
-		METHOD a canStart ()Z
-		METHOD c start ()V
-		METHOD e tick ()V
-	FIELD bD WOLF_HEALTH Lny;
-	FIELD bF COLLAR_COLOR Lny;
-	METHOD B attackEntity (Laht;)Z
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
-	METHOD K mobTick ()V
-	METHOD R_ update ()V
-	METHOD a damage (Lahc;F)Z
-		ARG 0 source
-		ARG 1 damage
-	METHOD a createChild (Lahq;)Lahq;
-		ARG 0 other
-	METHOD a canBeLeashedBy (Larh;)Z
-		ARG 0 player
-	METHOD a interactMob (Larh;Lagm;)Z
-		ARG 0 player
-		ARG 1 playerHand
-	METHOD a playStepSound (Lef;Lbfm;)V
-		ARG 0 pos
-		ARG 1 block
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD b createChild (Lahq;)Lann;
-		ARG 0 other
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD bI getEyeHeight ()F
-	METHOD cE getSoundVolume ()F
-	METHOD ca initAttributes ()V
 	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahc;)Lvo;
-	METHOD dN isAngry ()Z
-	METHOD dk getLimitPerChunk ()I
-	METHOD e setTarget (Laic;)V
-		ARG 0 value
-	METHOD k updateMovement ()V
 	METHOD n ()V
-	METHOD t setTamed (Z)V
-		ARG 0 value
-	METHOD v setAngry (Z)V
-		ARG 0 value
 	METHOD w_ initDataTracker ()V

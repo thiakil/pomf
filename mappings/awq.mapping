@@ -1,3 +1,1 @@
 CLASS awq
-	METHOD i getTranslatedNameTrimmed (Lawg;)Lic;
-		ARG 0 stack

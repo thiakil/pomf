@@ -1,17 +1,1 @@
 CLASS ckb net/minecraft/client/gui/widget/WidgetRealmsButton
-	METHOD <init> (Lnet/minecraft/realms/RealmsButton;IIILjava/lang/String;)V
-		ARG 0 button
-		ARG 1 id
-		ARG 2 x
-		ARG 3 y
-		ARG 4 text
-	METHOD a drawBackground (Lchp;II)V
-		ARG 0 game
-		ARG 1 mouseX
-		ARG 2 mouseY
-	METHOD a getTextureId (Z)I
-		ARG 0 pressed
-	METHOD b getWidth ()I
-	METHOD d getTexId (Z)I
-		ARG 0 value
-	METHOD f getRealmsButton ()Lnet/minecraft/realms/RealmsButton;

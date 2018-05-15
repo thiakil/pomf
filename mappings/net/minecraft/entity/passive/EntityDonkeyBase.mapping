@@ -1,18 +1,10 @@
 CLASS ano net/minecraft/entity/passive/EntityDonkeyBase
-	FIELD bJ CHEST Lny;
-	METHOD a onDeath (Lahc;)V
-		ARG 0 damageSource
-	METHOD a interactMob (Larh;Lagm;)Z
-		ARG 0 player
-		ARG 1 playerHand
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD aL getMountedHeightOffset ()D
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
 	METHOD ca initAttributes ()V
 	METHOD dD hasChest ()Z
-	METHOD dE getInventorySize ()I
 	METHOD t setHasChest (Z)V
 		ARG 0 value
 	METHOD w_ initDataTracker ()V

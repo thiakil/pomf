@@ -5,8 +5,6 @@ CLASS ad net/minecraft/advancement/criterion/TriggerConstructBeacon
 		METHOD <init> (Lot;)V
 			ARG 0 manager
 		METHOD a isEmpty ()Z
-		METHOD a handle (Lblz;)V
-			ARG 0 beacon
 		METHOD a addCondition (Ls$a;)V
 			ARG 0 condition
 		METHOD b removeCondition (Ls$a;)V
@@ -22,9 +20,6 @@ CLASS ad net/minecraft/advancement/criterion/TriggerConstructBeacon
 	METHOD a addCondition (Lot;Ls$a;)V
 		ARG 0 manager
 		ARG 1 condition
-	METHOD a handle (Lsl;Lblz;)V
-		ARG 0 player
-		ARG 1 beacon
 	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lad$b;
 		ARG 0 obj
 		ARG 1 context

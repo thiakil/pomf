@@ -1,17 +1,1 @@
 CLASS bjx
-	FIELD a STAGE Lbot;
-	METHOD a isFertilizable (Lbal;Lef;Lbnv;Z)Z
-		ARG 1 pos
-		ARG 3 remote
-	METHOD a canGrow (Lbax;Ljava/util/Random;Lef;Lbnv;)Z
-		ARG 0 world
-		ARG 1 rand
-		ARG 2 pos
-	METHOD b grow (Lbax;Ljava/util/Random;Lef;Lbnv;)V
-		ARG 0 world
-		ARG 1 rand
-		ARG 2 pos
-	METHOD b updateTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 random

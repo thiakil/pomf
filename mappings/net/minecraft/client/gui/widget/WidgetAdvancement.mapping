@@ -1,14 +1,1 @@
 CLASS clu net/minecraft/client/gui/widget/WidgetAdvancement
-	FIELD a WIDGETS_TEX Loj;
-	FIELD g tree Lcls;
-	FIELD h advancement Ll;
-	FIELD i display Lu;
-	FIELD m mc Lchp;
-	FIELD o children Ljava/util/List;
-	METHOD <init> (Lcls;Lchp;Ll;Lu;)V
-		ARG 0 tree
-		ARG 1 mc
-		ARG 2 advancement
-		ARG 3 display
-	METHOD a getRootWidget (Ll;)Lclu;
-		ARG 0 advancement

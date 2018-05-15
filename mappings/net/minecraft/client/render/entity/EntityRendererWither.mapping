@@ -1,7 +1,2 @@
 CLASS dcg net/minecraft/client/render/entity/EntityRendererWither
 	FIELD a INVINCIBLE_SKIN Loj;
-	FIELD j SKIN Loj;
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Laoy;)Loj;
-		ARG 0 model

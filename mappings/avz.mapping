@@ -1,7 +1,1 @@
 CLASS avz
-	METHOD a onConsumed (Lawg;Lbax;Larh;)V
-		ARG 0 stack
-		ARG 1 world
-		ARG 2 player
-	METHOD e getRarity (Lawg;)Laws;
-		ARG 0 stack

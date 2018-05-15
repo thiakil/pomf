@@ -1,9 +1,1 @@
 CLASS bkm
-	METHOD a update (Lbnv;Lbax;Lef;Lbfm;Lef;)V
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 block
-		ARG 4 updatePos
-	METHOD b onBlockAdded (Lbnv;Lbax;Lef;Lbnv;)V
-		ARG 1 world
-		ARG 2 pos

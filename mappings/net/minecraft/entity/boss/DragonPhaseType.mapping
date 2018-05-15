@@ -1,15 +1,1 @@
 CLASS aou net/minecraft/entity/boss/DragonPhaseType
-	FIELD a HOLDING_PATTERN Laou;
-	FIELD b STRAFE_PLAYER Laou;
-	FIELD c LANDING_APPROACH Laou;
-	FIELD d LANDING Laou;
-	FIELD e TAKEOFF Laou;
-	FIELD f SITTING_FLAMING Laou;
-	FIELD g SITTING_SCANNING Laou;
-	FIELD h SITTING_ATTACKING Laou;
-	FIELD i CHARGING_PLAYER Laou;
-	FIELD j DYING Laou;
-	FIELD k HOVER Laou;
-	FIELD o key Ljava/lang/String;
-	METHOD <init> (ILjava/lang/Class;Ljava/lang/String;)V
-		ARG 2 key

@@ -1,4 +1,2 @@
 CLASS dct
 	METHOD a shouldMergeTextures ()Z
-	METHOD a render (Laic;FFFFFFF)V
-		ARG 0 entity

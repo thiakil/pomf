@@ -1,30 +1,10 @@
 CLASS aqf net/minecraft/entity/EntityIllagerIllusion
 	CLASS aqf$a
 		METHOD a canStart ()Z
-		METHOD c start ()V
-		METHOD g getSpellTicks ()I
-		METHOD i startTimeDelay ()I
-		METHOD j castSpell ()V
-		METHOD k getSoundPrepare ()Lvo;
 	CLASS aqf$b
-		METHOD a canStart ()Z
-		METHOD g getSpellTicks ()I
-		METHOD i startTimeDelay ()I
-		METHOD j castSpell ()V
-		METHOD k getSoundPrepare ()Lvo;
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
-	METHOD a (Lagl;Laif;Lawg;)Laif;
-		ARG 0 difficulty
-	METHOD a attackDistant (Laic;F)V
-		ARG 0 target
 	METHOD ca initAttributes ()V
 	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahc;)Lvo;
-	METHOD k updateMovement ()V
 	METHOD n ()V
-	METHOD r isTeammate (Laht;)Z
-		ARG 0 entity
-	METHOD s setAiming (Z)V
-		ARG 0 value
 	METHOD w_ initDataTracker ()V

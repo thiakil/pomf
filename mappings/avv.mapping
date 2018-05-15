@@ -1,11 +1,1 @@
 CLASS avv
-	CLASS avv$1
-		METHOD a getProperty (Lawg;Lbax;Laic;)F
-			ARG 0 stack
-			ARG 1 world
-			ARG 2 user
-	METHOD a onRightClick (Lbax;Larh;Lagm;)Lagp;
-		ARG 0 world
-		ARG 1 player
-		ARG 2 hand
-	METHOD c getEnchantability ()I

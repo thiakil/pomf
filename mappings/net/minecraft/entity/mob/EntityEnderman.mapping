@@ -1,44 +1,4 @@
 CLASS apx net/minecraft/entity/mob/EntityEnderman
-	CLASS apx$a AiGoalPlaceBlock
-		FIELD a owner Lapx;
-		METHOD a canStart ()Z
-		METHOD e tick ()V
-	CLASS apx$b
-		METHOD a canStart ()Z
-		METHOD b shouldContinue ()Z
-		METHOD c start ()V
-		METHOD d stop ()V
-		METHOD e tick ()V
-	CLASS apx$c AiGoalPickBlock
-		FIELD a owner Lapx;
-		METHOD a canStart ()Z
-		METHOD e tick ()V
-	FIELD bB ageWhenTargetSet I
-	FIELD b ATTACKINGSPEEDBOOST Laiq;
-	FIELD bz ANGRY Lny;
-	FIELD c CARRIED_BLOCK Lny;
-	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
-	METHOD K mobTick ()V
-	METHOD a damage (Lahc;F)Z
-		ARG 0 source
-		ARG 1 damage
-	METHOD a deserializeCustomData (Lgu;)V
-		ARG 0 tag
-	METHOD a onTrackedDataSet (Lny;)V
-		ARG 0 data
-	METHOD a dropEquipment (ZI)V
-		ARG 0 recentlyHitByPlayer
-		ARG 1 looting
-	METHOD b serializeCustomData (Lgu;)V
-		ARG 0 tag
 	METHOD bI getEyeHeight ()F
 	METHOD ca initAttributes ()V
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahc;)Lvo;
-	METHOD dF isAngry ()Z
-	METHOD e setTarget (Laic;)V
-		ARG 0 value
-	METHOD k updateMovement ()V
-	METHOD n ()V
-	METHOD w_ initDataTracker ()V

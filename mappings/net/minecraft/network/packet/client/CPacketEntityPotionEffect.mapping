@@ -4,9 +4,6 @@ CLASS lu net/minecraft/network/packet/client/CPacketEntityPotionEffect
 	FIELD c amplifier B
 	FIELD d duration I
 	FIELD e flags B
-	METHOD <init> (ILahm;)V
-		ARG 0 entityId
-		ARG 1 effect
 	METHOD a isPermanent ()Z
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf

@@ -1,15 +1,7 @@
 CLASS bml net/minecraft/block/entity/BlockEntityEnchantingTable
 	FIELD a ticks I
-	FIELD n RANDOM Ljava/util/Random;
-	FIELD o customName Lic;
-	METHOD N_ getNameAsComponent ()Lic;
-	METHOD O_ hasCustomName ()Z
 	METHOD Y_ update ()V
-	METHOD a createContainer (Larg;Larh;)Lasw;
-		ARG 0 playerInv
-		ARG 1 player
 	METHOD a serialize (Lgu;)Lgu;
 		ARG 0 tag
 	METHOD b deserialize (Lgu;)V
 		ARG 0 tag
-	METHOD l getContainerId ()Ljava/lang/String;

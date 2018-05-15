@@ -1,12 +1,7 @@
 CLASS ko net/minecraft/network/packet/client/CPacketPlayerUseBed
 	FIELD a entityId I
 	FIELD b bedHeadPos Lef;
-	METHOD <init> (Larh;Lef;)V
-		ARG 0 entityId
-		ARG 1 bedHeadPos
 	METHOD a getBedHeadPos ()Lef;
-	METHOD a getPlayer (Lbax;)Larh;
-		ARG 0 world
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf
 	METHOD a applyPacket (Lhw;)V

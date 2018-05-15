@@ -1,11 +1,1 @@
 CLASS cem net/minecraft/world/loot/LootTablePool
-	FIELD a entries [Lcen;
-	FIELD b conditions [Lcfi;
-	FIELD c rolls Lces;
-	FIELD d bonusRolls Lces;
-	METHOD <init> ([Lcen;[Lcfi;Lces;Lces;)V
-		ARG 0 entries
-		ARG 1 conditions
-		ARG 2 rolls
-		ARG 3 bonusRolls
-	METHOD b generateLoot (Ljava/util/Collection;Ljava/util/Random;Lcep;)V

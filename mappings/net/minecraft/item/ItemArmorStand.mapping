@@ -1,3 +1,1 @@
 CLASS auf net/minecraft/item/ItemArmorStand
-	METHOD a setRotations (Lapa;Ljava/util/Random;)V
-	METHOD a activate (Laxr;)Lago;

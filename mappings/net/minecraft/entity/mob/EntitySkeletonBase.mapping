@@ -1,29 +1,5 @@
 CLASS apr net/minecraft/entity/mob/EntitySkeletonBase
-	CLASS apr$1
-		METHOD c start ()V
-		METHOD d stop ()V
-	FIELD a AIMING Lny;
-	METHOD a initEquipment (Lagl;)V
-		ARG 0 difficulty
-	METHOD a (Lagl;Laif;Lawg;)Laif;
-		ARG 0 difficulty
-	METHOD a setEquippedStack (Lahy;Lawg;)V
-		ARG 0 slot
-		ARG 1 stack
-	METHOD a attackDistant (Laic;F)V
-		ARG 0 target
-	METHOD a playStepSound (Lef;Lbfm;)V
-		ARG 0 pos
-		ARG 1 block
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD aK getHeightOffset ()D
-	METHOD bI getEyeHeight ()F
-	METHOD cB getEntityAttribute ()Laih;
-	METHOD ca initAttributes ()V
-	METHOD dC isAiming ()Z
-	METHOD k updateMovement ()V
 	METHOD n ()V
-	METHOD s setAiming (Z)V
-		ARG 0 value
 	METHOD w_ initDataTracker ()V

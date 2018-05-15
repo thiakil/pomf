@@ -1,8 +1,1 @@
 CLASS cza net/minecraft/client/render/entity/EntityRendererArmorStand
-	CLASS cza$1
-		METHOD ap_ init ()V
-	FIELD a TEX Loj;
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Lapa;)Loj;
-		ARG 0 model

@@ -1,7 +1,0 @@
-CLASS apt net/minecraft/entity/mob/EntityCaveSpider
-	METHOD B attackEntity (Laht;)Z
-	METHOD H getLootTableId ()Loj;
-	METHOD a (Lagl;Laif;Lawg;)Laif;
-		ARG 0 difficulty
-	METHOD bI getEyeHeight ()F
-	METHOD ca initAttributes ()V

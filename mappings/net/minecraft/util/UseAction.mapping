@@ -4,4 +4,3 @@ CLASS axq net/minecraft/util/UseAction
 	FIELD c DRINK Laxq;
 	FIELD d GUARD Laxq;
 	FIELD e BOW Laxq;
-	FIELD f SPEAR Laxq;

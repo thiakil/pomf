@@ -1,6 +1,1 @@
 CLASS dcc net/minecraft/client/render/entity/EntityRendererIronGolem
-	FIELD a SKIN Loj;
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Lanl;)Loj;
-		ARG 0 model

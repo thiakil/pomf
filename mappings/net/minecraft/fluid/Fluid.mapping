@@ -1,12 +1,1 @@
 CLASS caw net/minecraft/fluid/Fluid
-	FIELD a EMPTY_IDENTIFIER Loj;
-	FIELD b defaultState Lcax;
-	FIELD c REGISTRY Lej;
-	METHOD a getRenderLayer ()Lbam;
-	METHOD a register (Ljava/lang/String;Lcaw;)V
-	METHOD a register (Loj;Lcaw;)V
-	METHOD c isEmpty ()Z
-	METHOD f getDefaultState ()Lcax;
-	METHOD f setDefaultState (Lcax;)V
-		ARG 0 value
-	METHOD i registerFluids ()V

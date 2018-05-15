@@ -1,44 +1,7 @@
 CLASS cve net/minecraft/client/render/FirstPersonRenderer
-	FIELD a MAP_BACKGROUND_TEX Loj;
-	FIELD b UNDERWATER_TEX Loj;
-	FIELD c game Lchp;
-	FIELD d mainHand Lawg;
-	FIELD e offHand Lawg;
-	FIELD f equipProgressMainHand F
-	FIELD g prevEquipProgressMainHand F
-	FIELD h equipProgressOffHand F
 	FIELD i prevEquipProgressOffHand F
-	FIELD j renderManager Lczv;
-	FIELD k itemRenderer Ldam;
-	METHOD <init> (Lchp;)V
-		ARG 0 minecraft
-	METHOD a updateHeldItems ()V
 	METHOD a renderFirstPersonItem (F)V
 		ARG 0 deltaTicks
-	METHOD a rotate (FF)V
-		ARG 0 degreeX
-		ARG 1 degreeY
-	METHOD a renderFirstPersonMap (FFF)V
-	METHOD a resetEquipProgress (Lagm;)V
-		ARG 0 hand
-	METHOD a renderArm (Laib;)V
-		ARG 0 hand
-	METHOD a renderItem (Laic;Lawg;Lcwl$b;)V
-		ARG 0 holder
-		ARG 1 stack
-		ARG 2 transformation
-	METHOD a renderItemFromSide (Laic;Lawg;Lcwl$b;Z)V
-		ARG 0 holder
-		ARG 1 stack
-		ARG 2 transformation
-		ARG 3 leftHanded
-	METHOD a renderFirstPersonMap (Lawg;)V
-		ARG 0 map
-	METHOD a renderFirstPersonItem (Lcuj;FFLagm;FLawg;F)V
-		ARG 0 player
-		ARG 3 hand
-		ARG 5 item
-	METHOD a renderBlock (Ldet;)V
 	METHOD b renderOverlays (F)V
 		ARG 0 deltaTicks
 	METHOD c renderArms ()V

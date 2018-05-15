@@ -1,60 +1,8 @@
 CLASS bmp net/minecraft/block/entity/BlockEntityHopper
-	FIELD e inventory Leu;
-	FIELD f transferCooldown I
-	METHOD E isCooldown ()Z
-	METHOD H getHopperX ()D
-	METHOD I getHopperY ()D
-	METHOD J getHopperZ ()D
 	METHOD N_ getNameAsComponent ()Lic;
-	METHOD P_ isInvEmpty ()Z
-	METHOD T_ getInvSize ()I
 	METHOD Y_ update ()V
-	METHOD a takeInvStack (II)Lawg;
-		ARG 0 slot
-		ARG 1 amount
-	METHOD a setInvStack (ILawg;)V
-		ARG 0 slot
-		ARG 1 stack
-	METHOD a canInsert (Lagg;Lawg;ILel;)Z
-		ARG 0 inv
-		ARG 1 stack
-		ARG 2 slot
-		ARG 3 facing
-	METHOD a isInventoryFull (Lagg;Lel;)Z
-		ARG 0 inv
-		ARG 1 facing
-	METHOD a createContainer (Larg;Larh;)Lasw;
-		ARG 0 playerInv
-		ARG 1 player
-	METHOD a canMergeItems (Lawg;Lawg;)Z
-		ARG 0 first
-		ARG 1 second
-	METHOD a getInventory (Lbax;DDD)Lagg;
-		ARG 0 world
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD a tryExtract (Lbmo;)Z
-		ARG 0 hopper
 	METHOD a serialize (Lgu;)Lgu;
 		ARG 0 tag
-	METHOD b canExtract (Lagg;Lawg;ILel;)Z
-		ARG 0 inv
-		ARG 1 stack
-		ARG 2 slot
-		ARG 3 facing
-	METHOD b isInventoryEmpty (Lagg;Lel;)Z
-		ARG 0 inv
-		ARG 1 facing
-	METHOD b getInputInventory (Lbmo;)Lagg;
-		ARG 0 hopper
 	METHOD b deserialize (Lgu;)V
 		ARG 0 tag
-	METHOD d setCooldown (I)V
-		ARG 0 value
-	METHOD f getInvMaxStackAmount ()I
 	METHOD l getContainerId ()Ljava/lang/String;
-	METHOD p isEmpty ()Z
-	METHOD q getInvStackList ()Leu;
-	METHOD r isFull ()Z
-	METHOD s tryInsert ()Z

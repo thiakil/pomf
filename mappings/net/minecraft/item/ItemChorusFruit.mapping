@@ -1,7 +1,1 @@
 CLASS auu net/minecraft/item/ItemChorusFruit
-	METHOD <init> (IFLawc$a;)V
-		ARG 0 hungerRestored
-	METHOD a onItemFinishedUsing (Lawg;Lbax;Laic;)Lawg;
-		ARG 0 stack
-		ARG 1 world
-		ARG 2 user

@@ -1,13 +1,1 @@
 CLASS biw net/minecraft/block/BlockNetherWart
-	FIELD a AGE Lbot;
-	METHOD a getItem (Lbal;Lef;Lbnv;)Lawg;
-	METHOD a dropItems (Lbnv;Lbax;Lef;FI)V
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 dropChance
-		ARG 4 fortune
-	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
-	METHOD b updateTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 random

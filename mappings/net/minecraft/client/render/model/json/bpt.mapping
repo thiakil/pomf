@@ -1,3 +1,2 @@
 CLASS cwc net/minecraft/client/render/model/json/bpt
-	FIELD a uvs [F
 	FIELD b rotation I

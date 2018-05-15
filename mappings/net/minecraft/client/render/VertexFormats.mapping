@@ -1,10 +1,1 @@
 CLASS dfb net/minecraft/client/render/VertexFormats
-	FIELD f POSITION_COLOR Ldfd;
-	FIELD g POSITION_UV Ldfd;
-	FIELD i POSITION_UV_COLOR Ldfd;
-	FIELD m POSITION Ldfe;
-	FIELD n COLOR Ldfe;
-	FIELD o UV Ldfe;
-	FIELD p UV1 Ldfe;
-	FIELD q NORMAL Ldfe;
-	FIELD r PADDING Ldfe;

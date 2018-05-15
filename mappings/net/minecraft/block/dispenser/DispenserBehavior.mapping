@@ -1,9 +1,3 @@
 CLASS en net/minecraft/block/dispenser/DispenserBehavior
 	CLASS en$1
-		METHOD a dispense (Leg;Lawg;)Lawg;
-			ARG 0 location
-			ARG 1 stack
 	FIELD a DEFAULT Len;
-	METHOD a dispense (Leg;Lawg;)Lawg;
-		ARG 0 location
-		ARG 1 stack

@@ -1,2 +1,1 @@
 CLASS cfv net/minecraft/world/WorldFileIOTask
-	METHOD a run ()Z

@@ -1,21 +1,9 @@
 CLASS kd net/minecraft/network/packet/client/CPacketGameJoin
 	FIELD a playerEntityId I
 	FIELD b hardcore Z
-	FIELD c gameMode Lbau;
 	FIELD d worldId I
-	FIELD e difficulty Lagk;
 	FIELD f maxPlayers I
-	FIELD g generatorType Lbbe;
 	FIELD h reducedDebugInfo Z
-	METHOD <init> (ILbau;ZILagk;ILbbe;Z)V
-		ARG 0 playerEntityId
-		ARG 1 gameMode
-		ARG 2 hardcore
-		ARG 3 worldId
-		ARG 4 difficulty
-		ARG 5 maxPlayers
-		ARG 6 generatorType
-		ARG 7 reducedDebugInfo
 	METHOD a getEntityId ()I
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf
@@ -26,7 +14,5 @@ CLASS kd net/minecraft/network/packet/client/CPacketGameJoin
 	METHOD b isHardcore ()Z
 	METHOD b writePacket (Lht;)V
 		ARG 0 buf
-	METHOD c getGameMode ()Lbau;
 	METHOD d getWorldId ()I
-	METHOD e getDifficulty ()Lagk;
 	METHOD h hasReducedDebugInfo ()Z

@@ -1,5 +1,1 @@
 CLASS das net/minecraft/client/render/entity/EntityRendererLlamaSpit
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Lart;)Loj;
-		ARG 0 model

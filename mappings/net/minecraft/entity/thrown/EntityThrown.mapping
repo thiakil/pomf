@@ -1,34 +1,10 @@
 CLASS asa net/minecraft/entity/thrown/EntityThrown
-	FIELD a inGround Z
-	FIELD b shake I
-	FIELD c owner Laic;
-	FIELD e blockX I
-	FIELD f blockY I
-	FIELD g zTile I
 	FIELD h owner Ljava/util/UUID;
-	METHOD <init> (Lahx;DDDLbax;)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
 	METHOD R_ update ()V
 	METHOD a shouldRender (D)Z
 		ARG 0 distanceSq
-	METHOD a onCollision (Lcfz;)V
-		ARG 0 hitResult
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD c setVelocity (DDDFF)V
-		ARG 0 dirX
-		ARG 1 dirY
-		ARG 2 dirZ
-		ARG 3 force
-		ARG 4 variation
-	METHOD f getGravity ()F
-	METHOD h setVelocityClient (DDD)V
-		ARG 0 x
-		ARG 1 y
-		ARG 2 z
-	METHOD i getOwner ()Laic;
 	METHOD w_ initDataTracker ()V

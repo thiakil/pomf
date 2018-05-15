@@ -1,5 +1,3 @@
 CLASS afq
-	CLASS afq$2
-		METHOD a wander (Labc;Lxq;)Lxq;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object

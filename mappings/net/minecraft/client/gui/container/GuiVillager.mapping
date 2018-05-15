@@ -1,18 +1,5 @@
 CLASS cmu net/minecraft/client/gui/container/GuiVillager
-	CLASS cmu$a
-		METHOD a draw (IIF)V
-			ARG 1 mouseY
-			ARG 2 delta
-	FIELD B villagerName Lic;
-	FIELD v LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD w BG_TEX Loj;
-	FIELD x villager Lbae;
-	FIELD y buttonPageNext Lcmu$a;
-	FIELD z buttonPagePrevious Lcmu$a;
-	METHOD <init> (Larg;Lbae;Lbax;)V
-		ARG 0 playerInv
-		ARG 1 villager
-		ARG 2 world
 	METHOD a drawBackground (FII)V
 		ARG 0 delta
 		ARG 1 mouseX

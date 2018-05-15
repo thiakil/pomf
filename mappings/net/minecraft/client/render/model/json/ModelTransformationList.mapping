@@ -4,36 +4,3 @@ CLASS cwl net/minecraft/client/render/model/json/ModelTransformationList
 		FIELD b THIRD_PERSON_LEFT_HAND Lcwl$b;
 		FIELD c THIRD_PERSON_RIGHT_HAND Lcwl$b;
 		FIELD d FIRST_PERSON_LEFT_HAND Lcwl$b;
-		FIELD e FIRST_PERSON_RIGHT_HAND Lcwl$b;
-		FIELD f HEAD Lcwl$b;
-		FIELD g GUI Lcwl$b;
-		FIELD h GROUND Lcwl$b;
-		FIELD i FIXED Lcwl$b;
-	FIELD a ORIGIN Lcwl;
-	FIELD b globalTranslationX F
-	FIELD c globalTranslationY F
-	FIELD d globalTranslationZ F
-	FIELD e globalRotationX F
-	FIELD f globalRotationY F
-	FIELD g globalRotationZ F
-	FIELD h globalScaleOffsetX F
-	FIELD i globalScaleOffsetY F
-	FIELD j globalScaleOffsetZ F
-	FIELD k thirdPersonLeftHand Lcwk;
-	FIELD l thirdPersonRightHand Lcwk;
-	FIELD m firstPersonLeftHand Lcwk;
-	FIELD n firstPersonRightHand Lcwk;
-	FIELD o head Lcwk;
-	FIELD p gui Lcwk;
-	FIELD q ground Lcwk;
-	FIELD r fixed Lcwk;
-	METHOD <init> (Lcwl;)V
-		ARG 0 list
-	METHOD a applyGl (Lcwk;Z)V
-		ARG 0 transform
-	METHOD a applyGl (Lcwl$b;)V
-		ARG 0 type
-	METHOD b getTransformation (Lcwl$b;)Lcwk;
-		ARG 0 type
-	METHOD c isTransformationDefined (Lcwl$b;)Z
-		ARG 0 type

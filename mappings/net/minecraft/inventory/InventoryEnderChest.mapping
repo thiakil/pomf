@@ -1,13 +1,1 @@
 CLASS atr net/minecraft/inventory/InventoryEnderChest
-	FIELD a currentBlockEntity Lbmm;
-	METHOD a canPlayerUseInv (Larh;)Z
-		ARG 0 player
-	METHOD a setCurrentBlockEntity (Lbmm;)V
-		ARG 0 value
-	METHOD a readTags (Lha;)V
-		ARG 0 tags
-	METHOD b onInvOpen (Larh;)V
-		ARG 0 player
-	METHOD c onInvClose (Larh;)V
-		ARG 0 player
-	METHOD i getTags ()Lha;

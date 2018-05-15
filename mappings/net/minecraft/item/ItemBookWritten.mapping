@@ -1,14 +1,1 @@
 CLASS axu net/minecraft/item/ItemBookWritten
-	METHOD a addInformation (Lawg;Lbax;Ljava/util/List;Laxo;)V
-		ARG 0 stack
-		ARG 2 tooltip
-	METHOD a onRightClick (Lbax;Larh;Lagm;)Lagp;
-		ARG 0 world
-		ARG 1 player
-		ARG 2 hand
-	METHOD b hasEnchantmentGlow (Lawg;)Z
-		ARG 0 stack
-	METHOD f getBookGeneration (Lawg;)I
-		ARG 0 stack
-	METHOD i getTranslatedNameTrimmed (Lawg;)Lic;
-		ARG 0 stack

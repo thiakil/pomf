@@ -1,5 +1,1 @@
 CLASS bmq
-	METHOD a serialize (Lgu;)Lgu;
-		ARG 0 tag
-	METHOD b deserialize (Lgu;)V
-		ARG 0 tag

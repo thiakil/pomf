@@ -1,16 +1,1 @@
 CLASS bqe net/minecraft/world/gen/WorldProvider
-	FIELD b world Lbax;
-	FIELD c waterEvaporates Z
-	FIELD d noSky Z
-	FIELD f lightValues [F
-	METHOD a init (Lbax;)V
-		ARG 0 world
-	METHOD b getFogColor (FF)Lcgc;
-	METHOD f doesWaterEvaporate ()Z
-	METHOD h hasNoSky ()Z
-	METHOD i getLightValues ()[F
-	METHOD j createWorldBorderHandler ()Lboy;
-	METHOD k serialize ()V
-	METHOD m setupBiomeProvider ()V
-	METHOD o hasClouds ()Z
-	METHOD q getWorldType ()Lbqf;

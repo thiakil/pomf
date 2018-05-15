@@ -1,2 +1,1 @@
 CLASS bbb net/minecraft/world/IWorldReader
-	METHOD a getEntitiesWithinAABB (Laht;Lcfy;)Ljava/util/List;

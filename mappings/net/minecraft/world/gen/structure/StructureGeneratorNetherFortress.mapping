@@ -1,2 +1,1 @@
 CLASS bty net/minecraft/world/gen/structure/StructureGeneratorNetherFortress
-	CLASS bty$a StructureNetherFortress

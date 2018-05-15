@@ -1,5 +1,2 @@
 CLASS bab net/minecraft/enchantment/EnchantmentAquaAffinity
-	METHOD <init> (Lazf$a;[Lahy;)V
-		ARG 0 weight
-		ARG 1 slotTypes
 	METHOD b getHighestLevel ()I

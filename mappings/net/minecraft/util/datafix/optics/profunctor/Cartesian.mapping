@@ -1,3 +1,2 @@
 CLASS acv net/minecraft/util/datafix/optics/profunctor/Cartesian
 	CLASS acv$a Mu
-	METHOD a left (Labb;)Labb;

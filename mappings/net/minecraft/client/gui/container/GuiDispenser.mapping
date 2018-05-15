@@ -1,10 +1,4 @@
 CLASS cmm net/minecraft/client/gui/container/GuiDispenser
-	FIELD v inventory Lagg;
-	FIELD w BG_TEX Loj;
-	FIELD x playerInv Larg;
-	METHOD <init> (Larg;Lagg;)V
-		ARG 0 playerInv
-		ARG 1 inventory
 	METHOD a drawBackground (FII)V
 		ARG 0 delta
 		ARG 1 mouseX

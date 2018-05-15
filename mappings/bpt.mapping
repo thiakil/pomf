@@ -1,6 +1,1 @@
 CLASS bpt
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD a_ getBlockState (Lef;)Lbnv;
-	METHOD b getFluidState (Lef;)Lcax;
-	METHOD f getBlockEntity (Lef;)Lbmb;
-		ARG 0 pos

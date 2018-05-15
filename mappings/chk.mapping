@@ -1,4 +1,1 @@
 CLASS chk
-	CLASS chk$a
-		METHOD equals (Ljava/lang/Object;)Z
-			ARG 0 object

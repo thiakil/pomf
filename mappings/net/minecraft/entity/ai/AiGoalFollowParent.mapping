@@ -1,6 +1,4 @@
 CLASS aju net/minecraft/entity/ai/AiGoalFollowParent
-	FIELD a owner Lamr;
-	FIELD b parent Lamr;
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V

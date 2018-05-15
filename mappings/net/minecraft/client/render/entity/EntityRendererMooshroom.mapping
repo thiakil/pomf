@@ -1,6 +1,2 @@
 CLASS daw net/minecraft/client/render/entity/EntityRendererMooshroom
 	FIELD a SKIN Loj;
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Lamx;)Loj;
-		ARG 0 model

@@ -1,6 +1,2 @@
 CLASS czr net/minecraft/client/render/entity/EntityRendererEnderCrystal
 	FIELD a SKIN Loj;
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Laod;)Loj;
-		ARG 0 model

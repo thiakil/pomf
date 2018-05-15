@@ -1,4 +1,2 @@
 CLASS cxo net/minecraft/client/render/block/entity/BlockEntitySignRenderer
 	FIELD a SIGN_TEX Loj;
-	METHOD a render (Lbmb;DDDFI)V
-	METHOD a render (Lbmw;DDDFI)V

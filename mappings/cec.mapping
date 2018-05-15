@@ -6,8 +6,6 @@ CLASS cec
 		ARG 0 levelName
 		ARG 1 progress
 	METHOD b getAvailableLevels ()Ljava/util/List;
-	METHOD c getLevelProperties (Ljava/lang/String;)Lcdz;
-		ARG 0 levelName
 	METHOD d clearAll ()V
 	METHOD e delete (Ljava/lang/String;)Z
 		ARG 0 levelName

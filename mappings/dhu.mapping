@@ -1,2 +1,0 @@
-CLASS dhu
-	FIELD f preInit Ljava/lang/String;

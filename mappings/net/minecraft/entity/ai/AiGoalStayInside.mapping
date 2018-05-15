@@ -1,10 +1,1 @@
 CLASS aky net/minecraft/entity/ai/AiGoalStayInside
-	FIELD a entity Laik;
-	FIELD b closestDoor Lamh;
-	METHOD <init> (Laik;)V
-		ARG 0 entity
-	METHOD a canStart ()Z
-	METHOD b shouldContinue ()Z
-	METHOD c start ()V
-	METHOD d stop ()V
-	METHOD e tick ()V

@@ -1,13 +1,1 @@
 CLASS atw net/minecraft/container/ContainerShulkerBox
-	FIELD a inventory Lagg;
-	METHOD <init> (Larg;Lagg;Larh;)V
-		ARG 0 inventoryPlayer
-		ARG 1 inventory
-		ARG 2 player
-	METHOD a canUse (Larh;)Z
-		ARG 0 player
-	METHOD b close (Larh;)V
-		ARG 0 player
-	METHOD b getStack (Larh;I)Lawg;
-		ARG 0 player
-		ARG 1 slot

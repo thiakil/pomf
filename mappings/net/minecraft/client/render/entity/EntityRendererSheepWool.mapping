@@ -1,7 +1,2 @@
 CLASS ddh net/minecraft/client/render/entity/EntityRendererSheepWool
-	FIELD a SKIN Loj;
 	METHOD a shouldMergeTextures ()Z
-	METHOD a render (Laic;FFFFFFF)V
-		ARG 0 entity
-	METHOD a render (Lanf;FFFFFFF)V
-		ARG 0 entity

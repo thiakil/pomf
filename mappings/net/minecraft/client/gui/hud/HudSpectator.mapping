@@ -1,8 +1,1 @@
 CLASS cjr net/minecraft/client/gui/hud/HudSpectator
-	FIELD a SPECTATOR_TEX Loj;
-	FIELD f WIDGETS_TEX Loj;
-	FIELD g game Lchp;
-	FIELD i spectatorMenu Lcok;
-	METHOD <init> (Lchp;)V
-		ARG 0 game
-	METHOD a draw (F)V

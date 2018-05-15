@@ -1,3 +1,1 @@
 CLASS ahf
-	METHOD c getDeathMessage (Laic;)Lic;
-		ARG 0 entity

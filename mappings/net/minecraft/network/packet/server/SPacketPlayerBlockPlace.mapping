@@ -1,11 +1,6 @@
 CLASS na net/minecraft/network/packet/server/SPacketPlayerBlockPlace
 	FIELD a pos Lef;
 	FIELD b face Lel;
-	FIELD c hand Lagm;
-	METHOD <init> (Lef;Lel;Lagm;FFF)V
-		ARG 0 pos
-		ARG 1 face
-		ARG 2 hand
 	METHOD a getPos ()Lef;
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf
@@ -16,4 +11,3 @@ CLASS na net/minecraft/network/packet/server/SPacketPlayerBlockPlace
 	METHOD b getFace ()Lel;
 	METHOD b writePacket (Lht;)V
 		ARG 0 buf
-	METHOD c getHand ()Lagm;

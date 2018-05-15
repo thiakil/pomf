@@ -1,21 +1,8 @@
 CLASS bmx net/minecraft/block/entity/BlockEntitySkull
-	FIELD a owner Lcom/mojang/authlib/GameProfile;
-	FIELD h userCache Lur;
-	FIELD i sessionService Lcom/mojang/authlib/minecraft/MinecraftSessionService;
 	METHOD Y_ update ()V
 	METHOD Z_ getUpdatePacket ()Ljc;
-	METHOD a setOwnerAndType (Lcom/mojang/authlib/GameProfile;)V
-		ARG 0 owner
-	METHOD a setSessionService (Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V
-		ARG 0 value
 	METHOD a serialize (Lgu;)Lgu;
 		ARG 0 tag
-	METHOD a setUserCache (Lur;)V
-		ARG 0 value
 	METHOD aa_ serializeInitialChunkData ()Lgu;
-	METHOD b loadProperties (Lcom/mojang/authlib/GameProfile;)Lcom/mojang/authlib/GameProfile;
-		ARG 0 profile
 	METHOD b deserialize (Lgu;)V
 		ARG 0 tag
-	METHOD c getOwner ()Lcom/mojang/authlib/GameProfile;
-	METHOD f loadOwnerProperties ()V

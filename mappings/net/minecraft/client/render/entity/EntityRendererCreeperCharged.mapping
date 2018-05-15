@@ -1,7 +1,2 @@
 CLASS dcq net/minecraft/client/render/entity/EntityRendererCreeperCharged
-	FIELD a SKIN Loj;
 	METHOD a shouldMergeTextures ()Z
-	METHOD a render (Laic;FFFFFFF)V
-		ARG 0 entity
-	METHOD a render (Lapu;FFFFFFF)V
-		ARG 0 entity

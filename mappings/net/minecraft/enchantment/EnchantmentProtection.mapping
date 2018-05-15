@@ -1,21 +1,2 @@
 CLASS azr net/minecraft/enchantment/EnchantmentProtection
-	CLASS azr$a Type
-		FIELD a ALL Lazr$a;
-		FIELD b FIRE Lazr$a;
-		FIELD c FALL Lazr$a;
-		FIELD d EXPLOSION Lazr$a;
-		FIELD e PROJECTILE Lazr$a;
-		FIELD f name Ljava/lang/String;
-		METHOD a getName ()Ljava/lang/String;
-	FIELD a type Lazr$a;
-	METHOD <init> (Lazf$a;Lazr$a;[Lahy;)V
-		ARG 0 weight
-		ARG 1 type
-		ARG 2 slotTypes
-	METHOD a getTranslationKey ()Ljava/lang/String;
-	METHOD a getProtectionAmount (ILahc;)I
-		ARG 0 level
-		ARG 1 source
-	METHOD a isEqual (Lazf;)Z
-		ARG 0 other
 	METHOD b getHighestLevel ()I

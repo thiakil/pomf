@@ -1,10 +1,2 @@
 CLASS dah net/minecraft/client/render/entity/EntityRendererBiped
 	FIELD a SKIN Loj;
-	METHOD <init> (Lczv;Lcpw;F)V
-		ARG 0 renderManager
-		ARG 1 model
-		ARG 2 shadowSize
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Laid;)Loj;
-		ARG 0 model

@@ -1,28 +1,9 @@
 CLASS aqy net/minecraft/entity/mob/EntityZombieVillager
-	FIELD a CONVERTING Lny;
-	FIELD b PROFESSION Lny;
-	FIELD bz conversionTimer I
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
-	METHOD R_ update ()V
-	METHOD a setProfession (I)V
-		ARG 0 value
-	METHOD a (Lagl;Laif;Lawg;)Laif;
-		ARG 0 difficulty
-	METHOD a interactMob (Larh;Lagm;)Z
-		ARG 0 player
-		ARG 1 playerHand
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD a setConverting (Ljava/util/UUID;I)V
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD cF getSoundPitch ()F
 	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahc;)Lvo;
-	METHOD dE getSoundStep ()Lvo;
-	METHOD dF getSkull ()Lawg;
-	METHOD dJ getProfession ()I
-	METHOD dM isConverting ()Z
-	METHOD dN finishConversion ()V
 	METHOD w_ initDataTracker ()V

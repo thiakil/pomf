@@ -1,22 +1,5 @@
 CLASS asn net/minecraft/entity/vehicle/EntityCommandBlockMinecart
-	FIELD a COMMAND Lny;
-	FIELD b LAST_OUTPUT Lny;
-	FIELD c commandExecutor Lbai;
-	METHOD A getDefaultContainedBlock ()Lbnv;
-	METHOD a onActivatorRail (IIIZ)V
-		ARG 0 x
-		ARG 1 y
-		ARG 2 z
-		ARG 3 powered
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD a onTrackedDataSet (Lny;)V
-		ARG 0 data
-	METHOD b interact (Larh;Lagm;)Z
-		ARG 0 player
-		ARG 1 hand
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD f getCommandExecutor ()Lbai;
-	METHOD v getMinecartType ()Lasi$a;
-	METHOD w_ initDataTracker ()V

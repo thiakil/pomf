@@ -1,4 +1,0 @@
-CLASS bnw net/minecraft/block/state/BlockState
-	METHOD <init> (Lbfm;Lcom/google/common/collect/ImmutableMap;)V
-		ARG 0 block
-	METHOD c getBlock ()Lbfm;

@@ -1,8 +1,1 @@
 CLASS dae net/minecraft/client/render/entity/EntityRendererGiant
-	CLASS dae$1
-		METHOD ap_ init ()V
-	FIELD a SKIN Loj;
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Laqc;)Loj;
-		ARG 0 model

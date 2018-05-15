@@ -1,23 +1,3 @@
 CLASS bzf net/minecraft/world/gen/structure/template/StructureComponentTemplate
-	FIELD a template Lbzq;
-	FIELD b settings Lbzo;
-	FIELD c pos Lef;
-	FIELD d DEFAULT_SETTINGS Lbzo;
-	METHOD <init> (I)V
-		ARG 0 type
-	METHOD a translate (III)V
-		ARG 0 x
-		ARG 1 y
-		ARG 2 z
-	METHOD a generate (Lbay;Ljava/util/Random;Lbyh;Lban;)Z
-		ARG 1 rand
-		ARG 2 region
-	METHOD a setup (Lbzq;Lef;Lbzo;)V
-		ARG 0 template
-		ARG 1 pos
-		ARG 2 settings
 	METHOD a serializeStructureData (Lgu;)V
 		ARG 0 tag
-	METHOD a deserializeStructureData (Lgu;Lbzn;)V
-		ARG 0 tag
-	METHOD b setBoundingBoxFromTemplate ()V

@@ -3,4 +3,3 @@ CLASS aii net/minecraft/entity/MovementType
 	FIELD b PLAYER Laii;
 	FIELD c PISTON Laii;
 	FIELD d SHULKER_BOX Laii;
-	FIELD e SHULKER_ENTITY Laii;

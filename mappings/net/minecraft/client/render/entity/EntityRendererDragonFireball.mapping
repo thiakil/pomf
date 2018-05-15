@@ -1,6 +1,2 @@
 CLASS czo net/minecraft/client/render/entity/EntityRendererDragonFireball
 	FIELD a SKIN Loj;
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Laro;)Loj;
-		ARG 0 model

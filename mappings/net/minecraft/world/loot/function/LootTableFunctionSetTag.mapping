@@ -1,14 +1,2 @@
 CLASS cfd net/minecraft/world/loot/function/LootTableFunctionSetTag
 	CLASS cfd$a DeSerializer
-		METHOD a serialize (Lcom/google/gson/JsonObject;Lcew;Lcom/google/gson/JsonSerializationContext;)V
-		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfd;Lcom/google/gson/JsonSerializationContext;)V
-		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfi;)Lcfd;
-		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfi;)Lcew;
-	FIELD a tag Lgu;
-	METHOD <init> ([Lcfi;Lgu;)V
-		ARG 0 conditions
-		ARG 1 tag
-	METHOD a apply (Lawg;Ljava/util/Random;Lcep;)Lawg;
-		ARG 0 stack
-		ARG 1 rand
-		ARG 2 context

@@ -1,5 +1,0 @@
-CLASS clv net/minecraft/client/gui/menu/AdvancementIconType
-	FIELD a COMPLETED Lclv;
-	FIELD b ACTIVE Lclv;
-	FIELD c textureIndex I
-	METHOD a getTextureIndex ()I

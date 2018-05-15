@@ -1,7 +1,1 @@
 CLASS acc net/minecraft/util/datafix/optics/Lens
-	CLASS acc$b Instance
-		METHOD a left (Labb;)Labb;
-	METHOD a unbox (Labb;)Lacc;
-	METHOD a view (Ljava/lang/Object;)Ljava/lang/Object;
-	METHOD a update (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-	METHOD a view (Lwy;)Ljava/lang/Object;

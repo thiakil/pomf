@@ -1,6 +1,2 @@
 CLASS czt net/minecraft/client/render/entity/EntityRendererEnderman
 	FIELD a SKIN Loj;
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Lapx;)Loj;
-		ARG 0 model

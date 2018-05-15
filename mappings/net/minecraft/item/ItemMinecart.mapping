@@ -1,10 +1,1 @@
 CLASS awn net/minecraft/item/ItemMinecart
-	CLASS awn$1
-		METHOD a playSound (Leg;)V
-			ARG 0 block
-		METHOD b doDispense (Leg;Lawg;)Lawg;
-			ARG 0 block
-			ARG 1 stack
-	FIELD a DISPENSER_BEHAVIOR Len;
-	FIELD b type Lasi$a;
-	METHOD a activate (Laxr;)Lago;

@@ -1,5 +1,4 @@
 CLASS ave net/minecraft/item/DyeColor
-	FIELD a WHITE Lave;
 	FIELD b ORANGE Lave;
 	FIELD c MAGENTA Lave;
 	FIELD d LIGHT_BLUE Lave;
@@ -13,6 +12,3 @@ CLASS ave net/minecraft/item/DyeColor
 	FIELD l BLUE Lave;
 	FIELD m BROWN Lave;
 	FIELD n GREEN Lave;
-	FIELD o RED Lave;
-	FIELD p BLACK Lave;
-	METHOD m asString ()Ljava/lang/String;

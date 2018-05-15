@@ -1,3 +1,1 @@
 CLASS bht net/minecraft/block/BlockTerracotta
-	METHOD a getDefaultState (Laul;)Lbnv;
-	METHOD i getPistonBehavior (Lbnv;)Lcbd;

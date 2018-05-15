@@ -1,4 +1,1 @@
 CLASS dfl net/minecraft/client/resource/ResourceLoaderFoliageColormap
-	FIELD a FOLIAGE_COLORMAP_LOC Loj;
-	METHOD a onResourceReload (Lul;)V
-		ARG 0 container

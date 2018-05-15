@@ -1,6 +1,2 @@
 CLASS bjj net/minecraft/block/BlockPressurePlate
 	CLASS bjj$a Type
-		FIELD a WOOD Lbjj$a;
-		FIELD b STONE Lbjj$a;
-	FIELD t POWERED Lboq;
-	FIELD u type Lbjj$a;

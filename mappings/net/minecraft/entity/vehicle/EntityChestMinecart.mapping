@@ -1,11 +1,2 @@
 CLASS asm net/minecraft/entity/vehicle/EntityChestMinecart
-	METHOD A getDefaultContainedBlock ()Lbnv;
 	METHOD C getDefaultBlockOffset ()I
-	METHOD T_ getInvSize ()I
-	METHOD a dropItems (Lahc;)V
-		ARG 0 source
-	METHOD a createContainer (Larg;Larh;)Lasw;
-		ARG 0 playerInv
-		ARG 1 player
-	METHOD l getContainerId ()Ljava/lang/String;
-	METHOD v getMinecartType ()Lasi$a;

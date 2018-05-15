@@ -1,11 +1,1 @@
 CLASS cev
-	CLASS cev$a
-		METHOD a serialize (Lcom/google/gson/JsonObject;Lcev;Lcom/google/gson/JsonSerializationContext;)V
-		METHOD a serialize (Lcom/google/gson/JsonObject;Lcew;Lcom/google/gson/JsonSerializationContext;)V
-		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfi;)Lcev;
-		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfi;)Lcew;
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD a apply (Lawg;Ljava/util/Random;Lcep;)Lawg;
-		ARG 0 stack
-		ARG 1 rand
-		ARG 2 context

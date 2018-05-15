@@ -1,25 +1,8 @@
 CLASS aqn net/minecraft/entity/mob/EntitySilverfish
 	CLASS aqn$a
 		METHOD a canStart ()Z
-		METHOD b shouldContinue ()Z
-		METHOD c start ()V
 	CLASS aqn$b
-		METHOD a canStart ()Z
-		METHOD e tick ()V
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
-	METHOD R_ update ()V
-	METHOD a damage (Lahc;F)Z
-		ARG 0 source
-		ARG 1 damage
-	METHOD a playStepSound (Lef;Lbfm;)V
-		ARG 0 pos
-		ARG 1 block
-	METHOD aK getHeightOffset ()D
-	METHOD bI getEyeHeight ()F
-	METHOD cB getEntityAttribute ()Laih;
 	METHOD ca initAttributes ()V
 	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahc;)Lvo;
-	METHOD k setYaw (F)V
-	METHOD n ()V

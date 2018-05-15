@@ -1,9 +1,2 @@
 CLASS ama net/minecraft/entity/ai/pathing/EntitySpiderNavigation
-	METHOD a getPathTo (Laht;)Lcdf;
-		ARG 0 target
-	METHOD a moveTo (Laht;D)Z
-		ARG 0 entity
-		ARG 1 speed
-	METHOD b getPathTo (Lef;)Lcdf;
-		ARG 0 pos
 	METHOD d tick ()V

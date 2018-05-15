@@ -1,12 +1,7 @@
 CLASS ajm net/minecraft/entity/ai/AiGoalEatGrass
-	FIELD b owner Laid;
-	FIELD c world Lbax;
 	FIELD d timer I
-	METHOD <init> (Laid;)V
-		ARG 0 owner
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V
 	METHOD d stop ()V
 	METHOD e tick ()V
-	METHOD g getTimer ()I

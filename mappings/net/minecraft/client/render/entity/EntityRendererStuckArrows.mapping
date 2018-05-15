@@ -1,7 +1,1 @@
 CLASS dcn net/minecraft/client/render/entity/EntityRendererStuckArrows
-	FIELD a renderer Ldaq;
-	METHOD <init> (Ldaq;)V
-		ARG 0 renderer
-	METHOD a shouldMergeTextures ()Z
-	METHOD a render (Laic;FFFFFFF)V
-		ARG 0 entity

@@ -1,9 +1,1 @@
 CLASS axo net/minecraft/client/util/ITooltipFlag
-	CLASS axo$a TooltipFlag
-		FIELD a NORMAL Laxo$a;
-		FIELD b ADVANCED Laxo$a;
-		FIELD c advanced Z
-		METHOD <init> (Ljava/lang/String;IZ)V
-			ARG 2 advanced
-		METHOD a isAdvanced ()Z
-	METHOD a isAdvanced ()Z

@@ -1,9 +1,6 @@
 CLASS iz net/minecraft/network/packet/client/CPacketEntityAnimation
 	FIELD a id I
 	FIELD b animationId I
-	METHOD <init> (Laht;I)V
-		ARG 0 entity
-		ARG 1 animationId
 	METHOD a getId ()I
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf

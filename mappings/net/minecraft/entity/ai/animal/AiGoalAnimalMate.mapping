@@ -1,14 +1,6 @@
 CLASS ajk net/minecraft/entity/ai/animal/AiGoalAnimalMate
-	FIELD a owner Lamr;
-	FIELD b world Lbax;
-	FIELD c mate Lamr;
 	FIELD e timer I
-	FIELD f chance D
-	METHOD <init> (Lamr;D)V
-		ARG 0 owner
-		ARG 1 chance
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD d stop ()V
 	METHOD e tick ()V
-	METHOD i findMate ()Lamr;

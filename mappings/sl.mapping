@@ -6,48 +6,7 @@ CLASS sl
 	METHOD F updatePortalCooldown ()V
 	METHOD R_ update ()V
 	METHOD S_ stopRiding ()V
-	METHOD a openInventory (Lagg;)V
-		ARG 0 inv
-	METHOD a swingHand (Lagm;)V
-		ARG 0 hand
-	METHOD a openContainer (Lagn;)V
-	METHOD a onDeath (Lahc;)V
-		ARG 0 damageSource
-	METHOD a damage (Lahc;F)Z
-		ARG 0 source
-		ARG 1 damage
-	METHOD a copyEntityData (Laht;)V
-		ARG 0 entity
-	METHOD a startRiding (Laht;Z)Z
-		ARG 0 entity
-		ARG 1 ignoreRequirements
-	METHOD a openHorseInventory (Lanp;Lagg;)V
-	METHOD a shouldDamagePlayer (Larh;)Z
-		ARG 0 target
-	METHOD a onContainerPropertyUpdate (Lasw;II)V
-		ARG 0 container
-		ARG 1 propertyId
-		ARG 2 newValue
-	METHOD a onContainerSlotUpdate (Lasw;ILawg;)V
-		ARG 0 container
-		ARG 1 slotId
-		ARG 2 newStack
-	METHOD a onContainerInvRegistered (Lasw;Lagg;)V
-		ARG 0 container
-		ARG 1 inventory
-	METHOD a onContainerRegistered (Lasw;Leu;)V
-		ARG 0 container
-		ARG 1 stacks
-	METHOD a openBookEditor (Lawg;Lagm;)V
-	METHOD a openVillagerGui (Lbae;)V
-		ARG 0 villager
-	METHOD a setGameMode (Lbau;)V
-		ARG 0 value
 	METHOD a openCommandBlock (Lbmf;)V
-	METHOD a openSignEditor (Lbmw;)V
-		ARG 0 sign
-	METHOD a trySleep (Lef;)Larh$a;
-		ARG 0 pos
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
 	METHOD a appendCommandFeedback (Lic;)V
@@ -59,17 +18,10 @@ CLASS sl
 	METHOD a incrementStat (Lvv;I)V
 		ARG 0 stat
 		ARG 1 amount
-	METHOD b isInvulnerableTo (Lahc;)Z
-		ARG 0 source
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD d changeWorld (I)Laht;
-		ARG 0 worldId
 	METHOD e addExperience (I)V
 		ARG 0 experience
-	METHOD f attackPlayer (Laht;)V
-		ARG 0 entity
-	METHOD g createCooldownManager ()Lawd;
 	METHOD n ()V
 	METHOD t isSpectator ()Z
 	METHOD u isCreative ()Z

@@ -1,6 +1,2 @@
 CLASS czh net/minecraft/client/render/entity/EntityRendererChicken
 	FIELD a SKIN Loj;
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Lams;)Loj;
-		ARG 0 model

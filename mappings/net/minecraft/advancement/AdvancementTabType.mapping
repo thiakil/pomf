@@ -1,15 +1,1 @@
 CLASS clt net/minecraft/advancement/AdvancementTabType
-	FIELD a ABOVE Lclt;
-	FIELD b BELOW Lclt;
-	FIELD c LEFT Lclt;
-	FIELD d RIGHT Lclt;
-	METHOD a drawIcon (IIILdam;Lawg;)V
-		ARG 0 x
-		ARG 1 y
-		ARG 3 itemRenderer
-		ARG 4 iconStack
-	METHOD a drawBackground (Lcii;IIZI)V
-		ARG 0 drawable
-		ARG 1 x
-		ARG 2 y
-		ARG 3 selected

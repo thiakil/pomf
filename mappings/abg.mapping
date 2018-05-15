@@ -1,2 +1,1 @@
 CLASS abg
-	METHOD a map (Ljava/util/function/Function;Laba;)Laba;

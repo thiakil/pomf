@@ -1,8 +1,0 @@
-CLASS apk net/minecraft/entity/EntityLightning
-	METHOD R_ update ()V
-	METHOD a deserializeCustomData (Lgu;)V
-		ARG 0 tag
-	METHOD b serializeCustomData (Lgu;)V
-		ARG 0 tag
-	METHOD bX getSoundCategory ()Lvq;
-	METHOD w_ initDataTracker ()V

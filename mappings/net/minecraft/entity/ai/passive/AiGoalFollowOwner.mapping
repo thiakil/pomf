@@ -1,17 +1,4 @@
 CLASS ajt net/minecraft/entity/ai/passive/AiGoalFollowOwner
-	FIELD b caller Lain;
-	FIELD c owner Laic;
-	FIELD d speed D
-	FIELD e navigation Laly;
-	FIELD f teleportCooldown I
-	FIELD g minStopDistance F
-	FIELD h minStartDistance F
-	FIELD i previousWaterWeight F
-	METHOD <init> (Lain;DFF)V
-		ARG 0 caller
-		ARG 1 speed
-		ARG 2 minStartDistance
-		ARG 3 minStopDistance
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V

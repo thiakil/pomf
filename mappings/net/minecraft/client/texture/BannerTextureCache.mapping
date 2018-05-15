@@ -1,15 +1,1 @@
 CLASS cvr net/minecraft/client/texture/BannerTextureCache
-	CLASS cvr$a Manager
-		FIELD a cacheMap Ljava/util/Map;
-		FIELD b filename Loj;
-		FIELD c baseDir Ljava/lang/String;
-		FIELD d id Ljava/lang/String;
-		METHOD a removeOldEntries ()Z
-		METHOD a get (Ljava/lang/String;Ljava/util/List;Ljava/util/List;)Loj;
-	CLASS cvr$b Entry
-		FIELD a lastRequestTimeMillis J
-		FIELD b filename Loj;
-	FIELD a BANNERS Lcvr$a;
-	FIELD c DEFAULT_SHIELD Loj;
-	FIELD d DEFAULT_BANNER Loj;
-	FIELD b SHIELD_ Lcvr$a;

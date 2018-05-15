@@ -1,5 +1,1 @@
 CLASS dbx net/minecraft/client/render/entity/EntityRendererTNTPrimed
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Lapo;)Loj;
-		ARG 0 model

@@ -1,5 +1,2 @@
 CLASS azv
-	METHOD a getAdditionalDamge (ILaih;)F
-		ARG 0 level
-		ARG 1 entityType
 	METHOD b getHighestLevel ()I

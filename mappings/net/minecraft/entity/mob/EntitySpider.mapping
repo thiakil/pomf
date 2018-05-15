@@ -1,32 +1,10 @@
 CLASS aqr net/minecraft/entity/mob/EntitySpider
 	CLASS aqr$a
-		METHOD a getAttackRangeSquared (Laic;)D
-			ARG 0 target
 		METHOD b shouldContinue ()Z
-	CLASS aqr$c
-		METHOD a canStart ()Z
-	FIELD a SPIDER_FLAGS Lny;
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
 	METHOD R_ update ()V
-	METHOD a (Lagl;Laif;Lawg;)Laif;
-		ARG 0 difficulty
-	METHOD a playStepSound (Lef;Lbfm;)V
-		ARG 0 pos
-		ARG 1 block
-	METHOD a setCanClimb (Z)V
-	METHOD aL getMountedHeightOffset ()D
-	METHOD b createNavigation (Lbax;)Laly;
-		ARG 0 world
 	METHOD bI getEyeHeight ()F
-	METHOD bj stickInWeb ()V
-	METHOD cB getEntityAttribute ()Laih;
 	METHOD ca initAttributes ()V
 	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahc;)Lvo;
-	METHOD d isPotionEffective (Lahm;)Z
-		ARG 0 effect
-	METHOD l getCanClimb ()Z
 	METHOD n ()V
-	METHOD w_ initDataTracker ()V
-	METHOD y_ canClimb ()Z

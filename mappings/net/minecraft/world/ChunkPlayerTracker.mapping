@@ -2,9 +2,7 @@ CLASS sq net/minecraft/world/ChunkPlayerTracker
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD b owner Lsr;
 	FIELD c players Ljava/util/List;
-	FIELD d pos Lban;
 	FIELD e pendingUpdatePosCache [S
-	FIELD f chunk Lbpl;
 	FIELD g pendingUpdates I
 	FIELD h pendingUpdateStrips I
 	FIELD j initialized Z
@@ -12,15 +10,12 @@ CLASS sq net/minecraft/world/ChunkPlayerTracker
 		ARG 0 owner
 		ARG 1 chunkX
 		ARG 2 chunkZ
-	METHOD a getChunkPos ()Lban;
 	METHOD a matches (DLjava/util/function/Predicate;)Z
 		ARG 0 maxDistance
 	METHOD a markBlockDirty (III)V
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
-	METHOD a sendBlockEntityUpdate (Lbmb;)V
-		ARG 0 blockEntity
 	METHOD a sendPacket (Lip;)V
 		ARG 0 packet
 	METHOD a addPlayer (Lsl;)V
@@ -36,5 +31,4 @@ CLASS sq net/minecraft/world/ChunkPlayerTracker
 	METHOD d contains (Lsl;)Z
 		ARG 0 player
 	METHOD e isInitialized ()Z
-	METHOD f getChunk ()Lbpl;
 	METHOD g getClosestDistanceToCenter ()D

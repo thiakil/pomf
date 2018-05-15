@@ -1,3 +1,0 @@
-CLASS cje net/minecraft/client/gui/widget/WidgetListVideoSettings
-	METHOD e getEntryWidth ()I
-	METHOD f getScrollbarPosition ()I

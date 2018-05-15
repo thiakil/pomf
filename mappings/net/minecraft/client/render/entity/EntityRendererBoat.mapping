@@ -1,5 +1,1 @@
 CLASS cze net/minecraft/client/render/entity/EntityRendererBoat
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Lask;)Loj;
-		ARG 0 model

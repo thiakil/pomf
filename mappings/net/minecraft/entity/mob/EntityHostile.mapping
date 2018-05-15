@@ -1,15 +1,4 @@
 CLASS aqh net/minecraft/entity/mob/EntityHostile
-	METHOD R_ update ()V
-	METHOD a damage (Lahc;F)Z
-		ARG 0 source
-		ARG 1 damage
-	METHOD ae getSoundSwim ()Lvo;
-	METHOD af getSoundSplash ()Lvo;
-	METHOD bX getSoundCategory ()Lvq;
 	METHOD ca initAttributes ()V
-	METHOD cd canDropLootAndXp ()Z
 	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahc;)Lvo;
 	METHOD k updateMovement ()V
-	METHOD m getSoundFall (I)Lvo;
-		ARG 0 height

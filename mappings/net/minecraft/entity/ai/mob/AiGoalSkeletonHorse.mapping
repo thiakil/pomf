@@ -1,6 +1,1 @@
 CLASS anw net/minecraft/entity/ai/mob/AiGoalSkeletonHorse
-	FIELD a owner Lanv;
-	METHOD <init> (Lanv;)V
-		ARG 0 owner
-	METHOD a canStart ()Z
-	METHOD e tick ()V

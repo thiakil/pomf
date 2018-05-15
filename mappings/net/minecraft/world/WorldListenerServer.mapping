@@ -6,25 +6,6 @@ CLASS sk net/minecraft/world/WorldListenerServer
 		ARG 0 eventId
 		ARG 1 pos
 		ARG 2 data
-	METHOD a onEntityAdded (Laht;)V
-		ARG 0 entity
-	METHOD a onWorldEvent (Larh;ILef;I)V
-		ARG 0 player
-		ARG 1 eventId
-		ARG 2 pos
-		ARG 3 data
-	METHOD a onSound (Larh;Lvo;Lvq;DDDFF)V
-		ARG 0 player
-		ARG 1 sound
-		ARG 2 category
-		ARG 3 x
-		ARG 4 y
-		ARG 5 z
-		ARG 6 volume
-		ARG 7 pitch
-	METHOD a onBlockUpdate (Lbal;Lef;Lbnv;Lbnv;I)V
-		ARG 1 pos
-		ARG 4 flags
 	METHOD a addParticle (Lfg;ZDDDDDD)V
 		ARG 1 ignoreCameraBounds
 		ARG 2 x
@@ -37,5 +18,3 @@ CLASS sk net/minecraft/world/WorldListenerServer
 		ARG 0 entityId
 		ARG 1 pos
 		ARG 2 progress
-	METHOD b onEntityRemoved (Laht;)V
-		ARG 0 entity

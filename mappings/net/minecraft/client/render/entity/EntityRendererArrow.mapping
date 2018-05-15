@@ -1,7 +1,2 @@
 CLASS dbv net/minecraft/client/render/entity/EntityRendererArrow
 	FIELD a SKIN Loj;
-	FIELD f TIPPED_SKIN Loj;
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Larn;)Loj;
-		ARG 0 model

@@ -1,6 +1,1 @@
 CLASS dhz net/minecraft/client/audio/SoundRegistry
-	FIELD a accessors Ljava/util/Map;
-	METHOD a clearRegistry ()V
-	METHOD a registerAccessor (Ldib;)V
-		ARG 0 accessor
-	METHOD b createMap ()Ljava/util/Map;

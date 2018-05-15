@@ -1,2 +1,1 @@
 CLASS axa net/minecraft/item/ItemShovel
-	METHOD a activate (Laxr;)Lago;

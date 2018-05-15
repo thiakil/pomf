@@ -1,23 +1,6 @@
 CLASS cll net/minecraft/client/gui/menu/GuiSettingsAudio
-	CLASS cll$a
-		METHOD a drawBackground (Lchp;II)V
-			ARG 0 game
-			ARG 1 mouseX
-			ARG 2 mouseY
-		METHOD a onPressed (Ldhy;)V
-			ARG 0 soundLoader
-		METHOD a getTextureId (Z)I
-			ARG 0 pressed
-	FIELD a title Ljava/lang/String;
-	FIELD f parent Lclh;
-	FIELD g settings Lchs;
-	FIELD h optionsOff Ljava/lang/String;
-	METHOD <init> (Lclh;Lchs;)V
-		ARG 0 parent
-		ARG 1 settings
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY
 		ARG 2 delta
-	METHOD ah_ close ()V
 	METHOD c init ()V

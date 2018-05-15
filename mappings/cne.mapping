@@ -1,4 +1,0 @@
-CLASS cne
-	CLASS cne$1
-		METHOD run ()V
-	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;

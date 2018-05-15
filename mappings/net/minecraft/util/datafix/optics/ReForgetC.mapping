@@ -1,6 +1,1 @@
 CLASS acm net/minecraft/util/datafix/optics/ReForgetC
-	CLASS acm$a
-		METHOD a left (Labb;)Labb;
-		METHOD c right (Labb;)Labb;
-		METHOD d right (Labb;)Labb;
-	METHOD a impl ()Lwo;

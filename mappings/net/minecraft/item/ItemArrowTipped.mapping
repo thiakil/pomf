@@ -1,10 +1,1 @@
 CLASS axn net/minecraft/item/ItemArrowTipped
-	METHOD a addStacksForDisplay (Lava;Leu;)V
-		ARG 1 items
-	METHOD a addInformation (Lawg;Lbax;Ljava/util/List;Laxo;)V
-		ARG 0 stack
-		ARG 2 tooltip
-	METHOD a createEntityArrow (Lbax;Lawg;Laic;)Larl;
-		ARG 0 world
-		ARG 1 stack
-		ARG 2 owner

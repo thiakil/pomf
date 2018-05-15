@@ -1,6 +1,1 @@
 CLASS bje
-	METHOD a onPlaced (Lbax;Lef;Lbnv;Laic;Lawg;)V
-		ARG 0 world
-		ARG 1 pos
-		ARG 3 placer
-		ARG 4 stack

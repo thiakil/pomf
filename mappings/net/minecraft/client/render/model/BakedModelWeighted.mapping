@@ -1,15 +1,1 @@
 CLASS dgn net/minecraft/client/render/model/BakedModelWeighted
-	CLASS dgn$a Builder
-		FIELD a models Ljava/util/List;
-		METHOD a build ()Ldgn;
-		METHOD a add (Ldgf;I)Ldgn$a;
-		METHOD b getFirst ()Ldgf;
-	FIELD a totalWeight I
-	FIELD b models Ljava/util/List;
-	FIELD c defaultModel Ldgf;
-	METHOD a useAmbientOcclusion ()Z
-	METHOD b hasDepthInGui ()Z
-	METHOD c isBuiltin ()Z
-	METHOD d getSprite ()Ldet;
-	METHOD e getTransformationList ()Lcwl;
-	METHOD f getItemPropertyOverrides ()Lcwj;

@@ -1,3 +1,2 @@
 CLASS apq net/minecraft/entity/EntityAbstractIllager
-	METHOD cB getEntityAttribute ()Laih;
 	METHOD w_ initDataTracker ()V

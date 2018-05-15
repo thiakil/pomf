@@ -1,8 +1,0 @@
-CLASS aro net/minecraft/entity/projectile/EntityDragonFireball
-	METHOD a damage (Lahc;F)Z
-		ARG 0 source
-		ARG 1 damage
-	METHOD a onCollision (Lcfz;)V
-		ARG 0 hit
-	METHOD aD doesCollide ()Z
-	METHOD i getParticleType ()Lfg;

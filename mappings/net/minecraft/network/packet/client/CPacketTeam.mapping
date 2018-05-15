@@ -1,18 +1,6 @@
 CLASS li net/minecraft/network/packet/client/CPacketTeam
 	FIELD a teamName Ljava/lang/String;
 	FIELD b displayName Ljava/lang/String;
-	FIELD c nameTagVisibilityRule Ljava/lang/String;
-	FIELD d collisionRule Ljava/lang/String;
-	FIELD f playerList Ljava/util/Collection;
-	FIELD g mode I
-	FIELD h flags I
-	METHOD <init> (Lcgx;I)V
-		ARG 0 team
-		ARG 1 mode
-	METHOD <init> (Lcgx;Ljava/util/Collection;I)V
-		ARG 0 team
-		ARG 1 playerList
-		ARG 2 mode
 	METHOD a getTeamName ()Ljava/lang/String;
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf

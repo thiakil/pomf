@@ -1,5 +1,1 @@
 CLASS cbd net/minecraft/block/piston/PistonBehavior
-	FIELD a MOVE Lcbd;
-	FIELD b BREAK Lcbd;
-	FIELD c BLOCK Lcbd;
-	FIELD d IGNORE Lcbd;

@@ -1,8 +1,2 @@
 CLASS dch net/minecraft/client/render/entity/EntityRendererWitherSkeleton
 	FIELD a SKIN Loj;
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Laid;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Lapr;)Loj;
-		ARG 0 model

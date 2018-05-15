@@ -1,4 +1,1 @@
 CLASS cpi net/minecraft/client/render/entity/model/EntityModelChest
-	FIELD a lid Lcrz;
-	FIELD b base Lcrz;
-	FIELD c hatch Lcrz;

@@ -12,9 +12,3 @@ CLASS ag net/minecraft/util/DamagePredicate
 		ARG 4 type
 	METHOD a (Lcom/google/gson/JsonElement;)Lag;
 		ARG 0 jsonElement
-	METHOD a (Lsl;Lahc;FFZ)Z
-		ARG 0 serverPlayer
-		ARG 1 source
-		ARG 2 dealt
-		ARG 3 taken
-		ARG 4 blocked

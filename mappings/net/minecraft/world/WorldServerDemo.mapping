@@ -1,3 +1,2 @@
 CLASS sc net/minecraft/world/WorldServerDemo
 	FIELD F SEED J
-	FIELD a LEVEL_INFO Lbbc;

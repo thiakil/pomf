@@ -1,4 +1,1 @@
 CLASS bkj
-	FIELD a SNOWY Lboq;
-	METHOD a getDefaultState (Laul;)Lbnv;
-	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;

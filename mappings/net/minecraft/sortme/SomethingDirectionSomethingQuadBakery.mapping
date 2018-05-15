@@ -1,14 +1,1 @@
 CLASS cuy net/minecraft/sortme/SomethingDirectionSomethingQuadBakery
-	CLASS cuy$a DirectionIds
-		FIELD a SOUTH I
-		FIELD b UP I
-		FIELD c EAST I
-		FIELD d NORTH I
-		FIELD e DOWN I
-		FIELD f WEST I
-	FIELD a DOWN Lcuy;
-	FIELD b UP Lcuy;
-	FIELD c NORTH Lcuy;
-	FIELD d SOUTH Lcuy;
-	FIELD e WEST Lcuy;
-	FIELD f EAST Lcuy;

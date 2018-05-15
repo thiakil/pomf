@@ -1,15 +1,2 @@
 CLASS azc net/minecraft/enchantment/EnchantmentDamage
-	FIELD e ALL [Ljava/lang/String;
-	METHOD a getTranslationKey ()Ljava/lang/String;
-	METHOD a getAdditionalDamge (ILaih;)F
-		ARG 0 level
-		ARG 1 entityType
-	METHOD a onTargetDamaged (Laic;Laht;I)V
-		ARG 0 user
-		ARG 1 target
-		ARG 2 level
-	METHOD a isAcceptableItem (Lawg;)Z
-		ARG 0 item
-	METHOD a isEqual (Lazf;)Z
-		ARG 0 other
 	METHOD b getHighestLevel ()I

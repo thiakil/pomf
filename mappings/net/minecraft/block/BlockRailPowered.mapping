@@ -1,7 +1,1 @@
 CLASS bji net/minecraft/block/BlockRailPowered
-	FIELD t SHAPE Lbos;
-	FIELD u POWERED Lboq;
-	METHOD a getDefaultState (Laul;)Lbnv;
-	METHOD a withMirror (Lbnv;Lbis;)Lbnv;
-	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;
-	METHOD c getShapeProperty ()Lbou;

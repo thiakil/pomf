@@ -1,7 +1,1 @@
 CLASS dbt net/minecraft/client/render/entity/EntityRendererThrownPotion
-	METHOD <init> (Lczv;Ldam;)V
-		ARG 0 renderManager
-		ARG 1 itemRenderer
-	METHOD a getItemStack (Lase;)Lawg;
-		ARG 0 potion
-	METHOD e getItemStack (Laht;)Lawg;

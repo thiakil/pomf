@@ -1,5 +1,1 @@
 CLASS coi
-	METHOD a renderIcon (FI)V
-	METHOD a selectElement (Lcok;)V
-		ARG 0 menu
-	METHOD an_ enabled ()Z

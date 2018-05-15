@@ -1,15 +1,1 @@
 CLASS auc net/minecraft/item/ItemArmor
-	CLASS auc$1
-		METHOD b doDispense (Leg;Lawg;)Lawg;
-			ARG 0 block
-			ARG 1 stack
-	METHOD a getAttributeModifiers (Lahy;)Lcom/google/common/collect/Multimap;
-		ARG 0 effectiveSlot
-	METHOD a canRepair (Lawg;Lawg;)Z
-		ARG 0 item
-		ARG 1 repairItem
-	METHOD a onRightClick (Lbax;Larh;Lagm;)Lagp;
-		ARG 0 world
-		ARG 1 player
-		ARG 2 hand
-	METHOD c getEnchantability ()I

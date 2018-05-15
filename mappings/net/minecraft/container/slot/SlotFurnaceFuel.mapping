@@ -1,10 +1,1 @@
 CLASS ath net/minecraft/container/slot/SlotFurnaceFuel
-	METHOD <init> (Lagg;III)V
-		ARG 2 x
-		ARG 3 y
-	METHOD a canInsert (Lawg;)Z
-		ARG 0 stack
-	METHOD b getMaxStackAmount (Lawg;)I
-		ARG 0 stack
-	METHOD d_ isBucket (Lawg;)Z
-		ARG 0 stack

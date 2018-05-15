@@ -1,9 +1,4 @@
 CLASS daj net/minecraft/client/render/entity/RenderIllagerIllusion
-	CLASS daj$1
-		METHOD a render (Laic;FFFFFFF)V
-			ARG 0 entity
 	FIELD a TEXTURE Loj;
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
 	METHOD a getTexture (Laqh;)Loj;
 		ARG 0 model

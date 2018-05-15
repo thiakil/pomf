@@ -1,24 +1,2 @@
 CLASS ahq net/minecraft/entity/passive/EntityPassive
-	FIELD a breedingAge I
-	FIELD b forcedAge I
-	FIELD bz CHILD Lny;
-	METHOD a setSize (FF)V
-		ARG 0 width
-		ARG 1 height
-	METHOD a createChild (Lahq;)Lahq;
-		ARG 0 other
-	METHOD a interactMob (Larh;Lagm;)Z
-		ARG 0 player
-		ARG 1 playerHand
-	METHOD a deserializeCustomData (Lgu;)V
-		ARG 0 tag
-	METHOD a onTrackedDataSet (Lny;)V
-		ARG 0 data
-	METHOD b serializeCustomData (Lgu;)V
-		ARG 0 tag
-	METHOD b_ setBreedingAge (I)V
-		ARG 0 value
 	METHOD i getBreedingAge ()I
-	METHOD k updateMovement ()V
-	METHOD w_ initDataTracker ()V
-	METHOD x_ isChild ()Z

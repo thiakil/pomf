@@ -1,16 +1,1 @@
 CLASS cwn net/minecraft/client/render/model/json/ModelVariant
-	FIELD a location Loj;
-	FIELD b rotation Ldgg;
-	FIELD c uvLock Z
-	FIELD d weight I
-	METHOD <init> (Loj;Ldgg;ZI)V
-		ARG 0 location
-		ARG 1 rotation
-		ARG 2 uvLock
-		ARG 3 weight
-	METHOD a getLocation ()Loj;
-	METHOD b getRotation ()Ldgg;
-	METHOD c isUvLocked ()Z
-	METHOD d getWeight ()I
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 0 object

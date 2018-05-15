@@ -1,5 +1,1 @@
 CLASS ayy net/minecraft/enchantment/EnchantmentFlame
-	METHOD <init> (Lazf$a;[Lahy;)V
-		ARG 0 weight
-		ARG 1 slotTypes
-	METHOD b getHighestLevel ()I

@@ -7,7 +7,6 @@ CLASS ti net/minecraft/network/handler/NetworkGameHandlerServer
 	FIELD d server Lnet/minecraft/server/MinecraftServer;
 	FIELD e ticks I
 	FIELD h prevKeepAliveTicks J
-	FIELD r topmostRiddenEntity Laht;
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lhr;Lsl;)V
 		ARG 0 server
 		ARG 1 connection

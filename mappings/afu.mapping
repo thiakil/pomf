@@ -1,20 +1,4 @@
 CLASS afu
 	CLASS afu$a
-		CLASS afu$a$1
-			METHOD a view (Ljava/lang/Object;)Ljava/lang/Object;
-			METHOD a update (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-			METHOD a update (Ljava/lang/Object;Lwy;)Lwy;
-			METHOD a view (Lwy;)Ljava/lang/Object;
-		CLASS afu$a$2
-			METHOD a match (Ljava/lang/Object;)Lwo;
-			METHOD a build (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-			METHOD a build (Ljava/lang/Object;Lwy;)Lwy;
-			METHOD a match (Lwy;)Lwo;
-		CLASS afu$a$3
-			METHOD a wander (Labc;Lxq;)Lxq;
-		CLASS afu$a$a
-			METHOD equals (Ljava/lang/Object;)Z
-				ARG 0 object
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object

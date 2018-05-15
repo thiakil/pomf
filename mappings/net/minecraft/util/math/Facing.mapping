@@ -58,7 +58,6 @@ CLASS el net/minecraft/util/math/Facing
 		ARG 2 z
 	METHOD a byId (I)Lel;
 		ARG 0 id
-	METHOD a (Laht;)[Lel;
 	METHOD a rotateClockwise (Lel$a;)Lel;
 		ARG 0 axis
 	METHOD a get (Lel$b;Lel$a;)Lel;

@@ -1,9 +1,2 @@
 CLASS cxi net/minecraft/client/render/block/entity/BlockEntityChestRenderer
 	FIELD a TRAPPED_DOUBLE_TEX Loj;
-	FIELD d CHRISTMAS_DOUBLE_TEX Loj;
-	FIELD e NORMAL_DOUBLE_TEX Loj;
-	FIELD f TRAPPED_TEX Loj;
-	FIELD g CHRISTMAS_TEX Loj;
-	FIELD h NORMAL_TEX Loj;
-	FIELD l isChristmas Z
-	METHOD a render (Lbmb;DDDFI)V

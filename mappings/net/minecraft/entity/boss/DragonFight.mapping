@@ -1,17 +1,1 @@
 CLASS bqj net/minecraft/entity/boss/DragonFight
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD c entityMinecraftEnderDragon Lsh;
-	FIELD d world Lsj;
-	FIELD e gateways Ljava/util/List;
-	FIELD h crystalCount I
-	FIELD i crystalScanTime I
-	FIELD k dragonKilled Z
-	FIELD l previouslyKilled Z
-	FIELD m dragonUuid Ljava/util/UUID;
-	FIELD o exitPortalPos Lef;
-	METHOD a serialize ()Lgu;
-	METHOD a createPortal (Z)V
-	METHOD e resurrectDragon ()V
-	METHOD g hasPortal ()Z
-	METHOD k scanCrystals ()V
-	METHOD m spawnDragon ()Laoe;

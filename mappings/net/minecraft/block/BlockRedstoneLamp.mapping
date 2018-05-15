@@ -1,16 +1,1 @@
 CLASS bjp net/minecraft/block/BlockRedstoneLamp
-	FIELD a POWERED Lboq;
-	METHOD a getDefaultState (Laul;)Lbnv;
-	METHOD a update (Lbnv;Lbax;Lef;Lbfm;Lef;)V
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 block
-		ARG 4 updatePos
-	METHOD b onBlockAdded (Lbnv;Lbax;Lef;Lbnv;)V
-		ARG 1 world
-		ARG 2 pos
-	METHOD b updateTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 random
-	METHOD l getLightValue (Lbnv;)I

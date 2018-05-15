@@ -2,4 +2,3 @@ CLASS aqs net/minecraft/entity/mob/EntityStray
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
 	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahc;)Lvo;

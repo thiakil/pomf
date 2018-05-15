@@ -1,38 +1,6 @@
 CLASS asp net/minecraft/entity/vehicle/EntityHopperMinecart
-	FIELD d enabled Z
-	FIELD e transferCooldown I
-	FIELD f currentBlockPos Lef;
-	METHOD A getDefaultContainedBlock ()Lbnv;
-	METHOD C getDefaultBlockOffset ()I
-	METHOD E isEnabled ()Z
-	METHOD G getWorld ()Lbax;
-	METHOD H getHopperX ()D
-	METHOD I getHopperY ()D
-	METHOD J getHopperZ ()D
-	METHOD K updateLogic ()Z
-	METHOD L isCoolingDown ()Z
-	METHOD R_ update ()V
-	METHOD T_ getInvSize ()I
 	METHOD a onActivatorRail (IIIZ)V
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
 		ARG 3 powered
-	METHOD a dropItems (Lahc;)V
-		ARG 0 source
-	METHOD a createContainer (Larg;Larh;)Lasw;
-		ARG 0 playerInv
-		ARG 1 player
-	METHOD a deserializeCustomData (Lgu;)V
-		ARG 0 tag
-	METHOD b interact (Larh;Lagm;)Z
-		ARG 0 player
-		ARG 1 hand
-	METHOD b serializeCustomData (Lgu;)V
-		ARG 0 tag
-	METHOD l getContainerId ()Ljava/lang/String;
-	METHOD m setTransferCooldown (I)V
-		ARG 0 value
-	METHOD o setEnabled (Z)V
-		ARG 0 value
-	METHOD v getMinecartType ()Lasi$a;

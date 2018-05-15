@@ -1,15 +1,1 @@
 CLASS dib net/minecraft/client/audio/SoundWeightedSet
-	FIELD a sounds Ljava/util/List;
-	FIELD b rand Ljava/util/Random;
-	FIELD c id Loj;
-	FIELD d subtitle Lic;
-	METHOD <init> (Loj;Ljava/lang/String;)V
-		ARG 0 id
-		ARG 1 subtitle
-	METHOD a getSound ()Ldgy;
-	METHOD a add (Ldic;)V
-		ARG 0 sound
-	METHOD b getId ()Loj;
-	METHOD c getSubtitle ()Lic;
-	METHOD e getWeight ()I
-	METHOD k getSound ()Ljava/lang/Object;

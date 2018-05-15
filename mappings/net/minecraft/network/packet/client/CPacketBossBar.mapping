@@ -10,14 +10,9 @@ CLASS jf net/minecraft/network/packet/client/CPacketBossBar
 	FIELD b type Ljf$a;
 	FIELD c name Lic;
 	FIELD d health F
-	FIELD e color Lage$a;
-	FIELD f division Lage$b;
 	FIELD g darkenSky Z
 	FIELD h dragonMusic Z
 	FIELD i thickenFog Z
-	METHOD <init> (Ljf$a;Lage;)V
-		ARG 0 action
-		ARG 1 bar
 	METHOD a getUuid ()Ljava/util/UUID;
 	METHOD a setFlagBitfield (I)V
 		ARG 0 flags
@@ -32,8 +27,6 @@ CLASS jf net/minecraft/network/packet/client/CPacketBossBar
 		ARG 0 buf
 	METHOD c getName ()Lic;
 	METHOD d getHealth ()F
-	METHOD e getBarColor ()Lage$a;
-	METHOD f getBarDivision ()Lage$b;
 	METHOD g shouldDarkenSky ()Z
 	METHOD h hasDragonMusic ()Z
 	METHOD i shouldThickenFog ()Z

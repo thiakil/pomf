@@ -1,52 +1,12 @@
 CLASS aqx net/minecraft/entity/mob/EntityZombie
-	FIELD a BABY_SPEED_ID Ljava/util/UUID;
-	FIELD bB ARMS_RAISED Lny;
-	FIELD bF inWaterTime I
-	FIELD b BABY_SPEED_BONUS Laiq;
-	FIELD bz BABY Lny;
-	FIELD c SPAWN_REINFORCEMENTS Laio;
-	METHOD B attackEntity (Laht;)Z
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
 	METHOD R_ update ()V
-	METHOD a setSize (FF)V
-		ARG 0 width
-		ARG 1 height
-	METHOD a initEquipment (Lagl;)V
-		ARG 0 difficulty
-	METHOD a (Lagl;Laif;Lawg;)Laif;
-		ARG 0 difficulty
-	METHOD a onDeath (Lahc;)V
-		ARG 0 damageSource
-	METHOD a damage (Lahc;F)Z
-		ARG 0 source
-		ARG 1 damage
-	METHOD a playStepSound (Lef;Lbfm;)V
-		ARG 0 pos
-		ARG 1 block
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD a onTrackedDataSet (Lny;)V
-		ARG 0 data
-	METHOD aK getHeightOffset ()D
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD bI getEyeHeight ()F
-	METHOD cB getEntityAttribute ()Laih;
 	METHOD ca initAttributes ()V
 	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahc;)Lvo;
-	METHOD dC hasArmsRaised ()Z
-	METHOD dE getSoundStep ()Lvo;
-	METHOD dF getSkull ()Lawg;
-	METHOD dL canBreakDoors ()Z
-	METHOD k updateMovement ()V
 	METHOD n ()V
-	METHOD s setArmsRaised (Z)V
-		ARG 0 value
-	METHOD t setBreakDoors (Z)V
-		ARG 0 value
-	METHOD u setChild (Z)V
-		ARG 0 value
 	METHOD w_ initDataTracker ()V
-	METHOD x_ isChild ()Z

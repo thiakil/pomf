@@ -1,21 +1,7 @@
 CLASS aph net/minecraft/entity/projectile/EntityFishHook
-	FIELD a hookedEntity Laht;
-	FIELD b HOOK_ENTITY_ID Lny;
-	FIELD e owner Larh;
-	METHOD R_ update ()V
-	METHOD W invalidate ()V
 	METHOD a shouldRender (D)Z
 		ARG 0 distanceSq
-	METHOD a setPositionAndRotations (DDDFFIZ)V
-		ARG 0 x
-		ARG 1 y
-		ARG 2 z
-		ARG 3 yaw
-		ARG 4 pitch
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD a onTrackedDataSet (Lny;)V
-		ARG 0 data
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD w_ initDataTracker ()V

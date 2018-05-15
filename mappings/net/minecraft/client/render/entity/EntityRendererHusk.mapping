@@ -1,8 +1,2 @@
 CLASS dai net/minecraft/client/render/entity/EntityRendererHusk
 	FIELD a SKIN Loj;
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Laid;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Laqx;)Loj;
-		ARG 0 model

@@ -5,8 +5,6 @@ CLASS as net/minecraft/advancement/criterion/TriggerInventoryChanged
 		METHOD <init> (Lot;)V
 			ARG 0 manager
 		METHOD a isEmpty ()Z
-		METHOD a handle (Larg;)V
-			ARG 0 inv
 		METHOD a addCondition (Ls$a;)V
 			ARG 0 condition
 		METHOD b removeCondition (Ls$a;)V
@@ -22,9 +20,6 @@ CLASS as net/minecraft/advancement/criterion/TriggerInventoryChanged
 	METHOD a addCondition (Lot;Ls$a;)V
 		ARG 0 manager
 		ARG 1 condition
-	METHOD a handle (Lsl;Larg;)V
-		ARG 0 player
-		ARG 1 inv
 	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Las$b;
 		ARG 0 obj
 		ARG 1 context

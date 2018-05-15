@@ -1,8 +1,1 @@
 CLASS ars net/minecraft/entity/projectile/EntityFireball
-	FIELD e explosionPower I
-	METHOD a onCollision (Lcfz;)V
-		ARG 0 hit
-	METHOD a deserializeCustomData (Lgu;)V
-		ARG 0 tag
-	METHOD b serializeCustomData (Lgu;)V
-		ARG 0 tag

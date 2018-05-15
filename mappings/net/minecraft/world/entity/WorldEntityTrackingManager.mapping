@@ -7,25 +7,3 @@ CLASS sf net/minecraft/world/entity/WorldEntityTrackingManager
 		ARG 0 world
 	METHOD a setChunkDistance (I)V
 		ARG 0 value
-	METHOD a startTracking (Laht;)V
-		ARG 0 entity
-	METHOD a startTracking (Laht;II)V
-		ARG 0 entity
-		ARG 1 trackingRange
-		ARG 2 updateInterval
-	METHOD a startTracking (Laht;IIZ)V
-		ARG 0 entity
-		ARG 1 trackingRange
-		ARG 2 updateInterval
-		ARG 3 sendVelocityUpdates
-	METHOD a sendToAllTracking (Laht;Lip;)V
-		ARG 0 entity
-		ARG 1 packet
-	METHOD a sendChunkEntityData (Lsl;Lbpl;)V
-		ARG 0 player
-		ARG 1 chunk
-	METHOD b stopTracking (Laht;)V
-		ARG 0 entity
-	METHOD b sendToAllTrackingAndSelf (Laht;Lip;)V
-		ARG 0 entity
-		ARG 1 packet

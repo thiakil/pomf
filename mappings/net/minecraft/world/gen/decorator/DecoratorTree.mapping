@@ -1,15 +1,1 @@
 CLASS bvu net/minecraft/world/gen/decorator/DecoratorTree
-	FIELD d generateVines Z
-	METHOD <init> (Z)V
-		ARG 0 doBlockUpdates
-	METHOD <init> (ZILbnv;Lbnv;Z)V
-		ARG 0 doBlockUpdates
-		ARG 1 height
-		ARG 4 generateVines
-	METHOD a generateCocoaPod (Lbay;ILef;Lel;)V
-		ARG 1 age
-		ARG 2 pos
-		ARG 3 facing
-	METHOD a generateVine (Lbay;Lef;Lboq;)V
-		ARG 1 pos
-		ARG 2 prop

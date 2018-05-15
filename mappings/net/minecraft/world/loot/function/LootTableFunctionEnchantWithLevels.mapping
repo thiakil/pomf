@@ -1,16 +1,1 @@
 CLASS ceu net/minecraft/world/loot/function/LootTableFunctionEnchantWithLevels
-	CLASS ceu$a DeSerializer
-		METHOD a serialize (Lcom/google/gson/JsonObject;Lceu;Lcom/google/gson/JsonSerializationContext;)V
-		METHOD a serialize (Lcom/google/gson/JsonObject;Lcew;Lcom/google/gson/JsonSerializationContext;)V
-		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfi;)Lceu;
-		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfi;)Lcew;
-	FIELD a levelRange Lces;
-	FIELD b treasureEnchantmentsAllowed Z
-	METHOD <init> ([Lcfi;Lces;Z)V
-		ARG 0 conditions
-		ARG 1 levelRange
-		ARG 2 treasure
-	METHOD a apply (Lawg;Ljava/util/Random;Lcep;)Lawg;
-		ARG 0 stack
-		ARG 1 rand
-		ARG 2 context

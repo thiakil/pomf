@@ -1,12 +1,2 @@
 CLASS cex net/minecraft/world/loot/function/LootTableFunctionRegistry
 	CLASS cex$a DeSerializer
-		METHOD a serialize (Lcew;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
-		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lcew;
-	FIELD a IDENTIFIER_TO_SERIALIZER Ljava/util/Map;
-	FIELD b CLASS_TO_SERIALIZER Ljava/util/Map;
-	METHOD a registerFunction (Lcew$a;)V
-		ARG 0 serializer
-	METHOD a getSerializer (Lcew;)Lcew$a;
-		ARG 0 functionClass
-	METHOD a getSerializer (Loj;)Lcew$a;
-		ARG 0 id

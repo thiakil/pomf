@@ -1,22 +1,8 @@
 CLASS aqu net/minecraft/entity/mob/EntityVindicationIllager
 	CLASS aqu$a
-		METHOD a canStart ()Z
-	FIELD b johnny Z
-	METHOD E getSoundAmbient ()Lvo;
-	METHOD H getLootTableId ()Loj;
 	METHOD K mobTick ()V
-	METHOD a initEquipment (Lagl;)V
-		ARG 0 difficulty
-	METHOD a (Lagl;Laif;Lawg;)Laif;
-		ARG 0 difficulty
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD ca initAttributes ()V
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahc;)Lvo;
-	METHOD n ()V
-	METHOD r isTeammate (Laht;)Z
-		ARG 0 entity
 	METHOD w_ initDataTracker ()V

@@ -1,6 +1,1 @@
 CLASS ayl net/minecraft/recipe/Recipe
-	METHOD a matches (Lagg;Lbax;)Z
-		ARG 1 world
-	METHOD c isIgnoredInRecipeBook ()Z
-	METHOD d getOutput ()Lawg;
-	METHOD e getPreviewInputs ()Leu;

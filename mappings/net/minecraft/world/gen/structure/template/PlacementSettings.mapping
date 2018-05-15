@@ -1,3 +1,1 @@
 CLASS bzo net/minecraft/world/gen/structure/template/PlacementSettings
-	METHOD a getRandom (Lef;)Ljava/util/Random;
-	METHOD f getIntegrity ()F

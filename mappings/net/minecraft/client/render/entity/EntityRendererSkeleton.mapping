@@ -1,10 +1,2 @@
 CLASS dbl net/minecraft/client/render/entity/EntityRendererSkeleton
-	CLASS dbl$1
-		METHOD ap_ init ()V
 	FIELD a SKIN Loj;
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Laid;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Lapr;)Loj;
-		ARG 0 model

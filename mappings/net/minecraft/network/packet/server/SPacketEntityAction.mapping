@@ -12,13 +12,6 @@ CLASS mq net/minecraft/network/packet/server/SPacketEntityAction
 	FIELD a entityId I
 	FIELD b type Lmq$a;
 	FIELD c parameter I
-	METHOD <init> (Laht;Lmq$a;)V
-		ARG 0 entity
-		ARG 1 type
-	METHOD <init> (Laht;Lmq$a;I)V
-		ARG 0 entity
-		ARG 1 type
-		ARG 2 parameter
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf
 	METHOD a applyPacket (Lhw;)V

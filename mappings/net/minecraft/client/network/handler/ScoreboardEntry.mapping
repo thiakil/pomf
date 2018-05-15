@@ -1,24 +1,3 @@
 CLASS csk net/minecraft/client/network/handler/ScoreboardEntry
-	FIELD a profile Lcom/mojang/authlib/GameProfile;
-	FIELD c gameMode Lbau;
-	FIELD d latency I
-	FIELD g displayName Lic;
-	METHOD <init> (Lcom/mojang/authlib/GameProfile;)V
-		ARG 0 profile
-	METHOD <init> (Lkl$b;)V
-		ARG 0 packet
-	METHOD a getProfile ()Lcom/mojang/authlib/GameProfile;
-	METHOD a setLatency (I)V
-		ARG 0 value
-	METHOD a setGameMode (Lbau;)V
-		ARG 0 value
 	METHOD a setDisplayName (Lic;)V
 		ARG 0 value
-	METHOD b getGameMode ()Lbau;
-	METHOD c getLatency ()I
-	METHOD e isSkinTextureLoaded ()Z
-	METHOD g getSkinTexture ()Loj;
-	METHOD h getCapeTexture ()Loj;
-	METHOD i getElytraTexture ()Loj;
-	METHOD j getScoreboardTeam ()Lcgx;
-	METHOD l getDisplayName ()Lic;

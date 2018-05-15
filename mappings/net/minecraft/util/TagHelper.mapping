@@ -1,11 +1,5 @@
 CLASS hf net/minecraft/util/TagHelper
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD a withProperty (Lbny;Lbou;Ljava/lang/String;Lgu;Lgu;)Lbny;
-		ARG 0 state
-		ARG 1 property
-	METHOD a getPropertyValue (Lbou;Ljava/lang/Comparable;)Ljava/lang/String;
-		ARG 0 property
-		ARG 1 value
 	METHOD a serializeBlockPos (Lef;)Lgu;
 		ARG 0 pos
 	METHOD a deserializeProfile (Lgu;)Lcom/mojang/authlib/GameProfile;

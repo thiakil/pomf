@@ -1,11 +1,1 @@
 CLASS bvg net/minecraft/world/gen/decorator/DecoratorObsidianPillar
-	CLASS bvg$a Primer
-	FIELD a invulnerable Z
-	FIELD b primer Lbvg$a;
-	FIELD c beamTarget Lef;
-	METHOD a setPrimer (Lbvg$a;)V
-		ARG 0 primer
-	METHOD a setBeamTarget (Lef;)V
-		ARG 0 position
-	METHOD a setInvulnerable (Z)V
-		ARG 0 invulnerable

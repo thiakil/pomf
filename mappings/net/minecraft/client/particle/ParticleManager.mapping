@@ -1,23 +1,2 @@
 CLASS ctq net/minecraft/client/particle/ParticleManager
-	FIELD a world Lbax;
-	FIELD b PARTICLE_TEX Loj;
-	FIELD c particleQueues [[Ljava/util/ArrayDeque;
-	FIELD e textureManager Ldeu;
-	FIELD f rand Ljava/util/Random;
-	FIELD g factoryMap Ljava/util/Map;
-	FIELD h newParticles Ljava/util/Queue;
-	METHOD <init> (Lbax;Ldeu;)V
-		ARG 0 world
-		ARG 1 textureManager
 	METHOD a updateParticles ()V
-	METHOD a setWorld (Lbax;)V
-		ARG 0 world
-	METHOD a addParticle (Lctp;)V
-		ARG 0 particle
-	METHOD a updateParticleQueue (Ljava/util/Queue;)V
-		ARG 0 particleQueue
-	METHOD b getParticleCountAsString ()Ljava/lang/String;
-	METHOD b buildGeometry (Laht;F)V
-	METHOD b updateParticle (Lctp;)V
-		ARG 0 particle
-	METHOD c registerDefaultFactories ()V

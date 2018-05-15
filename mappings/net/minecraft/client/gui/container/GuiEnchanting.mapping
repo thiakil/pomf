@@ -1,12 +1,4 @@
 CLASS cmp net/minecraft/client/gui/container/GuiEnchanting
-	FIELD C BG_TEX Loj;
-	FIELD D BOOK_TEX Loj;
-	FIELD F playerInv Larg;
-	FIELD G rand Ljava/util/Random;
-	FIELD H container Latg;
-	METHOD <init> (Larg;Lbax;Lagt;)V
-		ARG 0 playerInv
-		ARG 1 world
 	METHOD a drawBackground (FII)V
 		ARG 0 delta
 		ARG 1 mouseX

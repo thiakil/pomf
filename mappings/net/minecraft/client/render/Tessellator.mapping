@@ -1,6 +1,1 @@
 CLASS cvn net/minecraft/client/render/Tessellator
-	FIELD a buffer Lcut;
-	FIELD c INSTANCE Lcvn;
-	METHOD a getInstance ()Lcvn;
-	METHOD b draw ()V
-	METHOD c getVertexBuffer ()Lcut;

@@ -1,8 +1,2 @@
 CLASS dcj net/minecraft/client/render/entity/EntityRendererWolf
 	FIELD a WILD_SKIN Loj;
-	FIELD j TAMED_SKIN Loj;
-	FIELD k ANGRY_SKIN Loj;
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Lann;)Loj;
-		ARG 0 model

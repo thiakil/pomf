@@ -1,7 +1,3 @@
 CLASS dcy net/minecraft/client/render/entity/EntityRendererEndermanEyes
 	FIELD a SKIN Loj;
 	METHOD a shouldMergeTextures ()Z
-	METHOD a render (Laic;FFFFFFF)V
-		ARG 0 entity
-	METHOD a render (Lapx;FFFFFFF)V
-		ARG 0 entity

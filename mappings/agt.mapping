@@ -1,4 +1,1 @@
 CLASS agt
-	METHOD N_ getNameAsComponent ()Lic;
-	METHOD O_ hasCustomName ()Z
-	METHOD P getDisplayName ()Lic;

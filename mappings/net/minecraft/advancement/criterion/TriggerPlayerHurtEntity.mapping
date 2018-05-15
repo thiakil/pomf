@@ -7,9 +7,6 @@ CLASS be net/minecraft/advancement/criterion/TriggerPlayerHurtEntity
 		METHOD a isEmpty ()Z
 		METHOD a addCondition (Ls$a;)V
 			ARG 0 condition
-		METHOD a handle (Lsl;Laht;Lahc;FFZ)V
-			ARG 0 player
-			ARG 1 entity
 		METHOD b removeCondition (Ls$a;)V
 			ARG 0 condition
 	FIELD a ID Loj;
@@ -23,8 +20,6 @@ CLASS be net/minecraft/advancement/criterion/TriggerPlayerHurtEntity
 	METHOD a addCondition (Lot;Ls$a;)V
 		ARG 0 manager
 		ARG 1 condition
-	METHOD a handle (Lsl;Laht;Lahc;FFZ)V
-		ARG 0 player
 	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbe$b;
 		ARG 0 obj
 		ARG 1 context

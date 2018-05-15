@@ -1,9 +1,1 @@
 CLASS dax net/minecraft/client/render/entity/EntityRendererOcelot
-	FIELD a TAMED_BLACK_SKIN Loj;
-	FIELD j WILD_SKIN Loj;
-	FIELD k TAMED_RED_SKIN Loj;
-	FIELD l TAMED_SIAMEASE_SKIN Loj;
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Lamy;)Loj;
-		ARG 0 model

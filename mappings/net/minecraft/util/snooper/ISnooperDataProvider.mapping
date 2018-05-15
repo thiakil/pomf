@@ -1,6 +1,1 @@
 CLASS agx net/minecraft/util/snooper/ISnooperDataProvider
-	METHOD R isSnooperEnabled ()Z
-	METHOD a addSnooperInfo (Lagw;)V
-		ARG 0 snooper
-	METHOD b addSnooperInitialInfo (Lagw;)V
-		ARG 0 snooper

@@ -1,14 +1,1 @@
 CLASS dgj net/minecraft/client/render/model/BakedModelManager
-	FIELD a modelRegistry Lex;
-	FIELD b spriteMap Ldes;
-	FIELD c blockStateMaps Lcvu;
-	FIELD d missingModel Ldgf;
-	METHOD <init> (Ldes;)V
-		ARG 0 textures
-	METHOD a getMissingModel ()Ldgf;
-	METHOD a getModel (Ldgk;)Ldgf;
-		ARG 0 identifier
-	METHOD a onResourceReload (Lul;)V
-		ARG 0 container
-	METHOD b getSpriteMap ()Ldes;
-	METHOD c getBlockStateMaps ()Lcvu;

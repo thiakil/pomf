@@ -1,4 +1,1 @@
 CLASS bju net/minecraft/block/BlockPillar
-	FIELD a AXIS Lbos;
-	METHOD a getDefaultState (Laul;)Lbnv;
-	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;

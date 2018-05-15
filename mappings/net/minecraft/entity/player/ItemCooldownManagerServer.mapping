@@ -1,9 +1,1 @@
 CLASS awx net/minecraft/entity/player/ItemCooldownManagerServer
-	FIELD a player Lsl;
-	METHOD <init> (Lsl;)V
-		ARG 0 player
-	METHOD b onCooldownUpdate (Lawc;I)V
-		ARG 0 item
-		ARG 1 cooldown
-	METHOD c onCooldownUpdate (Lawc;)V
-		ARG 0 item

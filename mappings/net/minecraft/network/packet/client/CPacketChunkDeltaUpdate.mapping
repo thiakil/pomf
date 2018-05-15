@@ -3,11 +3,7 @@ CLASS ji net/minecraft/network/packet/client/CPacketChunkDeltaUpdate
 		FIELD b pos S
 		METHOD a getBlockPos ()Lef;
 		METHOD b getPosShort ()S
-		METHOD c getState ()Lbnv;
-	FIELD a chunkPos Lban;
 	FIELD b records [Lji$a;
-	METHOD <init> (I[SLbpl;)V
-		ARG 2 chunk
 	METHOD a getRecords ()[Lji$a;
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf

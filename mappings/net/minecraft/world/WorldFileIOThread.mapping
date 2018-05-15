@@ -1,12 +1,1 @@
 CLASS cfu net/minecraft/world/WorldFileIOThread
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b INSTANCE Lcfu;
-	FIELD c tasks Ljava/util/List;
-	FIELD d tasksAdded J
-	FIELD e tasksCompleted J
-	FIELD f accelerated Z
-	METHOD a getInstance ()Lcfu;
-	METHOD a addTask (Lcfv;)V
-	METHOD b completeTasks ()V
-	METHOD c runTasks ()V
-	METHOD run ()V

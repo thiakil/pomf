@@ -1,5 +1,1 @@
 CLASS cer
-	FIELD b _JSON I
-	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD a onResourceReload (Lul;)V
-		ARG 0 container

@@ -1,14 +1,6 @@
 CLASS cln net/minecraft/client/gui/menu/GuiSettingsVideo
-	FIELD a title Ljava/lang/String;
-	FIELD f parent Lclh;
-	FIELD g settings Lchs;
-	FIELD i MENU_OPTIONS [Lchs$a;
-	METHOD <init> (Lclh;Lchs;)V
-		ARG 0 parent
-		ARG 1 settings
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY
 		ARG 2 delta
-	METHOD ah_ close ()V
 	METHOD c init ()V

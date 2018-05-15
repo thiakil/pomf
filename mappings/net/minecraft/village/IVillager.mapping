@@ -1,15 +1,1 @@
 CLASS bae net/minecraft/village/IVillager
-	METHOD M_ getCurrentCustomer ()Larh;
-	METHOD P getDisplayName ()Lic;
-	METHOD a onSellingItem (Lawg;)V
-		ARG 0 stack
-	METHOD a useRecipe (Lbaf;)V
-		ARG 0 recipe
-	METHOD a setRecipeList (Lbag;)V
-		ARG 0 recipeLIst
-	METHOD a_ setCurrentCustomer (Larh;)V
-		ARG 0 currentCustomer
-	METHOD b_ getRecipes (Larh;)Lbag;
-		ARG 0 player
-	METHOD c getWorld ()Lbax;
-	METHOD d getPos ()Lef;

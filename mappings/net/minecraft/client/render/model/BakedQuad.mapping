@@ -1,15 +1,1 @@
 CLASS cvy net/minecraft/client/render/model/BakedQuad
-	FIELD a vertexData [I
-	FIELD b colorIndex I
-	FIELD c face Lel;
-	FIELD d sprite Ldet;
-	METHOD <init> ([IILel;Ldet;)V
-		ARG 0 vertexData
-		ARG 1 colorIndex
-		ARG 2 face
-		ARG 3 sprite
-	METHOD a getSprite ()Ldet;
-	METHOD b getVertexData ()[I
-	METHOD c hasColor ()Z
-	METHOD d getColorIndex ()I
-	METHOD e getFace ()Lel;

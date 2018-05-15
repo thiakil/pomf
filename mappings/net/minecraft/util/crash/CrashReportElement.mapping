@@ -20,9 +20,6 @@ CLASS c net/minecraft/util/crash/CrashReportElement
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
-	METHOD a addBlockInfo (Lc;Lef;Lbnv;)V
-		ARG 0 element
-		ARG 1 pos
 	METHOD a createPositionString (Lef;)Ljava/lang/String;
 		ARG 0 pos
 	METHOD a add (Ljava/lang/String;Ld;)V

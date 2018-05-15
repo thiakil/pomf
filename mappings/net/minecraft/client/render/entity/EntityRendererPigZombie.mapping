@@ -1,10 +1,2 @@
 CLASS dbc net/minecraft/client/render/entity/EntityRendererPigZombie
-	CLASS dbc$1
-		METHOD ap_ init ()V
 	FIELD a SKIN Loj;
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Laid;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Laqj;)Loj;
-		ARG 0 model

@@ -1,6 +1,1 @@
 CLASS awt net/minecraft/item/ItemMusicDisc
-	METHOD a addInformation (Lawg;Lbax;Ljava/util/List;Laxo;)V
-		ARG 0 stack
-		ARG 2 tooltip
-	METHOD e getRarity (Lawg;)Laws;
-		ARG 0 stack

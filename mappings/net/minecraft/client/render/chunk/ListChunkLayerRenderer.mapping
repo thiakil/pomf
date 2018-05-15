@@ -1,3 +1,1 @@
 CLASS cvj net/minecraft/client/render/chunk/ListChunkLayerRenderer
-	METHOD a renderLayer (Lbam;)V
-		ARG 0 layer

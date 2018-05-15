@@ -1,16 +1,5 @@
 CLASS bmj net/minecraft/block/entity/BlockEntityDispenser
-	FIELD a RANDOM Ljava/util/Random;
-	FIELD e inventory Leu;
-	METHOD N_ getNameAsComponent ()Lic;
-	METHOD P_ isInvEmpty ()Z
-	METHOD T_ getInvSize ()I
-	METHOD a createContainer (Larg;Larh;)Lasw;
-		ARG 0 playerInv
-		ARG 1 player
 	METHOD a serialize (Lgu;)Lgu;
 		ARG 0 tag
 	METHOD b deserialize (Lgu;)V
 		ARG 0 tag
-	METHOD f getInvMaxStackAmount ()I
-	METHOD l getContainerId ()Ljava/lang/String;
-	METHOD q getInvStackList ()Leu;

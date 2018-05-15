@@ -1,11 +1,2 @@
 CLASS amx net/minecraft/entity/passive/EntityMooshroom
 	METHOD H getLootTableId ()Loj;
-	METHOD a createChild (Lahq;)Lahq;
-		ARG 0 other
-	METHOD a interactMob (Larh;Lagm;)Z
-		ARG 0 player
-		ARG 1 playerHand
-	METHOD b createChild (Lahq;)Lamu;
-		ARG 0 other
-	METHOD c createChild (Lahq;)Lamx;
-		ARG 0 other

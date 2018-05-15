@@ -1,5 +1,1 @@
 CLASS btq net/minecraft/world/gen/decorator/DecoratorTreeJungle
-	METHOD a generateVines (Lbay;Ljava/util/Random;Lef;Lboq;)V
-		ARG 1 random
-		ARG 2 pos
-		ARG 3 property

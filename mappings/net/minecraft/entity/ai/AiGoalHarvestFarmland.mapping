@@ -1,7 +1,4 @@
 CLASS ajx net/minecraft/entity/ai/AiGoalHarvestFarmland
-	FIELD f owner Larc;
-	METHOD <init> (Larc;D)V
-		ARG 0 owner
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD e tick ()V

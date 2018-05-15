@@ -1,19 +1,1 @@
 CLASS bat net/minecraft/world/GameRules
-	CLASS bat$a Value
-		FIELD a asString Ljava/lang/String;
-		FIELD b asBoolean Z
-		FIELD c asInteger I
-		FIELD d asDouble D
-		FIELD e type Lbat$c;
-		METHOD a getString ()Ljava/lang/String;
-		METHOD b getBoolean ()Z
-		METHOD c getInteger ()I
-		METHOD e getType ()Lbat$c;
-	FIELD b rules Ljava/util/TreeMap;
-	METHOD a serialize ()Lgu;
-	METHOD a deserialize (Lgu;)V
-		ARG 0 tag
-	METHOD b getBoolean (Ljava/lang/String;)Z
-		ARG 0 name
-	METHOD c getInteger (Ljava/lang/String;)I
-		ARG 0 name

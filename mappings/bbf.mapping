@@ -1,3 +1,1 @@
 CLASS bbf
-	METHOD a spawnEntity (Laht;)Z
-		ARG 0 entity

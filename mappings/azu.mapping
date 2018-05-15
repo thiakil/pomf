@@ -1,4 +1,2 @@
 CLASS azu
-	METHOD a isEqual (Lazf;)Z
-		ARG 0 other
 	METHOD b getHighestLevel ()I

@@ -1,3 +1,1 @@
 CLASS cau net/minecraft/fluid/EmptyFluid
-	METHOD a getRenderLayer ()Lbam;
-	METHOD c isEmpty ()Z

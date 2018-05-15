@@ -37,7 +37,6 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	FIELD e lastTickLengths [J
 	FIELD g jobs Ljava/util/Queue;
 	FIELD h LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD j snooper Lagw;
 	FIELD k gameDir Ljava/io/File;
 	FIELD l tickables Ljava/util/List;
 	FIELD m serverNetworkManager Lth;
@@ -63,7 +62,6 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD L getServerName ()Ljava/lang/String;
 	METHOD M isMonsterSpawningEnabled ()Z
 	METHOD N isDemo ()Z
-	METHOD O getLevelStorage ()Lcec;
 	METHOD P getResourcePackUrl ()Ljava/lang/String;
 	METHOD Q getResourcePackHash ()Ljava/lang/String;
 	METHOD R isSnooperEnabled ()Z
@@ -75,12 +73,6 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD Z isFlightEnabled ()Z
 	METHOD a getWorld (I)Lsj;
 		ARG 0 dimensionId
-	METHOD a setDifficulty (Lagk;)V
-		ARG 0 difficulty
-	METHOD a addSnooperInfo (Lagw;)V
-		ARG 0 snooper
-	METHOD a setDefaultGameMode (Lbau;)V
-		ARG 0 gameMode
 	METHOD a appendCommandFeedback (Lic;)V
 		ARG 0 feedback
 	METHOD a scheduleOnMainThread (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
@@ -108,7 +100,6 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD ag getServerNetworkManager ()Lth;
 	METHOD ai hasGui ()Z
 	METHOD aj getTicks ()I
-	METHOD al getSnooper ()Lagw;
 	METHOD an getSpawnProtectionRadius ()I
 	METHOD ap getProxy ()Ljava/net/Proxy;
 	METHOD aq getCurrentTimeMillis ()J
@@ -122,8 +113,6 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD az getNetworkCompressionThreshold ()I
 	METHOD b setServerPort (I)V
 		ARG 0 value
-	METHOD b addSnooperInitialInfo (Lagw;)V
-		ARG 0 snooper
 	METHOD b addServerInfoToCrashReport (Lb;)Lb;
 		ARG 0 report
 	METHOD b setServerIp (Ljava/lang/String;)V
@@ -158,13 +147,11 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 		ARG 0 value
 	METHOD g_ generateTerrain ()V
 	METHOD getServerModName ()Ljava/lang/String;
-	METHOD h getDefaultGameMode ()Lbau;
 	METHOD h setUserName (Ljava/lang/String;)V
 		ARG 0 value
 	METHOD h setPvpEnabled (Z)V
 		ARG 0 value
 	METHOD h_ shutdown ()V
-	METHOD i getDefaultDifficulty ()Lagk;
 	METHOD i setLevelName (Ljava/lang/String;)V
 		ARG 0 value
 	METHOD i setFlightEnabled (Z)V

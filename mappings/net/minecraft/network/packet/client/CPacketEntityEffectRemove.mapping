@@ -1,12 +1,5 @@
 CLASS kr net/minecraft/network/packet/client/CPacketEntityEffectRemove
 	FIELD a entityId I
-	FIELD b effectType Lahl;
-	METHOD <init> (ILahl;)V
-		ARG 0 entityId
-		ARG 1 effectType
-	METHOD a getEffectType ()Lahl;
-	METHOD a getEntity (Lbax;)Laht;
-		ARG 0 world
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf
 	METHOD a applyPacket (Lhw;)V

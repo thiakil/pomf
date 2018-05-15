@@ -1,9 +1,6 @@
 CLASS bmh net/minecraft/block/entity/BlockEntityConduit
-	FIELD j targetUuid Ljava/util/UUID;
 	METHOD Y_ update ()V
-	METHOD Z_ getUpdatePacket ()Ljc;
 	METHOD a serialize (Lgu;)Lgu;
 		ARG 0 tag
-	METHOD aa_ serializeInitialChunkData ()Lgu;
 	METHOD b deserialize (Lgu;)V
 		ARG 0 tag

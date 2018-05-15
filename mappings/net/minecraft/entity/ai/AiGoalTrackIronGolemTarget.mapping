@@ -1,7 +1,1 @@
 CLASS alm net/minecraft/entity/ai/AiGoalTrackIronGolemTarget
-	FIELD a ironGolem Lanl;
-	FIELD b target Laic;
-	METHOD <init> (Lanl;)V
-		ARG 0 ironGolem
-	METHOD a canStart ()Z
-	METHOD c start ()V

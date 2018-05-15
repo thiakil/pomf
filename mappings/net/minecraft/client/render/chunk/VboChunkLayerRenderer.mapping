@@ -1,3 +1,1 @@
 CLASS cvo net/minecraft/client/render/chunk/VboChunkLayerRenderer
-	METHOD a renderLayer (Lbam;)V
-		ARG 0 layer

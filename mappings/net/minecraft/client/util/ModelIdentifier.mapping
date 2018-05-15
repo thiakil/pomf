@@ -1,10 +1,1 @@
 CLASS dgk net/minecraft/client/util/ModelIdentifier
-	FIELD c variant Ljava/lang/String;
-	METHOD <init> (Loj;Ljava/lang/String;)V
-		ARG 0 id
-		ARG 1 variant
-	METHOD a splitWithVariant (Ljava/lang/String;)[Ljava/lang/String;
-		ARG 0 str
-	METHOD c getVariant ()Ljava/lang/String;
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 0 object

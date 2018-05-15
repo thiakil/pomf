@@ -1,6 +1,2 @@
 CLASS dcf net/minecraft/client/render/entity/EntityRendererWitch
 	FIELD a SKIN Loj;
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Laqv;)Loj;
-		ARG 0 model

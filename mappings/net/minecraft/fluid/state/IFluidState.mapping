@@ -1,4 +1,0 @@
-CLASS cax net/minecraft/fluid/state/IFluidState
-	METHOD c getFluid ()Lcaw;
-	METHOD e isEmpty ()Z
-	METHOD k getRenderLayer ()Lbam;

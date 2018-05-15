@@ -1,28 +1,7 @@
 CLASS aqj net/minecraft/entity/mob/EntityPigZombie
 	CLASS aqj$a
 		METHOD a canStart ()Z
-	FIELD b ATTACKINGSPEEDBOOST Laiq;
-	FIELD bz anger I
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
-	METHOD K mobTick ()V
-	METHOD a initEquipment (Lagl;)V
-		ARG 0 difficulty
-	METHOD a damage (Lahc;F)Z
-		ARG 0 source
-		ARG 1 damage
-	METHOD a copyEntityData (Laht;)V
-		ARG 0 entity
-	METHOD a setAttacker (Laic;)V
-		ARG 0 value
-	METHOD a interactMob (Larh;Lagm;)Z
-		ARG 0 player
-		ARG 1 playerHand
-	METHOD a deserializeCustomData (Lgu;)V
-		ARG 0 tag
-	METHOD b serializeCustomData (Lgu;)V
-		ARG 0 tag
 	METHOD ca initAttributes ()V
 	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahc;)Lvo;
-	METHOD dF getSkull ()Lawg;

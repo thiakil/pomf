@@ -1,6 +1,1 @@
 CLASS dao net/minecraft/client/render/entity/EntityRendererLeashKnot
-	FIELD a SKIN Loj;
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Lapd;)Loj;
-		ARG 0 model

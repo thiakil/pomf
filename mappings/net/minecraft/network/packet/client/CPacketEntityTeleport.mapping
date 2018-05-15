@@ -6,8 +6,6 @@ CLASS lr net/minecraft/network/packet/client/CPacketEntityTeleport
 	FIELD e yaw B
 	FIELD f pitch B
 	FIELD g onGround Z
-	METHOD <init> (Laht;)V
-		ARG 0 entity
 	METHOD a getId ()I
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf

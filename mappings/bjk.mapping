@@ -1,11 +1,1 @@
 CLASS bjk
-	METHOD a onActivated (Lbnv;Lbax;Lef;Larh;Lagm;Lel;FFF)Z
-		ARG 0 state
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 player
-		ARG 4 hand
-		ARG 5 facing
-		ARG 6 hitX
-		ARG 7 hitY
-		ARG 8 hitZ

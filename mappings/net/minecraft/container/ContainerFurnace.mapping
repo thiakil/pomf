@@ -1,12 +1,1 @@
 CLASS ati net/minecraft/container/ContainerFurnace
-	METHOD a canUse (Larh;)Z
-		ARG 0 player
-	METHOD a addListener (Latc;)V
-		ARG 0 listener
-	METHOD b sendContentUpdates ()V
-	METHOD b setProperty (II)V
-		ARG 0 pos
-		ARG 1 value
-	METHOD b getStack (Larh;I)Lawg;
-		ARG 0 player
-		ARG 1 slot

@@ -1,4 +1,1 @@
 CLASS agl net/minecraft/world/LocalDifficulty
-	METHOD <init> (Lagk;JJF)V
-		ARG 0 difficulty
-		ARG 1 timeOfDay

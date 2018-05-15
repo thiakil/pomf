@@ -1,8 +1,3 @@
 CLASS bqk net/minecraft/world/gen/WorldProviderEnd
-	FIELD g dragonFight Lbqj;
-	METHOD b getFogColor (FF)Lcgc;
-	METHOD k serialize ()V
 	METHOD m setupBiomeProvider ()V
 	METHOD o hasClouds ()Z
-	METHOD q getWorldType ()Lbqf;
-	METHOD r getDragonManager ()Lbqj;

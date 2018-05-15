@@ -1,6 +1,2 @@
 CLASS czj net/minecraft/client/render/entity/EntityRendererCow
 	FIELD a SKIN Loj;
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Lamu;)Loj;
-		ARG 0 model

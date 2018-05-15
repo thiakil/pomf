@@ -1,6 +1,0 @@
-CLASS cuv net/minecraft/client/render/chunk/ChunkVertexBuffer
-	FIELD a renderLayerVertexBuffers [Lcut;
-	METHOD a getVertexBuffer (I)Lcut;
-		ARG 0 blockRenderLayer
-	METHOD a getVertexBuffer (Lbam;)Lcut;
-		ARG 0 blockRenderLayer

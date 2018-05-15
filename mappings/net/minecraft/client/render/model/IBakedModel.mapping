@@ -1,7 +1,0 @@
-CLASS dgf net/minecraft/client/render/model/IBakedModel
-	METHOD a useAmbientOcclusion ()Z
-	METHOD b hasDepthInGui ()Z
-	METHOD c isBuiltin ()Z
-	METHOD d getSprite ()Ldet;
-	METHOD e getTransformationList ()Lcwl;
-	METHOD f getItemPropertyOverrides ()Lcwj;

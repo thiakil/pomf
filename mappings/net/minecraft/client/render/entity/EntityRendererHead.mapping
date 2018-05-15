@@ -1,7 +1,2 @@
 CLASS dcr net/minecraft/client/render/entity/EntityRendererHead
-	FIELD a model Lcrz;
-	METHOD <init> (Lcrz;)V
-		ARG 0 model
 	METHOD a shouldMergeTextures ()Z
-	METHOD a render (Laic;FFFFFFF)V
-		ARG 0 entity

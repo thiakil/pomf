@@ -1,7 +1,2 @@
 CLASS azo net/minecraft/enchantment/EnchantmentLuck
-	METHOD <init> (Lazf$a;Lazg;[Lahy;)V
-		ARG 0 weight
-		ARG 2 slotTypes
-	METHOD a isEqual (Lazf;)Z
-		ARG 0 other
 	METHOD b getHighestLevel ()I

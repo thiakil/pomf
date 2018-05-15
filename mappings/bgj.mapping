@@ -1,9 +1,1 @@
 CLASS bgj
-	METHOD X_ getRenderLayer ()Lbam;
-	METHOD a onPlaced (Lbax;Lef;Lbnv;Laic;Lawg;)V
-		ARG 0 world
-		ARG 1 pos
-		ARG 3 placer
-		ARG 4 stack
-	METHOD c getRenderType (Lbnv;)Lbjs;
-	METHOD t getFluidState (Lbnv;)Lcax;

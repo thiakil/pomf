@@ -1,26 +1,3 @@
 CLASS cez net/minecraft/world/loot/function/LootTableFunctionSetAttributes
 	CLASS cez$a Attribute
-		FIELD a name Ljava/lang/String;
-		FIELD b attribute Ljava/lang/String;
-		FIELD c operationId I
-		FIELD d amountRange Lces;
-		FIELD e id Ljava/util/UUID;
-		FIELD f slots [Lahy;
-		METHOD a getOperationName (I)Ljava/lang/String;
-		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcez$a;
-		METHOD a serialize (Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonObject;
-		METHOD a getOperationId (Ljava/lang/String;)I
-	CLASS cez$b DeSerializer
-		METHOD a serialize (Lcom/google/gson/JsonObject;Lcew;Lcom/google/gson/JsonSerializationContext;)V
-		METHOD a serialize (Lcom/google/gson/JsonObject;Lcez;Lcom/google/gson/JsonSerializationContext;)V
-		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfi;)Lcez;
-		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfi;)Lcew;
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b attributes [Lcez$a;
-	METHOD <init> ([Lcfi;[Lcez$a;)V
-		ARG 0 conditions
-		ARG 1 attributes
-	METHOD a apply (Lawg;Ljava/util/Random;Lcep;)Lawg;
-		ARG 0 stack
-		ARG 1 rand
-		ARG 2 context

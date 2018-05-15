@@ -11,7 +11,6 @@ CLASS ef net/minecraft/util/math/BlockPos
 			ARG 0 x
 			ARG 1 y
 			ARG 2 z
-		METHOD a set (Laht;)Lef$a;
 		METHOD a offset (Lel;I)Lef;
 			ARG 0 facing
 			ARG 1 distance
@@ -30,10 +29,8 @@ CLASS ef net/minecraft/util/math/BlockPos
 	CLASS ef$b PooledMutable
 		FIELD f usable Z
 		FIELD g POOL Ljava/util/List;
-		METHOD a set (Laht;)Lef$a;
 		METHOD c set (DDD)Lef$a;
 		METHOD c set (III)Lef$a;
-		METHOD c set (Laht;)Lef$b;
 		METHOD c setOffset (Lel;)Lef$a;
 		METHOD c setOffset (Lel;I)Lef$a;
 		METHOD d get (DDD)Lef$b;
@@ -65,10 +62,6 @@ CLASS ef net/minecraft/util/math/BlockPos
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
-	METHOD <init> (Laht;)V
-		ARG 0 entity
-	METHOD <init> (Lcgc;)V
-		ARG 0 vec
 	METHOD <init> (Lfb;)V
 		ARG 0 vec
 	METHOD a up ()Lef;

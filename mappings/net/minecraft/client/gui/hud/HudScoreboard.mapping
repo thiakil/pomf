@@ -1,7 +1,2 @@
 CLASS cjg net/minecraft/client/gui/hud/HudScoreboard
-	FIELD f game Lchp;
-	FIELD g hudInGame Lcih;
-	METHOD <init> (Lchp;Lcih;)V
-		ARG 0 game
-		ARG 1 hudInGame
 	METHOD a clear ()V

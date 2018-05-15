@@ -1,6 +1,1 @@
 CLASS dgv net/minecraft/client/audio/SoundEventMinecartRiding
-	FIELD n minecart Lasi;
-	FIELD o distance F
-	METHOD <init> (Lasi;)V
-		ARG 0 minecart
-	METHOD Y_ update ()V

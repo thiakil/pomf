@@ -1,8 +1,1 @@
 CLASS dce net/minecraft/client/render/entity/EntityMobRendererVindicator
-	CLASS dce$1
-		METHOD a render (Laic;FFFFFFF)V
-			ARG 0 entity
-	METHOD a getTexture (Laht;)Loj;
-		ARG 0 model
-	METHOD a getTexture (Laqh;)Loj;
-		ARG 0 model

@@ -1,13 +1,1 @@
 CLASS bfz net/minecraft/block/BlockPumpkin
-	FIELD b snowmanDispenserPattern Lbob;
-	FIELD c snowmanPattern Lbob;
-	FIELD t ironGolemDispenserPattern Lbob;
-	FIELD u ironGolemPattern Lbob;
-	METHOD a getDefaultState (Laul;)Lbnv;
-	METHOD b onBlockAdded (Lbnv;Lbax;Lef;Lbnv;)V
-		ARG 1 world
-		ARG 2 pos
-	METHOD c getSnowmanDispenserPattern ()Lbob;
-	METHOD d getSnowmanPattern ()Lbob;
-	METHOD e getIronGolemDispenserPattern ()Lbob;
-	METHOD f getIronGolemPattern ()Lbob;

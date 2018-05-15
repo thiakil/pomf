@@ -1,5 +1,4 @@
 CLASS bmc
-	FIELD A LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD b FURNACE Lbmc;
 	FIELD c CHEST Lbmc;
 	FIELD d TRAPPED_CHEST Lbmc;

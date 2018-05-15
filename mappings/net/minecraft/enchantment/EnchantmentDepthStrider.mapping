@@ -1,7 +1,2 @@
 CLASS baa net/minecraft/enchantment/EnchantmentDepthStrider
-	METHOD <init> (Lazf$a;[Lahy;)V
-		ARG 0 weight
-		ARG 1 slotTypes
-	METHOD a isEqual (Lazf;)Z
-		ARG 0 other
 	METHOD b getHighestLevel ()I

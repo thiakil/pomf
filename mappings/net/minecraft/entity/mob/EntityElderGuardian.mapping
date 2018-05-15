@@ -4,4 +4,3 @@ CLASS apw net/minecraft/entity/mob/EntityElderGuardian
 	METHOD K mobTick ()V
 	METHOD ca initAttributes ()V
 	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahc;)Lvo;

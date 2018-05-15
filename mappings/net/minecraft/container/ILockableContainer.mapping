@@ -1,5 +1,1 @@
 CLASS ags net/minecraft/container/ILockableContainer
-	METHOD V_ hasContainerLock ()Z
-	METHOD a setContainerLock (Lagr;)V
-		ARG 0 lock
-	METHOD j getContainerLock ()Lagr;

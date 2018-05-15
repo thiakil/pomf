@@ -1,6 +1,1 @@
 CLASS auv net/minecraft/item/ItemClock
-	CLASS auv$1
-		METHOD a getProperty (Lawg;Lbax;Laic;)F
-			ARG 0 stack
-			ARG 1 world
-			ARG 2 user
