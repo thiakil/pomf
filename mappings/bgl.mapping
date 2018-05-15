@@ -5,6 +5,8 @@ CLASS bgl
 		FIELD c name Ljava/lang/String;
 		METHOD m asString ()Ljava/lang/String;
 	FIELD a MODE Lbow;
+	METHOD a createBlockEntity (Lbap;)Lbmf;
+		ARG 0 world
 	METHOD a onBlockAction (Lbnz;Lbbb;Lef;II)Z
 		ARG 1 world
 		ARG 2 pos

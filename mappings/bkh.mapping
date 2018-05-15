@@ -1,6 +1,8 @@
 CLASS bkh
 	FIELD a WATERLOGGED Lbou;
 	METHOD a canEntitiesSpawnInside ()Z
+	METHOD a createBlockEntity (Lbap;)Lbmf;
+		ARG 0 world
 	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
 		ARG 0 blockView
 		ARG 2 pos

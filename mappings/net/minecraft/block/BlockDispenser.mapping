@@ -5,6 +5,7 @@ CLASS bgz net/minecraft/block/BlockDispenser
 	METHOD a getDispenserBehavior (Lawk;)Len;
 		ARG 0 stack
 	METHOD a createBlockEntity (Lbap;)Lbmf;
+		ARG 0 world
 	METHOD a addDispenserBehavior (Lbba;Len;)V
 	METHOD a onPlaced (Lbbb;Lef;Lbnz;Laig;Lawk;)V
 		ARG 0 world

@@ -8,6 +8,8 @@ CLASS bfo
 	FIELD b OCCUPIED Lbou;
 	METHOD X_ getRenderLayer ()Lbaq;
 	METHOD a getDefaultState (Laup;)Lbnz;
+	METHOD a createBlockEntity (Lbap;)Lbmf;
+		ARG 0 world
 	METHOD a onEntityLand (Lbap;Lahx;)V
 		ARG 1 entity
 	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;

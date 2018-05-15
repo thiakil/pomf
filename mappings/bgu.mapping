@@ -1,6 +1,8 @@
 CLASS bgu
 	FIELD a POWER Lbox;
 	FIELD b INVERTED Lbou;
+	METHOD a createBlockEntity (Lbap;)Lbmf;
+		ARG 0 world
 	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
 		ARG 0 blockView
 		ARG 2 pos

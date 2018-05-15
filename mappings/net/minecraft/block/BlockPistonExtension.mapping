@@ -2,6 +2,7 @@ CLASS bnr net/minecraft/block/BlockPistonExtension
 	FIELD a FACING Lbov;
 	FIELD b TYPE Lbow;
 	METHOD a createBlockEntity (Lbap;)Lbmf;
+		ARG 0 world
 	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
 		ARG 0 blockView
 		ARG 2 pos

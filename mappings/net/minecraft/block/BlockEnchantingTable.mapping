@@ -1,5 +1,6 @@
 CLASS bhe net/minecraft/block/BlockEnchantingTable
 	METHOD a createBlockEntity (Lbap;)Lbmf;
+		ARG 0 world
 	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
 		ARG 0 blockView
 		ARG 2 pos

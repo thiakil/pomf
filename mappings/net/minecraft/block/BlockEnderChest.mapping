@@ -2,6 +2,8 @@ CLASS bhj net/minecraft/block/BlockEnderChest
 	FIELD a FACING Lbov;
 	FIELD b WATER Lbou;
 	METHOD a getDefaultState (Laup;)Lbnz;
+	METHOD a createBlockEntity (Lbap;)Lbmf;
+		ARG 0 world
 	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
 		ARG 0 blockView
 		ARG 2 pos

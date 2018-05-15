@@ -1,5 +1,7 @@
 CLASS bgn
 	METHOD X_ getRenderLayer ()Lbaq;
+	METHOD a createBlockEntity (Lbap;)Lbmf;
+		ARG 0 world
 	METHOD a onPlaced (Lbbb;Lef;Lbnz;Laig;Lawk;)V
 		ARG 0 world
 		ARG 1 pos

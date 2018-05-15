@@ -4,6 +4,7 @@ CLASS bie net/minecraft/block/BlockHopper
 	METHOD X_ getRenderLayer ()Lbaq;
 	METHOD a getDefaultState (Laup;)Lbnz;
 	METHOD a createBlockEntity (Lbap;)Lbmf;
+		ARG 0 world
 	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
 		ARG 0 blockView
 		ARG 2 pos

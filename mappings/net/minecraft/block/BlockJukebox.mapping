@@ -1,5 +1,7 @@
-CLASS bik
+CLASS bik net/minecraft/block/BlockJukebox
 	FIELD a HAS_RECORD Lbou;
+	METHOD a createBlockEntity (Lbap;)Lbmf;
+		ARG 0 world
 	METHOD a getComparatorOutput (Lbnz;Lbbb;Lef;)I
 		ARG 1 world
 		ARG 2 pos

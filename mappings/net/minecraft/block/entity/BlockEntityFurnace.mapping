@@ -1,4 +1,4 @@
-CLASS bmr
+CLASS bmr net/minecraft/block/entity/BlockEntityFurnace
 	FIELD h burnTime I
 	FIELD j cookTime I
 	FIELD k cookTimeTotal I

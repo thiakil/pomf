@@ -1,4 +1,4 @@
-CLASS bmi
+CLASS bmi net/minecraft/block/entity/BlockEntityChest
 	METHOD N_ getNameAsComponent ()Lic;
 	METHOD P_ isInvEmpty ()Z
 	METHOD T_ getInvSize ()I

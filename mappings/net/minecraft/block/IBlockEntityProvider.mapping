@@ -1,0 +1,3 @@
+CLASS bhk net/minecraft/block/IBlockEntityProvider
+	METHOD a createBlockEntity (Lbap;)Lbmf;
+		ARG 0 world

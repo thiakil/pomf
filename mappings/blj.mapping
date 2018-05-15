@@ -1,4 +1,6 @@
 CLASS blj
+	METHOD a createBlockEntity (Lbap;)Lbmf;
+		ARG 0 world
 	METHOD a getWeakRedstonePower (Lbnz;Lbap;Lef;Lel;)I
 		ARG 1 view
 		ARG 2 pos

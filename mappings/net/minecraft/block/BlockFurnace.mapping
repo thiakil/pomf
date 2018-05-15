@@ -3,6 +3,7 @@ CLASS bhu net/minecraft/block/BlockFurnace
 	FIELD b POWERED Lbou;
 	METHOD a getDefaultState (Laup;)Lbnz;
 	METHOD a createBlockEntity (Lbap;)Lbmf;
+		ARG 0 world
 	METHOD a onPlaced (Lbbb;Lef;Lbnz;Laig;Lawk;)V
 		ARG 0 world
 		ARG 1 pos
