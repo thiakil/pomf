@@ -1,1 +1,5 @@
-CLASS dby net/minecraft/client/render/entity/EntityRendererTropicalFish
+CLASS dcc net/minecraft/client/render/entity/EntityRendererTropicalFish
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Lann;)Loj;
+		ARG 0 model

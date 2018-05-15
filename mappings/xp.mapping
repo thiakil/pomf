@@ -1,2 +1,3 @@
 CLASS xp
 	CLASS xp$a
+		METHOD d right (Labd;)Labd;

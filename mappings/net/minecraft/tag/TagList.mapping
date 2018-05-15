@@ -26,4 +26,3 @@ CLASS ha net/minecraft/tag/TagList
 	METHOD set (ILjava/lang/Object;)Ljava/lang/Object;
 		ARG 0 index
 		ARG 1 value
-	METHOD size ()I

@@ -1,1 +1,40 @@
-CLASS baf net/minecraft/village/VillagerRecipe
+CLASS baj net/minecraft/village/VillagerRecipe
+	FIELD a buyItem Lawk;
+	FIELD b secondBuyItem Lawk;
+	FIELD c sellItem Lawk;
+	FIELD d uses I
+	FIELD e maxUses I
+	FIELD f rewardExp Z
+	METHOD <init> (Lawk;Lawg;)V
+		ARG 0 buyItem
+		ARG 1 sellItem
+	METHOD <init> (Lawk;Lawk;)V
+		ARG 0 buyItem
+		ARG 1 sellItem
+	METHOD <init> (Lawk;Lawk;Lawk;)V
+		ARG 0 buyItem
+		ARG 1 secondBuyItem
+		ARG 2 sellItem
+	METHOD <init> (Lawk;Lawk;Lawk;II)V
+		ARG 0 buyItem
+		ARG 1 secondBuyItem
+		ARG 2 sellItem
+		ARG 3 uses
+		ARG 4 maxUses
+	METHOD <init> (Lgu;)V
+		ARG 0 tag
+	METHOD a getBuyItem ()Lawk;
+	METHOD a increasedMaxUses (I)V
+		ARG 0 uses
+	METHOD a serialize (Lgu;)V
+		ARG 0 tag
+	METHOD b getSecondBuyItem ()Lawk;
+	METHOD c hasSecondBuyItem ()Z
+	METHOD d getSellItem ()Lawk;
+	METHOD e getUses ()I
+	METHOD f getMaxUses ()I
+	METHOD g use ()V
+	METHOD h isDisabled ()Z
+	METHOD i clearUses ()V
+	METHOD j getRewardExp ()Z
+	METHOD k deserialize ()Lgu;

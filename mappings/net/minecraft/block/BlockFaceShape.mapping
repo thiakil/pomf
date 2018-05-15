@@ -1,1 +1,10 @@
-CLASS bnu net/minecraft/block/BlockFaceShape
+CLASS bny net/minecraft/block/BlockFaceShape
+	FIELD a SOLID Lbny;
+	FIELD b BOWL Lbny;
+	FIELD c CENTER_SMALL Lbny;
+	FIELD d MIDDLE_POLE_THIN Lbny;
+	FIELD e CENTER Lbny;
+	FIELD f MIDDLE_POLE Lbny;
+	FIELD g CENTER_BIG Lbny;
+	FIELD h MIDDLE_POLE_THICK Lbny;
+	FIELD i NONE Lbny;

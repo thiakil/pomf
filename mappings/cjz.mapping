@@ -1,0 +1,5 @@
+CLASS cjz
+	METHOD a getType ()Lcjz$a;
+	METHOD a draw (Lckb;J)Lcka$a;
+		ARG 0 toastGui
+	METHOD b getType ()Ljava/lang/Object;

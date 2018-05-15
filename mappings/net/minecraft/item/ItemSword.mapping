@@ -1,1 +1,13 @@
-CLASS axj net/minecraft/item/ItemSword
+CLASS axn net/minecraft/item/ItemSword
+	FIELD a weaponDamage F
+	METHOD a getAttributeModifiers (Laic;)Lcom/google/common/collect/Multimap;
+		ARG 0 effectiveSlot
+	METHOD a onEntityDamaged (Lawk;Laig;Laig;)Z
+		ARG 0 stack
+		ARG 1 target
+		ARG 2 user
+	METHOD a onBlockBroken (Lawk;Lbbb;Lbnz;Lef;Laig;)Z
+		ARG 0 stack
+		ARG 1 world
+		ARG 3 pos
+		ARG 4 user

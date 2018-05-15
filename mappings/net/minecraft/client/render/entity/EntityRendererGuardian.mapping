@@ -1,1 +1,7 @@
-CLASS daf net/minecraft/client/render/entity/EntityRendererGuardian
+CLASS daj net/minecraft/client/render/entity/EntityRendererGuardian
+	FIELD a SKIN Loj;
+	FIELD j EXPLOSION_BEAM_TEX Loj;
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Laqh;)Loj;
+		ARG 0 model

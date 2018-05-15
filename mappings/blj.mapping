@@ -1,1 +1,10 @@
 CLASS blj
+	METHOD a getWeakRedstonePower (Lbnz;Lbap;Lef;Lel;)I
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD b getStrongRedstonePower (Lbnz;Lbap;Lef;Lel;)I
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD h canProvidePower (Lbnz;)Z

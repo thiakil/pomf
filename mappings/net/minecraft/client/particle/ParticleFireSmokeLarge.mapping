@@ -1,6 +1,6 @@
-CLASS ctl net/minecraft/client/particle/ParticleFireSmokeLarge
-	CLASS ctl$a
-		METHOD a createParticle (Lfg;Lbax;DDDDDD)Lctp;
+CLASS ctp net/minecraft/client/particle/ParticleFireSmokeLarge
+	CLASS ctp$a
+		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lctt;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -8,7 +8,7 @@ CLASS ctl net/minecraft/client/particle/ParticleFireSmokeLarge
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-		METHOD a createParticle (Lfj;Lbax;DDDDDD)Lctp;
+		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lctt;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y

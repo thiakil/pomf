@@ -1,1 +1,2 @@
-CLASS bdq net/minecraft/world/biome/BiomeFrozenOcean
+CLASS bdu net/minecraft/world/biome/BiomeFrozenOcean
+	METHOD a getTemperatureAtPos (Lef;)F

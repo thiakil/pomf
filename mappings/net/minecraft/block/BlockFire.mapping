@@ -1,1 +1,25 @@
-CLASS bhm net/minecraft/block/BlockFire
+CLASS bhq net/minecraft/block/BlockFire
+	FIELD a AGE Lbox;
+	METHOD X_ getRenderLayer ()Lbaq;
+	METHOD a getDefaultState (Laup;)Lbnz;
+	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a trySpreadFire (Lbbb;Lef;ILjava/util/Random;I)V
+	METHOD a getDropAmount (Lbnz;Ljava/util/Random;)I
+	METHOD b onBlockAdded (Lbnz;Lbbb;Lef;Lbnz;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD b updateTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 random
+	METHOD c registerDefaultFlammables ()V
+	METHOD c randomDisplayTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 rand
+	METHOD d isFlammable (Lbap;Lef;)Z
+		ARG 0 view
+		ARG 1 pos

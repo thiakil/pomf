@@ -1,2 +1,6 @@
-CLASS dbb net/minecraft/client/render/entity/EntityRendererPig
+CLASS dbf net/minecraft/client/render/entity/EntityRendererPig
 	FIELD a SKIN Loj;
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Lane;)Loj;
+		ARG 0 model

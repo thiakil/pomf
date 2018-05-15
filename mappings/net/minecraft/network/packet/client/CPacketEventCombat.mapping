@@ -8,6 +8,13 @@ CLASS kk net/minecraft/network/packet/client/CPacketEventCombat
 	FIELD c attackerEntityId I
 	FIELD d timeSinceLastAttack I
 	FIELD e deathMessage Lic;
+	METHOD <init> (Lahf;Lkk$a;)V
+		ARG 0 damageTracker
+		ARG 1 combatType
+	METHOD <init> (Lahf;Lkk$a;Z)V
+		ARG 0 damageTracker
+		ARG 1 combatType
+		ARG 2 includeDeathMessage
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf
 	METHOD a applyPacket (Lhw;)V

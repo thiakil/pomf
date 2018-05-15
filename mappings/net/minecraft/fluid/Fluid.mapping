@@ -1,1 +1,12 @@
-CLASS caw net/minecraft/fluid/Fluid
+CLASS cba net/minecraft/fluid/Fluid
+	FIELD a EMPTY_IDENTIFIER Loj;
+	FIELD b defaultState Lcbb;
+	FIELD c REGISTRY Lej;
+	METHOD a getRenderLayer ()Lbaq;
+	METHOD a register (Ljava/lang/String;Lcba;)V
+	METHOD a register (Loj;Lcba;)V
+	METHOD c isEmpty ()Z
+	METHOD f getDefaultState ()Lcbb;
+	METHOD f setDefaultState (Lcbb;)V
+		ARG 0 value
+	METHOD i registerFluids ()V

@@ -1,4 +1,8 @@
 CLASS nb net/minecraft/network/packet/server/SPacketPlayerSwingHand
+	FIELD a hand Lagq;
+	METHOD <init> (Lagq;)V
+		ARG 0 hand
+	METHOD a getHand ()Lagq;
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf
 	METHOD a applyPacket (Lhw;)V

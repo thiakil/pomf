@@ -1,0 +1,4 @@
+CLASS boa net/minecraft/block/state/BlockState
+	METHOD <init> (Lbfq;Lcom/google/common/collect/ImmutableMap;)V
+		ARG 0 block
+	METHOD c getBlock ()Lbfq;

@@ -1,4 +1,7 @@
-CLASS ase net/minecraft/entity/thrown/EntityThrownPotion
+CLASS asi net/minecraft/entity/thrown/EntityThrownPotion
+	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a onCollision (Lcgd;)V
+		ARG 0 hitResult
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
 	METHOD b serializeCustomData (Lgu;)V

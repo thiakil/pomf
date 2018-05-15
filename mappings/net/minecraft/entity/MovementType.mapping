@@ -1,5 +1,6 @@
-CLASS aii net/minecraft/entity/MovementType
-	FIELD a SELF Laii;
-	FIELD b PLAYER Laii;
-	FIELD c PISTON Laii;
-	FIELD d SHULKER_BOX Laii;
+CLASS aim net/minecraft/entity/MovementType
+	FIELD a SELF Laim;
+	FIELD b PLAYER Laim;
+	FIELD c PISTON Laim;
+	FIELD d SHULKER_BOX Laim;
+	FIELD e SHULKER_ENTITY Laim;

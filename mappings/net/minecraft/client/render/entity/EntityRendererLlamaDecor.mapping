@@ -1,2 +1,6 @@
-CLASS ddc net/minecraft/client/render/entity/EntityRendererLlamaDecor
+CLASS ddg net/minecraft/client/render/entity/EntityRendererLlamaDecor
 	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Laig;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Lanx;FFFFFFF)V
+		ARG 0 entity

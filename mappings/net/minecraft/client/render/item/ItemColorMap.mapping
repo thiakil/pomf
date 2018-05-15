@@ -1,1 +1,37 @@
-CLASS cie net/minecraft/client/render/item/ItemColorMap
+CLASS cii net/minecraft/client/render/item/ItemColorMap
+	CLASS cii$1
+		METHOD getColor (Lawk;I)I
+			ARG 0 stack
+			ARG 1 tintIndex
+	CLASS cii$2
+		METHOD getColor (Lawk;I)I
+			ARG 0 stack
+			ARG 1 tintIndex
+	CLASS cii$3
+		METHOD getColor (Lawk;I)I
+			ARG 0 stack
+			ARG 1 tintIndex
+	CLASS cii$4
+		METHOD getColor (Lawk;I)I
+			ARG 0 stack
+			ARG 1 tintIndex
+	CLASS cii$5
+		METHOD getColor (Lawk;I)I
+			ARG 0 stack
+			ARG 1 tintIndex
+	CLASS cii$6
+		METHOD getColor (Lawk;I)I
+			ARG 0 stack
+			ARG 1 tintIndex
+	CLASS cii$7
+		METHOD getColor (Lawk;I)I
+			ARG 0 stack
+			ARG 1 tintIndex
+	FIELD a mappers Lep;
+	METHOD a getRenderColor (Lawk;I)I
+		ARG 0 stack
+		ARG 1 tintIndex
+	METHOD a create (Lcif;)Lcii;
+		ARG 0 blockColors
+	METHOD a register (Lcih;[Lbba;)V
+		ARG 0 mapper

@@ -1,1 +1,10 @@
-CLASS bko net/minecraft/block/BlockStainedGlass
+CLASS bks net/minecraft/block/BlockStainedGlass
+	METHOD X_ getRenderLayer ()Lbaq;
+	METHOD a onBlockRemoved (Lbnz;Lbbb;Lef;Lbnz;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a getDropAmount (Lbnz;Ljava/util/Random;)I
+	METHOD b onBlockAdded (Lbnz;Lbbb;Lef;Lbnz;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD j canSilkHarvest ()Z

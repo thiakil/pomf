@@ -1,3 +1,6 @@
 CLASS xq
 	CLASS xq$a
-		METHOD d right (Labb;)Labb;
+		METHOD equals (Ljava/lang/Object;)Z
+			ARG 0 object
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object

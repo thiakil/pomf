@@ -1,1 +1,10 @@
-CLASS awn net/minecraft/item/ItemMinecart
+CLASS awr net/minecraft/item/ItemMinecart
+	CLASS awr$1
+		METHOD a playSound (Leg;)V
+			ARG 0 block
+		METHOD b doDispense (Leg;Lawk;)Lawk;
+			ARG 0 block
+			ARG 1 stack
+	FIELD a DISPENSER_BEHAVIOR Len;
+	FIELD b type Lasm$a;
+	METHOD a activate (Laxv;)Lags;

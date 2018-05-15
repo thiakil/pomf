@@ -1,1 +1,82 @@
-CLASS arg net/minecraft/entity/player/InventoryPlayer
+CLASS ark net/minecraft/entity/player/InventoryPlayer
+	FIELD a main Leu;
+	FIELD b armor Leu;
+	FIELD c offHand Leu;
+	FIELD d selectedSlot I
+	FIELD e player Larl;
+	FIELD g cursorStack Lawk;
+	METHOD <init> (Larl;)V
+		ARG 0 player
+	METHOD N_ getNameAsComponent ()Lic;
+	METHOD O_ hasCustomName ()Z
+	METHOD P_ isInvEmpty ()Z
+	METHOD T_ getInvSize ()I
+	METHOD a getInvStack (I)Lawk;
+		ARG 0 slot
+	METHOD a takeInvStack (II)Lawk;
+		ARG 0 slot
+		ARG 1 amount
+	METHOD a setInvStack (ILawk;)V
+		ARG 0 slot
+		ARG 1 stack
+	METHOD a clone (Lark;)V
+	METHOD a canPlayerUseInv (Larl;)Z
+		ARG 0 player
+	METHOD a addPickBlock (Lawk;)V
+		ARG 0 stack
+	METHOD a canStackAddMore (Lawk;Lawk;)Z
+		ARG 0 existingStack
+		ARG 1 stackToAdd
+	METHOD a serialize (Lha;)Lha;
+		ARG 0 tag
+	METHOD b removeInvStack (I)Lawk;
+		ARG 0 slot
+	METHOD b setInvProperty (II)V
+		ARG 0 pos
+		ARG 1 value
+	METHOD b isValidInvStack (ILawk;)Z
+		ARG 0 slot
+		ARG 1 stack
+	METHOD b onInvOpen (Larl;)V
+		ARG 0 player
+	METHOD b getSlotWithStack (Lawk;)I
+		ARG 0 stack
+	METHOD b areItemsEqual (Lawk;Lawk;)Z
+		ARG 0 stack1
+		ARG 1 stack2
+	METHOD b deserialize (Lha;)V
+		ARG 0 list
+	METHOD c getInvProperty (I)I
+		ARG 0 pos
+	METHOD c insertStack (ILawk;)Z
+		ARG 0 slot
+		ARG 1 stack
+	METHOD c onInvClose (Larl;)V
+		ARG 0 player
+	METHOD d swapSlotWithHotbar (I)V
+		ARG 0 slot
+	METHOD d getOccupiedSlotWithRoomForStack (Lawk;)I
+		ARG 0 stack
+	METHOD e isValidHotbarIndex (I)Z
+		ARG 0 slot
+	METHOD e insertStack (Lawk;)Z
+		ARG 0 stack
+	METHOD f getInvMaxStackAmount ()I
+	METHOD f getArmorStack (I)Lawk;
+		ARG 0 slot
+	METHOD f removeOne (Lawk;)V
+		ARG 0 item
+	METHOD g markDirty ()V
+	METHOD g setCursorStack (Lawk;)V
+		ARG 0 stack
+	METHOD h getInvPropertyCount ()I
+	METHOD i getMainHandStack ()Lawk;
+	METHOD i addStack (Lawk;)I
+		ARG 0 stack
+	METHOD j getHotbarSize ()I
+	METHOD k getEmptySlot ()I
+	METHOD l getSwappableHotbarSlot ()I
+	METHOD m clearInv ()V
+	METHOD p updateItems ()V
+	METHOD q dropAll ()V
+	METHOD s getCursorStack ()Lawk;

@@ -1,2 +1,5 @@
-CLASS amt net/minecraft/entity/passive/EntityCod
-	METHOD n ()V
+CLASS amx net/minecraft/entity/passive/EntityCod
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahg;)Lvo;

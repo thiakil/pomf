@@ -1,5 +1,20 @@
-CLASS clk net/minecraft/client/gui/menu/GuiSettingsSnooper
+CLASS clo net/minecraft/client/gui/menu/GuiSettingsSnooper
+	CLASS clo$a
+		METHOD a isSelected (I)Z
+			ARG 0 index
+		METHOD a drawEntry (IIIIIIF)V
+			ARG 0 x
+			ARG 1 y
+		METHOD d getEntryCount ()I
+		METHOD f getScrollbarPosition ()I
+	FIELD a parent Lcll;
+	FIELD f settings Lchw;
+	FIELD i optionsSnooperTitle Ljava/lang/String;
+	METHOD <init> (Lcll;Lchw;)V
+		ARG 0 parent
+		ARG 1 settings
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY
 		ARG 2 delta
+	METHOD c init ()V

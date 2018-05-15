@@ -1,5 +1,19 @@
-CLASS ani net/minecraft/entity/passive/EntitySquid
+CLASS anm net/minecraft/entity/passive/EntitySquid
+	CLASS anm$a
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+	CLASS anm$b
+		METHOD a canStart ()Z
+		METHOD e tick ()V
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
+	METHOD a damage (Lahg;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD bI getEyeHeight ()F
+	METHOD cE getSoundVolume ()F
+	METHOD ca initAttributes ()V
 	METHOD ct getSoundDeath ()Lvo;
-	METHOD n ()V
+	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD k updateMovement ()V

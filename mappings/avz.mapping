@@ -1,1 +1,11 @@
 CLASS avz
+	CLASS avz$1
+		METHOD a getProperty (Lawk;Lbbb;Laig;)F
+			ARG 0 stack
+			ARG 1 world
+			ARG 2 user
+	METHOD a onRightClick (Lbbb;Larl;Lagq;)Lagt;
+		ARG 0 world
+		ARG 1 player
+		ARG 2 hand
+	METHOD c getEnchantability ()I

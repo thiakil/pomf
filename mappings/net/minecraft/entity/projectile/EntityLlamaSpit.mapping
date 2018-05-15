@@ -1,7 +1,19 @@
-CLASS art net/minecraft/entity/projectile/EntityLlamaSpit
+CLASS arx net/minecraft/entity/projectile/EntityLlamaSpit
+	FIELD a owner Lanx;
+	FIELD b owner Lgu;
 	METHOD R_ update ()V
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
+	METHOD c setVelocity (DDDFF)V
+		ARG 0 dirX
+		ARG 1 dirY
+		ARG 2 dirZ
+		ARG 3 force
+		ARG 4 variation
+	METHOD h setVelocityClient (DDD)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
 	METHOD w_ initDataTracker ()V

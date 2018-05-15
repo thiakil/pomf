@@ -1,2 +1,9 @@
-CLASS cit net/minecraft/client/gui/hud/HudDebug
+CLASS cix net/minecraft/client/gui/hud/HudDebug
+	FIELD a game Lcht;
+	FIELD f fontRenderer Lcik;
+	METHOD <init> (Lcht;)V
+		ARG 0 game
 	METHOD b drawLeftInfoText ()V
+	METHOD d getLeftInfoText ()Ljava/util/List;
+	METHOD e getRightInfoText ()Ljava/util/List;
+	METHOD f drawDebugGraph ()V

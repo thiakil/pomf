@@ -1,1 +1,26 @@
-CLASS ans net/minecraft/entity/passive/HorseArmorType
+CLASS anw net/minecraft/entity/passive/HorseArmorType
+	FIELD a NONE Lanw;
+	FIELD b IRON Lanw;
+	FIELD c GOLD Lanw;
+	FIELD d DIAMOND Lanw;
+	FIELD e texturePath Ljava/lang/String;
+	FIELD f id Ljava/lang/String;
+	FIELD g protection I
+	METHOD <init> (Ljava/lang/String;II)V
+		ARG 0 protection
+	METHOD <init> (Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;)V
+		ARG 0 protection
+		ARG 1 textureName
+		ARG 2 id
+	METHOD a getOrdinal ()I
+	METHOD a getByOrdinal (I)Lanw;
+		ARG 0 value
+	METHOD a getByItem (Lawg;)Lanw;
+		ARG 0 item
+	METHOD a getByStack (Lawk;)Lanw;
+		ARG 0 stack
+	METHOD b getId ()Ljava/lang/String;
+	METHOD b isHorseArmor (Lawg;)Z
+		ARG 0 item
+	METHOD c getProtectionAmount ()I
+	METHOD d getTexturePath ()Ljava/lang/String;

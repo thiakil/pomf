@@ -1,3 +1,0 @@
-CLASS akt
-	METHOD b shouldContinue ()Z
-	METHOD c start ()V

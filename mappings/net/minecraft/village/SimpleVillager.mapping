@@ -1,1 +1,22 @@
-CLASS ara net/minecraft/village/SimpleVillager
+CLASS are net/minecraft/village/SimpleVillager
+	FIELD a villagerInventory Lats;
+	FIELD b player Larl;
+	FIELD c recipeList Lbak;
+	FIELD d displayName Lic;
+	METHOD <init> (Larl;Lic;)V
+		ARG 0 player
+		ARG 1 displayName
+	METHOD M_ getCurrentCustomer ()Larl;
+	METHOD P getDisplayName ()Lic;
+	METHOD a onSellingItem (Lawk;)V
+		ARG 0 stack
+	METHOD a useRecipe (Lbaj;)V
+		ARG 0 recipe
+	METHOD a setRecipeList (Lbak;)V
+		ARG 0 recipeLIst
+	METHOD a_ setCurrentCustomer (Larl;)V
+		ARG 0 currentCustomer
+	METHOD b_ getRecipes (Larl;)Lbak;
+		ARG 0 player
+	METHOD c getWorld ()Lbbb;
+	METHOD d getPos ()Lef;

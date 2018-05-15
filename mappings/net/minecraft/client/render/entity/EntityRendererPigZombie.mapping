@@ -1,2 +1,10 @@
-CLASS dbc net/minecraft/client/render/entity/EntityRendererPigZombie
+CLASS dbg net/minecraft/client/render/entity/EntityRendererPigZombie
+	CLASS dbg$1
+		METHOD ao_ init ()V
 	FIELD a SKIN Loj;
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Laih;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Laqn;)Loj;
+		ARG 0 model

@@ -1,0 +1,3 @@
+CLASS alv
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z

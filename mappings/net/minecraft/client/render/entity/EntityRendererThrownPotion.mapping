@@ -1,1 +1,7 @@
-CLASS dbt net/minecraft/client/render/entity/EntityRendererThrownPotion
+CLASS dbx net/minecraft/client/render/entity/EntityRendererThrownPotion
+	METHOD <init> (Lczz;Ldaq;)V
+		ARG 0 renderManager
+		ARG 1 itemRenderer
+	METHOD a getItemStack (Lasi;)Lawk;
+		ARG 0 potion
+	METHOD e getItemStack (Lahx;)Lawk;

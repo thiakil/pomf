@@ -1,1 +1,28 @@
-CLASS dgy net/minecraft/client/audio/Sound
+CLASS dhc net/minecraft/client/audio/Sound
+	CLASS dhc$a RegistrationType
+		FIELD a FILE Ldhc$a;
+		FIELD b EVENT Ldhc$a;
+		FIELD c name Ljava/lang/String;
+		METHOD a getByName (Ljava/lang/String;)Ldhc$a;
+	FIELD a id Loj;
+	FIELD b volume F
+	FIELD c pitch F
+	FIELD d weight I
+	FIELD e registrationType Ldhc$a;
+	FIELD f stream Z
+	METHOD <init> (Ljava/lang/String;FFILdhc$a;ZZI)V
+		ARG 0 id
+		ARG 1 volume
+		ARG 2 pitch
+		ARG 3 weight
+		ARG 4 soundRegistrationType
+		ARG 6 stream
+	METHOD a getIdentifier ()Loj;
+	METHOD b getLocation ()Loj;
+	METHOD c getVolume ()F
+	METHOD d getPitch ()F
+	METHOD e getWeight ()I
+	METHOD f getSound ()Ldhc;
+	METHOD g getRegistrationType ()Ldhc$a;
+	METHOD h isStreamed ()Z
+	METHOD k getSound ()Ljava/lang/Object;

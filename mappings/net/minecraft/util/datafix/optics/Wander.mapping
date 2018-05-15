@@ -1,0 +1,2 @@
+CLASS act net/minecraft/util/datafix/optics/Wander
+	METHOD a wander (Labe;Lxp;)Lxp;

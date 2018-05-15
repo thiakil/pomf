@@ -1,10 +1,22 @@
-CLASS anc net/minecraft/entity/passive/EntityPufferfish
+CLASS ang net/minecraft/entity/passive/EntityPufferfish
+	CLASS ang$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
+	METHOD R_ update ()V
+	METHOD a setSize (FF)V
+		ARG 0 width
+		ARG 1 height
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
+	METHOD a onTrackedDataSet (Lny;)V
+		ARG 0 data
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
 	METHOD ct getSoundDeath ()Lvo;
-	METHOD n ()V
+	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD k updateMovement ()V
 	METHOD w_ initDataTracker ()V

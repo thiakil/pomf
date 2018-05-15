@@ -1,1 +1,66 @@
-CLASS ank net/minecraft/entity/passive/EntityTurtle
+CLASS ano net/minecraft/entity/passive/EntityTurtle
+	CLASS ano$a
+		METHOD a canStart ()Z
+	CLASS ano$b
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS ano$c
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	CLASS ano$d
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD e tick ()V
+	CLASS ano$e
+		METHOD a tick ()V
+	CLASS ano$f
+		METHOD a canStart ()Z
+	CLASS ano$g
+		METHOD a createPathNodeNavigator ()Lcdk;
+		METHOD a isValidPosition (Lef;)Z
+			ARG 0 pos
+		METHOD b isAtValidPosition ()Z
+	CLASS ano$h
+		METHOD a canStart ()Z
+	CLASS ano$i
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS ano$j
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD a (Lagp;Laij;Lawk;)Laij;
+		ARG 0 difficulty
+	METHOD a onDeath (Lahg;)V
+		ARG 0 damageSource
+	METHOD a createChild (Lahu;)Lahu;
+		ARG 0 other
+	METHOD a onStruckByLightning (Lapo;)V
+		ARG 0 lightning
+	METHOD a canBeLeashedBy (Larl;)Z
+		ARG 0 player
+	METHOD a playStepSound (Lef;Lbfq;)V
+		ARG 0 pos
+		ARG 1 block
+	METHOD a deserializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD ae getSoundSwim ()Lvo;
+	METHOD b createNavigation (Lbbb;)Lamc;
+		ARG 0 world
+	METHOD b serializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD cB getEntityAttribute ()Lail;
+	METHOD ca initAttributes ()V
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD k updateMovement ()V
+	METHOD w_ initDataTracker ()V

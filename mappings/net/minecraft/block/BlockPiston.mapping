@@ -1,1 +1,36 @@
-CLASS bno net/minecraft/block/BlockPiston
+CLASS bns net/minecraft/block/BlockPiston
+	FIELD b EXTENDED Lbou;
+	FIELD y isSticky Z
+	METHOD a getDefaultState (Laup;)Lbnz;
+	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a onPlaced (Lbbb;Lef;Lbnz;Laig;Lawk;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 3 placer
+		ARG 4 stack
+	METHOD a move (Lbbb;Lef;Lel;Z)Z
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 dir
+		ARG 3 forward
+	METHOD a onBlockAction (Lbnz;Lbbb;Lef;II)Z
+		ARG 1 world
+		ARG 2 pos
+	METHOD a update (Lbnz;Lbbb;Lef;Lbfq;Lef;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 block
+		ARG 4 updatePos
+	METHOD a isMovable (Lbnz;Lbbb;Lef;Lel;ZLel;)Z
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 facing
+		ARG 4 canBreak
+	METHOD a withMirror (Lbnz;Lbiw;)Lbnz;
+	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;
+	METHOD b onBlockAdded (Lbnz;Lbbb;Lef;Lbnz;)V
+		ARG 1 world
+		ARG 2 pos

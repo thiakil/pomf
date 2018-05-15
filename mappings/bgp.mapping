@@ -1,1 +1,10 @@
 CLASS bgp
+	METHOD X_ getRenderLayer ()Lbaq;
+	METHOD a getDefaultState (Laup;)Lbnz;
+	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a withMirror (Lbnz;Lbiw;)Lbnz;
+	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;
+	METHOD t getFluidState (Lbnz;)Lcbb;

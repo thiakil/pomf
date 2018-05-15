@@ -1,1 +1,34 @@
-CLASS axx net/minecraft/potion/PotionHelper
+CLASS ayb net/minecraft/potion/PotionHelper
+	METHOD a getPotionEffects (Lawk;)Ljava/util/List;
+		ARG 0 stack
+	METHOD a setPotion (Lawk;Laxz;)Lawk;
+		ARG 0 stack
+		ARG 1 potion
+	METHOD a setCustomPotionEffects (Lawk;Ljava/util/Collection;)Lawk;
+		ARG 0 stack
+		ARG 1 effects
+	METHOD a addInformation (Lawk;Ljava/util/List;F)V
+		ARG 0 stack
+		ARG 1 list
+	METHOD a getColor (Laxz;)I
+		ARG 0 potion
+	METHOD a getPotionEffects (Laxz;Ljava/util/Collection;)Ljava/util/List;
+		ARG 0 potion
+		ARG 1 custom
+	METHOD a getPotionEffects (Lgu;)Ljava/util/List;
+		ARG 0 tag
+	METHOD a getCustomPotionEffects (Lgu;Ljava/util/List;)V
+		ARG 0 tag
+		ARG 1 list
+	METHOD a getColor (Ljava/util/Collection;)I
+		ARG 0 effects
+	METHOD b getCustomPotionEffects (Lawk;)Ljava/util/List;
+		ARG 0 stack
+	METHOD b getCustomPotionEffects (Lgu;)Ljava/util/List;
+		ARG 0 tag
+	METHOD c getColor (Lawk;)I
+		ARG 0 stack
+	METHOD c getPotion (Lgu;)Laxz;
+		ARG 0 compound
+	METHOD d getPotion (Lawk;)Laxz;
+		ARG 0 stack

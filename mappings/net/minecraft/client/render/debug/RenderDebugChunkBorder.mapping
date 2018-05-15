@@ -1,1 +1,6 @@
-CLASS cym net/minecraft/client/render/debug/RenderDebugChunkBorder
+CLASS cyq net/minecraft/client/render/debug/RenderDebugChunkBorder
+	FIELD a game Lcht;
+	METHOD <init> (Lcht;)V
+		ARG 0 game
+	METHOD a render (FJ)V
+		ARG 0 tickDelta

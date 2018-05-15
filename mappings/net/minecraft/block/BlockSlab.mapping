@@ -1,1 +1,13 @@
-CLASS bkf net/minecraft/block/BlockSlab
+CLASS bkj net/minecraft/block/BlockSlab
+	CLASS bkj$a
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a TYPE Lbow;
+	FIELD b WATERLOGGED Lbou;
+	METHOD a getDefaultState (Laup;)Lbnz;
+	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a getDropAmount (Lbnz;Ljava/util/Random;)I
+	METHOD j canSilkHarvest ()Z
+	METHOD t getFluidState (Lbnz;)Lcbb;

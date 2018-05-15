@@ -1,0 +1,5 @@
+CLASS bap net/minecraft/world/IBlockView
+	METHOD a_ getBlockState (Lef;)Lbnz;
+	METHOD b getFluidState (Lef;)Lcbb;
+	METHOD f getBlockEntity (Lef;)Lbmf;
+		ARG 0 pos

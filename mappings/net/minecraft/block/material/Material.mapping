@@ -1,1 +1,33 @@
-CLASS cbb net/minecraft/block/material/Material
+CLASS cbf net/minecraft/block/material/Material
+	CLASS cbf$a Builder
+		FIELD a pistonBehavior Lcbh;
+		FIELD b solid Z
+		METHOD c setNotSolid ()Lcbf$a;
+		METHOD g setPistonBreak ()Lcbf$a;
+		METHOD h setPistonBlock ()Lcbf$a;
+		METHOD i build ()Lcbf;
+	FIELD A GLASS Lcbf;
+	FIELD D STONE Lcbf;
+	FIELD E IRON Lcbf;
+	FIELD N color Lcbg;
+	FIELD O pistonBehavior Lcbh;
+	FIELD P solid Z
+	FIELD a AIR Lcbf;
+	FIELD e FLOWER Lcbf;
+	FIELD g PLANT Lcbf;
+	FIELD i WATER Lcbf;
+	FIELD k LAVA Lcbf;
+	FIELD n RAIL Lcbf;
+	FIELD o WEB Lcbf;
+	FIELD r GROUND Lcbf;
+	FIELD s GRASS Lcbf;
+	FIELD u SAND Lcbf;
+	FIELD v SPONGE Lcbf;
+	FIELD w WOOD Lcbf;
+	FIELD x WOOLEN Lcbf;
+	FIELD z LEAVES Lcbf;
+	METHOD <init> (Lcbg;ZZZZZZZLcbh;)V
+		ARG 0 color
+	METHOD c isSolid ()Z
+	METHOD h getPistonBehavior ()Lcbh;
+	METHOD i getMapColor ()Lcbg;

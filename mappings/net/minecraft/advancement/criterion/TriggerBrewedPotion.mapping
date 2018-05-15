@@ -5,6 +5,8 @@ CLASS aa net/minecraft/advancement/criterion/TriggerBrewedPotion
 		METHOD <init> (Lot;)V
 			ARG 0 manager
 		METHOD a isEmpty ()Z
+		METHOD a handle (Laxz;)V
+			ARG 0 potion
 		METHOD a addCondition (Ls$a;)V
 			ARG 0 condition
 		METHOD b removeCondition (Ls$a;)V
@@ -20,6 +22,9 @@ CLASS aa net/minecraft/advancement/criterion/TriggerBrewedPotion
 	METHOD a addCondition (Lot;Ls$a;)V
 		ARG 0 manager
 		ARG 1 condition
+	METHOD a handle (Lsl;Laxz;)V
+		ARG 0 player
+		ARG 1 potion
 	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Laa$b;
 		ARG 0 obj
 		ARG 1 context

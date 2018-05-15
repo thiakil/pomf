@@ -1,0 +1,3 @@
+CLASS ahj
+	METHOD c getDeathMessage (Laig;)Lic;
+		ARG 0 entity

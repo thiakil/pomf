@@ -1,4 +1,5 @@
 CLASS afu
-	CLASS afu$a
+	CLASS afu$2
+		METHOD a wander (Labe;Lxp;)Lxp;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object

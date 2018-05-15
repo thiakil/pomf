@@ -1,2 +1,2 @@
-CLASS bmi net/minecraft/block/entity/BlockEntityDaylightDetector
+CLASS bmm net/minecraft/block/entity/BlockEntityDaylightDetector
 	METHOD Y_ update ()V

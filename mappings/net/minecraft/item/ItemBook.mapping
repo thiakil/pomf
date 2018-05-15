@@ -1,1 +1,4 @@
-CLASS auo net/minecraft/item/ItemBook
+CLASS aus net/minecraft/item/ItemBook
+	METHOD a isTool (Lawk;)Z
+		ARG 0 stack
+	METHOD c getEnchantability ()I

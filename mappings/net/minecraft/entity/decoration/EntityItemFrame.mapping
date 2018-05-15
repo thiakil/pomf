@@ -1,6 +1,26 @@
-CLASS apc net/minecraft/entity/decoration/EntityItemFrame
+CLASS apg net/minecraft/entity/decoration/EntityItemFrame
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD g itemDropChance F
+	METHOD a shouldRender (D)Z
+		ARG 0 distanceSq
+	METHOD a damage (Lahg;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a copyEntityData (Lahx;)V
+		ARG 0 entity
+	METHOD a setFacing (Lel;)V
+		ARG 0 facing
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
+	METHOD a onTrackedDataSet (Lny;)V
+		ARG 0 data
+	METHOD b interact (Larl;Lagq;)Z
+		ARG 0 player
+		ARG 1 hand
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
+	METHOD bI getEyeHeight ()F
+	METHOD k getWidthPixels ()I
+	METHOD l getHeightPixels ()I
+	METHOD m onDecorationPlaced ()V
 	METHOD w_ initDataTracker ()V

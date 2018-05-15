@@ -1,0 +1,17 @@
+CLASS cxk net/minecraft/client/render/block/entity/BlockEntityRenderManager
+	FIELD a instance Lcxk;
+	FIELD e textureManager Ldey;
+	FIELD f world Lbbb;
+	FIELD n blockEntityRenderers Ljava/util/Map;
+	FIELD o fontRenderer Lcik;
+	METHOD a getFontRenderer ()Lcik;
+	METHOD a setWorld (Lbbb;)V
+		ARG 0 world
+	METHOD a get (Lbmf;)Lcxl;
+		ARG 0 blockEntity
+	METHOD a render (Lbmf;DDDF)V
+		ARG 0 blockEntity
+		ARG 4 deltaTicks
+	METHOD a render (Lbmf;DDDFIZ)V
+	METHOD a get (Ljava/lang/Class;)Lcxl;
+		ARG 0 blockEntityClass

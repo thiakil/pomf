@@ -1,1 +1,18 @@
-CLASS awl net/minecraft/item/ItemMapFilled
+CLASS awp net/minecraft/item/ItemMapFilled
+	METHOD a onUpdate (Lawk;Lbbb;Lahx;IZ)V
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 invSlot
+		ARG 4 held
+	METHOD a createMapPacket (Lawk;Lbbb;Larl;)Lip;
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 player
+	METHOD a addInformation (Lawk;Lbbb;Ljava/util/List;Laxs;)V
+		ARG 0 stack
+		ARG 2 tooltip
+	METHOD b onCrafted (Lawk;Lbbb;Larl;)V
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 player

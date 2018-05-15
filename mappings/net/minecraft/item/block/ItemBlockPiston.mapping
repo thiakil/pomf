@@ -1,1 +1,2 @@
-CLASS axi net/minecraft/item/block/ItemBlockPiston
+CLASS axm net/minecraft/item/block/ItemBlockPiston
+	METHOD a getTranslationKey ()Ljava/lang/String;

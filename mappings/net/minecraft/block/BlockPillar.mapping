@@ -1,1 +1,4 @@
-CLASS bju net/minecraft/block/BlockPillar
+CLASS bjy net/minecraft/block/BlockPillar
+	FIELD a AXIS Lbow;
+	METHOD a getDefaultState (Laup;)Lbnz;
+	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;

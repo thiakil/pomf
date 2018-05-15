@@ -5,6 +5,10 @@ CLASS bd net/minecraft/advancement/criterion/TriggerPlacedBlock
 		METHOD <init> (Lot;)V
 			ARG 0 manager
 		METHOD a isEmpty ()Z
+		METHOD a handle (Lbnz;Lef;Lsj;Lawk;)V
+			ARG 1 pos
+			ARG 2 world
+			ARG 3 item
 		METHOD a addCondition (Ls$a;)V
 			ARG 0 condition
 		METHOD b removeCondition (Ls$a;)V
@@ -20,6 +24,10 @@ CLASS bd net/minecraft/advancement/criterion/TriggerPlacedBlock
 	METHOD a addCondition (Lot;Ls$a;)V
 		ARG 0 manager
 		ARG 1 condition
+	METHOD a handle (Lsl;Lef;Lawk;)V
+		ARG 0 player
+		ARG 1 blockPos
+		ARG 2 item
 	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbd$b;
 		ARG 0 obj
 		ARG 1 context

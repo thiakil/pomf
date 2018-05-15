@@ -1,1 +1,51 @@
-CLASS bjo net/minecraft/block/BlockRedstoneWire
+CLASS bjs net/minecraft/block/BlockRedstoneWire
+	CLASS bjs$a ConnectionType
+		FIELD a UP Lbjs$a;
+		FIELD b SIDE Lbjs$a;
+		FIELD c NONE Lbjs$a;
+		FIELD d name Ljava/lang/String;
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a NORTH Lbow;
+	FIELD b EAST Lbow;
+	FIELD c SOUTH Lbow;
+	FIELD t WEST Lbow;
+	FIELD u POWER Lbox;
+	FIELD x wiresGivePower Z
+	METHOD X_ getRenderLayer ()Lbaq;
+	METHOD a getDefaultState (Laup;)Lbnz;
+	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a getRenderConnectionType (Lbap;Lef;Lel;)Lbjs$a;
+		ARG 0 view
+		ARG 1 pos
+		ARG 2 facing
+	METHOD a getWeakRedstonePower (Lbnz;Lbap;Lef;Lel;)I
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD a update (Lbnz;Lbbb;Lef;Lbfq;Lef;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 block
+		ARG 4 updatePos
+	METHOD a onBlockRemoved (Lbnz;Lbbb;Lef;Lbnz;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a withMirror (Lbnz;Lbiw;)Lbnz;
+	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;
+	METHOD b getStrongRedstonePower (Lbnz;Lbap;Lef;Lel;)I
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD b onBlockAdded (Lbnz;Lbbb;Lef;Lbnz;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD c getWireColor (I)I
+		ARG 0 powerLevel
+	METHOD c randomDisplayTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 rand
+	METHOD h canProvidePower (Lbnz;)Z

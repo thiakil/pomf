@@ -1,4 +1,6 @@
-CLASS aju net/minecraft/entity/ai/AiGoalFollowParent
+CLASS ajy net/minecraft/entity/ai/AiGoalFollowParent
+	FIELD a owner Lamv;
+	FIELD b parent Lamv;
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V

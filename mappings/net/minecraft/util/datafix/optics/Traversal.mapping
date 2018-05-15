@@ -1,0 +1,8 @@
+CLASS acs net/minecraft/util/datafix/optics/Traversal
+	CLASS acs$a Instance
+		CLASS acs$a$1
+			METHOD a wander (Labe;Lxp;)Lxp;
+		CLASS acs$a$2
+			METHOD a wander (Labe;Lxp;)Lxp;
+		METHOD a wander (Lact;Labd;)Labd;
+	METHOD a unbox (Labd;)Lacs;

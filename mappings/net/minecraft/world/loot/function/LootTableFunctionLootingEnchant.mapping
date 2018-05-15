@@ -1,3 +1,16 @@
-CLASS cey net/minecraft/world/loot/function/LootTableFunctionLootingEnchant
-	CLASS cey$a DeSerializer
-		METHOD a serialize (Lcom/google/gson/JsonObject;Lcey;Lcom/google/gson/JsonSerializationContext;)V
+CLASS cfc net/minecraft/world/loot/function/LootTableFunctionLootingEnchant
+	CLASS cfc$a DeSerializer
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfa;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfc;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfm;)Lcfc;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfm;)Lcfa;
+	FIELD a range Lcew;
+	FIELD b amount I
+	METHOD <init> ([Lcfm;Lcew;I)V
+		ARG 0 conditions
+		ARG 1 range
+		ARG 2 amount
+	METHOD a apply (Lawk;Ljava/util/Random;Lcet;)Lawk;
+		ARG 0 stack
+		ARG 1 rand
+		ARG 2 context

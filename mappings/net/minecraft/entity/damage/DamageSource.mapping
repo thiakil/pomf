@@ -1,1 +1,77 @@
-CLASS ahc net/minecraft/entity/damage/DamageSource
+CLASS ahg net/minecraft/entity/damage/DamageSource
+	FIELD A fire Z
+	FIELD B projectile Z
+	FIELD C scaleWithDifficulty Z
+	FIELD D magic Z
+	FIELD E explosive Z
+	FIELD a IN_FIRE Lahg;
+	FIELD b LIGHTNING_BOLT Lahg;
+	FIELD c ON_FIRE Lahg;
+	FIELD d LAVA Lahg;
+	FIELD e HOT_FLOOR Lahg;
+	FIELD f IN_WALL Lahg;
+	FIELD g CRAMMING Lahg;
+	FIELD h DROWN Lahg;
+	FIELD i STARVE Lahg;
+	FIELD j CACTUS Lahg;
+	FIELD k FALL Lahg;
+	FIELD l FLY_INTO_WALL Lahg;
+	FIELD m OUT_OF_WORLD Lahg;
+	FIELD n GENERIC Lahg;
+	FIELD o MAGIC Lahg;
+	FIELD p WITHER Lahg;
+	FIELD q ANVIL Lahg;
+	FIELD r FALLING_BLOCK Lahg;
+	FIELD s DRAGON_BREATH Lahg;
+	FIELD t FIREWORKS Lahg;
+	FIELD u DRYOUT Lahg;
+	FIELD v name Ljava/lang/String;
+	FIELD x damageToCreative Z
+	FIELD y unblockable Z
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 0 translationKey
+	METHOD a byThorns (Lahx;)Lahg;
+		ARG 0 attacker
+	METHOD a byMobProjectile (Lahx;Laig;)Lahg;
+		ARG 0 projectile
+		ARG 1 attacker
+	METHOD a byMob (Laig;)Lahg;
+		ARG 0 attacker
+	METHOD a byPlayer (Larl;)Lahg;
+		ARG 0 attacker
+	METHOD a byArrow (Larp;Lahx;)Lahg;
+		ARG 0 projectile
+		ARG 1 attacker
+	METHOD a byExplosiveProjectile (Larq;Lahx;)Lahg;
+		ARG 0 projectile
+		ARG 1 attacker
+	METHOD a byExplosion (Lbav;)Lahg;
+		ARG 0 explosion
+	METHOD b isProjectile ()Z
+	METHOD b byThrownProjectile (Lahx;Lahx;)Lahg;
+		ARG 0 projectile
+		ARG 1 attacker
+	METHOD b byExplosion (Laig;)Lahg;
+		ARG 0 attacker
+	METHOD c setProjectile ()Lahg;
+	METHOD c byMagic (Lahx;Lahx;)Lahg;
+		ARG 0 magic
+		ARG 1 attacker
+	METHOD c getDeathMessage (Laig;)Lic;
+		ARG 0 entity
+	METHOD d isExplosive ()Z
+	METHOD e setExplosive ()Lahg;
+	METHOD h doesDamageToCreative ()Z
+	METHOD i isUnblockable ()Z
+	METHOD j getSource ()Lahx;
+	METHOD k getAttacker ()Lahx;
+	METHOD m setDamageToCreative ()Lahg;
+	METHOD n setUnblockable ()Lahg;
+	METHOD o setFire ()Lahg;
+	METHOD p isFire ()Z
+	METHOD q getName ()Ljava/lang/String;
+	METHOD r setScaledWithDifficulty ()Lahg;
+	METHOD s isScaledWithDifficulty ()Z
+	METHOD t setMagic ()Z
+	METHOD u setMagic ()Lahg;
+	METHOD v isSourceCreativePlayer ()Z

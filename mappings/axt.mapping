@@ -1,0 +1,31 @@
+CLASS axt
+	CLASS axt$1
+		METHOD a getProperty (Lawk;Lbbb;Laig;)F
+			ARG 0 stack
+			ARG 1 world
+			ARG 2 user
+	METHOD a getAttributeModifiers (Laic;)Lcom/google/common/collect/Multimap;
+		ARG 0 effectiveSlot
+	METHOD a onEntityDamaged (Lawk;Laig;Laig;)Z
+		ARG 0 stack
+		ARG 1 target
+		ARG 2 user
+	METHOD a onItemStopUsing (Lawk;Lbbb;Laig;I)V
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 player
+		ARG 3 remainingTime
+	METHOD a onBlockBroken (Lawk;Lbbb;Lbnz;Lef;Laig;)Z
+		ARG 0 stack
+		ARG 1 world
+		ARG 3 pos
+		ARG 4 user
+	METHOD a onRightClick (Lbbb;Larl;Lagq;)Lagt;
+		ARG 0 world
+		ARG 1 player
+		ARG 2 hand
+	METHOD c getEnchantability ()I
+	METHOD c getMaxUseTime (Lawk;)I
+		ARG 0 stack
+	METHOD d getUseAction (Lawk;)Laxu;
+		ARG 0 stack

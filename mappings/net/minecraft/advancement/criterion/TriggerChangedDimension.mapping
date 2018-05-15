@@ -5,6 +5,7 @@ CLASS ab net/minecraft/advancement/criterion/TriggerChangedDimension
 		METHOD <init> (Lot;)V
 			ARG 0 manager
 		METHOD a isEmpty ()Z
+		METHOD a handle (Lbqj;Lbqj;)V
 		METHOD a addCondition (Ls$a;)V
 			ARG 0 condition
 		METHOD b removeCondition (Ls$a;)V
@@ -20,6 +21,8 @@ CLASS ab net/minecraft/advancement/criterion/TriggerChangedDimension
 	METHOD a addCondition (Lot;Ls$a;)V
 		ARG 0 manager
 		ARG 1 condition
+	METHOD a handle (Lsl;Lbqj;Lbqj;)V
+		ARG 0 player
 	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lab$b;
 		ARG 0 obj
 		ARG 1 context

@@ -1,1 +1,6 @@
-CLASS cnx net/minecraft/client/gui/menu/GuiResourcePackList
+CLASS cob net/minecraft/client/gui/menu/GuiResourcePackList
+	FIELD v mc Lcht;
+	METHOD <init> (Lcht;II)V
+		ARG 0 mc
+	METHOD e getEntryWidth ()I
+	METHOD f getScrollbarPosition ()I

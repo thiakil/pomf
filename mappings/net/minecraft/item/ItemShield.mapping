@@ -1,1 +1,20 @@
-CLASS awz net/minecraft/item/ItemShield
+CLASS axd net/minecraft/item/ItemShield
+	CLASS axd$1
+		METHOD a getProperty (Lawk;Lbbb;Laig;)F
+			ARG 0 stack
+			ARG 1 world
+			ARG 2 user
+	METHOD a canRepair (Lawk;Lawk;)Z
+		ARG 0 item
+		ARG 1 repairItem
+	METHOD a addInformation (Lawk;Lbbb;Ljava/util/List;Laxs;)V
+		ARG 0 stack
+		ARG 2 tooltip
+	METHOD a onRightClick (Lbbb;Larl;Lagq;)Lagt;
+		ARG 0 world
+		ARG 1 player
+		ARG 2 hand
+	METHOD c getMaxUseTime (Lawk;)I
+		ARG 0 stack
+	METHOD d getUseAction (Lawk;)Laxu;
+		ARG 0 stack

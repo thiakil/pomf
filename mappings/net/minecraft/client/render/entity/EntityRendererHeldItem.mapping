@@ -1,2 +1,7 @@
-CLASS ddb net/minecraft/client/render/entity/EntityRendererHeldItem
+CLASS ddf net/minecraft/client/render/entity/EntityRendererHeldItem
+	FIELD b renderer Ldau;
+	METHOD <init> (Ldau;)V
+		ARG 0 renderer
 	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Laig;FFFFFFF)V
+		ARG 0 entity

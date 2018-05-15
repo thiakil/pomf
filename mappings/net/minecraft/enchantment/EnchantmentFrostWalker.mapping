@@ -1,1 +1,8 @@
-CLASS azm net/minecraft/enchantment/EnchantmentFrostWalker
+CLASS azq net/minecraft/enchantment/EnchantmentFrostWalker
+	METHOD <init> (Lazj$a;[Laic;)V
+		ARG 0 weight
+		ARG 1 slotTypes
+	METHOD a isEqual (Lazj;)Z
+		ARG 0 other
+	METHOD b getHighestLevel ()I
+	METHOD c isLootOnly ()Z

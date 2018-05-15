@@ -1,1 +1,3 @@
-CLASS ajy net/minecraft/entity/ai/AiGoalWatchClosest2
+CLASS akc net/minecraft/entity/ai/AiGoalWatchClosest2
+	METHOD <init> (Laih;Ljava/lang/Class;FF)V
+		ARG 0 entity

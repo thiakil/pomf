@@ -1,1 +1,2 @@
-CLASS aoo net/minecraft/entity/boss/DragonPhase
+CLASS aos net/minecraft/entity/boss/DragonPhase
+	METHOD i getType ()Laoy;

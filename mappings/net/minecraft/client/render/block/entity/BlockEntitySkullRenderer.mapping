@@ -1,2 +1,6 @@
-CLASS cxp net/minecraft/client/render/block/entity/BlockEntitySkullRenderer
-	METHOD a render (Lbmx;DDDFI)V
+CLASS cxt net/minecraft/client/render/block/entity/BlockEntitySkullRenderer
+	FIELD a INSTANCE Lcxt;
+	METHOD a render (Lbmf;DDDFI)V
+	METHOD a render (Lbnb;DDDFI)V
+	METHOD a setRenderManager (Lcxk;)V
+		ARG 0 renderManager

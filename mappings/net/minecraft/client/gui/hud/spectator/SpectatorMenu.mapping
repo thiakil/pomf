@@ -1,1 +1,17 @@
-CLASS cok net/minecraft/client/gui/hud/spectator/SpectatorMenu
+CLASS cop net/minecraft/client/gui/hud/spectator/SpectatorMenu
+	CLASS cop$1
+		METHOD a renderIcon (FI)V
+		METHOD a selectElement (Lcop;)V
+			ARG 0 menu
+		METHOD am_ enabled ()Z
+	CLASS cop$a
+		METHOD a renderIcon (FI)V
+		METHOD a selectElement (Lcop;)V
+			ARG 0 menu
+		METHOD am_ enabled ()Z
+	CLASS cop$b
+		METHOD a renderIcon (FI)V
+		METHOD a selectElement (Lcop;)V
+			ARG 0 menu
+		METHOD am_ enabled ()Z
+	METHOD a selectElement (Lcoq;)V

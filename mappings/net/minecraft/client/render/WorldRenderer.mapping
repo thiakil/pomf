@@ -1,1 +1,21 @@
-CLASS cva net/minecraft/client/render/WorldRenderer
+CLASS cve net/minecraft/client/render/WorldRenderer
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d RAIN_LOC Loj;
+	FIELD e SNOW_LOC Loj;
+	FIELD f game Lcht;
+	FIELD g resourceContainer Lul;
+	FIELD h rand Ljava/util/Random;
+	METHOD <init> (Lcht;Lul;)V
+		ARG 0 game
+		ARG 1 resourceContainer
+	METHOD a (F)V
+		ARG 0 tickDelta
+	METHOD a (FJ)V
+		ARG 0 tickDelta
+	METHOD a draw (FJZ)V
+		ARG 0 tickDelta
+	METHOD a onSetCameraEntity (Lahx;)V
+		ARG 0 entity
+	METHOD a onResourceReload (Lul;)V
+		ARG 0 container
+	METHOD e tick ()V

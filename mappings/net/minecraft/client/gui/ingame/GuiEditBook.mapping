@@ -1,8 +1,29 @@
-CLASS cmf net/minecraft/client/gui/ingame/GuiEditBook
+CLASS cmj net/minecraft/client/gui/ingame/GuiEditBook
+	CLASS cmj$a
+		METHOD a draw (IIF)V
+			ARG 1 mouseY
+			ARG 2 delta
+	FIELD F guiDone Lciu;
+	FIELD G bookSignbutton Lciu;
+	FIELD H bookFinalizebutton Lciu;
+	FIELD I guiCancel Lciu;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f BG_TEX Loj;
+	FIELD g player Larl;
+	FIELD h stack Lawk;
+	FIELD z pages Lha;
+	METHOD <init> (Larl;Lawk;Z)V
+		ARG 0 player
+		ARG 1 stack
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY
 		ARG 2 delta
 	METHOD c init ()V
+	METHOD charTyped onKeyPressed (CI)Z
+		ARG 0 keyChar
+		ARG 1 keyCode
+	METHOD d handleTextComponentClick (Lic;)Z
+		ARG 0 component
 	METHOD f update ()V
 	METHOD n onClosed ()V

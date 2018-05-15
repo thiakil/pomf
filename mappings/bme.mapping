@@ -1,1 +1,2 @@
 CLASS bme
+	METHOD Z_ getUpdatePacket ()Ljc;

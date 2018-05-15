@@ -1,53 +1,53 @@
 CLASS om net/minecraft/reference/Bootstrap
 	CLASS om$1
-		METHOD a createProjectile (Lbax;Lev;Lawg;)Laru;
+		METHOD a createProjectile (Lbbb;Lev;Lawk;)Lary;
 			ARG 0 world
 			ARG 1 pos
 			ARG 2 stack
 	CLASS om$2
 		METHOD a playSound (Leg;)V
 			ARG 0 block
-		METHOD b doDispense (Leg;Lawg;)Lawg;
+		METHOD b doDispense (Leg;Lawk;)Lawk;
 			ARG 0 block
 			ARG 1 stack
 	CLASS om$3
 		METHOD a playSound (Leg;)V
 			ARG 0 block
-		METHOD b doDispense (Leg;Lawg;)Lawg;
+		METHOD b doDispense (Leg;Lawk;)Lawk;
 			ARG 0 block
 			ARG 1 stack
 	CLASS om$4
-		METHOD b doDispense (Leg;Lawg;)Lawg;
+		METHOD b doDispense (Leg;Lawk;)Lawk;
 			ARG 0 block
 			ARG 1 stack
 	CLASS om$5
-		METHOD b doDispense (Leg;Lawg;)Lawg;
+		METHOD b doDispense (Leg;Lawk;)Lawk;
 			ARG 0 block
 			ARG 1 stack
 	CLASS om$6
-		METHOD b doDispense (Leg;Lawg;)Lawg;
+		METHOD b doDispense (Leg;Lawk;)Lawk;
 			ARG 0 block
 			ARG 1 stack
 	CLASS om$7
-		METHOD b doDispense (Leg;Lawg;)Lawg;
+		METHOD b doDispense (Leg;Lawk;)Lawk;
 			ARG 0 block
 			ARG 1 stack
 	CLASS om$8
-		METHOD b doDispense (Leg;Lawg;)Lawg;
+		METHOD b doDispense (Leg;Lawk;)Lawk;
 			ARG 0 block
 			ARG 1 stack
 	CLASS om$9
-		METHOD b doDispense (Leg;Lawg;)Lawg;
+		METHOD b doDispense (Leg;Lawk;)Lawk;
 			ARG 0 block
 			ARG 1 stack
 	CLASS om$a DispenseBehaviorBoat
 		FIELD b itemBehavior Lei;
-		FIELD c boatType Lask$b;
-		METHOD <init> (Lask$b;)V
+		FIELD c boatType Laso$b;
+		METHOD <init> (Laso$b;)V
 			ARG 0 boatType
 		METHOD a playSound (Leg;)V
 			ARG 0 block
-		METHOD b doDispense (Leg;Lawg;)Lawg;
+		METHOD b doDispense (Leg;Lawk;)Lawk;
 			ARG 0 block
 			ARG 1 stack
 	CLASS om$b
@@ -59,40 +59,40 @@ CLASS om net/minecraft/reference/Bootstrap
 		METHOD a playSound (Leg;)V
 			ARG 0 block
 	CLASS om$d DispenserBehaviorShulkerBox
-		METHOD b doDispense (Leg;Lawg;)Lawg;
+		METHOD b doDispense (Leg;Lawk;)Lawk;
 			ARG 0 block
 			ARG 1 stack
 	CLASS om$10
-		METHOD b doDispense (Leg;Lawg;)Lawg;
+		METHOD b doDispense (Leg;Lawk;)Lawk;
 			ARG 0 block
 			ARG 1 stack
 	CLASS om$11
-		METHOD b doDispense (Leg;Lawg;)Lawg;
+		METHOD b doDispense (Leg;Lawk;)Lawk;
 			ARG 0 block
 			ARG 1 stack
 	CLASS om$12
-		METHOD a createProjectile (Lbax;Lev;Lawg;)Laru;
+		METHOD a createProjectile (Lbbb;Lev;Lawk;)Lary;
 			ARG 0 world
 			ARG 1 pos
 			ARG 2 stack
 	CLASS om$14
-		METHOD a createProjectile (Lbax;Lev;Lawg;)Laru;
+		METHOD a createProjectile (Lbbb;Lev;Lawk;)Lary;
 			ARG 0 world
 			ARG 1 pos
 			ARG 2 stack
 	CLASS om$15
-		METHOD a createProjectile (Lbax;Lev;Lawg;)Laru;
+		METHOD a createProjectile (Lbbb;Lev;Lawk;)Lary;
 			ARG 0 world
 			ARG 1 pos
 			ARG 2 stack
 	CLASS om$16
-		METHOD a createProjectile (Lbax;Lev;Lawg;)Laru;
+		METHOD a createProjectile (Lbbb;Lev;Lawk;)Lary;
 			ARG 0 world
 			ARG 1 pos
 			ARG 2 stack
 	CLASS om$17
 		METHOD a getProjectileForce ()F
-		METHOD a createProjectile (Lbax;Lev;Lawg;)Laru;
+		METHOD a createProjectile (Lbbb;Lev;Lawk;)Lary;
 			ARG 0 world
 			ARG 1 pos
 			ARG 2 stack
@@ -100,27 +100,27 @@ CLASS om net/minecraft/reference/Bootstrap
 	CLASS om$18
 		CLASS om$18$1
 			METHOD a getProjectileForce ()F
-			METHOD a createProjectile (Lbax;Lev;Lawg;)Laru;
+			METHOD a createProjectile (Lbbb;Lev;Lawk;)Lary;
 				ARG 0 world
 				ARG 1 pos
 				ARG 2 stack
 			METHOD b getProjectileVariation ()F
-		METHOD a dispense (Leg;Lawg;)Lawg;
+		METHOD a dispense (Leg;Lawk;)Lawk;
 			ARG 0 location
 			ARG 1 stack
 	CLASS om$19
 		CLASS om$19$1
 			METHOD a getProjectileForce ()F
-			METHOD a createProjectile (Lbax;Lev;Lawg;)Laru;
+			METHOD a createProjectile (Lbbb;Lev;Lawk;)Lary;
 				ARG 0 world
 				ARG 1 pos
 				ARG 2 stack
 			METHOD b getProjectileVariation ()F
-		METHOD a dispense (Leg;Lawg;)Lawg;
+		METHOD a dispense (Leg;Lawk;)Lawk;
 			ARG 0 location
 			ARG 1 stack
 	CLASS om$20
-		METHOD b doDispense (Leg;Lawg;)Lawg;
+		METHOD b doDispense (Leg;Lawk;)Lawk;
 			ARG 0 block
 			ARG 1 stack
 	FIELD a OUTPUT Ljava/io/PrintStream;

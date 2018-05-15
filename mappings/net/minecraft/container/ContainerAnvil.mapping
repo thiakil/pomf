@@ -1,0 +1,43 @@
+CLASS atb net/minecraft/container/ContainerAnvil
+	CLASS atb$1
+		METHOD g markDirty ()V
+	CLASS atb$2
+		METHOD a canTakeItems (Larl;)Z
+			ARG 0 player
+		METHOD a onTakeItem (Larl;Lawk;)Lawk;
+			ARG 0 player
+			ARG 1 stack
+		METHOD a canInsert (Lawk;)Z
+			ARG 0 stack
+	FIELD f LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD g result Lagk;
+	FIELD h inventory Lagk;
+	FIELD i world Lbbb;
+	FIELD j pos Lef;
+	FIELD l newItemName Ljava/lang/String;
+	FIELD m player Larl;
+	METHOD <init> (Lark;Lbbb;Larl;)V
+		ARG 0 playerInv
+		ARG 1 world
+		ARG 2 player
+	METHOD <init> (Lark;Lbbb;Lef;Larl;)V
+		ARG 0 playerInv
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player
+	METHOD a onContentChanged (Lagk;)V
+		ARG 0 inventory
+	METHOD a canUse (Larl;)Z
+		ARG 0 player
+	METHOD a addListener (Latg;)V
+		ARG 0 listener
+	METHOD a setNewItemName (Ljava/lang/String;)V
+		ARG 0 value
+	METHOD b setProperty (II)V
+		ARG 0 pos
+		ARG 1 value
+	METHOD b close (Larl;)V
+		ARG 0 player
+	METHOD b getStack (Larl;I)Lawk;
+		ARG 0 player
+		ARG 1 slot

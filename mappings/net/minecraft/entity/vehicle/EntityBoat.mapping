@@ -1,3 +1,48 @@
-CLASS ask net/minecraft/entity/vehicle/EntityBoat
+CLASS aso net/minecraft/entity/vehicle/EntityBoat
+	CLASS aso$b BoatType
+		FIELD a OAK Laso$b;
+		FIELD b SPRUCE Laso$b;
+		FIELD c BIRCH Laso$b;
+		FIELD d JUNGLE Laso$b;
+		FIELD e ACACIA Laso$b;
+		FIELD f DARK_OAK Laso$b;
+		FIELD g name Ljava/lang/String;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a getType (I)Laso$b;
+		METHOD a getType (Ljava/lang/String;)Laso$b;
+	FIELD d BOAT_TYPE Lny;
+	METHOD <init> (Lbbb;DDD)V
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD R_ update ()V
+	METHOD a setPositionAndRotations (DDDFFIZ)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 yaw
+		ARG 4 pitch
+	METHOD a damage (Lahg;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a copyEntityData (Lahx;)V
+		ARG 0 entity
+	METHOD a setBoatType (Laso$b;)V
+		ARG 0 value
+	METHOD a deserializeCustomData (Lgu;)V
+		ARG 0 tag
 	METHOD aD doesCollide ()Z
+	METHOD aL getMountedHeightOffset ()D
+	METHOD b interact (Larl;Lagq;)Z
+		ARG 0 player
+		ARG 1 hand
+	METHOD b serializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD f asItem ()Lawg;
+	METHOD i pushAwayFrom (Lahx;)V
+		ARG 0 other
+	METHOD p getBoatType ()Laso$b;
+	METHOD q canAddPassenger (Lahx;)Z
+		ARG 0 entity
 	METHOD w_ initDataTracker ()V

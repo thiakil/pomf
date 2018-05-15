@@ -1,3 +1,5 @@
 CLASS ir net/minecraft/network/NetworkThreadUtils
-	CLASS ir$1
-		METHOD run ()V
+	METHOD a forceMainThread (Lip;Lhw;Lage;)V
+		ARG 0 packet
+		ARG 1 packetListener
+		ARG 2 thread

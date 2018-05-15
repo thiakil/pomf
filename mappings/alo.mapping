@@ -1,3 +1,0 @@
-CLASS alo
-	METHOD c start ()V
-	METHOD d stop ()V

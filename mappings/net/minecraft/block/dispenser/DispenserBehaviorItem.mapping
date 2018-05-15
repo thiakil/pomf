@@ -1,8 +1,20 @@
 CLASS ei net/minecraft/block/dispenser/DispenserBehaviorItem
+	METHOD a dispenseItem (Lbbb;Lawk;ILel;Lev;)V
+		ARG 0 world
+		ARG 1 stack
+		ARG 2 force
+		ARG 3 facing
+		ARG 4 pos
 	METHOD a playSound (Leg;)V
 		ARG 0 block
+	METHOD a dispense (Leg;Lawk;)Lawk;
+		ARG 0 location
+		ARG 1 stack
 	METHOD a spawnParticles (Leg;Lel;)V
 		ARG 0 block
 		ARG 1 facing
 	METHOD a facingToEventData (Lel;)I
 		ARG 0 facing
+	METHOD b doDispense (Leg;Lawk;)Lawk;
+		ARG 0 block
+		ARG 1 stack

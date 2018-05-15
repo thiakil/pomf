@@ -1,1 +1,9 @@
-CLASS avl net/minecraft/item/ItemGoldenApple
+CLASS avp net/minecraft/item/ItemGoldenApple
+	METHOD a onConsumed (Lawk;Lbbb;Larl;)V
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 player
+	METHOD b hasEnchantmentGlow (Lawk;)Z
+		ARG 0 stack
+	METHOD e getRarity (Lawk;)Laww;
+		ARG 0 stack

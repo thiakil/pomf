@@ -1,0 +1,5 @@
+CLASS bms
+	METHOD G getWorld ()Lbbb;
+	METHOD H getHopperX ()D
+	METHOD I getHopperY ()D
+	METHOD J getHopperZ ()D

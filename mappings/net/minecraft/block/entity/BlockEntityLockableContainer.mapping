@@ -1,1 +1,10 @@
-CLASS bms net/minecraft/block/entity/BlockEntityLockableContainer
+CLASS bmw net/minecraft/block/entity/BlockEntityLockableContainer
+	FIELD a lock Lagv;
+	METHOD V_ hasContainerLock ()Z
+	METHOD a setContainerLock (Lagv;)V
+		ARG 0 lock
+	METHOD a serialize (Lgu;)Lgu;
+		ARG 0 tag
+	METHOD b deserialize (Lgu;)V
+		ARG 0 tag
+	METHOD j getContainerLock ()Lagv;

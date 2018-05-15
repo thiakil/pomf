@@ -1,8 +1,21 @@
-CLASS aso net/minecraft/entity/vehicle/EntityFurnaceMinecart
+CLASS ass net/minecraft/entity/vehicle/EntityFurnaceMinecart
+	FIELD a pushX D
+	FIELD b pushZ D
 	FIELD c LIT Lny;
+	FIELD d fuel I
+	METHOD A getDefaultContainedBlock ()Lbnz;
 	METHOD R_ update ()V
+	METHOD a dropItems (Lahg;)V
+		ARG 0 source
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
+	METHOD b interact (Larl;Lagq;)Z
+		ARG 0 player
+		ARG 1 hand
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
+	METHOD f isLit ()Z
+	METHOD o setLit (Z)V
+		ARG 0 value
+	METHOD v getMinecartType ()Lasm$a;
 	METHOD w_ initDataTracker ()V

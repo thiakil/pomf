@@ -1,0 +1,36 @@
+CLASS amo net/minecraft/world/WorldVillageManager
+	FIELD a world Lbbb;
+	FIELD b recentVillagerPositions Ljava/util/List;
+	FIELD c recentlySeenDoors Ljava/util/List;
+	FIELD d villages Ljava/util/List;
+	FIELD e tick I
+	METHOD <init> (Lbbb;)V
+		ARG 0 world
+	METHOD a update ()V
+	METHOD a setWorld (Lbbb;)V
+		ARG 0 world
+	METHOD a getBaseTag (Lbqi;)Ljava/lang/String;
+		ARG 0 provider
+	METHOD a addRecentVillagerPosition (Lef;)V
+		ARG 0 pos
+	METHOD a getNearestVillage (Lef;I)Lamm;
+		ARG 0 pos
+		ARG 1 maxDistance
+	METHOD a isDoorLeadingOutside (Lef;Lel;I)I
+		ARG 0 pos
+		ARG 1 facing
+		ARG 2 range
+	METHOD a deserialize (Lgu;)V
+		ARG 0 tag
+	METHOD b getVillages ()Ljava/util/List;
+	METHOD b updateDoorsSeenByVillager (Lef;)V
+		ARG 0 villagerSeenPos
+	METHOD b serialize (Lgu;)Lgu;
+		ARG 0 tag
+	METHOD c getRecentlySeenDoor (Lef;)Laml;
+		ARG 0 pos
+	METHOD d isRecentVillagerPosition (Lef;)Z
+		ARG 0 pos
+	METHOD f validateVillageProperties ()V
+	METHOD g updateDoorsSeenByVillagers ()V
+	METHOD h addDoorsToVillages ()V

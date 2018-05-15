@@ -7,6 +7,10 @@ CLASS bj net/minecraft/advancement/criterion/TriggerVillagerTrade
 		METHOD a isEmpty ()Z
 		METHOD a addCondition (Ls$a;)V
 			ARG 0 condition
+		METHOD a handle (Lsl;Larg;Lawk;)V
+			ARG 0 player
+			ARG 1 villager
+			ARG 2 item
 		METHOD b removeCondition (Ls$a;)V
 			ARG 0 condition
 	FIELD a ID Loj;
@@ -20,6 +24,10 @@ CLASS bj net/minecraft/advancement/criterion/TriggerVillagerTrade
 	METHOD a addCondition (Lot;Ls$a;)V
 		ARG 0 manager
 		ARG 1 condition
+	METHOD a handle (Lsl;Larg;Lawk;)V
+		ARG 0 player
+		ARG 1 villager
+		ARG 2 item
 	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbj$b;
 		ARG 0 obj
 		ARG 1 context

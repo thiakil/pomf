@@ -1,12 +1,11 @@
 CLASS ti net/minecraft/network/handler/NetworkGameHandlerServer
-	CLASS ti$2
-		METHOD run ()V
 	FIELD a connection Lhr;
 	FIELD b player Lsl;
 	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD d server Lnet/minecraft/server/MinecraftServer;
 	FIELD e ticks I
 	FIELD h prevKeepAliveTicks J
+	FIELD r topmostRiddenEntity Lahx;
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lhr;Lsl;)V
 		ARG 0 server
 		ARG 1 connection

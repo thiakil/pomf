@@ -1,0 +1,5 @@
+CLASS om$18
+	CLASS om$18$1
+		METHOD a getProjectileForce ()F
+		METHOD a createProjectile (Lbbb;Lev;Lawk;)Lary;
+		METHOD b getProjectileVariation ()F

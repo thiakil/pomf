@@ -1,2 +1,5 @@
-CLASS aki net/minecraft/entity/ai/AiGoalMoveThroughVillage
+CLASS akm net/minecraft/entity/ai/AiGoalMoveThroughVillage
 	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD d stop ()V

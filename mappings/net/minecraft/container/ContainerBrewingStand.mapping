@@ -1,0 +1,34 @@
+CLASS atd net/minecraft/container/ContainerBrewingStand
+	CLASS atd$a SlotFuel
+		METHOD a getMaxStackAmount ()I
+		METHOD a canInsert (Lawk;)Z
+			ARG 0 stack
+		METHOD b_ matches (Lawk;)Z
+	CLASS atd$b SlotIngredient
+		METHOD a getMaxStackAmount ()I
+		METHOD a canInsert (Lawk;)Z
+			ARG 0 stack
+	CLASS atd$c SlotPotion
+		METHOD a getMaxStackAmount ()I
+		METHOD a onTakeItem (Larl;Lawk;)Lawk;
+			ARG 0 player
+			ARG 1 stack
+		METHOD a canInsert (Lawk;)Z
+			ARG 0 stack
+		METHOD c_ matches (Lawk;)Z
+	FIELD a inventory Lagk;
+	FIELD f slotIngredient Lauc;
+	METHOD <init> (Lark;Lagk;)V
+		ARG 0 playerInv
+		ARG 1 inventory
+	METHOD a canUse (Larl;)Z
+		ARG 0 player
+	METHOD a addListener (Latg;)V
+		ARG 0 listener
+	METHOD b sendContentUpdates ()V
+	METHOD b setProperty (II)V
+		ARG 0 pos
+		ARG 1 value
+	METHOD b getStack (Larl;I)Lawk;
+		ARG 0 player
+		ARG 1 slot

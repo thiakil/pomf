@@ -3,3 +3,5 @@ CLASS eg net/minecraft/util/math/IBlockPointer
 	METHOD b getY ()D
 	METHOD c getZ ()D
 	METHOD d getBlockPos ()Lef;
+	METHOD e getBlockState ()Lbnz;
+	METHOD g getBlockEntity ()Lbmf;

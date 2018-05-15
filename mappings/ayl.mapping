@@ -1,0 +1,4 @@
+CLASS ayl
+	METHOD a matches (Lagk;Lbbb;)Z
+		ARG 1 world
+	METHOD d getOutput ()Lawk;

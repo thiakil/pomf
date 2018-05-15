@@ -1,1 +1,8 @@
-CLASS cza net/minecraft/client/render/entity/EntityRendererArmorStand
+CLASS cze net/minecraft/client/render/entity/EntityRendererArmorStand
+	CLASS cze$1
+		METHOD ao_ init ()V
+	FIELD a TEX Loj;
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Lape;)Loj;
+		ARG 0 model

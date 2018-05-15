@@ -1,1 +1,22 @@
-CLASS cms net/minecraft/client/gui/container/GuiHorse
+CLASS cmw net/minecraft/client/gui/container/GuiHorse
+	FIELD A mouseY F
+	FIELD v BG_TEX Loj;
+	FIELD w playerInv Lagk;
+	FIELD x inventory Lagk;
+	FIELD y entity Lant;
+	FIELD z mouseX F
+	METHOD <init> (Lagk;Lagk;Lant;)V
+		ARG 0 playerInv
+		ARG 1 inventory
+		ARG 2 entity
+	METHOD a drawBackground (FII)V
+		ARG 0 delta
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD c drawForeground (II)V
+		ARG 0 mouseX
+		ARG 1 mouseY

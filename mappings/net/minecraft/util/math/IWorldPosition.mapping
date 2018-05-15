@@ -1,1 +1,2 @@
 CLASS er net/minecraft/util/math/IWorldPosition
+	METHOD h getWorld ()Lbbb;

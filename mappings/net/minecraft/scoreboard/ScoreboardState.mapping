@@ -1,1 +1,25 @@
-CLASS cha net/minecraft/scoreboard/ScoreboardState
+CLASS che net/minecraft/scoreboard/ScoreboardState
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b scoreboard Lchd;
+	FIELD c tag Lgu;
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 0 baseTag
+	METHOD a serializeTeams ()Lha;
+	METHOD a deserializeTeamPlayers (Lchb;Lha;)V
+		ARG 0 team
+		ARG 1 list
+	METHOD a setScoreboard (Lchd;)V
+		ARG 0 scoreboard
+	METHOD a deserialize (Lgu;)V
+		ARG 0 tag
+	METHOD a deserializeTeams (Lha;)V
+		ARG 0 tag
+	METHOD b serializeObjectives ()Lha;
+	METHOD b serialize (Lgu;)Lgu;
+		ARG 0 tag
+	METHOD b deserializeObjectives (Lha;)V
+		ARG 0 list
+	METHOD c deserializeDisplaySlots (Lgu;)V
+		ARG 0 tag
+	METHOD d serializeSlots (Lgu;)V
+		ARG 0 compound

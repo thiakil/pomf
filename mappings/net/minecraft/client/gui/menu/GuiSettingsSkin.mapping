@@ -1,6 +1,11 @@
-CLASS clj net/minecraft/client/gui/menu/GuiSettingsSkin
+CLASS cln net/minecraft/client/gui/menu/GuiSettingsSkin
+	FIELD a parent Lcll;
 	FIELD f title Ljava/lang/String;
+	METHOD <init> (Lcll;)V
+		ARG 0 parent
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY
 		ARG 2 delta
+	METHOD ag_ close ()V
+	METHOD c init ()V

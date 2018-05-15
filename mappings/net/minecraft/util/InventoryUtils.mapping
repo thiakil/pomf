@@ -1,0 +1,18 @@
+CLASS agl net/minecraft/util/InventoryUtils
+	METHOD a serialize (Lgu;Leu;)Lgu;
+		ARG 0 tag
+		ARG 1 stacks
+	METHOD a serialize (Lgu;Leu;Z)Lgu;
+		ARG 0 tag
+		ARG 1 stacks
+		ARG 2 setIfEmpty
+	METHOD a removeStack (Ljava/util/List;I)Lawk;
+		ARG 0 stacks
+		ARG 1 slot
+	METHOD a splitStack (Ljava/util/List;II)Lawk;
+		ARG 0 stacks
+		ARG 1 slot
+		ARG 2 amount
+	METHOD b deserialize (Lgu;Leu;)V
+		ARG 0 tag
+		ARG 1 stacks

@@ -1,1 +1,5 @@
-CLASS azl net/minecraft/enchantment/EnchantmentLure
+CLASS azp net/minecraft/enchantment/EnchantmentLure
+	METHOD <init> (Lazj$a;Lazk;[Laic;)V
+		ARG 0 weight
+		ARG 2 slotTypes
+	METHOD b getHighestLevel ()I

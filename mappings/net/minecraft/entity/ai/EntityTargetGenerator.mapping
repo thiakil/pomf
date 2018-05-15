@@ -1,1 +1,28 @@
-CLASS amf net/minecraft/entity/ai/EntityTargetGenerator
+CLASS amj net/minecraft/entity/ai/EntityTargetGenerator
+	METHOD a (Laio;II)Lcgg;
+		ARG 0 entity
+		ARG 1 horizontalRange
+		ARG 2 verticalRange
+	METHOD a (Laio;IILcgg;ZD)Lcgg;
+		ARG 0 entity
+		ARG 1 horizontalRange
+		ARG 2 verticalRange
+		ARG 4 ignoreSurface
+	METHOD a getSurface (Lef;Laio;)Lef;
+		ARG 0 pos
+		ARG 1 entity
+	METHOD b (Laio;II)Lcgg;
+		ARG 0 entity
+		ARG 1 horizontalRange
+		ARG 2 verticalRange
+	METHOD b (Laio;IILcgg;)Lcgg;
+		ARG 0 entity
+		ARG 1 horizontalRange
+		ARG 2 verticalRange
+	METHOD b isWater (Lef;Laio;)Z
+		ARG 0 pos
+		ARG 1 entity
+	METHOD c (Laio;IILcgg;)Lcgg;
+		ARG 0 entity
+		ARG 1 horizontalRange
+		ARG 2 verticalRange

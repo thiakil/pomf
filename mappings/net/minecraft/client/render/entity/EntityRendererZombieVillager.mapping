@@ -1,2 +1,13 @@
-CLASS dcl net/minecraft/client/render/entity/EntityRendererZombieVillager
+CLASS dcp net/minecraft/client/render/entity/EntityRendererZombieVillager
 	FIELD a VILLAGER_SKIN Loj;
+	FIELD j FARMER_SKIN Loj;
+	FIELD k LIBRARIAN_SKIN Loj;
+	FIELD l PRIEST_SKIN Loj;
+	FIELD m SMITH_SKIN Loj;
+	FIELD n BUTCHER_SKIN Loj;
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Laih;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Larc;)Loj;
+		ARG 0 model

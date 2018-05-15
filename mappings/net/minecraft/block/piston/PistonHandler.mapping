@@ -1,1 +1,16 @@
-CLASS bnr net/minecraft/block/piston/PistonHandler
+CLASS bnv net/minecraft/block/piston/PistonHandler
+	FIELD a world Lbbb;
+	FIELD b posFrom Lef;
+	FIELD c posTo Lef;
+	FIELD d direction Lel;
+	FIELD e movedBlocks Ljava/util/List;
+	FIELD f brokenBlocks Ljava/util/List;
+	METHOD <init> (Lbbb;Lef;Lel;Z)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 dir
+		ARG 3 forward
+	METHOD a calculatePush ()Z
+	METHOD a tryMove (Lef;Lel;)Z
+	METHOD c getMovedBlocks ()Ljava/util/List;
+	METHOD d getBrokenBlocks ()Ljava/util/List;

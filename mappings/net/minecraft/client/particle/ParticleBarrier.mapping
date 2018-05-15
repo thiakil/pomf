@@ -1,1 +1,29 @@
-CLASS css net/minecraft/client/particle/ParticleBarrier
+CLASS csw net/minecraft/client/particle/ParticleBarrier
+	CLASS csw$a Factory
+		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lctt;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
+		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lctt;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
+	METHOD <init> (Lbbb;DDDLbba;)V
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 item
+	METHOD a buildGeometry (Lcux;Lahx;FFFFFF)V
+		ARG 0 vertexBuffer
+		ARG 1 entity
+		ARG 2 deltaTicks
+	METHOD b getParticleGroup ()I

@@ -1,2 +1,7 @@
-CLASS dcr net/minecraft/client/render/entity/EntityRendererHead
+CLASS dcv net/minecraft/client/render/entity/EntityRendererHead
+	FIELD a model Lcsd;
+	METHOD <init> (Lcsd;)V
+		ARG 0 model
 	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Laig;FFFFFFF)V
+		ARG 0 entity

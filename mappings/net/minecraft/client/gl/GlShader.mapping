@@ -1,3 +1,27 @@
-CLASS dec net/minecraft/client/gl/GlShader
+CLASS deg net/minecraft/client/gl/GlShader
+	CLASS deg$a Type
+		FIELD a VERTEX Ldeg$a;
+		FIELD b FRAGMENT Ldeg$a;
+		FIELD c name Ljava/lang/String;
+		FIELD d fileExtension Ljava/lang/String;
+		FIELD e shaderType I
+		FIELD f nameObjectMap Ljava/util/Map;
+		METHOD a getName ()Ljava/lang/String;
+		METHOD b getFileExtension ()Ljava/lang/String;
+		METHOD c getShaderType ()I
+		METHOD d getNameObjectMap ()Ljava/util/Map;
+	FIELD a shaderType Ldeg$a;
+	FIELD b name Ljava/lang/String;
 	FIELD c shaderRef I
 	FIELD d refCount I
+	METHOD <init> (Ldeg$a;ILjava/lang/String;)V
+		ARG 0 shaderType
+		ARG 1 shaderRef
+		ARG 2 name
+	METHOD a attachTo (Lded;)V
+		ARG 0 program
+	METHOD a createFromResource (Lul;Ldeg$a;Ljava/lang/String;)Ldeg;
+		ARG 0 resource
+		ARG 1 shaderType
+		ARG 2 name
+	METHOD b getName ()Ljava/lang/String;

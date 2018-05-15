@@ -1,1 +1,5 @@
-CLASS azn net/minecraft/enchantment/EnchantmentKnockback
+CLASS azr net/minecraft/enchantment/EnchantmentKnockback
+	METHOD <init> (Lazj$a;[Laic;)V
+		ARG 0 weight
+		ARG 1 slotTypes
+	METHOD b getHighestLevel ()I

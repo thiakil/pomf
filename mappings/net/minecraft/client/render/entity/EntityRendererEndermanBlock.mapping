@@ -1,1 +1,6 @@
-CLASS dcp net/minecraft/client/render/entity/EntityRendererEndermanBlock
+CLASS dct net/minecraft/client/render/entity/EntityRendererEndermanBlock
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Laig;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Laqb;FFFFFFF)V
+		ARG 0 entity

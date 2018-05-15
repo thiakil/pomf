@@ -1,1 +1,6 @@
-CLASS awy net/minecraft/item/ItemShears
+CLASS axc net/minecraft/item/ItemShears
+	METHOD a onBlockBroken (Lawk;Lbbb;Lbnz;Lef;Laig;)Z
+		ARG 0 stack
+		ARG 1 world
+		ARG 3 pos
+		ARG 4 user

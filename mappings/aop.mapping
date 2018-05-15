@@ -1,1 +1,2 @@
 CLASS aop
+	METHOD i getType ()Laoy;

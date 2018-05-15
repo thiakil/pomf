@@ -1,2 +1,22 @@
-CLASS ctc net/minecraft/client/particle/ParticleEndRod
-	CLASS ctc$a Factory
+CLASS ctg net/minecraft/client/particle/ParticleEndRod
+	CLASS ctg$a Factory
+		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lctt;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
+		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lctt;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
+	METHOD a addPos (DDD)V
+		ARG 0 dx
+		ARG 1 dy
+		ARG 2 dz

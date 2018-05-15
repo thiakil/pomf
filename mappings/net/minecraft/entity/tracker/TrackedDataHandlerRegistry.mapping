@@ -173,13 +173,13 @@ CLASS oa net/minecraft/entity/tracker/TrackedDataHandlerRegistry
 			ARG 0 id
 		METHOD a read (Lht;)Ljava/lang/Object;
 			ARG 0 buf
-		METHOD a write (Lht;Lawg;)V
+		METHOD a write (Lht;Lawk;)V
 			ARG 0 buf
 			ARG 1 data
 		METHOD a write (Lht;Ljava/lang/Object;)V
 			ARG 0 buf
 			ARG 1 data
-		METHOD b read (Lht;)Lawg;
+		METHOD b read (Lht;)Lawk;
 			ARG 0 buf
 	CLASS oa$15
 		METHOD a create (I)Lny;

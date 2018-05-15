@@ -1,5 +1,10 @@
 CLASS jr net/minecraft/network/packet/client/CPacketCooldownUpdate
+	FIELD a item Lawg;
 	FIELD b cooldown I
+	METHOD <init> (Lawg;I)V
+		ARG 0 item
+		ARG 1 cooldown
+	METHOD a getItem ()Lawg;
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf
 	METHOD a applyPacket (Lhw;)V

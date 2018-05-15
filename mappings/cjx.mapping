@@ -1,0 +1,3 @@
+CLASS cjx
+	METHOD a draw (Lckb;J)Lcka$a;
+		ARG 0 toastGui

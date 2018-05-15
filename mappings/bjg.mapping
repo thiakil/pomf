@@ -1,0 +1,7 @@
+CLASS bjg
+	FIELD a NORTH Lbou;
+	FIELD b EAST Lbou;
+	FIELD c SOUTH Lbou;
+	FIELD t WEST Lbou;
+	FIELD u UP Lbou;
+	FIELD v DOWN Lbou;

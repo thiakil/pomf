@@ -1,1 +1,2 @@
-CLASS xm net/minecraft/util/datafix/Datafix
+CLASS xl net/minecraft/util/datafix/Datafix
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

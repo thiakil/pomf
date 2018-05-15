@@ -1,0 +1,13 @@
+CLASS alt net/minecraft/entity/ai/AiGoalFindNearestPlayer
+	CLASS alt$1
+		METHOD a test (Lahx;)Z
+			ARG 0 target
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b owner Laih;
+	FIELD e target Laig;
+	METHOD <init> (Laih;)V
+		ARG 0 owner
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD d stop ()V

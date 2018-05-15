@@ -1,1 +1,17 @@
-CLASS axv net/minecraft/potion/Potion
+CLASS axz net/minecraft/potion/Potion
+	FIELD a REGISTRY Lej;
+	FIELD b WATER_TEX Loj;
+	FIELD c name Ljava/lang/String;
+	FIELD d effectList Lcom/google/common/collect/ImmutableList;
+	METHOD <init> (Ljava/lang/String;[Lahq;)V
+		ARG 0 name
+		ARG 1 effects
+	METHOD <init> ([Lahq;)V
+		ARG 0 effects
+	METHOD a getEffects ()Ljava/util/List;
+	METHOD a getPotionById (Ljava/lang/String;)Laxz;
+		ARG 0 identifier
+	METHOD b registerDefaults ()V
+	METHOD b getName (Ljava/lang/String;)Ljava/lang/String;
+		ARG 0 prefix
+	METHOD c hasInstantEffect ()Z

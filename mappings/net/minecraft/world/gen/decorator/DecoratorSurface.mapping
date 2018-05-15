@@ -1,1 +1,3 @@
-CLASS brc net/minecraft/world/gen/decorator/DecoratorSurface
+CLASS brg net/minecraft/world/gen/decorator/DecoratorSurface
+	METHOD a checkBlock (Lbfq;)Z
+		ARG 0 block

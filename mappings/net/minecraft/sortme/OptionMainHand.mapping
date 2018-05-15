@@ -1,2 +1,7 @@
-CLASS aib net/minecraft/sortme/OptionMainHand
-	FIELD b RIGHT Laib;
+CLASS aif net/minecraft/sortme/OptionMainHand
+	FIELD a LEFT Laif;
+	FIELD b RIGHT Laif;
+	FIELD c name Lic;
+	METHOD <init> (Ljava/lang/String;ILic;)V
+		ARG 0 name
+	METHOD a getOpposite ()Laif;

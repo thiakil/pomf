@@ -1,0 +1,3 @@
+CLASS ccp
+	FIELD a NORMAL Lccp;
+	FIELD b FUZZY Lccp;

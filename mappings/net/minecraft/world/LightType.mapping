@@ -1,1 +1,6 @@
-CLASS bbg net/minecraft/world/LightType
+CLASS bbk net/minecraft/world/LightType
+	FIELD a SKY Lbbk;
+	FIELD b BLOCK Lbbk;
+	FIELD c light I
+	METHOD <init> (Ljava/lang/String;II)V
+		ARG 0 light

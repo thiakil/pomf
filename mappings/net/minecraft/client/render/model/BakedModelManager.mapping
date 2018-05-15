@@ -1,1 +1,14 @@
-CLASS dgj net/minecraft/client/render/model/BakedModelManager
+CLASS dgn net/minecraft/client/render/model/BakedModelManager
+	FIELD a modelRegistry Lex;
+	FIELD b spriteMap Ldew;
+	FIELD c blockStateMaps Lcvy;
+	FIELD d missingModel Ldgj;
+	METHOD <init> (Ldew;)V
+		ARG 0 textures
+	METHOD a getMissingModel ()Ldgj;
+	METHOD a getModel (Ldgo;)Ldgj;
+		ARG 0 identifier
+	METHOD a onResourceReload (Lul;)V
+		ARG 0 container
+	METHOD b getSpriteMap ()Ldew;
+	METHOD c getBlockStateMaps ()Lcvy;

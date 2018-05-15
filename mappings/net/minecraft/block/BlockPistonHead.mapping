@@ -1,0 +1,28 @@
+CLASS bnt net/minecraft/block/BlockPistonHead
+	CLASS bnt$a Type
+		FIELD a NORMAL Lbnt$a;
+		FIELD b STICKY Lbnt$a;
+		FIELD c name Ljava/lang/String;
+		METHOD m asString ()Ljava/lang/String;
+	FIELD b TYPE Lbow;
+	FIELD c SHORT Lbou;
+	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a getItem (Lbap;Lef;Lbnz;)Lawk;
+	METHOD a onBreak (Lbbb;Lef;Lbnz;Larl;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 3 player
+	METHOD a update (Lbnz;Lbbb;Lef;Lbfq;Lef;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 block
+		ARG 4 updatePos
+	METHOD a onBlockRemoved (Lbnz;Lbbb;Lef;Lbnz;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a withMirror (Lbnz;Lbiw;)Lbnz;
+	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;
+	METHOD a getDropAmount (Lbnz;Ljava/util/Random;)I

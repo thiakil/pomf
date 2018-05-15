@@ -1,2 +1,6 @@
 CLASS bpx
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a_ getBlockState (Lef;)Lbnz;
+	METHOD b getFluidState (Lef;)Lcbb;
+	METHOD f getBlockEntity (Lef;)Lbmf;
+		ARG 0 pos

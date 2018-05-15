@@ -1,1 +1,65 @@
-CLASS bly net/minecraft/block/entity/BannerPattern
+CLASS bmc net/minecraft/block/entity/BannerPattern
+	FIELD A HALF_VERTICAL_LEFT Lbmc;
+	FIELD B HALF_HORIZONTAL_TOP Lbmc;
+	FIELD C HALF_VERTICAL_RIGHT Lbmc;
+	FIELD D HALF_HORIZONTAL_BOTTOM Lbmc;
+	FIELD E BORDER Lbmc;
+	FIELD F CURLY_BORDER Lbmc;
+	FIELD G CREEPER Lbmc;
+	FIELD H GRADIENT_DOWN Lbmc;
+	FIELD I GRADIENT_UP Lbmc;
+	FIELD J BRICKS Lbmc;
+	FIELD K SKULL Lbmc;
+	FIELD L FLOWER Lbmc;
+	FIELD M MOJANG Lbmc;
+	FIELD N name Ljava/lang/String;
+	FIELD O id Ljava/lang/String;
+	FIELD P recipePattern [Ljava/lang/String;
+	FIELD Q recipeStack Lawk;
+	FIELD a BASE Lbmc;
+	FIELD b SQUARE_BOTTOM_LEFT Lbmc;
+	FIELD c SQUARE_BOTTOM_RIGHT Lbmc;
+	FIELD d SQUARE_TOP_LEFT Lbmc;
+	FIELD e SQUARE_TOP_RIGHT Lbmc;
+	FIELD f STRIPE_BOTTOM Lbmc;
+	FIELD g STRIPE_TOP Lbmc;
+	FIELD h STRIPE_LEFT Lbmc;
+	FIELD i STRIPE_RIGHT Lbmc;
+	FIELD j STRIPE_CENTER Lbmc;
+	FIELD k STRIPE_MIDDLE Lbmc;
+	FIELD l STRIPE_DOWNRIGHT Lbmc;
+	FIELD m STRIPE_DOWNLEFT Lbmc;
+	FIELD n SMALL_STRIPES Lbmc;
+	FIELD o CROSS Lbmc;
+	FIELD p STRAIGHT_CROSS Lbmc;
+	FIELD q TRIANGLE_BOTTOM Lbmc;
+	FIELD r TRIANGLE_TOP Lbmc;
+	FIELD s TRIANGLES_BOTTOM Lbmc;
+	FIELD t TRIANGLES_TOP Lbmc;
+	FIELD u DIAGONAL_DOWN_LEFT Lbmc;
+	FIELD v DIAGONAL_UP_RIGHT Lbmc;
+	FIELD w DIAGONAL_UP_LEFT Lbmc;
+	FIELD x DIAGONAL_DOWN_RIGHT Lbmc;
+	FIELD y CIRCLE Lbmc;
+	FIELD z RHOMBUS Lbmc;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
+		ARG 0 name
+		ARG 1 id
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Lawk;)V
+		ARG 0 name
+		ARG 1 id
+		ARG 2 stack
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 name
+		ARG 1 id
+		ARG 2 recipePattern0
+		ARG 3 recipePattern1
+		ARG 4 recipePattern2
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a byId (Ljava/lang/String;)Lbmc;
+		ARG 0 id
+	METHOD b getId ()Ljava/lang/String;
+	METHOD c getRecipePattern ()[Ljava/lang/String;
+	METHOD d isCraftable ()Z
+	METHOD e hasRecipeStack ()Z
+	METHOD f getRecipeStack ()Lawk;

@@ -1,1 +1,36 @@
-CLASS age net/minecraft/entity/boss/BossBar
+CLASS agi net/minecraft/entity/boss/BossBar
+	FIELD a name Lic;
+	FIELD b health F
+	FIELD c color Lagi$a;
+	FIELD d division Lagi$b;
+	FIELD e darkenSky Z
+	FIELD f dragonMusic Z
+	FIELD g thickenFog Z
+	FIELD h uuid Ljava/util/UUID;
+	METHOD <init> (Ljava/util/UUID;Lic;Lagi$a;Lagi$b;)V
+		ARG 0 uuid
+		ARG 1 name
+		ARG 2 color
+		ARG 3 division
+	METHOD a setHealth (F)V
+		ARG 0 health
+	METHOD a setColor (Lagi$a;)V
+		ARG 0 color
+	METHOD a setDivision (Lagi$b;)V
+		ARG 0 division
+	METHOD a setName (Lic;)V
+		ARG 0 name
+	METHOD a setDarkenSky (Z)Lagi;
+		ARG 0 darkenSky
+	METHOD b setDragonMusic (Z)Lagi;
+		ARG 0 dragonMusic
+	METHOD c setThickenFog (Z)Lagi;
+		ARG 0 thickenFog
+	METHOD i getUuid ()Ljava/util/UUID;
+	METHOD j getName ()Lic;
+	METHOD k getHealth ()F
+	METHOD l getColor ()Lagi$a;
+	METHOD m getDivision ()Lagi$b;
+	METHOD n getDarkenSky ()Z
+	METHOD o hasDragonMusic ()Z
+	METHOD p getThickenFog ()Z

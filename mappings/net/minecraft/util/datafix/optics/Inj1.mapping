@@ -1,1 +1,3 @@
-CLASS abz net/minecraft/util/datafix/optics/Inj1
+CLASS acb net/minecraft/util/datafix/optics/Inj1
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object

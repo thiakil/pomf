@@ -1,4 +1,43 @@
-CLASS apx net/minecraft/entity/mob/EntityEnderman
+CLASS aqb net/minecraft/entity/mob/EntityEnderman
+	CLASS aqb$a AiGoalPlaceBlock
+		FIELD a owner Laqb;
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	CLASS aqb$b
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS aqb$c AiGoalPickBlock
+		FIELD a owner Laqb;
+		METHOD a canStart ()Z
+		METHOD e tick ()V
+	FIELD bB ageWhenTargetSet I
+	FIELD b ATTACKINGSPEEDBOOST Laiu;
+	FIELD bz ANGRY Lny;
+	FIELD c CARRIED_BLOCK Lny;
+	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
+	METHOD K mobTick ()V
+	METHOD a damage (Lahg;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a deserializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD a onTrackedDataSet (Lny;)V
+		ARG 0 data
+	METHOD a dropEquipment (ZI)V
+		ARG 0 recentlyHitByPlayer
+		ARG 1 looting
+	METHOD b serializeCustomData (Lgu;)V
+		ARG 0 tag
 	METHOD bI getEyeHeight ()F
 	METHOD ca initAttributes ()V
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD dF isAngry ()Z
+	METHOD e setTarget (Laig;)V
+		ARG 0 value
+	METHOD k updateMovement ()V
+	METHOD w_ initDataTracker ()V

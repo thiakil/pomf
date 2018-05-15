@@ -1,2 +1,9 @@
-CLASS ddj net/minecraft/client/render/entity/EntityRendererSnowmanPumpkin
+CLASS ddn net/minecraft/client/render/entity/EntityRendererSnowmanPumpkin
+	FIELD a renderer Ldbr;
+	METHOD <init> (Ldbr;)V
+		ARG 0 renderer
 	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Laig;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Lanl;FFFFFFF)V
+		ARG 0 entity

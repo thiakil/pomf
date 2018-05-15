@@ -1,1 +1,9 @@
 CLASS bls
+	METHOD a getDefaultState (Laup;)Lbnz;
+	METHOD a withMirror (Lbnz;Lbiw;)Lbnz;
+	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;
+	METHOD c randomDisplayTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 rand
+	METHOD l getTranslationKey ()Ljava/lang/String;

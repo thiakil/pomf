@@ -9,4 +9,3 @@ CLASS vm net/minecraft/server/rcon/RconServer
 	METHOD a start ()V
 	METHOD f cleanClientList ()V
 	METHOD g removeStoppedClients ()V
-	METHOD run ()V

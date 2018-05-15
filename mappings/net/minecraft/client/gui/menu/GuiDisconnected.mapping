@@ -1,4 +1,13 @@
-CLASS cku net/minecraft/client/gui/menu/GuiDisconnected
+CLASS cky net/minecraft/client/gui/menu/GuiDisconnected
+	FIELD a title Ljava/lang/String;
+	FIELD f reason Lic;
+	FIELD g reasonFormatted Ljava/util/List;
+	FIELD h parent Lcll;
+	FIELD i reasonHeight I
+	METHOD <init> (Lcll;Ljava/lang/String;Lic;)V
+		ARG 0 parent
+		ARG 1 title
+		ARG 2 reason
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY

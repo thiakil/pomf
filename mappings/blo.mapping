@@ -1,2 +1,0 @@
-CLASS blo
-	METHOD l getTranslationKey ()Ljava/lang/String;

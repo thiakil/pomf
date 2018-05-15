@@ -1,1 +1,2 @@
-CLASS bjv net/minecraft/util/Rotation
+CLASS bjz net/minecraft/util/Rotation
+	FIELD a NONE Lbjz;

@@ -1,5 +1,12 @@
-CLASS ala net/minecraft/entity/ai/passive/AiGoalHorseAgitate
+CLASS ale net/minecraft/entity/ai/passive/AiGoalHorseAgitate
+	FIELD a owner Lant;
 	FIELD b speed D
+	FIELD c targetX D
+	FIELD d targetY D
+	FIELD e targetZ D
+	METHOD <init> (Lant;D)V
+		ARG 0 owner
+		ARG 1 speed
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V

@@ -1,0 +1,3 @@
+CLASS abj
+	CLASS abj$a
+		METHOD a map (Ljava/util/function/Function;Labc;)Labc;

@@ -1,12 +1,24 @@
-CLASS anh net/minecraft/entity/passive/EntitySnowman
+CLASS anl net/minecraft/entity/passive/EntitySnowman
+	FIELD a SNOWMAN_FLAGS Lny;
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
+	METHOD a attackDistant (Laig;F)V
+		ARG 0 target
+	METHOD a interactMob (Larl;Lagq;)Z
+		ARG 0 player
+		ARG 1 playerHand
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
+	METHOD a setHasPumpkin (Z)V
+		ARG 0 value
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
+	METHOD bI getEyeHeight ()F
 	METHOD ca initAttributes ()V
 	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahg;)Lvo;
 	METHOD k updateMovement ()V
-	METHOD n ()V
+	METHOD l hasPumpkin ()Z
+	METHOD s setArmsRaised (Z)V
+		ARG 0 value
 	METHOD w_ initDataTracker ()V

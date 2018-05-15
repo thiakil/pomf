@@ -1,0 +1,6 @@
+CLASS cxe net/minecraft/client/render/block/state/StateModelMapperAdvanced
+	CLASS cxe$a Builder
+		FIELD a blacklist Ljava/util/List;
+		METHOD a build ()Lcxe;
+		METHOD a withoutProperties ([Lboy;)Lcxe$a;
+	FIELD b blacklist Ljava/util/List;

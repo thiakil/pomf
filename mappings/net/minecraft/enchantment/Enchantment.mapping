@@ -1,3 +1,49 @@
-CLASS azf net/minecraft/enchantment/Enchantment
+CLASS azj net/minecraft/enchantment/Enchantment
+	CLASS azj$a Weight
+		FIELD a COMMON Lazj$a;
+		FIELD b UNCOMMON Lazj$a;
+		FIELD c RARE Lazj$a;
+		FIELD d LEGENDARY Lazj$a;
+		FIELD e weight I
+		METHOD a getWeight ()I
+	FIELD a slotTypes [Laic;
+	FIELD b REGISTRY Let;
+	FIELD c type Lazk;
+	FIELD d translationName Ljava/lang/String;
+	FIELD e weight Lazj$a;
+	METHOD <init> (Lazj$a;Lazk;[Laic;)V
+		ARG 0 weight
+		ARG 1 type
+		ARG 2 slotTypes
+	METHOD a getTranslationKey ()Ljava/lang/String;
+	METHOD a getProtectionAmount (ILahg;)I
+		ARG 0 level
+		ARG 1 source
+	METHOD a getAdditionalDamge (ILail;)F
+		ARG 0 level
+		ARG 1 entityType
+	METHOD a getEquipment (Laig;)Ljava/util/List;
+		ARG 0 entity
+	METHOD a onTargetDamaged (Laig;Lahx;I)V
+		ARG 0 user
+		ARG 1 target
+		ARG 2 level
+	METHOD a isAcceptableItem (Lawk;)Z
+		ARG 0 item
+	METHOD a isEqual (Lazj;)Z
+		ARG 0 other
 	METHOD b getHighestLevel ()I
+	METHOD b onUserDamaged (Laig;Lahx;I)V
+		ARG 0 user
+		ARG 1 attacker
+		ARG 2 level
+	METHOD b getRawIdFromEnchantment (Lazj;)I
+		ARG 0 enchantment
 	METHOD c isLootOnly ()Z
+	METHOD c getEnchantmentByRawId (I)Lazj;
+		ARG 0 id
+	METHOD c setTranslationName (Ljava/lang/String;)Lazj;
+		ARG 0 name
+	METHOD e getWeight ()Lazj$a;
+	METHOD f getLowestLevel ()I
+	METHOD g registerDefaults ()V

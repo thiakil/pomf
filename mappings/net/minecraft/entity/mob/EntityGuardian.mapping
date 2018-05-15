@@ -1,1 +1,25 @@
-CLASS aqd net/minecraft/entity/mob/EntityGuardian
+CLASS aqh net/minecraft/entity/mob/EntityGuardian
+	CLASS aqh$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS aqh$c
+		METHOD a tick ()V
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD a damage (Lahg;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a onTrackedDataSet (Lny;)V
+		ARG 0 data
+	METHOD b createNavigation (Lbbb;)Lamc;
+		ARG 0 world
+	METHOD bI getEyeHeight ()F
+	METHOD cB getEntityAttribute ()Lail;
+	METHOD ca initAttributes ()V
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD k updateMovement ()V
+	METHOD w_ initDataTracker ()V

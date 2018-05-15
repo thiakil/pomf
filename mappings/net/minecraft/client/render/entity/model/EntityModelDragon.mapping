@@ -1,1 +1,28 @@
-CLASS cru net/minecraft/client/render/entity/model/EntityModelDragon
+CLASS cry net/minecraft/client/render/entity/model/EntityModelDragon
+	FIELD a head Lcsd;
+	FIELD b neck Lcsd;
+	FIELD c jaw Lcsd;
+	FIELD d body Lcsd;
+	FIELD e rearLeg Lcsd;
+	FIELD f frontLeg Lcsd;
+	FIELD g rearLegTip Lcsd;
+	FIELD h frontLegTip Lcsd;
+	FIELD i rearFoot Lcsd;
+	FIELD j frontFoot Lcsd;
+	FIELD k wing Lcsd;
+	FIELD l wingTip Lcsd;
+	FIELD m partialTicks F
+	METHOD a updateRotations (D)F
+	METHOD a render (Lahx;FFFFFF)V
+		ARG 0 entity
+		ARG 1 limbMoveAngle
+		ARG 2 limbMoveAmount
+		ARG 3 age
+		ARG 4 headYaw
+		ARG 5 headPitch
+		ARG 6 scale
+	METHOD a animateModel (Laig;FFF)V
+		ARG 0 entity
+		ARG 1 swingAmount
+		ARG 2 swingDelta
+		ARG 3 deltaTicks

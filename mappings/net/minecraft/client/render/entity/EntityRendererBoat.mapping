@@ -1,1 +1,5 @@
-CLASS cze net/minecraft/client/render/entity/EntityRendererBoat
+CLASS czi net/minecraft/client/render/entity/EntityRendererBoat
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Laso;)Loj;
+		ARG 0 model

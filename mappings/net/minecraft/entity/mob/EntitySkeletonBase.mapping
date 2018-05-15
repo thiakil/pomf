@@ -1,5 +1,28 @@
-CLASS apr net/minecraft/entity/mob/EntitySkeletonBase
+CLASS apv net/minecraft/entity/mob/EntitySkeletonBase
+	CLASS apv$1
+		METHOD c start ()V
+		METHOD d stop ()V
+	FIELD a AIMING Lny;
+	METHOD a initEquipment (Lagp;)V
+		ARG 0 difficulty
+	METHOD a (Lagp;Laij;Lawk;)Laij;
+		ARG 0 difficulty
+	METHOD a setEquippedStack (Laic;Lawk;)V
+		ARG 0 slot
+		ARG 1 stack
+	METHOD a attackDistant (Laig;F)V
+		ARG 0 target
+	METHOD a playStepSound (Lef;Lbfq;)V
+		ARG 0 pos
+		ARG 1 block
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
-	METHOD n ()V
+	METHOD aK getHeightOffset ()D
+	METHOD bI getEyeHeight ()F
+	METHOD cB getEntityAttribute ()Lail;
+	METHOD ca initAttributes ()V
+	METHOD dC isAiming ()Z
+	METHOD k updateMovement ()V
+	METHOD s setArmsRaised (Z)V
+		ARG 0 value
 	METHOD w_ initDataTracker ()V

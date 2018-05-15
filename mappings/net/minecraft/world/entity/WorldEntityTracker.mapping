@@ -1,11 +1,18 @@
 CLASS sn net/minecraft/world/entity/WorldEntityTracker
 	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d entity Lahx;
 	FIELD e trackingRange I
 	FIELD g updateInterval I
 	FIELD u sendVelocityUpdates Z
 	FIELD z trackingPlayers Ljava/util/Set;
+	METHOD <init> (Lahx;IIIZ)V
+		ARG 0 entity
+		ARG 1 trackingRange
+		ARG 3 updateInterval
+		ARG 4 sendVelocityUpdates
 	METHOD a sendToAllTracking (Lip;)V
 		ARG 0 packet
+	METHOD b getEntity ()Lahx;
 	METHOD b sendToAllTrackingAndSelf (Lip;)V
 		ARG 0 packet
 	METHOD e getSpawnPacket ()Lip;

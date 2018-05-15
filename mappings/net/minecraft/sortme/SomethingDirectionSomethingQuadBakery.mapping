@@ -1,1 +1,14 @@
-CLASS cuy net/minecraft/sortme/SomethingDirectionSomethingQuadBakery
+CLASS cvc net/minecraft/sortme/SomethingDirectionSomethingQuadBakery
+	CLASS cvc$a DirectionIds
+		FIELD a SOUTH I
+		FIELD b UP I
+		FIELD c EAST I
+		FIELD d NORTH I
+		FIELD e DOWN I
+		FIELD f WEST I
+	FIELD a DOWN Lcvc;
+	FIELD b UP Lcvc;
+	FIELD c NORTH Lcvc;
+	FIELD d SOUTH Lcvc;
+	FIELD e WEST Lcvc;
+	FIELD f EAST Lcvc;

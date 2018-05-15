@@ -1,1 +1,11 @@
-CLASS crt net/minecraft/client/render/entity/model/EntityModelDragonHead
+CLASS crx net/minecraft/client/render/entity/model/EntityModelDragonHead
+	FIELD a head Lcsd;
+	FIELD b jaw Lcsd;
+	METHOD a render (Lahx;FFFFFF)V
+		ARG 0 entity
+		ARG 1 limbMoveAngle
+		ARG 2 limbMoveAmount
+		ARG 3 age
+		ARG 4 headYaw
+		ARG 5 headPitch
+		ARG 6 scale

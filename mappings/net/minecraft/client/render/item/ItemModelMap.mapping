@@ -1,0 +1,10 @@
+CLASS cvj net/minecraft/client/render/item/ItemModelMap
+	FIELD c blockModelManager Ldgn;
+	METHOD <init> (Ldgn;)V
+		ARG 0 blockModelManager
+	METHOD a getBlockModelManager ()Ldgn;
+	METHOD a getSprite (Lbba;)Ldex;
+		ARG 0 item
+	METHOD b reloadModels ()V
+	METHOD b getModel (Lawk;)Ldgj;
+		ARG 0 stack

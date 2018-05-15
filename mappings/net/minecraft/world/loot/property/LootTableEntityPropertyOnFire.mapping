@@ -1,1 +1,7 @@
-CLASS cfr net/minecraft/world/loot/property/LootTableEntityPropertyOnFire
+CLASS cfv net/minecraft/world/loot/property/LootTableEntityPropertyOnFire
+	FIELD a target Z
+	METHOD <init> (Z)V
+		ARG 0 target
+	METHOD a matches (Ljava/util/Random;Lahx;)Z
+		ARG 0 random
+		ARG 1 entity

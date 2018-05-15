@@ -1,14 +1,41 @@
-CLASS ant net/minecraft/entity/passive/EntityLlama
+CLASS anx net/minecraft/entity/passive/EntityLlama
+	CLASS anx$a
+		METHOD a canStart ()Z
+		METHOD i getFollowRange ()D
+	CLASS anx$c
+		METHOD b shouldContinue ()Z
+	FIELD bJ ATTR_STRENGTH Lny;
 	FIELD bL ATTR_VARIANT Lny;
 	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD a onInvChange (Lagk;)V
+		ARG 0 inventory
+	METHOD a (Lagp;Laij;Lawk;)Laij;
+		ARG 0 difficulty
+	METHOD a createChild (Lahu;)Lahu;
+		ARG 0 other
+	METHOD a attackDistant (Laig;F)V
+		ARG 0 target
+	METHOD a playStepSound (Lef;Lbfq;)V
+		ARG 0 pos
+		ARG 1 block
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
+	METHOD aL getMountedHeightOffset ()D
+	METHOD b createChild (Lahu;)Lanx;
+		ARG 0 other
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
 	METHOD c handleFallDamage (FF)V
 		ARG 0 fallDistance
 	METHOD ca initAttributes ()V
 	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahg;)Lvo;
 	METHOD dE getInventorySize ()I
-	METHOD n ()V
+	METHOD ek getStrength ()I
+	METHOD el getVariant ()I
+	METHOD s setVariant (I)V
+	METHOD s setArmsRaised (Z)V
+		ARG 0 value
+	METHOD t setStrength (I)V
 	METHOD w_ initDataTracker ()V

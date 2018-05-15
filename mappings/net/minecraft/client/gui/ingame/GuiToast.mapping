@@ -1,1 +1,20 @@
-CLASS cjx net/minecraft/client/gui/ingame/GuiToast
+CLASS ckb net/minecraft/client/gui/ingame/GuiToast
+	CLASS ckb$a ToastInstance
+		FIELD b toast Lcka;
+		FIELD c animationTime J
+		FIELD d visibleTime J
+		FIELD e visibility Lcka$a;
+		METHOD a getToast ()Lcka;
+		METHOD a render (II)Z
+		METHOD a getVisibility (J)F
+			ARG 0 time
+	FIELD a mc Lcht;
+	FIELD f visible [Lckb$a;
+	FIELD g queue Ljava/util/Deque;
+	METHOD <init> (Lcht;)V
+		ARG 0 mc
+	METHOD a add (Lcka;)V
+		ARG 0 toast
+	METHOD a getToast (Ljava/lang/Class;Ljava/lang/Object;)Lcka;
+	METHOD b clear ()V
+	METHOD c getMinecraftInstance ()Lcht;

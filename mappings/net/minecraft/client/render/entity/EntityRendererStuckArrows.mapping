@@ -1,1 +1,7 @@
-CLASS dcn net/minecraft/client/render/entity/EntityRendererStuckArrows
+CLASS dcr net/minecraft/client/render/entity/EntityRendererStuckArrows
+	FIELD a renderer Ldau;
+	METHOD <init> (Ldau;)V
+		ARG 0 renderer
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Laig;FFFFFFF)V
+		ARG 0 entity

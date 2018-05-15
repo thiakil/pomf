@@ -1,1 +1,6 @@
-CLASS cvn net/minecraft/client/render/Tessellator
+CLASS cvr net/minecraft/client/render/Tessellator
+	FIELD a buffer Lcux;
+	FIELD c INSTANCE Lcvr;
+	METHOD a getInstance ()Lcvr;
+	METHOD b draw ()V
+	METHOD c getVertexBuffer ()Lcux;

@@ -1,2 +1,3 @@
-CLASS apq net/minecraft/entity/EntityAbstractIllager
+CLASS apu net/minecraft/entity/EntityAbstractIllager
+	METHOD cB getEntityAttribute ()Lail;
 	METHOD w_ initDataTracker ()V

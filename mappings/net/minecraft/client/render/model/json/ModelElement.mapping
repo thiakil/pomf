@@ -1,1 +1,6 @@
-CLASS cvz net/minecraft/client/render/model/json/ModelElement
+CLASS cwd net/minecraft/client/render/model/json/ModelElement
+	FIELD c faces Ljava/util/Map;
+	FIELD d rotation Lcwf;
+	FIELD e shade Z
+	METHOD <init> (Ldiv;Ldiv;Ljava/util/Map;Lcwf;Z)V
+		ARG 3 rotation

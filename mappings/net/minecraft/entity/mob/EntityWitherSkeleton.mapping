@@ -1,4 +1,13 @@
-CLASS aqw net/minecraft/entity/mob/EntityWitherSkeleton
+CLASS ara net/minecraft/entity/mob/EntityWitherSkeleton
+	METHOD B attackEntity (Lahx;)Z
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
+	METHOD a initEquipment (Lagp;)V
+		ARG 0 difficulty
+	METHOD a (Lagp;Laij;Lawk;)Laij;
+		ARG 0 difficulty
+	METHOD a onDeath (Lahg;)V
+		ARG 0 damageSource
+	METHOD bI getEyeHeight ()F
 	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahg;)Lvo;

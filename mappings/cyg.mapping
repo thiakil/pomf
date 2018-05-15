@@ -1,0 +1,4 @@
+CLASS cyg
+	METHOD a create (Lbbb;Lcvk;I)Lcye;
+		ARG 0 world
+		ARG 1 renderer

@@ -1,3 +1,18 @@
-CLASS amu net/minecraft/entity/passive/EntityCow
+CLASS amy net/minecraft/entity/passive/EntityCow
 	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD a createChild (Lahu;)Lahu;
+		ARG 0 other
+	METHOD a interactMob (Larl;Lagq;)Z
+		ARG 0 player
+		ARG 1 playerHand
+	METHOD a playStepSound (Lef;Lbfq;)V
+		ARG 0 pos
+		ARG 1 block
+	METHOD b createChild (Lahu;)Lamy;
+		ARG 0 other
+	METHOD bI getEyeHeight ()F
+	METHOD cE getSoundVolume ()F
+	METHOD ca initAttributes ()V
 	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahg;)Lvo;

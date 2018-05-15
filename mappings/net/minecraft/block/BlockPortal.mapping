@@ -1,1 +1,22 @@
-CLASS bjf net/minecraft/block/BlockPortal
+CLASS bjj net/minecraft/block/BlockPortal
+	FIELD a AXIS Lbow;
+	METHOD X_ getRenderLayer ()Lbaq;
+	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a getItem (Lbap;Lef;Lbnz;)Lawk;
+	METHOD a onEntityCollision (Lbnz;Lbbb;Lef;Lahx;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 entity
+	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;
+	METHOD a getDropAmount (Lbnz;Ljava/util/Random;)I
+	METHOD b updateTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 random
+	METHOD c randomDisplayTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 rand

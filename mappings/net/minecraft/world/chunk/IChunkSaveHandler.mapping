@@ -1,1 +1,10 @@
-CLASS bpy net/minecraft/world/chunk/IChunkSaveHandler
+CLASS bqc net/minecraft/world/chunk/IChunkSaveHandler
+	METHOD a saveEntities (Lbap;Lbpp;)V
+		ARG 1 chunk
+	METHOD a saveChunk (Lbbb;Lbpe;)V
+		ARG 0 world
+		ARG 1 chunk
+	METHOD a loadChunk (Lbbc;IILjava/util/function/Consumer;)Lbpp;
+		ARG 1 x
+		ARG 2 y
+	METHOD c flushChunks ()V

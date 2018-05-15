@@ -1,1 +1,15 @@
-CLASS bvu net/minecraft/world/gen/decorator/DecoratorTree
+CLASS bvy net/minecraft/world/gen/decorator/DecoratorTree
+	FIELD d generateVines Z
+	METHOD <init> (Z)V
+		ARG 0 doBlockUpdates
+	METHOD <init> (ZILbnz;Lbnz;Z)V
+		ARG 0 doBlockUpdates
+		ARG 1 height
+		ARG 4 generateVines
+	METHOD a generateCocoaPod (Lbbc;ILef;Lel;)V
+		ARG 1 age
+		ARG 2 pos
+		ARG 3 facing
+	METHOD a generateVine (Lbbc;Lef;Lbou;)V
+		ARG 1 pos
+		ARG 2 prop

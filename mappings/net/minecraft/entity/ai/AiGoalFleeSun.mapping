@@ -1,4 +1,8 @@
-CLASS ajn net/minecraft/entity/ai/AiGoalFleeSun
+CLASS ajr net/minecraft/entity/ai/AiGoalFleeSun
+	FIELD a owner Laio;
+	FIELD f world Lbbb;
+	METHOD <init> (Laio;D)V
+		ARG 0 owner
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V

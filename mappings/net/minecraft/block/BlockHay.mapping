@@ -1,1 +1,6 @@
-CLASS bhz net/minecraft/block/BlockHay
+CLASS bid net/minecraft/block/BlockHay
+	METHOD a onLandedUpon (Lbbb;Lef;Lahx;F)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 entity
+		ARG 3 fallDistance

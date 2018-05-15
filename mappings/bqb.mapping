@@ -1,0 +1,12 @@
+CLASS bqb
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a run ()Z
+	METHOD a saveEntities (Lbap;Lbpp;)V
+		ARG 1 chunk
+	METHOD a saveChunk (Lbbb;Lbpe;)V
+		ARG 0 world
+		ARG 1 chunk
+	METHOD a loadChunk (Lbbc;IILjava/util/function/Consumer;)Lbpp;
+		ARG 1 x
+		ARG 2 y
+	METHOD c flushChunks ()V

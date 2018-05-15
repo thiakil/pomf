@@ -1,2 +1,5 @@
-CLASS bab net/minecraft/enchantment/EnchantmentAquaAffinity
+CLASS baf net/minecraft/enchantment/EnchantmentAquaAffinity
+	METHOD <init> (Lazj$a;[Laic;)V
+		ARG 0 weight
+		ARG 1 slotTypes
 	METHOD b getHighestLevel ()I

@@ -1,5 +1,12 @@
 CLASS ld net/minecraft/network/packet/client/CPacketEntityEquipmentUpdate
 	FIELD a id I
+	FIELD b slot Laic;
+	FIELD c stack Lawk;
+	METHOD <init> (ILaic;Lawk;)V
+		ARG 0 id
+		ARG 1 slot
+		ARG 2 stack
+	METHOD a getStack ()Lawk;
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf
 	METHOD a applyPacket (Lhw;)V
@@ -9,3 +16,4 @@ CLASS ld net/minecraft/network/packet/client/CPacketEntityEquipmentUpdate
 	METHOD b getId ()I
 	METHOD b writePacket (Lht;)V
 		ARG 0 buf
+	METHOD c getSlot ()Laic;

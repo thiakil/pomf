@@ -1,1 +1,8 @@
-CLASS atb net/minecraft/container/slot/SlotActionType
+CLASS atf net/minecraft/container/slot/SlotActionType
+	FIELD a CLICK Latf;
+	FIELD b SHIFT_CLICK Latf;
+	FIELD c HOTBAR_KEY Latf;
+	FIELD d MIDDLE_CLICK Latf;
+	FIELD e DROP Latf;
+	FIELD f DRAG Latf;
+	FIELD g DOUBLE_CLICK Latf;

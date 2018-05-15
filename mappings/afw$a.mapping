@@ -1,0 +1,3 @@
+CLASS afw$a
+	CLASS afw$a$1
+		METHOD a wander (Labe;Lxp;)Lxp;

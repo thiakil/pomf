@@ -1,5 +1,9 @@
 CLASS mw net/minecraft/network/packet/server/SPacketInventoryUpdateCreative
 	FIELD a slot I
+	FIELD b stack Lawk;
+	METHOD <init> (ILawk;)V
+		ARG 0 slot
+		ARG 1 stack
 	METHOD a getSlot ()I
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf
@@ -7,5 +11,6 @@ CLASS mw net/minecraft/network/packet/server/SPacketInventoryUpdateCreative
 		ARG 0 handler
 	METHOD a applyPacket (Llx;)V
 		ARG 0 handler
+	METHOD b getStack ()Lawk;
 	METHOD b writePacket (Lht;)V
 		ARG 0 buf

@@ -5,6 +5,8 @@ CLASS ms net/minecraft/network/packet/client/CPacketRecipeInfo
 	FIELD a purpose Lms$a;
 	FIELD c guiOpen Z
 	FIELD d filtering Z
+	METHOD <init> (Layp;)V
+		ARG 0 recipe
 	METHOD <init> (ZZZZ)V
 		ARG 0 guiOpen
 		ARG 3 filtering

@@ -1,1 +1,7 @@
-CLASS aqo net/minecraft/entity/mob/EntitySkeleton
+CLASS aqs net/minecraft/entity/mob/EntitySkeleton
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD a onDeath (Lahg;)V
+		ARG 0 damageSource
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahg;)Lvo;

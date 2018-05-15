@@ -1,0 +1,6 @@
+CLASS amf
+	METHOD a createPathNodeNavigator ()Lcdk;
+	METHOD a isValidPosition (Lef;)Z
+		ARG 0 pos
+	METHOD b isAtValidPosition ()Z
+	METHOD d tick ()V

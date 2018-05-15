@@ -1,1 +1,10 @@
-CLASS aky net/minecraft/entity/ai/AiGoalStayInside
+CLASS alc net/minecraft/entity/ai/AiGoalStayInside
+	FIELD a entity Laio;
+	FIELD b closestDoor Laml;
+	METHOD <init> (Laio;)V
+		ARG 0 entity
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

@@ -15,4 +15,3 @@ CLASS wk net/minecraft/world/chunk/ChunkEntitySet
 		ARG 0 objectClass
 	METHOD c ofType (Ljava/lang/Class;)Ljava/lang/Iterable;
 		ARG 0 entityClass
-	METHOD size ()I

@@ -1,1 +1,3 @@
-CLASS ary net/minecraft/entity/thrown/EntitySnowball
+CLASS asc net/minecraft/entity/thrown/EntitySnowball
+	METHOD a onCollision (Lcgd;)V
+		ARG 0 hitResult

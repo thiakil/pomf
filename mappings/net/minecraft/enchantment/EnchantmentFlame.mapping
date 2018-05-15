@@ -1,1 +1,5 @@
-CLASS ayy net/minecraft/enchantment/EnchantmentFlame
+CLASS azc net/minecraft/enchantment/EnchantmentFlame
+	METHOD <init> (Lazj$a;[Laic;)V
+		ARG 0 weight
+		ARG 1 slotTypes
+	METHOD b getHighestLevel ()I

@@ -1,0 +1,10 @@
+CLASS adj net/minecraft/util/datafix/optics/profunctor/TraversalP
+	CLASS adj$1
+		METHOD a wander (Labe;Lxp;)Lxp;
+	CLASS adj$a Mu
+		FIELD e TYPE_TOKEN_2 Lcom/google/common/reflect/TypeToken;
+	METHOD a left (Labd;)Labd;
+	METHOD a traverse (Labr;Labd;)Labd;
+	METHOD a wander (Lact;Labd;)Labd;
+	METHOD c right (Labd;)Labd;
+	METHOD e unbox (Labc;)Ladj;

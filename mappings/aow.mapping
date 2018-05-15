@@ -1,0 +1,3 @@
+CLASS aow
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD i getType ()Laoy;

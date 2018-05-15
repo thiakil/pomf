@@ -1,4 +1,5 @@
-CLASS anu net/minecraft/entity/passive/EntityMule
+CLASS any net/minecraft/entity/passive/EntityMule
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
 	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahg;)Lvo;

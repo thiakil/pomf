@@ -1,5 +1,9 @@
 CLASS kx net/minecraft/network/packet/client/CPacketSetCameraEntity
 	FIELD a id I
+	METHOD <init> (Lahx;)V
+		ARG 0 entity
+	METHOD a getEntity (Lbbb;)Lahx;
+		ARG 0 world
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf
 	METHOD a applyPacket (Lhw;)V

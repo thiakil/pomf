@@ -1,1 +1,7 @@
-CLASS acc net/minecraft/util/datafix/optics/Lens
+CLASS ace net/minecraft/util/datafix/optics/Lens
+	CLASS ace$b Instance
+		METHOD a left (Labd;)Labd;
+	METHOD a unbox (Labd;)Lace;
+	METHOD a view (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD a update (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD a view (Lwy;)Ljava/lang/Object;

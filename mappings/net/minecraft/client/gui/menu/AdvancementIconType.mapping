@@ -1,0 +1,5 @@
+CLASS clz net/minecraft/client/gui/menu/AdvancementIconType
+	FIELD a COMPLETED Lclz;
+	FIELD b ACTIVE Lclz;
+	FIELD c textureIndex I
+	METHOD a getTextureIndex ()I

@@ -1,1 +1,3 @@
 CLASS dhl
+	METHOD a onResourceReload (Lul;)V
+		ARG 0 container

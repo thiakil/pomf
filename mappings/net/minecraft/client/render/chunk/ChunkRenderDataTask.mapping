@@ -1,1 +1,26 @@
-CLASS cxu net/minecraft/client/render/chunk/ChunkRenderDataTask
+CLASS cxy net/minecraft/client/render/chunk/ChunkRenderDataTask
+	CLASS cxy$a Stage
+		FIELD a INIT Lcxy$a;
+	CLASS cxy$b MODE
+	FIELD a chunkRenderer Lcye;
+	FIELD b lock Ljava/util/concurrent/locks/ReentrantLock;
+	FIELD c runnables Ljava/util/List;
+	FIELD d mode Lcxy$b;
+	FIELD e distanceToPlayerSquared D
+	FIELD g chunkRenderData Lcyb;
+	FIELD h stage Lcxy$a;
+	METHOD <init> (Lcye;Lcxy$b;D)V
+		ARG 0 chunkRenderer
+		ARG 1 mode
+		ARG 2 distanceToPlayerSquared
+	METHOD a getStage ()Lcxy$a;
+	METHOD a setStage (Lcxy$a;)V
+		ARG 0 value
+	METHOD a compareTask (Lcxy;)I
+		ARG 0 other
+	METHOD a setChunkRenderData (Lcyb;)V
+		ARG 0 chunkRenderData
+	METHOD b getChunkRenderer ()Lcye;
+	METHOD c getChunkRenderData ()Lcyb;
+	METHOD f getLock ()Ljava/util/concurrent/locks/ReentrantLock;
+	METHOD g getMode ()Lcxy$b;

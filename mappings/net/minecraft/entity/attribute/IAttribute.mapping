@@ -1,1 +1,4 @@
-CLASS aio net/minecraft/entity/attribute/IAttribute
+CLASS ais net/minecraft/entity/attribute/IAttribute
+	METHOD a getId ()Ljava/lang/String;
+	METHOD b getDefaultValue ()D
+	METHOD d getParent ()Lais;

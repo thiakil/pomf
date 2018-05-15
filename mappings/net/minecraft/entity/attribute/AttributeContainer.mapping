@@ -1,1 +1,14 @@
-CLASS aiu net/minecraft/entity/attribute/AttributeContainer
+CLASS aiy net/minecraft/entity/attribute/AttributeContainer
+	FIELD d instancesByName Ljava/util/Map;
+	METHOD a get (Lais;)Lait;
+		ARG 0 attribute
+	METHOD a get (Ljava/lang/String;)Lait;
+		ARG 0 name
+	METHOD b register (Lais;)Lait;
+		ARG 0 attribute
+	METHOD b get (Ljava/lang/String;)Laix;
+		ARG 0 name
+	METHOD c createInstance (Lais;)Lait;
+		ARG 0 attribute
+	METHOD e get (Lais;)Laix;
+		ARG 0 attribute

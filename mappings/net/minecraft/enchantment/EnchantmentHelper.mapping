@@ -1,1 +1,84 @@
-CLASS azh net/minecraft/enchantment/EnchantmentHelper
+CLASS azl net/minecraft/enchantment/EnchantmentHelper
+	CLASS azl$a DamageTargetHandler
+		FIELD a user Laig;
+		FIELD b target Lahx;
+		METHOD a handleEnchantment (Lazj;I)V
+	CLASS azl$b DamageUserHandler
+		FIELD a user Laig;
+		FIELD b attacker Lahx;
+		METHOD a handleEnchantment (Lazj;I)V
+	CLASS azl$c EnchantmentHandler
+		METHOD a handleEnchantment (Lazj;I)V
+	CLASS azl$d AdditionalDamgeHandler
+		FIELD a additionalDamge F
+		FIELD b entityType Lail;
+		METHOD a handleEnchantment (Lazj;I)V
+	CLASS azl$e ProtectionHandler
+		FIELD a protectionAmount I
+		FIELD b source Lahg;
+		METHOD a handleEnchantment (Lazj;I)V
+	FIELD a protectionHandler Lazl$e;
+	FIELD b additionalDamgeHandler Lazl$d;
+	FIELD c damageUserHandler Lazl$b;
+	FIELD d damageTargetHandler Lazl$a;
+	METHOD a handleDamageUser (Laig;Lahx;)V
+		ARG 0 attackingEntity
+		ARG 1 attackedEntity
+	METHOD a getEnchantments (Lawk;)Ljava/util/Map;
+		ARG 0 stack
+	METHOD a getAdditionalDamge (Lawk;Lail;)F
+		ARG 0 rstack
+		ARG 1 attribute
+	METHOD a getEquipmentLevel (Lazj;Laig;)I
+		ARG 0 ench
+		ARG 1 entity
+	METHOD a getLevel (Lazj;Lawk;)I
+		ARG 0 enchantment
+		ARG 1 stack
+	METHOD a handleEnchantments (Lazl$c;Lawk;)V
+		ARG 0 enchantmentHandler
+		ARG 1 stack
+	METHOD a handleEnchantmentArray (Lazl$c;Ljava/lang/Iterable;)V
+		ARG 0 EnchantmentHandler
+		ARG 1 stacks
+	METHOD a getProtectionAmount (Ljava/lang/Iterable;Lahg;)I
+		ARG 0 stacks
+		ARG 1 source
+	METHOD a removeInvalidEnchantments (Ljava/util/List;Lazm;)V
+		ARG 0 infos
+		ARG 1 info
+	METHOD a setEnchantments (Ljava/util/Map;Lawk;)V
+		ARG 0 enchantmentMap
+		ARG 1 stack
+	METHOD a geExperienceLevel (Ljava/util/Random;IILawk;)I
+		ARG 0 rand
+		ARG 1 num
+		ARG 2 enchantmentPower
+		ARG 3 rstack
+	METHOD b getKnockback (Laig;)I
+		ARG 0 entity
+	METHOD b handleDamageTarget (Laig;Lahx;)V
+		ARG 0 attackingEntity
+		ARG 1 attackedEntity
+	METHOD b getLuckOfTheSea (Lawk;)I
+	METHOD b getHighestEnchantmentLevel (Lazj;Laig;)Lawk;
+		ARG 0 enchantment
+		ARG 1 entity
+	METHOD b getEnchantmentList (Ljava/util/Random;Lawk;IZ)Ljava/util/List;
+		ARG 0 rand
+		ARG 1 stack
+	METHOD c getFireAspect (Laig;)I
+		ARG 0 entity
+	METHOD c getLure (Lawk;)I
+	METHOD d getRespiration (Laig;)I
+		ARG 0 entity
+	METHOD e getDepthStrider (Laig;)I
+		ARG 0 entity
+	METHOD f getEfficiency (Laig;)I
+		ARG 0 entity
+	METHOD g getLooting (Laig;)I
+		ARG 0 entity
+	METHOD h hasAquaAffinity (Laig;)Z
+		ARG 0 entity
+	METHOD i hasFrostWalker (Laig;)Z
+		ARG 0 entity

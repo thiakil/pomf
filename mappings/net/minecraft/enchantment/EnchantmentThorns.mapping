@@ -1,2 +1,8 @@
-CLASS azt net/minecraft/enchantment/EnchantmentThorns
+CLASS azx net/minecraft/enchantment/EnchantmentThorns
+	METHOD a isAcceptableItem (Lawk;)Z
+		ARG 0 item
 	METHOD b getHighestLevel ()I
+	METHOD b onUserDamaged (Laig;Lahx;I)V
+		ARG 0 user
+		ARG 1 attacker
+		ARG 2 level

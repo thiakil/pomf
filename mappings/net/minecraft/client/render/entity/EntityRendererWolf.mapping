@@ -1,2 +1,8 @@
-CLASS dcj net/minecraft/client/render/entity/EntityRendererWolf
+CLASS dcn net/minecraft/client/render/entity/EntityRendererWolf
 	FIELD a WILD_SKIN Loj;
+	FIELD j TAMED_SKIN Loj;
+	FIELD k ANGRY_SKIN Loj;
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Lanr;)Loj;
+		ARG 0 model

@@ -1,2 +1,17 @@
-CLASS cjk net/minecraft/client/gui/hud/HudSubtitles
-	CLASS cjk$a SubtitleEntry
+CLASS cjo net/minecraft/client/gui/hud/HudSubtitles
+	CLASS cjo$a SubtitleEntry
+		FIELD b text Ljava/lang/String;
+		FIELD c time J
+		FIELD d pos Lcgg;
+		METHOD a getText ()Ljava/lang/String;
+		METHOD a reset (Lcgg;)V
+		METHOD b getTime ()J
+		METHOD c getPosition ()Lcgg;
+	FIELD a game Lcht;
+	FIELD f entries Ljava/util/List;
+	FIELD g enabled Z
+	METHOD <init> (Lcht;)V
+		ARG 0 game
+	METHOD a onSoundPlayed (Ldhf;Ldif;)V
+		ARG 0 sound
+		ARG 1 accessor

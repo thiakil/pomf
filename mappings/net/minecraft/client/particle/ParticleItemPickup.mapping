@@ -1,2 +1,7 @@
-CLASS ctk net/minecraft/client/particle/ParticleItemPickup
+CLASS cto net/minecraft/client/particle/ParticleItemPickup
 	METHOD a update ()V
+	METHOD a buildGeometry (Lcux;Lahx;FFFFFF)V
+		ARG 0 vertexBuffer
+		ARG 1 entity
+		ARG 2 deltaTicks
+	METHOD b getParticleGroup ()I

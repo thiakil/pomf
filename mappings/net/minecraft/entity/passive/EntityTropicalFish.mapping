@@ -1,10 +1,12 @@
-CLASS anj net/minecraft/entity/passive/EntityTropicalFish
+CLASS ann net/minecraft/entity/passive/EntityTropicalFish
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
+	METHOD a (Lagp;Laij;Lawk;)Laij;
+		ARG 0 difficulty
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
 	METHOD ct getSoundDeath ()Lvo;
-	METHOD n ()V
+	METHOD d getSoundHurt (Lahg;)Lvo;
 	METHOD w_ initDataTracker ()V

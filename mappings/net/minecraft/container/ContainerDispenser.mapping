@@ -1,1 +1,10 @@
-CLASS atf net/minecraft/container/ContainerDispenser
+CLASS atj net/minecraft/container/ContainerDispenser
+	FIELD a inventory Lagk;
+	METHOD <init> (Lagk;Lagk;)V
+		ARG 0 playerInv
+		ARG 1 inventory
+	METHOD a canUse (Larl;)Z
+		ARG 0 player
+	METHOD b getStack (Larl;I)Lawk;
+		ARG 0 player
+		ARG 1 slot

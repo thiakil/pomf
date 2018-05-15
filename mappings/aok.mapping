@@ -1,1 +1,4 @@
 CLASS aok
+	FIELD a entity Laoi;
+	METHOD <init> (Laoi;)V
+		ARG 0 entity

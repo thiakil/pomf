@@ -1,1 +1,3 @@
 CLASS bgt
+	FIELD u WATERLOGGED Lbou;
+	METHOD t getFluidState (Lbnz;)Lcbb;

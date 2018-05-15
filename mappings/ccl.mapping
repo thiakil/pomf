@@ -1,2 +1,2 @@
 CLASS ccl
-	FIELD a NORMAL Lccl;
+	FIELD a INSTANCE Lccl;

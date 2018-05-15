@@ -1,2 +1,4 @@
-CLASS acx net/minecraft/util/datafix/optics/profunctor/Cocartesian
-	CLASS acx$a Mu
+CLASS acz net/minecraft/util/datafix/optics/profunctor/Cocartesian
+	CLASS acz$a Mu
+	METHOD b unbox (Labc;)Lacz;
+	METHOD c right (Labd;)Labd;

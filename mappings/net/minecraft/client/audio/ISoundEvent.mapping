@@ -1,1 +1,19 @@
-CLASS dhb net/minecraft/client/audio/ISoundEvent
+CLASS dhf net/minecraft/client/audio/ISoundEvent
+	CLASS dhf$a AttenuationType
+		FIELD a NONE Ldhf$a;
+		FIELD b LINEAR Ldhf$a;
+		FIELD c TYPE I
+		METHOD a getType ()I
+	METHOD a getId ()Loj;
+	METHOD a getAccess (Ldic;)Ldif;
+		ARG 0 loader
+	METHOD b getSound ()Ldhc;
+	METHOD c getCategory ()Lvq;
+	METHOD d isRepeatable ()Z
+	METHOD e getRepeatDelay ()I
+	METHOD f getVolume ()F
+	METHOD g getPitch ()F
+	METHOD h getX ()F
+	METHOD i getY ()F
+	METHOD j getZ ()F
+	METHOD k getAttenuationType ()Ldhf$a;

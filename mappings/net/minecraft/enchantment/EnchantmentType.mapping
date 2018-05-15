@@ -1,1 +1,55 @@
-CLASS azg net/minecraft/enchantment/EnchantmentType
+CLASS azk net/minecraft/enchantment/EnchantmentType
+	CLASS azk$1
+		METHOD a isAcceptableItem (Lawg;)Z
+			ARG 0 item
+	CLASS azk$2
+		METHOD a isAcceptableItem (Lawg;)Z
+			ARG 0 item
+	CLASS azk$3
+		METHOD a isAcceptableItem (Lawg;)Z
+			ARG 0 item
+	CLASS azk$4
+		METHOD a isAcceptableItem (Lawg;)Z
+			ARG 0 item
+	CLASS azk$5
+		METHOD a isAcceptableItem (Lawg;)Z
+			ARG 0 item
+	CLASS azk$6
+		METHOD a isAcceptableItem (Lawg;)Z
+			ARG 0 item
+	CLASS azk$7
+		METHOD a isAcceptableItem (Lawg;)Z
+			ARG 0 item
+	CLASS azk$8
+		METHOD a isAcceptableItem (Lawg;)Z
+			ARG 0 item
+	CLASS azk$9
+		METHOD a isAcceptableItem (Lawg;)Z
+			ARG 0 item
+	CLASS azk$10
+		METHOD a isAcceptableItem (Lawg;)Z
+			ARG 0 item
+	CLASS azk$11
+		METHOD a isAcceptableItem (Lawg;)Z
+			ARG 0 item
+	CLASS azk$12
+		METHOD a isAcceptableItem (Lawg;)Z
+			ARG 0 item
+	CLASS azk$13
+		METHOD a isAcceptableItem (Lawg;)Z
+			ARG 0 item
+	FIELD a ALL Lazk;
+	FIELD b ARMOR Lazk;
+	FIELD c FEET Lazk;
+	FIELD d LEGS Lazk;
+	FIELD e CHEST Lazk;
+	FIELD f HELM Lazk;
+	FIELD g WEAPON Lazk;
+	FIELD h BREAKER Lazk;
+	FIELD i FISHING Lazk;
+	FIELD j TRIDENT Lazk;
+	FIELD k TOOL Lazk;
+	FIELD l BOW Lazk;
+	FIELD m WEARABLE Lazk;
+	METHOD a isAcceptableItem (Lawg;)Z
+		ARG 0 item

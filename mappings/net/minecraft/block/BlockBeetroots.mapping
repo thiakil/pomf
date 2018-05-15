@@ -1,1 +1,10 @@
-CLASS bfl net/minecraft/block/BlockBeetroots
+CLASS bfp net/minecraft/block/BlockBeetroots
+	FIELD a AGE_BEETROOTS Lbox;
+	METHOD b updateTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 random
+	METHOD c getAgeProperty ()Lbox;
+	METHOD d getAgeMaximum ()I
+	METHOD e getItemSeed ()Lbba;
+	METHOD f getItemMature ()Lbba;

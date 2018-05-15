@@ -8,10 +8,18 @@ CLASS ru net/minecraft/server/dedicated/DedicatedServer
 	FIELD n properties Loz;
 	FIELD o eulaReader Lor;
 	FIELD p generateStructures Z
+	FIELD q gameMode Lbay;
 	FIELD r guiPresent Z
+	METHOD <init> (Ljava/io/File;Lxl;Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;Lcom/mojang/authlib/minecraft/MinecraftSessionService;Lcom/mojang/authlib/GameProfileRepository;Lur;)V
+		ARG 1 migrationHandler
+		ARG 2 authService
 	METHOD M isMonsterSpawningEnabled ()Z
 	METHOD R isSnooperEnabled ()Z
 	METHOD X isUsingNativeTransport ()Z
+	METHOD a addSnooperInfo (Laha;)V
+		ARG 0 snooper
+	METHOD a setDefaultGameMode (Lbay;)V
+		ARG 0 gameMode
 	METHOD a getInt (Ljava/lang/String;I)I
 		ARG 0 key
 		ARG 1 defaultValue
@@ -53,6 +61,8 @@ CLASS ru net/minecraft/server/dedicated/DedicatedServer
 	METHOD e_ getMotd ()Ljava/lang/String;
 	METHOD f getPort ()I
 	METHOD g shouldGenerateStructures ()Z
+	METHOD h getDefaultGameMode ()Lbay;
+	METHOD i getDefaultDifficulty ()Lago;
 	METHOD j isHardcore ()Z
 	METHOD k getOpPermissionLevel ()I
 	METHOD l shouldBroadcastRconToOps ()Z

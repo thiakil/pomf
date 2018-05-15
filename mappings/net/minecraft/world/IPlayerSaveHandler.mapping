@@ -1,1 +1,6 @@
-CLASS ceg net/minecraft/world/IPlayerSaveHandler
+CLASS cek net/minecraft/world/IPlayerSaveHandler
+	METHOD a savePlayerData (Larl;)V
+		ARG 0 player
+	METHOD b loadPlayerData (Larl;)Lgu;
+		ARG 0 player
+	METHOD f getSavedPlayerIds ()[Ljava/lang/String;

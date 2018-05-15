@@ -1,1 +1,6 @@
-CLASS auz net/minecraft/item/ItemMap
+CLASS avd net/minecraft/item/ItemMap
+	METHOD W_ isMap ()Z
+	METHOD a createMapPacket (Lawk;Lbbb;Larl;)Lip;
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 player

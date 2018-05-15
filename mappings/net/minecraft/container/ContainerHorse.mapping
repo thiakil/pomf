@@ -1,1 +1,24 @@
-CLASS atm net/minecraft/container/ContainerHorse
+CLASS atq net/minecraft/container/ContainerHorse
+	CLASS atq$1
+		METHOD a canInsert (Lawk;)Z
+			ARG 0 stack
+		METHOD b doDrawHoveringEffect ()Z
+	CLASS atq$2
+		METHOD a getMaxStackAmount ()I
+		METHOD a canInsert (Lawk;)Z
+			ARG 0 stack
+		METHOD b doDrawHoveringEffect ()Z
+	FIELD a playerInv Lagk;
+	FIELD f entity Lant;
+	METHOD <init> (Lagk;Lagk;Lant;Larl;)V
+		ARG 0 playerInv
+		ARG 1 inventory
+		ARG 2 entity
+		ARG 3 player
+	METHOD a canUse (Larl;)Z
+		ARG 0 player
+	METHOD b close (Larl;)V
+		ARG 0 player
+	METHOD b getStack (Larl;I)Lawk;
+		ARG 0 player
+		ARG 1 slot

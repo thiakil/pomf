@@ -1,1 +1,6 @@
-CLASS aww net/minecraft/item/ItemSeeds
+CLASS axa net/minecraft/item/ItemSeeds
+	FIELD a crop Lbnz;
+	METHOD <init> (Lbfq;Lawg$a;)V
+		ARG 0 crop
+		ARG 1 soil
+	METHOD a activate (Laxv;)Lags;

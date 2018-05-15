@@ -1,2 +1,6 @@
-CLASS dbm net/minecraft/client/render/entity/EntityRendererSlime
+CLASS dbq net/minecraft/client/render/entity/EntityRendererSlime
 	FIELD a SKIN Loj;
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Laqt;)Loj;
+		ARG 0 model

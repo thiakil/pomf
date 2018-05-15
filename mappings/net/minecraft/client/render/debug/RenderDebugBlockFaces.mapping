@@ -1,3 +1,4 @@
-CLASS cyt net/minecraft/client/render/debug/RenderDebugBlockFaces
+CLASS cyx net/minecraft/client/render/debug/RenderDebugBlockFaces
+	FIELD a game Lcht;
 	METHOD a render (FJ)V
 		ARG 0 tickDelta

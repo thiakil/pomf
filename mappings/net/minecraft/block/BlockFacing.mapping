@@ -1,1 +1,2 @@
-CLASS bgu net/minecraft/block/BlockFacing
+CLASS bgy net/minecraft/block/BlockFacing
+	FIELD a FACING Lbov;

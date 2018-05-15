@@ -1,1 +1,2 @@
-CLASS dex net/minecraft/client/texture/ITextureUpdateMethod
+CLASS dfb net/minecraft/client/texture/ITextureUpdateMethod
+	METHOD e updateTexture ()V

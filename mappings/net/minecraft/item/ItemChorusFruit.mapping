@@ -1,1 +1,7 @@
-CLASS auu net/minecraft/item/ItemChorusFruit
+CLASS auz net/minecraft/item/ItemChorusFruit
+	METHOD <init> (IFLawg$a;)V
+		ARG 0 hungerRestored
+	METHOD a onItemFinishedUsing (Lawk;Lbbb;Laig;)Lawk;
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 user

@@ -1,1 +1,6 @@
-CLASS acm net/minecraft/util/datafix/optics/ReForgetC
+CLASS aco net/minecraft/util/datafix/optics/ReForgetC
+	CLASS aco$a
+		METHOD a left (Labd;)Labd;
+		METHOD c right (Labd;)Labd;
+		METHOD d right (Labd;)Labd;
+	METHOD a impl ()Lwo;

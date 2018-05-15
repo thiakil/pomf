@@ -1,2 +1,76 @@
-CLASS ava net/minecraft/gui/CreativeTab
-	CLASS ava$1
+CLASS ave net/minecraft/gui/CreativeTab
+	CLASS ave$1
+		METHOD f getIconItem ()Lawk;
+	CLASS ave$2
+		METHOD f getIconItem ()Lawk;
+	CLASS ave$3
+		METHOD a getStacksForDisplay (Leu;)V
+			ARG 0 stackList
+		METHOD f getIconItem ()Lawk;
+	CLASS ave$4
+		METHOD f getIconItem ()Lawk;
+	CLASS ave$5
+		METHOD f getIconItem ()Lawk;
+	CLASS ave$6
+		METHOD f getIconItem ()Lawk;
+	CLASS ave$7
+		METHOD f getIconItem ()Lawk;
+	CLASS ave$8
+		METHOD f getIconItem ()Lawk;
+	CLASS ave$9
+		METHOD f getIconItem ()Lawk;
+	CLASS ave$10
+		METHOD f getIconItem ()Lawk;
+	CLASS ave$11
+		METHOD f getIconItem ()Lawk;
+	CLASS ave$12
+		METHOD f getIconItem ()Lawk;
+	FIELD a TABS [Lave;
+	FIELD b BUILDING_BLOCKS Lave;
+	FIELD c DECORATIONS Lave;
+	FIELD d REDSTONE Lave;
+	FIELD e TRANSPORTATION Lave;
+	FIELD f MISC Lave;
+	FIELD g SEARCH Lave;
+	FIELD h FOOD Lave;
+	FIELD i TOOLS Lave;
+	FIELD j COMBAT Lave;
+	FIELD k BREWING Lave;
+	FIELD l MATERIALS Lave;
+	FIELD m HOTBAR Lave;
+	FIELD n INVENTORY Lave;
+	FIELD o id I
+	FIELD p untranslatedName Ljava/lang/String;
+	FIELD q identifier Ljava/lang/String;
+	FIELD r texture Ljava/lang/String;
+	FIELD s useScrollBar Z
+	FIELD t tooltip Z
+	FIELD u enchantmentTypes [Lazk;
+	FIELD v stack Lawk;
+	METHOD <init> (ILjava/lang/String;)V
+		ARG 0 id
+		ARG 1 untranslatedName
+	METHOD a getId ()I
+	METHOD a containsEnchantmentType (Lazk;)Z
+		ARG 0 value
+	METHOD a getStacksForDisplay (Leu;)V
+		ARG 0 stackList
+	METHOD a setTexture (Ljava/lang/String;)Lave;
+		ARG 0 texture
+	METHOD a setEnchantmentTypes ([Lazk;)Lave;
+		ARG 0 value
+	METHOD b getUntranslatedName ()Ljava/lang/String;
+	METHOD b setIdentifier (Ljava/lang/String;)Lave;
+		ARG 0 value
+	METHOD c getIdentifier ()Ljava/lang/String;
+	METHOD d getTranslationKey ()Ljava/lang/String;
+	METHOD e getIconItemStack ()Lawk;
+	METHOD f getIconItem ()Lawk;
+	METHOD g getTexture ()Ljava/lang/String;
+	METHOD h hasTooltip ()Z
+	METHOD i disableTooltip ()Lave;
+	METHOD j useScrollBar ()Z
+	METHOD k setNotUseScrollBar ()Lave;
+	METHOD l getColumn ()I
+	METHOD m isTopRow ()Z
+	METHOD o getEnchantmentTypes ()[Lazk;

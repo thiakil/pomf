@@ -1,1 +1,25 @@
-CLASS blc net/minecraft/block/BlockTNT
+CLASS blg net/minecraft/block/BlockTNT
+	METHOD a canDropFromExplosion (Lbav;)Z
+		ARG 0 explosion
+	METHOD a onEntityCollision (Lbnz;Lbbb;Lef;Lahx;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 entity
+	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a update (Lbnz;Lbbb;Lef;Lbfq;Lef;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 block
+		ARG 4 updatePos
+	METHOD b onBlockAdded (Lbnz;Lbbb;Lef;Lbnz;)V
+		ARG 1 world
+		ARG 2 pos

@@ -1,4 +1,46 @@
-CLASS aqi net/minecraft/entity/mob/EntityPhantom
+CLASS aqm net/minecraft/entity/mob/EntityPhantom
+	CLASS aqm$b
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	CLASS aqm$c
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS aqm$e
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+	CLASS aqm$f
+		METHOD a tick ()V
+	CLASS aqm$g
+		METHOD a tick ()V
+	CLASS aqm$i
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+	FIELD c ax Lef;
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
+	METHOD K mobTick ()V
+	METHOD R_ update ()V
+	METHOD a shouldRender (D)Z
+		ARG 0 distanceSq
+	METHOD a (Lagp;Laij;Lawk;)Laij;
+		ARG 0 difficulty
+	METHOD a deserializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD a onTrackedDataSet (Lny;)V
+		ARG 0 data
+	METHOD b serializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD b canTrack (Ljava/lang/Class;)Z
+	METHOD bI getEyeHeight ()F
+	METHOD bX getSoundCategory ()Lvq;
+	METHOD cB getEntityAttribute ()Lail;
+	METHOD cE getSoundVolume ()F
+	METHOD ca initAttributes ()V
 	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD k updateMovement ()V
+	METHOD w_ initDataTracker ()V

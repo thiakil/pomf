@@ -15,6 +15,11 @@ CLASS kw net/minecraft/network/packet/client/CPacketWorldBorder
 	FIELD g interpolationDuration J
 	FIELD h warningTime I
 	FIELD i warningBlocks I
+	METHOD <init> (Lbpc;Lkw$a;)V
+		ARG 0 border
+		ARG 1 type
+	METHOD a apply (Lbpc;)V
+		ARG 0 border
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf
 	METHOD a applyPacket (Lhw;)V

@@ -1,2 +1,55 @@
-CLASS byt net/minecraft/world/gen/structure/StructurePiecesMonument
+CLASS byx net/minecraft/world/gen/structure/StructurePiecesMonument
+	CLASS byx$h
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+	CLASS byx$j
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+	CLASS byx$k
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+	CLASS byx$l
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+	CLASS byx$m
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+	CLASS byx$n
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+	CLASS byx$o
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+	CLASS byx$p
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+	CLASS byx$q
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+	CLASS byx$r
+		METHOD a serializeStructureData (Lgu;)V
+			ARG 0 tag
+		METHOD a deserializeStructureData (Lgu;Lbzr;)V
+			ARG 0 tag
+	CLASS byx$s
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+	CLASS byx$t
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+	CLASS byx$u
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
 	METHOD a registerPieces ()V

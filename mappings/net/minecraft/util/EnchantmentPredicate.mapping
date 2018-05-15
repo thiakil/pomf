@@ -1,6 +1,10 @@
 CLASS al net/minecraft/util/EnchantmentPredicate
 	FIELD a ANY Lal;
+	FIELD b enchantmeny Lazj;
 	FIELD c levels Laz;
+	METHOD <init> (Lazj;Laz;)V
+		ARG 0 enchantment
+		ARG 1 levels
 	METHOD a deserialize (Lcom/google/gson/JsonElement;)Lal;
 		ARG 0 el
 	METHOD a matches (Ljava/util/Map;)Z

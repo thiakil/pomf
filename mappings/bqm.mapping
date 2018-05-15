@@ -1,0 +1,41 @@
+CLASS bqm
+	CLASS bqm$1
+		METHOD a (Lsj;Lbqn;Ljava/util/List;ILef;)V
+			ARG 0 worldServer
+			ARG 1 dragonManager
+			ARG 2 crystalList
+			ARG 4 pos
+	CLASS bqm$2
+		METHOD a (Lsj;Lbqn;Ljava/util/List;ILef;)V
+			ARG 0 worldServer
+			ARG 1 dragonManager
+			ARG 2 crystalList
+			ARG 4 pos
+	CLASS bqm$3
+		METHOD a (Lsj;Lbqn;Ljava/util/List;ILef;)V
+			ARG 0 worldServer
+			ARG 1 dragonManager
+			ARG 2 crystalList
+			ARG 4 pos
+	CLASS bqm$4
+		METHOD a (Lsj;Lbqn;Ljava/util/List;ILef;)V
+			ARG 0 worldServer
+			ARG 1 dragonManager
+			ARG 2 crystalList
+			ARG 4 pos
+	CLASS bqm$5
+		METHOD a (Lsj;Lbqn;Ljava/util/List;ILef;)V
+			ARG 0 worldServer
+			ARG 1 dragonManager
+			ARG 2 crystalList
+			ARG 4 pos
+	FIELD a START Lbqm;
+	FIELD b PREPARING_TO_SUMMON_PILLARS Lbqm;
+	FIELD c SUMMONING_PILLARS Lbqm;
+	FIELD d SUMMONING_DRAGON Lbqm;
+	FIELD e END Lbqm;
+	METHOD a (Lsj;Lbqn;Ljava/util/List;ILef;)V
+		ARG 0 worldServer
+		ARG 1 dragonManager
+		ARG 2 crystalList
+		ARG 4 pos

@@ -1,0 +1,19 @@
+CLASS arm net/minecraft/client/render/entity/PlayerModelPart
+	FIELD a CAPE Larm;
+	FIELD b BODY Larm;
+	FIELD c LEFT_ARM Larm;
+	FIELD d RIGHT_ARM Larm;
+	FIELD e LEFT_LEG Larm;
+	FIELD f RIGHT_LEG Larm;
+	FIELD g HEAD Larm;
+	FIELD h id I
+	FIELD i bitFlag I
+	FIELD j name Ljava/lang/String;
+	FIELD k localizedName Lic;
+	METHOD <init> (Ljava/lang/String;IILjava/lang/String;)V
+		ARG 0 id
+		ARG 1 name
+	METHOD a getBitFlag ()I
+	METHOD b getId ()I
+	METHOD c getName ()Ljava/lang/String;
+	METHOD d getLocalizedName ()Lic;

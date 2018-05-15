@@ -1,1 +1,12 @@
-CLASS bfp net/minecraft/block/IFertilizable
+CLASS bft net/minecraft/block/IFertilizable
+	METHOD a isFertilizable (Lbap;Lef;Lbnz;Z)Z
+		ARG 1 pos
+		ARG 3 remote
+	METHOD a canGrow (Lbbb;Ljava/util/Random;Lef;Lbnz;)Z
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 pos
+	METHOD b grow (Lbbb;Ljava/util/Random;Lef;Lbnz;)V
+		ARG 0 world
+		ARG 1 rand
+		ARG 2 pos

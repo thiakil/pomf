@@ -1,1 +1,4 @@
-CLASS cwk net/minecraft/client/render/model/json/ModelTransformation
+CLASS cwo net/minecraft/client/render/model/json/ModelTransformation
+	FIELD a ORIGIN Lcwo;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object

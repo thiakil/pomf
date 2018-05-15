@@ -1,9 +1,20 @@
-CLASS anv net/minecraft/entity/mob/EntitySkeletonHorse
+CLASS anz net/minecraft/entity/mob/EntitySkeletonHorse
+	FIELD bL skeletonTrapTime I
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
+	METHOD a createChild (Lahu;)Lahu;
+		ARG 0 other
+	METHOD a interactMob (Larl;Lagq;)Z
+		ARG 0 player
+		ARG 1 playerHand
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
+	METHOD aL getMountedHeightOffset ()D
+	METHOD ae getSoundSwim ()Lvo;
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
+	METHOD cB getEntityAttribute ()Lail;
 	METHOD ca initAttributes ()V
 	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD k updateMovement ()V

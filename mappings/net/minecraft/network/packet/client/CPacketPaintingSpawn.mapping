@@ -3,6 +3,8 @@ CLASS ix net/minecraft/network/packet/client/CPacketPaintingSpawn
 	FIELD b uuid Ljava/util/UUID;
 	FIELD c pos Lef;
 	FIELD d facing Lel;
+	METHOD <init> (Lapj;)V
+		ARG 0 entity
 	METHOD a getId ()I
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf

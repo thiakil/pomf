@@ -1,2 +1,16 @@
-CLASS cew net/minecraft/world/loot/function/LootTableFunction
-	CLASS cew$a Serializer
+CLASS cfa net/minecraft/world/loot/function/LootTableFunction
+	CLASS cfa$a Serializer
+		FIELD a id Loj;
+		FIELD b function Ljava/lang/Class;
+		METHOD a getId ()Loj;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfa;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b getFunctionClass ()Ljava/lang/Class;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfm;)Lcfa;
+	FIELD a conditions [Lcfm;
+	METHOD <init> ([Lcfm;)V
+		ARG 0 conditions
+	METHOD a apply (Lawk;Ljava/util/Random;Lcet;)Lawk;
+		ARG 0 stack
+		ARG 1 rand
+		ARG 2 context
+	METHOD b getConditions ()[Lcfm;

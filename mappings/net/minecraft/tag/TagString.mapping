@@ -10,7 +10,6 @@ CLASS hi net/minecraft/tag/TagString
 	METHOD a write (Ljava/io/DataOutput;)V
 		ARG 0 output
 	METHOD a getTextComponent (Ljava/lang/String;I)Lic;
-	METHOD a (Ljava/lang/String;Z)Ljava/lang/String;
 	METHOD b copy ()Lhj;
 	METHOD b_ getString ()Ljava/lang/String;
 	METHOD c copy ()Lhi;

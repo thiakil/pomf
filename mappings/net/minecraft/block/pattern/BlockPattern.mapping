@@ -1,3 +1,40 @@
-CLASS bob net/minecraft/block/pattern/BlockPattern
-	CLASS bob$a BlockStateCacheLoader
-	CLASS bob$b Result
+CLASS bof net/minecraft/block/pattern/BlockPattern
+	CLASS bof$a BlockStateCacheLoader
+		FIELD b forceLoad Z
+		METHOD a load (Lef;)Lboe;
+	CLASS bof$b Result
+		FIELD a frontTopLeft Lef;
+		FIELD b forwards Lel;
+		FIELD c up Lel;
+		FIELD d cache Lcom/google/common/cache/LoadingCache;
+		FIELD e width I
+		FIELD f height I
+		FIELD g depth I
+		METHOD a getFrontTopLeft ()Lef;
+		METHOD a translate (III)Lboe;
+		METHOD b getForwards ()Lel;
+		METHOD c getUp ()Lel;
+		METHOD d getWidth ()I
+		METHOD e getHeight ()I
+	FIELD b depth I
+	FIELD c height I
+	FIELD d width I
+	METHOD a getDepth ()I
+	METHOD a searchAround (Lbbf;Lef;)Lbof$b;
+		ARG 1 placed
+	METHOD a makeCache (Lbbf;Z)Lcom/google/common/cache/LoadingCache;
+		ARG 1 forceLoad
+	METHOD a translate (Lef;Lel;Lel;III)Lef;
+		ARG 0 pos
+		ARG 1 forwards
+		ARG 2 up
+		ARG 3 offsetLeft
+		ARG 4 offsetDown
+		ARG 5 offsetForwards
+	METHOD a testTransform (Lef;Lel;Lel;Lcom/google/common/cache/LoadingCache;)Lbof$b;
+		ARG 0 frontTopLeft
+		ARG 1 forwards
+		ARG 2 up
+		ARG 3 cache
+	METHOD b getHeight ()I
+	METHOD c getWidth ()I

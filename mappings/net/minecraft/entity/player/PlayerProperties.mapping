@@ -1,6 +1,15 @@
 CLASS sm net/minecraft/entity/player/PlayerProperties
+	FIELD a world Lbbb;
 	FIELD b player Lsl;
+	FIELD c gameMode Lbay;
+	METHOD <init> (Lbbb;)V
+		ARG 0 world
+	METHOD a updateGameMode (Lbay;)V
+		ARG 0 gameMode
 	METHOD a setWorld (Lsj;)V
+		ARG 0 value
+	METHOD b getGameMode ()Lbay;
+	METHOD b setGameMode (Lbay;)V
 		ARG 0 value
 	METHOD c isSurvivalLike ()Z
 	METHOD d isCreative ()Z

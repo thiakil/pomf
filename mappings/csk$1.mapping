@@ -1,0 +1,5 @@
+CLASS csk$1
+	CLASS csk$1$1
+		METHOD confirmResult handle (ZI)V
+			ARG 0 result
+			ARG 1 callbackId

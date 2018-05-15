@@ -1,7 +1,19 @@
-CLASS bmz net/minecraft/block/entity/BlockEntityEndGateway
+CLASS bnd net/minecraft/block/entity/BlockEntityEndGateway
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD e age J
+	FIELD g portalExitPos Lef;
+	FIELD h exitPosExact Z
 	METHOD Y_ update ()V
 	METHOD Z_ getUpdatePacket ()Ljc;
+	METHOD a getChunk (Lbbb;Lcgg;)Lbpp;
+		ARG 0 world
+		ARG 1 pos
 	METHOD a serialize (Lgu;)Lgu;
 		ARG 0 tag
+	METHOD aa_ serializeInitialChunkData ()Lgu;
 	METHOD b deserialize (Lgu;)V
 		ARG 0 tag
+	METHOD c generatePortal (Lef;)V
+		ARG 0 pos
+	METHOD i getBestPortalExitPos ()Lef;
+	METHOD t getSquaredRenderDistance ()D

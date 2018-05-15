@@ -1,3 +1,40 @@
-CLASS cth net/minecraft/client/particle/ParticleEmotion
-	CLASS cth$a AngryFactory
+CLASS ctl net/minecraft/client/particle/ParticleEmotion
+	CLASS ctl$a AngryFactory
+		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lctt;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
+		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lctt;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
+	CLASS ctl$b HeartFactory
+		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lctt;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
+		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lctt;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
 	METHOD a update ()V
+	METHOD a buildGeometry (Lcux;Lahx;FFFFFF)V
+		ARG 0 vertexBuffer
+		ARG 1 entity
+		ARG 2 deltaTicks

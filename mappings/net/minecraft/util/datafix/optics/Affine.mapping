@@ -1,0 +1,8 @@
+CLASS abu net/minecraft/util/datafix/optics/Affine
+	CLASS abu$a Instance
+		METHOD a left (Labd;)Labd;
+		METHOD a dimap (Ljava/util/function/Function;Ljava/util/function/Function;)Lxp;
+		METHOD c right (Labd;)Labd;
+	METHOD a unbpx (Labd;)Labu;
+	METHOD a match (Ljava/lang/Object;)Lwo;
+	METHOD a build (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

@@ -1,2 +1,5 @@
 CLASS axp
+	METHOD a canRepair (Lawk;Lawk;)Z
+		ARG 0 item
+		ARG 1 repairItem
 	METHOD c getEnchantability ()I

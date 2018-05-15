@@ -1,0 +1,23 @@
+CLASS bgu
+	FIELD a POWER Lbox;
+	FIELD b INVERTED Lbou;
+	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a getWeakRedstonePower (Lbnz;Lbap;Lef;Lel;)I
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD c getRenderType (Lbnz;)Lbjw;
+	METHOD h canProvidePower (Lbnz;)Z

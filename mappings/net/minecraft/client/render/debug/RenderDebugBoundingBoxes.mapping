@@ -1,1 +1,4 @@
-CLASS cyn net/minecraft/client/render/debug/RenderDebugBoundingBoxes
+CLASS cyr net/minecraft/client/render/debug/RenderDebugBoundingBoxes
+	FIELD a game Lcht;
+	METHOD a render (FJ)V
+		ARG 0 tickDelta

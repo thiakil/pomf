@@ -1,1 +1,29 @@
-CLASS amn net/minecraft/entity/passive/EntityBat
+CLASS amr net/minecraft/entity/passive/EntityBat
+	FIELD a BAT_FLAGS Lny;
+	METHOD C pushAway (Lahx;)V
+		ARG 0 entity
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD K mobTick ()V
+	METHOD R_ update ()V
+	METHOD a damage (Lahg;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a deserializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD a setRoosting (Z)V
+		ARG 0 value
+	METHOD b serializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD bI getEyeHeight ()F
+	METHOD bu canAvoidTraps ()Z
+	METHOD c handleFallDamage (FF)V
+		ARG 0 fallDistance
+	METHOD cE getSoundVolume ()F
+	METHOD cF getSoundPitch ()F
+	METHOD cQ doPushLogic ()V
+	METHOD ca initAttributes ()V
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD l isRoosting ()Z
+	METHOD w_ initDataTracker ()V

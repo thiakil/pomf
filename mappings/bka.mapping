@@ -1,1 +1,2 @@
 CLASS bka
+	METHOD w getColor (Lbnz;)I

@@ -2,7 +2,16 @@ CLASS ax net/minecraft/util/LocationPredicate
 	FIELD b x Laz;
 	FIELD c y Laz;
 	FIELD d z Laz;
+	FIELD e biome Lbbv;
 	FIELD f feature Ljava/lang/String;
+	FIELD g dimension Lbqj;
+	METHOD <init> (Laz;Laz;Laz;Lbbv;Ljava/lang/String;Lbqj;)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 biome
+		ARG 4 feature
+		ARG 5 dimension
 	METHOD a deserialize (Lcom/google/gson/JsonElement;)Lax;
 	METHOD a matches (Lsj;DDD)Z
 		ARG 0 world

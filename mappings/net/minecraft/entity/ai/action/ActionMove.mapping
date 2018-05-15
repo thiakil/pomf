@@ -1,2 +1,5 @@
-CLASS ajd net/minecraft/entity/ai/action/ActionMove
+CLASS ajh net/minecraft/entity/ai/action/ActionMove
+	FIELD a owner Laih;
+	METHOD <init> (Laih;)V
+		ARG 0 owner
 	METHOD a tick ()V

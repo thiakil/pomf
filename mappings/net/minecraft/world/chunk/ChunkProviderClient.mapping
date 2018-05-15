@@ -1,1 +1,7 @@
-CLASS cse net/minecraft/world/chunk/ChunkProviderClient
+CLASS csi net/minecraft/world/chunk/ChunkProviderClient
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b emptyChunk Lbpp;
+	FIELD c chunkByIdMap Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;
+	FIELD d world Lbbb;
+	METHOD <init> (Lbbb;)V
+		ARG 0 world

@@ -1,1 +1,4 @@
-CLASS cdn net/minecraft/scoreboard/ScoreboardSynchronizer
+CLASS cdr net/minecraft/scoreboard/ScoreboardSynchronizer
+	FIELD a compound Lcds;
+	METHOD <init> (Lcds;)V
+		ARG 0 compound

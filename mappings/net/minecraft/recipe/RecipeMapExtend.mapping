@@ -1,1 +1,4 @@
-CLASS ayk net/minecraft/recipe/RecipeMapExtend
+CLASS ayo net/minecraft/recipe/RecipeMapExtend
+	METHOD a matches (Lagk;Lbbb;)Z
+		ARG 1 world
+	METHOD c isIgnoredInRecipeBook ()Z

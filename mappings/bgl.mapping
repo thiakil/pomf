@@ -1,1 +1,24 @@
 CLASS bgl
+	CLASS bgl$a Mode
+		FIELD a COMPARE Lbgl$a;
+		FIELD b SUBTRACT Lbgl$a;
+		FIELD c name Ljava/lang/String;
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a MODE Lbow;
+	METHOD a onBlockAction (Lbnz;Lbbb;Lef;II)Z
+		ARG 1 world
+		ARG 2 pos
+	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD b updateTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 random

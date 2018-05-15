@@ -1,4 +1,10 @@
-CLASS cmg net/minecraft/client/gui/ingame/GuiBrewingStand
+CLASS cmk net/minecraft/client/gui/ingame/GuiBrewingStand
+	FIELD v BG_TEX Loj;
+	FIELD x playerInv Lark;
+	FIELD y inventory Lagk;
+	METHOD <init> (Lark;Lagk;)V
+		ARG 0 playerInv
+		ARG 1 inventory
 	METHOD a drawBackground (FII)V
 		ARG 0 delta
 		ARG 1 mouseX

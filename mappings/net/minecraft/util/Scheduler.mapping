@@ -1,1 +1,2 @@
-CLASS afz net/minecraft/util/Scheduler
+CLASS agd net/minecraft/util/Scheduler
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;

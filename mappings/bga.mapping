@@ -1,0 +1,15 @@
+CLASS bga
+	FIELD a AGE Lbox;
+	METHOD X_ getRenderLayer ()Lbaq;
+	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a onEntityCollision (Lbnz;Lbbb;Lef;Lahx;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 entity
+	METHOD b updateTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 random

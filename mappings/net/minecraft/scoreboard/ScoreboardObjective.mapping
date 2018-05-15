@@ -1,1 +1,19 @@
-CLASS cgw net/minecraft/scoreboard/ScoreboardObjective
+CLASS cha net/minecraft/scoreboard/ScoreboardObjective
+	FIELD a scoreboard Lchd;
+	FIELD b name Ljava/lang/String;
+	FIELD c criterion Lchg;
+	FIELD d displayName Ljava/lang/String;
+	FIELD e criterionType Lchg$a;
+	METHOD <init> (Lchd;Ljava/lang/String;Lchg;Ljava/lang/String;)V
+		ARG 0 scoreboard
+		ARG 1 name
+		ARG 2 criterion
+	METHOD a getScoreboard ()Lchd;
+	METHOD a setCriterionType (Lchg$a;)V
+		ARG 0 value
+	METHOD a setDisplayName (Ljava/lang/String;)V
+		ARG 0 value
+	METHOD b getName ()Ljava/lang/String;
+	METHOD c getCriterion ()Lchg;
+	METHOD d getDisplayName ()Ljava/lang/String;
+	METHOD f getCriterionType ()Lchg$a;

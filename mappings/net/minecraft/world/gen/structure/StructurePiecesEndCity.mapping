@@ -1,1 +1,7 @@
-CLASS byn net/minecraft/world/gen/structure/StructurePiecesEndCity
+CLASS byr net/minecraft/world/gen/structure/StructurePiecesEndCity
+	CLASS byr$a
+		METHOD a serializeStructureData (Lgu;)V
+			ARG 0 tag
+		METHOD a deserializeStructureData (Lgu;Lbzr;)V
+			ARG 0 tag
+	METHOD a registerPieces ()V

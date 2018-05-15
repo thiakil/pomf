@@ -1,2 +1,2 @@
-CLASS azq net/minecraft/enchantment/EnchantmentRespiration
+CLASS azu net/minecraft/enchantment/EnchantmentRespiration
 	METHOD b getHighestLevel ()I

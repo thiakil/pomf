@@ -1,1 +1,5 @@
-CLASS dbz net/minecraft/client/render/entity/EntityRendererTurtle
+CLASS dcd net/minecraft/client/render/entity/EntityRendererTurtle
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Lano;)Loj;
+		ARG 0 model

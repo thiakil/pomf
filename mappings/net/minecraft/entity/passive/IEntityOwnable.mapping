@@ -1,1 +1,3 @@
-CLASS aij net/minecraft/entity/passive/IEntityOwnable
+CLASS ain net/minecraft/entity/passive/IEntityOwnable
+	METHOD C_ getOwnerUuid ()Ljava/util/UUID;
+	METHOD D_ getOwner ()Lahx;

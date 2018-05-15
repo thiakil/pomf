@@ -1,19 +1,41 @@
-CLASS aqb net/minecraft/entity/mob/EntityGhast
-	CLASS aqb$a
+CLASS aqf net/minecraft/entity/mob/EntityGhast
+	CLASS aqf$a
 		METHOD a canStart ()Z
 		METHOD e tick ()V
-	CLASS aqb$b
-	CLASS aqb$c AiGoalShootFireball
+	CLASS aqf$b
+		METHOD a tick ()V
+	CLASS aqf$c AiGoalShootFireball
+		FIELD a cooldown I
+		FIELD b owner Laqf;
 		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
 		METHOD e tick ()V
+	CLASS aqf$d AiGoalFlyRandomly
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+	FIELD a SHOOTING Lny;
+	FIELD b fireballStrength I
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
+	METHOD R_ update ()V
+	METHOD a damage (Lahg;F)Z
+		ARG 0 source
+		ARG 1 damage
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
+	METHOD a setShooting (Z)V
+		ARG 0 value
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
 	METHOD bI getEyeHeight ()F
+	METHOD bX getSoundCategory ()Lvq;
+	METHOD cE getSoundVolume ()F
 	METHOD ca initAttributes ()V
 	METHOD ct getSoundDeath ()Lvo;
-	METHOD n ()V
+	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD dk getLimitPerChunk ()I
+	METHOD dv getFireballStrength ()I
+	METHOD l isShooting ()Z
 	METHOD w_ initDataTracker ()V

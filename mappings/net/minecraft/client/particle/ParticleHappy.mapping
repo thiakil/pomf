@@ -1,3 +1,57 @@
-CLASS cub net/minecraft/client/particle/ParticleHappy
-	CLASS cub$a DolphinFactory
+CLASS cuf net/minecraft/client/particle/ParticleHappy
+	CLASS cuf$a DolphinFactory
+		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lctt;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
+		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lctt;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
+	CLASS cuf$b VillagerFactory
+		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lctt;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
+		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lctt;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
+	CLASS cuf$c
+		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lctt;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
+		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lctt;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
 	METHOD a update ()V
+	METHOD a addPos (DDD)V
+		ARG 0 dx
+		ARG 1 dy
+		ARG 2 dz

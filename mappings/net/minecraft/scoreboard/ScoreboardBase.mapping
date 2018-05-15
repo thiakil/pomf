@@ -1,0 +1,75 @@
+CLASS chd net/minecraft/scoreboard/ScoreboardBase
+	FIELD a objectives Ljava/util/Map;
+	FIELD b objectivesByCriterion Ljava/util/Map;
+	FIELD c playerObjectives Ljava/util/Map;
+	FIELD d objectiveSlots [Lcha;
+	FIELD e teams Ljava/util/Map;
+	FIELD f teamsByPlayer Ljava/util/Map;
+	FIELD g displaySlotNames [Ljava/lang/String;
+	METHOD a getObjectiveForSlot (I)Lcha;
+		ARG 0 slot
+	METHOD a setObjectiveSlot (ILcha;)V
+		ARG 0 slot
+		ARG 1 objective
+	METHOD a resetEntityScore (Lahx;)V
+		ARG 0 entity
+	METHOD a updateObjective (Lcha;)V
+		ARG 0 value
+	METHOD a updateScoreboardTeamAndPlayers (Lchb;)V
+		ARG 0 team
+	METHOD a updateScore (Lchc;)V
+		ARG 0 value
+	METHOD a updatePlayerScore (Ljava/lang/String;)V
+		ARG 0 playerName
+	METHOD a updatePlayerScore (Ljava/lang/String;Lcha;)V
+		ARG 0 playerName
+		ARG 1 objective
+	METHOD a addPlayerToTeam (Ljava/lang/String;Lchb;)Z
+		ARG 0 playerName
+	METHOD a addObjective (Ljava/lang/String;Lchg;Ljava/lang/String;)Lcha;
+		ARG 0 name
+	METHOD b getDisplaySlotName (I)Ljava/lang/String;
+		ARG 0 slotId
+	METHOD b updateExistingObjective (Lcha;)V
+		ARG 0 value
+	METHOD b updateScoreboardTeam (Lchb;)V
+		ARG 0 team
+	METHOD b playerHasObjective (Ljava/lang/String;Lcha;)Z
+		ARG 0 playerName
+		ARG 1 objective
+	METHOD b removePlayerFromTeam (Ljava/lang/String;Lchb;)V
+		ARG 0 playerName
+		ARG 1 team
+	METHOD c getObjectives ()Ljava/util/Collection;
+	METHOD c updateRemovedObjective (Lcha;)V
+		ARG 0 objective
+	METHOD c updateRemovedTeam (Lchb;)V
+		ARG 0 team
+	METHOD c getPlayerScore (Ljava/lang/String;Lcha;)Lchc;
+		ARG 0 player
+		ARG 1 objective
+	METHOD d removeTeam (Lchb;)V
+		ARG 0 team
+	METHOD d resetPlayerScore (Ljava/lang/String;Lcha;)V
+		ARG 0 playerName
+		ARG 1 objective
+	METHOD e getKnownPlayers ()Ljava/util/Collection;
+	METHOD e getPlayerObjectives (Ljava/lang/String;)Ljava/util/Map;
+		ARG 0 playerName
+	METHOD f getTeamNames ()Ljava/util/Collection;
+	METHOD f getTeam (Ljava/lang/String;)Lchb;
+		ARG 0 teamName
+	METHOD g getTeams ()Ljava/util/Collection;
+	METHOD g addTeam (Ljava/lang/String;)Lchb;
+		ARG 0 teamName
+	METHOD h getDisplaySlotNames ()[Ljava/lang/String;
+	METHOD h clearPlayerTeam (Ljava/lang/String;)Z
+		ARG 0 player
+	METHOD i getAllPlayerScores (Lcha;)Ljava/util/Collection;
+		ARG 0 objective
+	METHOD i getPlayerTeam (Ljava/lang/String;)Lchb;
+		ARG 0 playerName
+	METHOD j removeObjective (Lcha;)V
+		ARG 0 objective
+	METHOD j getDisplaySlotId (Ljava/lang/String;)I
+		ARG 0 slotName

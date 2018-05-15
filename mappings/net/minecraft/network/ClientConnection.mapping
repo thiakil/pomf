@@ -1,6 +1,4 @@
 CLASS hr net/minecraft/network/ClientConnection
-	CLASS hr$1
-		METHOD run ()V
 	FIELD a NETWORK Lorg/apache/logging/log4j/Marker;
 	FIELD b NETWORK_PACKETS Lorg/apache/logging/log4j/Marker;
 	FIELD c ATTR_KEY_PROTOCOL Lio/netty/util/AttributeKey;

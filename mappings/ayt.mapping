@@ -1,1 +1,3 @@
 CLASS ayt
+	METHOD a matches (Lagk;Lbbb;)Z
+		ARG 1 world

@@ -1,2 +1,42 @@
-CLASS apv net/minecraft/entity/mob/EntityDrowned
+CLASS apz net/minecraft/entity/mob/EntityDrowned
+	CLASS apz$a
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+	CLASS apz$d
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+	CLASS apz$e
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+	CLASS apz$f
+		METHOD a tick ()V
+	CLASS apz$g
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS apz$h
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD R_ update ()V
+	METHOD a initEquipment (Lagp;)V
+		ARG 0 difficulty
+	METHOD a (Lagp;Laij;Lawk;)Laij;
+		ARG 0 difficulty
+	METHOD a attackDistant (Laig;F)V
+		ARG 0 target
+	METHOD ae getSoundSwim ()Lvo;
+	METHOD b createNavigation (Lbbb;)Lamc;
+		ARG 0 world
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD dE getSoundStep ()Lvo;
+	METHOD dF getSkull ()Lawk;
 	METHOD w_ initDataTracker ()V

@@ -1,4 +1,4 @@
-CLASS ago net/minecraft/util/ActionResult
-	FIELD a SUCCESS Lago;
-	FIELD b PASS Lago;
-	FIELD c FAILURE Lago;
+CLASS ags net/minecraft/util/ActionResult
+	FIELD a SUCCESS Lags;
+	FIELD b PASS Lags;
+	FIELD c FAILURE Lags;

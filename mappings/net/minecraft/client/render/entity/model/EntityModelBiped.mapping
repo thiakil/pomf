@@ -1,1 +1,51 @@
-CLASS cpw net/minecraft/client/render/entity/model/EntityModelBiped
+CLASS cqa net/minecraft/client/render/entity/model/EntityModelBiped
+	CLASS cqa$a ArmState
+		FIELD a DEFAULT Lcqa$a;
+		FIELD b ITEM Lcqa$a;
+		FIELD c BLOCK Lcqa$a;
+		FIELD d CHARGING Lcqa$a;
+	FIELD c head Lcsd;
+	FIELD d headwear Lcsd;
+	FIELD e body Lcsd;
+	FIELD f armRight Lcsd;
+	FIELD g armLeft Lcsd;
+	FIELD h legRight Lcsd;
+	FIELD i legLeft Lcsd;
+	FIELD j armStateLeft Lcqa$a;
+	FIELD k armStateRight Lcqa$a;
+	FIELD l isSneaking Z
+	METHOD <init> (F)V
+		ARG 0 scale
+	METHOD <init> (FFII)V
+		ARG 0 scale
+		ARG 2 textureWidth
+		ARG 3 textureHeight
+	METHOD a setRotationAngles (FFFFFFLahx;)V
+		ARG 0 limbMoveAngle
+		ARG 1 limbMoveAmount
+		ARG 2 age
+		ARG 3 headYaw
+		ARG 4 headPitch
+		ARG 5 scale
+		ARG 6 entity
+	METHOD a getPreferedHand (Lahx;)Laif;
+		ARG 0 entity
+	METHOD a render (Lahx;FFFFFF)V
+		ARG 0 entity
+		ARG 1 limbMoveAngle
+		ARG 2 limbMoveAmount
+		ARG 3 age
+		ARG 4 headYaw
+		ARG 5 headPitch
+		ARG 6 scale
+	METHOD a getArm (Laif;)Lcsd;
+		ARG 0 hand
+	METHOD a animateModel (Laig;FFF)V
+		ARG 0 entity
+		ARG 1 swingAmount
+		ARG 2 swingDelta
+		ARG 3 deltaTicks
+	METHOD a setAttributes (Lcqi;)V
+		ARG 0 model
+	METHOD a setVisible (Z)V
+		ARG 0 visibility

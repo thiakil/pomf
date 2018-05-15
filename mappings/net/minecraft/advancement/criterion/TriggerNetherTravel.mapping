@@ -7,6 +7,12 @@ CLASS bc net/minecraft/advancement/criterion/TriggerNetherTravel
 		METHOD a isEmpty ()Z
 		METHOD a addCondition (Ls$a;)V
 			ARG 0 condition
+		METHOD a handle (Lsj;Lcgg;DDD)V
+			ARG 0 world
+			ARG 1 enteredCoord
+			ARG 2 exitedX
+			ARG 3 exitedY
+			ARG 4 exitedZ
 		METHOD b removeCondition (Ls$a;)V
 			ARG 0 condition
 	FIELD a ID Loj;
@@ -20,6 +26,9 @@ CLASS bc net/minecraft/advancement/criterion/TriggerNetherTravel
 	METHOD a addCondition (Lot;Ls$a;)V
 		ARG 0 manager
 		ARG 1 condition
+	METHOD a handle (Lsl;Lcgg;)V
+		ARG 0 player
+		ARG 1 enteredCoord
 	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbc$b;
 		ARG 0 obj
 		ARG 1 context

@@ -1,0 +1,46 @@
+CLASS apf net/minecraft/entity/decoration/EntityDecorationBase
+	FIELD b blockPos Lef;
+	FIELD c facing Lel;
+	METHOD <init> (Laib;Lbbb;Lef;)V
+		ARG 2 pos
+	METHOD R_ update ()V
+	METHOD a damage (Lahg;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a copyEntityData (Lahx;)V
+		ARG 0 entity
+	METHOD a move (Laim;DDD)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a onStruckByLightning (Lapo;)V
+		ARG 0 lightning
+	METHOD a dropStack (Lawk;F)Lapr;
+		ARG 0 stack
+		ARG 1 yOffset
+	METHOD a applyMirror (Lbiw;)F
+		ARG 0 mirror
+	METHOD a applyRotation (Lbjz;)F
+		ARG 0 rotation
+	METHOD a setFacing (Lel;)V
+		ARG 0 facing
+	METHOD a deserializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD aD doesCollide ()Z
+	METHOD aF shouldSetPositionOnLoad ()Z
+	METHOD b setPosition (DDD)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+	METHOD b serializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD bD getHorizontalFacing ()Lel;
+	METHOD f addVelocity (DDD)V
+		ARG 0 deltaX
+		ARG 1 deltaY
+		ARG 2 deltaZ
+	METHOD k getWidthPixels ()I
+	METHOD l getHeightPixels ()I
+	METHOD m onDecorationPlaced ()V
+	METHOD n getDecorationBlockPos ()Lef;
+	METHOD w_ initDataTracker ()V

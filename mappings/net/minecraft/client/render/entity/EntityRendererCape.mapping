@@ -1,1 +1,9 @@
-CLASS dco net/minecraft/client/render/entity/EntityRendererCape
+CLASS dcs net/minecraft/client/render/entity/EntityRendererCape
+	FIELD a renderer Lddz;
+	METHOD <init> (Lddz;)V
+		ARG 0 renderer
+	METHOD a shouldMergeTextures ()Z
+	METHOD a render (Laig;FFFFFFF)V
+		ARG 0 entity
+	METHOD a render (Lcun;FFFFFFF)V
+		ARG 0 entity

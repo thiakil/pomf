@@ -1,3 +1,4 @@
-CLASS cbe net/minecraft/fluid/FluidWater
-	CLASS cbe$a Flowing
-	CLASS cbe$b Still
+CLASS cbi net/minecraft/fluid/FluidWater
+	CLASS cbi$a Flowing
+	CLASS cbi$b Still
+	METHOD a getRenderLayer ()Lbaq;

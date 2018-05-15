@@ -1,2 +1,21 @@
-CLASS aps net/minecraft/entity/mob/EntityBlaze
+CLASS apw net/minecraft/entity/mob/EntityBlaze
+	CLASS apw$a
+		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	FIELD c BLAZE_FLAGS Lny;
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD K mobTick ()V
+	METHOD a setFireActive (Z)V
+		ARG 0 value
+	METHOD aX isOnFire ()Z
+	METHOD c handleFallDamage (FF)V
+		ARG 0 fallDistance
+	METHOD ca initAttributes ()V
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD k updateMovement ()V
+	METHOD l isFireActive ()Z
 	METHOD w_ initDataTracker ()V

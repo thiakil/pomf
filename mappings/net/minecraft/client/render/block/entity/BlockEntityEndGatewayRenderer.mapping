@@ -1,3 +1,6 @@
-CLASS cxs net/minecraft/client/render/block/entity/BlockEntityEndGatewayRenderer
+CLASS cxw net/minecraft/client/render/block/entity/BlockEntityEndGatewayRenderer
 	FIELD a SKY_TEX Loj;
-	METHOD a render (Lbna;DDDFI)V
+	FIELD d PORTAL_TEX Loj;
+	FIELD e RANDOM Ljava/util/Random;
+	METHOD a render (Lbmf;DDDFI)V
+	METHOD a render (Lbne;DDDFI)V

@@ -1,6 +1,11 @@
-CLASS clo net/minecraft/client/gui/menu/GuiEndCredits
+CLASS cls net/minecraft/client/gui/menu/GuiEndCredits
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f MINECRAFT_TEX Loj;
+	FIELD h VIGNETTE_TEX Loj;
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY
 		ARG 2 delta
+	METHOD ag_ close ()V
 	METHOD c init ()V
+	METHOD f update ()V

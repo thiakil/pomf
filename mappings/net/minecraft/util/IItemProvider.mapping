@@ -1,1 +1,2 @@
-CLASS baw net/minecraft/util/IItemProvider
+CLASS bba net/minecraft/util/IItemProvider
+	METHOD h getItem ()Lawg;

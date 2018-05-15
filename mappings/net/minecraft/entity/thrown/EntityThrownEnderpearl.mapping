@@ -1,1 +1,7 @@
-CLASS asc net/minecraft/entity/thrown/EntityThrownEnderpearl
+CLASS asg net/minecraft/entity/thrown/EntityThrownEnderpearl
+	FIELD e owner Laig;
+	METHOD R_ update ()V
+	METHOD a onCollision (Lcgd;)V
+		ARG 0 hitResult
+	METHOD d changeWorld (I)Lahx;
+		ARG 0 worldId

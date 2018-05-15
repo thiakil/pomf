@@ -1,1 +1,3 @@
-CLASS cvj net/minecraft/client/render/chunk/ListChunkLayerRenderer
+CLASS cvn net/minecraft/client/render/chunk/ListChunkLayerRenderer
+	METHOD a renderLayer (Lbaq;)V
+		ARG 0 layer

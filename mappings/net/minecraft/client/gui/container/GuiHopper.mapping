@@ -1,5 +1,18 @@
-CLASS cmr net/minecraft/client/gui/container/GuiHopper
+CLASS cmv net/minecraft/client/gui/container/GuiHopper
+	FIELD v BG_TEX Loj;
+	FIELD w playerInv Lagk;
+	FIELD x inventory Lagk;
+	METHOD <init> (Lark;Lagk;)V
+		ARG 0 playerInv
+		ARG 1 inventory
+	METHOD a drawBackground (FII)V
+		ARG 0 delta
+		ARG 1 mouseX
+		ARG 2 mouseY
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY
 		ARG 2 delta
+	METHOD c drawForeground (II)V
+		ARG 0 mouseX
+		ARG 1 mouseY

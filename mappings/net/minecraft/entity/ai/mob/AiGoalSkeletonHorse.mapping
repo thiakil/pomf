@@ -1,1 +1,6 @@
-CLASS anw net/minecraft/entity/ai/mob/AiGoalSkeletonHorse
+CLASS aoa net/minecraft/entity/ai/mob/AiGoalSkeletonHorse
+	FIELD a owner Lanz;
+	METHOD <init> (Lanz;)V
+		ARG 0 owner
+	METHOD a canStart ()Z
+	METHOD e tick ()V

@@ -7,6 +7,8 @@ CLASS av net/minecraft/advancement/criterion/TriggerOnKilled
 		METHOD a isEmpty ()Z
 		METHOD a addCondition (Ls$a;)V
 			ARG 0 condition
+		METHOD a handle (Lsl;Lahx;Lahg;)V
+			ARG 0 player
 		METHOD b removeCondition (Ls$a;)V
 			ARG 0 condition
 	FIELD a handlers Ljava/util/Map;
@@ -22,6 +24,9 @@ CLASS av net/minecraft/advancement/criterion/TriggerOnKilled
 	METHOD a addCondition (Lot;Ls$a;)V
 		ARG 0 manager
 		ARG 1 condition
+	METHOD a handle (Lsl;Lahx;Lahg;)V
+		ARG 0 player
+		ARG 1 entity
 	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lav$b;
 		ARG 0 obj
 		ARG 1 context

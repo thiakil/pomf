@@ -1,4 +1,9 @@
-CLASS ajq net/minecraft/entity/ai/passive/AiGoalFishSchool
+CLASS aju net/minecraft/entity/ai/passive/AiGoalFishSchool
+	FIELD a owner Lamt;
+	FIELD b schoolMember Lamt;
+	FIELD c pathCooldown I
+	METHOD <init> (Lamt;)V
+		ARG 0 owner
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V

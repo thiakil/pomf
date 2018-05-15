@@ -1,1 +1,3 @@
-CLASS blr net/minecraft/block/BlockPressurePlateWeighted
+CLASS blv net/minecraft/block/BlockPressurePlateWeighted
+	FIELD t POWER Lbox;
+	FIELD u maxWeight I

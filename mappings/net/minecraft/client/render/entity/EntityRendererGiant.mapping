@@ -1,1 +1,8 @@
-CLASS dae net/minecraft/client/render/entity/EntityRendererGiant
+CLASS dai net/minecraft/client/render/entity/EntityRendererGiant
+	CLASS dai$1
+		METHOD ao_ init ()V
+	FIELD a SKIN Loj;
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Laqg;)Loj;
+		ARG 0 model

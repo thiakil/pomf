@@ -1,1 +1,5 @@
-CLASS cux net/minecraft/client/render/item/ItemBuiltinRenderer
+CLASS cvb net/minecraft/client/render/item/ItemBuiltinRenderer
+	FIELD a INSTANCE Lcvb;
+	FIELD f renderChestEnder Lbmq;
+	FIELD g renderBanner Lbmb;
+	FIELD i renderSkull Lbnb;

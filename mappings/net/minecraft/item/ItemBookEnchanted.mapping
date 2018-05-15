@@ -1,1 +1,17 @@
-CLASS avk net/minecraft/item/ItemBookEnchanted
+CLASS avo net/minecraft/item/ItemBookEnchanted
+	METHOD a addStacksForDisplay (Lave;Leu;)V
+		ARG 1 items
+	METHOD a isTool (Lawk;)Z
+		ARG 0 stack
+	METHOD a addEnchantment (Lawk;Lazm;)V
+		ARG 0 stack
+		ARG 1 enchantmentInfo
+	METHOD a addInformation (Lawk;Lbbb;Ljava/util/List;Laxs;)V
+		ARG 0 stack
+		ARG 2 tooltip
+	METHOD b hasEnchantmentGlow (Lawk;)Z
+		ARG 0 stack
+	METHOD e getRarity (Lawk;)Laww;
+		ARG 0 stack
+	METHOD f getEnchantmentTag (Lawk;)Lha;
+		ARG 0 stack

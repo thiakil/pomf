@@ -1,1 +1,35 @@
-CLASS cgx net/minecraft/scoreboard/ScoreboardTeam
+CLASS chb net/minecraft/scoreboard/ScoreboardTeam
+	FIELD a scoreboard Lchd;
+	FIELD b name Ljava/lang/String;
+	FIELD c playerList Ljava/util/Set;
+	FIELD d displayName Ljava/lang/String;
+	FIELD g friendlyFire Z
+	FIELD h showFriendlyInvisibles Z
+	FIELD i nameTagVisibilityRule Lchf$b;
+	FIELD j deathMessageVisibilityRule Lchf$b;
+	FIELD k displayFormat La;
+	FIELD l collisionRule Lchf$a;
+	METHOD a setFriendlyFlagsBitwise (I)V
+		ARG 0 value
+	METHOD a setCollisionRule (Lchf$a;)V
+		ARG 0 value
+	METHOD a setNameTagVisibilityRule (Lchf$b;)V
+		ARG 0 value
+	METHOD a setDisplayName (Ljava/lang/String;)V
+		ARG 0 value
+	METHOD a setFriendlyFireAllowed (Z)V
+		ARG 0 value
+	METHOD b getName ()Ljava/lang/String;
+	METHOD b setDeathMessageVisibilityRule (Lchf$b;)V
+		ARG 0 value
+	METHOD b setShowFriendlyInvisibles (Z)V
+		ARG 0 value
+	METHOD c getDisplayName ()Ljava/lang/String;
+	METHOD g getPlayerList ()Ljava/util/Collection;
+	METHOD h isFriendlyFireAllowed ()Z
+	METHOD i shouldShowFriendlyInvisibles ()Z
+	METHOD j getNameTagVisibilityRule ()Lchf$b;
+	METHOD k getDeathMessageVisibilityRule ()Lchf$b;
+	METHOD l getCollisionRule ()Lchf$a;
+	METHOD m getFriendlyFlagsBitwise ()I
+	METHOD n getTeamColor ()La;

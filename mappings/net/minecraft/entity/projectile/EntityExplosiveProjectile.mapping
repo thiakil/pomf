@@ -1,1 +1,18 @@
-CLASS arm net/minecraft/entity/projectile/EntityExplosiveProjectile
+CLASS arq net/minecraft/entity/projectile/EntityExplosiveProjectile
+	FIELD a owner Laig;
+	FIELD e life I
+	METHOD R_ update ()V
+	METHOD a shouldRender (D)Z
+		ARG 0 distanceSq
+	METHOD a damage (Lahg;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a onCollision (Lcgd;)V
+		ARG 0 hit
+	METHOD a deserializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD aD doesCollide ()Z
+	METHOD b serializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD i getParticleType ()Lfg;
+	METHOD w_ initDataTracker ()V

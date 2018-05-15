@@ -1,2 +1,3 @@
-CLASS azs net/minecraft/enchantment/EnchantmentSweeping
+CLASS azw net/minecraft/enchantment/EnchantmentSweeping
+	METHOD a getTranslationKey ()Ljava/lang/String;
 	METHOD b getHighestLevel ()I

@@ -1,1 +1,10 @@
-CLASS dbs net/minecraft/client/render/entity/EntityRendererProjectileItem
+CLASS dbw net/minecraft/client/render/entity/EntityRendererProjectileItem
+	FIELD a item Lawg;
+	FIELD f itemRenderer Ldaq;
+	METHOD <init> (Lczz;Lawg;Ldaq;)V
+		ARG 0 renderManager
+		ARG 1 item
+		ARG 2 itemRenderer
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD e getItemStack (Lahx;)Lawk;

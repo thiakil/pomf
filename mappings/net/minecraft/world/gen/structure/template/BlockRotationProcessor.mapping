@@ -1,1 +1,9 @@
-CLASS bzm net/minecraft/world/gen/structure/template/BlockRotationProcessor
+CLASS bzq net/minecraft/world/gen/structure/template/BlockRotationProcessor
+	FIELD a integrity F
+	FIELD b random Ljava/util/Random;
+	METHOD <init> (Lef;Lbzs;)V
+		ARG 0 pos
+		ARG 1 settings
+	METHOD a process (Lbap;Lef;Lbzu$b;)Lbzu$b;
+		ARG 1 pos
+		ARG 2 blockInfo

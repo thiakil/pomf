@@ -1,6 +1,17 @@
-CLASS amr net/minecraft/entity/passive/EntityAnimal
+CLASS amv net/minecraft/entity/passive/EntityAnimal
+	FIELD bA loveCause Ljava/util/UUID;
+	FIELD bC spawningGround Lbfq;
+	FIELD bz inLove I
 	METHOD K mobTick ()V
+	METHOD a damage (Lahg;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a interactMob (Larl;Lagq;)Z
+		ARG 0 player
+		ARG 1 playerHand
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
+	METHOD aK getHeightOffset ()D
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
+	METHOD k updateMovement ()V

@@ -1,1 +1,5 @@
-CLASS azk net/minecraft/enchantment/EnchantmentFireAspect
+CLASS azo net/minecraft/enchantment/EnchantmentFireAspect
+	METHOD <init> (Lazj$a;[Laic;)V
+		ARG 0 weight
+		ARG 1 slotTypes
+	METHOD b getHighestLevel ()I

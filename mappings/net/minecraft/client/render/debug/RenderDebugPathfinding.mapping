@@ -1,3 +1,8 @@
-CLASS cys net/minecraft/client/render/debug/RenderDebugPathfinding
+CLASS cyw net/minecraft/client/render/debug/RenderDebugPathfinding
+	FIELD a game Lcht;
+	FIELD e player Larl;
+	FIELD f viewX D
+	FIELD g viewY D
+	FIELD h viewZ D
 	METHOD a render (FJ)V
 		ARG 0 tickDelta

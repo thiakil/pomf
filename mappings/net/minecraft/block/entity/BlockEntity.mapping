@@ -1,7 +1,25 @@
-CLASS bmb net/minecraft/block/entity/BlockEntity
+CLASS bmf net/minecraft/block/entity/BlockEntity
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c_ world Lbbb;
+	FIELD d invalid Z
+	FIELD d_ pos Lef;
+	FIELD f state Lbnz;
+	METHOD A resetState ()V
+	METHOD G getWorld ()Lbbb;
 	METHOD Z_ getUpdatePacket ()Ljc;
+	METHOD a setWorld (Lbbb;)V
 	METHOD a serialize (Lgu;)Lgu;
 		ARG 0 tag
 	METHOD aa_ serializeInitialChunkData ()Lgu;
 	METHOD b deserialize (Lgu;)V
 		ARG 0 tag
+	METHOD c readBlockEntityFromTag (Lgu;)Lbmf;
+	METHOD d writeToTag (Lgu;)Lgu;
+		ARG 0 tag
+	METHOD t getSquaredRenderDistance ()D
+	METHOD u hasWorld ()Z
+	METHOD v getPos ()Lef;
+	METHOD w getBlockState ()Lbnz;
+	METHOD x isInvalid ()Z
+	METHOD y invalidate ()V
+	METHOD z validate ()V

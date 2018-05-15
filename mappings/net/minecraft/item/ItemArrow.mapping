@@ -1,1 +1,5 @@
-CLASS aug net/minecraft/item/ItemArrow
+CLASS auk net/minecraft/item/ItemArrow
+	METHOD a createEntityArrow (Lbbb;Lawk;Laig;)Larp;
+		ARG 0 world
+		ARG 1 stack
+		ARG 2 owner

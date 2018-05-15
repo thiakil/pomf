@@ -1,1 +1,79 @@
-CLASS bys net/minecraft/world/gen/structure/StructurePiecesNetherFortress
+CLASS byw net/minecraft/world/gen/structure/StructurePiecesNetherFortress
+	CLASS byw$a
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+	CLASS byw$b
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+		METHOD a serializeStructureData (Lgu;)V
+			ARG 0 tag
+		METHOD a deserializeStructureData (Lgu;Lbzr;)V
+			ARG 0 tag
+	CLASS byw$c
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+	CLASS byw$d
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+	CLASS byw$e
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+	CLASS byw$f
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+	CLASS byw$g
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+	CLASS byw$h
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+		METHOD a serializeStructureData (Lgu;)V
+			ARG 0 tag
+		METHOD a deserializeStructureData (Lgu;Lbzr;)V
+			ARG 0 tag
+	CLASS byw$i
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+	CLASS byw$j
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+		METHOD a serializeStructureData (Lgu;)V
+			ARG 0 tag
+		METHOD a deserializeStructureData (Lgu;Lbzr;)V
+			ARG 0 tag
+	CLASS byw$k
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+	CLASS byw$l
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+		METHOD a serializeStructureData (Lgu;)V
+			ARG 0 tag
+		METHOD a deserializeStructureData (Lgu;Lbzr;)V
+			ARG 0 tag
+	CLASS byw$m
+		METHOD a serializeStructureData (Lgu;)V
+			ARG 0 tag
+		METHOD a deserializeStructureData (Lgu;Lbzr;)V
+			ARG 0 tag
+	CLASS byw$o
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+	CLASS byw$p
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+			ARG 1 rand
+			ARG 2 region
+	METHOD a registerPieces ()V

@@ -1,3 +1,0 @@
-CLASS cfc
-	CLASS cfc$a
-		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfc;Lcom/google/gson/JsonSerializationContext;)V

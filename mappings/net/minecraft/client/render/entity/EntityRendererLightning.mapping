@@ -1,1 +1,5 @@
-CLASS dap net/minecraft/client/render/entity/EntityRendererLightning
+CLASS dat net/minecraft/client/render/entity/EntityRendererLightning
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Lapo;)Loj;
+		ARG 0 model

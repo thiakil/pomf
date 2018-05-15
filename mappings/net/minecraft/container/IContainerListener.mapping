@@ -1,1 +1,15 @@
-CLASS atc net/minecraft/container/IContainerListener
+CLASS atg net/minecraft/container/IContainerListener
+	METHOD a onContainerPropertyUpdate (Lata;II)V
+		ARG 0 container
+		ARG 1 propertyId
+		ARG 2 newValue
+	METHOD a onContainerSlotUpdate (Lata;ILawk;)V
+		ARG 0 container
+		ARG 1 slotId
+		ARG 2 newStack
+	METHOD a onContainerInvRegistered (Lata;Lagk;)V
+		ARG 0 container
+		ARG 1 inventory
+	METHOD a onContainerRegistered (Lata;Leu;)V
+		ARG 0 container
+		ARG 1 stacks

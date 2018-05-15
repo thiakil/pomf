@@ -1,1 +1,5 @@
-CLASS anm net/minecraft/entity/mob/EntityAquatic
+CLASS anq net/minecraft/entity/mob/EntityAquatic
+	METHOD X updateLogic ()V
+	METHOD a canBeLeashedBy (Larl;)Z
+		ARG 0 player
+	METHOD cB getEntityAttribute ()Lail;

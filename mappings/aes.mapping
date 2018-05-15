@@ -1,0 +1,2 @@
+CLASS aes
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;

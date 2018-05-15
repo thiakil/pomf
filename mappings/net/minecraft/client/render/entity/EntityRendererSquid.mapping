@@ -1,2 +1,6 @@
-CLASS dbq net/minecraft/client/render/entity/EntityRendererSquid
+CLASS dbu net/minecraft/client/render/entity/EntityRendererSquid
 	FIELD a SKIN Loj;
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Lanm;)Loj;
+		ARG 0 model

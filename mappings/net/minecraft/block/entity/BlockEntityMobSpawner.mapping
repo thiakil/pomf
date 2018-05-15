@@ -1,6 +1,15 @@
-CLASS bmt net/minecraft/block/entity/BlockEntityMobSpawner
+CLASS bmx net/minecraft/block/entity/BlockEntityMobSpawner
+	CLASS bmx$1
+		METHOD a getWorld ()Lbbb;
+		METHOD a setSpawnEntry (Lbbp;)V
+			ARG 0 value
+		METHOD b getPos ()Lef;
+	FIELD a logic Lban;
 	METHOD Y_ update ()V
+	METHOD Z_ getUpdatePacket ()Ljc;
 	METHOD a serialize (Lgu;)Lgu;
 		ARG 0 tag
+	METHOD aa_ serializeInitialChunkData ()Lgu;
 	METHOD b deserialize (Lgu;)V
 		ARG 0 tag
+	METHOD c getLogic ()Lban;

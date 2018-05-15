@@ -1,2 +1,5 @@
 CLASS ayu
+	METHOD a matches (Lagk;Lbbb;)Z
+		ARG 1 world
+	METHOD d getOutput ()Lawk;
 	METHOD e getPreviewInputs ()Leu;

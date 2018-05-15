@@ -1,2 +1,7 @@
-CLASS dad net/minecraft/client/render/entity/EntityRendererGhast
+CLASS dah net/minecraft/client/render/entity/EntityRendererGhast
 	FIELD a SKIN Loj;
+	FIELD j ANGRY_SKIN Loj;
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Laqf;)Loj;
+		ARG 0 model

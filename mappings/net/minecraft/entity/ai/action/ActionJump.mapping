@@ -1,2 +1,7 @@
-CLASS ajb net/minecraft/entity/ai/action/ActionJump
+CLASS ajf net/minecraft/entity/ai/action/ActionJump
+	FIELD a active Z
+	FIELD b entity Laih;
+	METHOD <init> (Laih;)V
+		ARG 0 entity
 	METHOD a setActive ()V
+	METHOD b tick ()V

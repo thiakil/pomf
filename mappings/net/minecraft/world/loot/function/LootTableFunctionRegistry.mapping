@@ -1,2 +1,12 @@
-CLASS cex net/minecraft/world/loot/function/LootTableFunctionRegistry
-	CLASS cex$a DeSerializer
+CLASS cfb net/minecraft/world/loot/function/LootTableFunctionRegistry
+	CLASS cfb$a DeSerializer
+		METHOD a serialize (Lcfa;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lcfa;
+	FIELD a IDENTIFIER_TO_SERIALIZER Ljava/util/Map;
+	FIELD b CLASS_TO_SERIALIZER Ljava/util/Map;
+	METHOD a registerFunction (Lcfa$a;)V
+		ARG 0 serializer
+	METHOD a getSerializer (Lcfa;)Lcfa$a;
+		ARG 0 functionClass
+	METHOD a getSerializer (Loj;)Lcfa$a;
+		ARG 0 id

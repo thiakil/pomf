@@ -1,1 +1,4 @@
-CLASS aia net/minecraft/entity/mob/EntityFlying
+CLASS aie net/minecraft/entity/mob/EntityFlying
+	METHOD c handleFallDamage (FF)V
+		ARG 0 fallDistance
+	METHOD y_ canClimb ()Z

@@ -1,1 +1,2 @@
-CLASS cgq net/minecraft/util/math/shapes/ShapeUtils
+CLASS cgu net/minecraft/util/math/shapes/ShapeUtils
+	CLASS cgu$a LineConsumer

@@ -1,1 +1,29 @@
-CLASS auq net/minecraft/item/ItemBow
+CLASS auu net/minecraft/item/ItemBow
+	CLASS auu$1
+		METHOD a getProperty (Lawk;Lbbb;Laig;)F
+			ARG 0 stack
+			ARG 1 world
+			ARG 2 user
+	CLASS auu$2
+		METHOD a getProperty (Lawk;Lbbb;Laig;)F
+			ARG 0 stack
+			ARG 1 world
+			ARG 2 user
+	METHOD a getAmmo (Larl;)Lawk;
+		ARG 0 player
+	METHOD a onItemStopUsing (Lawk;Lbbb;Laig;I)V
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 player
+		ARG 3 remainingTime
+	METHOD a onRightClick (Lbbb;Larl;Lagq;)Lagt;
+		ARG 0 world
+		ARG 1 player
+		ARG 2 hand
+	METHOD c getEnchantability ()I
+	METHOD c getMaxUseTime (Lawk;)I
+		ARG 0 stack
+	METHOD d getUseAction (Lawk;)Laxu;
+		ARG 0 stack
+	METHOD e_ isAmmo (Lawk;)Z
+		ARG 0 stack

@@ -1,1 +1,2 @@
-CLASS ayx net/minecraft/enchantment/EnchantmentPower
+CLASS azb net/minecraft/enchantment/EnchantmentPower
+	METHOD b getHighestLevel ()I

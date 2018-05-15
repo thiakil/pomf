@@ -1,0 +1,21 @@
+CLASS csj net/minecraft/client/network/handler/NetworkLoginHandlerClient
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b game Lcht;
+	FIELD c parentGui Lcll;
+	FIELD d connection Lhr;
+	FIELD e playerProfile Lcom/mojang/authlib/GameProfile;
+	METHOD <init> (Lhr;Lcht;Lcll;)V
+		ARG 0 connection
+		ARG 1 game
+		ARG 2 parentGui
+	METHOD a onConnectionLost (Lic;)V
+		ARG 0 reason
+	METHOD a onLoginSuccess (Lnh;)V
+		ARG 0 packet
+	METHOD a onLoginEncryptionRequest (Lni;)V
+		ARG 0 packet
+	METHOD a onLoginCompression (Lnj;)V
+		ARG 0 packet
+	METHOD a onLoginDisconnect (Lnk;)V
+		ARG 0 packet
+	METHOD b getSessionService ()Lcom/mojang/authlib/minecraft/MinecraftSessionService;

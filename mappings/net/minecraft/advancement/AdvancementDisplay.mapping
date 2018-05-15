@@ -1,7 +1,12 @@
 CLASS u net/minecraft/advancement/AdvancementDisplay
 	FIELD a title Lic;
+	FIELD c icon Lawk;
 	FIELD d background Loj;
 	FIELD e frame Lv;
+	METHOD <init> (Lawk;Lic;Lic;Loj;Lv;ZZZ)V
+		ARG 2 title
+		ARG 3 background
+		ARG 4 frame
 	METHOD a getTitle ()Lic;
 	METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lu;
 		ARG 0 obj
@@ -10,5 +15,6 @@ CLASS u net/minecraft/advancement/AdvancementDisplay
 		ARG 0 buf
 	METHOD b readFromBuffer (Lht;)Lu;
 		ARG 0 buf
+	METHOD c getIcon ()Lawk;
 	METHOD d getBackground ()Loj;
 	METHOD e getFrame ()Lv;

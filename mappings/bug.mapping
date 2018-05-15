@@ -1,0 +1,9 @@
+CLASS bug
+	CLASS bug$a StructureMonument
+		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)V
+			ARG 1 rand
+			ARG 2 region
+		METHOD a serializeCustomData (Lgu;)V
+			ARG 0 tag
+		METHOD b deserializeCustomData (Lgu;)V
+			ARG 0 tag

@@ -1,1 +1,15 @@
-CLASS bts net/minecraft/world/gen/decorator/DecoratorMegaTree
+CLASS btw net/minecraft/world/gen/decorator/DecoratorMegaTree
+	FIELD a minHeight I
+	FIELD d variability I
+	METHOD <init> (ZIILbnz;Lbnz;)V
+		ARG 0 doBlockUpdates
+		ARG 1 minHeight
+		ARG 2 variability
+	METHOD a isSpaceSuitable (Lbap;Lef;I)Z
+		ARG 1 pos
+		ARG 2 treeHeight
+	METHOD a canTreeGenerate (Lbbc;Lef;I)Z
+		ARG 1 pos
+		ARG 2 treeHeight
+	METHOD a getTreeHeight (Ljava/util/Random;)I
+		ARG 0 random

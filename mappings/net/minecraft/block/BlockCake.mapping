@@ -1,1 +1,20 @@
-CLASS bfx net/minecraft/block/BlockCake
+CLASS bgb net/minecraft/block/BlockCake
+	FIELD a BITES Lbox;
+	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a getComparatorOutput (Lbnz;Lbbb;Lef;)I
+		ARG 1 world
+		ARG 2 pos
+	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;
+	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ

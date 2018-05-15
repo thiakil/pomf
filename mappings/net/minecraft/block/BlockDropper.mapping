@@ -1,1 +1,4 @@
-CLASS bgz net/minecraft/block/BlockDropper
+CLASS bhd net/minecraft/block/BlockDropper
+	METHOD a getDispenserBehavior (Lawk;)Len;
+		ARG 0 stack
+	METHOD a createBlockEntity (Lbap;)Lbmf;

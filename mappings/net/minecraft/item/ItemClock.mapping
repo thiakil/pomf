@@ -1,1 +1,6 @@
-CLASS auv net/minecraft/item/ItemClock
+CLASS ava net/minecraft/item/ItemClock
+	CLASS ava$1
+		METHOD a getProperty (Lawk;Lbbb;Laig;)F
+			ARG 0 stack
+			ARG 1 world
+			ARG 2 user

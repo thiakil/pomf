@@ -1,5 +1,17 @@
-CLASS akg net/minecraft/entity/ai/mob/AiGoalMeleeAttack
+CLASS akk net/minecraft/entity/ai/mob/AiGoalMeleeAttack
+	FIELD a owner Laio;
+	FIELD b attackCooldown I
+	FIELD d followSpeed D
+	METHOD <init> (Laio;DZ)V
+		ARG 0 owner
+		ARG 1 followSpeed
 	METHOD a canStart ()Z
+	METHOD a getAttackRangeSquared (Laig;)D
+		ARG 0 target
+	METHOD a attackTarget (Laig;D)V
+		ARG 0 target
+		ARG 1 squaredDistance
 	METHOD b shouldContinue ()Z
+	METHOD c start ()V
 	METHOD d stop ()V
 	METHOD e tick ()V

@@ -1,1 +1,31 @@
-CLASS ana net/minecraft/entity/passive/EntityPig
+CLASS ane net/minecraft/entity/passive/EntityPig
+	FIELD bz SADDLED Lny;
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
+	METHOD a onDeath (Lahg;)V
+		ARG 0 damageSource
+	METHOD a createChild (Lahu;)Lahu;
+		ARG 0 other
+	METHOD a onStruckByLightning (Lapo;)V
+		ARG 0 lightning
+	METHOD a interactMob (Larl;Lagq;)Z
+		ARG 0 player
+		ARG 1 playerHand
+	METHOD a playStepSound (Lef;Lbfq;)V
+		ARG 0 pos
+		ARG 1 block
+	METHOD a deserializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD a onTrackedDataSet (Lny;)V
+		ARG 0 data
+	METHOD b createChild (Lahu;)Lane;
+		ARG 0 other
+	METHOD b serializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD ca initAttributes ()V
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD dC isSaddled ()Z
+	METHOD s setSaddled (Z)V
+		ARG 0 value
+	METHOD w_ initDataTracker ()V

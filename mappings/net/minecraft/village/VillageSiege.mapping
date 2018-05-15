@@ -1,1 +1,2 @@
-CLASS amj net/minecraft/village/VillageSiege
+CLASS amn net/minecraft/village/VillageSiege
+	FIELD a world Lbbb;

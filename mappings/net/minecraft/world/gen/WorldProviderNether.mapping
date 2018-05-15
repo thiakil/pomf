@@ -1,1 +1,9 @@
-CLASS bqg net/minecraft/world/gen/WorldProviderNether
+CLASS bqk net/minecraft/world/gen/WorldProviderNether
+	CLASS bqk$1
+		METHOD f getCenterX ()D
+		METHOD g getCenterZ ()D
+	METHOD b getFogColor (FF)Lcgg;
+	METHOD j createWorldBorderHandler ()Lbpc;
+	METHOD m setupBiomeProvider ()V
+	METHOD o hasClouds ()Z
+	METHOD q getWorldType ()Lbqj;

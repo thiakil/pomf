@@ -7,6 +7,7 @@ CLASS af net/minecraft/advancement/criterion/TriggerCuredZombieVillager
 		METHOD a isEmpty ()Z
 		METHOD a addCondition (Ls$a;)V
 			ARG 0 condition
+		METHOD a handle (Lsl;Larb;Larg;)V
 		METHOD b removeCondition (Ls$a;)V
 			ARG 0 condition
 	FIELD a ID Loj;
@@ -20,6 +21,10 @@ CLASS af net/minecraft/advancement/criterion/TriggerCuredZombieVillager
 	METHOD a addCondition (Lot;Ls$a;)V
 		ARG 0 manager
 		ARG 1 condition
+	METHOD a handle (Lsl;Larb;Larg;)V
+		ARG 0 player
+		ARG 1 zombie
+		ARG 2 villager
 	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Laf$b;
 		ARG 0 obj
 		ARG 1 context

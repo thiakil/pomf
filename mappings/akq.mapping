@@ -1,3 +1,5 @@
 CLASS akq
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
+	METHOD d stop ()V
+	METHOD e tick ()V

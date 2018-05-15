@@ -1,1 +1,5 @@
 CLASS vz net/minecraft/stat/StatManager
+	METHOD b increase (Larl;Lvv;I)V
+		ARG 0 player
+		ARG 1 stat
+		ARG 2 amount

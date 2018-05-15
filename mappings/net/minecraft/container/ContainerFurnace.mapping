@@ -1,1 +1,12 @@
-CLASS ati net/minecraft/container/ContainerFurnace
+CLASS atm net/minecraft/container/ContainerFurnace
+	METHOD a canUse (Larl;)Z
+		ARG 0 player
+	METHOD a addListener (Latg;)V
+		ARG 0 listener
+	METHOD b sendContentUpdates ()V
+	METHOD b setProperty (II)V
+		ARG 0 pos
+		ARG 1 value
+	METHOD b getStack (Larl;I)Lawk;
+		ARG 0 player
+		ARG 1 slot

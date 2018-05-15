@@ -1,1 +1,3 @@
-CLASS cxb net/minecraft/client/render/block/state/IStateModelMapper
+CLASS cxf net/minecraft/client/render/block/state/IStateModelMapper
+	METHOD a getStateMap (Lbfq;)Ljava/util/Map;
+		ARG 0 block

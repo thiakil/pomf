@@ -1,1 +1,14 @@
-CLASS axu net/minecraft/item/ItemBookWritten
+CLASS axy net/minecraft/item/ItemBookWritten
+	METHOD a addInformation (Lawk;Lbbb;Ljava/util/List;Laxs;)V
+		ARG 0 stack
+		ARG 2 tooltip
+	METHOD a onRightClick (Lbbb;Larl;Lagq;)Lagt;
+		ARG 0 world
+		ARG 1 player
+		ARG 2 hand
+	METHOD b hasEnchantmentGlow (Lawk;)Z
+		ARG 0 stack
+	METHOD f getBookGeneration (Lawk;)I
+		ARG 0 stack
+	METHOD i getTranslatedNameTrimmed (Lawk;)Lic;
+		ARG 0 stack

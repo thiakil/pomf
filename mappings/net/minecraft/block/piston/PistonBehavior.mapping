@@ -1,1 +1,5 @@
-CLASS cbd net/minecraft/block/piston/PistonBehavior
+CLASS cbh net/minecraft/block/piston/PistonBehavior
+	FIELD a MOVE Lcbh;
+	FIELD b BREAK Lcbh;
+	FIELD c BLOCK Lcbh;
+	FIELD d IGNORE Lcbh;

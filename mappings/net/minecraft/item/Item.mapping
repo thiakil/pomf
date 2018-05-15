@@ -1,1 +1,115 @@
-CLASS awc net/minecraft/item/Item
+CLASS awg net/minecraft/item/Item
+	CLASS awg$1
+		METHOD a getProperty (Lawk;Lbbb;Laig;)F
+			ARG 0 stack
+			ARG 1 world
+			ARG 2 user
+	CLASS awg$2
+		METHOD a getProperty (Lawk;Lbbb;Laig;)F
+			ARG 0 stack
+			ARG 1 world
+			ARG 2 user
+	CLASS awg$3
+		METHOD a getProperty (Lawk;Lbbb;Laig;)F
+			ARG 0 stack
+			ARG 1 world
+			ARG 2 user
+	CLASS awg$4
+		METHOD a getProperty (Lawk;Lbbb;Laig;)F
+			ARG 0 stack
+			ARG 1 world
+			ARG 2 user
+	CLASS awg$a Builder
+		FIELD a maxStackSize I
+		FIELD b damage I
+		FIELD c containerItem Lawg;
+		FIELD d tab Lave;
+		METHOD a withMaxStackSize (I)Lawg$a;
+			ARG 0 value
+		METHOD a withTab (Lave;)Lawg$a;
+		METHOD a withContainerItem (Lawg;)Lawg$a;
+		METHOD b withDamage (I)Lawg$a;
+			ARG 0 value
+		METHOD c setDamage (I)Lawg$a;
+			ARG 0 value
+	FIELD a DAMAGED_PROPERTY Lawj;
+	FIELD b DAMAGE_PROPERTY Lawj;
+	FIELD c LEFTHANDED_PROPERTY Lawj;
+	FIELD d COOLDOWN_PROPERTY Lawj;
+	FIELD e propertyRegistry Lex;
+	FIELD f REGISTRY Let;
+	FIELD j tab Lave;
+	FIELD l maxStackSize I
+	FIELD m damage I
+	FIELD n containerItem Lawg;
+	FIELD o item Ljava/lang/String;
+	METHOD W_ isMap ()Z
+	METHOD a getTranslationKey ()Ljava/lang/String;
+	METHOD a getAttributeModifiers (Laic;)Lcom/google/common/collect/Multimap;
+		ARG 0 effectiveSlot
+	METHOD a register (Lauo;)V
+	METHOD a isInTab (Lave;)Z
+	METHOD a addStacksForDisplay (Lave;Leu;)V
+		ARG 1 items
+	METHOD a isTool (Lawk;)Z
+		ARG 0 stack
+	METHOD a onEntityDamaged (Lawk;Laig;Laig;)Z
+		ARG 0 stack
+		ARG 1 target
+		ARG 2 user
+	METHOD a canRepair (Lawk;Lawk;)Z
+		ARG 0 item
+		ARG 1 repairItem
+	METHOD a onUpdate (Lawk;Lbbb;Lahx;IZ)V
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 invSlot
+		ARG 4 held
+	METHOD a onItemFinishedUsing (Lawk;Lbbb;Laig;)Lawk;
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 user
+	METHOD a onItemStopUsing (Lawk;Lbbb;Laig;I)V
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 player
+		ARG 3 remainingTime
+	METHOD a onBlockBroken (Lawk;Lbbb;Lbnz;Lef;Laig;)Z
+		ARG 0 stack
+		ARG 1 world
+		ARG 3 pos
+		ARG 4 user
+	METHOD a addInformation (Lawk;Lbbb;Ljava/util/List;Laxs;)V
+		ARG 0 stack
+		ARG 2 tooltip
+	METHOD a onRightClick (Lbbb;Larl;Lagq;)Lagt;
+		ARG 0 world
+		ARG 1 player
+		ARG 2 hand
+	METHOD a rayTrace (Lbbb;Larl;Z)Lcgd;
+	METHOD a getItemFromBlock (Lbfq;)Lawg;
+	METHOD a registerItemBlock (Lbfq;Lave;)V
+	METHOD a register (Ljava/lang/String;Lawg;)V
+	METHOD a registerProperty (Loj;Lawj;)V
+	METHOD b hasEnchantmentGlow (Lawk;)Z
+		ARG 0 stack
+	METHOD b onCrafted (Lawk;Lbbb;Larl;)V
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 player
+	METHOD c getEnchantability ()I
+	METHOD c getMaxUseTime (Lawk;)I
+		ARG 0 stack
+	METHOD d getUseAction (Lawk;)Laxu;
+		ARG 0 stack
+	METHOD e getRarity (Lawk;)Laww;
+		ARG 0 stack
+	METHOD h getItem ()Lawg;
+	METHOD i getTranslatedNameTrimmed (Lawk;)Lic;
+		ARG 0 stack
+	METHOD m getUnlocalizedName ()Ljava/lang/String;
+	METHOD o getContainerItem ()Lawg;
+	METHOD p hasContainerItem ()Z
+	METHOD q getCreativeTab ()Lave;
+	METHOD r registerItems ()V

@@ -1,9 +1,13 @@
 CLASS jg net/minecraft/network/packet/client/CPacketDifficulty
+	FIELD a difficulty Lago;
+	METHOD <init> (Lago;Z)V
+		ARG 0 difficulty
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf
 	METHOD a applyPacket (Lhw;)V
 		ARG 0 handler
 	METHOD a applyPacket (Lis;)V
 		ARG 0 handler
+	METHOD b getDifficulty ()Lago;
 	METHOD b writePacket (Lht;)V
 		ARG 0 buf

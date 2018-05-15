@@ -1,0 +1,11 @@
+CLASS aui ArmorMaterial
+	FIELD a LEATHER Laui;
+	FIELD b CHAINMAIL Laui;
+	FIELD c IRON Laui;
+	FIELD d GOLD Laui;
+	FIELD e DIAMOND Laui;
+	FIELD f TURTLE Laui;
+	METHOD a (Laic;)I
+		ARG 0 slot
+	METHOD b (Laic;)I
+		ARG 0 slot

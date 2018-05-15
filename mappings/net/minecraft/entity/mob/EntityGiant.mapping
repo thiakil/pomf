@@ -1,4 +1,4 @@
-CLASS aqc net/minecraft/entity/mob/EntityGiant
+CLASS aqg net/minecraft/entity/mob/EntityGiant
 	METHOD H getLootTableId ()Loj;
 	METHOD bI getEyeHeight ()F
 	METHOD ca initAttributes ()V

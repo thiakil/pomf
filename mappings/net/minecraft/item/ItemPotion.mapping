@@ -1,1 +1,20 @@
-CLASS awr net/minecraft/item/ItemPotion
+CLASS awv net/minecraft/item/ItemPotion
+	METHOD a addStacksForDisplay (Lave;Leu;)V
+		ARG 1 items
+	METHOD a onItemFinishedUsing (Lawk;Lbbb;Laig;)Lawk;
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 user
+	METHOD a addInformation (Lawk;Lbbb;Ljava/util/List;Laxs;)V
+		ARG 0 stack
+		ARG 2 tooltip
+	METHOD a onRightClick (Lbbb;Larl;Lagq;)Lagt;
+		ARG 0 world
+		ARG 1 player
+		ARG 2 hand
+	METHOD b hasEnchantmentGlow (Lawk;)Z
+		ARG 0 stack
+	METHOD c getMaxUseTime (Lawk;)I
+		ARG 0 stack
+	METHOD d getUseAction (Lawk;)Laxu;
+		ARG 0 stack

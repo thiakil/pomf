@@ -1,1 +1,37 @@
-CLASS blh net/minecraft/block/BlockTripwireHook
+CLASS bll net/minecraft/block/BlockTripwireHook
+	FIELD a FACING Lbov;
+	FIELD b POWERED Lbou;
+	FIELD c ATTACHED Lbou;
+	METHOD X_ getRenderLayer ()Lbaq;
+	METHOD a getDefaultState (Laup;)Lbnz;
+	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a onPlaced (Lbbb;Lef;Lbnz;Laig;Lawk;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 3 placer
+		ARG 4 stack
+	METHOD a getWeakRedstonePower (Lbnz;Lbap;Lef;Lel;)I
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD a onBlockRemoved (Lbnz;Lbbb;Lef;Lbnz;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD a randomTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 random
+	METHOD a withMirror (Lbnz;Lbiw;)Lbnz;
+	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;
+	METHOD b getStrongRedstonePower (Lbnz;Lbap;Lef;Lel;)I
+		ARG 1 view
+		ARG 2 pos
+		ARG 3 facingFrom
+	METHOD b updateTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 random
+	METHOD h canProvidePower (Lbnz;)Z

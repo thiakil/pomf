@@ -1,1 +1,6 @@
-CLASS ayl net/minecraft/recipe/Recipe
+CLASS ayp net/minecraft/recipe/Recipe
+	METHOD a matches (Lagk;Lbbb;)Z
+		ARG 1 world
+	METHOD c isIgnoredInRecipeBook ()Z
+	METHOD d getOutput ()Lawk;
+	METHOD e getPreviewInputs ()Leu;

@@ -1,1 +1,6 @@
-CLASS aub net/minecraft/item/block/ItemBlockAir
+CLASS auf net/minecraft/item/block/ItemBlockAir
+	FIELD a block Lbfq;
+	METHOD a getTranslationKey ()Ljava/lang/String;
+	METHOD a addInformation (Lawk;Lbbb;Ljava/util/List;Laxs;)V
+		ARG 0 stack
+		ARG 2 tooltip

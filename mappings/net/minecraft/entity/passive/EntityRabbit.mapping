@@ -1,15 +1,47 @@
-CLASS and net/minecraft/entity/passive/EntityRabbit
+CLASS anh net/minecraft/entity/passive/EntityRabbit
+	CLASS anh$a
+		METHOD a getAttackRangeSquared (Laig;)D
+			ARG 0 target
+	CLASS anh$b
+		METHOD a canStart ()Z
+	CLASS anh$d
+		METHOD b tick ()V
+	CLASS anh$e
+		METHOD a tick ()V
+	CLASS anh$f
+		METHOD e tick ()V
+	CLASS anh$g
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD e tick ()V
+	FIELD bA KILLER_BUNNY Loj;
+	FIELD bG moreCarrotTicks I
+	FIELD bz RABBIT_TYPE Lny;
+	METHOD B attackEntity (Lahx;)Z
 	METHOD E getSoundAmbient ()Lvo;
 	METHOD H getLootTableId ()Loj;
+	METHOD K mobTick ()V
+	METHOD a (Lagp;Laij;Lawk;)Laij;
+		ARG 0 difficulty
+	METHOD a damage (Lahg;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a createChild (Lahu;)Lahu;
+		ARG 0 other
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
+	METHOD ax attemptSprintingParticles ()V
+	METHOD b createChild (Lahu;)Lanh;
+		ARG 0 other
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
 	METHOD bX getSoundCategory ()Lvq;
 	METHOD ca initAttributes ()V
 	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD dE getRabbitType ()I
 	METHOD k updateMovement ()V
-	METHOD n ()V
+	METHOD o doJump (Z)V
 	METHOD p setRabbitType (I)V
 		ARG 0 value
 	METHOD w_ initDataTracker ()V

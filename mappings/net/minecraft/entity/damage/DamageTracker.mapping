@@ -1,1 +1,25 @@
-CLASS ahb net/minecraft/entity/damage/DamageTracker
+CLASS ahf net/minecraft/entity/damage/DamageTracker
+	FIELD a recentDamage Ljava/util/List;
+	FIELD b entity Laig;
+	FIELD c ageOnLastDamage I
+	FIELD d ageOnLastAttacked I
+	FIELD e ageOnLastUpdate I
+	FIELD f recentlyAttacked Z
+	FIELD g hasDamage Z
+	FIELD h fallDeathSuffix Ljava/lang/String;
+	METHOD <init> (Laig;)V
+		ARG 0 entity
+	METHOD a setFallDeathSuffix ()V
+	METHOD a getFallDeathSuffix (Lahd;)Ljava/lang/String;
+		ARG 0 damage
+	METHOD a onDamage (Lahg;FF)V
+		ARG 0 damageSource
+		ARG 1 originalHealth
+		ARG 2 damage
+	METHOD b getDeathMessage ()Lic;
+	METHOD c getBiggestAttacker ()Laig;
+	METHOD f getTimeSinceLastAttack ()I
+	METHOD g update ()V
+	METHOD h getEntity ()Laig;
+	METHOD j getBiggestFall ()Lahd;
+	METHOD k clearFallDeathSuffix ()V

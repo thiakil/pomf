@@ -1,1 +1,32 @@
-CLASS dgq net/minecraft/client/audio/SoundEvent
+CLASS dgu net/minecraft/client/audio/SoundEvent
+	FIELD a sound Ldhc;
+	FIELD b category Lvq;
+	FIELD c id Loj;
+	FIELD d volume F
+	FIELD e pitch F
+	FIELD f x F
+	FIELD g y F
+	FIELD h z F
+	FIELD i repeat Z
+	FIELD j repeatDelay I
+	FIELD k attenuationType Ldhf$a;
+	FIELD m accessor Ldif;
+	METHOD <init> (Loj;Lvq;)V
+		ARG 0 soundId
+		ARG 1 category
+	METHOD <init> (Lvo;Lvq;)V
+		ARG 0 sound
+		ARG 1 category
+	METHOD a getId ()Loj;
+	METHOD a getAccess (Ldic;)Ldif;
+		ARG 0 loader
+	METHOD b getSound ()Ldhc;
+	METHOD c getCategory ()Lvq;
+	METHOD d isRepeatable ()Z
+	METHOD e getRepeatDelay ()I
+	METHOD f getVolume ()F
+	METHOD g getPitch ()F
+	METHOD h getX ()F
+	METHOD i getY ()F
+	METHOD j getZ ()F
+	METHOD k getAttenuationType ()Ldhf$a;

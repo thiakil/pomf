@@ -1,1 +1,8 @@
-CLASS cly net/minecraft/sortme/KeyBindingGui
+CLASS cmc net/minecraft/sortme/KeyBindingGui
+	FIELD v gui Lcmd;
+	FIELD w game Lcht;
+	METHOD <init> (Lcmd;Lcht;)V
+		ARG 0 gui
+		ARG 1 game
+	METHOD e getEntryWidth ()I
+	METHOD f getScrollbarPosition ()I

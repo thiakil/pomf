@@ -1,1 +1,26 @@
-CLASS ape net/minecraft/entity/decoration/PaintingType
+CLASS api net/minecraft/entity/decoration/PaintingType
+	FIELD A DONKEY_KONG Lapi;
+	FIELD a KEBAB Lej;
+	FIELD c AZTEC Lapi;
+	FIELD d ALBAN Lapi;
+	FIELD f BOMB Lapi;
+	FIELD g PLANT Lapi;
+	FIELD h WASTELAND Lapi;
+	FIELD i POOL Lapi;
+	FIELD j COURBET Lapi;
+	FIELD k SEA Lapi;
+	FIELD l SUNSET Lapi;
+	FIELD m CREEBET Lapi;
+	FIELD n WANDERER Lapi;
+	FIELD o GRAHAM Lapi;
+	FIELD p MATCH Lapi;
+	FIELD q BUST Lapi;
+	FIELD r STAGE Lapi;
+	FIELD s VOID Lapi;
+	FIELD t SKULL_AND_ROSES Lapi;
+	FIELD u WITHER Lapi;
+	FIELD v FIGHTERS Lapi;
+	FIELD w POINTER Lapi;
+	FIELD x PIGSCENE Lapi;
+	FIELD y BURNING_SKULL Lapi;
+	FIELD z SKELETON Lapi;

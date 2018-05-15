@@ -1,3 +1,146 @@
-CLASS chp net/minecraft/client/MinecraftClient
+CLASS cht net/minecraft/client/MinecraftClient
+	FIELD E LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD G sessionPropertyMap Lcom/mojang/authlib/properties/PropertyMap;
+	FIELD I currentServerEntry Lcsq;
+	FIELD J textureManager Ldey;
+	FIELD K instance Lcht;
+	FIELD L migrationHandler Lxl;
+	FIELD N crashed Z
+	FIELD O crashReport Lb;
+	FIELD Q renderTickCounter Lchz;
+	FIELD R snooper Laha;
+	FIELD S entityRenderManager Lczz;
+	FIELD T itemRenderer Ldaq;
+	FIELD U firstPersonRenderer Lcvi;
+	FIELD V cameraEntity Lahx;
+	FIELD X session Lcia;
+	FIELD aA soundLoader Ldic;
+	FIELD aB musicTracker Ldhz;
+	FIELD aC sessionService Lcom/mojang/authlib/minecraft/MinecraftSessionService;
+	FIELD aD skinProvider Ldfr;
+	FIELD aE taskQueue Ljava/util/Queue;
+	FIELD aF thread Ljava/lang/Thread;
+	FIELD aG bakedModelManager Ldgn;
+	FIELD aH blockRenderManager Lcvz;
+	FIELD aI guiToast Lckb;
+	FIELD aJ isRunning Z
+	FIELD aL fpsCounter I
+	FIELD aM tutorial Ldio;
+	FIELD aN background Loj;
+	FIELD aP root Ljava/lang/String;
+	FIELD a isSystemMac Z
+	FIELD aa server Ldhq;
+	FIELD ac assetDirectory Ljava/io/File;
+	FIELD ad gameVersion Ljava/lang/String;
+	FIELD ae versionType Ljava/lang/String;
+	FIELD af netProxy Ljava/net/Proxy;
+	FIELD ag saves Lceg;
+	FIELD ah currentFps I
+	FIELD aj autoConnectServerIp Ljava/lang/String;
+	FIELD ak autoConnectServerPort I
+	FIELD ao is64Bit Z
+	FIELD ap isDemo Z
+	FIELD as resourceManager Luj;
+	FIELD av languageManager Ldfv;
+	FIELD aw blockColorMap Lcif;
+	FIELD ax itemColorMap Lcii;
+	FIELD ay framebuffer Lcvq;
+	FIELD az spriteAtlas Ldew;
+	FIELD c playerCapabilities Lcsm;
+	FIELD e world Lcsn;
+	FIELD f renderer Lcvk;
+	FIELD g player Lcuq;
+	FIELD i particleManager Lctu;
+	FIELD j fontRenderer Lcik;
+	FIELD k fontRendererSGA Lcik;
+	FIELD l currentGui Lcll;
+	FIELD m worldRenderer Lcve;
+	FIELD n debugRenderer Lcys;
+	FIELD p hudInGame Lcil;
+	FIELD r hitResult Lcgd;
+	FIELD s settings Lchw;
+	FIELD v runDirectory Ljava/io/File;
+	FIELD x profiler Lwz;
+	FIELD y fpsDebugString Ljava/lang/String;
+	METHOD <init> (Lcoy;)V
+		ARG 0 args
+	METHOD A getSnooper ()Laha;
+	METHOD C getSession ()Lcia;
+	METHOD D getSessionProperties ()Lcom/mojang/authlib/properties/PropertyMap;
+	METHOD E getNetworkProxy ()Ljava/net/Proxy;
+	METHOD F getTextureManager ()Ldey;
+	METHOD G getResourceManager ()Lul;
+	METHOD K getLanguageManager ()Ldfv;
+	METHOD L getSpriteAtlas ()Ldew;
+	METHOD M is64Bit ()Z
+	METHOD O getSoundLoader ()Ldic;
+	METHOD P getMusicType ()Ldhz$a;
+	METHOD Q getSessionService ()Lcom/mojang/authlib/minecraft/MinecraftSessionService;
+	METHOD R isSnooperEnabled ()Z
+	METHOD S getSkinProvider ()Ldfr;
+	METHOD T getCameraEntity ()Lahx;
+	METHOD U getBlockRenderManager ()Lcvz;
+	METHOD V getEntityRenderManager ()Lczz;
+	METHOD W getItemRenderer ()Ldaq;
+	METHOD X getFirstPersonRenderer ()Lcvi;
+	METHOD Y getCurrentFps ()I
 	METHOD a start ()V
+	METHOD a addSnooperInfo (Laha;)V
+		ARG 0 snooper
+	METHOD a setCameraEntity (Lahx;)V
+		ARG 0 entity
+	METHOD a serializeBlockEntityTag (Lawk;Lbmf;)Lawk;
+		ARG 0 stack
+		ARG 1 blockEntity
+	METHOD a setCrashReport (Lb;)V
+		ARG 0 crashReport
+	METHOD a openGui (Lcll;)V
+		ARG 0 screen
+	METHOD a setCurrentServerEntry (Lcsq;)V
+		ARG 0 value
+	METHOD a scheduleOnMainThread (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
+		ARG 0 runnable
+	METHOD a startIntegratedServer (Ljava/lang/String;Ljava/lang/String;Lbbg;)V
+		ARG 0 name
+		ARG 1 displayName
+		ARG 2 levelInfo
+	METHOD ab getMigrationHandler ()Lxl;
+	METHOD ac getTickDelta ()F
+	METHOD ae getBlockColorMap ()Lcif;
+	METHOD ag hasReducedDebugInfo ()Z
+	METHOD ah getToastGui ()Lckb;
+	METHOD aj isFullscreen ()Z
+	METHOD an init ()V
+	METHOD ap checkIs64Bit ()Z
+	METHOD ar registerMetadataDeserializers ()V
+	METHOD at doAttack ()V
+	METHOD au doItemUse ()V
+	METHOD aw doItemPick ()V
+	METHOD ax getCurrentAction ()Ljava/lang/String;
+	METHOD ay isMainThread ()Z
+	METHOD b getFramebuffer ()Lcvq;
+	METHOD b addSnooperInitialInfo (Laha;)V
+		ARG 0 snooper
+	METHOD b addCrashReportDetails (Lb;)Lb;
+		ARG 0 report
+	METHOD c getGameVersion ()Ljava/lang/String;
+	METHOD c printCrashReport (Lb;)V
+		ARG 0 crashReport
+	METHOD d getVersionType ()Ljava/lang/String;
+	METHOD e shouldUseUnicodeFont ()Z
+	METHOD f reloadResources ()V
+	METHOD h stop ()V
+	METHOD j stopThread ()V
+	METHOD k openInGameMenu ()V
+	METHOD l getMusicTracker ()Ldhz;
 	METHOD m tick ()V
+	METHOD n isDemo ()Z
+	METHOD o getNetworkHandler ()Lcsk;
+	METHOD q isFancyGraphicsEnabled ()Z
+	METHOD r isAmbientOcclusionEnabled ()Z
+	METHOD s getInstance ()Lcht;
+	METHOD t scheduleReloadResources ()Lcom/google/common/util/concurrent/ListenableFuture;
+	METHOD u checkMaxTextureSize ()I
+	METHOD v getCurrentServerEntry ()Lcsq;
+	METHOD y getServer ()Ldhq;
+	METHOD z onShutdown ()V

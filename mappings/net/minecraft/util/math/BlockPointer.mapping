@@ -1,6 +1,13 @@
 CLASS eh net/minecraft/util/math/BlockPointer
+	FIELD a world Lbbb;
 	FIELD b pos Lef;
+	METHOD <init> (Lbbb;Lef;)V
+		ARG 0 world
+		ARG 1 pos
 	METHOD a getX ()D
 	METHOD b getY ()D
 	METHOD c getZ ()D
 	METHOD d getBlockPos ()Lef;
+	METHOD e getBlockState ()Lbnz;
+	METHOD g getBlockEntity ()Lbmf;
+	METHOD h getWorld ()Lbbb;

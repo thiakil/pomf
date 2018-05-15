@@ -1,5 +1,12 @@
-CLASS akk net/minecraft/entity/ai/AiGoalMoveHome
+CLASS ako net/minecraft/entity/ai/AiGoalMoveHome
+	FIELD a owner Laio;
+	FIELD b targetX D
+	FIELD c targetY D
 	FIELD d targetZ D
+	FIELD e speed D
+	METHOD <init> (Laio;D)V
+		ARG 0 owner
+		ARG 1 speed
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V

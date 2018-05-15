@@ -1,0 +1,6 @@
+CLASS bfy
+	METHOD X_ getRenderLayer ()Lbaq;
+	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face

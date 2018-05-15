@@ -1,0 +1,4 @@
+CLASS aia
+	CLASS aia$a CanPickup
+		FIELD a itemstack Lawk;
+		METHOD a apply (Lahx;)Z

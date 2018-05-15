@@ -1,0 +1,33 @@
+CLASS bfm
+	CLASS bfm$a Shape
+		FIELD a NORTH_SOUTH Lbfm$a;
+		FIELD b EAST_WEST Lbfm$a;
+		FIELD c ASCENDING_EAST Lbfm$a;
+		FIELD d ASCENDING_WEST Lbfm$a;
+		FIELD e ASCENDING_NORTH Lbfm$a;
+		FIELD f ASCENDING_SOUTH Lbfm$a;
+		FIELD g SOUTH_EAST Lbfm$a;
+		FIELD h SOUTH_WEST Lbfm$a;
+		FIELD i NORTH_WEST Lbfm$a;
+		FIELD j NORTH_EAST Lbfm$a;
+		FIELD k id I
+		FIELD l name Ljava/lang/String;
+		METHOD a getId ()I
+		METHOD c isAscending ()Z
+		METHOD m asString ()Ljava/lang/String;
+	METHOD X_ getRenderLayer ()Lbaq;
+	METHOD a getDefaultState (Laup;)Lbnz;
+	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a update (Lbnz;Lbbb;Lef;Lbfq;Lef;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 block
+		ARG 4 updatePos
+	METHOD a onBlockRemoved (Lbnz;Lbbb;Lef;Lbnz;)V
+		ARG 1 world
+		ARG 2 pos
+	METHOD c getShapeProperty ()Lboy;
+	METHOD i getPistonBehavior (Lbnz;)Lcbh;

@@ -1,1 +1,16 @@
-CLASS asg net/minecraft/entity/projectile/EntityExplodingWitherSkull
+CLASS ask net/minecraft/entity/projectile/EntityExplodingWitherSkull
+	FIELD e CHARGED Lny;
+	METHOD a damage (Lahg;F)Z
+		ARG 0 source
+		ARG 1 damage
+	METHOD a getEffectiveExplosionResistance (Lbav;Lbap;Lef;Lbnz;)F
+		ARG 0 explosion
+		ARG 2 pos
+	METHOD a onCollision (Lcgd;)V
+		ARG 0 hit
+	METHOD a setCharged (Z)V
+		ARG 0 value
+	METHOD aD doesCollide ()Z
+	METHOD aX isOnFire ()Z
+	METHOD l isCharged ()Z
+	METHOD w_ initDataTracker ()V

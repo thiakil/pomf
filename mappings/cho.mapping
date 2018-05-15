@@ -1,0 +1,4 @@
+CLASS cho
+	CLASS cho$a
+		METHOD equals (Ljava/lang/Object;)Z
+			ARG 0 object

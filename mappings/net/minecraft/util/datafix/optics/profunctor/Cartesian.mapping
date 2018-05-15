@@ -1,2 +1,3 @@
-CLASS acv net/minecraft/util/datafix/optics/profunctor/Cartesian
-	CLASS acv$a Mu
+CLASS acx net/minecraft/util/datafix/optics/profunctor/Cartesian
+	CLASS acx$a Mu
+	METHOD a left (Labd;)Labd;

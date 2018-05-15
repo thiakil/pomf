@@ -1,5 +1,6 @@
-CLASS ale net/minecraft/entity/ai/AiGoalTempt
+CLASS ali net/minecraft/entity/ai/AiGoalTempt
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V
+	METHOD d stop ()V
 	METHOD e tick ()V

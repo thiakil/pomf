@@ -1,44 +1,44 @@
-CLASS cum net/minecraft/client/player/EntityPlayerClient
+CLASS cuq net/minecraft/client/player/EntityPlayerClient
 	FIELD cf stats Lvz;
-	FIELD cg recipeBook Lchg;
+	FIELD cg recipeBook Lchk;
 	FIELD ci clientPermissionLevel I
 	FIELD ct serverBrand Ljava/lang/String;
-	FIELD d networkHandler Lcsg;
-	FIELD f game Lchp;
-	METHOD A getRecipeBook ()Lchg;
+	FIELD d networkHandler Lcsk;
+	FIELD f game Lcht;
+	METHOD A getRecipeBook ()Lchk;
 	METHOD R_ update ()V
 	METHOD S_ stopRiding ()V
 	METHOD a setClientPermissionLevel (I)V
 		ARG 0 value
-	METHOD a openInventory (Lagg;)V
+	METHOD a openInventory (Lagk;)V
 		ARG 0 inv
-	METHOD a swingHand (Lagm;)V
+	METHOD a swingHand (Lagq;)V
 		ARG 0 hand
-	METHOD a openContainer (Lagn;)V
-	METHOD a damage (Lahc;F)Z
+	METHOD a openContainer (Lagr;)V
+	METHOD a damage (Lahg;F)Z
 		ARG 0 source
 		ARG 1 damage
-	METHOD a copyEntityData (Laht;)V
+	METHOD a copyEntityData (Lahx;)V
 		ARG 0 entity
-	METHOD a startRiding (Laht;Z)Z
+	METHOD a startRiding (Lahx;Z)Z
 		ARG 0 entity
 		ARG 1 ignoreRequirements
-	METHOD a move (Laii;DDD)V
+	METHOD a move (Laim;DDD)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD a openHorseInventory (Lanp;Lagg;)V
-	METHOD a spawnEntityItem (Lapn;)Lawg;
+	METHOD a openHorseInventory (Lant;Lagk;)V
+	METHOD a spawnEntityItem (Lapr;)Lawk;
 		ARG 0 entityItem
-	METHOD a openBookEditor (Lawg;Lagm;)V
-	METHOD a openVillagerGui (Lbae;)V
+	METHOD a openBookEditor (Lawk;Lagq;)V
+	METHOD a openVillagerGui (Lbai;)V
 		ARG 0 villager
-	METHOD a openCommandBlockMinecart (Lbai;)V
+	METHOD a openCommandBlockMinecart (Lbam;)V
 		ARG 0 commandBlock
-	METHOD a openCommandBlock (Lbmf;)V
-	METHOD a openSignEditor (Lbmw;)V
+	METHOD a openCommandBlock (Lbmj;)V
+	METHOD a openSignEditor (Lbna;)V
 		ARG 0 sign
-	METHOD a openStructureBlock (Lbmy;)V
+	METHOD a openStructureBlock (Lbnc;)V
 	METHOD a appendCommandFeedback (Lic;)V
 		ARG 0 feedback
 	METHOD a addChatMessage (Lic;Z)V
@@ -49,14 +49,14 @@ CLASS cum net/minecraft/client/player/EntityPlayerClient
 		ARG 0 sound
 		ARG 1 volume
 		ARG 2 pitch
-	METHOD a dropSelectedItem (Z)Lapn;
+	METHOD a dropSelectedItem (Z)Lapr;
 	METHOD bb isSneaking ()Z
 	METHOD c heal (F)V
 		ARG 0 amount
-	METHOD c setCurrentHand (Lagm;)V
-	METHOD c removePotionEffect (Lahl;)Lahm;
+	METHOD c setCurrentHand (Lagq;)V
+	METHOD c removePotionEffect (Lahp;)Lahq;
 		ARG 0 effect
-	METHOD d damage (Lahc;F)V
+	METHOD d damage (Lahg;F)V
 		ARG 0 damageSource
 		ARG 1 damage
 	METHOD f sendChatMessage (Ljava/lang/String;)V

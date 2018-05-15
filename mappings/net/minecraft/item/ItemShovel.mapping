@@ -1,1 +1,2 @@
-CLASS axa net/minecraft/item/ItemShovel
+CLASS axe net/minecraft/item/ItemShovel
+	METHOD a activate (Laxv;)Lags;

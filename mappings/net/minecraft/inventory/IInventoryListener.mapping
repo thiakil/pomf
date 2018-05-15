@@ -1,1 +1,3 @@
-CLASS agi net/minecraft/inventory/IInventoryListener
+CLASS agm net/minecraft/inventory/IInventoryListener
+	METHOD a onInvChange (Lagk;)V
+		ARG 0 inventory

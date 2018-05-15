@@ -1,1 +1,4 @@
-CLASS cfq net/minecraft/world/loot/property/ILootTableEntityProperty
+CLASS cfu net/minecraft/world/loot/property/ILootTableEntityProperty
+	METHOD a matches (Ljava/util/Random;Lahx;)Z
+		ARG 0 random
+		ARG 1 entity

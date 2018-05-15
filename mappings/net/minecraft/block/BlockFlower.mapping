@@ -1,1 +1,2 @@
-CLASS bhn net/minecraft/block/BlockFlower
+CLASS bhr net/minecraft/block/BlockFlower
+	METHOD o getOffsetType ()Lbfq$a;

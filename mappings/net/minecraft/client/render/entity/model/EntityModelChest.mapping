@@ -1,1 +1,4 @@
-CLASS cpi net/minecraft/client/render/entity/model/EntityModelChest
+CLASS cpm net/minecraft/client/render/entity/model/EntityModelChest
+	FIELD a lid Lcsd;
+	FIELD b base Lcsd;
+	FIELD c hatch Lcsd;

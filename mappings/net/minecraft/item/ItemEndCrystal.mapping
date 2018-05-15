@@ -1,1 +1,3 @@
-CLASS avm net/minecraft/item/ItemEndCrystal
+CLASS avq net/minecraft/item/ItemEndCrystal
+	METHOD b hasEnchantmentGlow (Lawk;)Z
+		ARG 0 stack

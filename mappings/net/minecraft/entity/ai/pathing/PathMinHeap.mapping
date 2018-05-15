@@ -1,1 +1,15 @@
-CLASS cda net/minecraft/entity/ai/pathing/PathMinHeap
+CLASS cde net/minecraft/entity/ai/pathing/PathMinHeap
+	FIELD a pathNodes [Lcdh;
+	FIELD b count I
+	METHOD a clear ()V
+	METHOD a shiftUp (I)V
+		ARG 0 index
+	METHOD a push (Lcdh;)Lcdh;
+		ARG 0 value
+	METHOD a setNodeWeight (Lcdh;F)V
+		ARG 0 node
+		ARG 1 weight
+	METHOD b shiftDown (I)V
+		ARG 0 index
+	METHOD c pop ()Lcdh;
+	METHOD e isEmpty ()Z

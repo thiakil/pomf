@@ -1,2 +1,6 @@
-CLASS dan net/minecraft/client/render/entity/EntityRendererMagmaCube
+CLASS dar net/minecraft/client/render/entity/EntityRendererMagmaCube
 	FIELD a SKIN Loj;
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Laqk;)Loj;
+		ARG 0 model

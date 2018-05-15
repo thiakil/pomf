@@ -1,6 +1,263 @@
-CLASS cvc net/minecraft/client/gl/GlHandler
-	CLASS cvc$a AlphaTestState
+CLASS cvg net/minecraft/client/gl/GlHandler
+	CLASS cvg$a AlphaTestState
+		FIELD a capState Lcvg$c;
 		FIELD b func I
-	CLASS cvc$b BlendFuncState
+		FIELD c ref F
+	CLASS cvg$b BlendFuncState
+		FIELD a capState Lcvg$c;
 		FIELD b sfactor I
 		FIELD c dfactor I
+		FIELD d srcAlpha I
+		FIELD e dstAlpha I
+	CLASS cvg$c CapabilityTracker
+		FIELD a cap I
+		FIELD b state Z
+		METHOD a disable ()V
+		METHOD a setState (Z)V
+		METHOD b enable ()V
+	CLASS cvg$d ClearState
+		FIELD a clearDepth D
+		FIELD b clearColor Lcvg$e;
+	CLASS cvg$e Color4
+		FIELD a red F
+		FIELD b green F
+		FIELD c blue F
+		FIELD d alpha F
+	CLASS cvg$f LogicOpState
+		FIELD a capState Lcvg$c;
+		FIELD b opcode I
+	CLASS cvg$g ColorMask
+		FIELD a red Z
+		FIELD b green Z
+		FIELD c blue Z
+		FIELD d alpha Z
+	CLASS cvg$h ColorMaterialState
+		FIELD a capState Lcvg$c;
+		FIELD b face I
+		FIELD c mode I
+	CLASS cvg$i FaceSides
+		FIELD a FRONT Lcvg$i;
+		FIELD b BACK Lcvg$i;
+		FIELD c FRONT_AND_BACK Lcvg$i;
+	CLASS cvg$j CullFaceState
+		FIELD a capState Lcvg$c;
+		FIELD b mode I
+	CLASS cvg$k DepthTestState
+		FIELD a capState Lcvg$c;
+		FIELD b mask Z
+		FIELD c func I
+	CLASS cvg$m FogMode
+		FIELD a LINEAR Lcvg$m;
+		FIELD b EXP Lcvg$m;
+		FIELD c EXP2 Lcvg$m;
+	CLASS cvg$n FogState
+		FIELD a capState Lcvg$c;
+		FIELD b mode I
+		FIELD c density F
+		FIELD d start F
+		FIELD e end F
+	CLASS cvg$o LogicOp
+		FIELD a AND Lcvg$o;
+		FIELD b AND_INVERTED Lcvg$o;
+		FIELD c AND_REVERSE Lcvg$o;
+		FIELD d CLEAR Lcvg$o;
+		FIELD e COPY Lcvg$o;
+		FIELD f COPY_INVERTED Lcvg$o;
+		FIELD g EQUIV Lcvg$o;
+		FIELD h INVERT Lcvg$o;
+		FIELD i NAND Lcvg$o;
+		FIELD j NOOP Lcvg$o;
+		FIELD k NOR Lcvg$o;
+		FIELD l OR Lcvg$o;
+		FIELD m OR_INVERTED Lcvg$o;
+		FIELD n OR_REVERSE Lcvg$o;
+		FIELD o SET Lcvg$o;
+		FIELD p XOR Lcvg$o;
+	CLASS cvg$p PolygonOffsetState
+		FIELD a capFill Lcvg$c;
+		FIELD b capLine Lcvg$c;
+		FIELD c factor F
+		FIELD d units F
+	CLASS cvg$q RenderMode
+		CLASS cvg$q$1
+			METHOD a begin ()V
+			METHOD b end ()V
+		CLASS cvg$q$2
+			METHOD a begin ()V
+			METHOD b end ()V
+		CLASS cvg$q$3
+			METHOD a begin ()V
+			METHOD b end ()V
+		FIELD a DEFAULT Lcvg$q;
+		FIELD b PLAYER_SKIN Lcvg$q;
+		FIELD c TRANSPARENT_MODEL Lcvg$q;
+		METHOD a begin ()V
+		METHOD b end ()V
+	CLASS cvg$s StencilSubState
+		FIELD a func I
+	CLASS cvg$t StencilState
+		FIELD a subState Lcvg$s;
+	CLASS cvg$u TexCoord
+		FIELD a S Lcvg$u;
+		FIELD b T Lcvg$u;
+		FIELD c R Lcvg$u;
+		FIELD d Q Lcvg$u;
+	CLASS cvg$v TexGenCoordState
+		FIELD a capState Lcvg$c;
+		FIELD b coord I
+		FIELD c mode I
+	CLASS cvg$w TexGenState
+		FIELD a s Lcvg$v;
+		FIELD b t Lcvg$v;
+		FIELD c r Lcvg$v;
+		FIELD d q Lcvg$v;
+	CLASS cvg$x Texture2DState
+		FIELD a capState Lcvg$c;
+		FIELD b boundTexture I
+	FIELD b vectorBuf Ljava/nio/FloatBuffer;
+	FIELD c alphaTestState Lcvg$a;
+	FIELD d lightSystemEnabled Lcvg$c;
+	FIELD f colorMaterial Lcvg$h;
+	FIELD g blendFunc Lcvg$b;
+	FIELD h depth Lcvg$k;
+	FIELD i fogState Lcvg$n;
+	FIELD j cullFaceState Lcvg$j;
+	FIELD k polygonOffset Lcvg$p;
+	FIELD l logicOpState Lcvg$f;
+	FIELD m texGenState Lcvg$w;
+	FIELD n clearState Lcvg$d;
+	FIELD o stencilState Lcvg$t;
+	FIELD p normalizeEnabled Lcvg$c;
+	FIELD q activeTexture I
+	FIELD s shadeModel I
+	FIELD t rescaleNormalEnabled Lcvg$c;
+	FIELD u colorMask Lcvg$g;
+	FIELD v color Lcvg$e;
+	METHOD A genTextures ()I
+	METHOD B enableNormalize ()V
+	METHOD C disableNormalize ()V
+	METHOD D enableRescaleNormal ()V
+	METHOD E disableRescaleNormal ()V
+	METHOD F loadIdentity ()V
+	METHOD G pushMatrix ()V
+	METHOD H popMatrix ()V
+	METHOD J end ()V
+	METHOD K endList ()V
+	METHOD L getError ()I
+	METHOD a pushAttrib ()V
+	METHOD a clearDepth (D)V
+	METHOD a scale (DDD)V
+	METHOD a ortho (DDDDDD)V
+	METHOD a fogDensity (F)V
+	METHOD a polygonOffset (FF)V
+		ARG 0 factor
+		ARG 1 units
+	METHOD a normal (FFF)V
+	METHOD a clearColor (FFFF)V
+	METHOD a enableLight (I)V
+	METHOD a alphaFunc (IF)V
+		ARG 0 func
+		ARG 1 ref
+	METHOD a colorMaterial (II)V
+		ARG 0 face
+		ARG 1 mode
+	METHOD a texEnv (IIF)V
+	METHOD a texEnv (III)V
+	METHOD a blendFuncSeparate (IIII)V
+	METHOD a copyTexSubImage2D (IIIIIIII)V
+	METHOD a texImage2D (IIIIIIIILjava/nio/IntBuffer;)V
+	METHOD a texCoordPointer (IIILjava/nio/ByteBuffer;)V
+	METHOD a normalPointer (IILjava/nio/ByteBuffer;)V
+	METHOD a light (IILjava/nio/FloatBuffer;)V
+	METHOD a lightModel (ILjava/nio/FloatBuffer;)V
+	METHOD a cullFace (Lcvg$i;)V
+	METHOD a fogMode (Lcvg$m;)V
+	METHOD a logicOp (Lcvg$o;)V
+	METHOD a beginRenderMode (Lcvg$q;)V
+	METHOD a blendFunc (Lcvg$r;Lcvg$l;)V
+	METHOD a blendFuncSeparate (Lcvg$r;Lcvg$l;Lcvg$r;Lcvg$l;)V
+	METHOD a enableTextureGen (Lcvg$u;)V
+	METHOD a texGenMode (Lcvg$u;I)V
+	METHOD a texGen (Lcvg$u;ILjava/nio/FloatBuffer;)V
+	METHOD a depthMask (Z)V
+	METHOD a colorMask (ZZZZ)V
+	METHOD b translate (DDD)V
+	METHOD b fogStart (F)V
+	METHOD b texCoord (FF)V
+	METHOD b scale (FFF)V
+	METHOD b rotate (FFFF)V
+	METHOD b disableLight (I)V
+	METHOD b blendFunc (II)V
+	METHOD b texParameter (IIF)V
+	METHOD b texParameter (III)V
+	METHOD b vertexPointer (IIILjava/nio/ByteBuffer;)V
+	METHOD b texEnv (IILjava/nio/FloatBuffer;)V
+	METHOD b endRenderMode (Lcvg$q;)V
+	METHOD b disableTextureGen (Lcvg$u;)V
+	METHOD c popAttrib ()V
+	METHOD c fogEnd (F)V
+	METHOD c translate (FFF)V
+	METHOD c color (FFFF)V
+		ARG 0 red
+		ARG 1 green
+		ARG 2 blue
+		ARG 3 alpha
+	METHOD c depthFunc (I)V
+	METHOD c fog (II)V
+	METHOD c getTexLevelParameter (III)I
+	METHOD c texCoordPointer (IIII)V
+	METHOD c colorPointer (IIILjava/nio/ByteBuffer;)V
+	METHOD c getFloat (ILjava/nio/FloatBuffer;)V
+	METHOD c getTexGenCoordState (Lcvg$u;)Lcvg$v;
+	METHOD d disableAlphaTest ()V
+	METHOD d lineWidth (F)V
+	METHOD d color (FFF)V
+		ARG 0 red
+		ARG 1 green
+		ARG 2 blue
+	METHOD d blendEquation (I)V
+	METHOD d polygonMode (II)V
+	METHOD d vertexPointer (IIII)V
+	METHOD e enableAlphaTest ()V
+	METHOD e vertex (FFF)V
+	METHOD e deleteLists (II)V
+	METHOD e colorPointer (IIII)V
+	METHOD f enableLightSystem ()V
+	METHOD f logicOp (I)V
+	METHOD f newList (II)V
+	METHOD g disableLightSystem ()V
+	METHOD g activeTexture (I)V
+	METHOD g pixelStore (II)V
+	METHOD g drawArrays (III)V
+		ARG 0 mode
+		ARG 1 first
+		ARG 2 count
+	METHOD h enableColorMaterial ()V
+	METHOD h deleteTextures (I)V
+	METHOD i disableColorMaterial ()V
+	METHOD i bindTexture (I)V
+	METHOD j disableDepthTest ()V
+	METHOD j shadeModel (I)V
+	METHOD k enableDepthTest ()V
+	METHOD l disableBlend ()V
+	METHOD m enableBlend ()V
+	METHOD n matrixMode (I)V
+	METHOD o enableFog ()V
+	METHOD p disableFog ()V
+	METHOD p disableClientState (I)V
+	METHOD q enableCullFace ()V
+	METHOD q enableClientState (I)V
+	METHOD r disableCullFace ()V
+	METHOD r begin (I)V
+	METHOD s enablePolygonOffsetFill ()V
+	METHOD s callList (I)V
+	METHOD t disablePolygonOffsetFill ()V
+	METHOD t genLists (I)I
+	METHOD u getString (I)Ljava/lang/String;
+	METHOD v getInteger (I)I
+	METHOD w enableColorLogicOp ()V
+	METHOD w fogMode (I)V
+	METHOD x disableColorLogicOp ()V
+	METHOD x cullFace (I)V
+	METHOD y enableTexture2D ()V
+	METHOD z disableTexture2D ()V

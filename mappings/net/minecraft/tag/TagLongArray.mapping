@@ -12,4 +12,3 @@ CLASS hb net/minecraft/tag/TagLongArray
 	METHOD c copy ()Lhb;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object
-	METHOD size ()I

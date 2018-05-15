@@ -1,1 +1,10 @@
-CLASS arz net/minecraft/entity/projectile/EntitySpectralArrow
+CLASS asd net/minecraft/entity/projectile/EntitySpectralArrow
+	FIELD f duration I
+	METHOD R_ update ()V
+	METHOD a onHit (Laig;)V
+		ARG 0 entity
+	METHOD a deserializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD b serializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD k asItemStack ()Lawk;

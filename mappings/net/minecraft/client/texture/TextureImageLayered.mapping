@@ -1,1 +1,5 @@
-CLASS del net/minecraft/client/texture/TextureImageLayered
+CLASS dep net/minecraft/client/texture/TextureImageLayered
+	FIELD f locations Ljava/util/List;
+	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a load (Lul;)V
+		ARG 0 resourceContainer

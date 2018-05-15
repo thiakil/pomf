@@ -71,6 +71,4 @@ CLASS gu net/minecraft/nbt/TagCompound
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object
 	METHOD f copy ()Lgu;
-	METHOD f (Ljava/lang/String;)B
-	METHOD g (Ljava/lang/String;)S
 	METHOD i getLong (Ljava/lang/String;)J

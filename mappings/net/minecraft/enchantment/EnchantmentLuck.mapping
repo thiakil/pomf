@@ -1,2 +1,7 @@
-CLASS azo net/minecraft/enchantment/EnchantmentLuck
+CLASS azs net/minecraft/enchantment/EnchantmentLuck
+	METHOD <init> (Lazj$a;Lazk;[Laic;)V
+		ARG 0 weight
+		ARG 2 slotTypes
+	METHOD a isEqual (Lazj;)Z
+		ARG 0 other
 	METHOD b getHighestLevel ()I

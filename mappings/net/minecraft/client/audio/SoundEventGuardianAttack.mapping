@@ -1,1 +1,5 @@
-CLASS dgu net/minecraft/client/audio/SoundEventGuardianAttack
+CLASS dgy net/minecraft/client/audio/SoundEventGuardianAttack
+	FIELD n guardian Laqh;
+	METHOD <init> (Laqh;)V
+		ARG 0 guardian
+	METHOD Y_ update ()V

@@ -11,4 +11,3 @@ CLASS gy net/minecraft/tag/TagIntegerArray
 	METHOD c copy ()Lgy;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object
-	METHOD size ()I

@@ -1,4 +1,5 @@
-CLASS akj net/minecraft/entity/ai/AiGoalMoveToBlock
+CLASS akn net/minecraft/entity/ai/AiGoalMoveToBlock
+	FIELD f owner Laio;
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V

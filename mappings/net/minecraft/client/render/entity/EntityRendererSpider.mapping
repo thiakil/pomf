@@ -1,2 +1,6 @@
-CLASS dbp net/minecraft/client/render/entity/EntityRendererSpider
+CLASS dbt net/minecraft/client/render/entity/EntityRendererSpider
 	FIELD a SKIN Loj;
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Laqv;)Loj;
+		ARG 0 model

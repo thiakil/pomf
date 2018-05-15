@@ -1,1 +1,5 @@
-CLASS dbg net/minecraft/client/render/entity/EntityRendererSalmon
+CLASS dbk net/minecraft/client/render/entity/EntityRendererSalmon
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Lani;)Loj;
+		ARG 0 model

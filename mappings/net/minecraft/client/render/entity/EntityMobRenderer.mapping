@@ -1,1 +1,4 @@
-CLASS dav net/minecraft/client/render/entity/EntityMobRenderer
+CLASS daz net/minecraft/client/render/entity/EntityMobRenderer
+	METHOD <init> (Lczz;Lcqi;F)V
+		ARG 0 renderManager
+		ARG 1 model

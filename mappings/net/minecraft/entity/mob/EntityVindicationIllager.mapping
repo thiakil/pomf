@@ -1,8 +1,21 @@
-CLASS aqu net/minecraft/entity/mob/EntityVindicationIllager
-	CLASS aqu$a
+CLASS aqy net/minecraft/entity/mob/EntityVindicationIllager
+	CLASS aqy$a
+		METHOD a canStart ()Z
+	FIELD b johnny Z
+	METHOD E getSoundAmbient ()Lvo;
+	METHOD H getLootTableId ()Loj;
 	METHOD K mobTick ()V
+	METHOD a initEquipment (Lagp;)V
+		ARG 0 difficulty
+	METHOD a (Lagp;Laij;Lawk;)Laij;
+		ARG 0 difficulty
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
+	METHOD ca initAttributes ()V
+	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD r isTeammate (Lahx;)Z
+		ARG 0 entity
 	METHOD w_ initDataTracker ()V

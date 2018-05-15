@@ -1,7 +1,12 @@
-CLASS ajm net/minecraft/entity/ai/AiGoalEatGrass
+CLASS ajq net/minecraft/entity/ai/AiGoalEatGrass
+	FIELD b owner Laih;
+	FIELD c world Lbbb;
 	FIELD d timer I
+	METHOD <init> (Laih;)V
+		ARG 0 owner
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V
 	METHOD d stop ()V
 	METHOD e tick ()V
+	METHOD g getTimer ()I

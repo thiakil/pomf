@@ -1,1 +1,2 @@
-CLASS crx net/minecraft/client/render/model/ModelBox
+CLASS csb net/minecraft/client/render/model/ModelBox
+	FIELD h vertexPositions [Lcro;

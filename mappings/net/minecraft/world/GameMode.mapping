@@ -1,1 +1,29 @@
-CLASS bau net/minecraft/world/GameMode
+CLASS bay net/minecraft/world/GameMode
+	FIELD a INVALID Lbay;
+	FIELD b SURVIVAL Lbay;
+	FIELD c CREATIVE Lbay;
+	FIELD d ADVENTURE Lbay;
+	FIELD e SPECTATOR Lbay;
+	FIELD f id I
+	FIELD g name Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;IILjava/lang/String;)V
+		ARG 0 id
+		ARG 1 name
+		ARG 2 prefix
+	METHOD a getId ()I
+	METHOD a byId (I)Lbay;
+		ARG 0 id
+	METHOD a byId (ILbay;)Lbay;
+		ARG 0 id
+		ARG 1 defaultMode
+	METHOD a setAbilitites (Larj;)V
+		ARG 0 abilities
+	METHOD a byName (Ljava/lang/String;)Lbay;
+		ARG 0 name
+	METHOD a byName (Ljava/lang/String;Lbay;)Lbay;
+		ARG 0 name
+		ARG 1 defaultMode
+	METHOD b getName ()Ljava/lang/String;
+	METHOD d shouldLimitWorldModification ()Z
+	METHOD e isCreative ()Z
+	METHOD f isSurvivalLike ()Z

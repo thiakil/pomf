@@ -1,1 +1,3 @@
-CLASS bso net/minecraft/world/gen/decorator/DecoratorEndFountain
+CLASS bss net/minecraft/world/gen/decorator/DecoratorEndFountain
+	FIELD a ORIGIN Lef;
+	FIELD b portal Z

@@ -1,4 +1,6 @@
-CLASS dbh net/minecraft/client/render/entity/EntityRendererSheep
+CLASS dbl net/minecraft/client/render/entity/EntityRendererSheep
 	FIELD a SKIN Loj;
-	METHOD a getTexture (Lanf;)Loj;
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Lanj;)Loj;
 		ARG 0 model

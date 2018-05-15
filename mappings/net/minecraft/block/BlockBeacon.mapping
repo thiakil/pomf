@@ -1,1 +1,19 @@
-CLASS bfj net/minecraft/block/BlockBeacon
+CLASS bfn net/minecraft/block/BlockBeacon
+	METHOD X_ getRenderLayer ()Lbaq;
+	METHOD a createBlockEntity (Lbap;)Lbmf;
+	METHOD a onPlaced (Lbbb;Lef;Lbnz;Laig;Lawk;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 3 placer
+		ARG 4 stack
+	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD c getRenderType (Lbnz;)Lbjw;

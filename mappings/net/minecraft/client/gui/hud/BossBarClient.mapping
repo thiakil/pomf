@@ -1,0 +1,10 @@
+CLASS cjd net/minecraft/client/gui/hud/BossBarClient
+	FIELD h healthLatest F
+	FIELD i timeHealthSet J
+	METHOD <init> (Ljf;)V
+		ARG 0 packet
+	METHOD a setHealth (F)V
+		ARG 0 health
+	METHOD a handlePacket (Ljf;)V
+		ARG 0 packet
+	METHOD k getHealth ()F

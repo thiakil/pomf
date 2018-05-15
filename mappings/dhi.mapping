@@ -1,0 +1,5 @@
+CLASS dhi
+	CLASS dhi$a
+		METHOD Y_ update ()V
+	CLASS dhi$b
+		METHOD Y_ update ()V

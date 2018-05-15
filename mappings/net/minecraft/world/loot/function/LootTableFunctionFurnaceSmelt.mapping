@@ -1,3 +1,11 @@
-CLASS cfe net/minecraft/world/loot/function/LootTableFunctionFurnaceSmelt
-	CLASS cfe$a DeSerializer
-		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfe;Lcom/google/gson/JsonSerializationContext;)V
+CLASS cfi net/minecraft/world/loot/function/LootTableFunctionFurnaceSmelt
+	CLASS cfi$a DeSerializer
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfa;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfi;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfm;)Lcfi;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfm;)Lcfa;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a apply (Lawk;Ljava/util/Random;Lcet;)Lawk;
+		ARG 0 stack
+		ARG 1 rand
+		ARG 2 context

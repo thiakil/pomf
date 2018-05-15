@@ -1,1 +1,13 @@
-CLASS bkg net/minecraft/block/BlockSlime
+CLASS bkk net/minecraft/block/BlockSlime
+	METHOD X_ getRenderLayer ()Lbaq;
+	METHOD a onEntityLand (Lbap;Lahx;)V
+		ARG 1 entity
+	METHOD a onSteppedOn (Lbbb;Lef;Lahx;)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 entity
+	METHOD a onLandedUpon (Lbbb;Lef;Lahx;F)V
+		ARG 0 world
+		ARG 1 pos
+		ARG 2 entity
+		ARG 3 fallDistance

@@ -1,1 +1,2 @@
-CLASS cfv net/minecraft/world/WorldFileIOTask
+CLASS cfz net/minecraft/world/WorldFileIOTask
+	METHOD a run ()Z

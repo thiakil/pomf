@@ -1,7 +1,23 @@
-CLASS aqq net/minecraft/entity/EntityIllagerCaster
-	CLASS aqq$b AiGoalLookAtTarget
-	CLASS aqq$c AiGoalCastSpell
+CLASS aqu net/minecraft/entity/EntityIllagerCaster
+	CLASS aqu$b AiGoalLookAtTarget
 		METHOD a canStart ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS aqu$c AiGoalCastSpell
+		FIELD b spellCooldown I
+		FIELD c startTime I
+		METHOD a canStart ()Z
+		METHOD b shouldContinue ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+		METHOD g getSpellTicks ()I
+		METHOD i startTimeDelay ()I
+		METHOD j castSpell ()V
+		METHOD k getSoundPrepare ()Lvo;
+		METHOD m getInitialCooldown ()I
+	FIELD b spellTicks I
+	METHOD K mobTick ()V
 	METHOD R_ update ()V
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag

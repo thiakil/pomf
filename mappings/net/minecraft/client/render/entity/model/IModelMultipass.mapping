@@ -1,1 +1,3 @@
-CLASS crj net/minecraft/client/render/entity/model/IModelMultipass
+CLASS crn net/minecraft/client/render/entity/model/IModelMultipass
+	METHOD b renderPass (Lahx;FFFFFF)V
+		ARG 0 entity

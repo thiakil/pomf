@@ -1,1 +1,8 @@
-CLASS bam net/minecraft/client/render/block/BlockRenderLayer
+CLASS baq net/minecraft/client/render/block/BlockRenderLayer
+	FIELD a SOLID Lbaq;
+	FIELD b MIPPED_CUTOUT Lbaq;
+	FIELD c CUTOUT Lbaq;
+	FIELD d TRANSLUCENT Lbaq;
+	FIELD e name Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+		ARG 0 name

@@ -1,2 +1,14 @@
-CLASS czx net/minecraft/client/render/entity/EntityRendererEvokerFangs
+CLASS dab net/minecraft/client/render/entity/EntityRendererEvokerFangs
 	FIELD a FANGS_TEXTURE Loj;
+	FIELD f model Lcpw;
+	METHOD <init> (Lczz;)V
+		ARG 0 entityRenderManager
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Lart;)Loj;
+		ARG 0 model
+	METHOD a (Lart;DDDFF)V
+		ARG 0 model
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

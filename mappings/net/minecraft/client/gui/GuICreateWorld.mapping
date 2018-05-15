@@ -1,5 +1,10 @@
-CLASS cli net/minecraft/client/gui/GuICreateWorld
+CLASS clm net/minecraft/client/gui/GuICreateWorld
+	FIELD a previousScreen Lcll;
+	FIELD f selectworldAllowcommands Lciu;
+	FIELD g selectworldGamemode Lciu;
 	FIELD h gameType Ljava/lang/String;
+	METHOD <init> (Lcll;)V
+		ARG 0 previousScreen
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY

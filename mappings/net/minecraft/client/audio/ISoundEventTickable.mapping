@@ -1,1 +1,2 @@
-CLASS dhc net/minecraft/client/audio/ISoundEventTickable
+CLASS dhg net/minecraft/client/audio/ISoundEventTickable
+	METHOD m isDone ()Z

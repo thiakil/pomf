@@ -1,0 +1,7 @@
+CLASS acm net/minecraft/util/datafix/optics/Proj2
+	METHOD a view (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD a update (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD a update (Ljava/lang/Object;Lwy;)Lwy;
+	METHOD a view (Lwy;)Ljava/lang/Object;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object

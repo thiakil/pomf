@@ -1,1 +1,5 @@
-CLASS bln net/minecraft/block/BlockMobWallHead
+CLASS blr net/minecraft/block/BlockMobWallHead
+	METHOD a getDefaultState (Laup;)Lbnz;
+	METHOD a withMirror (Lbnz;Lbiw;)Lbnz;
+	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;
+	METHOD l getTranslationKey ()Ljava/lang/String;

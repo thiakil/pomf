@@ -1,1 +1,13 @@
-CLASS bkx net/minecraft/block/BlockStructureVoid
+CLASS blb net/minecraft/block/BlockStructureVoid
+	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a dropItems (Lbnz;Lbbb;Lef;FI)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 dropChance
+		ARG 4 fortune
+	METHOD c getRenderType (Lbnz;)Lbjw;
+	METHOD g getAmbientOcclusionLightValue (Lbnz;)F
+	METHOD i getPistonBehavior (Lbnz;)Lcbh;

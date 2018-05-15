@@ -1,2 +1,10 @@
-CLASS dah net/minecraft/client/render/entity/EntityRendererBiped
+CLASS dal net/minecraft/client/render/entity/EntityRendererBiped
 	FIELD a SKIN Loj;
+	METHOD <init> (Lczz;Lcqa;F)V
+		ARG 0 renderManager
+		ARG 1 model
+		ARG 2 shadowSize
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Laih;)Loj;
+		ARG 0 model

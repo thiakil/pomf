@@ -1,0 +1,5 @@
+CLASS bhl
+	CLASS bhl$a
+		METHOD m asString ()Ljava/lang/String;
+	FIELD H FACE Lbow;
+	METHOD a getDefaultState (Laup;)Lbnz;

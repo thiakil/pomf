@@ -1,1 +1,64 @@
-CLASS csj net/minecraft/client/world/WorldClient
+CLASS csn net/minecraft/client/world/WorldClient
+	FIELD H game Lcht;
+	FIELD b netHandler Lcsk;
+	FIELD c chunkProvider Lcsi;
+	METHOD <init> (Lcsk;Lbbg;ILago;Lwz;)V
+		ARG 0 netHandler
+		ARG 1 levelInfo
+		ARG 2 worldTypeId
+		ARG 3 difficulty
+		ARG 4 profiler
+	METHOD R quitClient ()V
+	METHOD a playSound (DDDLvo;Lvq;FFZ)V
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 sound
+		ARG 4 category
+		ARG 5 volume
+		ARG 6 pitch
+	METHOD a getEntityById (I)Lahx;
+		ARG 0 id
+	METHOD a doRandomBlockDisplayTicks (III)V
+		ARG 0 xCenter
+		ARG 1 yCenter
+		ARG 2 zCenter
+	METHOD a randomBlockDisplayTick (IIIILjava/util/Random;ZLef$a;)V
+		ARG 0 xCenter
+		ARG 1 yCenter
+		ARG 2 zCenter
+		ARG 3 radius
+		ARG 4 rand
+		ARG 5 spawnBarrierParticles
+		ARG 6 posMutable
+	METHOD a spawnEntity (Lahx;)Z
+		ARG 0 entity
+	METHOD a playSound (Larl;DDDLvo;Lvq;FF)V
+		ARG 0 player
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 sound
+		ARG 5 category
+		ARG 6 volume
+		ARG 7 pitch
+	METHOD a playSoundClient (Lef;Lvo;Lvq;FFZ)V
+		ARG 0 pos
+		ARG 1 sound
+		ARG 2 category
+		ARG 3 volume
+		ARG 4 pitch
+	METHOD a sendPacket (Lip;)V
+		ARG 0 packet
+	METHOD b setTimeOfDay (J)V
+		ARG 0 time
+	METHOD b onEntityAdded (Lahx;)V
+		ARG 0 entity
+	METHOD c onEntityRemoved (Lahx;)V
+		ARG 0 entity
+	METHOD c getGameInstance (Lcsn;)Lcht;
+	METHOD f getChunkProvider ()Lcsi;
+	METHOD i_ update ()V
+	METHOD m_ tickRandomBlocks ()V
+	METHOD p createChunkProvider ()Lbpj;
+	METHOD u updateWeather ()V

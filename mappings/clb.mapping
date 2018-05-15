@@ -1,5 +1,4 @@
 CLASS clb
-	FIELD a options Ljava/lang/String;
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY

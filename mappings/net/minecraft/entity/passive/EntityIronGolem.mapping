@@ -1,14 +1,27 @@
-CLASS anl net/minecraft/entity/passive/EntityIronGolem
+CLASS anp net/minecraft/entity/passive/EntityIronGolem
 	FIELD a IRON_GOLEM_FLAGS Lny;
+	FIELD c villageProperties Lamm;
+	METHOD B attackEntity (Lahx;)Z
+	METHOD C pushAway (Lahx;)V
+		ARG 0 entity
 	METHOD H getLootTableId ()Loj;
+	METHOD K mobTick ()V
+	METHOD a onDeath (Lahg;)V
+		ARG 0 damageSource
+	METHOD a playStepSound (Lef;Lbfq;)V
+		ARG 0 pos
+		ARG 1 block
 	METHOD a deserializeCustomData (Lgu;)V
 		ARG 0 tag
 	METHOD b serializeCustomData (Lgu;)V
 		ARG 0 tag
+	METHOD b canTrack (Ljava/lang/Class;)Z
 	METHOD ca initAttributes ()V
 	METHOD ct getSoundDeath ()Lvo;
+	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD dE isPlayerCreated ()Z
 	METHOD k updateMovement ()V
-	METHOD n ()V
+	METHOD l getVillageProperties ()Lamm;
 	METHOD s setPlayerCreated (Z)V
 		ARG 0 value
 	METHOD w_ initDataTracker ()V

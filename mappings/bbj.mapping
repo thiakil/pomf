@@ -1,1 +1,3 @@
 CLASS bbj
+	METHOD a spawnEntity (Lahx;)Z
+		ARG 0 entity

@@ -1,2 +1,11 @@
-CLASS chb net/minecraft/scoreboard/ScoreboardTeamBase
+CLASS chf net/minecraft/scoreboard/ScoreboardTeamBase
+	METHOD a isEqual (Lchf;)Z
+		ARG 0 team
 	METHOD b getName ()Ljava/lang/String;
+	METHOD g getPlayerList ()Ljava/util/Collection;
+	METHOD h isFriendlyFireAllowed ()Z
+	METHOD i shouldShowFriendlyInvisibles ()Z
+	METHOD j getNameTagVisibilityRule ()Lchf$b;
+	METHOD k getDeathMessageVisibilityRule ()Lchf$b;
+	METHOD l getCollisionRule ()Lchf$a;
+	METHOD n getTeamColor ()La;

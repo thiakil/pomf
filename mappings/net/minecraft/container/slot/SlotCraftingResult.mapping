@@ -1,1 +1,22 @@
-CLASS atv net/minecraft/container/slot/SlotCraftingResult
+CLASS atz net/minecraft/container/slot/SlotCraftingResult
+	FIELD a craftingInv Lath;
+	FIELD b player Larl;
+	METHOD <init> (Larl;Lath;Lagk;III)V
+		ARG 0 player
+		ARG 1 craftingInv
+		ARG 2 inventory
+		ARG 3 invSlot
+		ARG 4 x
+		ARG 5 y
+	METHOD a takeStack (I)Lawk;
+		ARG 0 amount
+	METHOD a onTakeItem (Larl;Lawk;)Lawk;
+		ARG 0 player
+		ARG 1 stack
+	METHOD a canInsert (Lawk;)Z
+		ARG 0 stack
+	METHOD a onCrafted (Lawk;I)V
+		ARG 0 stack
+		ARG 1 amount
+	METHOD c onCrafted (Lawk;)V
+		ARG 0 stack

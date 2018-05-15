@@ -1,1 +1,8 @@
-CLASS dig net/minecraft/client/tutorial/TutorialLocateTreeStep
+CLASS dik net/minecraft/client/tutorial/TutorialLocateTreeStep
+	FIELD b TUTORIAL_FIND_TREE_TITLE Lic;
+	FIELD c TUTORIAL_FIND_TREE_DESCRIPTION Lic;
+	METHOD a update ()V
+	METHOD a onItemPickup (Lawk;)V
+		ARG 0 stack
+	METHOD a hasPreviouslyPunchedTree (Lcuq;)Z
+	METHOD b onStop ()V

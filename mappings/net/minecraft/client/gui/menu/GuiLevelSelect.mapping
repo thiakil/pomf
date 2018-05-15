@@ -1,0 +1,15 @@
+CLASS coi net/minecraft/client/gui/menu/GuiLevelSelect
+	FIELD f title Ljava/lang/String;
+	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD i selectworldDelete Lciu;
+	FIELD s selectworldSelect Lciu;
+	FIELD t selectworldEdit Lciu;
+	FIELD u selectworldRecreate Lciu;
+	METHOD <init> (Lcll;)V
+		ARG 0 parent
+	METHOD a draw (IIF)V
+		ARG 0 mouseX
+		ARG 1 mouseY
+		ARG 2 delta
+	METHOD c init ()V
+	METHOD n onClosed ()V

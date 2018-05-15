@@ -1,4 +1,11 @@
-CLASS cmi net/minecraft/client/gui/container/GuiContainer54
+CLASS cmm net/minecraft/client/gui/container/GuiContainer54
+	FIELD v BG_TEX Loj;
+	FIELD w playerInv Lagk;
+	FIELD x inventory Lagk;
+	FIELD y rows I
+	METHOD <init> (Lagk;Lagk;)V
+		ARG 0 playerInv
+		ARG 1 inventory
 	METHOD a drawBackground (FII)V
 		ARG 0 delta
 		ARG 1 mouseX

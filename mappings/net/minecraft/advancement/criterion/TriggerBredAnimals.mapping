@@ -7,6 +7,10 @@ CLASS z net/minecraft/advancement/criterion/TriggerBredAnimals
 		METHOD a isEmpty ()Z
 		METHOD a addCondition (Ls$a;)V
 			ARG 0 condition
+		METHOD a handle (Lsl;Lamv;Lamv;Lahu;)V
+			ARG 1 parent1
+			ARG 2 parent2
+			ARG 3 child
 		METHOD b removeCondition (Ls$a;)V
 			ARG 0 condition
 	FIELD a ID Loj;
@@ -20,6 +24,11 @@ CLASS z net/minecraft/advancement/criterion/TriggerBredAnimals
 	METHOD a addCondition (Lot;Ls$a;)V
 		ARG 0 manager
 		ARG 1 condition
+	METHOD a handle (Lsl;Lamv;Lamv;Lahu;)V
+		ARG 0 player
+		ARG 1 parent1
+		ARG 2 parent2
+		ARG 3 child
 	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lz$b;
 		ARG 0 obj
 		ARG 1 context

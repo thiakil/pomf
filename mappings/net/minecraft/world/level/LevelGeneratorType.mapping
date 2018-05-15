@@ -1,1 +1,37 @@
-CLASS bbe net/minecraft/world/level/LevelGeneratorType
+CLASS bbi net/minecraft/world/level/LevelGeneratorType
+	FIELD a TYPES [Lbbi;
+	FIELD b DEFAULT Lbbi;
+	FIELD c FLAT Lbbi;
+	FIELD d LARGE_BIOMES Lbbi;
+	FIELD e AMPLIFIED Lbbi;
+	FIELD f CUSTOMIZED Lbbi;
+	FIELD g BUFFET Lbbi;
+	FIELD h DEBUG_ALL_BLOCK_STATES Lbbi;
+	FIELD i DEFAULT_1_1 Lbbi;
+	FIELD j id I
+	FIELD k name Ljava/lang/String;
+	FIELD l version I
+	FIELD n versioned Z
+	FIELD o info Z
+	METHOD <init> (ILjava/lang/String;)V
+		ARG 0 id
+		ARG 1 name
+	METHOD <init> (ILjava/lang/String;I)V
+		ARG 0 id
+		ARG 1 name
+		ARG 2 version
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a getTypeForVersion (I)Lbbi;
+		ARG 0 version
+	METHOD a getTypeFromName (Ljava/lang/String;)Lbbi;
+		ARG 0 name
+	METHOD b getTranslationKey ()Ljava/lang/String;
+	METHOD b setVisible (Z)Lbbi;
+		ARG 0 value
+	METHOD c getInfoTranslationKey ()Ljava/lang/String;
+	METHOD d getVersion ()I
+	METHOD g isVersioned ()Z
+	METHOD h getId ()I
+	METHOD i hasInfo ()Z
+	METHOD j setVersioned ()Lbbi;
+	METHOD k setHasInfo ()Lbbi;

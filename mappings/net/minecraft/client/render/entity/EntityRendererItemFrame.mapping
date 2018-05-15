@@ -1,2 +1,13 @@
-CLASS dal net/minecraft/client/render/entity/EntityRendererItemFrame
+CLASS dap net/minecraft/client/render/entity/EntityRendererItemFrame
 	FIELD a MAP_BACKGROUND_TEX Loj;
+	FIELD f game Lcht;
+	FIELD g MODEL_NORMAL Ldgo;
+	FIELD h MODEL_MAP Ldgo;
+	FIELD i itemRenderer Ldaq;
+	METHOD <init> (Lczz;Ldaq;)V
+		ARG 0 renderManager
+		ARG 1 itemRenderer
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Lapg;)Loj;
+		ARG 0 model

@@ -1,1 +1,6 @@
-CLASS czz net/minecraft/client/render/entity/EntityRendererExperienceOrb
+CLASS dad net/minecraft/client/render/entity/EntityRendererExperienceOrb
+	FIELD a TEX Loj;
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Laid;)Loj;
+		ARG 0 model

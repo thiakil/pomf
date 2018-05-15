@@ -1,4 +1,9 @@
-CLASS daj net/minecraft/client/render/entity/RenderIllagerIllusion
+CLASS dan net/minecraft/client/render/entity/RenderIllagerIllusion
+	CLASS dan$1
+		METHOD a render (Laig;FFFFFFF)V
+			ARG 0 entity
 	FIELD a TEXTURE Loj;
-	METHOD a getTexture (Laqh;)Loj;
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Laql;)Loj;
 		ARG 0 model

@@ -1,2 +1,14 @@
-CLASS cfn net/minecraft/world/loot/condition/LootTableConditionRandomChanceWithLooting
-	CLASS cfn$a Provider
+CLASS cfr net/minecraft/world/loot/condition/LootTableConditionRandomChanceWithLooting
+	CLASS cfr$a Provider
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfm;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfr;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcfr;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcfm;
+	FIELD a chance F
+	FIELD b lootingMultiplier F
+	METHOD <init> (FF)V
+		ARG 0 chance
+		ARG 1 lootingMultiplier
+	METHOD a matches (Ljava/util/Random;Lcet;)Z
+		ARG 0 rand
+		ARG 1 context

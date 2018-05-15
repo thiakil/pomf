@@ -1,4 +1,37 @@
-CLASS ahl net/minecraft/potion/PotionEffectType
+CLASS ahp net/minecraft/potion/PotionEffectType
+	FIELD a attributes Ljava/util/Map;
+	FIELD b REGISTRY Let;
+	FIELD c negative Z
+	FIELD d color I
+	FIELD e translationKey Ljava/lang/String;
+	FIELD f iconIndex I
 	METHOD <init> (ZI)V
 		ARG 0 negative
 		ARG 1 color
+	METHOD a getTranslationKey ()Ljava/lang/String;
+	METHOD a getEffectByRawId (I)Lahp;
+		ARG 0 rawId
+	METHOD a canApplyUpdateEffect (II)Z
+		ARG 0 duration
+		ARG 1 amplifier
+	METHOD a getRawIdFromEffect (Lahp;)I
+		ARG 0 effect
+	METHOD a applyInstantEffect (Lahx;Lahx;Laig;ID)V
+		ARG 0 source
+		ARG 1 attacker
+		ARG 2 target
+		ARG 3 amplifier
+		ARG 4 distanceFactor
+	METHOD a applyUpdateEffect (Laig;I)V
+		ARG 0 entity
+		ARG 1 amplifier
+	METHOD b isInstant ()Z
+	METHOD b setIcon (II)Lahp;
+		ARG 0 x
+		ARG 1 y
+	METHOD c setTranslationKey (Ljava/lang/String;)Lahp;
+	METHOD d hasIcon ()Z
+	METHOD e getIconIndex ()I
+	METHOD f isNegative ()Z
+	METHOD h getColor ()I
+	METHOD l registerDefaults ()V

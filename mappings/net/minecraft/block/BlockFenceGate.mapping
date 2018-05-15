@@ -1,1 +1,28 @@
-CLASS bhl net/minecraft/block/BlockFenceGate
+CLASS bhp net/minecraft/block/BlockFenceGate
+	FIELD a OPEN Lbou;
+	FIELD b POWERED Lbou;
+	FIELD c IN_WALL Lbou;
+	METHOD <init> (Lbfq$b;)V
+		ARG 0 type
+	METHOD a getDefaultState (Laup;)Lbnz;
+	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a isNotSolid (Lbnz;Lbap;Lef;)Z
+		ARG 2 pos
+	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD a update (Lbnz;Lbbb;Lef;Lbfq;Lef;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 block
+		ARG 4 updatePos

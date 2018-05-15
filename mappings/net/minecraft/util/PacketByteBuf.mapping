@@ -4,6 +4,8 @@ CLASS ht net/minecraft/util/PacketByteBuf
 		ARG 0 underlying
 	METHOD a readByteArray ()[B
 	METHOD a getVarIntSizeBytes (I)I
+	METHOD a writeItemStack (Lawk;)Lht;
+		ARG 0 stack
 	METHOD a writeBlockPos (Lef;)Lht;
 		ARG 0 pos
 	METHOD a writeTagCompound (Lgu;)Lht;
@@ -49,5 +51,6 @@ CLASS ht net/minecraft/util/PacketByteBuf
 	METHOD h readVarLong ()J
 	METHOD i readUUID ()Ljava/util/UUID;
 	METHOD j readTagCompound ()Lgu;
+	METHOD k readItemStack ()Lawk;
 	METHOD l readIdentifier ()Loj;
 	METHOD m readDate ()Ljava/util/Date;

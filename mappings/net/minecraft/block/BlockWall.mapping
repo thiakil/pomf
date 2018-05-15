@@ -1,1 +1,9 @@
-CLASS bll net/minecraft/block/BlockWall
+CLASS blp net/minecraft/block/BlockWall
+	FIELD y UP Lbou;
+	METHOD a getDefaultState (Laup;)Lbnz;
+	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a isNotSolid (Lbnz;Lbap;Lef;)Z
+		ARG 2 pos

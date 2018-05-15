@@ -1,1 +1,18 @@
-CLASS cty net/minecraft/client/particle/ParticleWaterSplash
+CLASS cuc net/minecraft/client/particle/ParticleWaterSplash
+	CLASS cuc$a
+		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lctt;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ
+		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lctt;
+			ARG 1 world
+			ARG 2 x
+			ARG 3 y
+			ARG 4 z
+			ARG 5 velocityX
+			ARG 6 velocityY
+			ARG 7 velocityZ

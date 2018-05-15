@@ -1,1 +1,3 @@
-CLASS atx net/minecraft/container/slot/SlotShulkerBox
+CLASS aub net/minecraft/container/slot/SlotShulkerBox
+	METHOD a canInsert (Lawk;)Z
+		ARG 0 stack

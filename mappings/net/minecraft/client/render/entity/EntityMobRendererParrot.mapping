@@ -1,1 +1,5 @@
-CLASS daz net/minecraft/client/render/entity/EntityMobRendererParrot
+CLASS dbd net/minecraft/client/render/entity/EntityMobRendererParrot
+	METHOD a getTexture (Lahx;)Loj;
+		ARG 0 model
+	METHOD a getTexture (Land;)Loj;
+		ARG 0 model

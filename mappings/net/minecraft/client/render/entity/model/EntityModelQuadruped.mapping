@@ -1,1 +1,23 @@
-CLASS cqp net/minecraft/client/render/entity/model/EntityModelQuadruped
+CLASS cqt net/minecraft/client/render/entity/model/EntityModelQuadruped
+	FIELD a head Lcsd;
+	FIELD b body Lcsd;
+	FIELD c leg1 Lcsd;
+	FIELD d leg2 Lcsd;
+	FIELD e leg3 Lcsd;
+	FIELD f leg4 Lcsd;
+	METHOD a setRotationAngles (FFFFFFLahx;)V
+		ARG 0 limbMoveAngle
+		ARG 1 limbMoveAmount
+		ARG 2 age
+		ARG 3 headYaw
+		ARG 4 headPitch
+		ARG 5 scale
+		ARG 6 entity
+	METHOD a render (Lahx;FFFFFF)V
+		ARG 0 entity
+		ARG 1 limbMoveAngle
+		ARG 2 limbMoveAmount
+		ARG 3 age
+		ARG 4 headYaw
+		ARG 5 headPitch
+		ARG 6 scale

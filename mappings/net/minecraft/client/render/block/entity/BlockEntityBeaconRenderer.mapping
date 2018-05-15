@@ -1,1 +1,4 @@
-CLASS cxe net/minecraft/client/render/block/entity/BlockEntityBeaconRenderer
+CLASS cxi net/minecraft/client/render/block/entity/BlockEntityBeaconRenderer
+	FIELD a BEAM_TEX Loj;
+	METHOD a render (Lbmd;DDDFI)V
+	METHOD a render (Lbmf;DDDFI)V

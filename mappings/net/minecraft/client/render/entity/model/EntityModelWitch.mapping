@@ -1,3 +1,13 @@
-CLASS crp net/minecraft/client/render/entity/model/EntityModelWitch
+CLASS crt net/minecraft/client/render/entity/model/EntityModelWitch
+	FIELD h mole Lcsd;
+	FIELD i hat Lcsd;
 	METHOD <init> (F)V
 		ARG 0 scale
+	METHOD a setRotationAngles (FFFFFFLahx;)V
+		ARG 0 limbMoveAngle
+		ARG 1 limbMoveAmount
+		ARG 2 age
+		ARG 3 headYaw
+		ARG 4 headPitch
+		ARG 5 scale
+		ARG 6 entity

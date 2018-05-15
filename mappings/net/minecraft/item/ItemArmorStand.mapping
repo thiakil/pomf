@@ -1,1 +1,3 @@
-CLASS auf net/minecraft/item/ItemArmorStand
+CLASS auj net/minecraft/item/ItemArmorStand
+	METHOD a setRotations (Lape;Ljava/util/Random;)V
+	METHOD a activate (Laxv;)Lags;

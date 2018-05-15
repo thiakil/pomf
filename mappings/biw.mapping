@@ -1,0 +1,4 @@
+CLASS biw
+	FIELD a NONE Lbiw;
+	FIELD b LEFT_RIGHT Lbiw;
+	FIELD c FRONT_BACK Lbiw;

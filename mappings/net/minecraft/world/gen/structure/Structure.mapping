@@ -1,1 +1,18 @@
-CLASS bzd net/minecraft/world/gen/structure/Structure
+CLASS bzh net/minecraft/world/gen/structure/Structure
+	FIELD a pieces Ljava/util/List;
+	FIELD b boundingBox Lbyl;
+	FIELD c chunkX I
+	FIELD d chunkZ I
+	FIELD e biome Lbbv;
+	METHOD a serialize (II)Lgu;
+		ARG 0 chunkX
+		ARG 1 chunkZ
+	METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)V
+		ARG 1 rand
+		ARG 2 region
+	METHOD a serializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD b deserializeCustomData (Lgu;)V
+		ARG 0 tag
+	METHOD c getBoundingBox ()Lbyl;
+	METHOD d getPieces ()Ljava/util/List;

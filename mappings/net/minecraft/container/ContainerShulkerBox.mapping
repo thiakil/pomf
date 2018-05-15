@@ -1,1 +1,13 @@
-CLASS atw net/minecraft/container/ContainerShulkerBox
+CLASS aua net/minecraft/container/ContainerShulkerBox
+	FIELD a inventory Lagk;
+	METHOD <init> (Lark;Lagk;Larl;)V
+		ARG 0 inventoryPlayer
+		ARG 1 inventory
+		ARG 2 player
+	METHOD a canUse (Larl;)Z
+		ARG 0 player
+	METHOD b close (Larl;)V
+		ARG 0 player
+	METHOD b getStack (Larl;I)Lawk;
+		ARG 0 player
+		ARG 1 slot

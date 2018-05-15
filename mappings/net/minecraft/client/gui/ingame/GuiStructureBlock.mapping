@@ -1,8 +1,61 @@
-CLASS cmy net/minecraft/client/gui/ingame/GuiStructureBlock
+CLASS cnc net/minecraft/client/gui/ingame/GuiStructureBlock
+	CLASS cnc$7
+		METHOD charTyped onKeyPressed (CI)Z
+			ARG 0 keyChar
+			ARG 1 keyCode
+	FIELD A inputSizeY Lciy;
+	FIELD B inputSizeZ Lciy;
+	FIELD C inputIntegrity Lciy;
+	FIELD D inputSeed Lciy;
+	FIELD E inputMetadata Lciy;
+	FIELD F guiDone Lciu;
+	FIELD G guiCancel Lciu;
+	FIELD H buttonSave Lciu;
+	FIELD I buttonLoad Lciu;
+	FIELD J buttonRotate0 Lciu;
+	FIELD K buttonRotate90 Lciu;
+	FIELD L buttonRotate180 Lciu;
+	FIELD M buttonRotate270 Lciu;
+	FIELD N buttonMode Lciu;
+	FIELD O buttonDetect Lciu;
+	FIELD P buttonEntities Lciu;
+	FIELD Q buttonMirror Lciu;
+	FIELD R buttonShowAir Lciu;
+	FIELD S buttonShowBoundingBox Lciu;
+	FIELD T textFields Ljava/util/List;
+	FIELD U decimalFormat Ljava/text/DecimalFormat;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f structureBlock Lbnc;
+	FIELD g mirror Lbiw;
+	FIELD h rotation Lbjz;
+	FIELD i mode Lbnc$a;
+	FIELD v inputName Lciy;
+	FIELD w inputPosX Lciy;
+	FIELD x inputPosY Lciy;
+	FIELD y inputPosZ Lciy;
+	FIELD z inputSizeX Lciy;
+	METHOD <init> (Lbnc;)V
+		ARG 0 structureBlock
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY
 		ARG 2 delta
+	METHOD a parseLong (Ljava/lang/String;)J
+		ARG 0 s
+	METHOD ag_ close ()V
+	METHOD b sendUpdate (I)Z
+		ARG 0 type
+	METHOD b parseFloat (Ljava/lang/String;)F
+		ARG 0 s
 	METHOD c init ()V
+	METHOD c parseInt (Ljava/lang/String;)I
+		ARG 0 s
+	METHOD e doesGuiPauseGame ()Z
 	METHOD f update ()V
 	METHOD j updateIgnoreEntitiesButton ()V
+	METHOD k updateShowAirButton ()V
+	METHOD m updateShowBoundingBoxButton ()V
+	METHOD n onClosed ()V
+	METHOD o updateMirrorButton ()V
+	METHOD s updateRotationButton ()V
+	METHOD u updateMode ()V

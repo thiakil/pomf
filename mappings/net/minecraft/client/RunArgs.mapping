@@ -1,1 +1,23 @@
-CLASS cou net/minecraft/client/RunArgs
+CLASS coy net/minecraft/client/RunArgs
+	CLASS coy$b Directories
+		FIELD a runDir Ljava/io/File;
+		FIELD b resourcePackDir Ljava/io/File;
+		FIELD c assetDir Ljava/io/File;
+		FIELD d assetIndex Ljava/lang/String;
+		METHOD a getResourceIndex ()Ldfk;
+	CLASS coy$c Game
+		FIELD a demo Z
+		FIELD b version Ljava/lang/String;
+		FIELD c versionType Ljava/lang/String;
+	CLASS coy$d AutoConnect
+		FIELD a serverIp Ljava/lang/String;
+		FIELD b serverPort I
+	CLASS coy$e Network
+		FIELD a session Lcia;
+		FIELD c profileProperties Lcom/mojang/authlib/properties/PropertyMap;
+		FIELD d netProxy Ljava/net/Proxy;
+	FIELD a network Lcoy$e;
+	FIELD b render Lcoy$a;
+	FIELD c directories Lcoy$b;
+	FIELD d game Lcoy$c;
+	FIELD e autoConnect Lcoy$d;

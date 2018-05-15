@@ -1,1 +1,2 @@
-CLASS bty net/minecraft/world/gen/structure/StructureGeneratorNetherFortress
+CLASS buc net/minecraft/world/gen/structure/StructureGeneratorNetherFortress
+	CLASS buc$a StructureNetherFortress

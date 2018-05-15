@@ -1,5 +1,12 @@
-CLASS akw net/minecraft/entity/ai/mob/AiGoalDistantAttack
+CLASS ala net/minecraft/entity/ai/mob/AiGoalDistantAttack
+	FIELD a owner Laql;
+	FIELD d rangeSquared F
+	METHOD <init> (Laql;DIF)V
+		ARG 0 owner
+		ARG 3 range
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V
+	METHOD d stop ()V
 	METHOD e tick ()V
+	METHOD g hasAttackItem ()Z

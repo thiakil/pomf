@@ -1,3 +1,6 @@
-CLASS ajo net/minecraft/entity/ai/AiGoalSwim
+CLASS ajs net/minecraft/entity/ai/AiGoalSwim
+	FIELD a entityMob Laih;
+	METHOD <init> (Laih;)V
+		ARG 0 entityMob
 	METHOD a canStart ()Z
 	METHOD e tick ()V

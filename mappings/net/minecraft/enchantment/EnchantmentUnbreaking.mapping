@@ -1,2 +1,4 @@
-CLASS azd net/minecraft/enchantment/EnchantmentUnbreaking
+CLASS azh net/minecraft/enchantment/EnchantmentUnbreaking
+	METHOD a isAcceptableItem (Lawk;)Z
+		ARG 0 item
 	METHOD b getHighestLevel ()I

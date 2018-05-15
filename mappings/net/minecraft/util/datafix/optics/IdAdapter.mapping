@@ -1,1 +1,3 @@
-CLASS aby net/minecraft/util/datafix/optics/IdAdapter
+CLASS aca net/minecraft/util/datafix/optics/IdAdapter
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object

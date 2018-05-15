@@ -1,1 +1,20 @@
-CLASS cfz net/minecraft/util/HitResult
+CLASS cgd net/minecraft/util/HitResult
+	CLASS cgd$a Type
+		FIELD a NONE Lcgd$a;
+		FIELD b BLOCK Lcgd$a;
+		FIELD c ENTITY Lcgd$a;
+	FIELD a type Lcgd$a;
+	FIELD c pos Lcgg;
+	FIELD d entity Lahx;
+	FIELD e blockPos Lef;
+	METHOD <init> (Lahx;)V
+		ARG 0 entity
+	METHOD <init> (Lahx;Lcgg;)V
+		ARG 0 entity
+		ARG 1 pos
+	METHOD <init> (Lcgd$a;Lcgg;Lel;Lef;)V
+		ARG 0 type
+		ARG 1 pos
+		ARG 2 side
+		ARG 3 blockPos
+	METHOD a getBlockPos ()Lef;

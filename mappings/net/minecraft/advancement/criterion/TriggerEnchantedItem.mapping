@@ -5,6 +5,9 @@ CLASS ak net/minecraft/advancement/criterion/TriggerEnchantedItem
 		METHOD <init> (Lot;)V
 			ARG 0 manager
 		METHOD a isEmpty ()Z
+		METHOD a handle (Lawk;I)V
+			ARG 0 stack
+			ARG 1 level
 		METHOD a addCondition (Ls$a;)V
 			ARG 0 condition
 		METHOD b removeCondition (Ls$a;)V
@@ -20,6 +23,10 @@ CLASS ak net/minecraft/advancement/criterion/TriggerEnchantedItem
 	METHOD a addCondition (Lot;Ls$a;)V
 		ARG 0 manager
 		ARG 1 condition
+	METHOD a handle (Lsl;Lawk;I)V
+		ARG 0 player
+		ARG 1 stack
+		ARG 2 level
 	METHOD b deserializeConditions (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lak$b;
 		ARG 0 obj
 		ARG 1 context

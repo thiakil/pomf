@@ -1,0 +1,2 @@
+CLASS dhy
+	FIELD f preInit Ljava/lang/String;

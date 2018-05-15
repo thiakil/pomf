@@ -1,1 +1,3 @@
-CLASS bjs net/minecraft/block/BlockRenderType
+CLASS bjw net/minecraft/block/BlockRenderType
+	FIELD a NONE Lbjw;
+	FIELD c MODEL Lbjw;

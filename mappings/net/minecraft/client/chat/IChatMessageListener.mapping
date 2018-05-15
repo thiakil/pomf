@@ -1,1 +1,4 @@
-CLASS cik net/minecraft/client/chat/IChatMessageListener
+CLASS cio net/minecraft/client/chat/IChatMessageListener
+	METHOD a onMessageReceived (Lia;Lic;)V
+		ARG 0 type
+		ARG 1 message

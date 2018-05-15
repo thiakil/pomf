@@ -1,1 +1,13 @@
-CLASS atr net/minecraft/inventory/InventoryEnderChest
+CLASS atv net/minecraft/inventory/InventoryEnderChest
+	FIELD a currentBlockEntity Lbmq;
+	METHOD a canPlayerUseInv (Larl;)Z
+		ARG 0 player
+	METHOD a setCurrentBlockEntity (Lbmq;)V
+		ARG 0 value
+	METHOD a readTags (Lha;)V
+		ARG 0 tags
+	METHOD b onInvOpen (Larl;)V
+		ARG 0 player
+	METHOD c onInvClose (Larl;)V
+		ARG 0 player
+	METHOD i getTags ()Lha;
