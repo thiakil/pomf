@@ -1,6 +1,6 @@
 CLASS abs net/minecraft/util/datafix/optics/Affine
 	CLASS abs$a Instance
-		METHOD a dimip (Labb;)Labb;
+		METHOD a left (Labb;)Labb;
 		METHOD a dimap (Ljava/util/function/Function;Ljava/util/function/Function;)Lxq;
 		METHOD c right (Labb;)Labb;
 		METHOD d (Labb;)Labb;
