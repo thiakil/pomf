@@ -1,3 +1,4 @@
 CLASS bir
+	METHOD a getDropAmount (Lbnv;ILbax;Lef;Ljava/util/Random;)I
 	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
 	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I

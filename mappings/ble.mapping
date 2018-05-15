@@ -28,3 +28,4 @@ CLASS ble
 		ARG 2 pos
 		ARG 3 block
 		ARG 4 updatePos
+	METHOD t getFluidState (Lbnv;)Lcax;

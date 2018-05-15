@@ -3,6 +3,7 @@ CLASS bhb
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
+	METHOD a getItem (Lbal;Lef;Lbnv;)Lawg;
 	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I
 	METHOD c randomDisplayTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
 		ARG 1 world

@@ -17,9 +17,13 @@ CLASS bhf net/minecraft/block/BlockEnderChest
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
+	METHOD a withMirror (Lbnv;Lbis;)Lbnv;
+	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;
 	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I
 	METHOD c getRenderType (Lbnv;)Lbjs;
 	METHOD c randomDisplayTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 rand
+	METHOD j canSilkHarvest ()Z
+	METHOD t getFluidState (Lbnv;)Lcax;

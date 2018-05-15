@@ -30,3 +30,4 @@ CLASS bfi
 		ARG 1 world
 		ARG 2 pos
 	METHOD c getShapeProperty ()Lbou;
+	METHOD i getPistonBehavior (Lbnv;)Lcbd;

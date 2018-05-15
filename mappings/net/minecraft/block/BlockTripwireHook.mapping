@@ -24,6 +24,8 @@ CLASS blh net/minecraft/block/BlockTripwireHook
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
+	METHOD a withMirror (Lbnv;Lbis;)Lbnv;
+	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;
 	METHOD b getStrongRedstonePower (Lbnv;Lbal;Lef;Lel;)I
 		ARG 1 view
 		ARG 2 pos
@@ -32,3 +34,4 @@ CLASS blh net/minecraft/block/BlockTripwireHook
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
+	METHOD h canProvidePower (Lbnv;)Z

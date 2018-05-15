@@ -5,3 +5,4 @@ CLASS bie
 		ARG 3 dropChance
 		ARG 4 fortune
 	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I
+	METHOD s getSilkDrop (Lbnv;)Lawg;

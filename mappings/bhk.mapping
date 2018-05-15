@@ -16,3 +16,5 @@ CLASS bhk
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
+	METHOD a withMirror (Lbnv;Lbis;)Lbnv;
+	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;

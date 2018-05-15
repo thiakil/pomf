@@ -1,2 +1,4 @@
 CLASS bib net/minecraft/block/BlockFacingHorizontal
 	FIELD I FACING Lbor;
+	METHOD a withMirror (Lbnv;Lbis;)Lbnv;
+	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;

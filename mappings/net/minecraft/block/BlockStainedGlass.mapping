@@ -7,3 +7,4 @@ CLASS bko net/minecraft/block/BlockStainedGlass
 	METHOD b onBlockAdded (Lbnv;Lbax;Lef;Lbnv;)V
 		ARG 1 world
 		ARG 2 pos
+	METHOD j canSilkHarvest ()Z

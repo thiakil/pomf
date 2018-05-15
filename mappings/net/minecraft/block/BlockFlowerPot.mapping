@@ -4,6 +4,7 @@ CLASS bho net/minecraft/block/BlockFlowerPot
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
+	METHOD a getItem (Lbal;Lef;Lbnv;)Lawg;
 	METHOD a dropItems (Lbnv;Lbax;Lef;FI)V
 		ARG 1 world
 		ARG 2 pos
@@ -21,3 +22,4 @@ CLASS bho net/minecraft/block/BlockFlowerPot
 		ARG 7 hitY
 		ARG 8 hitZ
 	METHOD c getRenderType (Lbnv;)Lbjs;
+	METHOD k getTranslationName ()Lic;

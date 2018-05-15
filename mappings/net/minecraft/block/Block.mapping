@@ -44,17 +44,27 @@ CLASS bfm net/minecraft/block/Block
 	METHOD <init> (Lbfm$b;)V
 		ARG 0 builder
 	METHOD X_ getRenderLayer ()Lbam;
-	METHOD a canMobSpawnInside ()Z
+	METHOD a canEntitiesSpawnInside ()Z
 	METHOD a get (I)Lbfm;
+		ARG 0 id
 	METHOD a getDefaultState (Laul;)Lbnv;
+	METHOD a getSubBlocks (Lava;Leu;)V
 	METHOD a getBlockFromItem (Lawc;)Lbfm;
 		ARG 0 item
+	METHOD a getTooltipInformation (Lawg;Lbal;Ljava/util/List;Laxo;)V
+		ARG 0 stack
+		ARG 1 world
+		ARG 2 tooltip
+		ARG 3 flag
 	METHOD a onEntityLand (Lbal;Laht;)V
 		ARG 1 entity
 	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
+	METHOD a getItem (Lbal;Lef;Lbnv;)Lawg;
+	METHOD a canDropFromExplosion (Lbar;)Z
+		ARG 0 explosion
 	METHOD a afterBreak (Lbax;Larh;Lef;Lbnv;Lbmb;Lawg;)V
 		ARG 0 world
 		ARG 1 player
@@ -79,6 +89,8 @@ CLASS bfm net/minecraft/block/Block
 		ARG 0 world
 		ARG 1 pos
 		ARG 3 player
+	METHOD a modifyAcceleration (Lbbb;Lef;Laht;Lcgc;)Lcgc;
+	METHOD a getDropAmount (Lbnv;ILbax;Lef;Ljava/util/Random;)I
 	METHOD a canEntitySpawn (Lbnv;Laht;)Z
 	METHOD a isNotSolid (Lbnv;Lbal;Lef;)Z
 		ARG 2 pos
@@ -128,6 +140,12 @@ CLASS bfm net/minecraft/block/Block
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
+	METHOD a withMirror (Lbnv;Lbis;)Lbnv;
+	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;
+	METHOD a (Lbnv;Lbnv;Lbay;Lef;)Lbnv;
+		ARG 1 state
+		ARG 2 world
+		ARG 3 pos
 	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I
 	METHOD a get (Ljava/lang/String;)Lbfm;
 		ARG 0 identifier
@@ -149,22 +167,34 @@ CLASS bfm net/minecraft/block/Block
 	METHOD c onRainTick (Lbax;Lef;)V
 		ARG 0 world
 		ARG 1 pos
+	METHOD c isStone (Lbfm;)Z
 	METHOD c getRenderType (Lbnv;)Lbjs;
 	METHOD c getMapColor (Lbnv;Lbal;Lef;)Lcbc;
 	METHOD c randomDisplayTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 rand
+	METHOD d isDirt (Lbfm;)Z
 	METHOD d getHardness (Lbnv;Lbal;Lef;)F
 	METHOD g hasBlockEntity ()Z
+	METHOD g getAmbientOcclusionLightValue (Lbnv;)F
 	METHOD h getItem ()Lawc;
+	METHOD h canProvidePower (Lbnv;)Z
+	METHOD i getPistonBehavior (Lbnv;)Lcbd;
+	METHOD j canSilkHarvest ()Z
+	METHOD k getTranslationName ()Lic;
 	METHOD k getStateId (Lbnv;)I
 		ARG 0 state
 	METHOD l getTranslationKey ()Ljava/lang/String;
 	METHOD l getLightValue (Lbnv;)I
 	METHOD m getMaterial (Lbnv;)Lcbb;
+	METHOD m getOffset (Lbnv;Lbal;Lef;)Lcgc;
 	METHOD n getDefaultState ()Lbnv;
 	METHOD o getOffsetType ()Lbfm$a;
 	METHOD p getSoundGroup ()Lbkl;
 	METHOD q registerBlocks ()V
 	METHOD r shouldTickRandomly (Lbnv;)Z
+	METHOD s getSilkDrop (Lbnv;)Lawg;
+	METHOD t getFluidState (Lbnv;)Lcax;
+	METHOD v setDefaultState (Lbnv;)V
+		ARG 0 state

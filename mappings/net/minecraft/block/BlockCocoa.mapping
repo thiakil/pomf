@@ -6,6 +6,7 @@ CLASS bgf net/minecraft/block/BlockCocoa
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
+	METHOD a getItem (Lbal;Lef;Lbnv;)Lawg;
 	METHOD a isFertilizable (Lbal;Lef;Lbnv;Z)Z
 		ARG 1 pos
 		ARG 3 remote

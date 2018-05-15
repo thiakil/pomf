@@ -1,6 +1,6 @@
 CLASS bkd
 	FIELD a WATERLOGGED Lboq;
-	METHOD a canMobSpawnInside ()Z
+	METHOD a canEntitiesSpawnInside ()Z
 	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
 		ARG 0 blockView
 		ARG 2 pos
@@ -17,3 +17,4 @@ CLASS bkd
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
+	METHOD t getFluidState (Lbnv;)Lcax;

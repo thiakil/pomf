@@ -1,2 +1,4 @@
 CLASS blb
+	METHOD a getItem (Lbal;Lef;Lbnv;)Lawg;
 	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
+	METHOD t getFluidState (Lbnv;)Lcax;

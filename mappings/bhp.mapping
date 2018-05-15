@@ -1,5 +1,6 @@
 CLASS bhp
 	FIELD a AGE Lbot;
+	METHOD a getItem (Lbal;Lef;Lbnv;)Lawg;
 	METHOD b updateTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos

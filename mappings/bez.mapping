@@ -1,9 +1,10 @@
 CLASS bez
-	METHOD a canMobSpawnInside ()Z
+	METHOD a canEntitiesSpawnInside ()Z
 	METHOD a getBlockFaceShape (Lbal;Lbnv;Lef;Lel;)Lbnu;
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
+	METHOD a getItem (Lbal;Lef;Lbnv;)Lawg;
 	METHOD a afterBreak (Lbax;Larh;Lef;Lbnv;Lbmb;Lawg;)V
 		ARG 0 world
 		ARG 1 player

@@ -29,6 +29,8 @@ CLASS bno net/minecraft/block/BlockPiston
 		ARG 2 pos
 		ARG 3 facing
 		ARG 4 canBreak
+	METHOD a withMirror (Lbnv;Lbis;)Lbnv;
+	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;
 	METHOD b onBlockAdded (Lbnv;Lbax;Lef;Lbnv;)V
 		ARG 1 world
 		ARG 2 pos

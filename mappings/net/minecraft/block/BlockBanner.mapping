@@ -1,3 +1,5 @@
 CLASS bfe net/minecraft/block/BlockBanner
 	FIELD a ROTATION Lbot;
 	METHOD a getDefaultState (Laul;)Lbnv;
+	METHOD a withMirror (Lbnv;Lbis;)Lbnv;
+	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;

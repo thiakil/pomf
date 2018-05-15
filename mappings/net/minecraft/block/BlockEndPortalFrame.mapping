@@ -11,4 +11,6 @@ CLASS bhd net/minecraft/block/BlockEndPortalFrame
 		ARG 1 world
 		ARG 2 pos
 	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
+	METHOD a withMirror (Lbnv;Lbis;)Lbnv;
+	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;
 	METHOD c getCompletedFramePattern ()Lbob;

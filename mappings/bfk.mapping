@@ -47,3 +47,4 @@ CLASS bfk
 		ARG 8 hitZ
 	METHOD c getRenderType (Lbnv;)Lbjs;
 	METHOD c getMapColor (Lbnv;Lbal;Lef;)Lcbc;
+	METHOD i getPistonBehavior (Lbnv;)Lcbd;

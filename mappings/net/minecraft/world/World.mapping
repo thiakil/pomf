@@ -91,6 +91,7 @@ CLASS bax net/minecraft/world/World
 		ARG 4 power
 		ARG 5 createFire
 		ARG 6 destroyBlocks
+	METHOD a getEntitiesWithinAABB (Laht;Lcfy;)Ljava/util/List;
 	METHOD a getEntitiesIn (Laht;Lcfy;Ljava/util/function/Predicate;)Ljava/util/List;
 		ARG 0 except
 		ARG 1 area

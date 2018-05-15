@@ -11,3 +11,4 @@ CLASS bid net/minecraft/block/BlockIce
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
+	METHOD i getPistonBehavior (Lbnv;)Lcbd;

@@ -1,4 +1,6 @@
 CLASS blc net/minecraft/block/BlockTNT
+	METHOD a canDropFromExplosion (Lbar;)Z
+		ARG 0 explosion
 	METHOD a onEntityCollision (Lbnv;Lbax;Lef;Laht;)V
 		ARG 1 world
 		ARG 2 pos

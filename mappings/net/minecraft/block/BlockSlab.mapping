@@ -9,3 +9,5 @@ CLASS bkf net/minecraft/block/BlockSlab
 		ARG 2 pos
 		ARG 3 face
 	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I
+	METHOD j canSilkHarvest ()Z
+	METHOD t getFluidState (Lbnv;)Lcax;

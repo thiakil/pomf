@@ -31,6 +31,8 @@ CLASS bgg net/minecraft/block/BlockCommand
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
+	METHOD a withMirror (Lbnv;Lbis;)Lbnv;
+	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;
 	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I
 	METHOD b updateTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
 		ARG 1 world

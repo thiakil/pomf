@@ -23,6 +23,8 @@ CLASS blg net/minecraft/block/BlockTripwire
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
+	METHOD a withMirror (Lbnv;Lbis;)Lbnv;
+	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;
 	METHOD b onBlockAdded (Lbnv;Lbax;Lef;Lbnv;)V
 		ARG 1 world
 		ARG 2 pos

@@ -12,6 +12,8 @@ CLASS blj
 		ARG 4 blockEntity
 		ARG 5 stack
 	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
+	METHOD a withMirror (Lbnv;Lbis;)Lbnv;
+	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;
 	METHOD b updateTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos

@@ -3,3 +3,4 @@ CLASS bjh net/minecraft/block/BlockRedstone
 		ARG 1 view
 		ARG 2 pos
 		ARG 3 facingFrom
+	METHOD h canProvidePower (Lbnv;)Z

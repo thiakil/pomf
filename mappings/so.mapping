@@ -1,6 +1,7 @@
 CLASS so
 	METHOD a spawnEntity (Laht;)Z
 		ARG 0 entity
+	METHOD a getEntitiesWithinAABB (Laht;Lcfy;)Ljava/util/List;
 	METHOD a_ getBlockState (Lef;)Lbnv;
 	METHOD b getFluidState (Lef;)Lcax;
 	METHOD f getBlockEntity (Lef;)Lbmb;

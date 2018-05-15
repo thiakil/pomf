@@ -10,5 +10,7 @@ CLASS bnv net/minecraft/block/state/IBlockState
 	METHOD c getBlock ()Lbfm;
 	METHOD d getMaterial ()Lcbb;
 	METHOD e getLightValue ()I
+	METHOD g isFullCube ()Z
+	METHOD k isNormalCube ()Z
 	METHOD s getFluidState ()Lcax;
 	METHOD t doesTickRandomly ()Z

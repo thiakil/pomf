@@ -22,6 +22,7 @@ CLASS bkq net/minecraft/block/BlockStairs
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 entity
+	METHOD a modifyAcceleration (Lbbb;Lef;Laht;Lcgc;)Lcgc;
 	METHOD a onBlockBreakStart (Lbnv;Lbax;Lef;Larh;)V
 		ARG 1 world
 		ARG 2 pos
@@ -39,6 +40,8 @@ CLASS bkq net/minecraft/block/BlockStairs
 	METHOD a onBlockRemoved (Lbnv;Lbax;Lef;Lbnv;)V
 		ARG 1 world
 		ARG 2 pos
+	METHOD a withMirror (Lbnv;Lbis;)Lbnv;
+	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;
 	METHOD b onBlockAdded (Lbnv;Lbax;Lef;Lbnv;)V
 		ARG 1 world
 		ARG 2 pos
@@ -50,3 +53,4 @@ CLASS bkq net/minecraft/block/BlockStairs
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 rand
+	METHOD t getFluidState (Lbnv;)Lcax;

@@ -29,4 +29,7 @@ CLASS bgb
 	METHOD a onBlockRemoved (Lbnv;Lbax;Lef;Lbnv;)V
 		ARG 1 world
 		ARG 2 pos
+	METHOD a withMirror (Lbnv;Lbis;)Lbnv;
+	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;
 	METHOD c getRenderType (Lbnv;)Lbjs;
+	METHOD t getFluidState (Lbnv;)Lcax;

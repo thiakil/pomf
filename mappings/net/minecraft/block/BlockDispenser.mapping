@@ -36,6 +36,8 @@ CLASS bgv net/minecraft/block/BlockDispenser
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
+	METHOD a withMirror (Lbnv;Lbis;)Lbnv;
+	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;
 	METHOD a getDispenseLocation (Leg;)Lev;
 		ARG 0 block
 	METHOD b updateTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V

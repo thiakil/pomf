@@ -6,3 +6,4 @@ CLASS bgj
 		ARG 3 placer
 		ARG 4 stack
 	METHOD c getRenderType (Lbnv;)Lbjs;
+	METHOD t getFluidState (Lbnv;)Lcax;

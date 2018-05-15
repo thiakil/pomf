@@ -4,6 +4,7 @@ CLASS bin
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
+	METHOD a modifyAcceleration (Lbbb;Lef;Laht;Lcgc;)Lcgc;
 	METHOD a isNotSolid (Lbnv;Lbal;Lef;)Z
 		ARG 2 pos
 	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
@@ -20,3 +21,4 @@ CLASS bin
 		ARG 1 world
 		ARG 2 pos
 	METHOD c getRenderType (Lbnv;)Lbjs;
+	METHOD t getFluidState (Lbnv;)Lcax;

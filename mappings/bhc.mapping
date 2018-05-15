@@ -3,6 +3,7 @@ CLASS bhc
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
+	METHOD a getItem (Lbal;Lef;Lbnv;)Lawg;
 	METHOD a onEntityCollision (Lbnv;Lbax;Lef;Laht;)V
 		ARG 1 world
 		ARG 2 pos

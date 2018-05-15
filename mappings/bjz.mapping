@@ -25,3 +25,4 @@ CLASS bjz
 		ARG 1 rand
 		ARG 2 pos
 	METHOD l getLightValue (Lbnv;)I
+	METHOD t getFluidState (Lbnv;)Lcax;

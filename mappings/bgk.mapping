@@ -5,3 +5,4 @@ CLASS bgk
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
+	METHOD j canSilkHarvest ()Z

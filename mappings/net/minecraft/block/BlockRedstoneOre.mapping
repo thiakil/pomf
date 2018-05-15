@@ -3,6 +3,7 @@ CLASS bjn net/minecraft/block/BlockRedstoneOre
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 entity
+	METHOD a getDropAmount (Lbnv;ILbax;Lef;Ljava/util/Random;)I
 	METHOD a dropItems (Lbnv;Lbax;Lef;FI)V
 		ARG 1 world
 		ARG 2 pos

@@ -1,2 +1,3 @@
 CLASS bgp
 	FIELD u WATERLOGGED Lboq;
+	METHOD t getFluidState (Lbnv;)Lcax;

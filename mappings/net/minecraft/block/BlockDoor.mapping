@@ -51,3 +51,6 @@ CLASS bgw net/minecraft/block/BlockDoor
 		ARG 2 pos
 		ARG 3 block
 		ARG 4 updatePos
+	METHOD a withMirror (Lbnv;Lbis;)Lbnv;
+	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;
+	METHOD i getPistonBehavior (Lbnv;)Lcbd;

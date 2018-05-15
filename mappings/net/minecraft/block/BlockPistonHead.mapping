@@ -10,6 +10,7 @@ CLASS bnp net/minecraft/block/BlockPistonHead
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
+	METHOD a getItem (Lbal;Lef;Lbnv;)Lawg;
 	METHOD a onBreak (Lbax;Lef;Lbnv;Larh;)V
 		ARG 0 world
 		ARG 1 pos
@@ -22,4 +23,6 @@ CLASS bnp net/minecraft/block/BlockPistonHead
 	METHOD a onBlockRemoved (Lbnv;Lbax;Lef;Lbnv;)V
 		ARG 1 world
 		ARG 2 pos
+	METHOD a withMirror (Lbnv;Lbis;)Lbnv;
+	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;
 	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I

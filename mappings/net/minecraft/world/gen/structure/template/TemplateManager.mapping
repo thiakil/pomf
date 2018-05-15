@@ -13,4 +13,4 @@ CLASS bzn net/minecraft/world/gen/structure/template/TemplateManager
 		ARG 0 identifier
 	METHOD c save (Loj;)Z
 	METHOD d remove (Loj;)V
-	METHOD e load (Loj;)Z
+	METHOD e (Loj;)Z

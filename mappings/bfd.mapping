@@ -1,2 +1,5 @@
 CLASS bfd
+	METHOD a getItem (Lbal;Lef;Lbnv;)Lawg;
 	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
+	METHOD a withMirror (Lbnv;Lbis;)Lbnv;
+	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;

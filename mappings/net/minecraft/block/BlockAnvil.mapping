@@ -24,3 +24,4 @@ CLASS bfc net/minecraft/block/BlockAnvil
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
+	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;

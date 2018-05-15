@@ -1,4 +1,6 @@
 CLASS bic
 	METHOD a getDefaultState (Laul;)Lbnv;
 	METHOD a getDroppedItem (Lbnv;Lbax;Lef;I)Lbaw;
+	METHOD a withMirror (Lbnv;Lbis;)Lbnv;
+	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;
 	METHOD a getDropAmount (Lbnv;Ljava/util/Random;)I

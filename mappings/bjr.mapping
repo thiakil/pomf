@@ -4,6 +4,8 @@ CLASS bjr
 		ARG 1 view
 		ARG 2 pos
 		ARG 3 facingFrom
+	METHOD a withMirror (Lbnv;Lbis;)Lbnv;
+	METHOD a withRotation (Lbnv;Lbjv;)Lbnv;
 	METHOD c randomDisplayTick (Lbnv;Lbax;Lef;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos

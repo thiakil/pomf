@@ -17,3 +17,4 @@ CLASS bka
 		ARG 0 world
 		ARG 1 rand
 		ARG 2 pos
+	METHOD t getFluidState (Lbnv;)Lcax;

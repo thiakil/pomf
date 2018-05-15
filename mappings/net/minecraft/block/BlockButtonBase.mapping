@@ -37,3 +37,4 @@ CLASS bfv net/minecraft/block/BlockButtonBase
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
+	METHOD h canProvidePower (Lbnv;)Z

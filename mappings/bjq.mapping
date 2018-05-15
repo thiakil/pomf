@@ -31,4 +31,5 @@ CLASS bjq
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 rand
+	METHOD h canProvidePower (Lbnv;)Z
 	METHOD l getLightValue (Lbnv;)I

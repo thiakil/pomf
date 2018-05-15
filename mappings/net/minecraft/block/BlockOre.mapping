@@ -1,4 +1,6 @@
 CLASS bja net/minecraft/block/BlockOre
+	METHOD a getItem (Lbal;Lef;Lbnv;)Lawg;
+	METHOD a getDropAmount (Lbnv;ILbax;Lef;Ljava/util/Random;)I
 	METHOD a dropItems (Lbnv;Lbax;Lef;FI)V
 		ARG 1 world
 		ARG 2 pos

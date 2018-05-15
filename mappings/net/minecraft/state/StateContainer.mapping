@@ -1,1 +1,2 @@
 CLASS bnx net/minecraft/state/StateContainer
+	CLASS bnx$a Builder

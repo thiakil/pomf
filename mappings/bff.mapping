@@ -5,3 +5,4 @@ CLASS bff
 		ARG 3 dropChance
 		ARG 4 fortune
 	METHOD c getRenderType (Lbnv;)Lbjs;
+	METHOD g getAmbientOcclusionLightValue (Lbnv;)F

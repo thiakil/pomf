@@ -88,6 +88,7 @@ CLASS awc net/minecraft/item/Item
 		ARG 1 player
 		ARG 2 hand
 	METHOD a rayTrace (Lbax;Larh;Z)Lcfz;
+	METHOD a getItemFromBlock (Lbfm;)Lawc;
 	METHOD a registerItemBlock (Lbfm;Lava;)V
 	METHOD a register (Ljava/lang/String;Lawc;)V
 	METHOD a registerProperty (Loj;Lawf;)V
