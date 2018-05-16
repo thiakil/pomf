@@ -3,6 +3,9 @@ CLASS boc net/minecraft/state/IStateHolder
 	METHOD a cycle (Lboy;)Ljava/lang/Object;
 		ARG 0 property
 	METHOD a with (Lboy;Ljava/lang/Comparable;)Ljava/lang/Object;
+		ARG 0 property
 	METHOD b getValues ()Lcom/google/common/collect/ImmutableMap;
+	METHOD b has (Lboy;)Z
+		ARG 0 property
 	METHOD c get (Lboy;)Ljava/lang/Comparable;
 		ARG 0 property

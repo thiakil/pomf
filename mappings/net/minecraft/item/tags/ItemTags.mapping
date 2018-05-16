@@ -1,4 +1,7 @@
 CLASS wd net/minecraft/item/tags/ItemTags
+	CLASS wd$a
+		METHOD a contains (Lawg;)Z
+		METHOD a contains (Ljava/lang/Object;)Z
 	FIELD A DEAD_CORAL_BLOCKS Lwf;
 	FIELD B CORAL_BLOCKS Lwf;
 	FIELD C CORALS Lwf;

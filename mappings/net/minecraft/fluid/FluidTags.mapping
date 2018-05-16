@@ -1,3 +1,6 @@
 CLASS wc net/minecraft/fluid/FluidTags
+	CLASS wc$a
+		METHOD a contains (Lcba;)Z
+		METHOD a contains (Ljava/lang/Object;)Z
 	FIELD a WATER Lwf;
 	FIELD b LAVA Lwf;

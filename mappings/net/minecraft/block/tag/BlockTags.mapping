@@ -1,4 +1,7 @@
 CLASS wb net/minecraft/block/tag/BlockTags
+	CLASS wb$a
+		METHOD a contains (Lbfq;)Z
+		METHOD a contains (Ljava/lang/Object;)Z
 	FIELD A DEAD_CORAL_BLOCKS Lwf;
 	FIELD B CORAL_BLOCKS Lwf;
 	FIELD C CORALS Lwf;

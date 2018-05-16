@@ -151,6 +151,8 @@ CLASS bfq net/minecraft/block/Block
 		ARG 0 identifier
 	METHOD a register (Ljava/lang/String;Lbfq;)V
 	METHOD a register (Loj;Lbfq;)V
+	METHOD a hasTag (Lwf;)Z
+		ARG 0 tag
 	METHOD b getState (I)Lbnz;
 	METHOD b getStrongRedstonePower (Lbnz;Lbap;Lef;Lel;)I
 		ARG 1 view
