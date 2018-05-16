@@ -1,0 +1,6 @@
+CLASS big net/minecraft/block/BlockMushroomStem
+	METHOD a getDefaultState (Laup;)Lbnz;
+	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;
+	METHOD a withMirror (Lbnz;Lbiw;)Lbnz;
+	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;
+	METHOD a getDropAmount (Lbnz;Ljava/util/Random;)I

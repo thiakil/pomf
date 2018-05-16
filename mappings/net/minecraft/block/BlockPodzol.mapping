@@ -1,0 +1,4 @@
+CLASS bkn net/minecraft/block/BlockPodzol
+	FIELD a SNOWY Lbou;
+	METHOD a getDefaultState (Laup;)Lbnz;
+	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;

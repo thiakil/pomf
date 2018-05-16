@@ -1,5 +1,0 @@
-CLASS bfh
-	METHOD a getItem (Lbap;Lef;Lbnz;)Lawk;
-	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;
-	METHOD a withMirror (Lbnz;Lbiw;)Lbnz;
-	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;

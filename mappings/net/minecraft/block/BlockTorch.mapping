@@ -1,0 +1,10 @@
+CLASS blh net/minecraft/block/BlockTorch
+	METHOD X_ getRenderLayer ()Lbaq;
+	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD c randomDisplayTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 rand

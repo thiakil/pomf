@@ -1,0 +1,2 @@
+CLASS aou net/minecraft/entity/boss/DragonPhaseSittingFlaming
+	METHOD i getType ()Laoy;

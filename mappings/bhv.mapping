@@ -1,4 +1,0 @@
-CLASS bhv
-	METHOD X_ getRenderLayer ()Lbaq;
-	METHOD a getDropAmount (Lbnz;Ljava/util/Random;)I
-	METHOD j canSilkHarvest ()Z

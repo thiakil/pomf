@@ -1,5 +1,0 @@
-CLASS bit
-	METHOD a onBlockRemoved (Lbnz;Lbbb;Lef;Lbnz;)V
-		ARG 1 world
-		ARG 2 pos
-	METHOD c getMapColor (Lbnz;Lbap;Lef;)Lcbg;

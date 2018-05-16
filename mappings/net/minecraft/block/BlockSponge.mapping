@@ -1,0 +1,9 @@
+CLASS bkq net/minecraft/block/BlockSponge
+	METHOD a update (Lbnz;Lbbb;Lef;Lbfq;Lef;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 block
+		ARG 4 updatePos
+	METHOD b onBlockAdded (Lbnz;Lbbb;Lef;Lbnz;)V
+		ARG 1 world
+		ARG 2 pos

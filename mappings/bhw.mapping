@@ -1,2 +1,0 @@
-CLASS bhw
-	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;

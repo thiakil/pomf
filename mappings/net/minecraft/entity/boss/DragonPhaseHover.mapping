@@ -1,0 +1,2 @@
+CLASS aop net/minecraft/entity/boss/DragonPhaseHover
+	METHOD i getType ()Laoy;

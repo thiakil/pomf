@@ -1,0 +1,8 @@
+CLASS bii net/minecraft/block/BlockInfestedStone
+	METHOD a dropItems (Lbnz;Lbbb;Lef;FI)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 dropChance
+		ARG 4 fortune
+	METHOD a getDropAmount (Lbnz;Ljava/util/Random;)I
+	METHOD s getSilkDrop (Lbnz;)Lawk;

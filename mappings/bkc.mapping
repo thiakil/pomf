@@ -1,5 +1,0 @@
-CLASS bkc
-	METHOD a getDropAmount (Lbnz;ILbbb;Lef;Ljava/util/Random;)I
-	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;
-	METHOD a getDropAmount (Lbnz;Ljava/util/Random;)I
-	METHOD j canSilkHarvest ()Z

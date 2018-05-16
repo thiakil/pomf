@@ -1,3 +1,0 @@
-CLASS ayi
-	METHOD c isIgnoredInRecipeBook ()Z
-	METHOD d getOutput ()Lawk;

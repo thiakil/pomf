@@ -1,0 +1,2 @@
+CLASS bka net/minecraft/block/BlockSand
+	METHOD w getColor (Lbnz;)I

@@ -1,0 +1,2 @@
+CLASS aoo net/minecraft/entity/boss/DragonPhaseHoldingPattern
+	METHOD i getType ()Laoy;

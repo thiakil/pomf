@@ -1,0 +1,7 @@
+CLASS bia net/minecraft/block/BlockGrassPath
+	METHOD a getDefaultState (Laup;)Lbnz;
+	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+		ARG 0 blockView
+		ARG 2 pos
+		ARG 3 face
+	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;

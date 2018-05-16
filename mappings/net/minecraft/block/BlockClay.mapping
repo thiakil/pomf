@@ -1,0 +1,3 @@
+CLASS bgi net/minecraft/block/BlockClay
+	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;
+	METHOD a getDropAmount (Lbnz;Ljava/util/Random;)I

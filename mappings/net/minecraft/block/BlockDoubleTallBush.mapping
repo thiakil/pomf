@@ -1,0 +1,2 @@
+CLASS bkf net/minecraft/block/BlockDoubleTallBush
+	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;

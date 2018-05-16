@@ -1,0 +1,4 @@
+CLASS bhv net/minecraft/block/BlockGlass
+	METHOD X_ getRenderLayer ()Lbaq;
+	METHOD a getDropAmount (Lbnz;Ljava/util/Random;)I
+	METHOD j canSilkHarvest ()Z

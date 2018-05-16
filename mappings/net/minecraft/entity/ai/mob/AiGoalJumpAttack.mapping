@@ -1,0 +1,10 @@
+CLASS akf net/minecraft/entity/ai/mob/AiGoalJumpAttack
+	FIELD a owner Laih;
+	FIELD b target Laig;
+	FIELD c jumpVelocity F
+	METHOD <init> (Laih;F)V
+		ARG 0 owner
+		ARG 1 jumpVelocity
+	METHOD a canStart ()Z
+	METHOD b shouldContinue ()Z
+	METHOD c start ()V

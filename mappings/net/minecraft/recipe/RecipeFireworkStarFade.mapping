@@ -1,0 +1,3 @@
+CLASS ayk net/minecraft/recipe/RecipeFireworkStarFade
+	METHOD a matches (Lagk;Lbbb;)Z
+		ARG 1 world

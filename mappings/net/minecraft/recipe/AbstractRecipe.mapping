@@ -1,0 +1,7 @@
+CLASS ayi net/minecraft/recipe/AbstractRecipe
+	FIELD a identifier Loj;
+	METHOD <init> (Loj;)V
+		ARG 0 identifier
+	METHOD b getIdentifier ()Loj;
+	METHOD c isIgnoredInRecipeBook ()Z
+	METHOD d getOutput ()Lawk;

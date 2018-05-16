@@ -1,0 +1,2 @@
+CLASS bhw net/minecraft/block/BlockGlassPane
+	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;

@@ -5,5 +5,6 @@ CLASS ayy net/minecraft/recipe/RecipeFurnace
 		METHOD b serialize (Loj;Lht;)Layy;
 	METHOD a matches (Lagk;Lbbb;)Z
 		ARG 1 world
+	METHOD b getIdentifier ()Loj;
 	METHOD d getOutput ()Lawk;
 	METHOD e getPreviewInputs ()Leu;

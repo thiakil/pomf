@@ -1,0 +1,5 @@
+CLASS blq net/minecraft/block/BlockWallSign
+	METHOD a getDefaultState (Laup;)Lbnz;
+	METHOD a withMirror (Lbnz;Lbiw;)Lbnz;
+	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;
+	METHOD l getTranslationKey ()Ljava/lang/String;
