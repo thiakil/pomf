@@ -1,5 +1,5 @@
 CLASS k net/minecraft/util/Util
-	CLASS k$a OSType
+	CLASS k$a OsType
 		FIELD a LINUX Lk$a;
 		FIELD b SOLARIS Lk$a;
 		FIELD c WINDOWS Lk$a;

@@ -1,0 +1,9 @@
+CLASS ayy net/minecraft/recipe/RecipeFurnace
+	CLASS ayy$a Serializer
+		METHOD a serialize (Lht;Layy;)V
+		METHOD b deserialize (Loj;Lcom/google/gson/JsonObject;)Layy;
+		METHOD b serialize (Loj;Lht;)Layy;
+	METHOD a matches (Lagk;Lbbb;)Z
+		ARG 1 world
+	METHOD d getOutput ()Lawk;
+	METHOD e getPreviewInputs ()Leu;

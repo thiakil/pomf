@@ -1,4 +1,12 @@
 CLASS fn net/minecraft/generator/GeneratorAdvancements
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b GSON Lcom/google/gson/Gson;
+	FIELD c generatorHandler Lfl;
+	FIELD d categoryGenerators Ljava/util/List;
+	METHOD <init> (Lfl;)V
+		ARG 0 generatorHandler
 	METHOD a generate ()V
+	METHOD a save (Lcom/google/gson/JsonObject;Ljava/nio/file/Path;)V
+		ARG 0 object
+		ARG 1 path
 	METHOD b getName ()Ljava/lang/String;

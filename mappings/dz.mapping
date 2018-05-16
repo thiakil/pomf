@@ -1,0 +1,17 @@
+CLASS dz
+	METHOD a serialize (Lcom/mojang/brigadier/arguments/ArgumentType;Lcom/google/gson/JsonObject;)V
+		ARG 0 argument
+		ARG 1 root
+	METHOD a serialize (Lcom/mojang/brigadier/arguments/ArgumentType;Lht;)V
+		ARG 0 argument
+		ARG 1 buffer
+	METHOD a serialize (Lcom/mojang/brigadier/arguments/IntegerArgumentType;Lcom/google/gson/JsonObject;)V
+		ARG 0 argument
+		ARG 1 root
+	METHOD a serialize (Lcom/mojang/brigadier/arguments/IntegerArgumentType;Lht;)V
+		ARG 0 argument
+		ARG 1 buffer
+	METHOD a deserialize (Lht;)Lcom/mojang/brigadier/arguments/IntegerArgumentType;
+		ARG 0 buffer
+	METHOD b deserialize (Lht;)Lcom/mojang/brigadier/arguments/ArgumentType;
+		ARG 0 buffer

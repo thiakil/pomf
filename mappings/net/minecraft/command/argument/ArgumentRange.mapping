@@ -1,9 +1,9 @@
-CLASS ck net/minecraft/command/argument/ArgumentScoreHolder
-	CLASS ck$c Serializer
-		METHOD a serialize (Lck;Lcom/google/gson/JsonObject;)V
+CLASS ci net/minecraft/command/argument/ArgumentRange
+	CLASS ci$a
+		METHOD a serialize (Lci;Lcom/google/gson/JsonObject;)V
 			ARG 0 argument
 			ARG 1 root
-		METHOD a serialize (Lck;Lht;)V
+		METHOD a serialize (Lci;Lht;)V
 			ARG 0 argument
 			ARG 1 buffer
 		METHOD a serialize (Lcom/mojang/brigadier/arguments/ArgumentType;Lcom/google/gson/JsonObject;)V
@@ -12,9 +12,8 @@ CLASS ck net/minecraft/command/argument/ArgumentScoreHolder
 		METHOD a serialize (Lcom/mojang/brigadier/arguments/ArgumentType;Lht;)V
 			ARG 0 argument
 			ARG 1 buffer
-		METHOD a deserialize (Lht;)Lck;
+		METHOD a deserialize (Lht;)Lci;
 			ARG 0 buffer
 		METHOD b deserialize (Lht;)Lcom/mojang/brigadier/arguments/ArgumentType;
 			ARG 0 buffer
-	FIELD b PLAYER Ljava/util/Collection;
-	FIELD c ARGUMENT_SCOREHOLDER_EMPTY Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD a __ Ljava/util/Collection;
