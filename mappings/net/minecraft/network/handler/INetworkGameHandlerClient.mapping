@@ -143,3 +143,4 @@ CLASS is net/minecraft/network/handler/INetworkGameHandlerClient
 		ARG 0 packet
 	METHOD a onEntityPotionEffect (Llu;)V
 		ARG 0 packet
+	METHOD a onSyncTags (Llw;)V

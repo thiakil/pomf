@@ -1,4 +1,4 @@
-CLASS lw
+CLASS lw net/minecraft/network/packet/client/CPacketSyncTags
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf
 	METHOD a applyPacket (Lhw;)V

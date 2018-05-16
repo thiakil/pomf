@@ -159,6 +159,7 @@ CLASS csk net/minecraft/client/network/handler/NetworkGameHandlerClient
 		ARG 0 packet
 	METHOD a onEntityPotionEffect (Llu;)V
 		ARG 0 packet
+	METHOD a onSyncTags (Llw;)V
 	METHOD b validateResourcePackUrl (Ljava/lang/String;)Z
 		ARG 0 url
 	METHOD g getAdvancementHandler ()Lcsh;

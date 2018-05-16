@@ -1,0 +1,5 @@
+CLASS dhi net/minecraft/client/audio/SoundEventWaterAmbience
+	CLASS dhi$a
+		METHOD Y_ update ()V
+	CLASS dhi$b Loop
+		METHOD Y_ update ()V

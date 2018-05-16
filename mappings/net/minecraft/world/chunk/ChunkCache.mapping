@@ -1,4 +1,7 @@
-CLASS so
+CLASS so net/minecraft/world/chunk/ChunkCache
+	FIELD a chunks [Lbpe;
+	METHOD <init> ([Lbpe;IIIILbbb;)V
+		ARG 0 chunks
 	METHOD a spawnEntity (Lahx;)Z
 		ARG 0 entity
 	METHOD a getEntitiesWithinAABB (Lahx;Lcgc;)Ljava/util/List;
