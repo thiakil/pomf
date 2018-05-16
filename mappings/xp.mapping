@@ -1,4 +1,3 @@
 CLASS xp
 	CLASS xp$a
-		METHOD a wander (Lact;Labd;)Labd;
 		METHOD d right (Labd;)Labd;
