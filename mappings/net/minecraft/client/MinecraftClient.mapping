@@ -5,6 +5,7 @@ CLASS cht net/minecraft/client/MinecraftClient
 	FIELD J textureManager Ldey;
 	FIELD K instance Lcht;
 	FIELD L migrationHandler Lxl;
+	FIELD M virtualScreen Lcic;
 	FIELD N crashed Z
 	FIELD O crashReport Lb;
 	FIELD Q renderTickCounter Lchz;
@@ -47,6 +48,7 @@ CLASS cht net/minecraft/client/MinecraftClient
 	FIELD ay framebuffer Lcvq;
 	FIELD az spriteAtlas Ldew;
 	FIELD c playerCapabilities Lcsm;
+	FIELD d mainWindow Lcid;
 	FIELD e world Lcsn;
 	FIELD f renderer Lcvk;
 	FIELD g player Lcuq;

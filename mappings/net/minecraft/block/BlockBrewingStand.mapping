@@ -1,4 +1,4 @@
-CLASS bfv
+CLASS bfv net/minecraft/block/BlockBrewingStand
 	METHOD X_ getRenderLayer ()Lbaq;
 	METHOD a createBlockEntity (Lbap;)Lbmf;
 		ARG 0 world

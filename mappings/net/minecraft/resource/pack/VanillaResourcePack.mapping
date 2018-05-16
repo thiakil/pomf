@@ -1,4 +1,4 @@
-CLASS tu
+CLASS tu net/minecraft/resource/pack/VanillaResourcePack
 	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD a getName ()Ljava/lang/String;
 	METHOD a open (Lts;Loj;)Ljava/io/InputStream;

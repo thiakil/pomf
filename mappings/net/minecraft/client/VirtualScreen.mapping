@@ -1,0 +1,4 @@
+CLASS cic net/minecraft/client/VirtualScreen
+	FIELD a mc Lcht;
+	METHOD <init> (Lcht;)V
+		ARG 0 mc

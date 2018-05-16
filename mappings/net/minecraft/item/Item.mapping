@@ -48,6 +48,7 @@ CLASS awg net/minecraft/item/Item
 	METHOD a getAttributeModifiers (Laic;)Lcom/google/common/collect/Multimap;
 		ARG 0 effectiveSlot
 	METHOD a register (Lauo;)V
+		ARG 0 itemBlock
 	METHOD a isInTab (Lave;)Z
 	METHOD a addStacksForDisplay (Lave;Leu;)V
 		ARG 1 items
@@ -90,6 +91,8 @@ CLASS awg net/minecraft/item/Item
 	METHOD a rayTrace (Lbbb;Larl;Z)Lcgd;
 	METHOD a getItemFromBlock (Lbfq;)Lawg;
 	METHOD a registerItemBlock (Lbfq;Lave;)V
+		ARG 0 block
+		ARG 1 tab
 	METHOD a register (Ljava/lang/String;Lawg;)V
 	METHOD a registerProperty (Loj;Lawj;)V
 	METHOD b hasEnchantmentGlow (Lawk;)Z
@@ -98,6 +101,8 @@ CLASS awg net/minecraft/item/Item
 		ARG 0 stack
 		ARG 1 world
 		ARG 2 player
+	METHOD b registerItemBlock (Lbfq;)V
+		ARG 0 block
 	METHOD c getEnchantability ()I
 	METHOD c getMaxUseTime (Lawk;)I
 		ARG 0 stack
