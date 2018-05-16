@@ -1,0 +1,6 @@
+CLASS dho
+	METHOD b getServer ()Ldhp;
+	METHOD b savePlayerData (Lsl;)V
+		ARG 0 entityPlayerServer
+	METHOD c getServer ()Lnet/minecraft/server/MinecraftServer;
+	METHOD t getUserData ()Lgu;

@@ -1,0 +1,8 @@
+CLASS ckf
+	METHOD a drawBackground (Lcht;II)V
+		ARG 0 game
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a getTextureId (Z)I
+		ARG 0 pressed
+	METHOD b getWidth ()I

@@ -1,25 +1,25 @@
-CLASS ctj net/minecraft/client/particle/ParticleFirework
-	CLASS ctj$a
-		METHOD a buildGeometry (Lcux;Lahx;FFFFFF)V
+CLASS cti net/minecraft/client/particle/ParticleFirework
+	CLASS cti$a
+		METHOD a buildGeometry (Lcuw;Lahx;FFFFFF)V
 			ARG 0 vertexBuffer
 			ARG 1 entity
 			ARG 2 deltaTicks
-	CLASS ctj$b
+	CLASS cti$b
 		METHOD a update ()V
-		METHOD a buildGeometry (Lcux;Lahx;FFFFFF)V
+		METHOD a buildGeometry (Lcuw;Lahx;FFFFFF)V
 			ARG 0 vertexBuffer
 			ARG 1 entity
 			ARG 2 deltaTicks
 		METHOD c hasAlpha ()Z
-	CLASS ctj$c
+	CLASS cti$c
 		METHOD a update ()V
-		METHOD a buildGeometry (Lcux;Lahx;FFFFFF)V
+		METHOD a buildGeometry (Lcuw;Lahx;FFFFFF)V
 			ARG 0 vertexBuffer
 			ARG 1 entity
 			ARG 2 deltaTicks
 		METHOD b getParticleGroup ()I
-	CLASS ctj$d Factory
-		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lctt;
+	CLASS cti$d Factory
+		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lcts;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -27,7 +27,7 @@ CLASS ctj net/minecraft/client/particle/ParticleFirework
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lctt;
+		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lcts;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y

@@ -1,4 +1,4 @@
-CLASS cur net/minecraft/client/player/EntityPlayerOther
+CLASS cuq net/minecraft/client/player/EntityPlayerOther
 	FIELD bZ pitch D
 	FIELD d rotationUpdates I
 	FIELD e clientX D

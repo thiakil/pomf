@@ -1,4 +1,4 @@
-CLASS cmk net/minecraft/client/gui/ingame/GuiBrewingStand
+CLASS cmj net/minecraft/client/gui/ingame/GuiBrewingStand
 	FIELD v BG_TEX Loj;
 	FIELD x playerInv Lark;
 	FIELD y inventory Lagk;

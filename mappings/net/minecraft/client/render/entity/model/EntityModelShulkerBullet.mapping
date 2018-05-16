@@ -1,4 +1,4 @@
-CLASS cqz net/minecraft/client/render/entity/model/EntityModelShulkerBullet
+CLASS cqy net/minecraft/client/render/entity/model/EntityModelShulkerBullet
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

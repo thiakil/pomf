@@ -12,6 +12,9 @@ CLASS afy
 			METHOD a match (Lwy;)Lwo;
 		CLASS afy$a$3
 			METHOD a wander (Labe;Lxp;)Lxp;
+		CLASS afy$a$a
+			METHOD equals (Ljava/lang/Object;)Z
+				ARG 0 object
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object

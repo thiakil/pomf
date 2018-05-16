@@ -1,11 +1,11 @@
-CLASS csm net/minecraft/client/player/PlayerCapabilitites
+CLASS csl net/minecraft/client/player/PlayerCapabilitites
 	FIELD a game Lcht;
-	FIELD b networkHandler Lcsk;
+	FIELD b networkHandler Lcsj;
 	FIELD c currentBreakingPos Lef;
 	FIELD e currentBreakingProgress F
 	FIELD h breakingBlock Z
 	FIELD i currentGameMode Lbay;
-	METHOD <init> (Lcht;Lcsk;)V
+	METHOD <init> (Lcht;Lcsj;)V
 		ARG 0 game
 		ARG 1 networkHandler
 	METHOD a hasStatusBars ()Z

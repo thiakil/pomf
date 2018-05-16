@@ -1,0 +1,9 @@
+CLASS coi
+	CLASS coi$1
+		METHOD c init ()V
+	CLASS coi$2
+		METHOD confirmResult handle (ZI)V
+			ARG 0 result
+			ARG 1 callbackId
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD l iconPng Ljava/io/File;

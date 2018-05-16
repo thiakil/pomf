@@ -1,4 +1,4 @@
-CLASS dcz net/minecraft/client/render/entity/EntityRendererElytra
+CLASS dcy net/minecraft/client/render/entity/EntityRendererElytra
 	FIELD b SKIN Loj;
 	METHOD a shouldMergeTextures ()Z
 	METHOD a render (Laig;FFFFFFF)V

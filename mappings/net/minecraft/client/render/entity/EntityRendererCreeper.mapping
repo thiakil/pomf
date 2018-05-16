@@ -1,4 +1,4 @@
-CLASS czo net/minecraft/client/render/entity/EntityRendererCreeper
+CLASS czn net/minecraft/client/render/entity/EntityRendererCreeper
 	FIELD a SKIN Loj;
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model

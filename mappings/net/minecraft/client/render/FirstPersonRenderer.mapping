@@ -1,4 +1,4 @@
-CLASS cvi net/minecraft/client/render/FirstPersonRenderer
+CLASS cvh net/minecraft/client/render/FirstPersonRenderer
 	FIELD a MAP_BACKGROUND_TEX Loj;
 	FIELD b UNDERWATER_TEX Loj;
 	FIELD c game Lcht;
@@ -8,8 +8,8 @@ CLASS cvi net/minecraft/client/render/FirstPersonRenderer
 	FIELD g prevEquipProgressMainHand F
 	FIELD h equipProgressOffHand F
 	FIELD i prevEquipProgressOffHand F
-	FIELD j renderManager Lczz;
-	FIELD k itemRenderer Ldaq;
+	FIELD j renderManager Lczy;
+	FIELD k itemRenderer Ldap;
 	METHOD <init> (Lcht;)V
 		ARG 0 minecraft
 	METHOD a updateHeldItems ()V
@@ -23,22 +23,22 @@ CLASS cvi net/minecraft/client/render/FirstPersonRenderer
 		ARG 0 hand
 	METHOD a renderArm (Laif;)V
 		ARG 0 hand
-	METHOD a renderItem (Laig;Lawk;Lcwp$b;)V
+	METHOD a renderItem (Laig;Lawk;Lcwo$b;)V
 		ARG 0 holder
 		ARG 1 stack
 		ARG 2 transformation
-	METHOD a renderItemFromSide (Laig;Lawk;Lcwp$b;Z)V
+	METHOD a renderItemFromSide (Laig;Lawk;Lcwo$b;Z)V
 		ARG 0 holder
 		ARG 1 stack
 		ARG 2 transformation
 		ARG 3 leftHanded
 	METHOD a renderFirstPersonMap (Lawk;)V
 		ARG 0 map
-	METHOD a renderFirstPersonItem (Lcun;FFLagq;FLawk;F)V
+	METHOD a renderFirstPersonItem (Lcum;FFLagq;FLawk;F)V
 		ARG 0 player
 		ARG 3 hand
 		ARG 5 item
-	METHOD a renderBlock (Ldex;)V
+	METHOD a renderBlock (Ldew;)V
 	METHOD b renderOverlays (F)V
 		ARG 0 deltaTicks
 	METHOD c renderArms ()V

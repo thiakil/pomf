@@ -1,4 +1,4 @@
-CLASS cmm net/minecraft/client/gui/container/GuiContainer54
+CLASS cml net/minecraft/client/gui/container/GuiContainer54
 	FIELD v BG_TEX Loj;
 	FIELD w playerInv Lagk;
 	FIELD x inventory Lagk;

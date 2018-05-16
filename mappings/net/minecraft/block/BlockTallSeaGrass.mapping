@@ -1,4 +1,0 @@
-CLASS blf net/minecraft/block/BlockTallSeaGrass
-	METHOD a getItem (Lbap;Lef;Lbnz;)Lawk;
-	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;
-	METHOD t getFluidState (Lbnz;)Lcbb;

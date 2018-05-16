@@ -1,10 +1,10 @@
-CLASS cqt net/minecraft/client/render/entity/model/EntityModelQuadruped
-	FIELD a head Lcsd;
-	FIELD b body Lcsd;
-	FIELD c leg1 Lcsd;
-	FIELD d leg2 Lcsd;
-	FIELD e leg3 Lcsd;
-	FIELD f leg4 Lcsd;
+CLASS cqs net/minecraft/client/render/entity/model/EntityModelQuadruped
+	FIELD a head Lcsc;
+	FIELD b body Lcsc;
+	FIELD c leg1 Lcsc;
+	FIELD d leg2 Lcsc;
+	FIELD e leg3 Lcsc;
+	FIELD f leg4 Lcsc;
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

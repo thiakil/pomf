@@ -1,5 +1,5 @@
-CLASS cld net/minecraft/client/gui/menu/GuiSettingsLanguage
-	CLASS cld$a
+CLASS clc net/minecraft/client/gui/menu/GuiSettingsLanguage
+	CLASS clc$a
 		METHOD a isSelected (I)Z
 			ARG 0 index
 		METHOD a drawEntry (IIIIIIF)V
@@ -8,9 +8,9 @@ CLASS cld net/minecraft/client/gui/menu/GuiSettingsLanguage
 		METHOD d getEntryCount ()I
 		METHOD n getContentHeight ()I
 	FIELD g settings Lchw;
-	FIELD h languageManager Ldfv;
+	FIELD h languageManager Ldfu;
 	FIELD s guiDone Lcjh;
-	METHOD <init> (Lcll;Lchw;Ldfv;)V
+	METHOD <init> (Lclk;Lchw;Ldfu;)V
 		ARG 0 parent
 		ARG 1 settings
 	METHOD a draw (IIF)V

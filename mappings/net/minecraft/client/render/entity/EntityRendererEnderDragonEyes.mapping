@@ -1,4 +1,4 @@
-CLASS ddb net/minecraft/client/render/entity/EntityRendererEnderDragonEyes
+CLASS dda net/minecraft/client/render/entity/EntityRendererEnderDragonEyes
 	FIELD a SKIN Loj;
 	METHOD a shouldMergeTextures ()Z
 	METHOD a render (Laig;FFFFFFF)V

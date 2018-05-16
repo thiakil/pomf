@@ -1,12 +1,12 @@
-CLASS clw net/minecraft/client/gui/widget/WidgetAdvancementTree
+CLASS clv net/minecraft/client/gui/widget/WidgetAdvancementTree
 	FIELD a mc Lcht;
-	FIELD g tabType Lclx;
+	FIELD g tabType Lclw;
 	FIELD i rootAdvancement Ll;
 	FIELD n widgets Ljava/util/Map;
-	METHOD <init> (Lcht;Lcma;Lclx;ILl;Lu;)V
+	METHOD <init> (Lcht;Lclz;Lclw;ILl;Lu;)V
 		ARG 0 mc
 		ARG 4 rootAdvancement
-	METHOD a drawIcon (IILdaq;)V
+	METHOD a drawIcon (IILdap;)V
 		ARG 0 x
 		ARG 1 y
 		ARG 2 itemRenderer
@@ -14,7 +14,7 @@ CLASS clw net/minecraft/client/gui/widget/WidgetAdvancementTree
 		ARG 0 x
 		ARG 1 y
 		ARG 2 selected
-	METHOD a create (Lcht;Lcma;ILl;)Lclw;
+	METHOD a create (Lcht;Lclz;ILl;)Lclv;
 		ARG 0 minecraft
-	METHOD b getWidgetForAdvancement (Ll;)Lcly;
+	METHOD b getWidgetForAdvancement (Ll;)Lclx;
 		ARG 0 advancement

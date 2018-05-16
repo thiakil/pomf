@@ -1,7 +1,7 @@
-CLASS dgp net/minecraft/client/render/model/BakedModelMultipart
+CLASS dgo net/minecraft/client/render/model/BakedModelMultipart
 	METHOD a useAmbientOcclusion ()Z
 	METHOD b hasDepthInGui ()Z
 	METHOD c isBuiltin ()Z
-	METHOD d getSprite ()Ldex;
-	METHOD e getTransformationList ()Lcwp;
-	METHOD f getItemPropertyOverrides ()Lcwn;
+	METHOD d getSprite ()Ldew;
+	METHOD e getTransformationList ()Lcwo;
+	METHOD f getItemPropertyOverrides ()Lcwm;

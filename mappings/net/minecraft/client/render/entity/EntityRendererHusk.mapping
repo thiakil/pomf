@@ -1,4 +1,4 @@
-CLASS dam net/minecraft/client/render/entity/EntityRendererHusk
+CLASS dal net/minecraft/client/render/entity/EntityRendererHusk
 	FIELD a SKIN Loj;
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model

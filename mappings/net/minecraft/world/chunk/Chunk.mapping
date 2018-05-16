@@ -56,12 +56,12 @@ CLASS bpp net/minecraft/world/chunk/Chunk
 		ARG 1 y
 		ARG 2 z
 	METHOD d removeBlockEntity (Lef;)V
-	METHOD d setLoaded (Z)V
 	METHOD e getBiomes ()[Lbbv;
+	METHOD e setLoaded (Z)V
 	METHOD f getBlockEntity (Lef;)Lbmf;
 		ARG 0 pos
-	METHOD f recheckGaps (Z)V
 	METHOD g getState ()Lbpk;
+	METHOD g recheckGaps (Z)V
 	METHOD j getBiome (Lef;)Lbbv;
 	METHOD m load ()V
 	METHOD n unload ()V

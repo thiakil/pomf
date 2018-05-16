@@ -1,4 +1,4 @@
-CLASS crs net/minecraft/client/render/entity/model/ModelZombieVillager
+CLASS crr net/minecraft/client/render/entity/model/ModelZombieVillager
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

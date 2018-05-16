@@ -1,20 +1,20 @@
-CLASS cye net/minecraft/client/render/chunk/ChunkRenderer
+CLASS cyd net/minecraft/client/render/chunk/ChunkRenderer
 	FIELD a chunkUpdateCount I
-	FIELD b chunkRenderData Lcyb;
+	FIELD b chunkRenderData Lcya;
 	FIELD c boundingBox Lcgc;
 	FIELD d world Lbbb;
-	FIELD e renderer Lcvk;
+	FIELD e renderer Lcvj;
 	FIELD f chunkRenderLock Ljava/util/concurrent/locks/ReentrantLock;
-	FIELD h chunkRenderDataTask Lcxy;
+	FIELD h chunkRenderDataTask Lcxx;
 	FIELD i blockEntities Ljava/util/Set;
-	FIELD l buffers [Ldfg;
+	FIELD l buffers [Ldff;
 	FIELD r chunkCache Lbbn;
-	METHOD <init> (Lbbb;Lcvk;I)V
+	METHOD <init> (Lbbb;Lcvj;I)V
 		ARG 0 world
 		ARG 1 renderer
 	METHOD a markRenderUpdate (Z)V
 	METHOD c getChunkRenderLock ()Ljava/util/concurrent/locks/ReentrantLock;
 	METHOD f distanceToPlayerSquared ()D
-	METHOD h getChunkRenderData ()Lcyb;
+	METHOD h getChunkRenderData ()Lcya;
 	METHOD k getChunkOrigin ()Lef;
 	METHOD o getWorld ()Lbbb;

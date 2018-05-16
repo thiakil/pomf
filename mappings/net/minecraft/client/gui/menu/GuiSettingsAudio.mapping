@@ -1,18 +1,18 @@
-CLASS clp net/minecraft/client/gui/menu/GuiSettingsAudio
-	CLASS clp$a
+CLASS clo net/minecraft/client/gui/menu/GuiSettingsAudio
+	CLASS clo$a
 		METHOD a drawBackground (Lcht;II)V
 			ARG 0 game
 			ARG 1 mouseX
 			ARG 2 mouseY
-		METHOD a onPressed (Ldic;)V
+		METHOD a onPressed (Ldib;)V
 			ARG 0 soundLoader
 		METHOD a getTextureId (Z)I
 			ARG 0 pressed
 	FIELD a title Ljava/lang/String;
-	FIELD f parent Lcll;
+	FIELD f parent Lclk;
 	FIELD g settings Lchw;
 	FIELD h optionsOff Ljava/lang/String;
-	METHOD <init> (Lcll;Lchw;)V
+	METHOD <init> (Lclk;Lchw;)V
 		ARG 0 parent
 		ARG 1 settings
 	METHOD a draw (IIF)V

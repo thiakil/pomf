@@ -1,11 +1,11 @@
-CLASS cqn net/minecraft/client/render/entity/model/EntityModelPlayer
-	FIELD a leftArmOverlay Lcsd;
-	FIELD b rightArmOverlay Lcsd;
-	FIELD t leftLegOverlay Lcsd;
-	FIELD u rightLegOverlay Lcsd;
-	FIELD v bodyOverlay Lcsd;
-	FIELD w cape Lcsd;
-	FIELD x mau5Ears Lcsd;
+CLASS cqm net/minecraft/client/render/entity/model/EntityModelPlayer
+	FIELD a leftArmOverlay Lcsc;
+	FIELD b rightArmOverlay Lcsc;
+	FIELD t leftLegOverlay Lcsc;
+	FIELD u rightLegOverlay Lcsc;
+	FIELD v bodyOverlay Lcsc;
+	FIELD w cape Lcsc;
+	FIELD x mau5Ears Lcsc;
 	FIELD y thinArms Z
 	METHOD <init> (FZ)V
 		ARG 0 scale

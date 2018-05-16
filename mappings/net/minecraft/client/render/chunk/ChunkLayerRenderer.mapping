@@ -1,4 +1,4 @@
-CLASS cva net/minecraft/client/render/chunk/ChunkLayerRenderer
+CLASS cuz net/minecraft/client/render/chunk/ChunkLayerRenderer
 	FIELD c viewX D
 	FIELD d viewY D
 	FIELD e viewZ D

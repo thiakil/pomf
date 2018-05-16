@@ -1,4 +1,4 @@
-CLASS dib net/minecraft/client/audio/ISoundListener
-	METHOD a onSoundPlayed (Ldhf;Ldif;)V
+CLASS dia net/minecraft/client/audio/ISoundListener
+	METHOD a onSoundPlayed (Ldhe;Ldie;)V
 		ARG 0 sound
 		ARG 1 accessor

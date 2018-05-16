@@ -1,4 +1,4 @@
-CLASS cxo net/minecraft/client/render/block/entity/BlockEntityEnchantingTableRenderer
+CLASS cxn net/minecraft/client/render/block/entity/BlockEntityEnchantingTableRenderer
 	FIELD a BOOK_TEX Loj;
 	METHOD a render (Lbmf;DDDFI)V
 	METHOD a render (Lbmp;DDDFI)V

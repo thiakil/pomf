@@ -1,4 +1,4 @@
-CLASS dil net/minecraft/client/tutorial/TutorialMovementStep
+CLASS dik net/minecraft/client/tutorial/TutorialMovementStep
 	FIELD a TUTORIAL_MOVE_TITLE Lic;
 	FIELD b TUTORIAL_MOVE_DESCRIPTION Lic;
 	FIELD c TUTORIAL_LOOK_TITLE Lic;

@@ -1,4 +1,4 @@
-CLASS cyv net/minecraft/render/debug/RenderDebugNeighborUpdate
+CLASS cyu net/minecraft/render/debug/RenderDebugNeighborUpdate
 	FIELD a mc Lcht;
 	METHOD <init> (Lcht;)V
 		ARG 0 mc

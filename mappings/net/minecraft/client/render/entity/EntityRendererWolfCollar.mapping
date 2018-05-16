@@ -1,4 +1,4 @@
-CLASS ddw net/minecraft/client/render/entity/EntityRendererWolfCollar
+CLASS ddv net/minecraft/client/render/entity/EntityRendererWolfCollar
 	FIELD a SKIN Loj;
 	METHOD a shouldMergeTextures ()Z
 	METHOD a render (Laig;FFFFFFF)V

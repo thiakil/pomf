@@ -6,7 +6,7 @@ CLASS cik net/minecraft/client/render/FontRenderer
 	FIELD f glyphWidths [B
 	FIELD g chatColors [I
 	FIELD h fontTextureLoc Loj;
-	FIELD i textureManager Ldey;
+	FIELD i textureManager Ldex;
 	FIELD j renderX F
 	FIELD k renderY F
 	FIELD l useUnicodeFont Z
@@ -21,7 +21,7 @@ CLASS cik net/minecraft/client/render/FontRenderer
 	FIELD u chatItalic Z
 	FIELD v chatUnderline Z
 	FIELD w chatStrikethrough Z
-	METHOD <init> (Loj;Ldey;Z)V
+	METHOD <init> (Loj;Ldex;Z)V
 		ARG 0 fontTextureLoc
 		ARG 1 textureManager
 		ARG 2 useUnicodeFont

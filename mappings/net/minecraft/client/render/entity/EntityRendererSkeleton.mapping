@@ -1,5 +1,5 @@
-CLASS dbp net/minecraft/client/render/entity/EntityRendererSkeleton
-	CLASS dbp$1
+CLASS dbo net/minecraft/client/render/entity/EntityRendererSkeleton
+	CLASS dbo$1
 		METHOD ao_ init ()V
 	FIELD a SKIN Loj;
 	METHOD a getTexture (Lahx;)Loj;

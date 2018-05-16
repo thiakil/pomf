@@ -1,4 +1,4 @@
-CLASS czj net/minecraft/client/render/entity/EntityRendererCaveSpider
+CLASS czi net/minecraft/client/render/entity/EntityRendererCaveSpider
 	FIELD a SKIN Loj;
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model

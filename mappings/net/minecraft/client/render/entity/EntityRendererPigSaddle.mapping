@@ -1,4 +1,4 @@
-CLASS ddj net/minecraft/client/render/entity/EntityRendererPigSaddle
+CLASS ddi net/minecraft/client/render/entity/EntityRendererPigSaddle
 	FIELD a SKIN Loj;
 	METHOD a shouldMergeTextures ()Z
 	METHOD a render (Laig;FFFFFFF)V

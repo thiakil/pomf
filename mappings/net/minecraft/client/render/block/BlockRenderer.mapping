@@ -1,47 +1,47 @@
-CLASS cwb net/minecraft/client/render/block/BlockRenderer
-	CLASS cwb$a NeighborData
-		FIELD a DOWN Lcwb$a;
-		FIELD b UP Lcwb$a;
-		FIELD c NORTH Lcwb$a;
-		FIELD d SOUTH Lcwb$a;
-		FIELD e WEST Lcwb$a;
-		FIELD f EAST Lcwb$a;
+CLASS cwa net/minecraft/client/render/block/BlockRenderer
+	CLASS cwa$a NeighborData
+		FIELD a DOWN Lcwa$a;
+		FIELD b UP Lcwa$a;
+		FIELD c NORTH Lcwa$a;
+		FIELD d SOUTH Lcwa$a;
+		FIELD e WEST Lcwa$a;
+		FIELD f EAST Lcwa$a;
 		FIELD g faces [Lel;
 		FIELD h nonCubicWeight Z
-		FIELD m VALUES [Lcwb$a;
-		METHOD a getData (Lel;)Lcwb$a;
-	CLASS cwb$b AmbientOcclusionCalculator
+		FIELD m VALUES [Lcwa$a;
+		METHOD a getData (Lel;)Lcwa$a;
+	CLASS cwa$b AmbientOcclusionCalculator
 		FIELD b colorMultiplier [F
 		FIELD c brightness [I
 		METHOD a getAmbientOcclusionBrightness (IIII)I
 		METHOD a getBrightness (IIIIFFFF)I
 		METHOD a apply (Lbbh;Lbnz;Lef;Lel;[FLjava/util/BitSet;)V
-	CLASS cwb$c Translation
-		FIELD a DOWN Lcwb$c;
-		FIELD b UP Lcwb$c;
-		FIELD c NORTH Lcwb$c;
-		FIELD d SOUTH Lcwb$c;
-		FIELD e WEST Lcwb$c;
-		FIELD f EAST Lcwb$c;
+	CLASS cwa$c Translation
+		FIELD a DOWN Lcwa$c;
+		FIELD b UP Lcwa$c;
+		FIELD c NORTH Lcwa$c;
+		FIELD d SOUTH Lcwa$c;
+		FIELD e WEST Lcwa$c;
+		FIELD f EAST Lcwa$c;
 		FIELD g firstCorner I
 		FIELD h secondCorner I
 		FIELD i thirdCorner I
 		FIELD j fourthCorner I
-		FIELD k VALUES [Lcwb$c;
-		METHOD a getTranslations (Lel;)Lcwb$c;
-	CLASS cwb$d NeighborOrientation
-		FIELD a DOWN Lcwb$d;
-		FIELD b UP Lcwb$d;
-		FIELD c NORTH Lcwb$d;
-		FIELD d SOUTH Lcwb$d;
-		FIELD e WEST Lcwb$d;
-		FIELD f EAST Lcwb$d;
-		FIELD g FLIP_DOWN Lcwb$d;
-		FIELD h FLIP_UP Lcwb$d;
-		FIELD i FLIP_NORTH Lcwb$d;
-		FIELD j FLIP_SOUTH Lcwb$d;
-		FIELD k FLIP_WEST Lcwb$d;
-		FIELD l FLIP_EAST Lcwb$d;
+		FIELD k VALUES [Lcwa$c;
+		METHOD a getTranslations (Lel;)Lcwa$c;
+	CLASS cwa$d NeighborOrientation
+		FIELD a DOWN Lcwa$d;
+		FIELD b UP Lcwa$d;
+		FIELD c NORTH Lcwa$d;
+		FIELD d SOUTH Lcwa$d;
+		FIELD e WEST Lcwa$d;
+		FIELD f EAST Lcwa$d;
+		FIELD g FLIP_DOWN Lcwa$d;
+		FIELD h FLIP_UP Lcwa$d;
+		FIELD i FLIP_NORTH Lcwa$d;
+		FIELD j FLIP_SOUTH Lcwa$d;
+		FIELD k FLIP_WEST Lcwa$d;
+		FIELD l FLIP_EAST Lcwa$d;
 		FIELD m shape I
 	FIELD a colorMap Lcif;
 	METHOD <init> (Lcif;)V
@@ -52,21 +52,21 @@ CLASS cwb net/minecraft/client/render/block/BlockRenderer
 		ARG 2 green
 		ARG 3 blue
 		ARG 4 quads
-	METHOD a tesselateQuadsFlat (Lbbh;Lbnz;Lef;IZLcux;Ljava/util/List;Ljava/util/BitSet;)V
+	METHOD a tesselateQuadsFlat (Lbbh;Lbnz;Lef;IZLcuw;Ljava/util/List;Ljava/util/BitSet;)V
 		ARG 2 pos
 		ARG 3 brightness
 		ARG 4 checkBrightness
 		ARG 5 buffer
 		ARG 6 quads
 		ARG 7 shapeState
-	METHOD a tesselateQuadsSmooth (Lbbh;Lbnz;Lef;Lcux;Ljava/util/List;[FLjava/util/BitSet;Lcwb$b;)V
+	METHOD a tesselateQuadsSmooth (Lbbh;Lbnz;Lef;Lcuw;Ljava/util/List;[FLjava/util/BitSet;Lcwa$b;)V
 		ARG 2 pos
 		ARG 3 buffer
 		ARG 4 quads
 		ARG 5 faceShape
 		ARG 6 shapeState
 		ARG 7 aoCalculator
-	METHOD a render (Lbnz;Ldgj;FFFF)V
+	METHOD a render (Lbnz;Ldgi;FFFF)V
 		ARG 1 model
 		ARG 2 colorMultiplier
 		ARG 3 red
@@ -77,23 +77,23 @@ CLASS cwb net/minecraft/client/render/block/BlockRenderer
 		ARG 2 facing
 		ARG 3 faceShape
 		ARG 4 shapeState
-	METHOD a render (Ldgj;FFFF)V
+	METHOD a render (Ldgi;FFFF)V
 		ARG 0 model
 		ARG 1 colorMultiplier
 		ARG 2 red
 		ARG 3 green
 		ARG 4 blue
-	METHOD a render (Ldgj;Lbnz;FZ)V
+	METHOD a render (Ldgi;Lbnz;FZ)V
 		ARG 0 model
 		ARG 2 colorMultiplier
 		ARG 3 notUseGlColor
-	METHOD b tesselateSmooth (Lbbh;Ldgj;Lbnz;Lef;Lcux;ZLjava/util/Random;J)Z
+	METHOD b tesselateSmooth (Lbbh;Ldgi;Lbnz;Lef;Lcuw;ZLjava/util/Random;J)Z
 		ARG 1 model
 		ARG 3 pos
 		ARG 4 buffer
 		ARG 5 testSides
 		ARG 7 variationSeed
-	METHOD c tesselateFlat (Lbbh;Ldgj;Lbnz;Lef;Lcux;ZLjava/util/Random;J)Z
+	METHOD c tesselateFlat (Lbbh;Ldgi;Lbnz;Lef;Lcuw;ZLjava/util/Random;J)Z
 		ARG 1 model
 		ARG 3 pos
 		ARG 4 buffer

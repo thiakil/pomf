@@ -1,16 +1,16 @@
-CLASS dhc net/minecraft/client/audio/Sound
-	CLASS dhc$a RegistrationType
-		FIELD a FILE Ldhc$a;
-		FIELD b EVENT Ldhc$a;
+CLASS dhb net/minecraft/client/audio/Sound
+	CLASS dhb$a RegistrationType
+		FIELD a FILE Ldhb$a;
+		FIELD b EVENT Ldhb$a;
 		FIELD c name Ljava/lang/String;
-		METHOD a getByName (Ljava/lang/String;)Ldhc$a;
+		METHOD a getByName (Ljava/lang/String;)Ldhb$a;
 	FIELD a id Loj;
 	FIELD b volume F
 	FIELD c pitch F
 	FIELD d weight I
-	FIELD e registrationType Ldhc$a;
+	FIELD e registrationType Ldhb$a;
 	FIELD f stream Z
-	METHOD <init> (Ljava/lang/String;FFILdhc$a;ZZI)V
+	METHOD <init> (Ljava/lang/String;FFILdhb$a;ZZI)V
 		ARG 0 id
 		ARG 1 volume
 		ARG 2 pitch
@@ -22,7 +22,7 @@ CLASS dhc net/minecraft/client/audio/Sound
 	METHOD c getVolume ()F
 	METHOD d getPitch ()F
 	METHOD e getWeight ()I
-	METHOD f getSound ()Ldhc;
-	METHOD g getRegistrationType ()Ldhc$a;
+	METHOD f getSound ()Ldhb;
+	METHOD g getRegistrationType ()Ldhb$a;
 	METHOD h isStreamed ()Z
 	METHOD k getSound ()Ljava/lang/Object;

@@ -1,6 +1,6 @@
-CLASS crr net/minecraft/client/render/entity/model/EntityModelVillager
-	FIELD a head Lcsd;
-	FIELD f nose Lcsd;
+CLASS crq net/minecraft/client/render/entity/model/EntityModelVillager
+	FIELD a head Lcsc;
+	FIELD f nose Lcsc;
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

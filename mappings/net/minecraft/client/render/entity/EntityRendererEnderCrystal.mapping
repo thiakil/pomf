@@ -1,4 +1,4 @@
-CLASS czv net/minecraft/client/render/entity/EntityRendererEnderCrystal
+CLASS czu net/minecraft/client/render/entity/EntityRendererEnderCrystal
 	FIELD a SKIN Loj;
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model

@@ -1,10 +1,10 @@
-CLASS cll net/minecraft/client/gui/GuiScreen
+CLASS clk net/minecraft/client/gui/GuiScreen
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD f HTTP Ljava/util/Set;
 	FIELD g clickedLink Ljava/net/URI;
 	FIELD j listeners Ljava/util/List;
 	FIELD k mc Lcht;
-	FIELD l itemRenderer Ldaq;
+	FIELD l itemRenderer Ldap;
 	FIELD m width I
 	FIELD n height I
 	FIELD o buttons Ljava/util/List;

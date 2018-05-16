@@ -1,5 +1,5 @@
-CLASS dco net/minecraft/client/render/entity/EntityRendererZombie
-	CLASS dco$1
+CLASS dcn net/minecraft/client/render/entity/EntityRendererZombie
+	CLASS dcn$1
 		METHOD ao_ init ()V
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model

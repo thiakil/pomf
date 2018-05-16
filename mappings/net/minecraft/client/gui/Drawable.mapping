@@ -30,7 +30,7 @@ CLASS cim net/minecraft/client/gui/Drawable
 		ARG 3 bottom
 		ARG 4 color1
 		ARG 5 color2
-	METHOD a drawTexturedRect (IILdex;II)V
+	METHOD a drawTexturedRect (IILdew;II)V
 		ARG 0 x
 		ARG 1 y
 		ARG 2 sprite

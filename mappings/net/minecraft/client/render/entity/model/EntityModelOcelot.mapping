@@ -1,5 +1,5 @@
-CLASS cqj net/minecraft/client/render/entity/model/EntityModelOcelot
-	FIELD g head Lcsd;
+CLASS cqi net/minecraft/client/render/entity/model/EntityModelOcelot
+	FIELD g head Lcsc;
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

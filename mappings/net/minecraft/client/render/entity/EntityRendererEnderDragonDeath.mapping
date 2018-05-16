@@ -1,4 +1,4 @@
-CLASS dda net/minecraft/client/render/entity/EntityRendererEnderDragonDeath
+CLASS dcz net/minecraft/client/render/entity/EntityRendererEnderDragonDeath
 	METHOD a shouldMergeTextures ()Z
 	METHOD a render (Laig;FFFFFFF)V
 		ARG 0 entity

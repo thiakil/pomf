@@ -1,4 +1,4 @@
-CLASS dbc net/minecraft/client/render/entity/EntityRendererPainting
+CLASS dbb net/minecraft/client/render/entity/EntityRendererPainting
 	FIELD a TEX Loj;
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model

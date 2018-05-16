@@ -1,4 +1,4 @@
-CLASS cro net/minecraft/client/util/TextureVertexPosition
+CLASS crn net/minecraft/client/util/TextureVertexPosition
 	FIELD a vec Lcgg;
 	FIELD b posX F
 	FIELD c posY F
@@ -9,10 +9,10 @@ CLASS cro net/minecraft/client/util/TextureVertexPosition
 		ARG 0 vec
 		ARG 1 posX
 		ARG 2 posY
-	METHOD <init> (Lcro;FF)V
+	METHOD <init> (Lcrn;FF)V
 		ARG 0 vertexPos
 		ARG 1 posX
 		ARG 2 posY
-	METHOD a setTexturePosition (FF)Lcro;
+	METHOD a setTexturePosition (FF)Lcrn;
 		ARG 0 posX
 		ARG 1 posY

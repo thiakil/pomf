@@ -1,4 +1,4 @@
-CLASS cpf net/minecraft/client/render/entity/model/EntityModelArmorStand
+CLASS cpe net/minecraft/client/render/entity/model/EntityModelArmorStand
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

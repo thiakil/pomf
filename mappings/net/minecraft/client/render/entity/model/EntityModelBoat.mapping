@@ -1,4 +1,4 @@
-CLASS cpk net/minecraft/client/render/entity/model/EntityModelBoat
+CLASS cpj net/minecraft/client/render/entity/model/EntityModelBoat
 	METHOD a render (Lahx;FFFFFF)V
 		ARG 0 entity
 		ARG 1 limbMoveAngle

@@ -1,4 +1,4 @@
-CLASS cyt net/minecraft/client/render/debug/RenderDebugHeightMap
+CLASS cys net/minecraft/client/render/debug/RenderDebugHeightMap
 	FIELD a game Lcht;
 	METHOD <init> (Lcht;)V
 		ARG 0 game

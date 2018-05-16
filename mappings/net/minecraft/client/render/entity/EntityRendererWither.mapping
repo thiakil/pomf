@@ -1,4 +1,4 @@
-CLASS dck net/minecraft/client/render/entity/EntityRendererWither
+CLASS dcj net/minecraft/client/render/entity/EntityRendererWither
 	FIELD a INVINCIBLE_SKIN Loj;
 	FIELD j SKIN Loj;
 	METHOD a getTexture (Lahx;)Loj;

@@ -1,18 +1,18 @@
-CLASS cys net/minecraft/client/render/debug/RenderDebug
-	CLASS cys$a IRenderDebug
+CLASS cyr net/minecraft/client/render/debug/RenderDebug
+	CLASS cyr$a IRenderDebug
 		METHOD a render (FJ)V
 			ARG 0 tickDelta
-	FIELD a pathRenderer Lcyw;
-	FIELD b waterRenderer Lcys$a;
-	FIELD c chunkBorderRenderer Lcys$a;
-	FIELD d heightMapRenderer Lcys$a;
-	FIELD e boundingBoxRenderer Lcys$a;
-	FIELD f neighborUpdateRenderer Lcys$a;
-	FIELD g cavesRenderer Lcyp;
-	FIELD h structureRenderer Lcyy;
-	FIELD i skylightRenderer Lcys$a;
-	FIELD j worldGenAttemptRenderer Lcys$a;
-	FIELD k blockFaceRenderer Lcys$a;
+	FIELD a pathRenderer Lcyv;
+	FIELD b waterRenderer Lcyr$a;
+	FIELD c chunkBorderRenderer Lcyr$a;
+	FIELD d heightMapRenderer Lcyr$a;
+	FIELD e boundingBoxRenderer Lcyr$a;
+	FIELD f neighborUpdateRenderer Lcyr$a;
+	FIELD g cavesRenderer Lcyo;
+	FIELD h structureRenderer Lcyx;
+	FIELD i skylightRenderer Lcyr$a;
+	FIELD j worldGenAttemptRenderer Lcyr$a;
+	FIELD k blockFaceRenderer Lcyr$a;
 	FIELD l showChunkBorder Z
 	FIELD m showPathfinding Z
 	FIELD n showWater Z

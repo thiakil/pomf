@@ -1,4 +1,4 @@
-CLASS crf net/minecraft/client/render/entity/model/EntityModelSlime
+CLASS cre net/minecraft/client/render/entity/model/EntityModelSlime
 	METHOD a render (Lahx;FFFFFF)V
 		ARG 0 entity
 		ARG 1 limbMoveAngle

@@ -1,4 +1,4 @@
-CLASS cmv net/minecraft/client/gui/container/GuiHopper
+CLASS cmu net/minecraft/client/gui/container/GuiHopper
 	FIELD v BG_TEX Loj;
 	FIELD w playerInv Lagk;
 	FIELD x inventory Lagk;

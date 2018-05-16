@@ -1,5 +1,5 @@
-CLASS cnc net/minecraft/client/gui/ingame/GuiStructureBlock
-	CLASS cnc$7
+CLASS cnb net/minecraft/client/gui/ingame/GuiStructureBlock
+	CLASS cnb$7
 		METHOD charTyped onKeyPressed (CI)Z
 			ARG 0 keyChar
 			ARG 1 keyCode

@@ -1,3 +1,3 @@
-CLASS dgv net/minecraft/client/audio/SoundEventMoving
+CLASS dgu net/minecraft/client/audio/SoundEventMoving
 	FIELD m done Z
 	METHOD m isDone ()Z

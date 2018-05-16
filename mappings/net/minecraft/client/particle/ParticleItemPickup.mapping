@@ -1,6 +1,6 @@
-CLASS cto net/minecraft/client/particle/ParticleItemPickup
+CLASS ctn net/minecraft/client/particle/ParticleItemPickup
 	METHOD a update ()V
-	METHOD a buildGeometry (Lcux;Lahx;FFFFFF)V
+	METHOD a buildGeometry (Lcuw;Lahx;FFFFFF)V
 		ARG 0 vertexBuffer
 		ARG 1 entity
 		ARG 2 deltaTicks

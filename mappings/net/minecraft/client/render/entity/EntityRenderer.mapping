@@ -1,7 +1,7 @@
-CLASS daa net/minecraft/client/render/entity/EntityRenderer
+CLASS czz net/minecraft/client/render/entity/EntityRenderer
 	FIELD a SHADOW_TEX Loj;
-	FIELD b renderManager Lczz;
-	METHOD <init> (Lczz;)V
+	FIELD b renderManager Lczy;
+	METHOD <init> (Lczy;)V
 		ARG 0 renderManager
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model
@@ -15,4 +15,4 @@ CLASS daa net/minecraft/client/render/entity/EntityRenderer
 	METHOD a bindTexture (Loj;)V
 		ARG 0 identifier
 	METHOD d getFontRenderer ()Lcik;
-	METHOD e getRenderManager ()Lczz;
+	METHOD e getRenderManager ()Lczy;

@@ -1,4 +1,4 @@
-CLASS dcu net/minecraft/client/render/entity/EntityRendererCreeperCharged
+CLASS dct net/minecraft/client/render/entity/EntityRendererCreeperCharged
 	FIELD a SKIN Loj;
 	METHOD a shouldMergeTextures ()Z
 	METHOD a render (Laig;FFFFFFF)V

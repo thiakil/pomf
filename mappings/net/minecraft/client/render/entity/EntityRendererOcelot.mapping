@@ -1,4 +1,4 @@
-CLASS dbb net/minecraft/client/render/entity/EntityRendererOcelot
+CLASS dba net/minecraft/client/render/entity/EntityRendererOcelot
 	FIELD a TAMED_BLACK_SKIN Loj;
 	FIELD j WILD_SKIN Loj;
 	FIELD k TAMED_RED_SKIN Loj;

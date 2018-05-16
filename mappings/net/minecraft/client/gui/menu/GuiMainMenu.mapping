@@ -1,14 +1,13 @@
-CLASS clq net/minecraft/client/gui/menu/GuiMainMenu
+CLASS clp net/minecraft/client/gui/menu/GuiMainMenu
 	FIELD B openGlWarning1 Ljava/lang/String;
 	FIELD C openGlWarning2 Ljava/lang/String;
 	FIELD E SPLASH_TEXTS Loj;
 	FIELD F TITLE_TEXTURES Loj;
 	FIELD H PANORAMA_PATHS [Loj;
-	FIELD I realmsButton Lciu;
-	FIELD J hasCheckedRealmsNotification Z
-	FIELD K realmsNotification Lcll;
-	FIELD L copyrightWidth I
-	FIELD M copyrightRest I
+	FIELD I hasCheckedRealmsNotification Z
+	FIELD J realmsNotification Lclk;
+	FIELD K copyrightWidth I
+	FIELD L copyrightRest I
 	FIELD a MORE_INFO_TEXT Ljava/lang/String;
 	FIELD f RANDOM Ljava/util/Random;
 	FIELD g roll F

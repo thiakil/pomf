@@ -1,2 +1,2 @@
-CLASS dds net/minecraft/client/render/entity/EntityRendererArmorZombieVillager
+CLASS ddr net/minecraft/client/render/entity/EntityRendererArmorZombieVillager
 	METHOD ao_ init ()V

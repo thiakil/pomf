@@ -1,4 +1,4 @@
-CLASS dfo net/minecraft/client/resource/ResourceIndexDirectory
+CLASS dfn net/minecraft/client/resource/ResourceIndexDirectory
 	FIELD a directory Ljava/io/File;
 	METHOD <init> (Ljava/io/File;)V
 		ARG 0 directory

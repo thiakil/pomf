@@ -1,5 +1,5 @@
-CLASS dan net/minecraft/client/render/entity/RenderIllagerIllusion
-	CLASS dan$1
+CLASS dam net/minecraft/client/render/entity/RenderIllagerIllusion
+	CLASS dam$1
 		METHOD a render (Laig;FFFFFFF)V
 			ARG 0 entity
 	FIELD a TEXTURE Loj;

@@ -1,5 +1,5 @@
-CLASS dci net/minecraft/client/render/entity/EntityMobRendererVindicator
-	CLASS dci$1
+CLASS dch net/minecraft/client/render/entity/EntityMobRendererVindicator
+	CLASS dch$1
 		METHOD a render (Laig;FFFFFFF)V
 			ARG 0 entity
 	METHOD a getTexture (Lahx;)Loj;

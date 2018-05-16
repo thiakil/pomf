@@ -1,4 +1,4 @@
-CLASS dez net/minecraft/client/texture/ITexture
+CLASS dey net/minecraft/client/texture/ITexture
 	METHOD a popFilter ()V
 	METHOD a load (Lul;)V
 		ARG 0 resourceContainer

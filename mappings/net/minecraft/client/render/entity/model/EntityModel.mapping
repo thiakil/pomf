@@ -1,4 +1,4 @@
-CLASS cqi net/minecraft/client/render/entity/model/EntityModel
+CLASS cqh net/minecraft/client/render/entity/model/EntityModel
 	FIELD a textureMap Ljava/util/Map;
 	FIELD n swingProgress F
 	FIELD o isRiding Z
@@ -27,11 +27,11 @@ CLASS cqi net/minecraft/client/render/entity/model/EntityModel
 		ARG 1 swingAmount
 		ARG 2 swingDelta
 		ARG 3 deltaTicks
-	METHOD a setAttributes (Lcqi;)V
+	METHOD a setAttributes (Lcqh;)V
 		ARG 0 model
-	METHOD a copyAngles (Lcsd;Lcsd;)V
+	METHOD a copyAngles (Lcsc;Lcsc;)V
 		ARG 0 original
 		ARG 1 copy
 	METHOD a setTextureOffset (Ljava/lang/String;II)V
-	METHOD a getRandomBox (Ljava/util/Random;)Lcsd;
+	METHOD a getRandomBox (Ljava/util/Random;)Lcsc;
 		ARG 0 rand

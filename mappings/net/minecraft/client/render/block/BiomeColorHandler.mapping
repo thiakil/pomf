@@ -1,11 +1,11 @@
-CLASS diz net/minecraft/client/render/block/BiomeColorHandler
-	CLASS diz$1
+CLASS diy net/minecraft/client/render/block/BiomeColorHandler
+	CLASS diy$1
 		METHOD a getColorForBiome (Lbbv;Lef;)I
-	CLASS diz$2
+	CLASS diy$2
 		METHOD a getColorForBiome (Lbbv;Lef;)I
-	CLASS diz$3
+	CLASS diy$3
 		METHOD a getColorForBiome (Lbbv;Lef;)I
-	CLASS diz$4
+	CLASS diy$4
 		METHOD a getColorForBiome (Lbbv;Lef;)I
-	CLASS diz$a Proxy
+	CLASS diy$a Proxy
 		METHOD a getColorForBiome (Lbbv;Lef;)I

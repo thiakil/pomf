@@ -1,15 +1,15 @@
-CLASS cvv net/minecraft/client/texture/BannerTextureCache
-	CLASS cvv$a Manager
+CLASS cvu net/minecraft/client/texture/BannerTextureCache
+	CLASS cvu$a Manager
 		FIELD a cacheMap Ljava/util/Map;
 		FIELD b filename Loj;
 		FIELD c baseDir Ljava/lang/String;
 		FIELD d id Ljava/lang/String;
 		METHOD a removeOldEntries ()Z
 		METHOD a get (Ljava/lang/String;Ljava/util/List;Ljava/util/List;)Loj;
-	CLASS cvv$b Entry
+	CLASS cvu$b Entry
 		FIELD a lastRequestTimeMillis J
 		FIELD b filename Loj;
-	FIELD a BANNERS Lcvv$a;
-	FIELD b SHIELD_ Lcvv$a;
+	FIELD a BANNERS Lcvu$a;
+	FIELD b SHIELD_ Lcvu$a;
 	FIELD c DEFAULT_SHIELD Loj;
 	FIELD d DEFAULT_BANNER Loj;

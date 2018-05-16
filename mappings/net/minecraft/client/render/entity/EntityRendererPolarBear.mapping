@@ -1,4 +1,4 @@
-CLASS dbh net/minecraft/client/render/entity/EntityRendererPolarBear
+CLASS dbg net/minecraft/client/render/entity/EntityRendererPolarBear
 	FIELD a SKIN Loj;
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model

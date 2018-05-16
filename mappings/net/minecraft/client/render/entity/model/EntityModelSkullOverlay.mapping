@@ -1,4 +1,4 @@
-CLASS cpz net/minecraft/client/render/entity/model/EntityModelSkullOverlay
+CLASS cpy net/minecraft/client/render/entity/model/EntityModelSkullOverlay
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

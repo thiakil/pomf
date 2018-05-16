@@ -1,4 +1,4 @@
-CLASS cpl net/minecraft/client/render/entity/model/EntityModelEnchantingTableBook
+CLASS cpk net/minecraft/client/render/entity/model/EntityModelEnchantingTableBook
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

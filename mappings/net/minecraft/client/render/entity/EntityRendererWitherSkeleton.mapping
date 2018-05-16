@@ -1,4 +1,4 @@
-CLASS dcl net/minecraft/client/render/entity/EntityRendererWitherSkeleton
+CLASS dck net/minecraft/client/render/entity/EntityRendererWitherSkeleton
 	FIELD a SKIN Loj;
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model

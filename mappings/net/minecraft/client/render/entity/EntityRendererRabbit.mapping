@@ -1,4 +1,4 @@
-CLASS dbj net/minecraft/client/render/entity/EntityRendererRabbit
+CLASS dbi net/minecraft/client/render/entity/EntityRendererRabbit
 	FIELD a BROWN_SKIN Loj;
 	FIELD j WHITE_SKIN Loj;
 	FIELD k BLACK_SKIN Loj;

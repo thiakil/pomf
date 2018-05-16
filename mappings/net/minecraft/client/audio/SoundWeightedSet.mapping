@@ -1,4 +1,4 @@
-CLASS dif net/minecraft/client/audio/SoundWeightedSet
+CLASS die net/minecraft/client/audio/SoundWeightedSet
 	FIELD a sounds Ljava/util/List;
 	FIELD b rand Ljava/util/Random;
 	FIELD c id Loj;
@@ -6,8 +6,8 @@ CLASS dif net/minecraft/client/audio/SoundWeightedSet
 	METHOD <init> (Loj;Ljava/lang/String;)V
 		ARG 0 id
 		ARG 1 subtitle
-	METHOD a getSound ()Ldhc;
-	METHOD a add (Ldig;)V
+	METHOD a getSound ()Ldhb;
+	METHOD a add (Ldif;)V
 		ARG 0 sound
 	METHOD b getId ()Loj;
 	METHOD c getSubtitle ()Lic;

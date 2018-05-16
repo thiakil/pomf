@@ -1,14 +1,14 @@
-CLASS dic net/minecraft/client/audio/SoundLoader
-	CLASS dic$2
-		METHOD a getSound ()Ldhc;
+CLASS dib net/minecraft/client/audio/SoundLoader
+	CLASS dib$2
+		METHOD a getSound ()Ldhb;
 		METHOD e getWeight ()I
 		METHOD k getSound ()Ljava/lang/Object;
-	FIELD a SOUND_MISSING Ldhc;
+	FIELD a SOUND_MISSING Ldhb;
 	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD c GSON Lcom/google/gson/Gson;
 	FIELD d TYPE Ljava/lang/reflect/ParameterizedType;
-	FIELD e registry Ldid;
-	FIELD f soundManager Ldia;
+	FIELD e registry Ldic;
+	FIELD f soundManager Ldhz;
 	FIELD g resourceManager Lul;
 	METHOD <init> (Lul;Lchw;)V
 		ARG 0 manager
@@ -16,13 +16,13 @@ CLASS dic net/minecraft/client/audio/SoundLoader
 	METHOD Y_ update ()V
 	METHOD a updateListenerPosition (Larl;F)V
 		ARG 0 listener
-	METHOD a play (Ldhf;)V
+	METHOD a play (Ldhe;)V
 		ARG 0 sound
-	METHOD a registerListener (Ldib;)V
+	METHOD a registerListener (Ldia;)V
 		ARG 0 listener
 	METHOD a readSounds (Ljava/io/InputStream;)Ljava/util/Map;
 		ARG 0 input
-	METHOD a getSoundAccessor (Loj;)Ldif;
+	METHOD a getSoundAccessor (Loj;)Ldie;
 		ARG 0 id
 	METHOD a stopSounds (Loj;Lvq;)V
 		ARG 1 category
@@ -32,12 +32,12 @@ CLASS dic net/minecraft/client/audio/SoundLoader
 		ARG 0 category
 		ARG 1 volume
 	METHOD b pause ()V
-	METHOD b stop (Ldhf;)V
+	METHOD b stop (Ldhe;)V
 		ARG 0 sound
-	METHOD b unregisterListener (Ldib;)V
+	METHOD b unregisterListener (Ldia;)V
 		ARG 0 listener
 	METHOD c stopAll ()V
-	METHOD c isPlaying (Ldhf;)Z
+	METHOD c isPlaying (Ldhe;)Z
 		ARG 0 sound
 	METHOD d deinitialize ()V
 	METHOD e resume ()V

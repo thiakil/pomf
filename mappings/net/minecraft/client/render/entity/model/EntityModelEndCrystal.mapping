@@ -1,7 +1,7 @@
-CLASS crz net/minecraft/client/render/entity/model/EntityModelEndCrystal
-	FIELD a cube Lcsd;
-	FIELD b glass Lcsd;
-	FIELD c base Lcsd;
+CLASS cry net/minecraft/client/render/entity/model/EntityModelEndCrystal
+	FIELD a cube Lcsc;
+	FIELD b glass Lcsc;
+	FIELD c base Lcsc;
 	METHOD <init> (FZ)V
 		ARG 1 renderBase
 	METHOD a render (Lahx;FFFFFF)V

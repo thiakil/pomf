@@ -1,4 +1,4 @@
-CLASS cyk net/minecraft/client/render/BoundVisibilityTester
+CLASS cyj net/minecraft/client/render/BoundVisibilityTester
 	METHOD a updateViewPosition (DDD)V
 		ARG 0 x
 		ARG 1 y

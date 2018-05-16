@@ -1,4 +1,4 @@
-CLASS cut net/minecraft/client/network/ContainerProviderDummyClient
+CLASS cus net/minecraft/client/network/ContainerProviderDummyClient
 	FIELD a id Ljava/lang/String;
 	FIELD b name Lic;
 	METHOD <init> (Ljava/lang/String;Lic;)V

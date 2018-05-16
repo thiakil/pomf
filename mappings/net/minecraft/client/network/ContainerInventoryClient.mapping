@@ -1,4 +1,4 @@
-CLASS cuu net/minecraft/client/network/ContainerInventoryClient
+CLASS cut net/minecraft/client/network/ContainerInventoryClient
 	FIELD a id Ljava/lang/String;
 	FIELD b invFields Ljava/util/Map;
 	METHOD <init> (Ljava/lang/String;Lic;I)V

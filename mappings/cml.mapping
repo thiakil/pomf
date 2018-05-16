@@ -1,5 +1,0 @@
-CLASS cml
-	FIELD u advmodeModeSequence Lciu;
-	FIELD v advmodeModeUnconditional Lciu;
-	FIELD w advmodeModeRedstonetriggered Lciu;
-	METHOD c init ()V

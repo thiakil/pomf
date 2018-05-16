@@ -1,4 +1,4 @@
-CLASS cpt net/minecraft/client/render/entity/model/EntityModelElytra
+CLASS cps net/minecraft/client/render/entity/model/EntityModelElytra
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

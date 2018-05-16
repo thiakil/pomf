@@ -1,8 +1,8 @@
-CLASS cvk net/minecraft/client/render/Renderer
+CLASS cvj net/minecraft/client/render/Renderer
 	FIELD A ticks I
 	FIELD B partiallyBrokenBlocks Ljava/util/Map;
-	FIELD E framebuffer Lcvq;
-	FIELD X chunkLayerRenderer Lcva;
+	FIELD E framebuffer Lcvp;
+	FIELD X chunkLayerRenderer Lcuz;
 	FIELD Y renderDistance I
 	FIELD aa totalEntities I
 	FIELD ab renderedEntities I
@@ -14,9 +14,9 @@ CLASS cvk net/minecraft/client/render/Renderer
 	FIELD f END_SKY_TEX Loj;
 	FIELD g FORCEFIELD_TEX Loj;
 	FIELD h game Lcht;
-	FIELD i textureManager Ldey;
-	FIELD j entityRenderManager Lczz;
-	FIELD k world Lcsn;
+	FIELD i textureManager Ldex;
+	FIELD j entityRenderManager Lczy;
+	FIELD k world Lcsm;
 	METHOD <init> (Lcht;)V
 		ARG 0 game
 	METHOD a markRegionForRenderUpdate (IIIIII)V
@@ -27,7 +27,7 @@ CLASS cvk net/minecraft/client/render/Renderer
 		ARG 2 data
 	METHOD a onEntityAdded (Lahx;)V
 		ARG 0 entity
-	METHOD a renderEntities (Lahx;Lcyk;F)V
+	METHOD a renderEntities (Lahx;Lcyj;F)V
 		ARG 0 cameraEntity
 	METHOD a onWorldEvent (Larl;ILef;I)V
 		ARG 0 player
@@ -47,7 +47,7 @@ CLASS cvk net/minecraft/client/render/Renderer
 		ARG 1 pos
 		ARG 4 flags
 	METHOD a renderChunkLayer (Lbaq;)V
-	METHOD a renderPartiallyBrokenBlocks (Lcvr;Lcux;Lahx;F)V
+	METHOD a renderPartiallyBrokenBlocks (Lcvq;Lcuw;Lahx;F)V
 		ARG 0 tesselator
 		ARG 1 buffer
 		ARG 2 cameraEntity
@@ -75,14 +75,14 @@ CLASS cvk net/minecraft/client/render/Renderer
 		ARG 2 progress
 	METHOD b onEntityRemoved (Lahx;)V
 		ARG 0 entity
-	METHOD b spawnParticle (Lfg;ZDDDDDD)Lctt;
+	METHOD b spawnParticle (Lfg;ZDDDDDD)Lcts;
 		ARG 1 ignoreCameraBounds
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 velocityX
 		ARG 6 velocityY
-	METHOD b spawnParticle (Lfg;ZZDDDDDD)Lctt;
+	METHOD b spawnParticle (Lfg;ZZDDDDDD)Lcts;
 	METHOD c drawFramebuffer ()V
 	METHOD g getChunkNumber ()I
 	METHOD h getEntitiesDebugString ()Ljava/lang/String;

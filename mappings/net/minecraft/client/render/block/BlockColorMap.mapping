@@ -47,6 +47,10 @@ CLASS cif net/minecraft/client/render/block/BlockColorMap
 		METHOD a getColor (Lbnz;Lbbf;Lef;I)I
 			ARG 2 pos
 			ARG 3 tintIndex
+	CLASS cif$13
+		METHOD a getColor (Lbnz;Lbbf;Lef;I)I
+			ARG 2 pos
+			ARG 3 tintIndex
 	FIELD a mappers Lep;
 	METHOD a create ()Lcif;
 	METHOD a getMapColor (Lbnz;Lbbb;Lef;)I

@@ -1,10 +1,10 @@
-CLASS cxc net/minecraft/client/render/block/BlockStateModelMap
+CLASS cxb net/minecraft/client/render/block/BlockStateModelMap
 	FIELD a mappers Ljava/util/Map;
 	FIELD b builtinBlocks Ljava/util/Set;
 	METHOD a getModelStateMap ()Ljava/util/Map;
 	METHOD a getRenderStates (Lbfq;)Ljava/util/Set;
 		ARG 0 block
-	METHOD a registerMapper (Lbfq;Lcxf;)V
+	METHOD a registerMapper (Lbfq;Lcxe;)V
 		ARG 0 block
 		ARG 1 map
 	METHOD b getModelStateMap (Lbfq;)Ljava/util/Map;

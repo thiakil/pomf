@@ -1,4 +1,4 @@
-CLASS ddk net/minecraft/client/render/entity/EntityRendererLayer
+CLASS ddj net/minecraft/client/render/entity/EntityRendererLayer
 	METHOD a shouldMergeTextures ()Z
 	METHOD a render (Laig;FFFFFFF)V
 		ARG 0 entity

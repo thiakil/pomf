@@ -1,4 +1,4 @@
-CLASS cqk net/minecraft/client/render/entity/model/EntityModelParrot
+CLASS cqj net/minecraft/client/render/entity/model/EntityModelParrot
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

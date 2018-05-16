@@ -1,4 +1,4 @@
-CLASS cwm net/minecraft/client/render/model/json/ModelItemOverride
+CLASS cwl net/minecraft/client/render/model/json/ModelItemOverride
 	FIELD a modelId Loj;
 	FIELD b minPropertyValues Ljava/util/Map;
 	METHOD <init> (Loj;Ljava/util/Map;)V

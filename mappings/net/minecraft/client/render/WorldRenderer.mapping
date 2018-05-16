@@ -1,4 +1,4 @@
-CLASS cve net/minecraft/client/render/WorldRenderer
+CLASS cvd net/minecraft/client/render/WorldRenderer
 	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD d RAIN_LOC Loj;
 	FIELD e SNOW_LOC Loj;

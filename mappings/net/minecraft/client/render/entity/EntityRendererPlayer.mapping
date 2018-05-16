@@ -1,5 +1,5 @@
-CLASS ddz net/minecraft/client/render/entity/EntityRendererPlayer
+CLASS ddy net/minecraft/client/render/entity/EntityRendererPlayer
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model
-	METHOD a getTexture (Lcun;)Loj;
+	METHOD a getTexture (Lcum;)Loj;
 		ARG 0 model

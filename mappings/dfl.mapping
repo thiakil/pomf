@@ -1,3 +1,0 @@
-CLASS dfl
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD g server Ldfs;

@@ -1,5 +1,5 @@
-CLASS cze net/minecraft/client/render/entity/EntityRendererArmorStand
-	CLASS cze$1
+CLASS czd net/minecraft/client/render/entity/EntityRendererArmorStand
+	CLASS czd$1
 		METHOD ao_ init ()V
 	FIELD a TEX Loj;
 	METHOD a getTexture (Lahx;)Loj;

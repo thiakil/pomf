@@ -1,4 +1,4 @@
-CLASS crh net/minecraft/client/render/entity/model/EntityModelSpider
+CLASS crg net/minecraft/client/render/entity/model/EntityModelSpider
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

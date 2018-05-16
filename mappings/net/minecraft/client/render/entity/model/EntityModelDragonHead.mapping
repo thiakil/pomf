@@ -1,6 +1,6 @@
-CLASS crx net/minecraft/client/render/entity/model/EntityModelDragonHead
-	FIELD a head Lcsd;
-	FIELD b jaw Lcsd;
+CLASS crw net/minecraft/client/render/entity/model/EntityModelDragonHead
+	FIELD a head Lcsc;
+	FIELD b jaw Lcsc;
 	METHOD a render (Lahx;FFFFFF)V
 		ARG 0 entity
 		ARG 1 limbMoveAngle

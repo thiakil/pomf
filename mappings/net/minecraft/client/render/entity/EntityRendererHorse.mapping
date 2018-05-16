@@ -1,4 +1,4 @@
-CLASS dak net/minecraft/client/render/entity/EntityRendererHorse
+CLASS daj net/minecraft/client/render/entity/EntityRendererHorse
 	FIELD a SKIN Ljava/util/Map;
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model

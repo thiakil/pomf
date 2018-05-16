@@ -1,4 +1,4 @@
-CLASS crg net/minecraft/client/render/entity/model/EntityModelSnowman
+CLASS crf net/minecraft/client/render/entity/model/EntityModelSnowman
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

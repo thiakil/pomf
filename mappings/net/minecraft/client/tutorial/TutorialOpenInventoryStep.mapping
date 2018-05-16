@@ -1,4 +1,4 @@
-CLASS dim net/minecraft/client/tutorial/TutorialOpenInventoryStep
+CLASS dil net/minecraft/client/tutorial/TutorialOpenInventoryStep
 	FIELD a TUTORIAL_OPEN_INVENTORY_TITLE Lic;
 	FIELD b TUTORIAL_OPEN_INVENTORY_DESCRIPTION Lic;
 	METHOD a update ()V

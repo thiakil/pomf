@@ -1,4 +1,4 @@
-CLASS dbe net/minecraft/client/render/entity/EntityRendererPhantom
+CLASS dbd net/minecraft/client/render/entity/EntityRendererPhantom
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model
 	METHOD a getTexture (Laqm;)Loj;

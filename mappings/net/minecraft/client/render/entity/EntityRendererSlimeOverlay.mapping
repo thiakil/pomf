@@ -1,7 +1,7 @@
-CLASS ddm net/minecraft/client/render/entity/EntityRendererSlimeOverlay
-	FIELD a renderer Ldbq;
-	FIELD b model Lcqi;
-	METHOD <init> (Ldbq;)V
+CLASS ddl net/minecraft/client/render/entity/EntityRendererSlimeOverlay
+	FIELD a renderer Ldbp;
+	FIELD b model Lcqh;
+	METHOD <init> (Ldbp;)V
 		ARG 0 renderer
 	METHOD a shouldMergeTextures ()Z
 	METHOD a render (Laig;FFFFFFF)V

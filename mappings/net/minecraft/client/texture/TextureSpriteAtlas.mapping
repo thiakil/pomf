@@ -1,4 +1,4 @@
-CLASS dew net/minecraft/client/texture/TextureSpriteAtlas
+CLASS dev net/minecraft/client/texture/TextureSpriteAtlas
 	FIELD f BLOCK_ATLAS_TEX Loj;
 	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD h animatedSprites Ljava/util/List;
@@ -9,7 +9,7 @@ CLASS dew net/minecraft/client/texture/TextureSpriteAtlas
 		ARG 0 value
 	METHOD a load (Lul;)V
 		ARG 0 resourceContainer
-	METHOD a loadSprite (Lul;Ldex;)Z
+	METHOD a loadSprite (Lul;Ldew;)Z
 		ARG 0 container
 		ARG 1 sprite
 	METHOD b getResourceLocation (Loj;)Loj;

@@ -1,4 +1,4 @@
-CLASS cqo net/minecraft/client/render/entity/model/EntityModelPolarBear
+CLASS cqn net/minecraft/client/render/entity/model/EntityModelPolarBear
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

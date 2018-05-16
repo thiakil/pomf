@@ -1,6 +1,6 @@
-CLASS cwj net/minecraft/client/render/model/BakedQuadRetextured
-	FIELD e texture Ldex;
-	METHOD <init> (Lcwc;Ldex;)V
+CLASS cwi net/minecraft/client/render/model/BakedQuadRetextured
+	FIELD e texture Ldew;
+	METHOD <init> (Lcwb;Ldew;)V
 		ARG 0 parent
 		ARG 1 sprite
 	METHOD f recalculateUvs ()V

@@ -1,4 +1,4 @@
-CLASS cxb net/minecraft/client/render/block/state/StateModelMapperBase
+CLASS cxa net/minecraft/client/render/block/state/StateModelMapperBase
 	FIELD a stateMap Ljava/util/Map;
 	METHOD a getStateMap (Lbfq;)Ljava/util/Map;
 		ARG 0 block

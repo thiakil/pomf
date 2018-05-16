@@ -9,7 +9,7 @@ CLASS ciu net/minecraft/client/gui/GuiButton
 		ARG 0 game
 		ARG 1 mouseX
 		ARG 2 mouseY
-	METHOD a onPressed (Ldic;)V
+	METHOD a onPressed (Ldib;)V
 		ARG 0 soundLoader
 	METHOD a getTextureId (Z)I
 		ARG 0 pressed

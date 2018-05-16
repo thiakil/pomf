@@ -1,5 +1,5 @@
-CLASS cpr net/minecraft/client/render/entity/model/EntityModelCreeper
-	FIELD a head Lcsd;
+CLASS cpq net/minecraft/client/render/entity/model/EntityModelCreeper
+	FIELD a head Lcsc;
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

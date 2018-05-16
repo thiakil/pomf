@@ -1,9 +1,9 @@
-CLASS dac net/minecraft/client/render/entity/EntityRendererEvokerIllager
-	CLASS dac$1
+CLASS dab net/minecraft/client/render/entity/EntityRendererEvokerIllager
+	CLASS dab$1
 		METHOD a render (Laig;FFFFFFF)V
 			ARG 0 entity
 	FIELD a EVOKER_TEXTURE Loj;
-	METHOD <init> (Lczz;)V
+	METHOD <init> (Lczy;)V
 		ARG 0 entityRenderManager
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model

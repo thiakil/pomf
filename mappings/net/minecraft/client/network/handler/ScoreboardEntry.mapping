@@ -1,4 +1,4 @@
-CLASS cso net/minecraft/client/network/handler/ScoreboardEntry
+CLASS csn net/minecraft/client/network/handler/ScoreboardEntry
 	FIELD a profile Lcom/mojang/authlib/GameProfile;
 	FIELD c gameMode Lbay;
 	FIELD d latency I

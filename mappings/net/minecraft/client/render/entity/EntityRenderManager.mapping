@@ -1,15 +1,15 @@
-CLASS czz net/minecraft/client/render/entity/EntityRenderManager
-	FIELD a textureManager Ldey;
+CLASS czy net/minecraft/client/render/entity/EntityRenderManager
+	FIELD a textureManager Ldex;
 	FIELD b world Lbbb;
 	FIELD g settings Lchw;
 	FIELD k RENDER_MAP Ljava/util/Map;
 	FIELD l SKIN_MAP Ljava/util/Map;
-	FIELD m PLAYER_RENDERER Lddz;
+	FIELD m PLAYER_RENDERER Lddy;
 	FIELD n fontRenderer Lcik;
 	FIELD o renderPosX D
 	FIELD p renderPosY D
 	FIELD q renderPosZ D
-	METHOD <init> (Ldey;Ldaq;)V
+	METHOD <init> (Ldex;Ldap;)V
 		ARG 0 textureManager
 		ARG 1 itemRenderer
 	METHOD a setRenderPosition (DDD)V

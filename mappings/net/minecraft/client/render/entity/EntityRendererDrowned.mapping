@@ -1,4 +1,4 @@
-CLASS czt net/minecraft/client/render/entity/EntityRendererDrowned
+CLASS czs net/minecraft/client/render/entity/EntityRendererDrowned
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model
 	METHOD a getTexture (Laih;)Loj;

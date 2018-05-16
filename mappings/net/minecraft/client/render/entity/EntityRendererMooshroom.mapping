@@ -1,4 +1,4 @@
-CLASS dba net/minecraft/client/render/entity/EntityRendererMooshroom
+CLASS daz net/minecraft/client/render/entity/EntityRendererMooshroom
 	FIELD a SKIN Loj;
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model

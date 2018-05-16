@@ -1,15 +1,15 @@
-CLASS cwp net/minecraft/client/render/model/json/ModelTransformationList
-	CLASS cwp$b Type
-		FIELD a ORIGIN Lcwp$b;
-		FIELD b THIRD_PERSON_LEFT_HAND Lcwp$b;
-		FIELD c THIRD_PERSON_RIGHT_HAND Lcwp$b;
-		FIELD d FIRST_PERSON_LEFT_HAND Lcwp$b;
-		FIELD e FIRST_PERSON_RIGHT_HAND Lcwp$b;
-		FIELD f HEAD Lcwp$b;
-		FIELD g GUI Lcwp$b;
-		FIELD h GROUND Lcwp$b;
-		FIELD i FIXED Lcwp$b;
-	FIELD a ORIGIN Lcwp;
+CLASS cwo net/minecraft/client/render/model/json/ModelTransformationList
+	CLASS cwo$b Type
+		FIELD a ORIGIN Lcwo$b;
+		FIELD b THIRD_PERSON_LEFT_HAND Lcwo$b;
+		FIELD c THIRD_PERSON_RIGHT_HAND Lcwo$b;
+		FIELD d FIRST_PERSON_LEFT_HAND Lcwo$b;
+		FIELD e FIRST_PERSON_RIGHT_HAND Lcwo$b;
+		FIELD f HEAD Lcwo$b;
+		FIELD g GUI Lcwo$b;
+		FIELD h GROUND Lcwo$b;
+		FIELD i FIXED Lcwo$b;
+	FIELD a ORIGIN Lcwo;
 	FIELD b globalTranslationX F
 	FIELD c globalTranslationY F
 	FIELD d globalTranslationZ F
@@ -19,21 +19,21 @@ CLASS cwp net/minecraft/client/render/model/json/ModelTransformationList
 	FIELD h globalScaleOffsetX F
 	FIELD i globalScaleOffsetY F
 	FIELD j globalScaleOffsetZ F
-	FIELD k thirdPersonLeftHand Lcwo;
-	FIELD l thirdPersonRightHand Lcwo;
-	FIELD m firstPersonLeftHand Lcwo;
-	FIELD n firstPersonRightHand Lcwo;
-	FIELD o head Lcwo;
-	FIELD p gui Lcwo;
-	FIELD q ground Lcwo;
-	FIELD r fixed Lcwo;
-	METHOD <init> (Lcwp;)V
+	FIELD k thirdPersonLeftHand Lcwn;
+	FIELD l thirdPersonRightHand Lcwn;
+	FIELD m firstPersonLeftHand Lcwn;
+	FIELD n firstPersonRightHand Lcwn;
+	FIELD o head Lcwn;
+	FIELD p gui Lcwn;
+	FIELD q ground Lcwn;
+	FIELD r fixed Lcwn;
+	METHOD <init> (Lcwo;)V
 		ARG 0 list
-	METHOD a applyGl (Lcwo;Z)V
+	METHOD a applyGl (Lcwn;Z)V
 		ARG 0 transform
-	METHOD a applyGl (Lcwp$b;)V
+	METHOD a applyGl (Lcwo$b;)V
 		ARG 0 type
-	METHOD b getTransformation (Lcwp$b;)Lcwo;
+	METHOD b getTransformation (Lcwo$b;)Lcwn;
 		ARG 0 type
-	METHOD c isTransformationDefined (Lcwp$b;)Z
+	METHOD c isTransformationDefined (Lcwo$b;)Z
 		ARG 0 type

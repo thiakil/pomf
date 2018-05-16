@@ -1,2 +1,2 @@
-CLASS csb net/minecraft/client/render/model/ModelBox
-	FIELD h vertexPositions [Lcro;
+CLASS csa net/minecraft/client/render/model/ModelBox
+	FIELD h vertexPositions [Lcrn;

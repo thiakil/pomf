@@ -1,5 +1,5 @@
-CLASS cmj net/minecraft/client/gui/ingame/GuiEditBook
-	CLASS cmj$a
+CLASS cmi net/minecraft/client/gui/ingame/GuiEditBook
+	CLASS cmi$a
 		METHOD a draw (IIF)V
 			ARG 1 mouseY
 			ARG 2 delta

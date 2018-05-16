@@ -1,4 +1,4 @@
-CLASS czd net/minecraft/client/render/entity/EntityRendererAreaEffectCloud
+CLASS czc net/minecraft/client/render/entity/EntityRendererAreaEffectCloud
 	METHOD a getTexture (Lahv;)Loj;
 		ARG 0 model
 	METHOD a getTexture (Lahx;)Loj;

@@ -1,4 +1,4 @@
-CLASS cxs net/minecraft/client/render/block/entity/BlockEntitySignRenderer
+CLASS cxr net/minecraft/client/render/block/entity/BlockEntitySignRenderer
 	FIELD a SIGN_TEX Loj;
 	METHOD a render (Lbmf;DDDFI)V
 	METHOD a render (Lbna;DDDFI)V

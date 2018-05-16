@@ -1,4 +1,4 @@
-CLASS cqb net/minecraft/client/render/entity/model/EntityModelEvilVillager
+CLASS cqa net/minecraft/client/render/entity/model/EntityModelEvilVillager
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

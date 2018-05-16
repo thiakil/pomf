@@ -1,7 +1,7 @@
-CLASS dab net/minecraft/client/render/entity/EntityRendererEvokerFangs
+CLASS daa net/minecraft/client/render/entity/EntityRendererEvokerFangs
 	FIELD a FANGS_TEXTURE Loj;
-	FIELD f model Lcpw;
-	METHOD <init> (Lczz;)V
+	FIELD f model Lcpv;
+	METHOD <init> (Lczy;)V
 		ARG 0 entityRenderManager
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model

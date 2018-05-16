@@ -1,6 +1,6 @@
-CLASS dal net/minecraft/client/render/entity/EntityRendererBiped
+CLASS dak net/minecraft/client/render/entity/EntityRendererBiped
 	FIELD a SKIN Loj;
-	METHOD <init> (Lczz;Lcqa;F)V
+	METHOD <init> (Lczy;Lcpz;F)V
 		ARG 0 renderManager
 		ARG 1 model
 		ARG 2 shadowSize

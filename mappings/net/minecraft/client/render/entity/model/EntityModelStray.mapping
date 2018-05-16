@@ -1,4 +1,4 @@
-CLASS cre net/minecraft/client/render/entity/model/EntityModelStray
+CLASS crd net/minecraft/client/render/entity/model/EntityModelStray
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

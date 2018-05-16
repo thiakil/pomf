@@ -1,8 +1,8 @@
-CLASS dip net/minecraft/client/tutorial/ITutorialStep
+CLASS dio net/minecraft/client/tutorial/ITutorialStep
 	METHOD a update ()V
 	METHOD a onItemPickup (Lawk;)V
 		ARG 0 stack
-	METHOD a onHitBlock (Lcsn;Lef;Lbnz;F)V
+	METHOD a onHitBlock (Lcsm;Lef;Lbnz;F)V
 		ARG 0 worldClient
 		ARG 1 pos
 		ARG 3 diggingProgress

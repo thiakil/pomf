@@ -4,7 +4,7 @@ CLASS cil net/minecraft/client/gui/hud/HudInGame
 	FIELD h PUMPKIN_BLUR Loj;
 	FIELD i rand Ljava/util/Random;
 	FIELD j game Lcht;
-	FIELD k itemRenderer Ldaq;
+	FIELD k itemRenderer Ldap;
 	FIELD l hudChat Lciv;
 	FIELD r currentStack Lawk;
 	FIELD s hudDebug Lcix;

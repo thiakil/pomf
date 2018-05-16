@@ -1,5 +1,5 @@
-CLASS clt net/minecraft/client/gui/menu/GuiStats
-	CLASS clt$a
+CLASS cls net/minecraft/client/gui/menu/GuiStats
+	CLASS cls$a
 		METHOD a isSelected (I)Z
 			ARG 0 index
 		METHOD a drawEntry (IIIIIIF)V
@@ -7,7 +7,7 @@ CLASS clt net/minecraft/client/gui/menu/GuiStats
 			ARG 1 y
 		METHOD d getEntryCount ()I
 		METHOD n getContentHeight ()I
-	CLASS clt$b
+	CLASS cls$b
 		METHOD a isSelected (I)Z
 			ARG 0 index
 		METHOD a drawEntry (IIIIIIF)V
@@ -16,7 +16,7 @@ CLASS clt net/minecraft/client/gui/menu/GuiStats
 		METHOD d getEntryCount ()I
 		METHOD e getEntryWidth ()I
 		METHOD f getScrollbarPosition ()I
-	CLASS clt$c
+	CLASS cls$c
 		METHOD a isSelected (I)Z
 			ARG 0 index
 		METHOD a drawEntry (IIIIIIF)V
@@ -25,7 +25,7 @@ CLASS clt net/minecraft/client/gui/menu/GuiStats
 		METHOD d getEntryCount ()I
 		METHOD n getContentHeight ()I
 	FIELD f selectworld Ljava/lang/String;
-	METHOD <init> (Lcll;Lvz;)V
+	METHOD <init> (Lclk;Lvz;)V
 		ARG 0 parent
 	METHOD a draw (IIF)V
 		ARG 0 mouseX

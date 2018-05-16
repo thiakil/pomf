@@ -1,4 +1,4 @@
-CLASS ddc net/minecraft/client/render/entity/EntityRendererEndermanEyes
+CLASS ddb net/minecraft/client/render/entity/EntityRendererEndermanEyes
 	FIELD a SKIN Loj;
 	METHOD a shouldMergeTextures ()Z
 	METHOD a render (Laig;FFFFFFF)V

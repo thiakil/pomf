@@ -1,4 +1,4 @@
-CLASS dcm net/minecraft/client/render/entity/EntityRendererExplodingWitherSkull
+CLASS dcl net/minecraft/client/render/entity/EntityRendererExplodingWitherSkull
 	FIELD a INVINCIBLE_SKIN Loj;
 	FIELD f SKIN Loj;
 	METHOD a getTexture (Lahx;)Loj;

@@ -1,6 +1,6 @@
-CLASS cta net/minecraft/client/particle/ParticleBubblePop
-	CLASS cta$a Factory
-		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lctt;
+CLASS csz net/minecraft/client/particle/ParticleBubblePop
+	CLASS csz$a Factory
+		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lcts;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -11,7 +11,7 @@ CLASS cta net/minecraft/client/particle/ParticleBubblePop
 	METHOD a update ()V
 	METHOD a setSpriteIndex (I)V
 		ARG 0 value
-	METHOD a buildGeometry (Lcux;Lahx;FFFFFF)V
+	METHOD a buildGeometry (Lcuw;Lahx;FFFFFF)V
 		ARG 0 vertexBuffer
 		ARG 1 entity
 		ARG 2 deltaTicks

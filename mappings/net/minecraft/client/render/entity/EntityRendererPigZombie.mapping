@@ -1,5 +1,5 @@
-CLASS dbg net/minecraft/client/render/entity/EntityRendererPigZombie
-	CLASS dbg$1
+CLASS dbf net/minecraft/client/render/entity/EntityRendererPigZombie
+	CLASS dbf$1
 		METHOD ao_ init ()V
 	FIELD a SKIN Loj;
 	METHOD a getTexture (Lahx;)Loj;

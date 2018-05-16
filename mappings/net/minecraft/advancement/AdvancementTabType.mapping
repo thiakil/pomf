@@ -1,9 +1,9 @@
-CLASS clx net/minecraft/advancement/AdvancementTabType
-	FIELD a ABOVE Lclx;
-	FIELD b BELOW Lclx;
-	FIELD c LEFT Lclx;
-	FIELD d RIGHT Lclx;
-	METHOD a drawIcon (IIILdaq;Lawk;)V
+CLASS clw net/minecraft/advancement/AdvancementTabType
+	FIELD a ABOVE Lclw;
+	FIELD b BELOW Lclw;
+	FIELD c LEFT Lclw;
+	FIELD d RIGHT Lclw;
+	METHOD a drawIcon (IIILdap;Lawk;)V
 		ARG 0 x
 		ARG 1 y
 		ARG 3 itemRenderer

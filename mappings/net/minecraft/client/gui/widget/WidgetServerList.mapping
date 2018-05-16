@@ -1,10 +1,10 @@
-CLASS cnj net/minecraft/client/gui/widget/WidgetServerList
-	FIELD v guiMultiplayer Lcnf;
+CLASS cni net/minecraft/client/gui/widget/WidgetServerList
+	FIELD v guiMultiplayer Lcne;
 	FIELD w userServers Ljava/util/List;
-	FIELD x localScanWidget Lcnj$a;
+	FIELD x localScanWidget Lcni$a;
 	FIELD y lanServers Ljava/util/List;
 	FIELD z selectedIndex I
-	METHOD <init> (Lcnf;Lcht;IIIII)V
+	METHOD <init> (Lcne;Lcht;IIIII)V
 		ARG 0 gui
 		ARG 1 mc
 		ARG 2 width
@@ -14,7 +14,7 @@ CLASS cnj net/minecraft/client/gui/widget/WidgetServerList
 		ARG 6 entryHeight
 	METHOD a isSelected (I)Z
 		ARG 0 index
-	METHOD a setUserServers (Lcsr;)V
+	METHOD a setUserServers (Lcsq;)V
 		ARG 0 servers
 	METHOD a setLanServers (Ljava/util/List;)V
 		ARG 0 servers

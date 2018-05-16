@@ -1,14 +1,14 @@
-CLASS csk net/minecraft/client/network/handler/NetworkGameHandlerClient
-	CLASS csk$1
-		CLASS csk$1$1
+CLASS csj net/minecraft/client/network/handler/NetworkGameHandlerClient
+	CLASS csj$1
+		CLASS csj$1$1
 			METHOD confirmResult handle (ZI)V
 				ARG 0 result
 				ARG 1 callbackId
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD b connection Lhr;
 	FIELD e game Lcht;
-	FIELD f world Lcsn;
-	FIELD i advancementHandler Lcsh;
+	FIELD f world Lcsm;
+	FIELD i advancementHandler Lcsg;
 	FIELD l rand Ljava/util/Random;
 	METHOD a getClientConnection ()Lhr;
 	METHOD a onConnectionLost (Lic;)V
@@ -162,5 +162,5 @@ CLASS csk net/minecraft/client/network/handler/NetworkGameHandlerClient
 	METHOD a onSyncTags (Llw;)V
 	METHOD b validateResourcePackUrl (Ljava/lang/String;)Z
 		ARG 0 url
-	METHOD g getAdvancementHandler ()Lcsh;
+	METHOD g getAdvancementHandler ()Lcsg;
 	METHOD k getResourcePackDownloadCallback ()Lcom/google/common/util/concurrent/FutureCallback;

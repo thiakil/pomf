@@ -1,6 +1,6 @@
-CLASS ctg net/minecraft/client/particle/ParticleEndRod
-	CLASS ctg$a Factory
-		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lctt;
+CLASS ctf net/minecraft/client/particle/ParticleEndRod
+	CLASS ctf$a Factory
+		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lcts;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -8,7 +8,7 @@ CLASS ctg net/minecraft/client/particle/ParticleEndRod
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lctt;
+		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lcts;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y

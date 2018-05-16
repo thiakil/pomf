@@ -1,4 +1,4 @@
-CLASS ddo net/minecraft/client/render/entity/EntityRendererSpiderEyes
+CLASS ddn net/minecraft/client/render/entity/EntityRendererSpiderEyes
 	FIELD a SKIN Loj;
 	METHOD a shouldMergeTextures ()Z
 	METHOD a render (Laig;FFFFFFF)V

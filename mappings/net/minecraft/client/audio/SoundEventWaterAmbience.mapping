@@ -1,5 +1,5 @@
-CLASS dhi net/minecraft/client/audio/SoundEventWaterAmbience
-	CLASS dhi$a
+CLASS dhh net/minecraft/client/audio/SoundEventWaterAmbience
+	CLASS dhh$a
 		METHOD Y_ update ()V
-	CLASS dhi$b Loop
+	CLASS dhh$b Loop
 		METHOD Y_ update ()V

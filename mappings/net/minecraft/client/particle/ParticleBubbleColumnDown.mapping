@@ -1,6 +1,6 @@
-CLASS cuk net/minecraft/client/particle/ParticleBubbleColumnDown
-	CLASS cuk$a Factory
-		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lctt;
+CLASS cuj net/minecraft/client/particle/ParticleBubbleColumnDown
+	CLASS cuj$a Factory
+		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lcts;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -8,7 +8,7 @@ CLASS cuk net/minecraft/client/particle/ParticleBubbleColumnDown
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lctt;
+		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lcts;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y

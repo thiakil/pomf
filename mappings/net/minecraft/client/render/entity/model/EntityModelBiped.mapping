@@ -1,18 +1,18 @@
-CLASS cqa net/minecraft/client/render/entity/model/EntityModelBiped
-	CLASS cqa$a ArmState
-		FIELD a DEFAULT Lcqa$a;
-		FIELD b ITEM Lcqa$a;
-		FIELD c BLOCK Lcqa$a;
-		FIELD d CHARGING Lcqa$a;
-	FIELD c head Lcsd;
-	FIELD d headwear Lcsd;
-	FIELD e body Lcsd;
-	FIELD f armRight Lcsd;
-	FIELD g armLeft Lcsd;
-	FIELD h legRight Lcsd;
-	FIELD i legLeft Lcsd;
-	FIELD j armStateLeft Lcqa$a;
-	FIELD k armStateRight Lcqa$a;
+CLASS cpz net/minecraft/client/render/entity/model/EntityModelBiped
+	CLASS cpz$a ArmState
+		FIELD a DEFAULT Lcpz$a;
+		FIELD b ITEM Lcpz$a;
+		FIELD c BLOCK Lcpz$a;
+		FIELD d CHARGING Lcpz$a;
+	FIELD c head Lcsc;
+	FIELD d headwear Lcsc;
+	FIELD e body Lcsc;
+	FIELD f armRight Lcsc;
+	FIELD g armLeft Lcsc;
+	FIELD h legRight Lcsc;
+	FIELD i legLeft Lcsc;
+	FIELD j armStateLeft Lcpz$a;
+	FIELD k armStateRight Lcpz$a;
 	FIELD l isSneaking Z
 	METHOD <init> (F)V
 		ARG 0 scale
@@ -38,14 +38,14 @@ CLASS cqa net/minecraft/client/render/entity/model/EntityModelBiped
 		ARG 4 headYaw
 		ARG 5 headPitch
 		ARG 6 scale
-	METHOD a getArm (Laif;)Lcsd;
+	METHOD a getArm (Laif;)Lcsc;
 		ARG 0 hand
 	METHOD a animateModel (Laig;FFF)V
 		ARG 0 entity
 		ARG 1 swingAmount
 		ARG 2 swingDelta
 		ARG 3 deltaTicks
-	METHOD a setAttributes (Lcqi;)V
+	METHOD a setAttributes (Lcqh;)V
 		ARG 0 model
 	METHOD a setVisible (Z)V
 		ARG 0 visibility

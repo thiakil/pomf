@@ -1,6 +1,6 @@
-CLASS cwd net/minecraft/client/render/model/json/ModelElement
+CLASS cwc net/minecraft/client/render/model/json/ModelElement
 	FIELD c faces Ljava/util/Map;
-	FIELD d rotation Lcwf;
+	FIELD d rotation Lcwe;
 	FIELD e shade Z
-	METHOD <init> (Ldiv;Ldiv;Ljava/util/Map;Lcwf;Z)V
+	METHOD <init> (Ldiu;Ldiu;Ljava/util/Map;Lcwe;Z)V
 		ARG 3 rotation

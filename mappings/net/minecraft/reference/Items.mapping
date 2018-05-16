@@ -97,7 +97,6 @@ CLASS awl net/minecraft/reference/Items
 	FIELD bP COOKIE Lawg;
 	FIELD bQ FILLED_MAP Lawg;
 	FIELD bR SHEARS Lawg;
-	FIELD bS MELON Lawg;
 	FIELD bT DRIED_KELP Lawg;
 	FIELD bU PUMPKIN_SEEDS Lawg;
 	FIELD bV MELON_SEEDS Lawg;
@@ -180,7 +179,6 @@ CLASS awl net/minecraft/reference/Items
 	FIELD cu BLAZE_POWDER Lawg;
 	FIELD cv MAGMA_CREAM Lawg;
 	FIELD cw ENDER_EYE Lawg;
-	FIELD cx SPECKLED_MELON Lawg;
 	FIELD cy BAT_SPAWN_EGG Lawg;
 	FIELD cz BLAZE_SPAWN_EGG Lawg;
 	FIELD dA EMERALD Lawg;

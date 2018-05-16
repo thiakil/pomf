@@ -1,5 +1,5 @@
-CLASS cpo net/minecraft/client/render/entity/model/EntityModelChicken
-	FIELD a head Lcsd;
+CLASS cpn net/minecraft/client/render/entity/model/EntityModelChicken
+	FIELD a head Lcsc;
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

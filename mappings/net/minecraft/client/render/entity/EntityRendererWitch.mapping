@@ -1,4 +1,4 @@
-CLASS dcj net/minecraft/client/render/entity/EntityRendererWitch
+CLASS dci net/minecraft/client/render/entity/EntityRendererWitch
 	FIELD a SKIN Loj;
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model

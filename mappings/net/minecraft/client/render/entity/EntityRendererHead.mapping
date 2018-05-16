@@ -1,6 +1,6 @@
-CLASS dcv net/minecraft/client/render/entity/EntityRendererHead
-	FIELD a model Lcsd;
-	METHOD <init> (Lcsd;)V
+CLASS dcu net/minecraft/client/render/entity/EntityRendererHead
+	FIELD a model Lcsc;
+	METHOD <init> (Lcsc;)V
 		ARG 0 model
 	METHOD a shouldMergeTextures ()Z
 	METHOD a render (Laig;FFFFFFF)V

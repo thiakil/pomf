@@ -1,6 +1,6 @@
-CLASS cxr net/minecraft/client/render/block/entity/BlockEntityShulkerBox
-	FIELD a model Lcra;
-	METHOD <init> (Lcra;)V
+CLASS cxq net/minecraft/client/render/block/entity/BlockEntityShulkerBox
+	FIELD a model Lcqz;
+	METHOD <init> (Lcqz;)V
 		ARG 0 model
 	METHOD a render (Lbmf;DDDFI)V
 	METHOD a render (Lbmz;DDDFI)V

@@ -1,6 +1,6 @@
-CLASS cuf net/minecraft/client/particle/ParticleHappy
-	CLASS cuf$a DolphinFactory
-		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lctt;
+CLASS cue net/minecraft/client/particle/ParticleHappy
+	CLASS cue$a DolphinFactory
+		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lcts;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -8,7 +8,7 @@ CLASS cuf net/minecraft/client/particle/ParticleHappy
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lctt;
+		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lcts;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -16,8 +16,8 @@ CLASS cuf net/minecraft/client/particle/ParticleHappy
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-	CLASS cuf$b VillagerFactory
-		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lctt;
+	CLASS cue$b VillagerFactory
+		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lcts;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -25,7 +25,7 @@ CLASS cuf net/minecraft/client/particle/ParticleHappy
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lctt;
+		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lcts;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -33,8 +33,8 @@ CLASS cuf net/minecraft/client/particle/ParticleHappy
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-	CLASS cuf$c
-		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lctt;
+	CLASS cue$c
+		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lcts;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -42,7 +42,7 @@ CLASS cuf net/minecraft/client/particle/ParticleHappy
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lctt;
+		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lcts;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y

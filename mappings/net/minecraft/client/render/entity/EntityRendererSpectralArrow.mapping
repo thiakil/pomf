@@ -1,4 +1,4 @@
-CLASS dbs net/minecraft/client/render/entity/EntityRendererSpectralArrow
+CLASS dbr net/minecraft/client/render/entity/EntityRendererSpectralArrow
 	FIELD a SKIN Loj;
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model

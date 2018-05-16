@@ -1,4 +1,4 @@
-CLASS dio net/minecraft/client/tutorial/Tutorial
-	METHOD a setStep (Ldiq;)V
+CLASS din net/minecraft/client/tutorial/Tutorial
+	METHOD a setStep (Ldip;)V
 	METHOD e getMinecraftInstance ()Lcht;
 	METHOD f getGameMode ()Lbay;

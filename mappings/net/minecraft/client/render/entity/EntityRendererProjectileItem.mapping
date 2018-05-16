@@ -1,7 +1,7 @@
-CLASS dbw net/minecraft/client/render/entity/EntityRendererProjectileItem
+CLASS dbv net/minecraft/client/render/entity/EntityRendererProjectileItem
 	FIELD a item Lawg;
-	FIELD f itemRenderer Ldaq;
-	METHOD <init> (Lczz;Lawg;Ldaq;)V
+	FIELD f itemRenderer Ldap;
+	METHOD <init> (Lczy;Lawg;Ldap;)V
 		ARG 0 renderManager
 		ARG 1 item
 		ARG 2 itemRenderer

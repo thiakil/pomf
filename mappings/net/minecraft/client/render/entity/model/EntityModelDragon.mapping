@@ -1,16 +1,16 @@
-CLASS cry net/minecraft/client/render/entity/model/EntityModelDragon
-	FIELD a head Lcsd;
-	FIELD b neck Lcsd;
-	FIELD c jaw Lcsd;
-	FIELD d body Lcsd;
-	FIELD e rearLeg Lcsd;
-	FIELD f frontLeg Lcsd;
-	FIELD g rearLegTip Lcsd;
-	FIELD h frontLegTip Lcsd;
-	FIELD i rearFoot Lcsd;
-	FIELD j frontFoot Lcsd;
-	FIELD k wing Lcsd;
-	FIELD l wingTip Lcsd;
+CLASS crx net/minecraft/client/render/entity/model/EntityModelDragon
+	FIELD a head Lcsc;
+	FIELD b neck Lcsc;
+	FIELD c jaw Lcsc;
+	FIELD d body Lcsc;
+	FIELD e rearLeg Lcsc;
+	FIELD f frontLeg Lcsc;
+	FIELD g rearLegTip Lcsc;
+	FIELD h frontLegTip Lcsc;
+	FIELD i rearFoot Lcsc;
+	FIELD j frontFoot Lcsc;
+	FIELD k wing Lcsc;
+	FIELD l wingTip Lcsc;
 	FIELD m partialTicks F
 	METHOD a updateRotations (D)F
 	METHOD a render (Lahx;FFFFFF)V

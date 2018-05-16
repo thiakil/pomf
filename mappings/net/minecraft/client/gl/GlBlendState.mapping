@@ -1,5 +1,5 @@
-CLASS dec net/minecraft/client/gl/GlBlendState
-	FIELD a activeBlendState Ldec;
+CLASS deb net/minecraft/client/gl/GlBlendState
+	FIELD a activeBlendState Ldeb;
 	FIELD b srcRgb I
 	FIELD c srcAlpha I
 	FIELD d dstRgb I
@@ -18,7 +18,7 @@ CLASS dec net/minecraft/client/gl/GlBlendState
 		ARG 3 dstAlpha
 		ARG 4 func
 	METHOD a enable ()V
-	METHOD a createFromJson (Lcom/google/gson/JsonObject;)Ldec;
+	METHOD a createFromJson (Lcom/google/gson/JsonObject;)Ldeb;
 	METHOD a getFuncFromString (Ljava/lang/String;)I
 	METHOD b isBlendDisabled ()Z
 	METHOD b getComponentFromString (Ljava/lang/String;)I

@@ -1,5 +1,5 @@
-CLASS dbn net/minecraft/client/render/entity/EntityRendererShulker
-	CLASS dbn$a
+CLASS dbm net/minecraft/client/render/entity/EntityRendererShulker
+	CLASS dbm$a
 		METHOD a shouldMergeTextures ()Z
 		METHOD a render (Laig;FFFFFFF)V
 			ARG 0 entity

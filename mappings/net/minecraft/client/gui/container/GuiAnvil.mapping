@@ -1,4 +1,4 @@
-CLASS cmh net/minecraft/client/gui/container/GuiAnvil
+CLASS cmg net/minecraft/client/gui/container/GuiAnvil
 	FIELD v BG_TEX Loj;
 	FIELD w anvilContainer Latb;
 	FIELD x nameField Lciy;

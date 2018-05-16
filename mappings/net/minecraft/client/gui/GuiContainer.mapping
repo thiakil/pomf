@@ -1,4 +1,4 @@
-CLASS cmg net/minecraft/client/gui/GuiContainer
+CLASS cmf net/minecraft/client/gui/GuiContainer
 	FIELD a BG_TEX Loj;
 	FIELD f containerWidth I
 	FIELD g containerHeight I

@@ -1,4 +1,4 @@
-CLASS cls net/minecraft/client/gui/menu/GuiEndCredits
+CLASS clr net/minecraft/client/gui/menu/GuiEndCredits
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD f MINECRAFT_TEX Loj;
 	FIELD h VIGNETTE_TEX Loj;

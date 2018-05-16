@@ -1,4 +1,0 @@
-CLASS dgm
-	FIELD a MISSING Ldgo;
-	FIELD b GENERATIONMARKER Ljava/util/Set;
-	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;

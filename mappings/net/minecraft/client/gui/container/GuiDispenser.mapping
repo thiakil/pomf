@@ -1,4 +1,4 @@
-CLASS cmq net/minecraft/client/gui/container/GuiDispenser
+CLASS cmp net/minecraft/client/gui/container/GuiDispenser
 	FIELD v inventory Lagk;
 	FIELD w BG_TEX Loj;
 	FIELD x playerInv Lark;

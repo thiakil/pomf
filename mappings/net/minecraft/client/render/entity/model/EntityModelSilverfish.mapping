@@ -1,4 +1,4 @@
-CLASS crc net/minecraft/client/render/entity/model/EntityModelSilverfish
+CLASS crb net/minecraft/client/render/entity/model/EntityModelSilverfish
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

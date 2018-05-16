@@ -1,6 +1,6 @@
-CLASS dgx net/minecraft/client/audio/SoundEventElytra
-	FIELD n player Lcuq;
+CLASS dgw net/minecraft/client/audio/SoundEventElytra
+	FIELD n player Lcup;
 	FIELD o tickCount I
-	METHOD <init> (Lcuq;)V
+	METHOD <init> (Lcup;)V
 		ARG 0 player
 	METHOD Y_ update ()V

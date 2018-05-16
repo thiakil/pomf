@@ -1,4 +1,4 @@
-CLASS dch net/minecraft/client/render/entity/EntityRendererVillager
+CLASS dcg net/minecraft/client/render/entity/EntityRendererVillager
 	FIELD a VILLAGER_SKIN Loj;
 	FIELD j FARMER_SKIN Loj;
 	FIELD k LIBRARIAN_SKIN Loj;

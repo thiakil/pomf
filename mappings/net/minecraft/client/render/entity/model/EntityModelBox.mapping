@@ -1,4 +1,4 @@
-CLASS csd net/minecraft/client/render/entity/model/EntityModelBox
+CLASS csc net/minecraft/client/render/entity/model/EntityModelBox
 	FIELD a textureWidth F
 	FIELD b textureHeight F
 	FIELD c rotationPointX F
@@ -10,12 +10,12 @@ CLASS csd net/minecraft/client/render/entity/model/EntityModelBox
 	FIELD i mirror Z
 	FIELD j visible Z
 	FIELD m children Ljava/util/List;
-	FIELD v owner Lcqi;
-	METHOD <init> (Lcqi;)V
+	FIELD v owner Lcqh;
+	METHOD <init> (Lcqh;)V
 		ARG 0 owner
-	METHOD <init> (Lcqi;II)V
+	METHOD <init> (Lcqh;II)V
 		ARG 0 owner
-	METHOD <init> (Lcqi;Ljava/lang/String;)V
+	METHOD <init> (Lcqh;Ljava/lang/String;)V
 		ARG 0 owner
 	METHOD a render (F)V
 		ARG 0 delta
@@ -24,9 +24,9 @@ CLASS csd net/minecraft/client/render/entity/model/EntityModelBox
 		ARG 1 y
 		ARG 2 z
 	METHOD a addBox (FFFIIIF)V
-	METHOD a addChild (Lcsd;)V
+	METHOD a addChild (Lcsc;)V
 		ARG 0 box
-	METHOD a add (Ljava/lang/String;FFFIII)Lcsd;
-	METHOD b setTextureSize (II)Lcsd;
+	METHOD a add (Ljava/lang/String;FFFIII)Lcsc;
+	METHOD b setTextureSize (II)Lcsc;
 		ARG 0 width
 		ARG 1 height

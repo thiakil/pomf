@@ -1,4 +1,4 @@
-CLASS dby net/minecraft/client/render/entity/EntityRendererTrident
+CLASS dbx net/minecraft/client/render/entity/EntityRendererTrident
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model
 	METHOD a getTexture (Lasj;)Loj;

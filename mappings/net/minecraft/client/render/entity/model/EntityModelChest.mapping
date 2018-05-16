@@ -1,4 +1,4 @@
-CLASS cpm net/minecraft/client/render/entity/model/EntityModelChest
-	FIELD a lid Lcsd;
-	FIELD b base Lcsd;
-	FIELD c hatch Lcsd;
+CLASS cpl net/minecraft/client/render/entity/model/EntityModelChest
+	FIELD a lid Lcsc;
+	FIELD b base Lcsc;
+	FIELD c hatch Lcsc;

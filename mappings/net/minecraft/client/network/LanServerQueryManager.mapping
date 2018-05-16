@@ -1,9 +1,9 @@
-CLASS dhs net/minecraft/client/network/LanServerQueryManager
-	CLASS dhs$a LanServerDetector
-		FIELD a entryList Ldhs$b;
+CLASS dhr net/minecraft/client/network/LanServerQueryManager
+	CLASS dhr$a LanServerDetector
+		FIELD a entryList Ldhr$b;
 		FIELD b multicastAddress Ljava/net/InetAddress;
 		FIELD c socket Ljava/net/MulticastSocket;
-	CLASS dhs$b LanServerEntryList
+	CLASS dhr$b LanServerEntryList
 		FIELD a serverEntries Ljava/util/List;
 		FIELD b dirty Z
 		METHOD a needsUpdate ()Z

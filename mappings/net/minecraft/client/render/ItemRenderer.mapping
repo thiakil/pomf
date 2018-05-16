@@ -1,4 +1,4 @@
-CLASS daq net/minecraft/client/render/ItemRenderer
+CLASS dap net/minecraft/client/render/ItemRenderer
 	FIELD b ENCHANT_GLINT_TEXTURE Loj;
 	METHOD a onResourceReload (Lul;)V
 		ARG 0 container

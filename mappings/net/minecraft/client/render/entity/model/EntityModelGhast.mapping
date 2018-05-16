@@ -1,4 +1,4 @@
-CLASS cpx net/minecraft/client/render/entity/model/EntityModelGhast
+CLASS cpw net/minecraft/client/render/entity/model/EntityModelGhast
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

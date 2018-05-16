@@ -1,4 +1,4 @@
-CLASS dbv net/minecraft/client/render/entity/EntityRendererStray
+CLASS dbu net/minecraft/client/render/entity/EntityRendererStray
 	FIELD a SKIN Loj;
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model

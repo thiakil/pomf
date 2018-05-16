@@ -1,6 +1,0 @@
-CLASS dcy
-	METHOD a shouldMergeTextures ()Z
-	METHOD a render (Laig;FFFFFFF)V
-		ARG 0 entity
-	METHOD a render (Lapz;FFFFFFF)V
-		ARG 0 entity

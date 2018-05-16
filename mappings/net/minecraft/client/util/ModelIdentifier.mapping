@@ -1,4 +1,4 @@
-CLASS dgo net/minecraft/client/util/ModelIdentifier
+CLASS dgn net/minecraft/client/util/ModelIdentifier
 	FIELD c variant Ljava/lang/String;
 	METHOD <init> (Loj;Ljava/lang/String;)V
 		ARG 0 id

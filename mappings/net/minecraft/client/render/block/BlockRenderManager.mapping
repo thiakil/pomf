@@ -1,15 +1,15 @@
-CLASS cvz net/minecraft/client/render/block/BlockRenderManager
-	FIELD a maps Lcvy;
-	FIELD b renderer Lcwb;
-	FIELD d liquidRenderer Lcwa;
-	METHOD <init> (Lcvy;Lcif;)V
+CLASS cvy net/minecraft/client/render/block/BlockRenderManager
+	FIELD a maps Lcvx;
+	FIELD b renderer Lcwa;
+	FIELD d liquidRenderer Lcvz;
+	METHOD <init> (Lcvx;Lcif;)V
 		ARG 0 maps
 		ARG 1 colorMap
-	METHOD a getStateMaps ()Lcvy;
+	METHOD a getStateMaps ()Lcvx;
 	METHOD a render (Lbnz;F)V
 		ARG 1 colorMultiplier
-	METHOD a tesselate (Lbnz;Lef;Ldex;Lbbh;)V
+	METHOD a tesselate (Lbnz;Lef;Ldew;Lbbh;)V
 		ARG 1 pos
 	METHOD a onResourceReload (Lul;)V
 		ARG 0 container
-	METHOD b getRenderer ()Lcwb;
+	METHOD b getRenderer ()Lcwa;

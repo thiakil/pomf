@@ -1,4 +1,4 @@
-CLASS ddv net/minecraft/client/render/entity/EntityRendererWitherArmor
+CLASS ddu net/minecraft/client/render/entity/EntityRendererWitherArmor
 	FIELD a SKIN Loj;
 	METHOD a shouldMergeTextures ()Z
 	METHOD a render (Laig;FFFFFFF)V

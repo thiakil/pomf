@@ -1,9 +1,9 @@
-CLASS cuq net/minecraft/client/player/EntityPlayerClient
+CLASS cup net/minecraft/client/player/EntityPlayerClient
 	FIELD cf stats Lvz;
 	FIELD cg recipeBook Lchk;
 	FIELD ci clientPermissionLevel I
 	FIELD ct serverBrand Ljava/lang/String;
-	FIELD d networkHandler Lcsk;
+	FIELD d networkHandler Lcsj;
 	FIELD f game Lcht;
 	METHOD A getRecipeBook ()Lchk;
 	METHOD R_ update ()V

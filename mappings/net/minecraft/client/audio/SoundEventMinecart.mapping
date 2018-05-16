@@ -1,4 +1,4 @@
-CLASS dha net/minecraft/client/audio/SoundEventMinecart
+CLASS dgz net/minecraft/client/audio/SoundEventMinecart
 	FIELD n player Larl;
 	FIELD o minecart Lasm;
 	METHOD <init> (Larl;Lasm;)V

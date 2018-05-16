@@ -1,5 +1,5 @@
-CLASS clz net/minecraft/client/gui/menu/AdvancementIconType
-	FIELD a COMPLETED Lclz;
-	FIELD b ACTIVE Lclz;
+CLASS cly net/minecraft/client/gui/menu/AdvancementIconType
+	FIELD a COMPLETED Lcly;
+	FIELD b ACTIVE Lcly;
 	FIELD c textureIndex I
 	METHOD a getTextureIndex ()I

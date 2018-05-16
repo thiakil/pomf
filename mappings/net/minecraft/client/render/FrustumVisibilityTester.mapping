@@ -1,9 +1,9 @@
-CLASS cym net/minecraft/client/render/FrustumVisibilityTester
-	FIELD a frustum Lcyn;
+CLASS cyl net/minecraft/client/render/FrustumVisibilityTester
+	FIELD a frustum Lcym;
 	FIELD b viewX D
 	FIELD c viewY D
 	FIELD d viewZ D
-	METHOD <init> (Lcyn;)V
+	METHOD <init> (Lcym;)V
 		ARG 0 frustum
 	METHOD a updateViewPosition (DDD)V
 		ARG 0 x

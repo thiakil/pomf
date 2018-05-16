@@ -1,4 +1,4 @@
-CLASS dbr net/minecraft/client/render/entity/EntityRendererSnowman
+CLASS dbq net/minecraft/client/render/entity/EntityRendererSnowman
 	FIELD a SKIN Loj;
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model

@@ -1,4 +1,4 @@
-CLASS dbz net/minecraft/client/render/entity/EntityRendererArrow
+CLASS dby net/minecraft/client/render/entity/EntityRendererArrow
 	FIELD a SKIN Loj;
 	FIELD f TIPPED_SKIN Loj;
 	METHOD a getTexture (Lahx;)Loj;

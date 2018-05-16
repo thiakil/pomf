@@ -1,10 +1,10 @@
-CLASS deh net/minecraft/client/gl/GlProgramManager
+CLASS deg net/minecraft/client/gl/GlProgramManager
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b INSTANCE Ldeh;
+	FIELD b INSTANCE Ldeg;
 	METHOD a init ()V
-	METHOD a deleteProgram (Lded;)V
+	METHOD a deleteProgram (Ldec;)V
 		ARG 0 program
-	METHOD b getInstance ()Ldeh;
-	METHOD b linkProgram (Lded;)V
+	METHOD b getInstance ()Ldeg;
+	METHOD b linkProgram (Ldec;)V
 		ARG 0 program
 	METHOD c createProgram ()I

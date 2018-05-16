@@ -1,4 +1,4 @@
-CLASS czg net/minecraft/client/render/entity/EntityRendererBat
+CLASS czf net/minecraft/client/render/entity/EntityRendererBat
 	FIELD a SKIN Loj;
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model

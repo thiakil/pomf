@@ -1,8 +1,8 @@
-CLASS dhq net/minecraft/server/IntegratedServer
+CLASS dhp net/minecraft/server/IntegratedServer
 	FIELD h LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD i game Lcht;
 	FIELD j levelInfo Lbbg;
-	FIELD m lanPinger Ldht;
+	FIELD m lanPinger Ldhs;
 	METHOD <init> (Lcht;Ljava/lang/String;Ljava/lang/String;Lbbg;Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;Lcom/mojang/authlib/minecraft/MinecraftSessionService;Lcom/mojang/authlib/GameProfileRepository;Lur;)V
 		ARG 0 game
 		ARG 1 levelName

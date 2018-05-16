@@ -1,13 +1,13 @@
-CLASS cwi net/minecraft/client/render/model/json/ModelVariantMap
-	CLASS cwi$b VariantNotFoundException
+CLASS cwh net/minecraft/client/render/model/json/ModelVariantMap
+	CLASS cwh$b VariantNotFoundException
 	FIELD a GSON Lcom/google/gson/Gson;
 	FIELD b variantMap Ljava/util/Map;
 	METHOD a getAll ()Ljava/util/Set;
-	METHOD a load (Ljava/io/Reader;)Lcwi;
+	METHOD a load (Ljava/io/Reader;)Lcwh;
 		ARG 0 reader
 	METHOD b contains (Ljava/lang/String;)Z
 		ARG 0 variant
-	METHOD c get (Ljava/lang/String;)Lcwq;
+	METHOD c get (Ljava/lang/String;)Lcwp;
 		ARG 0 variant
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object

@@ -1,4 +1,4 @@
-CLASS cui net/minecraft/client/particle/ParticleEmitter
+CLASS cuh net/minecraft/client/particle/ParticleEmitter
 	FIELD J entity Lahx;
 	FIELD M type Lfg;
 	METHOD <init> (Lbbb;Lahx;Lfg;)V
@@ -10,7 +10,7 @@ CLASS cui net/minecraft/client/particle/ParticleEmitter
 		ARG 1 entity
 		ARG 2 type
 	METHOD a update ()V
-	METHOD a buildGeometry (Lcux;Lahx;FFFFFF)V
+	METHOD a buildGeometry (Lcuw;Lahx;FFFFFF)V
 		ARG 0 vertexBuffer
 		ARG 1 entity
 		ARG 2 deltaTicks

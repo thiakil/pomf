@@ -1,4 +1,4 @@
-CLASS czw net/minecraft/client/render/entity/EntityRendererEnderDragon
+CLASS czv net/minecraft/client/render/entity/EntityRendererEnderDragon
 	FIELD a BEAM_TEX Loj;
 	FIELD j EXPLOSION_TEX Loj;
 	FIELD k SKIN Loj;

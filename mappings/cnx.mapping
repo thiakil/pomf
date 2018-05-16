@@ -1,6 +1,7 @@
 CLASS cnx
-	METHOD a draw (IIF)V
-		ARG 0 mouseX
-		ARG 1 mouseY
-		ARG 2 delta
-	METHOD c init ()V
+	CLASS cnx$1
+		METHOD confirmResult handle (ZI)V
+			ARG 0 result
+			ARG 1 callbackId
+	FIELD f RESOURCEPACK_INCOMPATIBLE Lic;
+	FIELD g RESOURCEPACK_INCOMPATIBLE_CONFIRM_TITLE Lic;

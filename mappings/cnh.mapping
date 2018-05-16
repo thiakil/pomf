@@ -1,0 +1,2 @@
+CLASS cnh
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;

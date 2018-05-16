@@ -1,4 +1,4 @@
-CLASS czy net/minecraft/client/render/entity/EntityRendererEndermite
+CLASS czx net/minecraft/client/render/entity/EntityRendererEndermite
 	FIELD a SKIN Loj;
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model

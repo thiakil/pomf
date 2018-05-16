@@ -1,4 +1,4 @@
-CLASS crq net/minecraft/client/render/entity/model/EntityModelIronGolem
+CLASS crp net/minecraft/client/render/entity/model/EntityModelIronGolem
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

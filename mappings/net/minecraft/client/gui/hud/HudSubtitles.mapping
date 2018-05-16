@@ -12,6 +12,6 @@ CLASS cjo net/minecraft/client/gui/hud/HudSubtitles
 	FIELD g enabled Z
 	METHOD <init> (Lcht;)V
 		ARG 0 game
-	METHOD a onSoundPlayed (Ldhf;Ldif;)V
+	METHOD a onSoundPlayed (Ldhe;Ldie;)V
 		ARG 0 sound
 		ARG 1 accessor

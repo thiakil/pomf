@@ -1,4 +1,4 @@
-CLASS dce net/minecraft/client/render/entity/EntityRendererUndeadHorse
+CLASS dcd net/minecraft/client/render/entity/EntityRendererUndeadHorse
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model
 	METHOD a getTexture (Lant;)Loj;

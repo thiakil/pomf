@@ -1,8 +1,8 @@
-CLASS csn net/minecraft/client/world/WorldClient
+CLASS csm net/minecraft/client/world/WorldClient
 	FIELD H game Lcht;
-	FIELD b netHandler Lcsk;
-	FIELD c chunkProvider Lcsi;
-	METHOD <init> (Lcsk;Lbbg;ILago;Lwz;)V
+	FIELD b netHandler Lcsj;
+	FIELD c chunkProvider Lcsh;
+	METHOD <init> (Lcsj;Lbbg;ILago;Lwz;)V
 		ARG 0 netHandler
 		ARG 1 levelInfo
 		ARG 2 worldTypeId
@@ -56,8 +56,8 @@ CLASS csn net/minecraft/client/world/WorldClient
 		ARG 0 entity
 	METHOD c onEntityRemoved (Lahx;)V
 		ARG 0 entity
-	METHOD c getGameInstance (Lcsn;)Lcht;
-	METHOD f getChunkProvider ()Lcsi;
+	METHOD c getGameInstance (Lcsm;)Lcht;
+	METHOD f getChunkProvider ()Lcsh;
 	METHOD i_ update ()V
 	METHOD m_ tickRandomBlocks ()V
 	METHOD p createChunkProvider ()Lbpj;

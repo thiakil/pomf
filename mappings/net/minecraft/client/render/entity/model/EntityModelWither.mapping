@@ -1,4 +1,4 @@
-CLASS cru net/minecraft/client/render/entity/model/EntityModelWither
+CLASS crt net/minecraft/client/render/entity/model/EntityModelWither
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

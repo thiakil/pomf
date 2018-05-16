@@ -1,4 +1,4 @@
-CLASS cmw net/minecraft/client/gui/container/GuiHorse
+CLASS cmv net/minecraft/client/gui/container/GuiHorse
 	FIELD A mouseY F
 	FIELD v BG_TEX Loj;
 	FIELD w playerInv Lagk;

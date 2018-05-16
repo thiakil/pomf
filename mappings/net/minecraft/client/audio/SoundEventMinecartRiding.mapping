@@ -1,4 +1,4 @@
-CLASS dgz net/minecraft/client/audio/SoundEventMinecartRiding
+CLASS dgy net/minecraft/client/audio/SoundEventMinecartRiding
 	FIELD n minecart Lasm;
 	FIELD o distance F
 	METHOD <init> (Lasm;)V

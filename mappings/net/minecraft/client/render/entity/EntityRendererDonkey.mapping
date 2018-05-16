@@ -1,4 +1,4 @@
-CLASS czk net/minecraft/client/render/entity/EntityRendererDonkey
+CLASS czj net/minecraft/client/render/entity/EntityRendererDonkey
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model
 	METHOD a getTexture (Lant;)Loj;

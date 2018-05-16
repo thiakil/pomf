@@ -1,15 +1,15 @@
-CLASS dgr net/minecraft/client/render/model/BakedModelWeighted
-	CLASS dgr$a Builder
+CLASS dgq net/minecraft/client/render/model/BakedModelWeighted
+	CLASS dgq$a Builder
 		FIELD a models Ljava/util/List;
-		METHOD a build ()Ldgr;
-		METHOD a add (Ldgj;I)Ldgr$a;
-		METHOD b getFirst ()Ldgj;
+		METHOD a build ()Ldgq;
+		METHOD a add (Ldgi;I)Ldgq$a;
+		METHOD b getFirst ()Ldgi;
 	FIELD a totalWeight I
 	FIELD b models Ljava/util/List;
-	FIELD c defaultModel Ldgj;
+	FIELD c defaultModel Ldgi;
 	METHOD a useAmbientOcclusion ()Z
 	METHOD b hasDepthInGui ()Z
 	METHOD c isBuiltin ()Z
-	METHOD d getSprite ()Ldex;
-	METHOD e getTransformationList ()Lcwp;
-	METHOD f getItemPropertyOverrides ()Lcwn;
+	METHOD d getSprite ()Ldew;
+	METHOD e getTransformationList ()Lcwo;
+	METHOD f getItemPropertyOverrides ()Lcwm;

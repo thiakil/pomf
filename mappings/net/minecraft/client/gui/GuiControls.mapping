@@ -1,4 +1,4 @@
-CLASS cmd net/minecraft/client/gui/GuiControls
+CLASS cmc net/minecraft/client/gui/GuiControls
 	FIELD a title Ljava/lang/String;
 	FIELD h OPTIONS [Lchw$a;
 	FIELD u controlsResetall Lciu;

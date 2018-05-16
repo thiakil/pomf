@@ -1,11 +1,11 @@
-CLASS cks net/minecraft/client/gui/menu/GuiServerConnecting
+CLASS ckr net/minecraft/client/gui/menu/GuiServerConnecting
 	FIELD f LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD i parent Lcll;
-	METHOD <init> (Lcll;Lcht;Lcsq;)V
+	FIELD i parent Lclk;
+	METHOD <init> (Lclk;Lcht;Lcsp;)V
 		ARG 0 parent
 		ARG 1 game
 		ARG 2 server
-	METHOD <init> (Lcll;Lcht;Ljava/lang/String;I)V
+	METHOD <init> (Lclk;Lcht;Ljava/lang/String;I)V
 		ARG 0 parent
 		ARG 1 game
 	METHOD a draw (IIF)V

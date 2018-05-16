@@ -1,4 +1,4 @@
-CLASS cpv net/minecraft/client/render/entity/model/EntityModelEndermite
+CLASS cpu net/minecraft/client/render/entity/model/EntityModelEndermite
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

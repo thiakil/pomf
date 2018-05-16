@@ -1,3 +1,3 @@
-CLASS cqp net/minecraft/client/util/TexturedQuad
-	FIELD a vertices [Lcro;
+CLASS cqo net/minecraft/client/util/TexturedQuad
+	FIELD a vertices [Lcrn;
 	FIELD b vertexCount I

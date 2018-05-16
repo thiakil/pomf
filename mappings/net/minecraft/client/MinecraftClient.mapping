@@ -1,8 +1,8 @@
 CLASS cht net/minecraft/client/MinecraftClient
 	FIELD E LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD G sessionPropertyMap Lcom/mojang/authlib/properties/PropertyMap;
-	FIELD I currentServerEntry Lcsq;
-	FIELD J textureManager Ldey;
+	FIELD I currentServerEntry Lcsp;
+	FIELD J textureManager Ldex;
 	FIELD K instance Lcht;
 	FIELD L migrationHandler Lxl;
 	FIELD M virtualScreen Lcic;
@@ -10,27 +10,27 @@ CLASS cht net/minecraft/client/MinecraftClient
 	FIELD O crashReport Lb;
 	FIELD Q renderTickCounter Lchz;
 	FIELD R snooper Laha;
-	FIELD S entityRenderManager Lczz;
-	FIELD T itemRenderer Ldaq;
-	FIELD U firstPersonRenderer Lcvi;
+	FIELD S entityRenderManager Lczy;
+	FIELD T itemRenderer Ldap;
+	FIELD U firstPersonRenderer Lcvh;
 	FIELD V cameraEntity Lahx;
 	FIELD X session Lcia;
-	FIELD aA soundLoader Ldic;
-	FIELD aB musicTracker Ldhz;
+	FIELD aA soundLoader Ldib;
+	FIELD aB musicTracker Ldhy;
 	FIELD aC sessionService Lcom/mojang/authlib/minecraft/MinecraftSessionService;
-	FIELD aD skinProvider Ldfr;
+	FIELD aD skinProvider Ldfq;
 	FIELD aE taskQueue Ljava/util/Queue;
 	FIELD aF thread Ljava/lang/Thread;
-	FIELD aG bakedModelManager Ldgn;
-	FIELD aH blockRenderManager Lcvz;
+	FIELD aG bakedModelManager Ldgm;
+	FIELD aH blockRenderManager Lcvy;
 	FIELD aI guiToast Lckb;
 	FIELD aJ isRunning Z
 	FIELD aL fpsCounter I
-	FIELD aM tutorial Ldio;
+	FIELD aM tutorial Ldin;
 	FIELD aN background Loj;
 	FIELD aP root Ljava/lang/String;
 	FIELD a isSystemMac Z
-	FIELD aa server Ldhq;
+	FIELD aa server Ldhp;
 	FIELD ac assetDirectory Ljava/io/File;
 	FIELD ad gameVersion Ljava/lang/String;
 	FIELD ae versionType Ljava/lang/String;
@@ -42,49 +42,49 @@ CLASS cht net/minecraft/client/MinecraftClient
 	FIELD ao is64Bit Z
 	FIELD ap isDemo Z
 	FIELD as resourceManager Luj;
-	FIELD av languageManager Ldfv;
+	FIELD av languageManager Ldfu;
 	FIELD aw blockColorMap Lcif;
 	FIELD ax itemColorMap Lcii;
-	FIELD ay framebuffer Lcvq;
-	FIELD az spriteAtlas Ldew;
-	FIELD c playerCapabilities Lcsm;
+	FIELD ay framebuffer Lcvp;
+	FIELD az spriteAtlas Ldev;
+	FIELD c playerCapabilities Lcsl;
 	FIELD d mainWindow Lcid;
-	FIELD e world Lcsn;
-	FIELD f renderer Lcvk;
-	FIELD g player Lcuq;
-	FIELD i particleManager Lctu;
+	FIELD e world Lcsm;
+	FIELD f renderer Lcvj;
+	FIELD g player Lcup;
+	FIELD i particleManager Lctt;
 	FIELD j fontRenderer Lcik;
 	FIELD k fontRendererSGA Lcik;
-	FIELD l currentGui Lcll;
-	FIELD m worldRenderer Lcve;
-	FIELD n debugRenderer Lcys;
+	FIELD l currentGui Lclk;
+	FIELD m worldRenderer Lcvd;
+	FIELD n debugRenderer Lcyr;
 	FIELD p hudInGame Lcil;
 	FIELD r hitResult Lcgd;
 	FIELD s settings Lchw;
 	FIELD v runDirectory Ljava/io/File;
 	FIELD x profiler Lwz;
 	FIELD y fpsDebugString Ljava/lang/String;
-	METHOD <init> (Lcoy;)V
+	METHOD <init> (Lcox;)V
 		ARG 0 args
 	METHOD A getSnooper ()Laha;
 	METHOD C getSession ()Lcia;
 	METHOD D getSessionProperties ()Lcom/mojang/authlib/properties/PropertyMap;
 	METHOD E getNetworkProxy ()Ljava/net/Proxy;
-	METHOD F getTextureManager ()Ldey;
+	METHOD F getTextureManager ()Ldex;
 	METHOD G getResourceManager ()Lul;
-	METHOD K getLanguageManager ()Ldfv;
-	METHOD L getSpriteAtlas ()Ldew;
+	METHOD K getLanguageManager ()Ldfu;
+	METHOD L getSpriteAtlas ()Ldev;
 	METHOD M is64Bit ()Z
-	METHOD O getSoundLoader ()Ldic;
-	METHOD P getMusicType ()Ldhz$a;
+	METHOD O getSoundLoader ()Ldib;
+	METHOD P getMusicType ()Ldhy$a;
 	METHOD Q getSessionService ()Lcom/mojang/authlib/minecraft/MinecraftSessionService;
 	METHOD R isSnooperEnabled ()Z
-	METHOD S getSkinProvider ()Ldfr;
+	METHOD S getSkinProvider ()Ldfq;
 	METHOD T getCameraEntity ()Lahx;
-	METHOD U getBlockRenderManager ()Lcvz;
-	METHOD V getEntityRenderManager ()Lczz;
-	METHOD W getItemRenderer ()Ldaq;
-	METHOD X getFirstPersonRenderer ()Lcvi;
+	METHOD U getBlockRenderManager ()Lcvy;
+	METHOD V getEntityRenderManager ()Lczy;
+	METHOD W getItemRenderer ()Ldap;
+	METHOD X getFirstPersonRenderer ()Lcvh;
 	METHOD Y getCurrentFps ()I
 	METHOD a start ()V
 	METHOD a addSnooperInfo (Laha;)V
@@ -96,9 +96,9 @@ CLASS cht net/minecraft/client/MinecraftClient
 		ARG 1 blockEntity
 	METHOD a setCrashReport (Lb;)V
 		ARG 0 crashReport
-	METHOD a openGui (Lcll;)V
+	METHOD a openGui (Lclk;)V
 		ARG 0 screen
-	METHOD a setCurrentServerEntry (Lcsq;)V
+	METHOD a setCurrentServerEntry (Lcsp;)V
 		ARG 0 value
 	METHOD a scheduleOnMainThread (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
 		ARG 0 runnable
@@ -120,7 +120,7 @@ CLASS cht net/minecraft/client/MinecraftClient
 	METHOD aw doItemPick ()V
 	METHOD ax getCurrentAction ()Ljava/lang/String;
 	METHOD ay isMainThread ()Z
-	METHOD b getFramebuffer ()Lcvq;
+	METHOD b getFramebuffer ()Lcvp;
 	METHOD b addSnooperInitialInfo (Laha;)V
 		ARG 0 snooper
 	METHOD b addCrashReportDetails (Lb;)Lb;
@@ -134,15 +134,15 @@ CLASS cht net/minecraft/client/MinecraftClient
 	METHOD h stop ()V
 	METHOD j stopThread ()V
 	METHOD k openInGameMenu ()V
-	METHOD l getMusicTracker ()Ldhz;
+	METHOD l getMusicTracker ()Ldhy;
 	METHOD m tick ()V
 	METHOD n isDemo ()Z
-	METHOD o getNetworkHandler ()Lcsk;
+	METHOD o getNetworkHandler ()Lcsj;
 	METHOD q isFancyGraphicsEnabled ()Z
 	METHOD r isAmbientOcclusionEnabled ()Z
 	METHOD s getInstance ()Lcht;
 	METHOD t scheduleReloadResources ()Lcom/google/common/util/concurrent/ListenableFuture;
 	METHOD u checkMaxTextureSize ()I
-	METHOD v getCurrentServerEntry ()Lcsq;
-	METHOD y getServer ()Ldhq;
+	METHOD v getCurrentServerEntry ()Lcsp;
+	METHOD y getServer ()Ldhp;
 	METHOD z onShutdown ()V

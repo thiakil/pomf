@@ -1,4 +1,4 @@
-CLASS cyn net/minecraft/client/render/CameraFrustum
+CLASS cym net/minecraft/client/render/CameraFrustum
 	FIELD a frustumVertices [[F
 	METHOD a dot ([FDDD)D
 		ARG 0 vertex

@@ -1,4 +1,4 @@
-CLASS cna net/minecraft/client/gui/container/GuiShulkerBox
+CLASS cmz net/minecraft/client/gui/container/GuiShulkerBox
 	METHOD a drawBackground (FII)V
 		ARG 0 delta
 		ARG 1 mouseX

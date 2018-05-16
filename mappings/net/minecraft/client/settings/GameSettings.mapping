@@ -60,7 +60,7 @@ CLASS chw net/minecraft/client/settings/GameSettings
 	FIELD P showSubtitles Z
 	FIELD Q realmsNotifications Z
 	FIELD R autoJump Z
-	FIELD S tutorialStep Ldiq;
+	FIELD S tutorialStep Ldip;
 	FIELD V keyForward Lchp;
 	FIELD W keyLeft Lchp;
 	FIELD X keyBack Lchp;

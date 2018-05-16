@@ -1,4 +1,4 @@
-CLASS crd net/minecraft/client/render/entity/model/EntityModelSkull
+CLASS crc net/minecraft/client/render/entity/model/EntityModelSkull
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

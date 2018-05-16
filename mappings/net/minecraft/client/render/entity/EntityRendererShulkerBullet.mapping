@@ -1,4 +1,4 @@
-CLASS dbm net/minecraft/client/render/entity/EntityRendererShulkerBullet
+CLASS dbl net/minecraft/client/render/entity/EntityRendererShulkerBullet
 	FIELD a SKIN Loj;
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model

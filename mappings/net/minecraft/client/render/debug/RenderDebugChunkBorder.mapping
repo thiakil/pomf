@@ -1,4 +1,4 @@
-CLASS cyq net/minecraft/client/render/debug/RenderDebugChunkBorder
+CLASS cyp net/minecraft/client/render/debug/RenderDebugChunkBorder
 	FIELD a game Lcht;
 	METHOD <init> (Lcht;)V
 		ARG 0 game

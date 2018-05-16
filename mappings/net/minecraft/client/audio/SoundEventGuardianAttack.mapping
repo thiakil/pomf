@@ -1,4 +1,4 @@
-CLASS dgy net/minecraft/client/audio/SoundEventGuardianAttack
+CLASS dgx net/minecraft/client/audio/SoundEventGuardianAttack
 	FIELD n guardian Laqh;
 	METHOD <init> (Laqh;)V
 		ARG 0 guardian

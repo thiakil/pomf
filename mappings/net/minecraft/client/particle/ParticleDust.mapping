@@ -1,6 +1,6 @@
-CLASS cte net/minecraft/client/particle/ParticleDust
-	CLASS cte$a Factory
-		METHOD a createParticle (Lfe;Lbbb;DDDDDD)Lctt;
+CLASS ctd net/minecraft/client/particle/ParticleDust
+	CLASS ctd$a Factory
+		METHOD a createParticle (Lfe;Lbbb;DDDDDD)Lcts;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -8,7 +8,7 @@ CLASS cte net/minecraft/client/particle/ParticleDust
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lctt;
+		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lcts;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -17,7 +17,7 @@ CLASS cte net/minecraft/client/particle/ParticleDust
 			ARG 6 velocityY
 			ARG 7 velocityZ
 	METHOD a update ()V
-	METHOD a buildGeometry (Lcux;Lahx;FFFFFF)V
+	METHOD a buildGeometry (Lcuw;Lahx;FFFFFF)V
 		ARG 0 vertexBuffer
 		ARG 1 entity
 		ARG 2 deltaTicks

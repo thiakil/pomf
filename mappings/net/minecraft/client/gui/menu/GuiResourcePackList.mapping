@@ -1,4 +1,4 @@
-CLASS cob net/minecraft/client/gui/menu/GuiResourcePackList
+CLASS coa net/minecraft/client/gui/menu/GuiResourcePackList
 	FIELD v mc Lcht;
 	METHOD <init> (Lcht;II)V
 		ARG 0 mc

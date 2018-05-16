@@ -1,6 +1,6 @@
-CLASS cyl net/minecraft/client/render/Camera
-	FIELD e INSTANCE Lcyl;
+CLASS cyk net/minecraft/client/render/Camera
+	FIELD e INSTANCE Lcyk;
 	FIELD f projectionMatrix Ljava/nio/FloatBuffer;
 	FIELD g modelViewMatrix Ljava/nio/FloatBuffer;
-	METHOD a getFrustum ()Lcyn;
+	METHOD a getFrustum ()Lcym;
 	METHOD b calculateFrustum ()V

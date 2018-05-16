@@ -1,7 +1,7 @@
-CLASS dao net/minecraft/client/render/entity/EntityRendererItem
-	FIELD a itemRenderer Ldaq;
+CLASS dan net/minecraft/client/render/entity/EntityRendererItem
+	FIELD a itemRenderer Ldap;
 	FIELD f rand Ljava/util/Random;
-	METHOD <init> (Lczz;Ldaq;)V
+	METHOD <init> (Lczy;Ldap;)V
 		ARG 0 renderManager
 		ARG 1 itemRenderer
 	METHOD a getTexture (Lahx;)Loj;

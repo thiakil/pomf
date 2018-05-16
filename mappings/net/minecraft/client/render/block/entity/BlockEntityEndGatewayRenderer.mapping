@@ -1,4 +1,4 @@
-CLASS cxw net/minecraft/client/render/block/entity/BlockEntityEndGatewayRenderer
+CLASS cxv net/minecraft/client/render/block/entity/BlockEntityEndGatewayRenderer
 	FIELD a SKY_TEX Loj;
 	FIELD d PORTAL_TEX Loj;
 	FIELD e RANDOM Ljava/util/Random;

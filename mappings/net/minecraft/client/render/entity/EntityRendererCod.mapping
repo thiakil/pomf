@@ -1,4 +1,4 @@
-CLASS czm net/minecraft/client/render/entity/EntityRendererCod
+CLASS czl net/minecraft/client/render/entity/EntityRendererCod
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model
 	METHOD a getTexture (Lamx;)Loj;

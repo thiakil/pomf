@@ -1,4 +1,4 @@
-CLASS dax net/minecraft/client/render/entity/EntityRendererMinecart
+CLASS daw net/minecraft/client/render/entity/EntityRendererMinecart
 	FIELD f SKIN Loj;
 	METHOD a getTexture (Lahx;)Loj;
 		ARG 0 model

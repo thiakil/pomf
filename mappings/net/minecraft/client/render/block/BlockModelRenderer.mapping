@@ -1,4 +1,4 @@
-CLASS cvx net/minecraft/client/render/block/BlockModelRenderer
+CLASS cvw net/minecraft/client/render/block/BlockModelRenderer
 	METHOD a renderBlockModel (Lbfq;F)V
 		ARG 0 block
 		ARG 1 brightness
