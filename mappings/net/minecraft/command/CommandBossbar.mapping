@@ -9,4 +9,15 @@ CLASS pi net/minecraft/command/CommandBossbar
 	FIELD i COMMANDS_BOSSBAR_SET_MAX_UNCHANGED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD j COMMANDS_BOSSBAR_SET_VISIBILITY_UNCHANGED_HIDDEN Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD k COMMANDS_BOSSBAR_SET_VISIBILITY_UNCHANGED_VISIBLE Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD a (Lbr;Lpb;)I
+		ARG 0 sender
+	METHOD a (Lbr;Lpb;Z)I
+		ARG 0 sender
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+		ARG 0 dispatcher
+	METHOD b (Lbr;Lpb;)I
+		ARG 0 sender
+	METHOD c (Lbr;Lpb;)I
+		ARG 0 sender
+	METHOD d (Lbr;Lpb;)I
+		ARG 0 sender

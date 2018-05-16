@@ -1,3 +1,5 @@
 CLASS ph net/minecraft/command/CommandBan
 	FIELD a COMMANDS_BAN_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD a execute (Lbr;Ljava/util/Collection;Lic;)I
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+		ARG 0 dispatcher

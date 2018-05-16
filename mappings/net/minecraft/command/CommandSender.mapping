@@ -1,12 +1,16 @@
 CLASS br net/minecraft/command/CommandSender
 	FIELD a PERMISSIONS_REQUIRES_PLAYER Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD b PERMISSIONS_REQUIRES_ENTITY Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD f level Ljava/lang/Integer;
 	FIELD k entity Lahx;
 	METHOD a sendErrorFeedback (Lic;)V
 	METHOD a sendCommandFeedback (Lic;Z)V
 	METHOD b sendAdminFeedback (Lic;)V
+	METHOD c isLevel (I)Z
+		ARG 0 level
 	METHOD e getWorldServer ()Lsj;
 	METHOD f getEntity ()Lahx;
 	METHOD g getEntityWithRequirement ()Lahx;
 	METHOD h getPlayerWithRequirement ()Lsl;
 	METHOD j getServer ()Lnet/minecraft/server/MinecraftServer;
+	METHOD m getTeamNames ()Ljava/util/Collection;

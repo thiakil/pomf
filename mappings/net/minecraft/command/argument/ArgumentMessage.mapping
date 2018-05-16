@@ -1,3 +1,6 @@
 CLASS ca net/minecraft/command/argument/ArgumentMessage
 	CLASS ca$b PagedEntry
 	FIELD a FOO Ljava/util/Collection;
+	METHOD a create ()Lca;
+	METHOD a create (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lic;
+		ARG 0 context
