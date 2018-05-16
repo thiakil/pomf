@@ -3,4 +3,14 @@ CLASS cxv net/minecraft/client/render/block/entity/BlockEntityEndGatewayRenderer
 	FIELD d PORTAL_TEX Loj;
 	FIELD e RANDOM Ljava/util/Random;
 	METHOD a render (Lbmf;DDDFI)V
+		ARG 0 blockEntity
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 partial
 	METHOD a render (Lbne;DDDFI)V
+		ARG 0 blockEntity
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 partial

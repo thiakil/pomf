@@ -1,4 +1,14 @@
 CLASS cxn net/minecraft/client/render/block/entity/BlockEntityEnchantingTableRenderer
 	FIELD a BOOK_TEX Loj;
 	METHOD a render (Lbmf;DDDFI)V
+		ARG 0 blockEntity
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 partial
 	METHOD a render (Lbmp;DDDFI)V
+		ARG 0 blockEntity
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 partial

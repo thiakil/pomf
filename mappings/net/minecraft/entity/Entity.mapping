@@ -260,6 +260,7 @@ CLASS ahx net/minecraft/entity/Entity
 		ARG 0 pos
 	METHOD d setUnaffectedByGravity (Z)V
 		ARG 0 value
+	METHOD e getTextComponent ()Lic;
 	METHOD e distanceTo (DDD)D
 		ARG 0 x
 		ARG 1 y

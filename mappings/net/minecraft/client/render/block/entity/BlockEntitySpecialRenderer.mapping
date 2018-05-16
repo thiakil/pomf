@@ -1,0 +1,11 @@
+CLASS cxk net/minecraft/client/render/block/entity/BlockEntitySpecialRenderer
+	FIELD c manager Lcxj;
+	METHOD a render (Lbmf;DDDFI)V
+		ARG 0 blockEntity
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 partial
+	METHOD a (Lcxj;)V
+		ARG 0 manager
+	METHOD a bindTexture (Loj;)V

@@ -49,6 +49,7 @@ CLASS bmr net/minecraft/block/entity/BlockEntityFurnace
 		ARG 0 pos
 	METHOD c onInvClose (Larl;)V
 		ARG 0 player
+	METHOD e getTextComponent ()Lic;
 	METHOD f getInvMaxStackAmount ()I
 	METHOD h getInvPropertyCount ()I
 	METHOD l getContainerId ()Ljava/lang/String;

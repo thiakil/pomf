@@ -52,6 +52,7 @@ CLASS bmd net/minecraft/block/entity/BlockEntityBeacon
 		ARG 0 pos
 	METHOD c onInvClose (Larl;)V
 		ARG 0 player
+	METHOD e getTextComponent ()Lic;
 	METHOD e getPotionEffectById (I)Lahp;
 		ARG 0 id
 	METHOD f getInvMaxStackAmount ()I

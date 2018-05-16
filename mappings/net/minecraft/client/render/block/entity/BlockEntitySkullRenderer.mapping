@@ -1,6 +1,16 @@
 CLASS cxs net/minecraft/client/render/block/entity/BlockEntitySkullRenderer
 	FIELD a INSTANCE Lcxs;
 	METHOD a render (Lbmf;DDDFI)V
+		ARG 0 blockEntity
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 partial
 	METHOD a render (Lbnb;DDDFI)V
+		ARG 0 blockEntity
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 partial
 	METHOD a setRenderManager (Lcxj;)V
-		ARG 0 renderManager
+		ARG 0 manager

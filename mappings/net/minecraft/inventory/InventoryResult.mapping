@@ -28,6 +28,7 @@ CLASS aty net/minecraft/inventory/InventoryResult
 		ARG 0 pos
 	METHOD c onInvClose (Larl;)V
 		ARG 0 player
+	METHOD e getTextComponent ()Lic;
 	METHOD f getInvMaxStackAmount ()I
 	METHOD g markDirty ()V
 	METHOD h getInvPropertyCount ()I

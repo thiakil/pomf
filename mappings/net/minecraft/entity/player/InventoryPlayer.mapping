@@ -57,6 +57,7 @@ CLASS ark net/minecraft/entity/player/InventoryPlayer
 		ARG 0 slot
 	METHOD d getOccupiedSlotWithRoomForStack (Lawk;)I
 		ARG 0 stack
+	METHOD e getTextComponent ()Lic;
 	METHOD e isValidHotbarIndex (I)Z
 		ARG 0 slot
 	METHOD e insertStack (Lawk;)Z

@@ -37,6 +37,7 @@ CLASS ats net/minecraft/village/VillagerInventory
 		ARG 0 player
 	METHOD d setRecipeIndex (I)V
 		ARG 0 value
+	METHOD e getTextComponent ()Lic;
 	METHOD e needRecipeUpdate (I)Z
 		ARG 0 slot
 	METHOD f getInvMaxStackAmount ()I

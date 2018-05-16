@@ -18,6 +18,7 @@ CLASS bmb net/minecraft/block/entity/BlockEntityBanner
 		ARG 0 stack
 	METHOD b deserialize (Lgu;)V
 		ARG 0 tag
+	METHOD e getTextComponent ()Lic;
 	METHOD f getPatternList ()Ljava/util/List;
 	METHOD h getPatternColorList ()Ljava/util/List;
 	METHOD j getItemStack ()Lawk;

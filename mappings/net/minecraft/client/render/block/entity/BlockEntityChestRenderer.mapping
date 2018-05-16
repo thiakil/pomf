@@ -7,3 +7,8 @@ CLASS cxl net/minecraft/client/render/block/entity/BlockEntityChestRenderer
 	FIELD h NORMAL_TEX Loj;
 	FIELD l isChristmas Z
 	METHOD a render (Lbmf;DDDFI)V
+		ARG 0 blockEntity
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 partial

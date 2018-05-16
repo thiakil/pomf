@@ -12,4 +12,5 @@ CLASS bmp net/minecraft/block/entity/BlockEntityEnchantingTable
 		ARG 0 tag
 	METHOD b deserialize (Lgu;)V
 		ARG 0 tag
+	METHOD e getTextComponent ()Lic;
 	METHOD l getContainerId ()Ljava/lang/String;

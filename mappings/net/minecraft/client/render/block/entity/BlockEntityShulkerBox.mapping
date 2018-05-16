@@ -3,9 +3,15 @@ CLASS cxq net/minecraft/client/render/block/entity/BlockEntityShulkerBox
 	METHOD <init> (Lcqz;)V
 		ARG 0 model
 	METHOD a render (Lbmf;DDDFI)V
+		ARG 0 blockEntity
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 partial
 	METHOD a render (Lbmz;DDDFI)V
-		ARG 0 shulkerBox
-		ARG 1 posX
-		ARG 2 posY
-		ARG 3 posZ
+		ARG 0 blockEntity
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 partial
 		ARG 5 destroyStage

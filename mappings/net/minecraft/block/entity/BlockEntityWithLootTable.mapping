@@ -34,6 +34,7 @@ CLASS bmy net/minecraft/block/entity/BlockEntityWithLootTable
 		ARG 0 player
 	METHOD d deserializeLootTable (Lgu;)Z
 		ARG 0 tag
+	METHOD e getTextComponent ()Lic;
 	METHOD e serializeLootTable (Lgu;)Z
 		ARG 0 tag
 	METHOD h getInvPropertyCount ()I
