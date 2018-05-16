@@ -1,1 +1,2 @@
 CLASS qd net/minecraft/command/CommandList
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

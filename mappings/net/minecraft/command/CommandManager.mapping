@@ -1,0 +1,5 @@
+CLASS bs net/minecraft/command/CommandManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b commandDispatcher Lcom/mojang/brigadier/CommandDispatcher;
+	METHOD <init> (Z)V
+		ARG 0 dedicatedServer

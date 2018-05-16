@@ -1,1 +1,2 @@
 CLASS rk net/minecraft/command/CommandWeather
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

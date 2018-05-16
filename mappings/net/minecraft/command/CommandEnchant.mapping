@@ -4,3 +4,4 @@ CLASS ps net/minecraft/command/CommandEnchant
 	FIELD c COMMANDS_ENCHANT_FAILED_INCOMPATIBLE Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
 	FIELD d COMMANDS_ENCHANT_FAILED_LEVEL Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
 	FIELD e COMMANDS_ENCHANT_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

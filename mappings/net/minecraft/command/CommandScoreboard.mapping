@@ -6,3 +6,4 @@ CLASS qt net/minecraft/command/CommandScoreboard
 	FIELD e COMMANDS_SCOREBOARD_PLAYERS_ENABLE_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD f COMMANDS_SCOREBOARD_PLAYERS_ENABLE_INVALID Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD g COMMANDS_SCOREBOARD_PLAYERS_GET_NULL Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

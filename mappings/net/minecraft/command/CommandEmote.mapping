@@ -1,1 +1,2 @@
 CLASS pr net/minecraft/command/CommandEmote
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

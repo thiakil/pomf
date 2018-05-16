@@ -7,3 +7,4 @@ CLASS rm net/minecraft/command/CommandWorldBorder
 	FIELD f COMMANDS_WORLDBORDER_WARNING_DISTANCE_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD g COMMANDS_WORLDBORDER_DAMAGE_BUFFER_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD h COMMANDS_WORLDBORDER_DAMAGE_AMOUNT_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

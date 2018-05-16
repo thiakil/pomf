@@ -1,3 +1,4 @@
 CLASS pv net/minecraft/command/CommandFill
 	FIELD a COMMANDS_FILL_TOOBIG Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
 	FIELD c COMMANDS_FILL_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

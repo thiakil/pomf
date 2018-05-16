@@ -1,1 +1,2 @@
 CLASS qs net/minecraft/command/CommandAnnounce
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
