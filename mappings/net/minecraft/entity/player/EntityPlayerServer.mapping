@@ -1,4 +1,5 @@
-CLASS sl
+CLASS sl net/minecraft/entity/player/EntityPlayerServer
+	FIELD a networkHandler Lti;
 	FIELD bZ LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD ca enUs Ljava/lang/String;
 	FIELD cu seenCredits Z
