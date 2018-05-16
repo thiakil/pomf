@@ -33,6 +33,7 @@ CLASS bha net/minecraft/block/BlockDoor
 		ARG 0 world
 		ARG 1 pos
 		ARG 3 player
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a isNotSolid (Lbnz;Lbap;Lef;)Z
 		ARG 2 pos
 	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;

@@ -16,6 +16,7 @@ CLASS bns net/minecraft/block/BlockPiston
 		ARG 1 pos
 		ARG 2 dir
 		ARG 3 forward
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a onBlockAction (Lbnz;Lbbb;Lef;II)Z
 		ARG 1 world
 		ARG 2 pos

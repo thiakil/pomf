@@ -21,6 +21,7 @@ CLASS bfm
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a update (Lbnz;Lbbb;Lef;Lbfq;Lef;)V
 		ARG 1 world
 		ARG 2 pos

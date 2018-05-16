@@ -5,3 +5,6 @@ CLASS csi net/minecraft/world/chunk/ChunkProviderClient
 	FIELD d world Lbbb;
 	METHOD <init> (Lbbb;)V
 		ARG 0 world
+	METHOD d generate (II)Lbpe;
+		ARG 0 chunkX
+		ARG 1 chunkZ

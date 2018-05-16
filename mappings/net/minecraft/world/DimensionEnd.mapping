@@ -1,4 +1,4 @@
-CLASS bqo net/minecraft/world/gen/WorldProviderEnd
+CLASS bqo net/minecraft/world/DimensionEnd
 	FIELD g dragonFight Lbqn;
 	METHOD b getFogColor (FF)Lcgg;
 	METHOD k serialize ()V

@@ -11,6 +11,7 @@ CLASS bfv net/minecraft/block/BlockBrewingStand
 		ARG 1 pos
 		ARG 3 placer
 		ARG 4 stack
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a getComparatorOutput (Lbnz;Lbbb;Lef;)I
 		ARG 1 world
 		ARG 2 pos

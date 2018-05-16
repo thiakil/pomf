@@ -5,6 +5,7 @@ CLASS bhs net/minecraft/block/BlockFlowerPot
 		ARG 2 pos
 		ARG 3 face
 	METHOD a getItem (Lbap;Lef;Lbnz;)Lawk;
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a dropItems (Lbnz;Lbbb;Lef;FI)V
 		ARG 1 world
 		ARG 2 pos

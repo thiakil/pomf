@@ -18,6 +18,7 @@ CLASS bfd
 		ARG 1 pos
 		ARG 3 placer
 		ARG 4 stack
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a isNotSolid (Lbnz;Lbap;Lef;)Z
 		ARG 2 pos
 	METHOD a dropItems (Lbnz;Lbbb;Lef;FI)V

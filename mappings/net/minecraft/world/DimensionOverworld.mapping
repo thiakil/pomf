@@ -1,4 +1,4 @@
-CLASS bql
+CLASS bql net/minecraft/world/DimensionOverworld
 	METHOD b getFogColor (FF)Lcgg;
 	METHOD m setupBiomeProvider ()V
 	METHOD o hasClouds ()Z

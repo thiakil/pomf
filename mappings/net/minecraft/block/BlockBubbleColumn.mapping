@@ -5,6 +5,7 @@ CLASS bfw net/minecraft/block/BlockBubbleColumn
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a isNotSolid (Lbnz;Lbap;Lef;)Z
 		ARG 2 pos
 	METHOD a onEntityCollision (Lbnz;Lbbb;Lef;Lahx;)V

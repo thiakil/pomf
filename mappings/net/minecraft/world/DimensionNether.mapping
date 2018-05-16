@@ -1,4 +1,4 @@
-CLASS bqk net/minecraft/world/gen/WorldProviderNether
+CLASS bqk net/minecraft/world/DimensionNether
 	CLASS bqk$1
 		METHOD f getCenterX ()D
 		METHOD g getCenterZ ()D

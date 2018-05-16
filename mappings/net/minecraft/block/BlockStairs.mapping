@@ -23,6 +23,7 @@ CLASS bku net/minecraft/block/BlockStairs
 		ARG 1 pos
 		ARG 2 entity
 	METHOD a modifyAcceleration (Lbbf;Lef;Lahx;Lcgg;)Lcgg;
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a onBlockBreakStart (Lbnz;Lbbb;Lef;Larl;)V
 		ARG 1 world
 		ARG 2 pos

@@ -12,6 +12,7 @@ CLASS blk net/minecraft/block/BlockTripwire
 		ARG 0 world
 		ARG 1 pos
 		ARG 3 player
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a onEntityCollision (Lbnz;Lbbb;Lef;Lahx;)V
 		ARG 1 world
 		ARG 2 pos

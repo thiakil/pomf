@@ -4,6 +4,7 @@ CLASS bgb net/minecraft/block/BlockCake
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a getComparatorOutput (Lbnz;Lbbb;Lef;)I
 		ARG 1 world
 		ARG 2 pos

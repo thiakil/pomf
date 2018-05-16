@@ -1,1 +1,13 @@
 CLASS bpe net/minecraft/world/chunk/IChunk
+	METHOD a getSections ()[Lbpq;
+	METHOD a addEntity (Lahx;)V
+	METHOD a getLight (Lbbk;Lef;Z)I
+	METHOD a setLight (Lbbk;ZLef;I)V
+	METHOD a setState (Lbpk;)V
+	METHOD a getSkyLight (Lef;IZ)I
+	METHOD a setBlockEntity (Lef;Lbmf;)V
+	METHOD a getStructure (Ljava/lang/String;)Lbzh;
+	METHOD b getChunkPos ()Lbar;
+	METHOD d removeBlockEntity (Lef;)V
+	METHOD e getBiomes ()[Lbbv;
+	METHOD g getState ()Lbpk;

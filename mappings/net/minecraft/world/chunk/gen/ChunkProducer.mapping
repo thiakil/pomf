@@ -1,3 +1,3 @@
-CLASS sw net/minecraft/world/chunk/status/ChunkProducer
+CLASS sw net/minecraft/world/chunk/gen/ChunkProducer
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD a produce (Lbpk;Lbbb;Lbpf;Ljava/util/Map;II)Lbpe;

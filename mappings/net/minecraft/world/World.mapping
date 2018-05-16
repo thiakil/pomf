@@ -44,6 +44,7 @@ CLASS bbb net/minecraft/world/World
 	METHOD N updateAmbientDarkness ()V
 	METHOD O initWeatherGradients ()V
 	METHOD P getEntitiesToRender ()Ljava/util/List;
+	METHOD Q getGeneratorType ()Lbbi;
 	METHOD R quitClient ()V
 	METHOD S checkSessionLock ()V
 	METHOD T getTime ()J
@@ -261,6 +262,7 @@ CLASS bbb net/minecraft/world/World
 	METHOD p createChunkProvider ()Lbpj;
 	METHOD s getReceivedStrongRedstonePower (Lef;)I
 		ARG 0 pos
+	METHOD s_ getProperties ()Lced;
 	METHOD t isReceivingRedstonePower (Lef;)Z
 		ARG 0 pos
 	METHOD u updateWeather ()V

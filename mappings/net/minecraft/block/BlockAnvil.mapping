@@ -14,6 +14,7 @@ CLASS bfg net/minecraft/block/BlockAnvil
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z
 		ARG 0 state
 		ARG 1 world

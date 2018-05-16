@@ -1,4 +1,4 @@
-CLASS bqi net/minecraft/world/gen/WorldProvider
+CLASS bqi net/minecraft/world/Dimension
 	FIELD b world Lbbb;
 	FIELD c waterEvaporates Z
 	FIELD d noSky Z

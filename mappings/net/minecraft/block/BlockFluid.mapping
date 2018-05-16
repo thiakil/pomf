@@ -5,6 +5,7 @@ CLASS bir net/minecraft/block/BlockFluid
 		ARG 2 pos
 		ARG 3 face
 	METHOD a modifyAcceleration (Lbbf;Lef;Lahx;Lcgg;)Lcgg;
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a isNotSolid (Lbnz;Lbap;Lef;)Z
 		ARG 2 pos
 	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;

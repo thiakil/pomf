@@ -5,5 +5,6 @@ CLASS blp net/minecraft/block/BlockWall
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a isNotSolid (Lbnz;Lbap;Lef;)Z
 		ARG 2 pos

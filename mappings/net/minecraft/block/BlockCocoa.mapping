@@ -14,6 +14,7 @@ CLASS bgj net/minecraft/block/BlockCocoa
 		ARG 0 world
 		ARG 1 rand
 		ARG 2 pos
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a dropItems (Lbnz;Lbbb;Lef;FI)V
 		ARG 1 world
 		ARG 2 pos

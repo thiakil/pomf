@@ -13,6 +13,7 @@ CLASS bll net/minecraft/block/BlockTripwireHook
 		ARG 1 pos
 		ARG 3 placer
 		ARG 4 stack
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a getWeakRedstonePower (Lbnz;Lbap;Lef;Lel;)I
 		ARG 1 view
 		ARG 2 pos

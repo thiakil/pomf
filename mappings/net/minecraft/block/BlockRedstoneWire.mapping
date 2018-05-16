@@ -21,6 +21,7 @@ CLASS bjs net/minecraft/block/BlockRedstoneWire
 		ARG 0 view
 		ARG 1 pos
 		ARG 2 facing
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a getWeakRedstonePower (Lbnz;Lbap;Lef;Lel;)I
 		ARG 1 view
 		ARG 2 pos

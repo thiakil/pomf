@@ -7,5 +7,6 @@ CLASS bgn net/minecraft/block/BlockConduit
 		ARG 1 pos
 		ARG 3 placer
 		ARG 4 stack
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD c getRenderType (Lbnz;)Lbjw;
 	METHOD t getFluidState (Lbnz;)Lcbb;

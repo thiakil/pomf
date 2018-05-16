@@ -17,6 +17,9 @@ CLASS si net/minecraft/world/chunk/ChunkProviderServer
 	METHOD b saveEntities (Lbpp;)V
 		ARG 0 chunk
 	METHOD c flushChunks ()V
+	METHOD d generate (II)Lbpe;
+		ARG 0 chunkX
+		ARG 1 chunkZ
 	METHOD e canAutoSave ()Z
 	METHOD e hasChunk (II)Z
 		ARG 0 x

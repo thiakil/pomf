@@ -1,0 +1,4 @@
+CLASS bpg net/minecraft/world/gen/ChunkGenerator
+	FIELD a world Lbbc;
+	FIELD b seed J
+	METHOD a decorate (Lso;Lbqw$a;)V

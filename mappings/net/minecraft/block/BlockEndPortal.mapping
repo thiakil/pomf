@@ -6,6 +6,7 @@ CLASS bhg net/minecraft/block/BlockEndPortal
 		ARG 2 pos
 		ARG 3 face
 	METHOD a getItem (Lbap;Lef;Lbnz;)Lawk;
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a onEntityCollision (Lbnz;Lbbb;Lef;Lahx;)V
 		ARG 1 world
 		ARG 2 pos

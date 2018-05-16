@@ -1,5 +1,6 @@
-CLASS bbz
+CLASS bbz net/minecraft/world/gen/BiomeSource
 	FIELD b CHECKERBOARD Lbbz;
 	FIELD c FIXED Lbbz;
 	FIELD d VANILLA_LAYERED Lbbz;
 	FIELD e THE_END Lbbz;
+	METHOD b getIdentifier ()Loj;

@@ -21,6 +21,7 @@ CLASS blm net/minecraft/block/BlockTurtleEgg
 		ARG 1 pos
 		ARG 2 entity
 		ARG 3 fallDistance
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;
 	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z
 		ARG 0 state

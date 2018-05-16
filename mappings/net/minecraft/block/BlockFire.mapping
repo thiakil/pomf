@@ -7,6 +7,7 @@ CLASS bhq net/minecraft/block/BlockFire
 		ARG 2 pos
 		ARG 3 face
 	METHOD a trySpreadFire (Lbbb;Lef;ILjava/util/Random;I)V
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a getDropAmount (Lbnz;Ljava/util/Random;)I
 	METHOD b onBlockAdded (Lbnz;Lbbb;Lef;Lbnz;)V
 		ARG 1 world

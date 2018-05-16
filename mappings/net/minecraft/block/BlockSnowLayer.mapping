@@ -11,6 +11,7 @@ CLASS bkm net/minecraft/block/BlockSnowLayer
 		ARG 2 pos
 		ARG 4 blockEntity
 		ARG 5 stack
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a isNotSolid (Lbnz;Lbap;Lef;)Z
 		ARG 2 pos
 	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;

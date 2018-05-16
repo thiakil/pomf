@@ -6,6 +6,7 @@ CLASS bhf net/minecraft/block/BlockEndGateway
 		ARG 2 pos
 		ARG 3 face
 	METHOD a getItem (Lbap;Lef;Lbnz;)Lawk;
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a getDropAmount (Lbnz;Ljava/util/Random;)I
 	METHOD c randomDisplayTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
 		ARG 1 world

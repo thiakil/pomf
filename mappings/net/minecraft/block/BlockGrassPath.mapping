@@ -4,4 +4,5 @@ CLASS bia net/minecraft/block/BlockGrassPath
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;

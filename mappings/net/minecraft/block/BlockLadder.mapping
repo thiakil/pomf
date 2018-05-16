@@ -6,6 +6,7 @@ CLASS bin net/minecraft/block/BlockLadder
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a withMirror (Lbnz;Lbiw;)Lbnz;
 	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;
 	METHOD t getFluidState (Lbnz;)Lcbb;

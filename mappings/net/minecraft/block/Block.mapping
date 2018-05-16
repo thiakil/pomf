@@ -90,6 +90,7 @@ CLASS bfq net/minecraft/block/Block
 		ARG 1 pos
 		ARG 3 player
 	METHOD a modifyAcceleration (Lbbf;Lef;Lahx;Lcgg;)Lcgg;
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a getDropAmount (Lbnz;ILbbb;Lef;Ljava/util/Random;)I
 	METHOD a canEntitySpawn (Lbnz;Lahx;)Z
 	METHOD a isNotSolid (Lbnz;Lbap;Lef;)Z

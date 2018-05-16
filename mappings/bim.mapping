@@ -5,6 +5,7 @@ CLASS bim
 		ARG 2 pos
 		ARG 3 face
 	METHOD a getItem (Lbap;Lef;Lbnz;)Lawk;
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;
 	METHOD a getDropAmount (Lbnz;Ljava/util/Random;)I
 	METHOD b updateTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V

@@ -36,6 +36,7 @@ CLASS bfo net/minecraft/block/BlockBed
 		ARG 0 world
 		ARG 1 pos
 		ARG 3 player
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;
 	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z
 		ARG 0 state

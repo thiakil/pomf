@@ -1,5 +1,6 @@
 CLASS bks net/minecraft/block/BlockStainedGlass
 	METHOD X_ getRenderLayer ()Lbaq;
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a onBlockRemoved (Lbnz;Lbbb;Lef;Lbnz;)V
 		ARG 1 world
 		ARG 2 pos

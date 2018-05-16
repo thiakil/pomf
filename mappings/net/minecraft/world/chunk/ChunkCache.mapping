@@ -9,3 +9,4 @@ CLASS so net/minecraft/world/chunk/ChunkCache
 	METHOD b getFluidState (Lef;)Lcbb;
 	METHOD f getBlockEntity (Lef;)Lbmf;
 		ARG 0 pos
+	METHOD s_ getProperties ()Lced;

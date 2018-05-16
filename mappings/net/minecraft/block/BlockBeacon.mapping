@@ -7,6 +7,7 @@ CLASS bfn net/minecraft/block/BlockBeacon
 		ARG 1 pos
 		ARG 3 placer
 		ARG 4 stack
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z
 		ARG 0 state
 		ARG 1 world

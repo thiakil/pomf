@@ -1,4 +1,4 @@
-CLASS bqj net/minecraft/world/WorldType
+CLASS bqj net/minecraft/world/DimensionType
 	FIELD a OVERWORLD Lbqj;
 	FIELD b NETHER Lbqj;
 	FIELD c END Lbqj;

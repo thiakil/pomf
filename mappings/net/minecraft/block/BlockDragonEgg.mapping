@@ -3,6 +3,7 @@ CLASS bhc net/minecraft/block/BlockDragonEgg
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a onBlockBreakStart (Lbnz;Lbbb;Lef;Larl;)V
 		ARG 1 world
 		ARG 2 pos

@@ -1,1 +1,2 @@
 CLASS bbc net/minecraft/world/IWorld
+	METHOD s_ getProperties ()Lced;

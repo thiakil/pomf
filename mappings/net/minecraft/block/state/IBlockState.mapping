@@ -36,7 +36,8 @@ CLASS bnz net/minecraft/block/state/IBlockState
 	METHOD e getHardness (Lbap;Lef;)F
 		ARG 0 view
 		ARG 1 pos
-	METHOD g isFullCube ()Z
+	METHOD g isFullBlock ()Z
+	METHOD i getRenderType ()Lbjw;
 	METHOD j getAmbientOcclusionLightValue ()F
 	METHOD k isNormalCube ()Z
 	METHOD k getOffset (Lbap;Lef;)Lcgg;

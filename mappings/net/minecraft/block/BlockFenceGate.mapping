@@ -9,6 +9,7 @@ CLASS bhp net/minecraft/block/BlockFenceGate
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a isNotSolid (Lbnz;Lbap;Lef;)Z
 		ARG 2 pos
 	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z

@@ -11,6 +11,7 @@ CLASS bgg net/minecraft/block/BlockChorusFlower
 		ARG 2 pos
 		ARG 4 blockEntity
 		ARG 5 stack
+	METHOD a isFullBlock (Lbnz;)Z
 	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;
 	METHOD b updateTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
 		ARG 1 world

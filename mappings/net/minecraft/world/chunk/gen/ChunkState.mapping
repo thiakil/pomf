@@ -1,4 +1,4 @@
-CLASS bpk net/minecraft/world/chunk/status/ChunkStatus
+CLASS bpk net/minecraft/world/chunk/gen/ChunkState
 	CLASS bpk$a
 		FIELD a ACTIVE Lbpk$a;
 		FIELD b COMPLETE Lbpk$a;
