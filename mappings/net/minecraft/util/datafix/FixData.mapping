@@ -1,0 +1,4 @@
+CLASS aev net/minecraft/util/datafix/FixData
+	CLASS aev$a Continue
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object

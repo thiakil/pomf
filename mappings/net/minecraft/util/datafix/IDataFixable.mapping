@@ -1,0 +1,26 @@
+CLASS xg net/minecraft/util/datafix/IDataFixable
+	CLASS xg$a
+		FIELD a BOOLEAN Laev;
+		FIELD b INTEGER Laev;
+		FIELD c LONG Laev;
+		FIELD d BYTE Laev;
+		FIELD e SHORT Laev;
+		FIELD f FLOAT Laev;
+		FIELD g DOUBLE Laev;
+	CLASS xg$b Type
+	FIELD a WORLD Lxg$b;
+	FIELD b PLAYER Lxg$b;
+	FIELD c CHUNK Lxg$b;
+	FIELD d HOTBAR Lxg$b;
+	FIELD e OPTIONS Lxg$b;
+	FIELD f STRUCTURE Lxg$b;
+	FIELD g STATISTICS Lxg$b;
+	FIELD h SAVED_DATA Lxg$b;
+	FIELD i BLOCK_ENTITY Lxg$b;
+	FIELD j ITEM_STACK Lxg$b;
+	FIELD k BLOCK_STATE Lxg$b;
+	FIELD l ENTITY_TREE Lxg$b;
+	FIELD m ENTITY Lxg$b;
+	FIELD n BLOCK_NAME Lxg$b;
+	FIELD o ITEM_NAME Lxg$b;
+	FIELD p UNTAGGED_SPAWNER Lxg$b;
