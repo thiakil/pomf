@@ -7,25 +7,45 @@ CLASS cbf net/minecraft/block/material/Material
 		METHOD h setPistonBlock ()Lcbf$a;
 		METHOD i build ()Lcbf;
 	FIELD A GLASS Lcbf;
+	FIELD B ICE Lcbf;
+	FIELD C CACTUS Lcbf;
 	FIELD D STONE Lcbf;
 	FIELD E IRON Lcbf;
+	FIELD F SNOW_BLOCK Lcbf;
+	FIELD G ANVIL Lcbf;
+	FIELD H BARRIER Lcbf;
+	FIELD I PISTON Lcbf;
+	FIELD K FULL_BLOCK_CROP Lcbf;
+	FIELD L DRAGON_EGG Lcbf;
+	FIELD M CAKE Lcbf;
 	FIELD N color Lcbg;
 	FIELD O pistonBehavior Lcbh;
 	FIELD P solid Z
 	FIELD a AIR Lcbf;
-	FIELD b VOID_MAYBE Lcbf;
+	FIELD b VOID Lcbf;
+	FIELD c PORTAL Lcbf;
+	FIELD d CARPET Lcbf;
 	FIELD e FLOWER Lcbf;
+	FIELD f SEA_PLANT Lcbf;
 	FIELD g PLANT Lcbf;
+	FIELD h SEA_GRASS Lcbf;
 	FIELD i WATER Lcbf;
+	FIELD j BUBBLE Lcbf;
 	FIELD k LAVA Lcbf;
+	FIELD l SNOW_LAYER Lcbf;
+	FIELD m FIRE Lcbf;
 	FIELD n RAIL Lcbf;
 	FIELD o WEB Lcbf;
+	FIELD p REDSTONE_LAMP Lcbf;
+	FIELD q CLAY Lcbf;
 	FIELD r GROUND Lcbf;
 	FIELD s GRASS Lcbf;
+	FIELD t PACKED_ICE Lcbf;
 	FIELD u SAND Lcbf;
 	FIELD v SPONGE Lcbf;
 	FIELD w WOOD Lcbf;
 	FIELD x WOOLEN Lcbf;
+	FIELD y TNT Lcbf;
 	FIELD z LEAVES Lcbf;
 	METHOD <init> (Lcbg;ZZZZZZZLcbh;)V
 		ARG 0 color
