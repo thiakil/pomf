@@ -1,4 +1,8 @@
 CLASS apl net/minecraft/entity/projectile/EntityFishHook
+	CLASS apl$a
+		FIELD a FLYING Lapl$a;
+		FIELD b HOOKED_IN_ENTITY Lapl$a;
+		FIELD c BOBBING Lapl$a;
 	FIELD a hookedEntity Lahx;
 	FIELD b HOOK_ENTITY_ID Lny;
 	FIELD e owner Larl;

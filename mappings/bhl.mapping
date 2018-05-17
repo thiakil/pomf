@@ -1,5 +1,8 @@
 CLASS bhl
 	CLASS bhl$a
+		FIELD a FLOOR Lbhl$a;
+		FIELD b WALL Lbhl$a;
+		FIELD c CEILING Lbhl$a;
 		METHOD m asString ()Ljava/lang/String;
 	FIELD H FACE Lbow;
 	METHOD a getDefaultState (Laup;)Lbnz;

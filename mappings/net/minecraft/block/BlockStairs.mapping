@@ -1,5 +1,7 @@
 CLASS bku net/minecraft/block/BlockStairs
 	CLASS bku$a
+		FIELD a TOP Lbku$a;
+		FIELD b BOTTOM Lbku$a;
 		METHOD m asString ()Ljava/lang/String;
 	CLASS bku$b Shape
 		FIELD a STRAIGHT Lbku$b;

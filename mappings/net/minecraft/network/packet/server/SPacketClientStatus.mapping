@@ -1,6 +1,7 @@
 CLASS ma net/minecraft/network/packet/server/SPacketClientStatus
 	CLASS ma$a Action
 		FIELD a RESPAWN Lma$a;
+		FIELD b REQUEST_STATS Lma$a;
 	FIELD a action Lma$a;
 	METHOD <init> (Lma$a;)V
 		ARG 0 action

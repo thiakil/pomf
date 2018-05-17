@@ -1,4 +1,10 @@
 CLASS avv
+	CLASS avv$a
+		FIELD a SMALL_BALL Lavv$a;
+		FIELD b LARGE_BALL Lavv$a;
+		FIELD c STAR Lavv$a;
+		FIELD d CREEPER Lavv$a;
+		FIELD e BURST Lavv$a;
 	METHOD a addInformation (Lawk;Lbbb;Ljava/util/List;Laxs;)V
 		ARG 0 stack
 		ARG 2 tooltip

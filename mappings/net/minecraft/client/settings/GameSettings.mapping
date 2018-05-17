@@ -13,6 +13,9 @@ CLASS chw net/minecraft/client/settings/GameSettings
 		FIELD K SHOW_SUBTITLES Lchw$a;
 		FIELD L REALMS_NOTIFICATIONS Lchw$a;
 		FIELD M AUTO_JUMP Lchw$a;
+		FIELD N NARRATOR Lchw$a;
+		FIELD O AUTO_SUGGESTIONS Lchw$a;
+		FIELD P BIOME_BLEND_RADIUS Lchw$a;
 		FIELD Q slider Z
 		FIELD R toggle Z
 		FIELD S key Ljava/lang/String;
@@ -36,6 +39,7 @@ CLASS chw net/minecraft/client/settings/GameSettings
 		FIELD r CHAT_OPACITY Lchw$a;
 		FIELD s CHAT_LINKS_PROMPT Lchw$a;
 		FIELD t SNOOPER Lchw$a;
+		FIELD u FULLSCREEN_RESOLUTION Lchw$a;
 		FIELD v FULLSCREEN Lchw$a;
 		FIELD w VSYNC Lchw$a;
 		FIELD x VBO Lchw$a;

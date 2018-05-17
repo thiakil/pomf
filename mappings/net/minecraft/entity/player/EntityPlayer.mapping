@@ -4,6 +4,7 @@ CLASS arl net/minecraft/entity/player/EntityPlayer
 		FIELD b INVALID_WORLD Larl$a;
 		FIELD c WRONG_TIME Larl$a;
 		FIELD d TOO_FAR_AWAY Larl$a;
+		FIELD e OTHER_PROBLEM Larl$a;
 		FIELD f NOT_SAFE Larl$a;
 	CLASS arl$b ChatVisibility
 		FIELD a FULL Larl$b;

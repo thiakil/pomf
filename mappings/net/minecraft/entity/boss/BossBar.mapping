@@ -1,4 +1,18 @@
 CLASS agi net/minecraft/entity/boss/BossBar
+	CLASS agi$a
+		FIELD a PINK Lagi$a;
+		FIELD b BLUE Lagi$a;
+		FIELD c RED Lagi$a;
+		FIELD d GREEN Lagi$a;
+		FIELD e YELLOW Lagi$a;
+		FIELD f PURPLE Lagi$a;
+		FIELD g WHITE Lagi$a;
+	CLASS agi$b
+		FIELD a PROGRESS Lagi$b;
+		FIELD b NOTCHED_6 Lagi$b;
+		FIELD c NOTCHED_10 Lagi$b;
+		FIELD d NOTCHED_12 Lagi$b;
+		FIELD e NOTCHED_20 Lagi$b;
 	FIELD a name Lic;
 	FIELD b health F
 	FIELD c color Lagi$a;

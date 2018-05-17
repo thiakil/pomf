@@ -46,6 +46,21 @@ CLASS cvf net/minecraft/client/gl/GlHandler
 		FIELD a capState Lcvf$c;
 		FIELD b mask Z
 		FIELD c func I
+	CLASS cvf$l
+		FIELD a CONSTANT_ALPHA Lcvf$l;
+		FIELD b CONSTANT_COLOR Lcvf$l;
+		FIELD c DST_ALPHA Lcvf$l;
+		FIELD d DST_COLOR Lcvf$l;
+		FIELD e ONE Lcvf$l;
+		FIELD f ONE_MINUS_CONSTANT_ALPHA Lcvf$l;
+		FIELD g ONE_MINUS_CONSTANT_COLOR Lcvf$l;
+		FIELD h ONE_MINUS_DST_ALPHA Lcvf$l;
+		FIELD i ONE_MINUS_DST_COLOR Lcvf$l;
+		FIELD j ONE_MINUS_SRC_ALPHA Lcvf$l;
+		FIELD k ONE_MINUS_SRC_COLOR Lcvf$l;
+		FIELD l SRC_ALPHA Lcvf$l;
+		FIELD m SRC_COLOR Lcvf$l;
+		FIELD n ZERO Lcvf$l;
 	CLASS cvf$m FogMode
 		FIELD a LINEAR Lcvf$m;
 		FIELD b EXP Lcvf$m;
@@ -93,6 +108,22 @@ CLASS cvf net/minecraft/client/gl/GlHandler
 		FIELD c TRANSPARENT_MODEL Lcvf$q;
 		METHOD a begin ()V
 		METHOD b end ()V
+	CLASS cvf$r
+		FIELD a CONSTANT_ALPHA Lcvf$r;
+		FIELD b CONSTANT_COLOR Lcvf$r;
+		FIELD c DST_ALPHA Lcvf$r;
+		FIELD d DST_COLOR Lcvf$r;
+		FIELD e ONE Lcvf$r;
+		FIELD f ONE_MINUS_CONSTANT_ALPHA Lcvf$r;
+		FIELD g ONE_MINUS_CONSTANT_COLOR Lcvf$r;
+		FIELD h ONE_MINUS_DST_ALPHA Lcvf$r;
+		FIELD i ONE_MINUS_DST_COLOR Lcvf$r;
+		FIELD j ONE_MINUS_SRC_ALPHA Lcvf$r;
+		FIELD k ONE_MINUS_SRC_COLOR Lcvf$r;
+		FIELD l SRC_ALPHA Lcvf$r;
+		FIELD m SRC_ALPHA_SATURATE Lcvf$r;
+		FIELD n SRC_COLOR Lcvf$r;
+		FIELD o ZERO Lcvf$r;
 	CLASS cvf$s StencilSubState
 		FIELD a func I
 	CLASS cvf$t StencilState
@@ -114,6 +145,8 @@ CLASS cvf net/minecraft/client/gl/GlHandler
 	CLASS cvf$x Texture2DState
 		FIELD a capState Lcvf$c;
 		FIELD b boundTexture I
+	CLASS cvf$y
+		FIELD a INSTANCE Lcvf$y;
 	FIELD b vectorBuf Ljava/nio/FloatBuffer;
 	FIELD c alphaTestState Lcvf$a;
 	FIELD d lightSystemEnabled Lcvf$c;
