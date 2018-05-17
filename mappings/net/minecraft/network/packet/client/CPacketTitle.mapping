@@ -1,5 +1,8 @@
 CLASS lm net/minecraft/network/packet/client/CPacketTitle
 	CLASS lm$a Action
+		FIELD a TITLE Llm$a;
+		FIELD b SUBTITLE Llm$a;
+		FIELD c ACTIONBAR Llm$a;
 		FIELD d DISPLAY Llm$a;
 		FIELD e HIDE Llm$a;
 		FIELD f RESET Llm$a;

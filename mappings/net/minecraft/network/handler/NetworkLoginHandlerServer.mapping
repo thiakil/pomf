@@ -1,5 +1,11 @@
 CLASS tk net/minecraft/network/handler/NetworkLoginHandlerServer
 	CLASS tk$a State
+		FIELD a HELLO Ltk$a;
+		FIELD b KEY Ltk$a;
+		FIELD c AUTHENTICATING Ltk$a;
+		FIELD d READY_TO_ACCEPT Ltk$a;
+		FIELD e DELAY_ACCEPT Ltk$a;
+		FIELD f ACCEPTED Ltk$a;
 	FIELD a connection Lhr;
 	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD d RAND Ljava/util/Random;

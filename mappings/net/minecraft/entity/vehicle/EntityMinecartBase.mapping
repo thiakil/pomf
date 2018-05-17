@@ -1,7 +1,12 @@
 CLASS asm net/minecraft/entity/vehicle/EntityMinecartBase
 	CLASS asm$a
+		FIELD a RIDEABLE Lasm$a;
+		FIELD b CHEST Lasm$a;
+		FIELD c FURNACE Lasm$a;
 		FIELD d TNT Lasm$a;
+		FIELD e SPAWNER Lasm$a;
 		FIELD f HOPPER Lasm$a;
+		FIELD g COMMAND_BLOCK Lasm$a;
 	FIELD d CUSTOM_BLOCK_ID Lny;
 	FIELD e CUSTOM_BLOCK_OFFSET Lny;
 	FIELD f CUSTOM_BLOCK_PRESENT Lny;

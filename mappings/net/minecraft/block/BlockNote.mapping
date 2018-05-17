@@ -1,5 +1,15 @@
 CLASS bjc net/minecraft/block/BlockNote
 	CLASS bjc$a
+		FIELD a HARP Lbjc$a;
+		FIELD b BASEDRUM Lbjc$a;
+		FIELD c SNARE Lbjc$a;
+		FIELD d HAT Lbjc$a;
+		FIELD e BASS Lbjc$a;
+		FIELD f FLUTE Lbjc$a;
+		FIELD g BELL Lbjc$a;
+		FIELD h GUITAR Lbjc$a;
+		FIELD i CHIME Lbjc$a;
+		FIELD j XYLOPHONE Lbjc$a;
 		METHOD m asString ()Ljava/lang/String;
 	FIELD a INSTRUMENT Lbow;
 	FIELD b POWERED Lbou;

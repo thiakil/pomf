@@ -1,5 +1,8 @@
 CLASS bkj net/minecraft/block/BlockSlab
 	CLASS bkj$a
+		FIELD a TOP Lbkj$a;
+		FIELD b BOTTOM Lbkj$a;
+		FIELD c DOUBLE Lbkj$a;
 		METHOD m asString ()Ljava/lang/String;
 	FIELD a TYPE Lbow;
 	FIELD b WATERLOGGED Lbou;
