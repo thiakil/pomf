@@ -1,4 +1,4 @@
-CLASS axq ToolMaterial
+CLASS axq net/minecraft/item/ToolMaterial
 	FIELD a WOOD Laxq;
 	FIELD b COBBLESTONE Laxq;
 	FIELD c IRON Laxq;

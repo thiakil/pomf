@@ -1,4 +1,4 @@
-CLASS aui ArmorMaterial
+CLASS aui net/minecraft/item/ArmorMaterial
 	FIELD a LEATHER Laui;
 	FIELD b CHAINMAIL Laui;
 	FIELD c IRON Laui;
