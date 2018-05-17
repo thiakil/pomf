@@ -35,13 +35,15 @@ CLASS cgc net/minecraft/util/math/BoundingBox
 		ARG 1 b
 	METHOD a offset (Lef;)Lcgc;
 		ARG 0 pos
-	METHOD b isValid ()Z
+	METHOD a getMinOnAxis (Lel$a;)D
+	METHOD b isInvalid ()Z
 	METHOD b stretch (DDD)Lcgc;
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
 	METHOD b union (Lcgc;)Lcgc;
 		ARG 0 other
+	METHOD b getMaxOnAxis (Lel$a;)D
 	METHOD c getCenter ()Lcgg;
 	METHOD c expand (DDD)Lcgc;
 		ARG 0 x

@@ -11,6 +11,7 @@ CLASS q net/minecraft/advancement/criterion/AdvancementCriterion
 	METHOD a serialize (Ljava/util/Map;Lht;)V
 		ARG 0 criteria
 		ARG 1 buf
+	METHOD b serialise ()Lcom/google/gson/JsonElement;
 	METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ljava/util/Map;
 		ARG 0 obj
 		ARG 1 context

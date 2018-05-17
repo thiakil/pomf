@@ -12,3 +12,4 @@ CLASS ez net/minecraft/util/registry/Registry
 		ARG 0 key
 	METHOD d containsKey (Ljava/lang/Object;)Z
 		ARG 0 key
+	METHOD iterator iterator ()Ljava/util/Iterator;
