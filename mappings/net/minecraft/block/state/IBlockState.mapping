@@ -8,6 +8,7 @@ CLASS bnz net/minecraft/block/state/IBlockState
 	METHOD a (Lbap;Lef;)Z
 		ARG 0 blockView
 		ARG 1 pos
+	METHOD a getWeakRedstonePower (Lbap;Lef;Lel;)I
 	METHOD a getComparatorOutput (Lbbb;Lef;)I
 		ARG 0 world
 		ARG 1 pos
@@ -41,6 +42,7 @@ CLASS bnz net/minecraft/block/state/IBlockState
 	METHOD j getAmbientOcclusionLightValue ()F
 	METHOD k isNormalCube ()Z
 	METHOD k getOffset (Lbap;Lef;)Lcgg;
+	METHOD l isNotSolid (Lbap;Lef;)Z
 	METHOD m canProvidePower ()Z
 	METHOD o getPistonBehavior ()Lcbh;
 	METHOD s getFluidState ()Lcbb;
