@@ -1,5 +1,7 @@
 CLASS bli net/minecraft/block/BlockTrapdoor
 	CLASS bli$a
+		FIELD a TOP Lbli$a;
+		FIELD b BOTTOM Lbli$a;
 		METHOD m asString ()Ljava/lang/String;
 	FIELD a OPEN Lbou;
 	FIELD b HALF Lbow;

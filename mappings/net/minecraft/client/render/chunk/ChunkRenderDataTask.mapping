@@ -1,7 +1,12 @@
 CLASS cxx net/minecraft/client/render/chunk/ChunkRenderDataTask
 	CLASS cxx$a Stage
 		FIELD a INIT Lcxx$a;
+		FIELD b COMPILING Lcxx$a;
+		FIELD c UPLOADING Lcxx$a;
+		FIELD d DONE Lcxx$a;
 	CLASS cxx$b MODE
+		FIELD a REBUILD_CHUNK Lcxx$b;
+		FIELD b RESORT_TRANSPARENCY Lcxx$b;
 	FIELD a chunkRenderer Lcyd;
 	FIELD b lock Ljava/util/concurrent/locks/ReentrantLock;
 	FIELD c runnables Ljava/util/List;

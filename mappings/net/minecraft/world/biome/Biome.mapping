@@ -21,6 +21,23 @@ CLASS bbv net/minecraft/world/biome/Biome
 		METHOD c withTemperature (F)Lbbv$a;
 		METHOD d withDownfall (F)Lbbv$a;
 	CLASS bbv$b Category
+		FIELD a NONE Lbbv$b;
+		FIELD b TAIGA Lbbv$b;
+		FIELD c EXTREME_HILLS Lbbv$b;
+		FIELD d JUNGLE Lbbv$b;
+		FIELD e MESA Lbbv$b;
+		FIELD f PLAINS Lbbv$b;
+		FIELD g SAVANNA Lbbv$b;
+		FIELD h ICY Lbbv$b;
+		FIELD i THEEND Lbbv$b;
+		FIELD j BEACH Lbbv$b;
+		FIELD k FOREST Lbbv$b;
+		FIELD l OCEAN Lbbv$b;
+		FIELD m DESERT Lbbv$b;
+		FIELD n RIVER Lbbv$b;
+		FIELD o SWAMP Lbbv$b;
+		FIELD p MUSHROOM Lbbv$b;
+		FIELD q NETHER Lbbv$b;
 	CLASS bbv$c TemperatureGroup
 		FIELD a OCEAN Lbbv$c;
 		FIELD b COLD Lbbv$c;
@@ -34,6 +51,9 @@ CLASS bbv net/minecraft/world/biome/Biome
 			ARG 2 minGroupSize
 			ARG 3 maxGroupSize
 	CLASS bbv$e Precipitation
+		FIELD a NONE Lbbv$e;
+		FIELD b RAIN Lbbv$e;
+		FIELD c SNOW Lbbv$e;
 	FIELD U AIR Lbnz;
 	FIELD V DIRT Lbnz;
 	FIELD W GRASS Lbnz;
