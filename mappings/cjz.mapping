@@ -1,4 +1,8 @@
 CLASS cjz
+	CLASS cjz$a
+		FIELD a TUTORIAL_HINT Lcjz$a;
+		FIELD b NARRATOR_TOGGLE Lcjz$a;
+		FIELD c WORLD_BACKUP Lcjz$a;
 	METHOD a getType ()Lcjz$a;
 	METHOD a draw (Lckb;J)Lcka$a;
 		ARG 0 toastGui

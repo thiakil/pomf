@@ -1,6 +1,10 @@
 CLASS ckc net/minecraft/client/toast/ToastTutorial
 	CLASS ckc$a Icons
+		FIELD a MOVEMENT_KEYS Lckc$a;
+		FIELD b MOUSE Lckc$a;
 		FIELD c TREE Lckc$a;
+		FIELD d RECIPE_BOOK Lckc$a;
+		FIELD e WOODEN_PLANKS Lckc$a;
 	METHOD a hide ()V
 	METHOD a setProgress (F)V
 	METHOD a draw (Lckb;J)Lcka$a;

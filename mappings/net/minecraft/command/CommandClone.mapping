@@ -1,4 +1,8 @@
 CLASS pk net/minecraft/command/CommandClone
+	CLASS pk$b
+		FIELD a FORCE Lpk$b;
+		FIELD b MOVE Lpk$b;
+		FIELD c NORMAL Lpk$b;
 	FIELD b COMMANDS_CLONE_OVERLAP Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD c COMMANDS_CLONE_TOOBIG Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
 	FIELD d COMMANDS_CLONE_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;

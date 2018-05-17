@@ -3,3 +3,4 @@ CLASS cbh net/minecraft/block/piston/PistonBehavior
 	FIELD b BREAK Lcbh;
 	FIELD c BLOCK Lcbh;
 	FIELD d IGNORE Lcbh;
+	FIELD e PUSH_ONLY Lcbh;

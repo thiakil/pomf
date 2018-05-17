@@ -1,4 +1,7 @@
 CLASS ug
+	CLASS ug$a
+		FIELD a TOP Lug$a;
+		FIELD b BOTTOM Lug$a;
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object

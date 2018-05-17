@@ -1,4 +1,10 @@
 CLASS aso net/minecraft/entity/vehicle/EntityBoat
+	CLASS aso$a
+		FIELD a IN_WATER Laso$a;
+		FIELD b UNDER_WATER Laso$a;
+		FIELD c UNDER_FLOWING_WATER Laso$a;
+		FIELD d ON_LAND Laso$a;
+		FIELD e IN_AIR Laso$a;
 	CLASS aso$b BoatType
 		FIELD a OAK Laso$b;
 		FIELD b SPRUCE Laso$b;

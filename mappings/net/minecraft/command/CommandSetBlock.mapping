@@ -1,3 +1,8 @@
 CLASS qv net/minecraft/command/CommandSetBlock
+	CLASS qv$b
+		FIELD a REPLACE Lqv$b;
+		FIELD b OUTLINE Lqv$b;
+		FIELD c HOLLOW Lqv$b;
+		FIELD d DESTROY Lqv$b;
 	FIELD a COMMANDS_SETBLOCK_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

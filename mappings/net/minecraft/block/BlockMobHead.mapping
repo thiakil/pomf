@@ -1,4 +1,11 @@
 CLASS bki net/minecraft/block/BlockMobHead
+	CLASS bki$b
+		FIELD a SKELETON Lbki$b;
+		FIELD b WITHER_SKELETON Lbki$b;
+		FIELD c PLAYER Lbki$b;
+		FIELD d ZOMBIE Lbki$b;
+		FIELD e CREEPER Lbki$b;
+		FIELD f DRAGON Lbki$b;
 	FIELD a ROTATION Lbox;
 	METHOD a getDefaultState (Laup;)Lbnz;
 	METHOD a withMirror (Lbnz;Lbiw;)Lbnz;

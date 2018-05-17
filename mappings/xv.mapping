@@ -8,6 +8,8 @@ CLASS xv
 	CLASS xv$d
 		METHOD equals (Ljava/lang/Object;)Z
 			ARG 0 object
+	CLASS xv$e
+		FIELD a INSTANCE Lxv$e;
 	CLASS xv$g
 		METHOD equals (Ljava/lang/Object;)Z
 			ARG 0 object

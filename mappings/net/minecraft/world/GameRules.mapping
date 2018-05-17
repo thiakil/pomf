@@ -9,6 +9,10 @@ CLASS bax net/minecraft/world/GameRules
 		METHOD b getBoolean ()Z
 		METHOD c getInteger ()I
 		METHOD e getType ()Lbax$c;
+	CLASS bax$c
+		FIELD a ANY_VALUE Lbax$c;
+		FIELD b BOOLEAN_VALUE Lbax$c;
+		FIELD c NUMERICAL_VALUE Lbax$c;
 	FIELD b rules Ljava/util/TreeMap;
 	METHOD a serialize ()Lgu;
 	METHOD a deserialize (Lgu;)V

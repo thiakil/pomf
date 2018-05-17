@@ -1,3 +1,8 @@
 CLASS apu net/minecraft/entity/EntityAbstractIllager
+	CLASS apu$a
+		FIELD a CROSSED Lapu$a;
+		FIELD b ATTACKING Lapu$a;
+		FIELD c SPELLCASTING Lapu$a;
+		FIELD d BOW_AND_ARROW Lapu$a;
 	METHOD cB getEntityAttribute ()Lail;
 	METHOD w_ initDataTracker ()V

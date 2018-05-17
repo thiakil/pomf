@@ -1,7 +1,9 @@
 CLASS bmz net/minecraft/block/entity/BlockEntityShulkerBox
 	CLASS bmz$a AnimationStage
 		FIELD a CLOSED Lbmz$a;
+		FIELD b OPENING Lbmz$a;
 		FIELD c OPENED Lbmz$a;
+		FIELD d CLOSING Lbmz$a;
 	FIELD e inv Leu;
 	FIELD f cleared Z
 	FIELD k animationStage Lbmz$a;

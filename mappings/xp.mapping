@@ -1,3 +1,4 @@
 CLASS xp
 	CLASS xp$a
+		FIELD a INSTANCE Lxp$a;
 		METHOD d right (Labd;)Labd;

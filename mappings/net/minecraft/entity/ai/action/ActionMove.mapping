@@ -1,4 +1,9 @@
 CLASS ajh net/minecraft/entity/ai/action/ActionMove
+	CLASS ajh$a
+		FIELD a WAIT Lajh$a;
+		FIELD b MOVE_TO Lajh$a;
+		FIELD c STRAFE Lajh$a;
+		FIELD d JUMPING Lajh$a;
 	FIELD a owner Laih;
 	METHOD <init> (Laih;)V
 		ARG 0 owner
