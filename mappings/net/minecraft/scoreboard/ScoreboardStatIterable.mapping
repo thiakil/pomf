@@ -1,4 +1,4 @@
-CLASS vx net/minecraft/stat/ScoreboardStatIterable
+CLASS vx net/minecraft/scoreboard/ScoreboardStatIterable
 	FIELD a ID_TO_ITEM Let;
 	FIELD b ITEM_TO_SCOREBOARD_STAT Ljava/util/Map;
 	METHOD a getRegistry ()Let;
