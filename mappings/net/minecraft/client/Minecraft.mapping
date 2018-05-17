@@ -1,4 +1,4 @@
-CLASS cht net/minecraft/client/MinecraftClient
+CLASS cht net/minecraft/client/Minecraft
 	FIELD E LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD G sessionPropertyMap Lcom/mojang/authlib/properties/PropertyMap;
 	FIELD I currentServerEntry Lcsp;
@@ -8,6 +8,7 @@ CLASS cht net/minecraft/client/MinecraftClient
 	FIELD M virtualScreen Lcic;
 	FIELD N crashed Z
 	FIELD O crashReport Lb;
+	FIELD P connectedToRealms Z
 	FIELD Q renderTickCounter Lchz;
 	FIELD R snooper Laha;
 	FIELD S entityRenderManager Lczy;
@@ -15,6 +16,7 @@ CLASS cht net/minecraft/client/MinecraftClient
 	FIELD U firstPersonRenderer Lcvh;
 	FIELD V cameraEntity Lahx;
 	FIELD X session Lcia;
+	FIELD Y paused Z
 	FIELD aA soundLoader Ldib;
 	FIELD aB musicTracker Ldhy;
 	FIELD aC sessionService Lcom/mojang/authlib/minecraft/MinecraftSessionService;
@@ -75,6 +77,7 @@ CLASS cht net/minecraft/client/MinecraftClient
 	METHOD K getLanguageManager ()Ldfu;
 	METHOD L getSpriteAtlas ()Ldev;
 	METHOD M is64Bit ()Z
+	METHOD N isGamePaused ()Z
 	METHOD O getSoundLoader ()Ldib;
 	METHOD P getMusicType ()Ldhy$a;
 	METHOD Q getSessionService ()Lcom/mojang/authlib/minecraft/MinecraftSessionService;
