@@ -39,6 +39,7 @@ CLASS cvf net/minecraft/client/gl/GlHandler
 		FIELD a FRONT Lcvf$i;
 		FIELD b BACK Lcvf$i;
 		FIELD c FRONT_AND_BACK Lcvf$i;
+		FIELD d glConstant I
 	CLASS cvf$j CullFaceState
 		FIELD a capState Lcvf$c;
 		FIELD b mode I
@@ -46,7 +47,7 @@ CLASS cvf net/minecraft/client/gl/GlHandler
 		FIELD a capState Lcvf$c;
 		FIELD b mask Z
 		FIELD c func I
-	CLASS cvf$l
+	CLASS cvf$l DestFactor
 		FIELD a CONSTANT_ALPHA Lcvf$l;
 		FIELD b CONSTANT_COLOR Lcvf$l;
 		FIELD c DST_ALPHA Lcvf$l;
@@ -61,10 +62,12 @@ CLASS cvf net/minecraft/client/gl/GlHandler
 		FIELD l SRC_ALPHA Lcvf$l;
 		FIELD m SRC_COLOR Lcvf$l;
 		FIELD n ZERO Lcvf$l;
+		FIELD o glConstant I
 	CLASS cvf$m FogMode
 		FIELD a LINEAR Lcvf$m;
 		FIELD b EXP Lcvf$m;
 		FIELD c EXP2 Lcvf$m;
+		FIELD d glConstant I
 	CLASS cvf$n FogState
 		FIELD a capState Lcvf$c;
 		FIELD b mode I
@@ -88,6 +91,7 @@ CLASS cvf net/minecraft/client/gl/GlHandler
 		FIELD n OR_REVERSE Lcvf$o;
 		FIELD o SET Lcvf$o;
 		FIELD p XOR Lcvf$o;
+		FIELD q glConstant I
 	CLASS cvf$p PolygonOffsetState
 		FIELD a capFill Lcvf$c;
 		FIELD b capLine Lcvf$c;
@@ -108,7 +112,7 @@ CLASS cvf net/minecraft/client/gl/GlHandler
 		FIELD c TRANSPARENT_MODEL Lcvf$q;
 		METHOD a begin ()V
 		METHOD b end ()V
-	CLASS cvf$r
+	CLASS cvf$r SourceFactor
 		FIELD a CONSTANT_ALPHA Lcvf$r;
 		FIELD b CONSTANT_COLOR Lcvf$r;
 		FIELD c DST_ALPHA Lcvf$r;
@@ -124,6 +128,7 @@ CLASS cvf net/minecraft/client/gl/GlHandler
 		FIELD m SRC_ALPHA_SATURATE Lcvf$r;
 		FIELD n SRC_COLOR Lcvf$r;
 		FIELD o ZERO Lcvf$r;
+		FIELD p glConstant I
 	CLASS cvf$s StencilSubState
 		FIELD a func I
 	CLASS cvf$t StencilState
@@ -150,6 +155,7 @@ CLASS cvf net/minecraft/client/gl/GlHandler
 	FIELD b vectorBuf Ljava/nio/FloatBuffer;
 	FIELD c alphaTestState Lcvf$a;
 	FIELD d lightSystemEnabled Lcvf$c;
+	FIELD e glLights [Lcvf$c;
 	FIELD f colorMaterial Lcvf$h;
 	FIELD g blendFunc Lcvf$b;
 	FIELD h depth Lcvf$k;
@@ -162,6 +168,7 @@ CLASS cvf net/minecraft/client/gl/GlHandler
 	FIELD o stencilState Lcvf$t;
 	FIELD p normalizeEnabled Lcvf$c;
 	FIELD q activeTexture I
+	FIELD r textureStates [Lcvf$x;
 	FIELD s shadeModel I
 	FIELD t rescaleNormalEnabled Lcvf$c;
 	FIELD u colorMask Lcvf$g;
@@ -174,6 +181,7 @@ CLASS cvf net/minecraft/client/gl/GlHandler
 	METHOD F loadIdentity ()V
 	METHOD G pushMatrix ()V
 	METHOD H popMatrix ()V
+	METHOD I invalidateColorState ()V
 	METHOD J end ()V
 	METHOD K endList ()V
 	METHOD L getError ()I
@@ -198,7 +206,10 @@ CLASS cvf net/minecraft/client/gl/GlHandler
 	METHOD a texEnv (III)V
 	METHOD a blendFuncSeparate (IIII)V
 	METHOD a copyTexSubImage2D (IIIIIIII)V
+	METHOD a texSubImage2D (IIIIIIIIJ)V
 	METHOD a texImage2D (IIIIIIIILjava/nio/IntBuffer;)V
+	METHOD a readPixels (IIIIIIJ)V
+	METHOD a getTexImage (IIIIJ)V
 	METHOD a texCoordPointer (IIILjava/nio/ByteBuffer;)V
 	METHOD a normalPointer (IILjava/nio/ByteBuffer;)V
 	METHOD a light (IILjava/nio/FloatBuffer;)V
@@ -212,6 +223,8 @@ CLASS cvf net/minecraft/client/gl/GlHandler
 	METHOD a enableTextureGen (Lcvf$u;)V
 	METHOD a texGenMode (Lcvf$u;I)V
 	METHOD a texGen (Lcvf$u;ILjava/nio/FloatBuffer;)V
+	METHOD a multMatrix (Ldir;)V
+	METHOD a multMatrix (Ljava/nio/FloatBuffer;)V
 	METHOD a depthMask (Z)V
 	METHOD a colorMask (ZZZZ)V
 	METHOD b translate (DDD)V
@@ -220,11 +233,14 @@ CLASS cvf net/minecraft/client/gl/GlHandler
 	METHOD b scale (FFF)V
 	METHOD b rotate (FFFF)V
 	METHOD b disableLight (I)V
+	METHOD b pixelTransfer (IF)V
 	METHOD b blendFunc (II)V
 	METHOD b texParameter (IIF)V
 	METHOD b texParameter (III)V
+	METHOD b viewport (IIII)V
 	METHOD b vertexPointer (IIILjava/nio/ByteBuffer;)V
 	METHOD b texEnv (IILjava/nio/FloatBuffer;)V
+	METHOD b fogfv (ILjava/nio/FloatBuffer;)V
 	METHOD b endRenderMode (Lcvf$q;)V
 	METHOD b disableTextureGen (Lcvf$u;)V
 	METHOD c popAttrib ()V
@@ -258,6 +274,7 @@ CLASS cvf net/minecraft/client/gl/GlHandler
 	METHOD f enableLightSystem ()V
 	METHOD f logicOp (I)V
 	METHOD f newList (II)V
+	METHOD f normalPointer (III)V
 	METHOD g disableLightSystem ()V
 	METHOD g activeTexture (I)V
 	METHOD g pixelStore (II)V
@@ -274,6 +291,7 @@ CLASS cvf net/minecraft/client/gl/GlHandler
 	METHOD k enableDepthTest ()V
 	METHOD l disableBlend ()V
 	METHOD m enableBlend ()V
+	METHOD m clear (I)V
 	METHOD n matrixMode (I)V
 	METHOD o enableFog ()V
 	METHOD p disableFog ()V
