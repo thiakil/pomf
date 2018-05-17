@@ -13,6 +13,7 @@ CLASS cbf net/minecraft/block/material/Material
 	FIELD O pistonBehavior Lcbh;
 	FIELD P solid Z
 	FIELD a AIR Lcbf;
+	FIELD b VOID_MAYBE Lcbf;
 	FIELD e FLOWER Lcbf;
 	FIELD g PLANT Lcbf;
 	FIELD i WATER Lcbf;

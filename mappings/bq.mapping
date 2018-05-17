@@ -1,3 +1,0 @@
-CLASS bq
-	METHOD a appendCommandFeedback (Lic;)V
-		ARG 0 feedback

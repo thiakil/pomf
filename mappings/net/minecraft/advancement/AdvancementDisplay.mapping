@@ -18,3 +18,4 @@ CLASS u net/minecraft/advancement/AdvancementDisplay
 	METHOD c getIcon ()Lawk;
 	METHOD d getBackground ()Loj;
 	METHOD e getFrame ()Lv;
+	METHOD k serialise ()Lcom/google/gson/JsonElement;

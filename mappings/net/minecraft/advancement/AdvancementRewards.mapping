@@ -5,3 +5,4 @@ CLASS o net/minecraft/advancement/AdvancementRewards
 			ARG 1 type
 			ARG 2 context
 	FIELD a EMPTY Lo;
+	METHOD b serialise ()Lcom/google/gson/JsonElement;

@@ -1,4 +1,0 @@
-CLASS ed
-	FIELD a NONE Led;
-	FIELD b FORWARD Led;
-	FIELD c BACKWARD Led;

@@ -1,2 +1,4 @@
 CLASS cgu net/minecraft/util/math/shapes/ShapeUtils
 	CLASS cgu$a LineConsumer
+	METHOD a fromBoundingBox (DDDDDD)Lcgx;
+	METHOD a fromBoundingBox (Lcgc;)Lcgx;

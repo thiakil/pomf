@@ -1,0 +1,10 @@
+CLASS vx net/minecraft/stat/ScoreboardStatIterable
+	FIELD a ID_TO_ITEM Let;
+	FIELD b ITEM_TO_SCOREBOARD_STAT Ljava/util/Map;
+	METHOD a getRegistry ()Let;
+	METHOD a hasStatFor (Ljava/lang/Object;)Z
+	METHOD a getOrCreateStatFor (Ljava/lang/Object;Lvw;)Lvv;
+	METHOD b size ()I
+	METHOD b getOrCreateStatFor (Ljava/lang/Object;)Lvv;
+	METHOD c getTranslationKey ()Ljava/lang/String;
+	METHOD iterator iterator ()Ljava/util/Iterator;

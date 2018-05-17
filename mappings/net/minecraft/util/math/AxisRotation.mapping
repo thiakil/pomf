@@ -1,0 +1,34 @@
+CLASS ed net/minecraft/util/math/AxisRotation
+	CLASS ed$1
+		METHOD a getOpposite ()Led;
+		METHOD a getRotatedAxisValue (IIILel$a;)I
+			ARG 0 xIn
+			ARG 1 yIn
+			ARG 2 zIn
+		METHOD a rotate (Lel$a;)Lel$a;
+	CLASS ed$2
+		METHOD a getOpposite ()Led;
+		METHOD a getRotatedAxisValue (IIILel$a;)I
+			ARG 0 xIn
+			ARG 1 yIn
+			ARG 2 zIn
+		METHOD a rotate (Lel$a;)Lel$a;
+	CLASS ed$3
+		METHOD a getOpposite ()Led;
+		METHOD a getRotatedAxisValue (IIILel$a;)I
+			ARG 0 xIn
+			ARG 1 yIn
+			ARG 2 zIn
+		METHOD a rotate (Lel$a;)Lel$a;
+	FIELD a NONE Led;
+	FIELD b FORWARD Led;
+	FIELD c BACKWARD Led;
+	FIELD d AXIS_VALUES [Lel$a;
+	FIELD e VALUES_COPY [Led;
+	METHOD a getOpposite ()Led;
+	METHOD a getRotatedAxisValue (IIILel$a;)I
+		ARG 0 xIn
+		ARG 1 yIn
+		ARG 2 zIn
+	METHOD a rotate (Lel$a;)Lel$a;
+	METHOD a getOther (Lel$a;Lel$a;)Led;
