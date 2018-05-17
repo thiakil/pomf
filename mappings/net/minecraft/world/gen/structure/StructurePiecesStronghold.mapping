@@ -1,9 +1,5 @@
 CLASS bzc net/minecraft/world/gen/structure/StructurePiecesStronghold
 	CLASS bzc$a
-		FIELD a OPENING Lbzc$p$a;
-		FIELD b WOOD_DOOR Lbzc$p$a;
-		FIELD c GRATES Lbzc$p$a;
-		FIELD d IRON_DOOR Lbzc$p$a;
 		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
 			ARG 1 rand
 			ARG 2 region
@@ -88,4 +84,9 @@ CLASS bzc net/minecraft/world/gen/structure/StructurePiecesStronghold
 			ARG 0 tag
 		METHOD a deserializeStructureData (Lgu;Lbzr;)V
 			ARG 0 tag
+		CLASS bzc$p$a
+			FIELD a OPENING Lbzc$p$a;
+			FIELD b WOOD_DOOR Lbzc$p$a;
+			FIELD c GRATES Lbzc$p$a;
+			FIELD d IRON_DOOR Lbzc$p$a;
 	METHOD a registerPieces ()V
