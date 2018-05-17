@@ -1,11 +1,11 @@
 CLASS arm net/minecraft/client/render/entity/PlayerModelPart
 	FIELD a CAPE Larm;
-	FIELD b BODY Larm;
-	FIELD c LEFT_ARM Larm;
-	FIELD d RIGHT_ARM Larm;
-	FIELD e LEFT_LEG Larm;
-	FIELD f RIGHT_LEG Larm;
-	FIELD g HEAD Larm;
+	FIELD b JACKET Larm;
+	FIELD c LEFT_SLEEVE Larm;
+	FIELD d RIGHT_SLEEVE Larm;
+	FIELD e LEFT_PANTS_LEG Larm;
+	FIELD f RIGHT_PANTS_LEG Larm;
+	FIELD g HAT Larm;
 	FIELD h id I
 	FIELD i bitFlag I
 	FIELD j name Ljava/lang/String;

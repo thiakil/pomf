@@ -1,8 +1,8 @@
 CLASS arp net/minecraft/entity/projectile/EntityArrowBase
 	CLASS arp$a PickupType
-		FIELD a NO_PICKUP Larp$a;
-		FIELD b PICKUP Larp$a;
-		FIELD c CREATIVE_PICKUP Larp$a;
+		FIELD a DISALLOWED Larp$a;
+		FIELD b ALLOWED Larp$a;
+		FIELD c CREATIVE_ONLY Larp$a;
 		METHOD a fromOrdinal (I)Larp$a;
 	FIELD aA damage D
 	FIELD a inGround Z

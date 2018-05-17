@@ -1,10 +1,10 @@
 CLASS kl net/minecraft/network/packet/client/CPacketPlayerList
 	CLASS kl$a Type
-		FIELD a ADD Lkl$a;
-		FIELD b UPDATE_GAMEMODE Lkl$a;
+		FIELD a ADD_PLAYER Lkl$a;
+		FIELD b UPDATE_GAME_MODE Lkl$a;
 		FIELD c UPDATE_LATENCY Lkl$a;
 		FIELD d UPDATE_DISPLAY_NAME Lkl$a;
-		FIELD e REMOVE Lkl$a;
+		FIELD e REMOVE_PLAYER Lkl$a;
 	FIELD a type Lkl$a;
 	METHOD a readPacket (Lht;)V
 		ARG 0 buf

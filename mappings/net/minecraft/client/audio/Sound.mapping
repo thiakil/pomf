@@ -1,7 +1,7 @@
 CLASS dhb net/minecraft/client/audio/Sound
 	CLASS dhb$a RegistrationType
 		FIELD a FILE Ldhb$a;
-		FIELD b EVENT Ldhb$a;
+		FIELD b SOUND_EVENT Ldhb$a;
 		FIELD c name Ljava/lang/String;
 		METHOD a getByName (Ljava/lang/String;)Ldhb$a;
 	FIELD a id Loj;

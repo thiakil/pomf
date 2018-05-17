@@ -1,7 +1,7 @@
 CLASS kw net/minecraft/network/packet/client/CPacketWorldBorder
 	CLASS kw$a Type
 		FIELD a SET_SIZE Lkw$a;
-		FIELD b INTERPOLATE_SIZE Lkw$a;
+		FIELD b LERP_SIZE Lkw$a;
 		FIELD c SET_CENTER Lkw$a;
 		FIELD d INITIALIZE Lkw$a;
 		FIELD e SET_WARNING_TIME Lkw$a;

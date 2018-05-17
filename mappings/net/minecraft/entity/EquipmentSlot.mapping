@@ -2,8 +2,8 @@ CLASS aic net/minecraft/entity/EquipmentSlot
 	CLASS aic$a Type
 		FIELD a HAND Laic$a;
 		FIELD b ARMOR Laic$a;
-	FIELD a HAND_MAIN Laic;
-	FIELD b HAND_OFF Laic;
+	FIELD a MAINHAND Laic;
+	FIELD b OFFHAND Laic;
 	FIELD c FEET Laic;
 	FIELD d LEGS Laic;
 	FIELD e CHEST Laic;

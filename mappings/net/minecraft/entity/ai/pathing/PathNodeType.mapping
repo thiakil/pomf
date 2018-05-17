@@ -1,22 +1,22 @@
 CLASS cdf net/minecraft/entity/ai/pathing/PathNodeType
 	FIELD a BLOCKED Lcdf;
-	FIELD b AIR Lcdf;
-	FIELD c NORMAL Lcdf;
+	FIELD b OPEN Lcdf;
+	FIELD c WALKABLE Lcdf;
 	FIELD d TRAPDOOR Lcdf;
 	FIELD e FENCE Lcdf;
 	FIELD f LAVA Lcdf;
 	FIELD g WATER Lcdf;
 	FIELD h WATER_BORDER Lcdf;
 	FIELD i RAIL Lcdf;
-	FIELD j FIRE_NEAR Lcdf;
-	FIELD k FIRE Lcdf;
-	FIELD l CACTUS_NEAR Lcdf;
-	FIELD m CACTUS Lcdf;
+	FIELD j DANGER_FIRE Lcdf;
+	FIELD k DAMAGE_FIRE Lcdf;
+	FIELD l DANGER_CACTUS Lcdf;
+	FIELD m DAMAGE_CACTUS Lcdf;
 	FIELD n DANGER_OTHER Lcdf;
 	FIELD o DAMAGE_OTHER Lcdf;
 	FIELD p DOOR_OPEN Lcdf;
-	FIELD q DOOR_WOOD Lcdf;
-	FIELD r DOOR_METAL Lcdf;
+	FIELD q DOOR_WOOD_CLOSED Lcdf;
+	FIELD r DOOR_IRON_CLOSED Lcdf;
 	FIELD s BREACH Lcdf;
 	FIELD t weight F
 	METHOD <init> (Ljava/lang/String;IF)V

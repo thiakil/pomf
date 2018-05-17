@@ -1,8 +1,8 @@
 CLASS kk net/minecraft/network/packet/client/CPacketEventCombat
 	CLASS kk$a Type
-		FIELD a BEGIN Lkk$a;
-		FIELD b END Lkk$a;
-		FIELD c DEATH Lkk$a;
+		FIELD a ENTER_COMBAT Lkk$a;
+		FIELD b END_COMBAT Lkk$a;
+		FIELD c ENTITY_DIED Lkk$a;
 	FIELD a type Lkk$a;
 	FIELD b entityId I
 	FIELD c attackerEntityId I

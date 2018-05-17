@@ -1,12 +1,12 @@
 CLASS mp net/minecraft/network/packet/server/SPacketPlayerState
 	CLASS mp$a State
-		FIELD a BREAK_START Lmp$a;
-		FIELD b BREAK_CANCEL Lmp$a;
-		FIELD c BREAK_END Lmp$a;
-		FIELD d DROP_STACK Lmp$a;
+		FIELD a START_DESTROY_BLOCK Lmp$a;
+		FIELD b ABORT_DESTROY_BLOCK Lmp$a;
+		FIELD c STOP_DESTROY_BLOCK Lmp$a;
+		FIELD d DROP_ALL_ITEMS Lmp$a;
 		FIELD e DROP_ITEM Lmp$a;
-		FIELD f ITEM_USE_FINISH Lmp$a;
-		FIELD g ITEM_HAND_SWAP Lmp$a;
+		FIELD f RELEASE_USE_ITEM Lmp$a;
+		FIELD g SWAP_HELD_ITEMS Lmp$a;
 	FIELD a pos Lef;
 	FIELD b hitFace Lel;
 	FIELD c state Lmp$a;

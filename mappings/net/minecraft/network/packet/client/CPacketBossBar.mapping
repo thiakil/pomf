@@ -2,10 +2,10 @@ CLASS jf net/minecraft/network/packet/client/CPacketBossBar
 	CLASS jf$a Type
 		FIELD a ADD Ljf$a;
 		FIELD b REMOVE Ljf$a;
-		FIELD c UPDATE_HEALTH Ljf$a;
-		FIELD d UPDATE_TITLE Ljf$a;
+		FIELD c UPDATE_PCT Ljf$a;
+		FIELD d UPDATE_NAME Ljf$a;
 		FIELD e UPDATE_STYLE Ljf$a;
-		FIELD f UPDATE_FLAGS Ljf$a;
+		FIELD f UPDATE_PROPERTIES Ljf$a;
 	FIELD a uuid Ljava/util/UUID;
 	FIELD b type Ljf$a;
 	FIELD c name Lic;

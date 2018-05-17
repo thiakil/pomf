@@ -41,8 +41,8 @@ CLASS bbv net/minecraft/world/biome/Biome
 	CLASS bbv$c TemperatureGroup
 		FIELD a OCEAN Lbbv$c;
 		FIELD b COLD Lbbv$c;
-		FIELD c MILD Lbbv$c;
-		FIELD d HOT Lbbv$c;
+		FIELD c MEDIUM Lbbv$c;
+		FIELD d WARM Lbbv$c;
 	CLASS bbv$d SpawnListEntry
 		FIELD c minGroupSize I
 		FIELD d maxGroupSize I

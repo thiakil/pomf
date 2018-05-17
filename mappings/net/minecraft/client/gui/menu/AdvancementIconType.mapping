@@ -1,5 +1,5 @@
 CLASS cly net/minecraft/client/gui/menu/AdvancementIconType
-	FIELD a COMPLETED Lcly;
-	FIELD b ACTIVE Lcly;
+	FIELD a OBTAINED Lcly;
+	FIELD b UNOBTAINED Lcly;
 	FIELD c textureIndex I
 	METHOD a getTextureIndex ()I

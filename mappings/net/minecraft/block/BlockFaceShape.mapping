@@ -7,4 +7,4 @@ CLASS bny net/minecraft/block/BlockFaceShape
 	FIELD f MIDDLE_POLE Lbny;
 	FIELD g CENTER_BIG Lbny;
 	FIELD h MIDDLE_POLE_THICK Lbny;
-	FIELD i NONE Lbny;
+	FIELD i UNDEFINED Lbny;

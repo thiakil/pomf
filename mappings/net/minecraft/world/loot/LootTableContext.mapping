@@ -16,7 +16,7 @@ CLASS cet net/minecraft/world/loot/LootTableContext
 			METHOD a serialize (Lcom/google/gson/stream/JsonWriter;Lcet$b;)V
 		FIELD a THIS Lcet$b;
 		FIELD b KILLER Lcet$b;
-		FIELD c PLAYER Lcet$b;
+		FIELD c KILLER_PLAYER Lcet$b;
 		FIELD d type Ljava/lang/String;
 		METHOD a fromString (Ljava/lang/String;)Lcet$b;
 	FIELD a luck F

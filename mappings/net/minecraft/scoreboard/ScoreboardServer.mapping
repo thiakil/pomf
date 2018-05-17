@@ -1,7 +1,7 @@
 CLASS oy net/minecraft/scoreboard/ScoreboardServer
 	CLASS oy$a MODE
-		FIELD a UPDATE Loy$a;
-		FIELD b DELETE Loy$a;
+		FIELD a CHANGE Loy$a;
+		FIELD b REMOVE Loy$a;
 	FIELD a server Lnet/minecraft/server/MinecraftServer;
 	FIELD b knownObjectives Ljava/util/Set;
 	FIELD c updateTasks [Ljava/lang/Runnable;

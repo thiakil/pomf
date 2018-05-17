@@ -1,8 +1,8 @@
 CLASS atf net/minecraft/container/slot/SlotActionType
-	FIELD a CLICK Latf;
-	FIELD b SHIFT_CLICK Latf;
-	FIELD c HOTBAR_KEY Latf;
-	FIELD d MIDDLE_CLICK Latf;
-	FIELD e DROP Latf;
-	FIELD f DRAG Latf;
-	FIELD g DOUBLE_CLICK Latf;
+	FIELD a PICKUP Latf;
+	FIELD b QUICK_MOVE Latf;
+	FIELD c SWAP Latf;
+	FIELD d CLONE Latf;
+	FIELD e THROW Latf;
+	FIELD f QUICK_CRAFT Latf;
+	FIELD g PICKUP_ALL Latf;

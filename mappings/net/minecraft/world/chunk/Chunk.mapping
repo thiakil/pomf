@@ -2,7 +2,7 @@ CLASS bpp net/minecraft/world/chunk/Chunk
 	CLASS bpp$a CreationMode
 		FIELD a IMMEDIATE Lbpp$a;
 		FIELD b QUEUED Lbpp$a;
-		FIELD c NEVER Lbpp$a;
+		FIELD c CHECK Lbpp$a;
 	FIELD D state Lbpk;
 	FIELD E neighborCount I
 	FIELD a EMPTY_SECTION Lbpq;

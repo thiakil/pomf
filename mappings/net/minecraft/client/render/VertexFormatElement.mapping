@@ -1,11 +1,11 @@
 CLASS dfh net/minecraft/client/render/VertexFormatElement
 	CLASS dfh$a Format
 		FIELD a FLOAT Ldfh$a;
-		FIELD b UNSIGNED_BYTE Ldfh$a;
+		FIELD b UBYTE Ldfh$a;
 		FIELD c BYTE Ldfh$a;
-		FIELD d UNSIGNED_SHORT Ldfh$a;
+		FIELD d USHORT Ldfh$a;
 		FIELD e SHORT Ldfh$a;
-		FIELD f UNSIGNED_INT Ldfh$a;
+		FIELD f UINT Ldfh$a;
 		FIELD g INT Ldfh$a;
 		FIELD h id I
 		FIELD i name Ljava/lang/String;
@@ -18,7 +18,7 @@ CLASS dfh net/minecraft/client/render/VertexFormatElement
 		FIELD b NORMAL Ldfh$b;
 		FIELD c COLOR Ldfh$b;
 		FIELD d UV Ldfh$b;
-		FIELD e BONE_MATRIX Ldfh$b;
+		FIELD e MATRIX Ldfh$b;
 		FIELD f BLEND_WEIGHT Ldfh$b;
 		FIELD g PADDING Ldfh$b;
 		FIELD h name Ljava/lang/String;

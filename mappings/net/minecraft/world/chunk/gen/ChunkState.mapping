@@ -1,7 +1,7 @@
 CLASS bpk net/minecraft/world/chunk/gen/ChunkState
 	CLASS bpk$a
-		FIELD a ACTIVE Lbpk$a;
-		FIELD b COMPLETE Lbpk$a;
+		FIELD a PROTOCHUNK Lbpk$a;
+		FIELD b LEVELCHUNK Lbpk$a;
 	FIELD a EMPTY Lbpk;
 	FIELD b BASE Lbpk;
 	FIELD c CARVED Lbpk;

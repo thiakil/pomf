@@ -1,8 +1,8 @@
 CLASS bgf net/minecraft/block/BlockChest
 	CLASS bgf$a ChestType
 		FIELD a SINGLE Lbgf$a;
-		FIELD b DOUBLE_LEFT Lbgf$a;
-		FIELD c DOUBLE_RIGHT Lbgf$a;
+		FIELD b LEFT Lbgf$a;
+		FIELD c RIGHT Lbgf$a;
 		METHOD m asString ()Ljava/lang/String;
 	FIELD a FACING Lbov;
 	FIELD b TYPE Lbow;

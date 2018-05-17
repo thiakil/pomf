@@ -3,4 +3,4 @@ CLASS aim net/minecraft/entity/MovementType
 	FIELD b PLAYER Laim;
 	FIELD c PISTON Laim;
 	FIELD d SHULKER_BOX Laim;
-	FIELD e SHULKER_ENTITY Laim;
+	FIELD e SHULKER Laim;

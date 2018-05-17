@@ -1,7 +1,7 @@
 CLASS ia net/minecraft/text/ChatType
 	FIELD a CHAT Lia;
 	FIELD b SYSTEM Lia;
-	FIELD c INFO Lia;
+	FIELD c GAME_INFO Lia;
 	FIELD d id B
 	METHOD <init> (Ljava/lang/String;IB)V
 		ARG 2 id

@@ -5,7 +5,7 @@ CLASS dhy net/minecraft/client/audio/MusicTracker
 		FIELD c CREATIVE Ldhy$a;
 		FIELD d CREDITS Ldhy$a;
 		FIELD e NETHER Ldhy$a;
-		FIELD f DRAGON Ldhy$a;
+		FIELD f END_BOSS Ldhy$a;
 		FIELD g END Ldhy$a;
 		FIELD h sound Lvo;
 		FIELD i minDelay I

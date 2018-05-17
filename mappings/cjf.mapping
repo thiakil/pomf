@@ -1,10 +1,10 @@
 CLASS cjf
 	CLASS cjf$a IconLocation
 		FIELD a LOCKED Lcjf$a;
-		FIELD b LOCKED_HOVERED Lcjf$a;
+		FIELD b LOCKED_HOVER Lcjf$a;
 		FIELD c LOCKED_DISABLED Lcjf$a;
 		FIELD d UNLOCKED Lcjf$a;
-		FIELD e UNLOCKED_HOVERED Lcjf$a;
+		FIELD e UNLOCKED_HOVER Lcjf$a;
 		FIELD f UNLOCKED_DISABLED Lcjf$a;
 		FIELD g u I
 		FIELD h v I

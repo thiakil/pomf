@@ -3,7 +3,7 @@ CLASS azj net/minecraft/enchantment/Enchantment
 		FIELD a COMMON Lazj$a;
 		FIELD b UNCOMMON Lazj$a;
 		FIELD c RARE Lazj$a;
-		FIELD d LEGENDARY Lazj$a;
+		FIELD d VERY_RARE Lazj$a;
 		FIELD e weight I
 		METHOD a getWeight ()I
 	FIELD a slotTypes [Laic;

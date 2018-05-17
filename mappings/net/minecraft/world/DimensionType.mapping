@@ -1,7 +1,7 @@
 CLASS bqj net/minecraft/world/DimensionType
 	FIELD a OVERWORLD Lbqj;
 	FIELD b NETHER Lbqj;
-	FIELD c END Lbqj;
+	FIELD c THE_END Lbqj;
 	FIELD d id I
 	FIELD e name Ljava/lang/String;
 	FIELD f suffix Ljava/lang/String;

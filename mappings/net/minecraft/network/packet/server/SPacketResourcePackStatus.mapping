@@ -1,8 +1,8 @@
 CLASS mt net/minecraft/network/packet/server/SPacketResourcePackStatus
 	CLASS mt$a Status
-		FIELD a SUCCESS Lmt$a;
+		FIELD a SUCCESSFULLY_LOADED Lmt$a;
 		FIELD b DECLINED Lmt$a;
-		FIELD c DOWNLOAD_FAILED Lmt$a;
+		FIELD c FAILED_DOWNLOAD Lmt$a;
 		FIELD d ACCEPTED Lmt$a;
 	FIELD a status Lmt$a;
 	METHOD <init> (Lmt$a;)V

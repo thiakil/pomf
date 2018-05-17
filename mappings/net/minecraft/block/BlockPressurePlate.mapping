@@ -1,6 +1,6 @@
 CLASS bjn net/minecraft/block/BlockPressurePlate
 	CLASS bjn$a Type
-		FIELD a WOOD Lbjn$a;
-		FIELD b STONE Lbjn$a;
+		FIELD a EVERYTHING Lbjn$a;
+		FIELD b MOBS Lbjn$a;
 	FIELD t POWERED Lbou;
 	FIELD u type Lbjn$a;

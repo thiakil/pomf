@@ -1,6 +1,6 @@
 CLASS cxx net/minecraft/client/render/chunk/ChunkRenderDataTask
 	CLASS cxx$a Stage
-		FIELD a INIT Lcxx$a;
+		FIELD a PENDING Lcxx$a;
 		FIELD b COMPILING Lcxx$a;
 		FIELD c UPLOADING Lcxx$a;
 		FIELD d DONE Lcxx$a;

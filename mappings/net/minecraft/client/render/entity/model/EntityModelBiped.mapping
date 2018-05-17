@@ -1,9 +1,9 @@
 CLASS cpz net/minecraft/client/render/entity/model/EntityModelBiped
 	CLASS cpz$a ArmState
-		FIELD a DEFAULT Lcpz$a;
+		FIELD a EMPTY Lcpz$a;
 		FIELD b ITEM Lcpz$a;
 		FIELD c BLOCK Lcpz$a;
-		FIELD d CHARGING Lcpz$a;
+		FIELD d BOW_AND_ARROW Lcpz$a;
 		FIELD e THROW_SPEAR Lcpz$a;
 	FIELD c head Lcsc;
 	FIELD d headwear Lcsc;

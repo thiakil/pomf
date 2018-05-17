@@ -1,4 +1,4 @@
 CLASS bjw net/minecraft/block/BlockRenderType
-	FIELD a NONE Lbjw;
+	FIELD a INVISIBLE Lbjw;
 	FIELD b ENTITYBLOCK_ANIMATED Lbjw;
 	FIELD c MODEL Lbjw;

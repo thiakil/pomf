@@ -1,6 +1,6 @@
 CLASS cgd net/minecraft/util/HitResult
 	CLASS cgd$a Type
-		FIELD a NONE Lcgd$a;
+		FIELD a MISS Lcgd$a;
 		FIELD b BLOCK Lcgd$a;
 		FIELD c ENTITY Lcgd$a;
 	FIELD a type Lcgd$a;

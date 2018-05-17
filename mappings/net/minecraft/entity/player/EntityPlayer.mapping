@@ -1,14 +1,14 @@
 CLASS arl net/minecraft/entity/player/EntityPlayer
 	CLASS arl$a SleepResult
-		FIELD a SUCCESS Larl$a;
-		FIELD b INVALID_WORLD Larl$a;
-		FIELD c WRONG_TIME Larl$a;
+		FIELD a OK Larl$a;
+		FIELD b NOT_POSSIBLE_HERE Larl$a;
+		FIELD c NOT_POSSIBLE_NOW Larl$a;
 		FIELD d TOO_FAR_AWAY Larl$a;
 		FIELD e OTHER_PROBLEM Larl$a;
 		FIELD f NOT_SAFE Larl$a;
 	CLASS arl$b ChatVisibility
 		FIELD a FULL Larl$b;
-		FIELD b COMMANDS Larl$b;
+		FIELD b SYSTEM Larl$b;
 		FIELD c HIDDEN Larl$b;
 		FIELD e id I
 		FIELD f key Ljava/lang/String;

@@ -1,6 +1,6 @@
 CLASS baq net/minecraft/client/render/block/BlockRenderLayer
 	FIELD a SOLID Lbaq;
-	FIELD b MIPPED_CUTOUT Lbaq;
+	FIELD b CUTOUT_MIPPED Lbaq;
 	FIELD c CUTOUT Lbaq;
 	FIELD d TRANSLUCENT Lbaq;
 	FIELD e name Ljava/lang/String;

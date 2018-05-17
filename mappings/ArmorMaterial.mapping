@@ -1,6 +1,6 @@
 CLASS aui ArmorMaterial
 	FIELD a LEATHER Laui;
-	FIELD b CHAINMAIL Laui;
+	FIELD b CHAIN Laui;
 	FIELD c IRON Laui;
 	FIELD d GOLD Laui;
 	FIELD e DIAMOND Laui;

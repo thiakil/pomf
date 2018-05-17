@@ -9,7 +9,7 @@ CLASS chw net/minecraft/client/settings/GameSettings
 		FIELD G ENTITY_SHADOWS Lchw$a;
 		FIELD H MAIN_HAND Lchw$a;
 		FIELD I ATTACK_INDICATOR Lchw$a;
-		FIELD J ENABLE_WEAK_ATTACK Lchw$a;
+		FIELD J ENABLE_WEAK_ATTACKS Lchw$a;
 		FIELD K SHOW_SUBTITLES Lchw$a;
 		FIELD L REALMS_NOTIFICATIONS Lchw$a;
 		FIELD M AUTO_JUMP Lchw$a;
@@ -27,22 +27,22 @@ CLASS chw net/minecraft/client/settings/GameSettings
 		FIELD f RENDER_DISTANCE Lchw$a;
 		FIELD g VIEW_BOBBING Lchw$a;
 		FIELD h FRAMERATE_LIMIT Lchw$a;
-		FIELD i FBO_ENABLED Lchw$a;
+		FIELD i FBO_ENABLE Lchw$a;
 		FIELD j RENDER_CLOUDS Lchw$a;
 		FIELD k GRAPHICS Lchw$a;
-		FIELD l AO Lchw$a;
+		FIELD l AMBIENT_OCCLUSION Lchw$a;
 		FIELD m GUI_SCALE Lchw$a;
 		FIELD n PARTICLES Lchw$a;
-		FIELD o VISIBILITY Lchw$a;
+		FIELD o CHAT_VISIBILITY Lchw$a;
 		FIELD p CHAT_COLOR Lchw$a;
 		FIELD q CHAT_LINKS Lchw$a;
 		FIELD r CHAT_OPACITY Lchw$a;
 		FIELD s CHAT_LINKS_PROMPT Lchw$a;
-		FIELD t SNOOPER Lchw$a;
+		FIELD t SNOOPER_ENABLED Lchw$a;
 		FIELD u FULLSCREEN_RESOLUTION Lchw$a;
-		FIELD v FULLSCREEN Lchw$a;
-		FIELD w VSYNC Lchw$a;
-		FIELD x VBO Lchw$a;
+		FIELD v USE_FULLSCREEN Lchw$a;
+		FIELD w ENABLE_VSYNC Lchw$a;
+		FIELD x USE_VBO Lchw$a;
 		FIELD y TOUCHSCREEN Lchw$a;
 		FIELD z CHAT_SCALE Lchw$a;
 		METHOD a isSlider ()Z

@@ -1,6 +1,6 @@
 CLASS axq ToolMaterial
 	FIELD a WOOD Laxq;
-	FIELD b COBBLESTONE Laxq;
+	FIELD b STONE Laxq;
 	FIELD c IRON Laxq;
 	FIELD d DIAMOND Laxq;
 	FIELD e GOLD Laxq;

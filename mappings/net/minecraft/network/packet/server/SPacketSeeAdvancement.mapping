@@ -1,7 +1,7 @@
 CLASS mu net/minecraft/network/packet/server/SPacketSeeAdvancement
 	CLASS mu$a Action
-		FIELD a SEE Lmu$a;
-		FIELD b CLOSE Lmu$a;
+		FIELD a OPENED_TAB Lmu$a;
+		FIELD b CLOSED_SCREEN Lmu$a;
 	FIELD a action Lmu$a;
 	FIELD b advancementId Loj;
 	METHOD <init> (Lmu$a;Loj;)V

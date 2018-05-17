@@ -1,5 +1,5 @@
 CLASS bay net/minecraft/world/GameMode
-	FIELD a INVALID Lbay;
+	FIELD a NOT_SET Lbay;
 	FIELD b SURVIVAL Lbay;
 	FIELD c CREATIVE Lbay;
 	FIELD d ADVENTURE Lbay;

@@ -1,14 +1,14 @@
 CLASS mq net/minecraft/network/packet/server/SPacketEntityAction
 	CLASS mq$a Type
-		FIELD a SNEAK_START Lmq$a;
-		FIELD b SNEAK_END Lmq$a;
-		FIELD c BED_LEAVE Lmq$a;
-		FIELD d SPRINT_START Lmq$a;
-		FIELD e SPRINT_END Lmq$a;
-		FIELD f HORSE_JUMP_START Lmq$a;
-		FIELD g HORSE_JUMP_END Lmq$a;
-		FIELD h HORSE_INVENTORY_OPEN Lmq$a;
-		FIELD i ELYTRA_FLIGHT_START Lmq$a;
+		FIELD a START_SNEAKING Lmq$a;
+		FIELD b STOP_SNEAKING Lmq$a;
+		FIELD c STOP_SLEEPING Lmq$a;
+		FIELD d START_SPRINTING Lmq$a;
+		FIELD e STOP_SPRINTING Lmq$a;
+		FIELD f START_RIDING_JUMP Lmq$a;
+		FIELD g STOP_RIDING_JUMP Lmq$a;
+		FIELD h OPEN_INVENTORY Lmq$a;
+		FIELD i START_FALL_FLYING Lmq$a;
 	FIELD a entityId I
 	FIELD b type Lmq$a;
 	FIELD c parameter I

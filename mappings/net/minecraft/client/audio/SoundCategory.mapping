@@ -1,12 +1,12 @@
 CLASS vq net/minecraft/client/audio/SoundCategory
 	FIELD a MASTER Lvq;
 	FIELD b MUSIC Lvq;
-	FIELD c RECORD Lvq;
+	FIELD c RECORDS Lvq;
 	FIELD d WEATHER Lvq;
-	FIELD e BLOCK Lvq;
+	FIELD e BLOCKS Lvq;
 	FIELD f HOSTILE Lvq;
 	FIELD g NEUTRAL Lvq;
-	FIELD h PLAYER Lvq;
+	FIELD h PLAYERS Lvq;
 	FIELD i AMBIENT Lvq;
 	FIELD j VOICE Lvq;
 	FIELD l name Ljava/lang/String;

@@ -1,6 +1,6 @@
 CLASS bnt net/minecraft/block/BlockPistonHead
 	CLASS bnt$a Type
-		FIELD a NORMAL Lbnt$a;
+		FIELD a DEFAULT Lbnt$a;
 		FIELD b STICKY Lbnt$a;
 		FIELD c name Ljava/lang/String;
 		METHOD m asString ()Ljava/lang/String;
