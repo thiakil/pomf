@@ -50,7 +50,7 @@ CLASS om net/minecraft/reference/Bootstrap
 		METHOD b doDispense (Leg;Lawk;)Lawk;
 			ARG 0 block
 			ARG 1 stack
-	CLASS om$b
+	CLASS om$b DispenserShulkerBoxInteraction
 		METHOD a getPosition ()Lef;
 		METHOD f getPlayerFacing ()Lel;
 		METHOD g isSneaking ()Z

@@ -1,0 +1,2 @@
+CLASS aup net/minecraft/util/BlockPlaceItemInteraction
+	METHOD a getPosition ()Lef;

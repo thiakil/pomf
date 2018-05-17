@@ -1,2 +1,0 @@
-CLASS aup
-	METHOD a getPosition ()Lef;
