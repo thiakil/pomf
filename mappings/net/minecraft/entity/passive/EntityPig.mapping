@@ -1,30 +1,30 @@
-CLASS ane net/minecraft/entity/passive/EntityPig
-	FIELD bz SADDLED Lny;
-	METHOD E getSoundAmbient ()Lvo;
-	METHOD H getLootTableId ()Loj;
-	METHOD a onDeath (Lahg;)V
+CLASS ang net/minecraft/entity/passive/EntityPig
+	FIELD bz SADDLED Lnz;
+	METHOD E getSoundAmbient ()Lvp;
+	METHOD H getLootTableId ()Lok;
+	METHOD a onDeath (Lahi;)V
 		ARG 0 damageSource
-	METHOD a createChild (Lahu;)Lahu;
+	METHOD a createChild (Lahw;)Lahw;
 		ARG 0 other
-	METHOD a onStruckByLightning (Lapo;)V
+	METHOD a onStruckByLightning (Lapq;)V
 		ARG 0 lightning
-	METHOD a interactMob (Larl;Lagq;)Z
+	METHOD a interactMob (Larn;Lags;)Z
 		ARG 0 player
 		ARG 1 playerHand
-	METHOD a playStepSound (Lef;Lbfq;)V
+	METHOD a playStepSound (Leg;Lbfs;)V
 		ARG 0 pos
 		ARG 1 block
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
-	METHOD a onTrackedDataSet (Lny;)V
+	METHOD a onTrackedDataSet (Lnz;)V
 		ARG 0 data
-	METHOD b createChild (Lahu;)Lane;
+	METHOD b createChild (Lahw;)Lang;
 		ARG 0 other
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD ca initAttributes ()V
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD ct getSoundDeath ()Lvp;
+	METHOD d getSoundHurt (Lahi;)Lvp;
 	METHOD dC isSaddled ()Z
 	METHOD s setSaddled (Z)V
 		ARG 0 value

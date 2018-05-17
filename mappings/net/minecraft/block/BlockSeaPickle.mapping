@@ -1,15 +1,15 @@
-CLASS bkd net/minecraft/block/BlockSeaPickle
-	FIELD a PICKLES Lbox;
-	FIELD b WATERLOGGED Lbou;
-	METHOD a getDefaultState (Laup;)Lbnz;
-	METHOD a isFertilizable (Lbap;Lef;Lbnz;Z)Z
+CLASS bkf net/minecraft/block/BlockSeaPickle
+	FIELD a PICKLES Lboz;
+	FIELD b WATERLOGGED Lbow;
+	METHOD a getDefaultState (Laur;)Lbob;
+	METHOD a isFertilizable (Lbar;Leg;Lbob;Z)Z
 		ARG 1 pos
 		ARG 3 remote
-	METHOD a canGrow (Lbbb;Ljava/util/Random;Lef;Lbnz;)Z
+	METHOD a canGrow (Lbbd;Ljava/util/Random;Leg;Lbob;)Z
 		ARG 0 world
 		ARG 1 rand
 		ARG 2 pos
-	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z
+	METHOD a onActivated (Lbob;Lbbd;Leg;Larn;Lags;Lem;FFF)Z
 		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
@@ -19,10 +19,10 @@ CLASS bkd net/minecraft/block/BlockSeaPickle
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
-	METHOD a getDropAmount (Lbnz;Ljava/util/Random;)I
-	METHOD b grow (Lbbb;Ljava/util/Random;Lef;Lbnz;)V
+	METHOD a getDropAmount (Lbob;Ljava/util/Random;)I
+	METHOD b grow (Lbbd;Ljava/util/Random;Leg;Lbob;)V
 		ARG 0 world
 		ARG 1 rand
 		ARG 2 pos
-	METHOD l getLightValue (Lbnz;)I
-	METHOD t getFluidState (Lbnz;)Lcbb;
+	METHOD l getLightValue (Lbob;)I
+	METHOD t getFluidState (Lbob;)Lcbd;

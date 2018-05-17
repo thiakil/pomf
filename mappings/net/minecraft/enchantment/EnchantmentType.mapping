@@ -1,55 +1,55 @@
-CLASS azk net/minecraft/enchantment/EnchantmentType
-	CLASS azk$1
-		METHOD a isAcceptableItem (Lawg;)Z
+CLASS azm net/minecraft/enchantment/EnchantmentType
+	CLASS azm$1
+		METHOD a isAcceptableItem (Lawi;)Z
 			ARG 0 item
-	CLASS azk$2
-		METHOD a isAcceptableItem (Lawg;)Z
+	CLASS azm$2
+		METHOD a isAcceptableItem (Lawi;)Z
 			ARG 0 item
-	CLASS azk$3
-		METHOD a isAcceptableItem (Lawg;)Z
+	CLASS azm$3
+		METHOD a isAcceptableItem (Lawi;)Z
 			ARG 0 item
-	CLASS azk$4
-		METHOD a isAcceptableItem (Lawg;)Z
+	CLASS azm$4
+		METHOD a isAcceptableItem (Lawi;)Z
 			ARG 0 item
-	CLASS azk$5
-		METHOD a isAcceptableItem (Lawg;)Z
+	CLASS azm$5
+		METHOD a isAcceptableItem (Lawi;)Z
 			ARG 0 item
-	CLASS azk$6
-		METHOD a isAcceptableItem (Lawg;)Z
+	CLASS azm$6
+		METHOD a isAcceptableItem (Lawi;)Z
 			ARG 0 item
-	CLASS azk$7
-		METHOD a isAcceptableItem (Lawg;)Z
+	CLASS azm$7
+		METHOD a isAcceptableItem (Lawi;)Z
 			ARG 0 item
-	CLASS azk$8
-		METHOD a isAcceptableItem (Lawg;)Z
+	CLASS azm$8
+		METHOD a isAcceptableItem (Lawi;)Z
 			ARG 0 item
-	CLASS azk$9
-		METHOD a isAcceptableItem (Lawg;)Z
+	CLASS azm$9
+		METHOD a isAcceptableItem (Lawi;)Z
 			ARG 0 item
-	CLASS azk$10
-		METHOD a isAcceptableItem (Lawg;)Z
+	CLASS azm$10
+		METHOD a isAcceptableItem (Lawi;)Z
 			ARG 0 item
-	CLASS azk$11
-		METHOD a isAcceptableItem (Lawg;)Z
+	CLASS azm$11
+		METHOD a isAcceptableItem (Lawi;)Z
 			ARG 0 item
-	CLASS azk$12
-		METHOD a isAcceptableItem (Lawg;)Z
+	CLASS azm$12
+		METHOD a isAcceptableItem (Lawi;)Z
 			ARG 0 item
-	CLASS azk$13
-		METHOD a isAcceptableItem (Lawg;)Z
+	CLASS azm$13
+		METHOD a isAcceptableItem (Lawi;)Z
 			ARG 0 item
-	FIELD a ALL Lazk;
-	FIELD b ARMOR Lazk;
-	FIELD c FEET Lazk;
-	FIELD d LEGS Lazk;
-	FIELD e CHEST Lazk;
-	FIELD f HELM Lazk;
-	FIELD g WEAPON Lazk;
-	FIELD h BREAKER Lazk;
-	FIELD i FISHING Lazk;
-	FIELD j TRIDENT Lazk;
-	FIELD k TOOL Lazk;
-	FIELD l BOW Lazk;
-	FIELD m WEARABLE Lazk;
-	METHOD a isAcceptableItem (Lawg;)Z
+	FIELD a ALL Lazm;
+	FIELD b ARMOR Lazm;
+	FIELD c FEET Lazm;
+	FIELD d LEGS Lazm;
+	FIELD e CHEST Lazm;
+	FIELD f HELM Lazm;
+	FIELD g WEAPON Lazm;
+	FIELD h BREAKER Lazm;
+	FIELD i FISHING Lazm;
+	FIELD j TRIDENT Lazm;
+	FIELD k TOOL Lazm;
+	FIELD l BOW Lazm;
+	FIELD m WEARABLE Lazm;
+	METHOD a isAcceptableItem (Lawi;)Z
 		ARG 0 item

@@ -1,4 +1,4 @@
-CLASS bua net/minecraft/world/gen/decorator/DecoratorDungeon
+CLASS buc net/minecraft/world/gen/decorator/DecoratorDungeon
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD a getRandomMobIdentifier (Ljava/util/Random;)Laib;
+	METHOD a getRandomMobIdentifier (Ljava/util/Random;)Laid;
 		ARG 0 random

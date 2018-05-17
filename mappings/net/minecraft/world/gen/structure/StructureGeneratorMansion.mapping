@@ -1,5 +1,5 @@
-CLASS bwf net/minecraft/world/gen/structure/StructureGeneratorMansion
-	CLASS bwf$a
-		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)V
+CLASS bwh net/minecraft/world/gen/structure/StructureGeneratorMansion
+	CLASS bwh$a
+		METHOD a generate (Lbbe;Ljava/util/Random;Lbyn;Lbat;)V
 			ARG 1 rand
 			ARG 2 region

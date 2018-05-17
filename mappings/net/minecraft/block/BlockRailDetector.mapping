@@ -1,33 +1,33 @@
-CLASS bgw net/minecraft/block/BlockRailDetector
-	FIELD t SHAPE Lbow;
-	FIELD u POWERED Lbou;
-	METHOD a getWeakRedstonePower (Lbnz;Lbap;Lef;Lel;)I
+CLASS bgy net/minecraft/block/BlockRailDetector
+	FIELD t SHAPE Lboy;
+	FIELD u POWERED Lbow;
+	METHOD a getWeakRedstonePower (Lbob;Lbar;Leg;Lem;)I
 		ARG 1 view
 		ARG 2 pos
 		ARG 3 facingFrom
-	METHOD a getComparatorOutput (Lbnz;Lbbb;Lef;)I
+	METHOD a getComparatorOutput (Lbob;Lbbd;Leg;)I
 		ARG 1 world
 		ARG 2 pos
-	METHOD a onEntityCollision (Lbnz;Lbbb;Lef;Lahx;)V
+	METHOD a onEntityCollision (Lbob;Lbbd;Leg;Lahz;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 entity
-	METHOD a randomTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+	METHOD a randomTick (Lbob;Lbbd;Leg;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
-	METHOD a withMirror (Lbnz;Lbiw;)Lbnz;
-	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;
-	METHOD b getStrongRedstonePower (Lbnz;Lbap;Lef;Lel;)I
+	METHOD a withMirror (Lbob;Lbiy;)Lbob;
+	METHOD a withRotation (Lbob;Lbkb;)Lbob;
+	METHOD b getStrongRedstonePower (Lbob;Lbar;Leg;Lem;)I
 		ARG 1 view
 		ARG 2 pos
 		ARG 3 facingFrom
-	METHOD b onBlockAdded (Lbnz;Lbbb;Lef;Lbnz;)V
+	METHOD b onBlockAdded (Lbob;Lbbd;Leg;Lbob;)V
 		ARG 1 world
 		ARG 2 pos
-	METHOD b updateTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+	METHOD b updateTick (Lbob;Lbbd;Leg;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
-	METHOD c getShapeProperty ()Lboy;
-	METHOD h canProvidePower (Lbnz;)Z
+	METHOD c getShapeProperty ()Lbpa;
+	METHOD h canProvidePower (Lbob;)Z

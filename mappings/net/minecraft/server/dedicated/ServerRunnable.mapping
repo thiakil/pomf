@@ -1,7 +1,7 @@
-CLASS rv net/minecraft/server/dedicated/ServerRunnable
+CLASS rw net/minecraft/server/dedicated/ServerRunnable
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b server Lru;
+	FIELD b server Lrv;
 	FIELD c maximumTickTime J
-	METHOD <init> (Lru;)V
+	METHOD <init> (Lrv;)V
 		ARG 0 server
 	METHOD a halt ()V

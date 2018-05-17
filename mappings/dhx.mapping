@@ -1,2 +1,0 @@
-CLASS dhx
-	FIELD f preInit Ljava/lang/String;

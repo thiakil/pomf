@@ -1,4 +1,4 @@
-CLASS aum net/minecraft/item/ItemBanner
-	METHOD a addInformation (Lawk;Lbbb;Ljava/util/List;Laxs;)V
+CLASS auo net/minecraft/item/ItemBanner
+	METHOD a addInformation (Lawm;Lbbd;Ljava/util/List;Laxu;)V
 		ARG 0 stack
 		ARG 2 tooltip

@@ -1,4 +1,4 @@
-CLASS li net/minecraft/network/packet/client/CPacketTeam
+CLASS lj net/minecraft/network/packet/client/CPacketTeam
 	FIELD a teamName Ljava/lang/String;
 	FIELD b displayName Ljava/lang/String;
 	FIELD e nameTagVisibilityRule Ljava/lang/String;
@@ -6,22 +6,22 @@ CLASS li net/minecraft/network/packet/client/CPacketTeam
 	FIELD h playerList Ljava/util/Collection;
 	FIELD i mode I
 	FIELD j flags I
-	METHOD <init> (Lchb;I)V
+	METHOD <init> (Lchd;I)V
 		ARG 0 team
 		ARG 1 mode
-	METHOD <init> (Lchb;Ljava/util/Collection;I)V
+	METHOD <init> (Lchd;Ljava/util/Collection;I)V
 		ARG 0 team
 		ARG 1 playerList
 		ARG 2 mode
 	METHOD a getTeamName ()Ljava/lang/String;
-	METHOD a readPacket (Lht;)V
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lis;)V
+	METHOD a applyPacket (Lit;)V
 		ARG 0 handler
 	METHOD b getDisplayName ()Ljava/lang/String;
-	METHOD b writePacket (Lht;)V
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf
 	METHOD c getPlayerList ()Ljava/util/Collection;
 	METHOD d getMode ()I

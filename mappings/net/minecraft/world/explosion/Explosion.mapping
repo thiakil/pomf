@@ -1,16 +1,16 @@
-CLASS bav net/minecraft/world/explosion/Explosion
+CLASS bax net/minecraft/world/explosion/Explosion
 	FIELD a createFire Z
 	FIELD b destroyBlocks Z
 	FIELD c rand Ljava/util/Random;
-	FIELD d world Lbbb;
+	FIELD d world Lbbd;
 	FIELD e x D
 	FIELD f y D
 	FIELD g z D
-	FIELD h entity Lahx;
+	FIELD h entity Lahz;
 	FIELD i power F
 	FIELD k affectedBlocks Ljava/util/List;
 	FIELD l affectedPlayers Ljava/util/Map;
-	METHOD <init> (Lbbb;Lahx;DDDFLjava/util/List;)V
+	METHOD <init> (Lbbd;Lahz;DDDFLjava/util/List;)V
 		ARG 0 world
 		ARG 1 entity
 		ARG 2 x
@@ -18,7 +18,7 @@ CLASS bav net/minecraft/world/explosion/Explosion
 		ARG 4 z
 		ARG 5 power
 		ARG 6 affectedBlocks
-	METHOD <init> (Lbbb;Lahx;DDDFZZ)V
+	METHOD <init> (Lbbd;Lahz;DDDFZZ)V
 		ARG 0 world
 		ARG 1 entity
 		ARG 2 x
@@ -27,7 +27,7 @@ CLASS bav net/minecraft/world/explosion/Explosion
 		ARG 5 power
 		ARG 6 createFire
 		ARG 7 destroyBlocks
-	METHOD <init> (Lbbb;Lahx;DDDFZZLjava/util/List;)V
+	METHOD <init> (Lbbd;Lahz;DDDFZZLjava/util/List;)V
 		ARG 0 world
 		ARG 1 entity
 		ARG 2 x
@@ -41,6 +41,6 @@ CLASS bav net/minecraft/world/explosion/Explosion
 	METHOD a affectWorld (Z)V
 		ARG 0 spawnParticles
 	METHOD c getAffectedPlayers ()Ljava/util/Map;
-	METHOD d getCausingEntity ()Laig;
+	METHOD d getCausingEntity ()Laii;
 	METHOD e clearAffectedBlocks ()V
 	METHOD f getAffectedBlocks ()Ljava/util/List;

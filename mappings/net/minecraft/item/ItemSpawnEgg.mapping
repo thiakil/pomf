@@ -1,6 +1,6 @@
-CLASS axi net/minecraft/item/ItemSpawnEgg
-	METHOD a activate (Laxv;)Lags;
-	METHOD a onRightClick (Lbbb;Larl;Lagq;)Lagt;
+CLASS axk net/minecraft/item/ItemSpawnEgg
+	METHOD a activate (Laxx;)Lagu;
+	METHOD a onRightClick (Lbbd;Larn;Lags;)Lagv;
 		ARG 0 world
 		ARG 1 player
 		ARG 2 hand

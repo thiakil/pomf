@@ -1,16 +1,16 @@
-CLASS cey net/minecraft/world/loot/function/LootTableFunctionEnchantWithLevels
-	CLASS cey$a DeSerializer
-		METHOD a serialize (Lcom/google/gson/JsonObject;Lcey;Lcom/google/gson/JsonSerializationContext;)V
+CLASS cfa net/minecraft/world/loot/function/LootTableFunctionEnchantWithLevels
+	CLASS cfa$a DeSerializer
 		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfa;Lcom/google/gson/JsonSerializationContext;)V
-		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfm;)Lcey;
-		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfm;)Lcfa;
-	FIELD a levelRange Lcew;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfc;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfo;)Lcfa;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfo;)Lcfc;
+	FIELD a levelRange Lcey;
 	FIELD b treasureEnchantmentsAllowed Z
-	METHOD <init> ([Lcfm;Lcew;Z)V
+	METHOD <init> ([Lcfo;Lcey;Z)V
 		ARG 0 conditions
 		ARG 1 levelRange
 		ARG 2 treasure
-	METHOD a apply (Lawk;Ljava/util/Random;Lcet;)Lawk;
+	METHOD a apply (Lawm;Ljava/util/Random;Lcev;)Lawm;
 		ARG 0 stack
 		ARG 1 rand
 		ARG 2 context

@@ -1,7 +1,7 @@
-CLASS des net/minecraft/client/texture/TextureImage
-	FIELD f location Loj;
+CLASS deu net/minecraft/client/texture/TextureImage
+	FIELD f location Lok;
 	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD <init> (Loj;)V
+	METHOD <init> (Lok;)V
 		ARG 0 location
-	METHOD a load (Lul;)V
+	METHOD a load (Lum;)V
 		ARG 0 resourceContainer

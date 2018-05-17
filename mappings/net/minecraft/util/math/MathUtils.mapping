@@ -1,4 +1,4 @@
-CLASS wx net/minecraft/util/math/MathUtils
+CLASS wy net/minecraft/util/math/MathUtils
 	FIELD a SQUARE_ROOT_2 F
 	FIELD c rand Ljava/util/Random;
 	FIELD d MULTIPLY_DE_BRUIJN_BIT_POSITION [I
@@ -33,7 +33,7 @@ CLASS wx net/minecraft/util/math/MathUtils
 		ARG 0 value
 		ARG 1 min
 		ARG 2 max
-	METHOD a hashCode (Lfb;)J
+	METHOD a hashCode (Lfc;)J
 		ARG 0 vec
 	METHOD a getInt (Ljava/lang/String;II)I
 		ARG 0 firstValue

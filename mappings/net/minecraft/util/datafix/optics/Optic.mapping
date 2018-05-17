@@ -1,10 +1,10 @@
-CLASS acg net/minecraft/util/datafix/optics/Optic
-	CLASS acg$a CompositionOptic
-		FIELD a outer Lacg;
-		FIELD b inner Lacg;
-		METHOD a getOuter ()Lacg;
+CLASS aci net/minecraft/util/datafix/optics/Optic
+	CLASS aci$a CompositionOptic
+		FIELD a outer Laci;
+		FIELD b inner Laci;
+		METHOD a getOuter ()Laci;
 		METHOD equals (Ljava/lang/Object;)Z
 			ARG 0 object
-	METHOD a compose (Lacg;)Lacg;
+	METHOD a compose (Laci;)Laci;
 	METHOD a upCast (Ljava/util/Set;Lcom/google/common/reflect/TypeToken;)Ljava/util/Optional;
-	METHOD b composeUnchecked (Lacg;)Lacg;
+	METHOD b composeUnchecked (Laci;)Laci;

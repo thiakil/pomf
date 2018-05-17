@@ -1,12 +1,12 @@
-CLASS vj net/minecraft/server/rcon/RconBase
+CLASS vk net/minecraft/server/rcon/RconBase
 	FIELD a running Z
-	FIELD b server Lox;
+	FIELD b server Loy;
 	FIELD c description Ljava/lang/String;
 	FIELD d thread Ljava/lang/Thread;
 	FIELD f sockets Ljava/util/List;
 	FIELD g serverSockets Ljava/util/List;
 	FIELD h LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD <init> (Lox;Ljava/lang/String;)V
+	METHOD <init> (Loy;Ljava/lang/String;)V
 		ARG 0 server
 		ARG 1 description
 	METHOD a start ()V

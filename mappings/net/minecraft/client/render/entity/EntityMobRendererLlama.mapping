@@ -1,5 +1,5 @@
-CLASS dau net/minecraft/client/render/entity/EntityMobRendererLlama
-	METHOD a getTexture (Lahx;)Loj;
+CLASS daw net/minecraft/client/render/entity/EntityMobRendererLlama
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Lanx;)Loj;
+	METHOD a getTexture (Lanz;)Lok;
 		ARG 0 model

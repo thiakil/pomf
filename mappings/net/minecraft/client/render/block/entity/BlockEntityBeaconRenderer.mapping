@@ -1,12 +1,12 @@
-CLASS cxh net/minecraft/client/render/block/entity/BlockEntityBeaconRenderer
-	FIELD a BEAM_TEX Loj;
-	METHOD a render (Lbmd;DDDFI)V
+CLASS cxj net/minecraft/client/render/block/entity/BlockEntityBeaconRenderer
+	FIELD a BEAM_TEX Lok;
+	METHOD a render (Lbmf;DDDFI)V
 		ARG 0 blockEntity
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 partial
-	METHOD a render (Lbmf;DDDFI)V
+	METHOD a render (Lbmh;DDDFI)V
 		ARG 0 blockEntity
 		ARG 1 x
 		ARG 2 y

@@ -1,4 +1,4 @@
-CLASS dap net/minecraft/client/render/ItemRenderer
-	FIELD b ENCHANT_GLINT_TEXTURE Loj;
-	METHOD a onResourceReload (Lul;)V
+CLASS dar net/minecraft/client/render/ItemRenderer
+	FIELD b ENCHANT_GLINT_TEXTURE Lok;
+	METHOD a onResourceReload (Lum;)V
 		ARG 0 container

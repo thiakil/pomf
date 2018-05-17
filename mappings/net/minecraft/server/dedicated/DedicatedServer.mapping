@@ -1,29 +1,29 @@
-CLASS ru net/minecraft/server/dedicated/DedicatedServer
+CLASS rv net/minecraft/server/dedicated/DedicatedServer
 	FIELD h LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD i SHA1_PATTERN Ljava/util/regex/Pattern;
 	FIELD j commandQueue Ljava/util/List;
-	FIELD k queryHandler Lvk;
-	FIELD l commandSender Lvh;
-	FIELD m rconServer Lvm;
-	FIELD n properties Loz;
-	FIELD o eulaReader Lor;
+	FIELD k queryHandler Lvl;
+	FIELD l commandSender Lvi;
+	FIELD m rconServer Lvn;
+	FIELD n properties Lpa;
+	FIELD o eulaReader Los;
 	FIELD p generateStructures Z
-	FIELD q gameMode Lbay;
+	FIELD q gameMode Lbba;
 	FIELD r guiPresent Z
-	METHOD <init> (Ljava/io/File;Lxl;Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;Lcom/mojang/authlib/minecraft/MinecraftSessionService;Lcom/mojang/authlib/GameProfileRepository;Lur;)V
+	METHOD <init> (Ljava/io/File;Lxm;Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;Lcom/mojang/authlib/minecraft/MinecraftSessionService;Lcom/mojang/authlib/GameProfileRepository;Lus;)V
 		ARG 1 migrationHandler
 		ARG 2 authService
 	METHOD M isMonsterSpawningEnabled ()Z
 	METHOD R isSnooperEnabled ()Z
 	METHOD X isUsingNativeTransport ()Z
-	METHOD a addSnooperInfo (Laha;)V
+	METHOD a addSnooperInfo (Lahc;)V
 		ARG 0 snooper
-	METHOD a setDefaultGameMode (Lbay;)V
+	METHOD a setDefaultGameMode (Lbba;)V
 		ARG 0 gameMode
 	METHOD a getInt (Ljava/lang/String;I)I
 		ARG 0 key
 		ARG 1 defaultValue
-	METHOD a queueCommand (Ljava/lang/String;Lbr;)V
+	METHOD a queueCommand (Ljava/lang/String;Lbs;)V
 		ARG 0 command
 		ARG 1 commandSender
 	METHOD a setProperty (Ljava/lang/String;Ljava/lang/Object;)V
@@ -37,13 +37,13 @@ CLASS ru net/minecraft/server/dedicated/DedicatedServer
 		ARG 1 defaultValue
 	METHOD aV getResourcePackSHA1 ()Ljava/lang/String;
 	METHOD aW executeServerCommands ()V
-	METHOD aX getConfigurationManager ()Lrt;
+	METHOD aX getConfigurationManager ()Lru;
 	METHOD aY startGui ()V
 	METHOD aZ upgradePlayerFiles ()Z
 	METHOD a_ executeCommand (Ljava/lang/String;)Ljava/lang/String;
 		ARG 0 command
 	METHOD aa areCommandBlocksEnabled ()Z
-	METHOD ae getConfigurationManager ()Luv;
+	METHOD ae getConfigurationManager ()Luw;
 	METHOD ai hasGui ()Z
 	METHOD an getSpawnProtectionRadius ()I
 	METHOD ax getMaxWorldBorderRadius ()I
@@ -61,8 +61,8 @@ CLASS ru net/minecraft/server/dedicated/DedicatedServer
 	METHOD e_ getMotd ()Ljava/lang/String;
 	METHOD f getPort ()I
 	METHOD g shouldGenerateStructures ()Z
-	METHOD h getDefaultGameMode ()Lbay;
-	METHOD i getDefaultDifficulty ()Lago;
+	METHOD h getDefaultGameMode ()Lbba;
+	METHOD i getDefaultDifficulty ()Lagq;
 	METHOD j isHardcore ()Z
 	METHOD k getOpPermissionLevel ()I
 	METHOD l shouldBroadcastRconToOps ()Z

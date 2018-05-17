@@ -1,12 +1,12 @@
-CLASS cfp net/minecraft/world/loot/condition/LootTableConditionKilledByPlayer
-	CLASS cfp$a Provider
-		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfm;Lcom/google/gson/JsonSerializationContext;)V
-		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfp;Lcom/google/gson/JsonSerializationContext;)V
-		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcfp;
-		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcfm;
+CLASS cfr net/minecraft/world/loot/condition/LootTableConditionKilledByPlayer
+	CLASS cfr$a Provider
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfo;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfr;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcfr;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcfo;
 	FIELD a inverse Z
 	METHOD <init> (Z)V
 		ARG 0 inverse
-	METHOD a matches (Ljava/util/Random;Lcet;)Z
+	METHOD a matches (Ljava/util/Random;Lcev;)Z
 		ARG 0 rand
 		ARG 1 context

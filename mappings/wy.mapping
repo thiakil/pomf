@@ -1,5 +1,0 @@
-CLASS wy
-	CLASS wy$a
-		METHOD a map (Ljava/util/function/Function;Labc;)Labc;
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 0 object

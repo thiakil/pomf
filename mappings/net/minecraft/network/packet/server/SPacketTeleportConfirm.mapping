@@ -1,13 +1,13 @@
-CLASS ly net/minecraft/network/packet/server/SPacketTeleportConfirm
+CLASS lz net/minecraft/network/packet/server/SPacketTeleportConfirm
 	FIELD a teleportId I
 	METHOD <init> (I)V
 		ARG 0 teleportId
 	METHOD a getTeleportId ()I
-	METHOD a readPacket (Lht;)V
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD a applyPacket (Llx;)V
+	METHOD a applyPacket (Lly;)V
 		ARG 0 handler
-	METHOD b writePacket (Lht;)V
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf

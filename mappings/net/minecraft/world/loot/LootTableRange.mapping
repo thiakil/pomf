@@ -1,7 +1,7 @@
-CLASS cew net/minecraft/world/loot/LootTableRange
-	CLASS cew$a Serializer
-		METHOD a serialize (Lcew;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
-		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lcew;
+CLASS cey net/minecraft/world/loot/LootTableRange
+	CLASS cey$a Serializer
+		METHOD a serialize (Lcey;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lcey;
 	FIELD a min F
 	FIELD b max F
 	METHOD <init> (F)V

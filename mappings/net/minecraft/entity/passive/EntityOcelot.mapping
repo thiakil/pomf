@@ -1,31 +1,31 @@
-CLASS anc net/minecraft/entity/passive/EntityOcelot
-	FIELD bF CAT Loj;
-	METHOD B attackEntity (Lahx;)Z
-	METHOD E getSoundAmbient ()Lvo;
-	METHOD H getLootTableId ()Loj;
+CLASS ane net/minecraft/entity/passive/EntityOcelot
+	FIELD bF CAT Lok;
+	METHOD B attackEntity (Lahz;)Z
+	METHOD E getSoundAmbient ()Lvp;
+	METHOD H getLootTableId ()Lok;
 	METHOD K mobTick ()V
-	METHOD N_ getNameAsComponent ()Lic;
-	METHOD a (Lagp;Laij;Lawk;)Laij;
+	METHOD N_ getNameAsComponent ()Lid;
+	METHOD a (Lagr;Lail;Lawm;)Lail;
 		ARG 0 difficulty
-	METHOD a damage (Lahg;F)Z
+	METHOD a damage (Lahi;F)Z
 		ARG 0 source
 		ARG 1 damage
-	METHOD a createChild (Lahu;)Lahu;
+	METHOD a createChild (Lahw;)Lahw;
 		ARG 0 other
-	METHOD a interactMob (Larl;Lagq;)Z
+	METHOD a interactMob (Larn;Lags;)Z
 		ARG 0 player
 		ARG 1 playerHand
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
-	METHOD b createChild (Lahu;)Lanc;
+	METHOD b createChild (Lahw;)Lane;
 		ARG 0 other
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD c handleFallDamage (FF)V
 		ARG 0 fallDistance
 	METHOD cE getSoundVolume ()F
 	METHOD ca initAttributes ()V
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD ct getSoundDeath ()Lvp;
+	METHOD d getSoundHurt (Lahi;)Lvp;
 	METHOD dD onTamedChanged ()V
 	METHOD w_ initDataTracker ()V

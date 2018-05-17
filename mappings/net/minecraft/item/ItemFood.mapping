@@ -1,32 +1,32 @@
-CLASS awb net/minecraft/item/ItemFood
+CLASS awd net/minecraft/item/ItemFood
 	FIELD a hungerRestored I
 	FIELD b saturationRestored F
 	FIELD c wolfFood Z
 	FIELD d alwaysConsumable Z
-	FIELD l statusEffect Lahq;
+	FIELD l statusEffect Lahs;
 	FIELD m statusEffectChance F
-	METHOD a setStatusEffect (Lahq;F)Lawb;
+	METHOD a setStatusEffect (Lahs;F)Lawd;
 		ARG 0 effect
 		ARG 1 chance
-	METHOD a onItemFinishedUsing (Lawk;Lbbb;Laig;)Lawk;
+	METHOD a onItemFinishedUsing (Lawm;Lbbd;Laii;)Lawm;
 		ARG 0 stack
 		ARG 1 world
 		ARG 2 user
-	METHOD a onConsumed (Lawk;Lbbb;Larl;)V
+	METHOD a onConsumed (Lawm;Lbbd;Larn;)V
 		ARG 0 stack
 		ARG 1 world
 		ARG 2 player
-	METHOD a onRightClick (Lbbb;Larl;Lagq;)Lagt;
+	METHOD a onRightClick (Lbbd;Larn;Lags;)Lagv;
 		ARG 0 world
 		ARG 1 player
 		ARG 2 hand
-	METHOD c getMaxUseTime (Lawk;)I
+	METHOD c getMaxUseTime (Lawm;)I
 		ARG 0 stack
 	METHOD d isWolfFood ()Z
-	METHOD d getUseAction (Lawk;)Laxu;
+	METHOD d getUseAction (Lawm;)Laxw;
 		ARG 0 stack
-	METHOD e setAlwaysConsumable ()Lawb;
-	METHOD f getHungerRestored (Lawk;)I
+	METHOD e setAlwaysConsumable ()Lawd;
+	METHOD f getHungerRestored (Lawm;)I
 		ARG 0 stack
-	METHOD g getSaturatationRestored (Lawk;)F
+	METHOD g getSaturatationRestored (Lawm;)F
 		ARG 0 stack

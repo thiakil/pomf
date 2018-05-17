@@ -1,16 +1,16 @@
-CLASS ces net/minecraft/world/loot/LootTable
-	CLASS ces$a DeSerializer
-		METHOD a serialize (Lces;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
-		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lces;
-	FIELD a EMPTY Lces;
+CLASS ceu net/minecraft/world/loot/LootTable
+	CLASS ceu$a DeSerializer
+		METHOD a serialize (Lceu;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lceu;
+	FIELD a EMPTY Lceu;
 	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD c pools [Lceq;
-	METHOD <init> ([Lceq;)V
+	FIELD c pools [Lces;
+	METHOD <init> ([Lces;)V
 		ARG 0 pools
-	METHOD a getRandomSlots (Lagk;Ljava/util/Random;)Ljava/util/List;
+	METHOD a getRandomSlots (Lagm;Ljava/util/Random;)Ljava/util/List;
 		ARG 0 inventory
 		ARG 1 rand
-	METHOD a fillInventory (Lagk;Ljava/util/Random;Lcet;)V
+	METHOD a fillInventory (Lagm;Ljava/util/Random;Lcev;)V
 		ARG 0 inventory
 		ARG 1 rand
 		ARG 2 context
@@ -18,6 +18,6 @@ CLASS ces net/minecraft/world/loot/LootTable
 		ARG 0 stacks
 		ARG 1 itemCount
 		ARG 2 rand
-	METHOD a generateLoot (Ljava/util/Random;Lcet;)Ljava/util/List;
+	METHOD a generateLoot (Ljava/util/Random;Lcev;)Ljava/util/List;
 		ARG 0 rand
 		ARG 1 context

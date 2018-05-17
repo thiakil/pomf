@@ -1,14 +1,14 @@
-CLASS cka net/minecraft/client/toast/IToast
-	CLASS cka$a Visibility
-		FIELD a SHOW Lcka$a;
-		FIELD b HIDE Lcka$a;
-		FIELD c sound Lvo;
-		METHOD <init> (Ljava/lang/String;ILvo;)V
+CLASS ckc net/minecraft/client/toast/IToast
+	CLASS ckc$a Visibility
+		FIELD a SHOW Lckc$a;
+		FIELD b HIDE Lckc$a;
+		FIELD c sound Lvp;
+		METHOD <init> (Ljava/lang/String;ILvp;)V
 			ARG 2 sound
-		METHOD a playSound (Ldib;)V
+		METHOD a playSound (Ldid;)V
 			ARG 0 soundLoader
-	FIELD a TEXTURE_TOASTS Loj;
+	FIELD a TEXTURE_TOASTS Lok;
 	FIELD b NO_TYPE Ljava/lang/Object;
-	METHOD a draw (Lckb;J)Lcka$a;
+	METHOD a draw (Lckd;J)Lckc$a;
 		ARG 0 toastGui
 	METHOD b getType ()Ljava/lang/Object;

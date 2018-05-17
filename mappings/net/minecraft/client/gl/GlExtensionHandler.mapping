@@ -1,8 +1,8 @@
-CLASS diz net/minecraft/client/gl/GlExtensionHandler
-	CLASS diz$a FBOMode
-		FIELD a BASE Ldiz$a;
-		FIELD b ARB Ldiz$a;
-		FIELD c EXT Ldiz$a;
+CLASS djb net/minecraft/client/gl/GlExtensionHandler
+	CLASS djb$a FBOMode
+		FIELD a BASE Ldjb$a;
+		FIELD b ARB Ldjb$a;
+		FIELD c EXT Ldjb$a;
 	FIELD A GL_SOURCE1_RGB I
 	FIELD B GL_SOURCE2_RGB I
 	FIELD C GL_OPERAND0_RGB I
@@ -18,7 +18,7 @@ CLASS diz net/minecraft/client/gl/GlExtensionHandler
 	FIELD O supportsShaderPipeline Z
 	FIELD P supportsVertexBufferObject Z
 	FIELD R GL_ARRAY_BUFFER I
-	FIELD T fboMode Ldiz$a;
+	FIELD T fboMode Ldjb$a;
 	FIELD U supportsGlsl Z
 	FIELD V arbVersionGLSL Z
 	FIELD W arbVersionMultiTexture Z

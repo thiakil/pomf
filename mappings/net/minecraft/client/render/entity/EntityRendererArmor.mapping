@@ -1,35 +1,35 @@
-CLASS dcp net/minecraft/client/render/entity/EntityRendererArmor
-	FIELD a renderer Ldat;
-	FIELD b SKIN Loj;
-	FIELD c modelLeggings Lcqh;
-	FIELD d modelBody Lcqh;
+CLASS dcr net/minecraft/client/render/entity/EntityRendererArmor
+	FIELD a renderer Ldav;
+	FIELD b SKIN Lok;
+	FIELD c modelLeggings Lcqj;
+	FIELD d modelBody Lcqj;
 	FIELD e alpha F
 	FIELD f red F
 	FIELD g green F
 	FIELD h blue F
 	FIELD i ignoreGlint Z
 	FIELD j ARMOR_TEXTURE_CACHE Ljava/util/Map;
-	METHOD <init> (Ldat;)V
+	METHOD <init> (Ldav;)V
 		ARG 0 renderer
 	METHOD a shouldMergeTextures ()Z
-	METHOD a getArmor (Laic;)Lcqh;
+	METHOD a getArmor (Laie;)Lcqj;
 		ARG 0 slot
-	METHOD a render (Laig;FFFFFFF)V
+	METHOD a render (Laii;FFFFFFF)V
 		ARG 0 entity
-	METHOD a renderArmor (Laig;FFFFFFFLaic;)V
+	METHOD a renderArmor (Laii;FFFFFFFLaie;)V
 		ARG 0 wearer
 		ARG 8 slot
-	METHOD a getArmorTexture (Laug;Z)Loj;
+	METHOD a getArmorTexture (Laui;Z)Lok;
 		ARG 0 armor
 		ARG 1 getPants
-	METHOD a getArmorTexture (Laug;ZLjava/lang/String;)Loj;
+	METHOD a getArmorTexture (Laui;ZLjava/lang/String;)Lok;
 		ARG 0 armor
 		ARG 1 getPants
 		ARG 2 additionalLayer
-	METHOD a renderEnchantedGlint (Ldat;Laig;Lcqh;FFFFFFF)V
+	METHOD a renderEnchantedGlint (Ldav;Laii;Lcqj;FFFFFFF)V
 		ARG 0 renderer
 		ARG 1 wearer
 		ARG 2 model
 	METHOD ao_ init ()V
-	METHOD b isLegs (Laic;)Z
+	METHOD b isLegs (Laie;)Z
 		ARG 0 slot

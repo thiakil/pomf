@@ -1,4 +1,4 @@
-CLASS hn net/minecraft/network/encryption/PacketDecryptor
-	FIELD a manager Lhm;
+CLASS ho net/minecraft/network/encryption/PacketDecryptor
+	FIELD a manager Lhn;
 	METHOD <init> (Ljavax/crypto/Cipher;)V
 		ARG 0 cipher

@@ -1,10 +1,10 @@
-CLASS ckx net/minecraft/client/gui/menu/GuiDisconnected
+CLASS ckz net/minecraft/client/gui/menu/GuiDisconnected
 	FIELD a title Ljava/lang/String;
-	FIELD f reason Lic;
+	FIELD f reason Lid;
 	FIELD g reasonFormatted Ljava/util/List;
-	FIELD h parent Lclk;
+	FIELD h parent Lclm;
 	FIELD i reasonHeight I
-	METHOD <init> (Lclk;Ljava/lang/String;Lic;)V
+	METHOD <init> (Lclm;Ljava/lang/String;Lid;)V
 		ARG 0 parent
 		ARG 1 title
 		ARG 2 reason

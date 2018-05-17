@@ -1,2 +1,2 @@
-CLASS bbc net/minecraft/world/IWorld
-	METHOD s_ getProperties ()Lced;
+CLASS bbe net/minecraft/world/IWorld
+	METHOD s_ getProperties ()Lcef;

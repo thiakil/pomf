@@ -1,4 +1,4 @@
-CLASS deq net/minecraft/client/render/stb/NativeImage
+CLASS des net/minecraft/client/render/stb/NativeImage
 	FIELD a width I
 	FIELD b height I
 	FIELD c isSTBImage Z
@@ -21,17 +21,17 @@ CLASS deq net/minecraft/client/render/stb/NativeImage
 		ARG 0 x
 		ARG 1 y
 		ARG 2 pixelData
-	METHOD a copySectionToOtherScaled (IIIILdeq;)V
+	METHOD a copySectionToOtherScaled (IIIILdes;)V
 		ARG 0 srcOffsetX
 		ARG 1 srcOffsetY
 		ARG 2 srcWidth
 		ARG 3 srcHeight
 		ARG 4 destImage
-	METHOD a loadFrom (Ljava/io/InputStream;)Ldeq;
+	METHOD a loadFrom (Ljava/io/InputStream;)Ldes;
 		ARG 0 srcStream
 	METHOD a saveTo (Ljava/lang/String;)V
 		ARG 0 destFile
-	METHOD a loadFrom (Ljava/nio/ByteBuffer;)Ldeq;
+	METHOD a loadFrom (Ljava/nio/ByteBuffer;)Ldes;
 		ARG 0 srcBuffer
 	METHOD b getHeight ()I
 	METHOD b addTint (III)V

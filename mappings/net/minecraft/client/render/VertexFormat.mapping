@@ -1,4 +1,4 @@
-CLASS dfg net/minecraft/client/render/VertexFormat
+CLASS dfi net/minecraft/client/render/VertexFormat
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD b elements Ljava/util/List;
 	FIELD c offsets Ljava/util/List;
@@ -6,14 +6,14 @@ CLASS dfg net/minecraft/client/render/VertexFormat
 	FIELD e offsetColor I
 	FIELD f offsetsUv Ljava/util/List;
 	FIELD g offsetNormal I
-	METHOD <init> (Ldfg;)V
+	METHOD <init> (Ldfi;)V
 		ARG 0 format
-	METHOD a add (Ldfh;)Ldfg;
+	METHOD a add (Ldfj;)Ldfi;
 		ARG 0 element
 	METHOD b getUvOffset (I)I
 		ARG 0 id
 	METHOD c getNormalOffset ()I
-	METHOD c getElement (I)Ldfh;
+	METHOD c getElement (I)Ldfj;
 		ARG 0 id
 	METHOD d getElementOffset (I)I
 		ARG 0 id

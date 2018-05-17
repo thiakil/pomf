@@ -1,12 +1,12 @@
-CLASS aob net/minecraft/entity/mob/EntityZombieHorse
-	METHOD E getSoundAmbient ()Lvo;
-	METHOD H getLootTableId ()Loj;
-	METHOD a createChild (Lahu;)Lahu;
+CLASS aod net/minecraft/entity/mob/EntityZombieHorse
+	METHOD E getSoundAmbient ()Lvp;
+	METHOD H getLootTableId ()Lok;
+	METHOD a createChild (Lahw;)Lahw;
 		ARG 0 other
-	METHOD a interactMob (Larl;Lagq;)Z
+	METHOD a interactMob (Larn;Lags;)Z
 		ARG 0 player
 		ARG 1 playerHand
-	METHOD cB getEntityAttribute ()Lail;
+	METHOD cB getEntityAttribute ()Lain;
 	METHOD ca initAttributes ()V
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD ct getSoundDeath ()Lvp;
+	METHOD d getSoundHurt (Lahi;)Lvp;

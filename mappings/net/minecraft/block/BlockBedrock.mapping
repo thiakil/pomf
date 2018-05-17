@@ -1,2 +1,2 @@
-CLASS bjb net/minecraft/block/BlockBedrock
-	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;
+CLASS bjd net/minecraft/block/BlockBedrock
+	METHOD a getDroppedItem (Lbob;Lbbd;Leg;I)Lbbc;

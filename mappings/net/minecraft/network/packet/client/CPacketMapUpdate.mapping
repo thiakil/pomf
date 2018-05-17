@@ -1,8 +1,8 @@
-CLASS ke net/minecraft/network/packet/client/CPacketMapUpdate
+CLASS kf net/minecraft/network/packet/client/CPacketMapUpdate
 	FIELD a id I
 	FIELD b scale B
 	FIELD c showIcons Z
-	FIELD d icons [Lcdu;
+	FIELD d icons [Lcdw;
 	FIELD e updateLeft I
 	FIELD f updateTop I
 	FIELD g updateHeight I
@@ -19,12 +19,12 @@ CLASS ke net/minecraft/network/packet/client/CPacketMapUpdate
 		ARG 7 updateHeight
 		ARG 8 updateWidth
 	METHOD a getId ()I
-	METHOD a apply (Lcdv;)V
-	METHOD a readPacket (Lht;)V
+	METHOD a apply (Lcdx;)V
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lis;)V
+	METHOD a applyPacket (Lit;)V
 		ARG 0 handler
-	METHOD b writePacket (Lht;)V
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf

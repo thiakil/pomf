@@ -1,9 +1,9 @@
-CLASS cbd net/minecraft/fluid/Fluids
-	FIELD a EMPTY Lcba;
-	FIELD b FLOWING_WATER Lcaz;
-	FIELD c WATER Lcaz;
-	FIELD d FLOWING_LAVA Lcaz;
-	FIELD e LAVA Lcaz;
+CLASS cbf net/minecraft/fluid/Fluids
+	FIELD a EMPTY Lcbc;
+	FIELD b FLOWING_WATER Lcbb;
+	FIELD c WATER Lcbb;
+	FIELD d FLOWING_LAVA Lcbb;
+	FIELD e LAVA Lcbb;
 	FIELD f FLUIDS Ljava/util/Set;
-	METHOD a getFluid (Ljava/lang/String;)Lcba;
+	METHOD a getFluid (Ljava/lang/String;)Lcbc;
 		ARG 0 fluid

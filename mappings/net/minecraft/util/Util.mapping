@@ -12,10 +12,10 @@ CLASS k net/minecraft/util/Util
 		METHOD a openURL (Ljava/net/URL;)V
 			ARG 0 url
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD a (Lboy;Ljava/lang/Object;)Ljava/lang/String;
+	METHOD a (Lbpa;Ljava/lang/Object;)Ljava/lang/String;
 		ARG 0 property
 		ARG 1 value
-	METHOD a getTranslationKey (Ljava/lang/String;Loj;)Ljava/lang/String;
+	METHOD a getTranslationKey (Ljava/lang/String;Lok;)Ljava/lang/String;
 		ARG 0 type
 		ARG 1 identifier
 	METHOD a getLastElement (Ljava/util/List;)Ljava/lang/Object;

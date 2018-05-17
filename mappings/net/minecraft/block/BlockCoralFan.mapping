@@ -1,11 +1,11 @@
-CLASS bgp net/minecraft/block/BlockCoralFan
-	METHOD X_ getRenderLayer ()Lbaq;
-	METHOD a getDefaultState (Laup;)Lbnz;
-	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+CLASS bgr net/minecraft/block/BlockCoralFan
+	METHOD X_ getRenderLayer ()Lbas;
+	METHOD a getDefaultState (Laur;)Lbob;
+	METHOD a getBlockFaceShape (Lbar;Lbob;Leg;Lem;)Lboa;
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
-	METHOD a isFullBlock (Lbnz;)Z
-	METHOD a withMirror (Lbnz;Lbiw;)Lbnz;
-	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;
-	METHOD t getFluidState (Lbnz;)Lcbb;
+	METHOD a isFullBlock (Lbob;)Z
+	METHOD a withMirror (Lbob;Lbiy;)Lbob;
+	METHOD a withRotation (Lbob;Lbkb;)Lbob;
+	METHOD t getFluidState (Lbob;)Lcbd;

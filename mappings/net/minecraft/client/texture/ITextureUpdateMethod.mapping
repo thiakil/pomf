@@ -1,2 +1,2 @@
-CLASS dfa net/minecraft/client/texture/ITextureUpdateMethod
+CLASS dfc net/minecraft/client/texture/ITextureUpdateMethod
 	METHOD e updateTexture ()V

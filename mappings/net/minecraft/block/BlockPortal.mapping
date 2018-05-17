@@ -1,23 +1,23 @@
-CLASS bjj net/minecraft/block/BlockPortal
-	FIELD a AXIS Lbow;
-	METHOD X_ getRenderLayer ()Lbaq;
-	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+CLASS bjl net/minecraft/block/BlockPortal
+	FIELD a AXIS Lboy;
+	METHOD X_ getRenderLayer ()Lbas;
+	METHOD a getBlockFaceShape (Lbar;Lbob;Leg;Lem;)Lboa;
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
-	METHOD a getItem (Lbap;Lef;Lbnz;)Lawk;
-	METHOD a isFullBlock (Lbnz;)Z
-	METHOD a onEntityCollision (Lbnz;Lbbb;Lef;Lahx;)V
+	METHOD a getItem (Lbar;Leg;Lbob;)Lawm;
+	METHOD a isFullBlock (Lbob;)Z
+	METHOD a onEntityCollision (Lbob;Lbbd;Leg;Lahz;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 entity
-	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;
-	METHOD a getDropAmount (Lbnz;Ljava/util/Random;)I
-	METHOD b updateTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+	METHOD a withRotation (Lbob;Lbkb;)Lbob;
+	METHOD a getDropAmount (Lbob;Ljava/util/Random;)I
+	METHOD b updateTick (Lbob;Lbbd;Leg;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
-	METHOD c randomDisplayTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+	METHOD c randomDisplayTick (Lbob;Lbbd;Leg;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 rand

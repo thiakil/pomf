@@ -1,13 +1,13 @@
-CLASS lp net/minecraft/network/packet/client/CPacketPlayerListHeader
-	FIELD a header Lic;
-	FIELD b footer Lic;
-	METHOD a getHeader ()Lic;
-	METHOD a readPacket (Lht;)V
+CLASS lq net/minecraft/network/packet/client/CPacketPlayerListHeader
+	FIELD a header Lid;
+	FIELD b footer Lid;
+	METHOD a getHeader ()Lid;
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lis;)V
+	METHOD a applyPacket (Lit;)V
 		ARG 0 handler
-	METHOD b getFooter ()Lic;
-	METHOD b writePacket (Lht;)V
+	METHOD b getFooter ()Lid;
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf

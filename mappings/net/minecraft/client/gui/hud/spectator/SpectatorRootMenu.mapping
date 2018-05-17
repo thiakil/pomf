@@ -1,4 +1,4 @@
-CLASS com net/minecraft/client/gui/hud/spectator/SpectatorRootMenu
+CLASS cop net/minecraft/client/gui/hud/spectator/SpectatorRootMenu
 	FIELD a elements Ljava/util/List;
 	METHOD a getElements ()Ljava/util/List;
-	METHOD b getMessage ()Lic;
+	METHOD b getMessage ()Lid;

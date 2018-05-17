@@ -1,7 +1,7 @@
-CLASS azd net/minecraft/enchantment/EnchantmentInfinity
-	METHOD <init> (Lazj$a;[Laic;)V
+CLASS azf net/minecraft/enchantment/EnchantmentInfinity
+	METHOD <init> (Lazl$a;[Laie;)V
 		ARG 0 weight
 		ARG 1 slotTypes
-	METHOD a isEqual (Lazj;)Z
+	METHOD a isEqual (Lazl;)Z
 		ARG 0 other
 	METHOD b getHighestLevel ()I

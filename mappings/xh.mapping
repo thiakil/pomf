@@ -1,5 +1,0 @@
-CLASS xh
-	CLASS xh$a
-		METHOD equals (Ljava/lang/Object;)Z
-			ARG 0 object
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;

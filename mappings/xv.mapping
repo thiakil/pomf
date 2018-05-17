@@ -1,18 +1,3 @@
 CLASS xv
-	CLASS xv$a
-		METHOD equals (Ljava/lang/Object;)Z
-			ARG 0 object
-	CLASS xv$c
-		METHOD equals (Ljava/lang/Object;)Z
-			ARG 0 object
-	CLASS xv$d
-		METHOD equals (Ljava/lang/Object;)Z
-			ARG 0 object
-	CLASS xv$e
-		FIELD a INSTANCE Lxv$e;
-	CLASS xv$g
-		METHOD equals (Ljava/lang/Object;)Z
-			ARG 0 object
-	CLASS xv$h
-		METHOD equals (Ljava/lang/Object;)Z
-			ARG 0 object
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object

@@ -1,2 +1,2 @@
-CLASS qb net/minecraft/command/CommandKick
+CLASS qc net/minecraft/command/CommandKick
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

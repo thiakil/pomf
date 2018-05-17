@@ -1,21 +1,21 @@
-CLASS aoh net/minecraft/entity/decoration/EntityEnderCrystal
-	FIELD b BEAM_TARGET Lny;
-	FIELD c SHOW_BOTTOM Lny;
+CLASS aoj net/minecraft/entity/decoration/EntityEnderCrystal
+	FIELD b BEAM_TARGET Lnz;
+	FIELD c SHOW_BOTTOM Lnz;
 	METHOD R_ update ()V
 	METHOD a shouldRender (D)Z
 		ARG 0 distanceSq
-	METHOD a damage (Lahg;F)Z
+	METHOD a damage (Lahi;F)Z
 		ARG 0 source
 		ARG 1 damage
-	METHOD a setBeamTarget (Lef;)V
+	METHOD a setBeamTarget (Leg;)V
 		ARG 0 value
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD a setShowBottom (Z)V
 		ARG 0 value
 	METHOD aD doesCollide ()Z
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
-	METHOD f getBeamTarget ()Lef;
+	METHOD f getBeamTarget ()Leg;
 	METHOD i shouldShowBottom ()Z
 	METHOD w_ initDataTracker ()V

@@ -1,15 +1,15 @@
-CLASS bfk net/minecraft/block/BlockWithEntity
+CLASS bfm net/minecraft/block/BlockWithEntity
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD a afterBreak (Lbbb;Larl;Lef;Lbnz;Lbmf;Lawk;)V
+	METHOD a afterBreak (Lbbd;Larn;Leg;Lbob;Lbmh;Lawm;)V
 		ARG 0 world
 		ARG 1 player
 		ARG 2 pos
 		ARG 4 blockEntity
 		ARG 5 stack
-	METHOD a onBlockAction (Lbnz;Lbbb;Lef;II)Z
+	METHOD a onBlockAction (Lbob;Lbbd;Leg;II)Z
 		ARG 1 world
 		ARG 2 pos
-	METHOD a onBlockRemoved (Lbnz;Lbbb;Lef;Lbnz;)V
+	METHOD a onBlockRemoved (Lbob;Lbbd;Leg;Lbob;)V
 		ARG 1 world
 		ARG 2 pos
-	METHOD c getRenderType (Lbnz;)Lbjw;
+	METHOD c getRenderType (Lbob;)Lbjy;

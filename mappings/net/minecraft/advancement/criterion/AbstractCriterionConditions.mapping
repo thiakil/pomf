@@ -1,5 +1,5 @@
 CLASS y net/minecraft/advancement/criterion/AbstractCriterionConditions
-	FIELD a id Loj;
-	METHOD <init> (Loj;)V
+	FIELD a id Lok;
+	METHOD <init> (Lok;)V
 		ARG 0 id
-	METHOD a getId ()Loj;
+	METHOD a getId ()Lok;

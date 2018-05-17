@@ -1,25 +1,25 @@
-CLASS bmf net/minecraft/block/entity/BlockEntity
+CLASS bmh net/minecraft/block/entity/BlockEntity
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD c_ world Lbbb;
+	FIELD c_ world Lbbd;
 	FIELD d invalid Z
-	FIELD d_ pos Lef;
-	FIELD f state Lbnz;
+	FIELD d_ pos Leg;
+	FIELD f state Lbob;
 	METHOD A resetState ()V
-	METHOD G getWorld ()Lbbb;
-	METHOD Z_ getUpdatePacket ()Ljc;
-	METHOD a setWorld (Lbbb;)V
-	METHOD a serialize (Lgu;)Lgu;
+	METHOD G getWorld ()Lbbd;
+	METHOD Z_ getUpdatePacket ()Ljd;
+	METHOD a setWorld (Lbbd;)V
+	METHOD a serialize (Lgv;)Lgv;
 		ARG 0 tag
-	METHOD aa_ serializeInitialChunkData ()Lgu;
-	METHOD b deserialize (Lgu;)V
+	METHOD aa_ serializeInitialChunkData ()Lgv;
+	METHOD b deserialize (Lgv;)V
 		ARG 0 tag
-	METHOD c readBlockEntityFromTag (Lgu;)Lbmf;
-	METHOD d writeToTag (Lgu;)Lgu;
+	METHOD c readBlockEntityFromTag (Lgv;)Lbmh;
+	METHOD d writeToTag (Lgv;)Lgv;
 		ARG 0 tag
 	METHOD t getSquaredRenderDistance ()D
 	METHOD u hasWorld ()Z
-	METHOD v getPos ()Lef;
-	METHOD w getBlockState ()Lbnz;
+	METHOD v getPos ()Leg;
+	METHOD w getBlockState ()Lbob;
 	METHOD x isInvalid ()Z
 	METHOD y invalidate ()V
 	METHOD z validate ()V

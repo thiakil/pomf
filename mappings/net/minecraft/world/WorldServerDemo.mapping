@@ -1,3 +1,3 @@
-CLASS sc net/minecraft/world/WorldServerDemo
+CLASS sd net/minecraft/world/WorldServerDemo
 	FIELD F SEED J
-	FIELD a LEVEL_INFO Lbbg;
+	FIELD a LEVEL_INFO Lbbi;

@@ -1,5 +1,5 @@
-CLASS bjo net/minecraft/block/BlockPumpkin
-	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z
+CLASS bjq net/minecraft/block/BlockPumpkin
+	METHOD a onActivated (Lbob;Lbbd;Leg;Larn;Lags;Lem;FFF)Z
 		ARG 0 state
 		ARG 1 world
 		ARG 2 pos

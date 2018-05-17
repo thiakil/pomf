@@ -1,6 +1,6 @@
-CLASS cxd net/minecraft/client/render/block/state/StateModelMapperAdvanced
-	CLASS cxd$a Builder
+CLASS cxf net/minecraft/client/render/block/state/StateModelMapperAdvanced
+	CLASS cxf$a Builder
 		FIELD a blacklist Ljava/util/List;
-		METHOD a build ()Lcxd;
-		METHOD a withoutProperties ([Lboy;)Lcxd$a;
+		METHOD a build ()Lcxf;
+		METHOD a withoutProperties ([Lbpa;)Lcxf$a;
 	FIELD b blacklist Ljava/util/List;

@@ -1,20 +1,20 @@
-CLASS aph net/minecraft/entity/decoration/EntityLeashKnot
+CLASS apj net/minecraft/entity/decoration/EntityLeashKnot
 	METHOD a shouldRender (D)Z
 		ARG 0 distanceSq
-	METHOD a copyEntityData (Lahx;)V
+	METHOD a copyEntityData (Lahz;)V
 		ARG 0 entity
-	METHOD a setFacing (Lel;)V
+	METHOD a setFacing (Lem;)V
 		ARG 0 facing
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD b setPosition (DDD)V
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
-	METHOD b interact (Larl;Lagq;)Z
+	METHOD b interact (Larn;Lags;)Z
 		ARG 0 player
 		ARG 1 hand
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD bI getEyeHeight ()F
 	METHOD k getWidthPixels ()I

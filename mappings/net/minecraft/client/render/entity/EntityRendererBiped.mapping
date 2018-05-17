@@ -1,10 +1,10 @@
-CLASS dak net/minecraft/client/render/entity/EntityRendererBiped
-	FIELD a SKIN Loj;
-	METHOD <init> (Lczy;Lcpz;F)V
+CLASS dam net/minecraft/client/render/entity/EntityRendererBiped
+	FIELD a SKIN Lok;
+	METHOD <init> (Ldaa;Lcqb;F)V
 		ARG 0 renderManager
 		ARG 1 model
 		ARG 2 shadowSize
-	METHOD a getTexture (Lahx;)Loj;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Laih;)Loj;
+	METHOD a getTexture (Laij;)Lok;
 		ARG 0 model

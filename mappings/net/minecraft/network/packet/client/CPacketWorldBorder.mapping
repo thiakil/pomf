@@ -1,12 +1,12 @@
-CLASS kw net/minecraft/network/packet/client/CPacketWorldBorder
-	CLASS kw$a Type
-		FIELD a SET_SIZE Lkw$a;
-		FIELD b LERP_SIZE Lkw$a;
-		FIELD c SET_CENTER Lkw$a;
-		FIELD d INITIALIZE Lkw$a;
-		FIELD e SET_WARNING_TIME Lkw$a;
-		FIELD f SET_WARNING_BLOCKS Lkw$a;
-	FIELD a type Lkw$a;
+CLASS kx net/minecraft/network/packet/client/CPacketWorldBorder
+	CLASS kx$a Type
+		FIELD a SET_SIZE Lkx$a;
+		FIELD b LERP_SIZE Lkx$a;
+		FIELD c SET_CENTER Lkx$a;
+		FIELD d INITIALIZE Lkx$a;
+		FIELD e SET_WARNING_TIME Lkx$a;
+		FIELD f SET_WARNING_BLOCKS Lkx$a;
+	FIELD a type Lkx$a;
 	FIELD b portalTeleportPosLimit I
 	FIELD c centerX D
 	FIELD d centerZ D
@@ -15,16 +15,16 @@ CLASS kw net/minecraft/network/packet/client/CPacketWorldBorder
 	FIELD g interpolationDuration J
 	FIELD h warningTime I
 	FIELD i warningBlocks I
-	METHOD <init> (Lbpc;Lkw$a;)V
+	METHOD <init> (Lbpe;Lkx$a;)V
 		ARG 0 border
 		ARG 1 type
-	METHOD a apply (Lbpc;)V
+	METHOD a apply (Lbpe;)V
 		ARG 0 border
-	METHOD a readPacket (Lht;)V
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lis;)V
+	METHOD a applyPacket (Lit;)V
 		ARG 0 handler
-	METHOD b writePacket (Lht;)V
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf

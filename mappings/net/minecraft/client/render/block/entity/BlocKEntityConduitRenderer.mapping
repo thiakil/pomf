@@ -1,6 +1,6 @@
-CLASS cxm net/minecraft/client/render/block/entity/BlocKEntityConduitRenderer
-	CLASS cxm$a
-		METHOD a render (Lahx;FFFFFF)V
+CLASS cxo net/minecraft/client/render/block/entity/BlocKEntityConduitRenderer
+	CLASS cxo$a
+		METHOD a render (Lahz;FFFFFF)V
 			ARG 0 entity
 			ARG 1 limbMoveAngle
 			ARG 2 limbMoveAmount
@@ -8,8 +8,8 @@ CLASS cxm net/minecraft/client/render/block/entity/BlocKEntityConduitRenderer
 			ARG 4 headYaw
 			ARG 5 headPitch
 			ARG 6 scale
-	CLASS cxm$b
-		METHOD a render (Lahx;FFFFFF)V
+	CLASS cxo$b
+		METHOD a render (Lahz;FFFFFF)V
 			ARG 0 entity
 			ARG 1 limbMoveAngle
 			ARG 2 limbMoveAmount
@@ -17,8 +17,8 @@ CLASS cxm net/minecraft/client/render/block/entity/BlocKEntityConduitRenderer
 			ARG 4 headYaw
 			ARG 5 headPitch
 			ARG 6 scale
-	CLASS cxm$c
-		METHOD a render (Lahx;FFFFFF)V
+	CLASS cxo$c
+		METHOD a render (Lahz;FFFFFF)V
 			ARG 0 entity
 			ARG 1 limbMoveAngle
 			ARG 2 limbMoveAmount
@@ -26,8 +26,8 @@ CLASS cxm net/minecraft/client/render/block/entity/BlocKEntityConduitRenderer
 			ARG 4 headYaw
 			ARG 5 headPitch
 			ARG 6 scale
-	CLASS cxm$d
-		METHOD a render (Lahx;FFFFFF)V
+	CLASS cxo$d
+		METHOD a render (Lahz;FFFFFF)V
 			ARG 0 entity
 			ARG 1 limbMoveAngle
 			ARG 2 limbMoveAmount
@@ -35,13 +35,13 @@ CLASS cxm net/minecraft/client/render/block/entity/BlocKEntityConduitRenderer
 			ARG 4 headYaw
 			ARG 5 headPitch
 			ARG 6 scale
-	METHOD a render (Lbmf;DDDFI)V
+	METHOD a render (Lbmh;DDDFI)V
 		ARG 0 blockEntity
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 partial
-	METHOD a render (Lbml;DDDFI)V
+	METHOD a render (Lbmn;DDDFI)V
 		ARG 0 blockEntity
 		ARG 1 x
 		ARG 2 y

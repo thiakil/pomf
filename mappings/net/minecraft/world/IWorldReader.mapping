@@ -1,2 +1,2 @@
-CLASS bbf net/minecraft/world/IWorldReader
-	METHOD a getEntitiesWithinAABB (Lahx;Lcgc;)Ljava/util/List;
+CLASS bbh net/minecraft/world/IWorldReader
+	METHOD a getEntitiesWithinAABB (Lahz;Lcge;)Ljava/util/List;

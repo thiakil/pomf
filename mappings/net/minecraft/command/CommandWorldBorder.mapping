@@ -1,4 +1,4 @@
-CLASS rm net/minecraft/command/CommandWorldBorder
+CLASS rn net/minecraft/command/CommandWorldBorder
 	FIELD a COMMANDS_WORLDBORDER_CENTER_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD b COMMANDS_WORLDBORDER_SET_FAILED_NOCHANGE Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD c COMMANDS_WORLDBORDER_SET_FAILED_SMALL_ Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;

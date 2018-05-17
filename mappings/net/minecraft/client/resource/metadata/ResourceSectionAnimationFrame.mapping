@@ -1,4 +1,4 @@
-CLASS dfx net/minecraft/client/resource/metadata/ResourceSectionAnimationFrame
+CLASS dfz net/minecraft/client/resource/metadata/ResourceSectionAnimationFrame
 	FIELD a index I
 	FIELD b time I
 	METHOD <init> (I)V

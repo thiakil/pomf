@@ -1,2 +1,2 @@
-CLASS pg net/minecraft/command/CommandBanList
+CLASS ph net/minecraft/command/CommandBanList
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

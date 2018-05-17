@@ -1,2 +1,2 @@
-CLASS bsp net/minecraft/world/gen/structure/StructureGeneratorEndCity
-	CLASS bsp$a StructureEndCity
+CLASS bsr net/minecraft/world/gen/structure/StructureGeneratorEndCity
+	CLASS bsr$a StructureEndCity

@@ -1,30 +1,30 @@
-CLASS bgs net/minecraft/block/BlockCrop
-	FIELD b AGE Lbox;
-	METHOD a getItem (Lbap;Lef;Lbnz;)Lawk;
-	METHOD a isFertilizable (Lbap;Lef;Lbnz;Z)Z
+CLASS bgu net/minecraft/block/BlockCrop
+	FIELD b AGE Lboz;
+	METHOD a getItem (Lbar;Leg;Lbob;)Lawm;
+	METHOD a isFertilizable (Lbar;Leg;Lbob;Z)Z
 		ARG 1 pos
 		ARG 3 remote
-	METHOD a canGrow (Lbbb;Ljava/util/Random;Lef;Lbnz;)Z
+	METHOD a canGrow (Lbbd;Ljava/util/Random;Leg;Lbob;)Z
 		ARG 0 world
 		ARG 1 rand
 		ARG 2 pos
-	METHOD a dropItems (Lbnz;Lbbb;Lef;FI)V
+	METHOD a dropItems (Lbob;Lbbd;Leg;FI)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 dropChance
 		ARG 4 fortune
-	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;
-	METHOD b grow (Lbbb;Ljava/util/Random;Lef;Lbnz;)V
+	METHOD a getDroppedItem (Lbob;Lbbd;Leg;I)Lbbc;
+	METHOD b grow (Lbbd;Ljava/util/Random;Leg;Lbob;)V
 		ARG 0 world
 		ARG 1 rand
 		ARG 2 pos
-	METHOD b updateTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+	METHOD b updateTick (Lbob;Lbbd;Leg;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
-	METHOD c getAgeProperty ()Lbox;
-	METHOD c deserializeCropAge (I)Lbnz;
+	METHOD c getAgeProperty ()Lboz;
+	METHOD c deserializeCropAge (I)Lbob;
 		ARG 0 age
 	METHOD d getAgeMaximum ()I
-	METHOD e getItemSeed ()Lbba;
-	METHOD f getItemMature ()Lbba;
+	METHOD e getItemSeed ()Lbbc;
+	METHOD f getItemMature ()Lbbc;

@@ -1,2 +1,2 @@
-CLASS ou net/minecraft/util/thread/ThreadNotMainException
-	FIELD a INSTANCE Lou;
+CLASS ov net/minecraft/util/thread/ThreadNotMainException
+	FIELD a INSTANCE Lov;

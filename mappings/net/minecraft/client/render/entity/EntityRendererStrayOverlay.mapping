@@ -1,11 +1,11 @@
-CLASS ddp net/minecraft/client/render/entity/EntityRendererStrayOverlay
-	FIELD a SKIN Loj;
-	FIELD b renderer Ldat;
-	FIELD c model Lcrd;
-	METHOD <init> (Ldat;)V
+CLASS ddr net/minecraft/client/render/entity/EntityRendererStrayOverlay
+	FIELD a SKIN Lok;
+	FIELD b renderer Ldav;
+	FIELD c model Lcrf;
+	METHOD <init> (Ldav;)V
 		ARG 0 renderer
 	METHOD a shouldMergeTextures ()Z
-	METHOD a render (Laig;FFFFFFF)V
+	METHOD a render (Laii;FFFFFFF)V
 		ARG 0 entity
-	METHOD a render (Laqw;FFFFFFF)V
+	METHOD a render (Laqy;FFFFFFF)V
 		ARG 0 entity

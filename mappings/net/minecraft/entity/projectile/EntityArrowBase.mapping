@@ -1,21 +1,21 @@
-CLASS arp net/minecraft/entity/projectile/EntityArrowBase
-	CLASS arp$a PickupType
-		FIELD a DISALLOWED Larp$a;
-		FIELD b ALLOWED Larp$a;
-		FIELD c CREATIVE_ONLY Larp$a;
-		METHOD a fromOrdinal (I)Larp$a;
+CLASS arr net/minecraft/entity/projectile/EntityArrowBase
+	CLASS arr$a PickupType
+		FIELD a DISALLOWED Larr$a;
+		FIELD b ALLOWED Larr$a;
+		FIELD c CREATIVE_ONLY Larr$a;
+		METHOD a fromOrdinal (I)Larr$a;
 	FIELD aA damage D
 	FIELD a inGround Z
 	FIELD av yTile I
 	FIELD aw zTile I
-	FIELD ax inBlock Lbnz;
+	FIELD ax inBlock Lbob;
 	FIELD ay life I
-	FIELD c pickupType Larp$a;
+	FIELD c pickupType Larr$a;
 	FIELD d shake I
-	FIELD e owner Lahx;
-	FIELD g ARROW_FLAGS Lny;
+	FIELD e owner Lahz;
+	FIELD g ARROW_FLAGS Lnz;
 	FIELD h xTile I
-	METHOD <init> (Laib;DDDLbbb;)V
+	METHOD <init> (Laid;DDDLbbd;)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
@@ -28,21 +28,21 @@ CLASS arp net/minecraft/entity/projectile/EntityArrowBase
 		ARG 2 z
 		ARG 3 yaw
 		ARG 4 pitch
-	METHOD a setVelocityFromEntity (Lahx;FFFFF)V
+	METHOD a setVelocityFromEntity (Lahz;FFFFF)V
 		ARG 0 entity
 		ARG 1 pitch
 		ARG 2 yaw
 		ARG 4 force
 		ARG 5 variation
-	METHOD a onHit (Laig;)V
+	METHOD a onHit (Laii;)V
 		ARG 0 entity
-	METHOD a move (Laim;DDD)V
+	METHOD a move (Laio;DDD)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD bI getEyeHeight ()F
 	METHOD c setDamage (D)V
@@ -57,7 +57,7 @@ CLASS arp net/minecraft/entity/projectile/EntityArrowBase
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
-	METHOD k asItemStack ()Lawk;
+	METHOD k asItemStack ()Lawm;
 	METHOD l getDamage ()D
 	METHOD n isCritical ()Z
 	METHOD w_ initDataTracker ()V

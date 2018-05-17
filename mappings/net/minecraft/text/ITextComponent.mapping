@@ -1,12 +1,12 @@
-CLASS ic net/minecraft/text/ITextComponent
+CLASS id net/minecraft/text/ITextComponent
 	METHOD a getChildren ()Ljava/util/List;
-	METHOD a append (Lic;)Lic;
+	METHOD a append (Lid;)Lid;
 		ARG 0 component
-	METHOD a setStyle (Lij;)Lic;
+	METHOD a setStyle (Lik;)Lid;
 		ARG 0 style
-	METHOD a append (Ljava/lang/String;)Lic;
+	METHOD a append (Ljava/lang/String;)Lid;
 		ARG 0 string
-	METHOD b getStyle ()Lij;
+	METHOD b getStyle ()Lik;
 	METHOD c asStringFormatted ()Ljava/lang/String;
 	METHOD d getText ()Ljava/lang/String;
-	METHOD e getTextComponent ()Lic;
+	METHOD e getTextComponent ()Lid;

@@ -1,6 +1,6 @@
-CLASS daz net/minecraft/client/render/entity/EntityRendererMooshroom
-	FIELD a SKIN Loj;
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dbb net/minecraft/client/render/entity/EntityRendererMooshroom
+	FIELD a SKIN Lok;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Lanb;)Loj;
+	METHOD a getTexture (Land;)Lok;
 		ARG 0 model

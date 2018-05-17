@@ -1,11 +1,11 @@
-CLASS dcg net/minecraft/client/render/entity/EntityRendererVillager
-	FIELD a VILLAGER_SKIN Loj;
-	FIELD j FARMER_SKIN Loj;
-	FIELD k LIBRARIAN_SKIN Loj;
-	FIELD l PRIEST_SKIN Loj;
-	FIELD m BLACKSMITH_SKIN Loj;
-	FIELD n BUTCHER_SKIN Loj;
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dci net/minecraft/client/render/entity/EntityRendererVillager
+	FIELD a VILLAGER_SKIN Lok;
+	FIELD j FARMER_SKIN Lok;
+	FIELD k LIBRARIAN_SKIN Lok;
+	FIELD l PRIEST_SKIN Lok;
+	FIELD m BLACKSMITH_SKIN Lok;
+	FIELD n BUTCHER_SKIN Lok;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Larg;)Loj;
+	METHOD a getTexture (Lari;)Lok;
 		ARG 0 model

@@ -1,4 +1,4 @@
-CLASS mo net/minecraft/network/packet/server/SPacketPlayerAbilities
+CLASS mp net/minecraft/network/packet/server/SPacketPlayerAbilities
 	FIELD a invulnerable Z
 	FIELD b flying Z
 	FIELD c allowFlying Z
@@ -8,18 +8,18 @@ CLASS mo net/minecraft/network/packet/server/SPacketPlayerAbilities
 	METHOD a isInvulnerable ()Z
 	METHOD a setFlySpeed (F)V
 		ARG 0 value
-	METHOD a readPacket (Lht;)V
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD a applyPacket (Llx;)V
+	METHOD a applyPacket (Lly;)V
 		ARG 0 handler
 	METHOD a setInvulnerable (Z)V
 		ARG 0 value
 	METHOD b isFlying ()Z
 	METHOD b setWalkSpeed (F)V
 		ARG 0 value
-	METHOD b writePacket (Lht;)V
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf
 	METHOD b setFlying (Z)V
 		ARG 0 flying

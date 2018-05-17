@@ -1,6 +1,6 @@
-CLASS cui net/minecraft/client/particle/ParticleFishing
-	CLASS cui$a Factory
-		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lcts;
+CLASS cuk net/minecraft/client/particle/ParticleFishing
+	CLASS cuk$a Factory
+		METHOD a createParticle (Lfh;Lbbd;DDDDDD)Lctu;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -8,7 +8,7 @@ CLASS cui net/minecraft/client/particle/ParticleFishing
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lcts;
+		METHOD a createParticle (Lfk;Lbbd;DDDDDD)Lctu;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y

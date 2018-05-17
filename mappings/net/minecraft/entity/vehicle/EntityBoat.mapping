@@ -1,23 +1,23 @@
-CLASS aso net/minecraft/entity/vehicle/EntityBoat
-	CLASS aso$a
-		FIELD a IN_WATER Laso$a;
-		FIELD b UNDER_WATER Laso$a;
-		FIELD c UNDER_FLOWING_WATER Laso$a;
-		FIELD d ON_LAND Laso$a;
-		FIELD e IN_AIR Laso$a;
-	CLASS aso$b BoatType
-		FIELD a OAK Laso$b;
-		FIELD b SPRUCE Laso$b;
-		FIELD c BIRCH Laso$b;
-		FIELD d JUNGLE Laso$b;
-		FIELD e ACACIA Laso$b;
-		FIELD f DARK_OAK Laso$b;
+CLASS asq net/minecraft/entity/vehicle/EntityBoat
+	CLASS asq$a
+		FIELD a IN_WATER Lasq$a;
+		FIELD b UNDER_WATER Lasq$a;
+		FIELD c UNDER_FLOWING_WATER Lasq$a;
+		FIELD d ON_LAND Lasq$a;
+		FIELD e IN_AIR Lasq$a;
+	CLASS asq$b BoatType
+		FIELD a OAK Lasq$b;
+		FIELD b SPRUCE Lasq$b;
+		FIELD c BIRCH Lasq$b;
+		FIELD d JUNGLE Lasq$b;
+		FIELD e ACACIA Lasq$b;
+		FIELD f DARK_OAK Lasq$b;
 		FIELD g name Ljava/lang/String;
 		METHOD a getName ()Ljava/lang/String;
-		METHOD a getType (I)Laso$b;
-		METHOD a getType (Ljava/lang/String;)Laso$b;
-	FIELD d BOAT_TYPE Lny;
-	METHOD <init> (Lbbb;DDD)V
+		METHOD a getType (I)Lasq$b;
+		METHOD a getType (Ljava/lang/String;)Lasq$b;
+	FIELD d BOAT_TYPE Lnz;
+	METHOD <init> (Lbbd;DDD)V
 		ARG 0 world
 		ARG 1 x
 		ARG 2 y
@@ -29,26 +29,26 @@ CLASS aso net/minecraft/entity/vehicle/EntityBoat
 		ARG 2 z
 		ARG 3 yaw
 		ARG 4 pitch
-	METHOD a damage (Lahg;F)Z
+	METHOD a damage (Lahi;F)Z
 		ARG 0 source
 		ARG 1 damage
-	METHOD a copyEntityData (Lahx;)V
+	METHOD a copyEntityData (Lahz;)V
 		ARG 0 entity
-	METHOD a setBoatType (Laso$b;)V
+	METHOD a setBoatType (Lasq$b;)V
 		ARG 0 value
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD aD doesCollide ()Z
 	METHOD aL getMountedHeightOffset ()D
-	METHOD b interact (Larl;Lagq;)Z
+	METHOD b interact (Larn;Lags;)Z
 		ARG 0 player
 		ARG 1 hand
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
-	METHOD f asItem ()Lawg;
-	METHOD i pushAwayFrom (Lahx;)V
+	METHOD f asItem ()Lawi;
+	METHOD i pushAwayFrom (Lahz;)V
 		ARG 0 other
-	METHOD p getBoatType ()Laso$b;
-	METHOD q canAddPassenger (Lahx;)Z
+	METHOD p getBoatType ()Lasq$b;
+	METHOD q canAddPassenger (Lahz;)Z
 		ARG 0 entity
 	METHOD w_ initDataTracker ()V

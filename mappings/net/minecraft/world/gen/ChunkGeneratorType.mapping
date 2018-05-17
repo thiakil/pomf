@@ -1,6 +1,6 @@
-CLASS bpi net/minecraft/world/gen/ChunkGeneratorType
-	FIELD b SURFACE Lbpi;
-	FIELD c CAVES Lbpi;
-	FIELD d FLOATING_ISLANDS Lbpi;
-	FIELD e DEBUG Lbpi;
-	FIELD f FLAT Lbpi;
+CLASS bpk net/minecraft/world/gen/ChunkGeneratorType
+	FIELD b SURFACE Lbpk;
+	FIELD c CAVES Lbpk;
+	FIELD d FLOATING_ISLANDS Lbpk;
+	FIELD e DEBUG Lbpk;
+	FIELD f FLAT Lbpk;

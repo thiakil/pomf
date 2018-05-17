@@ -1,35 +1,35 @@
-CLASS amz net/minecraft/entity/passive/EntityDolphin
-	CLASS amz$a
+CLASS anb net/minecraft/entity/passive/EntityDolphin
+	CLASS anb$a
 		METHOD a tick ()V
-	CLASS amz$b
+	CLASS anb$b
 		METHOD a canStart ()Z
 		METHOD b shouldContinue ()Z
 		METHOD c start ()V
 		METHOD d stop ()V
 		METHOD e tick ()V
-	CLASS amz$c
+	CLASS anb$c
 		METHOD a canStart ()Z
 		METHOD c start ()V
 		METHOD d stop ()V
 		METHOD e tick ()V
-	METHOD B attackEntity (Lahx;)Z
-	METHOD E getSoundAmbient ()Lvo;
-	METHOD H getLootTableId ()Loj;
+	METHOD B attackEntity (Lahz;)Z
+	METHOD E getSoundAmbient ()Lvp;
+	METHOD H getLootTableId ()Lok;
 	METHOD R_ update ()V
-	METHOD a (Lagp;Laij;Lawk;)Laij;
+	METHOD a (Lagr;Lail;Lawm;)Lail;
 		ARG 0 difficulty
-	METHOD a interactMob (Larl;Lagq;)Z
+	METHOD a interactMob (Larn;Lags;)Z
 		ARG 0 player
 		ARG 1 playerHand
-	METHOD ae getSoundSwim ()Lvo;
-	METHOD af getSoundSplash ()Lvo;
-	METHOD b createNavigation (Lbbb;)Lamc;
+	METHOD ae getSoundSwim ()Lvp;
+	METHOD af getSoundSplash ()Lvp;
+	METHOD b createNavigation (Lbbd;)Lame;
 		ARG 0 world
 	METHOD bI getEyeHeight ()F
-	METHOD cB getEntityAttribute ()Lail;
+	METHOD cB getEntityAttribute ()Lain;
 	METHOD ca initAttributes ()V
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD ct getSoundDeath ()Lvp;
+	METHOD d getSoundHurt (Lahi;)Lvp;
 	METHOD dn canPickUpLoot ()Z
-	METHOD n canStartRiding (Lahx;)Z
+	METHOD n canStartRiding (Lahz;)Z
 		ARG 0 entity

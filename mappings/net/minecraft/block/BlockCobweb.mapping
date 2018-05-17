@@ -1,18 +1,18 @@
-CLASS blu net/minecraft/block/BlockCobweb
-	METHOD X_ getRenderLayer ()Lbaq;
-	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+CLASS blw net/minecraft/block/BlockCobweb
+	METHOD X_ getRenderLayer ()Lbas;
+	METHOD a getBlockFaceShape (Lbar;Lbob;Leg;Lem;)Lboa;
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
-	METHOD a afterBreak (Lbbb;Larl;Lef;Lbnz;Lbmf;Lawk;)V
+	METHOD a afterBreak (Lbbd;Larn;Leg;Lbob;Lbmh;Lawm;)V
 		ARG 0 world
 		ARG 1 player
 		ARG 2 pos
 		ARG 4 blockEntity
 		ARG 5 stack
-	METHOD a isFullBlock (Lbnz;)Z
-	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;
-	METHOD a onEntityCollision (Lbnz;Lbbb;Lef;Lahx;)V
+	METHOD a isFullBlock (Lbob;)Z
+	METHOD a getDroppedItem (Lbob;Lbbd;Leg;I)Lbbc;
+	METHOD a onEntityCollision (Lbob;Lbbd;Leg;Lahz;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 entity

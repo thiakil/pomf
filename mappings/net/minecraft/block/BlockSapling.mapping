@@ -1,17 +1,17 @@
-CLASS bkb net/minecraft/block/BlockSapling
-	FIELD a STAGE Lbox;
-	METHOD a isFertilizable (Lbap;Lef;Lbnz;Z)Z
+CLASS bkd net/minecraft/block/BlockSapling
+	FIELD a STAGE Lboz;
+	METHOD a isFertilizable (Lbar;Leg;Lbob;Z)Z
 		ARG 1 pos
 		ARG 3 remote
-	METHOD a canGrow (Lbbb;Ljava/util/Random;Lef;Lbnz;)Z
+	METHOD a canGrow (Lbbd;Ljava/util/Random;Leg;Lbob;)Z
 		ARG 0 world
 		ARG 1 rand
 		ARG 2 pos
-	METHOD b grow (Lbbb;Ljava/util/Random;Lef;Lbnz;)V
+	METHOD b grow (Lbbd;Ljava/util/Random;Leg;Lbob;)V
 		ARG 0 world
 		ARG 1 rand
 		ARG 2 pos
-	METHOD b updateTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+	METHOD b updateTick (Lbob;Lbbd;Leg;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random

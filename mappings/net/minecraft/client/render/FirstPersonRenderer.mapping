@@ -1,16 +1,16 @@
-CLASS cvh net/minecraft/client/render/FirstPersonRenderer
-	FIELD a MAP_BACKGROUND_TEX Loj;
-	FIELD b UNDERWATER_TEX Loj;
-	FIELD c game Lcht;
-	FIELD d mainHand Lawk;
-	FIELD e offHand Lawk;
+CLASS cvj net/minecraft/client/render/FirstPersonRenderer
+	FIELD a MAP_BACKGROUND_TEX Lok;
+	FIELD b UNDERWATER_TEX Lok;
+	FIELD c game Lchv;
+	FIELD d mainHand Lawm;
+	FIELD e offHand Lawm;
 	FIELD f equipProgressMainHand F
 	FIELD g prevEquipProgressMainHand F
 	FIELD h equipProgressOffHand F
 	FIELD i prevEquipProgressOffHand F
-	FIELD j renderManager Lczy;
-	FIELD k itemRenderer Ldap;
-	METHOD <init> (Lcht;)V
+	FIELD j renderManager Ldaa;
+	FIELD k itemRenderer Ldar;
+	METHOD <init> (Lchv;)V
 		ARG 0 minecraft
 	METHOD a updateHeldItems ()V
 	METHOD a renderFirstPersonItem (F)V
@@ -19,26 +19,26 @@ CLASS cvh net/minecraft/client/render/FirstPersonRenderer
 		ARG 0 degreeX
 		ARG 1 degreeY
 	METHOD a renderFirstPersonMap (FFF)V
-	METHOD a resetEquipProgress (Lagq;)V
+	METHOD a resetEquipProgress (Lags;)V
 		ARG 0 hand
-	METHOD a renderArm (Laif;)V
+	METHOD a renderArm (Laih;)V
 		ARG 0 hand
-	METHOD a renderItem (Laig;Lawk;Lcwo$b;)V
+	METHOD a renderItem (Laii;Lawm;Lcwq$b;)V
 		ARG 0 holder
 		ARG 1 stack
 		ARG 2 transformation
-	METHOD a renderItemFromSide (Laig;Lawk;Lcwo$b;Z)V
+	METHOD a renderItemFromSide (Laii;Lawm;Lcwq$b;Z)V
 		ARG 0 holder
 		ARG 1 stack
 		ARG 2 transformation
 		ARG 3 leftHanded
-	METHOD a renderFirstPersonMap (Lawk;)V
+	METHOD a renderFirstPersonMap (Lawm;)V
 		ARG 0 map
-	METHOD a renderFirstPersonItem (Lcum;FFLagq;FLawk;F)V
+	METHOD a renderFirstPersonItem (Lcuo;FFLags;FLawm;F)V
 		ARG 0 player
 		ARG 3 hand
 		ARG 5 item
-	METHOD a renderBlock (Ldew;)V
+	METHOD a renderBlock (Ldey;)V
 	METHOD b renderOverlays (F)V
 		ARG 0 deltaTicks
 	METHOD c renderArms ()V

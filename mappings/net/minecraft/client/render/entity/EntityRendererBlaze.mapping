@@ -1,6 +1,6 @@
-CLASS czg net/minecraft/client/render/entity/EntityRendererBlaze
-	FIELD a SKIN Loj;
-	METHOD a getTexture (Lahx;)Loj;
+CLASS czi net/minecraft/client/render/entity/EntityRendererBlaze
+	FIELD a SKIN Lok;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Lapw;)Loj;
+	METHOD a getTexture (Lapy;)Lok;
 		ARG 0 model

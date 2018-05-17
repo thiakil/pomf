@@ -1,6 +1,6 @@
-CLASS dac net/minecraft/client/render/entity/EntityRendererExperienceOrb
-	FIELD a TEX Loj;
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dae net/minecraft/client/render/entity/EntityRendererExperienceOrb
+	FIELD a TEX Lok;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Laid;)Loj;
+	METHOD a getTexture (Laif;)Lok;
 		ARG 0 model

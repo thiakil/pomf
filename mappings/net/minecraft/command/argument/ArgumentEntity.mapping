@@ -1,20 +1,20 @@
-CLASS bx net/minecraft/command/argument/ArgumentEntity
-	CLASS bx$a Serializer
-		METHOD a serialize (Lbx;Lcom/google/gson/JsonObject;)V
+CLASS by net/minecraft/command/argument/ArgumentEntity
+	CLASS by$a Serializer
+		METHOD a serialize (Lby;Lcom/google/gson/JsonObject;)V
 			ARG 0 argument
 			ARG 1 root
-		METHOD a serialize (Lbx;Lht;)V
+		METHOD a serialize (Lby;Lhu;)V
 			ARG 0 argument
 			ARG 1 buffer
 		METHOD a serialize (Lcom/mojang/brigadier/arguments/ArgumentType;Lcom/google/gson/JsonObject;)V
 			ARG 0 argument
 			ARG 1 root
-		METHOD a serialize (Lcom/mojang/brigadier/arguments/ArgumentType;Lht;)V
+		METHOD a serialize (Lcom/mojang/brigadier/arguments/ArgumentType;Lhu;)V
 			ARG 0 argument
 			ARG 1 buffer
-		METHOD a deserialize (Lht;)Lbx;
+		METHOD a deserialize (Lhu;)Lby;
 			ARG 0 buffer
-		METHOD b deserialize (Lht;)Lcom/mojang/brigadier/arguments/ArgumentType;
+		METHOD b deserialize (Lhu;)Lcom/mojang/brigadier/arguments/ArgumentType;
 			ARG 0 buffer
 	FIELD a ARGUMENT_ENTITY_TOOMANY Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD b ARGUMENT_PLAYER_TOOMANY Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;

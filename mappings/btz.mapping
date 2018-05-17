@@ -1,4 +1,0 @@
-CLASS btz
-	CLASS btz$b
-		FIELD a NORMAL Lbtz$b;
-		FIELD b MESA Lbtz$b;

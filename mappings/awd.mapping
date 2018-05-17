@@ -1,7 +1,0 @@
-CLASS awd
-	METHOD a onConsumed (Lawk;Lbbb;Larl;)V
-		ARG 0 stack
-		ARG 1 world
-		ARG 2 player
-	METHOD e getRarity (Lawk;)Laww;
-		ARG 0 stack

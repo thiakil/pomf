@@ -1,10 +1,10 @@
-CLASS kn net/minecraft/network/packet/client/CPacketPlayerPositionLook
-	CLASS kn$a Flag
-		FIELD a X Lkn$a;
-		FIELD b Y Lkn$a;
-		FIELD c Z Lkn$a;
-		FIELD d Y_ROT Lkn$a;
-		FIELD e X_ROT Lkn$a;
+CLASS ko net/minecraft/network/packet/client/CPacketPlayerPositionLook
+	CLASS ko$a Flag
+		FIELD a X Lko$a;
+		FIELD b Y Lko$a;
+		FIELD c Z Lko$a;
+		FIELD d Y_ROT Lko$a;
+		FIELD e X_ROT Lko$a;
 		FIELD f shift I
 		METHOD a getMask ()I
 		METHOD a getFlags (I)Ljava/util/Set;
@@ -18,14 +18,14 @@ CLASS kn net/minecraft/network/packet/client/CPacketPlayerPositionLook
 	FIELD f flags Ljava/util/Set;
 	FIELD g teleportId I
 	METHOD a getX ()D
-	METHOD a readPacket (Lht;)V
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lis;)V
+	METHOD a applyPacket (Lit;)V
 		ARG 0 handler
 	METHOD b getY ()D
-	METHOD b writePacket (Lht;)V
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf
 	METHOD c getZ ()D
 	METHOD d getYaw ()F

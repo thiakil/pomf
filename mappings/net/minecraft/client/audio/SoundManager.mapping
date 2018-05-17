@@ -1,11 +1,11 @@
-CLASS dhz net/minecraft/client/audio/SoundManager
-	CLASS dhz$a SoundSystemMinecraft
+CLASS dib net/minecraft/client/audio/SoundManager
+	CLASS dib$a SoundSystemMinecraft
 	FIELD a MARKER Lorg/apache/logging/log4j/Marker;
 	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD c unknownSounds Ljava/util/Set;
-	FIELD d loader Ldib;
-	FIELD e settings Lchw;
-	FIELD f system Ldhz$a;
+	FIELD d loader Ldid;
+	FIELD e settings Lchy;
+	FIELD f system Ldib$a;
 	FIELD g initialized Z
 	FIELD h ticks I
 	FIELD i playingSounds Ljava/util/Map;
@@ -14,34 +14,34 @@ CLASS dhz net/minecraft/client/audio/SoundManager
 	FIELD l tickingSounds Ljava/util/List;
 	FIELD o listeners Ljava/util/List;
 	FIELD p pausedSoundIds Ljava/util/List;
-	METHOD <init> (Ldib;Lchw;)V
+	METHOD <init> (Ldid;Lchy;)V
 		ARG 0 loader
 		ARG 1 settings
 	METHOD a reloadSounds ()V
-	METHOD a updateListenerPosition (Larl;F)V
+	METHOD a updateListenerPosition (Larn;F)V
 		ARG 0 player
-	METHOD a isPlaying (Ldhe;)Z
-	METHOD a registerListener (Ldia;)V
-	METHOD a getSoundURL (Loj;)Ljava/net/URL;
+	METHOD a isPlaying (Ldhg;)Z
+	METHOD a registerListener (Ldic;)V
+	METHOD a getSoundURL (Lok;)Ljava/net/URL;
 		ARG 0 identifier
-	METHOD a stopSounds (Loj;Lvq;)V
+	METHOD a stopSounds (Lok;Lvr;)V
 		ARG 1 category
-	METHOD a getSoundVolume (Lvq;)F
+	METHOD a getSoundVolume (Lvr;)F
 		ARG 0 category
-	METHOD a updateSoundVolume (Lvq;F)V
+	METHOD a updateSoundVolume (Lvr;F)V
 		ARG 0 category
 		ARG 1 value
 	METHOD b deinitialize ()V
-	METHOD b stop (Ldhe;)V
-	METHOD b unregisterListener (Ldia;)V
+	METHOD b stop (Ldhg;)V
+	METHOD b unregisterListener (Ldic;)V
 	METHOD c stopAll ()V
-	METHOD c play (Ldhe;)V
+	METHOD c play (Ldhg;)V
 		ARG 0 sound
 	METHOD d update ()V
-	METHOD d getAdjustedPitch (Ldhe;)F
+	METHOD d getAdjustedPitch (Ldhg;)F
 		ARG 0 sound
 	METHOD e pause ()V
-	METHOD e getAdjustedVolume (Ldhe;)F
+	METHOD e getAdjustedVolume (Ldhg;)F
 		ARG 0 sound
 	METHOD f resume ()V
 	METHOD i initializeSystem ()V

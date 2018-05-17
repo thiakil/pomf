@@ -1,30 +1,30 @@
-CLASS aqv net/minecraft/entity/mob/EntitySpider
-	CLASS aqv$a
-		METHOD a getAttackRangeSquared (Laig;)D
+CLASS aqx net/minecraft/entity/mob/EntitySpider
+	CLASS aqx$a
+		METHOD a getAttackRangeSquared (Laii;)D
 			ARG 0 target
 		METHOD b shouldContinue ()Z
-	CLASS aqv$c
+	CLASS aqx$c
 		METHOD a canStart ()Z
-	FIELD a SPIDER_FLAGS Lny;
-	METHOD E getSoundAmbient ()Lvo;
-	METHOD H getLootTableId ()Loj;
+	FIELD a SPIDER_FLAGS Lnz;
+	METHOD E getSoundAmbient ()Lvp;
+	METHOD H getLootTableId ()Lok;
 	METHOD R_ update ()V
-	METHOD a (Lagp;Laij;Lawk;)Laij;
+	METHOD a (Lagr;Lail;Lawm;)Lail;
 		ARG 0 difficulty
-	METHOD a playStepSound (Lef;Lbfq;)V
+	METHOD a playStepSound (Leg;Lbfs;)V
 		ARG 0 pos
 		ARG 1 block
 	METHOD a setCanClimb (Z)V
 	METHOD aL getMountedHeightOffset ()D
-	METHOD b createNavigation (Lbbb;)Lamc;
+	METHOD b createNavigation (Lbbd;)Lame;
 		ARG 0 world
 	METHOD bI getEyeHeight ()F
 	METHOD bj stickInWeb ()V
-	METHOD cB getEntityAttribute ()Lail;
+	METHOD cB getEntityAttribute ()Lain;
 	METHOD ca initAttributes ()V
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahg;)Lvo;
-	METHOD d isPotionEffective (Lahq;)Z
+	METHOD ct getSoundDeath ()Lvp;
+	METHOD d getSoundHurt (Lahi;)Lvp;
+	METHOD d isPotionEffective (Lahs;)Z
 		ARG 0 effect
 	METHOD l getCanClimb ()Z
 	METHOD w_ initDataTracker ()V

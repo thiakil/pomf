@@ -1,10 +1,10 @@
-CLASS dbo net/minecraft/client/render/entity/EntityRendererSkeleton
-	CLASS dbo$1
+CLASS dbq net/minecraft/client/render/entity/EntityRendererSkeleton
+	CLASS dbq$1
 		METHOD ao_ init ()V
-	FIELD a SKIN Loj;
-	METHOD a getTexture (Lahx;)Loj;
+	FIELD a SKIN Lok;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Laih;)Loj;
+	METHOD a getTexture (Laij;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Lapv;)Loj;
+	METHOD a getTexture (Lapx;)Lok;
 		ARG 0 model

@@ -1,2 +1,2 @@
-CLASS qf net/minecraft/command/CommandTell
+CLASS qg net/minecraft/command/CommandTell
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

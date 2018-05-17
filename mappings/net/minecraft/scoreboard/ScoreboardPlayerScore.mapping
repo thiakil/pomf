@@ -1,12 +1,12 @@
-CLASS chc net/minecraft/scoreboard/ScoreboardPlayerScore
+CLASS che net/minecraft/scoreboard/ScoreboardPlayerScore
 	FIELD a COMPARATOR Ljava/util/Comparator;
-	FIELD b scoreboard Lchd;
-	FIELD c objective Lcha;
+	FIELD b scoreboard Lchf;
+	FIELD c objective Lchc;
 	FIELD d playerName Ljava/lang/String;
 	FIELD e score I
 	FIELD f disabled Z
 	FIELD g forceUpdate Z
-	METHOD <init> (Lchd;Lcha;Ljava/lang/String;)V
+	METHOD <init> (Lchf;Lchc;Ljava/lang/String;)V
 		ARG 0 scoreboard
 		ARG 1 objective
 		ARG 2 playerName
@@ -17,7 +17,7 @@ CLASS chc net/minecraft/scoreboard/ScoreboardPlayerScore
 	METHOD b getScore ()I
 	METHOD c setScore (I)V
 		ARG 0 value
-	METHOD d getObjective ()Lcha;
+	METHOD d getObjective ()Lchc;
 	METHOD e getPlayerName ()Ljava/lang/String;
-	METHOD f getScoreboard ()Lchd;
+	METHOD f getScoreboard ()Lchf;
 	METHOD g isDisabled ()Z

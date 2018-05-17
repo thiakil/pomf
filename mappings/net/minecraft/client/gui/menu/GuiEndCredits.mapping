@@ -1,7 +1,7 @@
-CLASS clr net/minecraft/client/gui/menu/GuiEndCredits
+CLASS clt net/minecraft/client/gui/menu/GuiEndCredits
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD f MINECRAFT_TEX Loj;
-	FIELD h VIGNETTE_TEX Loj;
+	FIELD f MINECRAFT_TEX Lok;
+	FIELD h VIGNETTE_TEX Lok;
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY

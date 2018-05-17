@@ -1,4 +1,4 @@
-CLASS ags net/minecraft/util/ActionResult
-	FIELD a SUCCESS Lags;
-	FIELD b PASS Lags;
-	FIELD c FAIL Lags;
+CLASS agu net/minecraft/util/ActionResult
+	FIELD a SUCCESS Lagu;
+	FIELD b PASS Lagu;
+	FIELD c FAIL Lagu;

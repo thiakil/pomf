@@ -1,12 +1,26 @@
 CLASS bgn
-	METHOD X_ getRenderLayer ()Lbaq;
-	METHOD a createBlockEntity (Lbap;)Lbmf;
+	CLASS bgn$a Mode
+		FIELD a COMPARE Lbgn$a;
+		FIELD b SUBTRACT Lbgn$a;
+		FIELD c name Ljava/lang/String;
+		METHOD m asString ()Ljava/lang/String;
+	FIELD a MODE Lboy;
+	METHOD a createBlockEntity (Lbar;)Lbmh;
 		ARG 0 world
-	METHOD a onPlaced (Lbbb;Lef;Lbnz;Laig;Lawk;)V
-		ARG 0 world
-		ARG 1 pos
-		ARG 3 placer
-		ARG 4 stack
-	METHOD a isFullBlock (Lbnz;)Z
-	METHOD c getRenderType (Lbnz;)Lbjw;
-	METHOD t getFluidState (Lbnz;)Lcbb;
+	METHOD a onBlockAction (Lbob;Lbbd;Leg;II)Z
+		ARG 1 world
+		ARG 2 pos
+	METHOD a onActivated (Lbob;Lbbd;Leg;Larn;Lags;Lem;FFF)Z
+		ARG 0 state
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 player
+		ARG 4 hand
+		ARG 5 facing
+		ARG 6 hitX
+		ARG 7 hitY
+		ARG 8 hitZ
+	METHOD b updateTick (Lbob;Lbbd;Leg;Ljava/util/Random;)V
+		ARG 1 world
+		ARG 2 pos
+		ARG 3 random

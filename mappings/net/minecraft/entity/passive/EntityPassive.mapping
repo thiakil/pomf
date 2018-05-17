@@ -1,20 +1,20 @@
-CLASS ahu net/minecraft/entity/passive/EntityPassive
+CLASS ahw net/minecraft/entity/passive/EntityPassive
 	FIELD a breedingAge I
 	FIELD b forcedAge I
-	FIELD bz CHILD Lny;
+	FIELD bz CHILD Lnz;
 	METHOD a setSize (FF)V
 		ARG 0 width
 		ARG 1 height
-	METHOD a createChild (Lahu;)Lahu;
+	METHOD a createChild (Lahw;)Lahw;
 		ARG 0 other
-	METHOD a interactMob (Larl;Lagq;)Z
+	METHOD a interactMob (Larn;Lags;)Z
 		ARG 0 player
 		ARG 1 playerHand
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
-	METHOD a onTrackedDataSet (Lny;)V
+	METHOD a onTrackedDataSet (Lnz;)V
 		ARG 0 data
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD b_ setBreedingAge (I)V
 		ARG 0 value

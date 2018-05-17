@@ -1,11 +1,11 @@
-CLASS wt net/minecraft/util/IntHashMap
-	CLASS wt$a Element
+CLASS wu net/minecraft/util/IntHashMap
+	CLASS wu$a Element
 		FIELD a key I
 		METHOD a getKey ()I
 		METHOD b getValue ()Ljava/lang/Object;
 		METHOD equals (Ljava/lang/Object;)Z
 			ARG 0 object
-	FIELD a elements [Lwt$a;
+	FIELD a elements [Lwu$a;
 	FIELD b count I
 	FIELD c capacity I
 	FIELD d capacityFactor F
@@ -22,11 +22,11 @@ CLASS wt net/minecraft/util/IntHashMap
 	METHOD b containsKey (I)Z
 		ARG 0 key
 	METHOD c clear ()V
-	METHOD c getElement (I)Lwt$a;
+	METHOD c getElement (I)Lwu$a;
 		ARG 0 key
 	METHOD d remove (I)Ljava/lang/Object;
 		ARG 0 key
-	METHOD e removeInternal (I)Lwt$a;
+	METHOD e removeInternal (I)Lwu$a;
 		ARG 0 key
 	METHOD g getHash (I)I
 		ARG 0 key

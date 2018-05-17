@@ -1,3 +1,0 @@
-CLASS cgw
-	METHOD a getMinMaybe (Lel$a;)I
-	METHOD b getMaxMaybe (Lel$a;)I

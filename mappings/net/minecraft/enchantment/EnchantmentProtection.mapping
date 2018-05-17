@@ -1,21 +1,21 @@
-CLASS azv net/minecraft/enchantment/EnchantmentProtection
-	CLASS azv$a Type
-		FIELD a ALL Lazv$a;
-		FIELD b FIRE Lazv$a;
-		FIELD c FALL Lazv$a;
-		FIELD d EXPLOSION Lazv$a;
-		FIELD e PROJECTILE Lazv$a;
+CLASS azx net/minecraft/enchantment/EnchantmentProtection
+	CLASS azx$a Type
+		FIELD a ALL Lazx$a;
+		FIELD b FIRE Lazx$a;
+		FIELD c FALL Lazx$a;
+		FIELD d EXPLOSION Lazx$a;
+		FIELD e PROJECTILE Lazx$a;
 		FIELD f name Ljava/lang/String;
 		METHOD a getName ()Ljava/lang/String;
-	FIELD a type Lazv$a;
-	METHOD <init> (Lazj$a;Lazv$a;[Laic;)V
+	FIELD a type Lazx$a;
+	METHOD <init> (Lazl$a;Lazx$a;[Laie;)V
 		ARG 0 weight
 		ARG 1 type
 		ARG 2 slotTypes
 	METHOD a getTranslationKey ()Ljava/lang/String;
-	METHOD a getProtectionAmount (ILahg;)I
+	METHOD a getProtectionAmount (ILahi;)I
 		ARG 0 level
 		ARG 1 source
-	METHOD a isEqual (Lazj;)Z
+	METHOD a isEqual (Lazl;)Z
 		ARG 0 other
 	METHOD b getHighestLevel ()I

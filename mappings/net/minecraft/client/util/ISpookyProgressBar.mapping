@@ -1,2 +1,2 @@
-CLASS clt net/minecraft/client/util/ISpookyProgressBar
+CLASS clv net/minecraft/client/util/ISpookyProgressBar
 	FIELD e_ SPOOKY_PROGRESS_STAGES [Ljava/lang/String;

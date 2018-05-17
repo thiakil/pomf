@@ -1,9 +1,0 @@
-CLASS byt
-	CLASS byt$a
-		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
-			ARG 1 rand
-			ARG 2 region
-		METHOD a serializeStructureData (Lgu;)V
-			ARG 0 tag
-		METHOD a deserializeStructureData (Lgu;Lbzr;)V
-			ARG 0 tag

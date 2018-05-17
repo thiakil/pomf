@@ -1,2 +1,2 @@
-CLASS aoq net/minecraft/entity/boss/DragonPhaseLandingApproach
-	METHOD i getType ()Laoy;
+CLASS aos net/minecraft/entity/boss/DragonPhaseLandingApproach
+	METHOD i getType ()Lapa;

@@ -1,7 +1,7 @@
-CLASS dce net/minecraft/client/render/entity/EntityRendererVex
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dcg net/minecraft/client/render/entity/EntityRendererVex
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Laih;)Loj;
+	METHOD a getTexture (Laij;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Laqx;)Loj;
+	METHOD a getTexture (Laqz;)Lok;
 		ARG 0 model

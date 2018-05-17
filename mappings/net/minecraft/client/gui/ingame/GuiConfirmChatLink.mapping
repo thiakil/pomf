@@ -1,9 +1,9 @@
-CLASS cko net/minecraft/client/gui/ingame/GuiConfirmChatLink
+CLASS ckq net/minecraft/client/gui/ingame/GuiConfirmChatLink
 	FIELD s warning Ljava/lang/String;
 	FIELD t copy Ljava/lang/String;
 	FIELD u link Ljava/lang/String;
 	FIELD v drawWarning Z
-	METHOD <init> (Lckp;Ljava/lang/String;IZ)V
+	METHOD <init> (Lckr;Ljava/lang/String;IZ)V
 		ARG 0 callback
 		ARG 1 link
 	METHOD a draw (IIF)V

@@ -1,4 +1,4 @@
-CLASS dfp net/minecraft/client/resource/ResourceLoaderGrassColormap
-	FIELD a GRASS_COLORMAP_LOC Loj;
-	METHOD a onResourceReload (Lul;)V
+CLASS dfr net/minecraft/client/resource/ResourceLoaderGrassColormap
+	FIELD a GRASS_COLORMAP_LOC Lok;
+	METHOD a onResourceReload (Lum;)V
 		ARG 0 container

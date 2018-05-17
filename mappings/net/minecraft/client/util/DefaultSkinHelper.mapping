@@ -1,8 +1,8 @@
-CLASS dfm net/minecraft/client/util/DefaultSkinHelper
-	FIELD a STEVE_SKIN Loj;
-	FIELD b ALEX_SKIN Loj;
-	METHOD a getTexture ()Loj;
-	METHOD a getTexture (Ljava/util/UUID;)Loj;
+CLASS dfo net/minecraft/client/util/DefaultSkinHelper
+	FIELD a STEVE_SKIN Lok;
+	FIELD b ALEX_SKIN Lok;
+	METHOD a getTexture ()Lok;
+	METHOD a getTexture (Ljava/util/UUID;)Lok;
 		ARG 0 uuid
 	METHOD b getModel (Ljava/util/UUID;)Ljava/lang/String;
 		ARG 0 uuid

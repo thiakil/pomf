@@ -1,12 +1,12 @@
-CLASS aiw net/minecraft/entity/attribute/AttributeContainerBase
+CLASS aiy net/minecraft/entity/attribute/AttributeContainerBase
 	FIELD a instancesByKey Ljava/util/Map;
 	FIELD b instancesById Ljava/util/Map;
 	METHOD a values ()Ljava/util/Collection;
-	METHOD a get (Lais;)Lait;
+	METHOD a get (Laiu;)Laiv;
 		ARG 0 attribute
-	METHOD a get (Ljava/lang/String;)Lait;
+	METHOD a get (Ljava/lang/String;)Laiv;
 		ARG 0 name
-	METHOD b register (Lais;)Lait;
+	METHOD b register (Laiu;)Laiv;
 		ARG 0 attribute
-	METHOD c createInstance (Lais;)Lait;
+	METHOD c createInstance (Laiu;)Laiv;
 		ARG 0 attribute

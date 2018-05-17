@@ -1,3 +1,0 @@
-CLASS abv
-	CLASS abv$a
-		METHOD a dimip (Labd;)Labd;

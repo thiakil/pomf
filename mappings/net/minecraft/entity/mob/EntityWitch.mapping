@@ -1,16 +1,16 @@
-CLASS aqz net/minecraft/entity/mob/EntityWitch
-	FIELD b DRINKINGSPEEDPENALTY Laiu;
-	FIELD c DRINKING Lny;
-	METHOD E getSoundAmbient ()Lvo;
-	METHOD H getLootTableId ()Loj;
-	METHOD a attackDistant (Laig;F)V
+CLASS arb net/minecraft/entity/mob/EntityWitch
+	FIELD b DRINKINGSPEEDPENALTY Laiw;
+	FIELD c DRINKING Lnz;
+	METHOD E getSoundAmbient ()Lvp;
+	METHOD H getLootTableId ()Lok;
+	METHOD a attackDistant (Laii;F)V
 		ARG 0 target
 	METHOD a setDrinking (Z)V
 		ARG 0 value
 	METHOD bI getEyeHeight ()F
 	METHOD ca initAttributes ()V
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD ct getSoundDeath ()Lvp;
+	METHOD d getSoundHurt (Lahi;)Lvp;
 	METHOD k updateMovement ()V
 	METHOD l isDrinking ()Z
 	METHOD s setArmsRaised (Z)V

@@ -1,5 +1,5 @@
-CLASS cva net/minecraft/client/render/item/ItemBuiltinRenderer
-	FIELD a INSTANCE Lcva;
-	FIELD f renderChestEnder Lbmq;
-	FIELD g renderBanner Lbmb;
-	FIELD i renderSkull Lbnb;
+CLASS cvc net/minecraft/client/render/item/ItemBuiltinRenderer
+	FIELD a INSTANCE Lcvc;
+	FIELD f renderChestEnder Lbms;
+	FIELD g renderBanner Lbmd;
+	FIELD i renderSkull Lbnd;

@@ -1,4 +1,4 @@
-CLASS bpl net/minecraft/world/chunk/ChunkNibbleArray
+CLASS bpn net/minecraft/world/chunk/ChunkNibbleArray
 	FIELD a nibbleData [B
 	METHOD <init> ([B)V
 		ARG 0 nibbleData

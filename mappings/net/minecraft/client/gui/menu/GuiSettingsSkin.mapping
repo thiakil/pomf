@@ -1,7 +1,7 @@
-CLASS clm net/minecraft/client/gui/menu/GuiSettingsSkin
-	FIELD a parent Lclk;
+CLASS clo net/minecraft/client/gui/menu/GuiSettingsSkin
+	FIELD a parent Lclm;
 	FIELD f title Ljava/lang/String;
-	METHOD <init> (Lclk;)V
+	METHOD <init> (Lclm;)V
 		ARG 0 parent
 	METHOD a draw (IIF)V
 		ARG 0 mouseX

@@ -1,5 +1,5 @@
-CLASS auh net/minecraft/util/IArmorMaterial
-	METHOD a (Laic;)I
+CLASS auj net/minecraft/util/IArmorMaterial
+	METHOD a (Laie;)I
 		ARG 0 slot
-	METHOD b (Laic;)I
+	METHOD b (Laie;)I
 		ARG 0 slot

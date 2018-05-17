@@ -1,7 +1,0 @@
-CLASS cbv
-	CLASS cbv$a
-		FIELD a INSTANCE Lcbv$a;
-	CLASS cbv$b
-		FIELD a INSTANCE Lcbv$b;
-	CLASS cbv$c
-		FIELD a INSTANCE Lcbv$c;

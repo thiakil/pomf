@@ -1,11 +1,11 @@
-CLASS agv net/minecraft/container/ContainerLock
-	FIELD a EMPTY Lagv;
+CLASS agx net/minecraft/container/ContainerLock
+	FIELD a EMPTY Lagx;
 	FIELD b key Ljava/lang/String;
 	METHOD <init> (Ljava/lang/String;)V
 		ARG 0 key
 	METHOD a isEmpty ()Z
-	METHOD a serialize (Lgu;)V
+	METHOD a serialize (Lgv;)V
 		ARG 0 tag
 	METHOD b getKey ()Ljava/lang/String;
-	METHOD b deserialize (Lgu;)Lagv;
+	METHOD b deserialize (Lgv;)Lagx;
 		ARG 0 tag

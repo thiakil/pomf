@@ -1,12 +1,12 @@
-CLASS cia net/minecraft/util/Session
-	CLASS cia$a AccountType
-		FIELD a LEGACY Lcia$a;
-		FIELD b MOJANG Lcia$a;
-		METHOD a byName (Ljava/lang/String;)Lcia$a;
+CLASS cic net/minecraft/util/Session
+	CLASS cic$a AccountType
+		FIELD a LEGACY Lcic$a;
+		FIELD b MOJANG Lcic$a;
+		METHOD a byName (Ljava/lang/String;)Lcic$a;
 	FIELD a username Ljava/lang/String;
 	FIELD b uuid Ljava/lang/String;
 	FIELD c accessToken Ljava/lang/String;
-	FIELD d accountType Lcia$a;
+	FIELD d accountType Lcic$a;
 	METHOD <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 		ARG 0 username
 		ARG 1 uuid

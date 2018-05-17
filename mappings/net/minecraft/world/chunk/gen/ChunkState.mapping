@@ -1,17 +1,17 @@
-CLASS bpk net/minecraft/world/chunk/gen/ChunkState
-	CLASS bpk$a
-		FIELD a PROTOCHUNK Lbpk$a;
-		FIELD b LEVELCHUNK Lbpk$a;
-	FIELD a EMPTY Lbpk;
-	FIELD b BASE Lbpk;
-	FIELD c CARVED Lbpk;
-	FIELD d LIQUID_CARVED Lbpk;
-	FIELD e DECORATED Lbpk;
-	FIELD f LIGHTED Lbpk;
-	FIELD g MOBS_SPAWNED Lbpk;
-	FIELD h FINALIZED Lbpk;
-	FIELD i FULLCHUNK Lbpk;
-	FIELD j POST_PROCESSED Lbpk;
-	FIELD m producer Lsw;
-	METHOD a produce (Lbbb;Lbpf;Ljava/util/Map;II)Lbpe;
-	METHOD e getPrevious ()Lbpk;
+CLASS bpm net/minecraft/world/chunk/gen/ChunkState
+	CLASS bpm$a
+		FIELD a PROTOCHUNK Lbpm$a;
+		FIELD b LEVELCHUNK Lbpm$a;
+	FIELD a EMPTY Lbpm;
+	FIELD b BASE Lbpm;
+	FIELD c CARVED Lbpm;
+	FIELD d LIQUID_CARVED Lbpm;
+	FIELD e DECORATED Lbpm;
+	FIELD f LIGHTED Lbpm;
+	FIELD g MOBS_SPAWNED Lbpm;
+	FIELD h FINALIZED Lbpm;
+	FIELD i FULLCHUNK Lbpm;
+	FIELD j POST_PROCESSED Lbpm;
+	FIELD m producer Lsx;
+	METHOD a produce (Lbbd;Lbph;Ljava/util/Map;II)Lbpg;
+	METHOD e getPrevious ()Lbpm;

@@ -1,37 +1,37 @@
-CLASS bkg net/minecraft/block/BlockShulkerBox
-	FIELD b color Lavi;
-	METHOD a getDefaultState (Laup;)Lbnz;
-	METHOD a getTooltipInformation (Lawk;Lbap;Ljava/util/List;Laxs;)V
+CLASS bki net/minecraft/block/BlockShulkerBox
+	FIELD b color Lavk;
+	METHOD a getDefaultState (Laur;)Lbob;
+	METHOD a getTooltipInformation (Lawm;Lbar;Ljava/util/List;Laxu;)V
 		ARG 0 stack
 		ARG 1 world
 		ARG 2 tooltip
 		ARG 3 flag
-	METHOD a createBlockEntity (Lbap;)Lbmf;
+	METHOD a createBlockEntity (Lbar;)Lbmh;
 		ARG 0 world
-	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+	METHOD a getBlockFaceShape (Lbar;Lbob;Leg;Lem;)Lboa;
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
-	METHOD a getItem (Lbap;Lef;Lbnz;)Lawk;
-	METHOD a onPlaced (Lbbb;Lef;Lbnz;Laig;Lawk;)V
+	METHOD a getItem (Lbar;Leg;Lbob;)Lawm;
+	METHOD a onPlaced (Lbbd;Leg;Lbob;Laii;Lawm;)V
 		ARG 0 world
 		ARG 1 pos
 		ARG 3 placer
 		ARG 4 stack
-	METHOD a onBreak (Lbbb;Lef;Lbnz;Larl;)V
+	METHOD a onBreak (Lbbd;Leg;Lbob;Larn;)V
 		ARG 0 world
 		ARG 1 pos
 		ARG 3 player
-	METHOD a isFullBlock (Lbnz;)Z
-	METHOD a getComparatorOutput (Lbnz;Lbbb;Lef;)I
+	METHOD a isFullBlock (Lbob;)Z
+	METHOD a getComparatorOutput (Lbob;Lbbd;Leg;)I
 		ARG 1 world
 		ARG 2 pos
-	METHOD a dropItems (Lbnz;Lbbb;Lef;FI)V
+	METHOD a dropItems (Lbob;Lbbd;Leg;FI)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 dropChance
 		ARG 4 fortune
-	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z
+	METHOD a onActivated (Lbob;Lbbd;Leg;Larn;Lags;Lem;FFF)Z
 		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
@@ -41,15 +41,15 @@ CLASS bkg net/minecraft/block/BlockShulkerBox
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
-	METHOD a onBlockRemoved (Lbnz;Lbbb;Lef;Lbnz;)V
+	METHOD a onBlockRemoved (Lbob;Lbbd;Leg;Lbob;)V
 		ARG 1 world
 		ARG 2 pos
-	METHOD a withMirror (Lbnz;Lbiw;)Lbnz;
-	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;
-	METHOD b getColor (Lawg;)Lavi;
+	METHOD a withMirror (Lbob;Lbiy;)Lbob;
+	METHOD a withRotation (Lbob;Lbkb;)Lbob;
+	METHOD b getColor (Lawi;)Lavk;
 		ARG 0 item
-	METHOD c getColor ()Lavi;
-	METHOD c getRenderType (Lbnz;)Lbjw;
-	METHOD e getColor (Lbfq;)Lavi;
+	METHOD c getColor ()Lavk;
+	METHOD c getRenderType (Lbob;)Lbjy;
+	METHOD e getColor (Lbfs;)Lavk;
 		ARG 0 block
-	METHOD i getPistonBehavior (Lbnz;)Lcbh;
+	METHOD i getPistonBehavior (Lbob;)Lcbj;

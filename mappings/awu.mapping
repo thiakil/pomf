@@ -1,3 +1,0 @@
-CLASS awu
-	METHOD i getTranslatedNameTrimmed (Lawk;)Lic;
-		ARG 0 stack

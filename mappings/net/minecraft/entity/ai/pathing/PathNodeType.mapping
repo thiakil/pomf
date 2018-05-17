@@ -1,23 +1,23 @@
-CLASS cdf net/minecraft/entity/ai/pathing/PathNodeType
-	FIELD a BLOCKED Lcdf;
-	FIELD b OPEN Lcdf;
-	FIELD c WALKABLE Lcdf;
-	FIELD d TRAPDOOR Lcdf;
-	FIELD e FENCE Lcdf;
-	FIELD f LAVA Lcdf;
-	FIELD g WATER Lcdf;
-	FIELD h WATER_BORDER Lcdf;
-	FIELD i RAIL Lcdf;
-	FIELD j DANGER_FIRE Lcdf;
-	FIELD k DAMAGE_FIRE Lcdf;
-	FIELD l DANGER_CACTUS Lcdf;
-	FIELD m DAMAGE_CACTUS Lcdf;
-	FIELD n DANGER_OTHER Lcdf;
-	FIELD o DAMAGE_OTHER Lcdf;
-	FIELD p DOOR_OPEN Lcdf;
-	FIELD q DOOR_WOOD_CLOSED Lcdf;
-	FIELD r DOOR_IRON_CLOSED Lcdf;
-	FIELD s BREACH Lcdf;
+CLASS cdh net/minecraft/entity/ai/pathing/PathNodeType
+	FIELD a BLOCKED Lcdh;
+	FIELD b OPEN Lcdh;
+	FIELD c WALKABLE Lcdh;
+	FIELD d TRAPDOOR Lcdh;
+	FIELD e FENCE Lcdh;
+	FIELD f LAVA Lcdh;
+	FIELD g WATER Lcdh;
+	FIELD h WATER_BORDER Lcdh;
+	FIELD i RAIL Lcdh;
+	FIELD j DANGER_FIRE Lcdh;
+	FIELD k DAMAGE_FIRE Lcdh;
+	FIELD l DANGER_CACTUS Lcdh;
+	FIELD m DAMAGE_CACTUS Lcdh;
+	FIELD n DANGER_OTHER Lcdh;
+	FIELD o DAMAGE_OTHER Lcdh;
+	FIELD p DOOR_OPEN Lcdh;
+	FIELD q DOOR_WOOD_CLOSED Lcdh;
+	FIELD r DOOR_IRON_CLOSED Lcdh;
+	FIELD s BREACH Lcdh;
 	FIELD t weight F
 	METHOD <init> (Ljava/lang/String;IF)V
 		ARG 0 weight

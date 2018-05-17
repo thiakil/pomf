@@ -1,29 +1,29 @@
-CLASS he net/minecraft/nbt/TagStorageHelper
-	METHOD a writeCompoundTag (Lgu;Ljava/io/DataOutput;)V
+CLASS hf net/minecraft/nbt/TagStorageHelper
+	METHOD a writeCompoundTag (Lgv;Ljava/io/DataOutput;)V
 		ARG 0 tag
 		ARG 1 output
-	METHOD a writeCompoundTagSafely (Lgu;Ljava/io/File;)V
+	METHOD a writeCompoundTagSafely (Lgv;Ljava/io/File;)V
 		ARG 0 tag
 		ARG 1 file
-	METHOD a writeCompoundTagCompressed (Lgu;Ljava/io/OutputStream;)V
+	METHOD a writeCompoundTagCompressed (Lgv;Ljava/io/OutputStream;)V
 		ARG 0 tag
 		ARG 1 stream
-	METHOD a writeTag (Lhj;Ljava/io/DataOutput;)V
+	METHOD a writeTag (Lhk;Ljava/io/DataOutput;)V
 		ARG 0 tag
 		ARG 1 output
-	METHOD a readTag (Ljava/io/DataInput;ILhd;)Lhj;
+	METHOD a readTag (Ljava/io/DataInput;ILhe;)Lhk;
 		ARG 0 input
 		ARG 1 depth
 		ARG 2 tracker
-	METHOD a readCompoundTag (Ljava/io/DataInput;Lhd;)Lgu;
+	METHOD a readCompoundTag (Ljava/io/DataInput;Lhe;)Lgv;
 		ARG 0 input
 		ARG 1 trakcer
-	METHOD a readCompoundTag (Ljava/io/DataInputStream;)Lgu;
+	METHOD a readCompoundTag (Ljava/io/DataInputStream;)Lgv;
 		ARG 0 stream
-	METHOD a readCompoundTag (Ljava/io/File;)Lgu;
+	METHOD a readCompoundTag (Ljava/io/File;)Lgv;
 		ARG 0 file
-	METHOD a readCompoundTagCompressed (Ljava/io/InputStream;)Lgu;
+	METHOD a readCompoundTagCompressed (Ljava/io/InputStream;)Lgv;
 		ARG 0 stream
-	METHOD b writeCompoundTag (Lgu;Ljava/io/File;)V
+	METHOD b writeCompoundTag (Lgv;Ljava/io/File;)V
 		ARG 0 tag
 		ARG 1 file

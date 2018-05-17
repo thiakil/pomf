@@ -1,5 +1,5 @@
-CLASS cpx net/minecraft/client/render/entity/model/EntityModelGuardian
-	METHOD a setRotationAngles (FFFFFFLahx;)V
+CLASS cpz net/minecraft/client/render/entity/model/EntityModelGuardian
+	METHOD a setRotationAngles (FFFFFFLahz;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount
 		ARG 2 age
@@ -7,7 +7,7 @@ CLASS cpx net/minecraft/client/render/entity/model/EntityModelGuardian
 		ARG 4 headPitch
 		ARG 5 scale
 		ARG 6 entity
-	METHOD a render (Lahx;FFFFFF)V
+	METHOD a render (Lahz;FFFFFF)V
 		ARG 0 entity
 		ARG 1 limbMoveAngle
 		ARG 2 limbMoveAmount

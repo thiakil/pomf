@@ -1,5 +1,5 @@
-CLASS bmu net/minecraft/block/entity/BlockEntityJukebox
-	METHOD a serialize (Lgu;)Lgu;
+CLASS bmw net/minecraft/block/entity/BlockEntityJukebox
+	METHOD a serialize (Lgv;)Lgv;
 		ARG 0 tag
-	METHOD b deserialize (Lgu;)V
+	METHOD b deserialize (Lgv;)V
 		ARG 0 tag

@@ -1,6 +1,6 @@
-CLASS cuf net/minecraft/client/particle/ParticleBlockCrack
-	CLASS cuf$a Factory
-		METHOD a createParticle (Lfd;Lbbb;DDDDDD)Lcts;
+CLASS cuh net/minecraft/client/particle/ParticleBlockCrack
+	CLASS cuh$a Factory
+		METHOD a createParticle (Lfe;Lbbd;DDDDDD)Lctu;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -8,7 +8,7 @@ CLASS cuf net/minecraft/client/particle/ParticleBlockCrack
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lcts;
+		METHOD a createParticle (Lfh;Lbbd;DDDDDD)Lctu;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -16,17 +16,17 @@ CLASS cuf net/minecraft/client/particle/ParticleBlockCrack
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-	FIELD K blockPos Lef;
-	METHOD <init> (Lbbb;DDDDDDLbnz;)V
+	FIELD K blockPos Leg;
+	METHOD <init> (Lbbd;DDDDDDLbob;)V
 		ARG 0 world
 	METHOD a getColorMultiplier (F)I
-	METHOD a buildGeometry (Lcuw;Lahx;FFFFFF)V
+	METHOD a buildGeometry (Lcuy;Lahz;FFFFFF)V
 		ARG 0 vertexBuffer
 		ARG 1 entity
 		ARG 2 deltaTicks
-	METHOD a setBlockPos (Lef;)Lcuf;
+	METHOD a setBlockPos (Leg;)Lcuh;
 		ARG 0 blockPos
 	METHOD b getParticleGroup ()I
-	METHOD b updateColor (Lef;)V
+	METHOD b updateColor (Leg;)V
 		ARG 0 blockPos
-	METHOD n setBlockPosFromPosition ()Lcuf;
+	METHOD n setBlockPosFromPosition ()Lcuh;

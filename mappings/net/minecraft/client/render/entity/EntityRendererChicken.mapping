@@ -1,6 +1,6 @@
-CLASS czk net/minecraft/client/render/entity/EntityRendererChicken
-	FIELD a SKIN Loj;
-	METHOD a getTexture (Lahx;)Loj;
+CLASS czm net/minecraft/client/render/entity/EntityRendererChicken
+	FIELD a SKIN Lok;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Lamw;)Loj;
+	METHOD a getTexture (Lamy;)Lok;
 		ARG 0 model

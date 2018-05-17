@@ -1,8 +1,8 @@
-CLASS aii net/minecraft/entity/EntityType
-	FIELD a MONSTER Laii;
-	FIELD b CREATURE Laii;
-	FIELD c AMBIENT Laii;
-	FIELD d WATER_CREATURE Laii;
+CLASS aik net/minecraft/entity/EntityType
+	FIELD a MONSTER Laik;
+	FIELD b CREATURE Laik;
+	FIELD c AMBIENT Laik;
+	FIELD d WATER_CREATURE Laik;
 	FIELD e entityClass Ljava/lang/Class;
 	FIELD f spawnCap I
 	FIELD g peaceful Z

@@ -1,2 +1,2 @@
-CLASS qw net/minecraft/command/CommandSetIdleTimeout
+CLASS qx net/minecraft/command/CommandSetIdleTimeout
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

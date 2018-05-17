@@ -1,4 +1,4 @@
-CLASS oj net/minecraft/util/Identifier
+CLASS ok net/minecraft/util/Identifier
 	FIELD a namespace Ljava/lang/String;
 	FIELD b path Ljava/lang/String;
 	FIELD c type Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;

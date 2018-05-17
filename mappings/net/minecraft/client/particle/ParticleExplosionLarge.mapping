@@ -1,6 +1,6 @@
-CLASS ctl net/minecraft/client/particle/ParticleExplosionLarge
-	CLASS ctl$a Factory
-		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lcts;
+CLASS ctn net/minecraft/client/particle/ParticleExplosionLarge
+	CLASS ctn$a Factory
+		METHOD a createParticle (Lfh;Lbbd;DDDDDD)Lctu;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -8,7 +8,7 @@ CLASS ctl net/minecraft/client/particle/ParticleExplosionLarge
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lcts;
+		METHOD a createParticle (Lfk;Lbbd;DDDDDD)Lctu;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -16,11 +16,11 @@ CLASS ctl net/minecraft/client/particle/ParticleExplosionLarge
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-	FIELD J TEX Loj;
+	FIELD J TEX Lok;
 	FIELD L age_ I
 	FIELD M maxAge_ I
-	FIELD N textureManager Ldex;
-	METHOD <init> (Ldex;Lbbb;DDDDDD)V
+	FIELD N textureManager Ldez;
+	METHOD <init> (Ldez;Lbbd;DDDDDD)V
 		ARG 0 textureManager
 		ARG 1 world
 		ARG 2 x
@@ -28,7 +28,7 @@ CLASS ctl net/minecraft/client/particle/ParticleExplosionLarge
 		ARG 4 rz
 	METHOD a update ()V
 	METHOD a getColorMultiplier (F)I
-	METHOD a buildGeometry (Lcuw;Lahx;FFFFFF)V
+	METHOD a buildGeometry (Lcuy;Lahz;FFFFFF)V
 		ARG 0 vertexBuffer
 		ARG 1 entity
 		ARG 2 deltaTicks

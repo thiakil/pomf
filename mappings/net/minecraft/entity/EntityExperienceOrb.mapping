@@ -1,21 +1,21 @@
-CLASS aid net/minecraft/entity/EntityExperienceOrb
+CLASS aif net/minecraft/entity/EntityExperienceOrb
 	FIELD b xpAge I
 	FIELD d health I
 	FIELD e amount I
-	METHOD <init> (Lbbb;DDDI)V
+	METHOD <init> (Lbbd;DDDI)V
 		ARG 0 world
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 amount
 	METHOD R_ update ()V
-	METHOD a damage (Lahg;F)Z
+	METHOD a damage (Lahi;F)Z
 		ARG 0 source
 		ARG 1 damage
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD av updateSwimming ()Z
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD f getExperienceAmount ()I
 	METHOD h burn (I)V

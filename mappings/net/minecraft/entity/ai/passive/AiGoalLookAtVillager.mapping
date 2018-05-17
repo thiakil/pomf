@@ -1,8 +1,8 @@
-CLASS aks net/minecraft/entity/ai/passive/AiGoalLookAtVillager
-	FIELD a owner Lanp;
-	FIELD b target Larg;
+CLASS aku net/minecraft/entity/ai/passive/AiGoalLookAtVillager
+	FIELD a owner Lanr;
+	FIELD b target Lari;
 	FIELD c lookTimer I
-	METHOD <init> (Lanp;)V
+	METHOD <init> (Lanr;)V
 		ARG 0 owner
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z

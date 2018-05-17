@@ -1,7 +1,7 @@
-CLASS ake net/minecraft/entity/ai/AiGoalLandOnOwner
-	FIELD a owner Lank;
-	FIELD b player Larl;
-	METHOD <init> (Lank;)V
+CLASS akg net/minecraft/entity/ai/AiGoalLandOnOwner
+	FIELD a owner Lanm;
+	FIELD b player Larn;
+	METHOD <init> (Lanm;)V
 		ARG 0 owner
 	METHOD a canStart ()Z
 	METHOD c start ()V

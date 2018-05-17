@@ -5,9 +5,9 @@ CLASS r net/minecraft/advancement/criterion/CriterionProgress
 	METHOD <init> (Ln;)V
 		ARG 0 advancement
 	METHOD a isObtained ()Z
-	METHOD a serialize (Lht;)V
+	METHOD a serialize (Lhu;)V
 		ARG 0 buf
-	METHOD a deserialize (Lht;Ln;)Lr;
+	METHOD a deserialize (Lhu;Ln;)Lr;
 		ARG 0 buf
 		ARG 1 advancement
 	METHOD a create (Ln;Ljava/lang/String;)Lr;

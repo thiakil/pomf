@@ -1,31 +1,31 @@
-CLASS apr net/minecraft/entity/EntityItem
-	FIELD b STACK Lny;
+CLASS apt net/minecraft/entity/EntityItem
+	FIELD b STACK Lnz;
 	FIELD c age I
 	FIELD d pickupDelay I
 	FIELD e health I
 	FIELD f thrower Ljava/util/UUID;
 	FIELD g owner Ljava/util/UUID;
-	METHOD N_ getNameAsComponent ()Lic;
+	METHOD N_ getNameAsComponent ()Lid;
 	METHOD R_ update ()V
 	METHOD a setPickupDelay (I)V
 		ARG 0 delay
-	METHOD a damage (Lahg;F)Z
+	METHOD a damage (Lahi;F)Z
 		ARG 0 source
 		ARG 1 damage
-	METHOD a tryMerge (Lapr;)Z
+	METHOD a tryMerge (Lapt;)Z
 		ARG 0 other
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD av updateSwimming ()Z
-	METHOD b setStack (Lawk;)V
+	METHOD b setStack (Lawm;)V
 		ARG 0 stack
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
-	METHOD d changeWorld (I)Lahx;
+	METHOD d changeWorld (I)Lahz;
 		ARG 0 worldId
 	METHOD h burn (I)V
 		ARG 0 damageAmount
-	METHOD i getStack ()Lawk;
+	METHOD i getStack ()Lawm;
 	METHOD k getOwner ()Ljava/util/UUID;
 	METHOD l getThrower ()Ljava/util/UUID;
 	METHOD m getAge ()I

@@ -1,2 +1,2 @@
-CLASS yw net/minecraft/util/datafix/EntityHealtFix
+CLASS yy net/minecraft/util/datafix/EntityHealtFix
 	FIELD a ARMOR_STAND Ljava/util/Set;

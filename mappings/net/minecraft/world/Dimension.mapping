@@ -1,16 +1,16 @@
-CLASS bqi net/minecraft/world/Dimension
-	FIELD b world Lbbb;
+CLASS bqk net/minecraft/world/Dimension
+	FIELD b world Lbbd;
 	FIELD c waterEvaporates Z
 	FIELD d noSky Z
 	FIELD f lightValues [F
-	METHOD a init (Lbbb;)V
+	METHOD a init (Lbbd;)V
 		ARG 0 world
-	METHOD b getFogColor (FF)Lcgg;
+	METHOD b getFogColor (FF)Lcgi;
 	METHOD f doesWaterEvaporate ()Z
 	METHOD h hasNoSky ()Z
 	METHOD i getLightValues ()[F
-	METHOD j createWorldBorderHandler ()Lbpc;
+	METHOD j createWorldBorderHandler ()Lbpe;
 	METHOD k serialize ()V
 	METHOD m setupBiomeProvider ()V
 	METHOD o hasClouds ()Z
-	METHOD q getWorldType ()Lbqj;
+	METHOD q getWorldType ()Lbql;

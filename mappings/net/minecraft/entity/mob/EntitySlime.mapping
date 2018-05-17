@@ -1,39 +1,39 @@
-CLASS aqt net/minecraft/entity/mob/EntitySlime
-	CLASS aqt$a
+CLASS aqv net/minecraft/entity/mob/EntitySlime
+	CLASS aqv$a
 		METHOD a canStart ()Z
 		METHOD b shouldContinue ()Z
 		METHOD c start ()V
 		METHOD e tick ()V
-	CLASS aqt$b
+	CLASS aqv$b
 		METHOD a canStart ()Z
 		METHOD e tick ()V
-	CLASS aqt$c
+	CLASS aqv$c
 		METHOD a canStart ()Z
 		METHOD e tick ()V
-	CLASS aqt$d
+	CLASS aqv$d
 		METHOD a tick ()V
-	CLASS aqt$e
+	CLASS aqv$e
 		METHOD a canStart ()Z
 		METHOD e tick ()V
 	FIELD bA wasOnGround Z
-	FIELD bz SLIME_SIZE Lny;
-	METHOD G getLootItem ()Lawg;
-	METHOD H getLootTableId ()Loj;
+	FIELD bz SLIME_SIZE Lnz;
+	METHOD G getLootItem ()Lawi;
+	METHOD H getLootTableId ()Lok;
 	METHOD R_ update ()V
 	METHOD W invalidate ()V
-	METHOD a (Lagp;Laij;Lawk;)Laij;
+	METHOD a (Lagr;Lail;Lawm;)Lail;
 		ARG 0 difficulty
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
-	METHOD a onTrackedDataSet (Lny;)V
+	METHOD a onTrackedDataSet (Lnz;)V
 		ARG 0 data
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD bI getEyeHeight ()F
 	METHOD cE getSoundVolume ()F
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD ct getSoundDeath ()Lvp;
+	METHOD d getSoundHurt (Lahi;)Lvp;
 	METHOD dB getSize ()I
-	METHOD i pushAwayFrom (Lahx;)V
+	METHOD i pushAwayFrom (Lahz;)V
 		ARG 0 other
 	METHOD w_ initDataTracker ()V

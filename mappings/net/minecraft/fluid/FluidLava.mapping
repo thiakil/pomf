@@ -1,4 +1,4 @@
-CLASS cbe net/minecraft/fluid/FluidLava
-	CLASS cbe$a Flowing
-	CLASS cbe$b Still
-	METHOD a getRenderLayer ()Lbaq;
+CLASS cbg net/minecraft/fluid/FluidLava
+	CLASS cbg$a Flowing
+	CLASS cbg$b Still
+	METHOD a getRenderLayer ()Lbas;

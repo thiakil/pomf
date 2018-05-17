@@ -1,22 +1,22 @@
-CLASS asr net/minecraft/entity/vehicle/EntityCommandBlockMinecart
-	FIELD a COMMAND Lny;
-	FIELD b LAST_OUTPUT Lny;
-	FIELD c commandExecutor Lbam;
-	METHOD A getDefaultContainedBlock ()Lbnz;
+CLASS ast net/minecraft/entity/vehicle/EntityCommandBlockMinecart
+	FIELD a COMMAND Lnz;
+	FIELD b LAST_OUTPUT Lnz;
+	FIELD c commandExecutor Lbao;
+	METHOD A getDefaultContainedBlock ()Lbob;
 	METHOD a onActivatorRail (IIIZ)V
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
 		ARG 3 powered
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
-	METHOD a onTrackedDataSet (Lny;)V
+	METHOD a onTrackedDataSet (Lnz;)V
 		ARG 0 data
-	METHOD b interact (Larl;Lagq;)Z
+	METHOD b interact (Larn;Lags;)Z
 		ARG 0 player
 		ARG 1 hand
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
-	METHOD f getCommandExecutor ()Lbam;
-	METHOD v getMinecartType ()Lasm$a;
+	METHOD f getCommandExecutor ()Lbao;
+	METHOD v getMinecartType ()Laso$a;
 	METHOD w_ initDataTracker ()V

@@ -1,4 +1,4 @@
-CLASS to net/minecraft/resource/pack/PhysicalResourcePack
+CLASS tp net/minecraft/resource/pack/PhysicalResourcePack
 	FIELD a location Ljava/io/File;
 	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
 	METHOD <init> (Ljava/io/File;)V
@@ -9,8 +9,8 @@ CLASS to net/minecraft/resource/pack/PhysicalResourcePack
 		ARG 1 pathRelativeTo
 	METHOD a openByPath (Ljava/lang/String;)Ljava/io/InputStream;
 		ARG 0 path
-	METHOD a open (Lts;Loj;)Ljava/io/InputStream;
-	METHOD b canHandle (Lts;Loj;)Z
+	METHOD a open (Ltt;Lok;)Ljava/io/InputStream;
+	METHOD b canHandle (Ltt;Lok;)Z
 	METHOD c canHandleByPath (Ljava/lang/String;)Z
 		ARG 0 path
 	METHOD d warnNotLowerCase (Ljava/lang/String;)V

@@ -1,12 +1,12 @@
-CLASS amb net/minecraft/entity/ai/pathing/EntityMobNavigation
+CLASS amd net/minecraft/entity/ai/pathing/EntityMobNavigation
 	FIELD i avoidSky Z
-	METHOD a createPathNodeNavigator ()Lcdk;
-	METHOD a getPathTo (Lahx;)Lcdj;
+	METHOD a createPathNodeNavigator ()Lcdm;
+	METHOD a getPathTo (Lahz;)Lcdl;
 		ARG 0 target
 	METHOD a setCanPathThroughDoors (Z)V
 		ARG 0 value
 	METHOD b isAtValidPosition ()Z
-	METHOD b getPathTo (Lef;)Lcdj;
+	METHOD b getPathTo (Leg;)Lcdl;
 		ARG 0 pos
 	METHOD b setCanEnterOpenDoors (Z)V
 		ARG 0 value

@@ -1,9 +1,9 @@
-CLASS cmg net/minecraft/client/gui/container/GuiAnvil
-	FIELD v BG_TEX Loj;
-	FIELD w anvilContainer Latb;
-	FIELD x nameField Lciy;
-	FIELD y playerInv Lark;
-	METHOD <init> (Lark;Lbbb;)V
+CLASS cmi net/minecraft/client/gui/container/GuiAnvil
+	FIELD v BG_TEX Lok;
+	FIELD w anvilContainer Latd;
+	FIELD x nameField Lcja;
+	FIELD y playerInv Larm;
+	METHOD <init> (Larm;Lbbd;)V
 		ARG 0 playerInv
 		ARG 1 world
 	METHOD a drawBackground (FII)V
@@ -14,18 +14,18 @@ CLASS cmg net/minecraft/client/gui/container/GuiAnvil
 		ARG 0 mouseX
 		ARG 1 mouseY
 		ARG 2 delta
-	METHOD a onContainerPropertyUpdate (Lata;II)V
+	METHOD a onContainerPropertyUpdate (Latc;II)V
 		ARG 0 container
 		ARG 1 propertyId
 		ARG 2 newValue
-	METHOD a onContainerSlotUpdate (Lata;ILawk;)V
+	METHOD a onContainerSlotUpdate (Latc;ILawm;)V
 		ARG 0 container
 		ARG 1 slotId
 		ARG 2 newStack
-	METHOD a onContainerInvRegistered (Lata;Lagk;)V
+	METHOD a onContainerInvRegistered (Latc;Lagm;)V
 		ARG 0 container
 		ARG 1 inventory
-	METHOD a onContainerRegistered (Lata;Leu;)V
+	METHOD a onContainerRegistered (Latc;Lev;)V
 		ARG 0 container
 		ARG 1 stacks
 	METHOD c init ()V

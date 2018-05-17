@@ -1,2 +1,2 @@
-CLASS bpf net/minecraft/world/gen/IChunkGenerator
-	METHOD a decorate (Lso;Lbqw$a;)V
+CLASS bph net/minecraft/world/gen/IChunkGenerator
+	METHOD a decorate (Lsp;Lbqy$a;)V

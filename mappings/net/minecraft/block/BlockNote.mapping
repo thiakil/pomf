@@ -1,28 +1,28 @@
-CLASS bjc net/minecraft/block/BlockNote
-	CLASS bjc$a
-		FIELD a HARP Lbjc$a;
-		FIELD b BASEDRUM Lbjc$a;
-		FIELD c SNARE Lbjc$a;
-		FIELD d HAT Lbjc$a;
-		FIELD e BASS Lbjc$a;
-		FIELD f FLUTE Lbjc$a;
-		FIELD g BELL Lbjc$a;
-		FIELD h GUITAR Lbjc$a;
-		FIELD i CHIME Lbjc$a;
-		FIELD j XYLOPHONE Lbjc$a;
+CLASS bje net/minecraft/block/BlockNote
+	CLASS bje$a
+		FIELD a HARP Lbje$a;
+		FIELD b BASEDRUM Lbje$a;
+		FIELD c SNARE Lbje$a;
+		FIELD d HAT Lbje$a;
+		FIELD e BASS Lbje$a;
+		FIELD f FLUTE Lbje$a;
+		FIELD g BELL Lbje$a;
+		FIELD h GUITAR Lbje$a;
+		FIELD i CHIME Lbje$a;
+		FIELD j XYLOPHONE Lbje$a;
 		METHOD m asString ()Ljava/lang/String;
-	FIELD a INSTRUMENT Lbow;
-	FIELD b POWERED Lbou;
-	FIELD c NOTE Lbox;
-	METHOD a getDefaultState (Laup;)Lbnz;
-	METHOD a onBlockAction (Lbnz;Lbbb;Lef;II)Z
+	FIELD a INSTRUMENT Lboy;
+	FIELD b POWERED Lbow;
+	FIELD c NOTE Lboz;
+	METHOD a getDefaultState (Laur;)Lbob;
+	METHOD a onBlockAction (Lbob;Lbbd;Leg;II)Z
 		ARG 1 world
 		ARG 2 pos
-	METHOD a onBlockBreakStart (Lbnz;Lbbb;Lef;Larl;)V
+	METHOD a onBlockBreakStart (Lbob;Lbbd;Leg;Larn;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 player
-	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z
+	METHOD a onActivated (Lbob;Lbbd;Leg;Larn;Lags;Lem;FFF)Z
 		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
@@ -32,7 +32,7 @@ CLASS bjc net/minecraft/block/BlockNote
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
-	METHOD a update (Lbnz;Lbbb;Lef;Lbfq;Lef;)V
+	METHOD a update (Lbob;Lbbd;Leg;Lbfs;Leg;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 block

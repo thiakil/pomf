@@ -1,2 +1,2 @@
-CLASS rf net/minecraft/command/CommandTeleport
+CLASS rg net/minecraft/command/CommandTeleport
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

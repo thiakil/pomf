@@ -1,13 +1,13 @@
-CLASS ajx net/minecraft/entity/ai/passive/AiGoalFollowOwner
-	FIELD b caller Lair;
-	FIELD c owner Laig;
+CLASS ajz net/minecraft/entity/ai/passive/AiGoalFollowOwner
+	FIELD b caller Lait;
+	FIELD c owner Laii;
 	FIELD d speed D
-	FIELD e navigation Lamc;
+	FIELD e navigation Lame;
 	FIELD f teleportCooldown I
 	FIELD g minStopDistance F
 	FIELD h minStartDistance F
 	FIELD i previousWaterWeight F
-	METHOD <init> (Lair;DFF)V
+	METHOD <init> (Lait;DFF)V
 		ARG 0 caller
 		ARG 1 speed
 		ARG 2 minStartDistance

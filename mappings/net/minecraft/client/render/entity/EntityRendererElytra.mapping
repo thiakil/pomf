@@ -1,5 +1,5 @@
-CLASS dcy net/minecraft/client/render/entity/EntityRendererElytra
-	FIELD b SKIN Loj;
+CLASS dda net/minecraft/client/render/entity/EntityRendererElytra
+	FIELD b SKIN Lok;
 	METHOD a shouldMergeTextures ()Z
-	METHOD a render (Laig;FFFFFFF)V
+	METHOD a render (Laii;FFFFFFF)V
 		ARG 0 entity

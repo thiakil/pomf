@@ -1,6 +1,6 @@
-CLASS cth net/minecraft/client/particle/ParticleBlockFallingDust
-	CLASS cth$a Factory
-		METHOD a createParticle (Lfd;Lbbb;DDDDDD)Lcts;
+CLASS ctj net/minecraft/client/particle/ParticleBlockFallingDust
+	CLASS ctj$a Factory
+		METHOD a createParticle (Lfe;Lbbd;DDDDDD)Lctu;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -8,7 +8,7 @@ CLASS cth net/minecraft/client/particle/ParticleBlockFallingDust
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lcts;
+		METHOD a createParticle (Lfh;Lbbd;DDDDDD)Lctu;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -16,7 +16,7 @@ CLASS cth net/minecraft/client/particle/ParticleBlockFallingDust
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-	METHOD <init> (Lbbb;DDDFFF)V
+	METHOD <init> (Lbbd;DDDFFF)V
 		ARG 0 world
 		ARG 1 x
 		ARG 2 y
@@ -25,7 +25,7 @@ CLASS cth net/minecraft/client/particle/ParticleBlockFallingDust
 		ARG 5 green
 		ARG 6 blue
 	METHOD a update ()V
-	METHOD a buildGeometry (Lcuw;Lahx;FFFFFF)V
+	METHOD a buildGeometry (Lcuy;Lahz;FFFFFF)V
 		ARG 0 vertexBuffer
 		ARG 1 entity
 		ARG 2 deltaTicks

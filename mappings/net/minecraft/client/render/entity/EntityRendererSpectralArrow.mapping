@@ -1,6 +1,6 @@
-CLASS dbr net/minecraft/client/render/entity/EntityRendererSpectralArrow
-	FIELD a SKIN Loj;
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dbt net/minecraft/client/render/entity/EntityRendererSpectralArrow
+	FIELD a SKIN Lok;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Lasd;)Loj;
+	METHOD a getTexture (Lasf;)Lok;
 		ARG 0 model

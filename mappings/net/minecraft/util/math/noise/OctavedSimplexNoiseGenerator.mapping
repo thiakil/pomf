@@ -1,5 +1,5 @@
-CLASS cao net/minecraft/util/math/noise/OctavedSimplexNoiseGenerator
-	FIELD a octaves [Lcan;
+CLASS caq net/minecraft/util/math/noise/OctavedSimplexNoiseGenerator
+	FIELD a octaves [Lcap;
 	FIELD b octaveCount I
 	METHOD <init> (Ljava/util/Random;I)V
 		ARG 1 octaveCount

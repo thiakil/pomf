@@ -1,6 +1,6 @@
-CLASS bjn net/minecraft/block/BlockPressurePlate
-	CLASS bjn$a Type
-		FIELD a EVERYTHING Lbjn$a;
-		FIELD b MOBS Lbjn$a;
-	FIELD t POWERED Lbou;
-	FIELD u type Lbjn$a;
+CLASS bjp net/minecraft/block/BlockPressurePlate
+	CLASS bjp$a Type
+		FIELD a EVERYTHING Lbjp$a;
+		FIELD b MOBS Lbjp$a;
+	FIELD t POWERED Lbow;
+	FIELD u type Lbjp$a;

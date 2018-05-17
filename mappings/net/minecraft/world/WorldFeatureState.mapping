@@ -1,6 +1,6 @@
-CLASS bzf net/minecraft/world/WorldFeatureState
-	FIELD a features Lgu;
-	METHOD a deserialize (Lgu;)V
+CLASS bzh net/minecraft/world/WorldFeatureState
+	FIELD a features Lgv;
+	METHOD a deserialize (Lgv;)V
 		ARG 0 tag
-	METHOD b serialize (Lgu;)Lgu;
+	METHOD b serialize (Lgv;)Lgv;
 		ARG 0 tag

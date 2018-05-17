@@ -1,4 +1,0 @@
-CLASS acf
-	METHOD a wander (Labe;Lxp;)Lxp;
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 0 object

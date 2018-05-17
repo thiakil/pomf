@@ -1,5 +1,5 @@
-CLASS cgg net/minecraft/util/math/Vec3d
-	FIELD a ZERO Lcgg;
+CLASS cgi net/minecraft/util/math/Vec3d
+	FIELD a ZERO Lcgi;
 	FIELD b x D
 	FIELD c y D
 	FIELD d z D
@@ -7,47 +7,47 @@ CLASS cgg net/minecraft/util/math/Vec3d
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
-	METHOD <init> (Lfb;)V
+	METHOD <init> (Lfc;)V
 		ARG 0 vec
-	METHOD a normalize ()Lcgg;
-	METHOD a multiply (D)Lcgg;
+	METHOD a normalize ()Lcgi;
+	METHOD a multiply (D)Lcgi;
 		ARG 0 scale
-	METHOD a subtract (DDD)Lcgg;
+	METHOD a subtract (DDD)Lcgi;
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
-	METHOD a rotateX (F)Lcgg;
+	METHOD a rotateX (F)Lcgi;
 		ARG 0 radians
-	METHOD a fromPolar (FF)Lcgg;
+	METHOD a fromPolar (FF)Lcgi;
 		ARG 0 pitch
 		ARG 1 yaw
-	METHOD a fromPolar (Lcgf;)Lcgg;
+	METHOD a fromPolar (Lcgh;)Lcgi;
 		ARG 0 polar
-	METHOD a reverseSubtract (Lcgg;)Lcgg;
+	METHOD a reverseSubtract (Lcgi;)Lcgi;
 		ARG 0 vec
 	METHOD b length ()D
-	METHOD b add (DDD)Lcgg;
+	METHOD b add (DDD)Lcgi;
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
-	METHOD b rotateY (F)Lcgg;
+	METHOD b rotateY (F)Lcgi;
 		ARG 0 radians
-	METHOD b dotProduct (Lcgg;)D
+	METHOD b dotProduct (Lcgi;)D
 		ARG 0 vec
 	METHOD c lengthSquared ()D
 	METHOD c squaredDistanceTo (DDD)D
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
-	METHOD c crossProduct (Lcgg;)Lcgg;
+	METHOD c crossProduct (Lcgi;)Lcgi;
 		ARG 0 vec
-	METHOD d subtract (Lcgg;)Lcgg;
+	METHOD d subtract (Lcgi;)Lcgi;
 		ARG 0 vec
-	METHOD e add (Lcgg;)Lcgg;
+	METHOD e add (Lcgi;)Lcgi;
 		ARG 0 vec
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object
-	METHOD f distanceTo (Lcgg;)D
+	METHOD f distanceTo (Lcgi;)D
 		ARG 0 vec
-	METHOD g squaredDistanceTo (Lcgg;)D
+	METHOD g squaredDistanceTo (Lcgi;)D
 		ARG 0 vec

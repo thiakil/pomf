@@ -1,8 +1,8 @@
-CLASS cyu net/minecraft/render/debug/RenderDebugNeighborUpdate
-	FIELD a mc Lcht;
-	METHOD <init> (Lcht;)V
+CLASS cyw net/minecraft/render/debug/RenderDebugNeighborUpdate
+	FIELD a mc Lchv;
+	METHOD <init> (Lchv;)V
 		ARG 0 mc
 	METHOD a render (FJ)V
 		ARG 0 tickDelta
-	METHOD a (JLef;)V
+	METHOD a (JLeg;)V
 		ARG 1 pos

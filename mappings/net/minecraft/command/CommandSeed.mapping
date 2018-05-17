@@ -1,2 +1,2 @@
-CLASS qu net/minecraft/command/CommandSeed
+CLASS qv net/minecraft/command/CommandSeed
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

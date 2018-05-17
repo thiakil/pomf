@@ -1,5 +1,5 @@
-CLASS dil net/minecraft/client/tutorial/TutorialOpenInventoryStep
-	FIELD a TUTORIAL_OPEN_INVENTORY_TITLE Lic;
-	FIELD b TUTORIAL_OPEN_INVENTORY_DESCRIPTION Lic;
+CLASS din net/minecraft/client/tutorial/TutorialOpenInventoryStep
+	FIELD a TUTORIAL_OPEN_INVENTORY_TITLE Lid;
+	FIELD b TUTORIAL_OPEN_INVENTORY_DESCRIPTION Lid;
 	METHOD a update ()V
 	METHOD b onStop ()V

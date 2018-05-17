@@ -1,4 +1,4 @@
-CLASS tt net/minecraft/resource/ResourceNotFoundException
+CLASS tu net/minecraft/resource/ResourceNotFoundException
 	METHOD <init> (Ljava/io/File;Ljava/lang/String;)V
 		ARG 0 pack
 		ARG 1 resource

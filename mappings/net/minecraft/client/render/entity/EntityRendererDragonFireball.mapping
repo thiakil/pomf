@@ -1,6 +1,6 @@
-CLASS czr net/minecraft/client/render/entity/EntityRendererDragonFireball
-	FIELD a SKIN Loj;
-	METHOD a getTexture (Lahx;)Loj;
+CLASS czt net/minecraft/client/render/entity/EntityRendererDragonFireball
+	FIELD a SKIN Lok;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Lars;)Loj;
+	METHOD a getTexture (Laru;)Lok;
 		ARG 0 model

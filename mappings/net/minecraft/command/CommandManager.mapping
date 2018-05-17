@@ -1,4 +1,4 @@
-CLASS bs net/minecraft/command/CommandManager
+CLASS bt net/minecraft/command/CommandManager
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD b commandDispatcher Lcom/mojang/brigadier/CommandDispatcher;
 	METHOD <init> (Z)V
@@ -10,5 +10,5 @@ CLASS bs net/minecraft/command/CommandManager
 	METHOD a newRequiredArgument (Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
 		ARG 0 argument
 		ARG 1 type
-	METHOD a (Lsl;)V
+	METHOD a (Lsm;)V
 		ARG 0 player

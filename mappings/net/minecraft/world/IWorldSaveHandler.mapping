@@ -1,15 +1,15 @@
-CLASS cee net/minecraft/world/IWorldSaveHandler
+CLASS ceg net/minecraft/world/IWorldSaveHandler
 	METHOD a saveRegions ()V
-	METHOD a createChunkSaveHandler (Lbqi;)Lbqc;
+	METHOD a createChunkSaveHandler (Lbqk;)Lbqe;
 		ARG 0 worldProvider
-	METHOD a saveWorld (Lced;)V
+	METHOD a saveWorld (Lcef;)V
 		ARG 0 properties
-	METHOD a saveWorld (Lced;Lgu;)V
+	METHOD a saveWorld (Lcef;Lgv;)V
 		ARG 0 properties
 		ARG 1 playerTag
 	METHOD a getDataFile (Ljava/lang/String;)Ljava/io/File;
 		ARG 0 name
 	METHOD b getWorldDir ()Ljava/io/File;
 	METHOD c checkSessionLock ()V
-	METHOD d readProperties ()Lced;
-	METHOD e getPlayerSaveHandler ()Lcek;
+	METHOD d readProperties ()Lcef;
+	METHOD e getPlayerSaveHandler ()Lcem;

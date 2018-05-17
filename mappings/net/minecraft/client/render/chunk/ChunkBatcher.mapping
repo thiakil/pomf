@@ -1,4 +1,4 @@
-CLASS cxy net/minecraft/client/render/chunk/ChunkBatcher
+CLASS cya net/minecraft/client/render/chunk/ChunkBatcher
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD b THREAD_FACTORY Ljava/util/concurrent/ThreadFactory;
 	FIELD d workerThreads Ljava/util/List;
@@ -6,9 +6,9 @@ CLASS cxy net/minecraft/client/render/chunk/ChunkBatcher
 	FIELD f pendingChunks Ljava/util/concurrent/PriorityBlockingQueue;
 	FIELD g availableBuffers Ljava/util/concurrent/BlockingQueue;
 	FIELD j pendingUploads Ljava/util/Queue;
-	FIELD k activeWorker Lcxz;
+	FIELD k activeWorker Lcyb;
 	METHOD a getDebugString ()Ljava/lang/String;
-	METHOD a addAvailableBuffer (Lcuy;)V
+	METHOD a addAvailableBuffer (Lcva;)V
 		ARG 0 buffer
-	METHOD c getNextAvailableBuffer ()Lcuy;
-	METHOD d getNextChunkRenderDataTask ()Lcxx;
+	METHOD c getNextAvailableBuffer ()Lcva;
+	METHOD d getNextChunkRenderDataTask ()Lcxz;

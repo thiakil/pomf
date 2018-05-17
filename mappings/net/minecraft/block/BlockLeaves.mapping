@@ -1,29 +1,29 @@
-CLASS bio net/minecraft/block/BlockLeaves
-	FIELD a DECAYABLE Lbou;
-	FIELD b CHECK_DECAY Lbou;
-	METHOD X_ getRenderLayer ()Lbaq;
-	METHOD a getDefaultState (Laup;)Lbnz;
-	METHOD a afterBreak (Lbbb;Larl;Lef;Lbnz;Lbmf;Lawk;)V
+CLASS biq net/minecraft/block/BlockLeaves
+	FIELD a DECAYABLE Lbow;
+	FIELD b CHECK_DECAY Lbow;
+	METHOD X_ getRenderLayer ()Lbas;
+	METHOD a getDefaultState (Laur;)Lbob;
+	METHOD a afterBreak (Lbbd;Larn;Leg;Lbob;Lbmh;Lawm;)V
 		ARG 0 world
 		ARG 1 player
 		ARG 2 pos
 		ARG 4 blockEntity
 		ARG 5 stack
-	METHOD a dropItems (Lbnz;Lbbb;Lef;FI)V
+	METHOD a dropItems (Lbob;Lbbd;Leg;FI)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 dropChance
 		ARG 4 fortune
-	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;
-	METHOD a onBlockRemoved (Lbnz;Lbbb;Lef;Lbnz;)V
+	METHOD a getDroppedItem (Lbob;Lbbd;Leg;I)Lbbc;
+	METHOD a onBlockRemoved (Lbob;Lbbd;Leg;Lbob;)V
 		ARG 1 world
 		ARG 2 pos
-	METHOD a getDropAmount (Lbnz;Ljava/util/Random;)I
-	METHOD b updateTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+	METHOD a getDropAmount (Lbob;Ljava/util/Random;)I
+	METHOD b updateTick (Lbob;Lbbd;Leg;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
-	METHOD c randomDisplayTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+	METHOD c randomDisplayTick (Lbob;Lbbd;Leg;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 rand

@@ -1,2 +1,2 @@
-CLASS bky net/minecraft/block/BlockStone
-	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;
+CLASS bla net/minecraft/block/BlockStone
+	METHOD a getDroppedItem (Lbob;Lbbd;Leg;I)Lbbc;

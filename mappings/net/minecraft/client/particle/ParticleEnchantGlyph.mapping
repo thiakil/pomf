@@ -1,6 +1,6 @@
-CLASS cte net/minecraft/client/particle/ParticleEnchantGlyph
-	CLASS cte$a
-		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lcts;
+CLASS ctg net/minecraft/client/particle/ParticleEnchantGlyph
+	CLASS ctg$a
+		METHOD a createParticle (Lfh;Lbbd;DDDDDD)Lctu;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -8,7 +8,7 @@ CLASS cte net/minecraft/client/particle/ParticleEnchantGlyph
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lcts;
+		METHOD a createParticle (Lfk;Lbbd;DDDDDD)Lctu;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -16,8 +16,8 @@ CLASS cte net/minecraft/client/particle/ParticleEnchantGlyph
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-	CLASS cte$b Factory
-		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lcts;
+	CLASS ctg$b Factory
+		METHOD a createParticle (Lfh;Lbbd;DDDDDD)Lctu;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -25,7 +25,7 @@ CLASS cte net/minecraft/client/particle/ParticleEnchantGlyph
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lcts;
+		METHOD a createParticle (Lfk;Lbbd;DDDDDD)Lctu;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y

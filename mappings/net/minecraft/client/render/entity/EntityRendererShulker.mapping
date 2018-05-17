@@ -1,11 +1,11 @@
-CLASS dbm net/minecraft/client/render/entity/EntityRendererShulker
-	CLASS dbm$a
+CLASS dbo net/minecraft/client/render/entity/EntityRendererShulker
+	CLASS dbo$a
 		METHOD a shouldMergeTextures ()Z
-		METHOD a render (Laig;FFFFFFF)V
+		METHOD a render (Laii;FFFFFFF)V
 			ARG 0 entity
-		METHOD a render (Laqq;FFFFFFF)V
+		METHOD a render (Laqs;FFFFFFF)V
 			ARG 0 entity
-	METHOD a getTexture (Lahx;)Loj;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Laqq;)Loj;
+	METHOD a getTexture (Laqs;)Lok;
 		ARG 0 model

@@ -1,10 +1,10 @@
-CLASS arx net/minecraft/entity/projectile/EntityLlamaSpit
-	FIELD a owner Lanx;
-	FIELD b owner Lgu;
+CLASS arz net/minecraft/entity/projectile/EntityLlamaSpit
+	FIELD a owner Lanz;
+	FIELD b owner Lgv;
 	METHOD R_ update ()V
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD c setVelocity (DDDFF)V
 		ARG 0 dirX

@@ -1,11 +1,11 @@
-CLASS cso net/minecraft/network/ServerAddress
+CLASS csq net/minecraft/network/ServerAddress
 	FIELD a address Ljava/lang/String;
 	FIELD b port I
 	METHOD <init> (Ljava/lang/String;I)V
 		ARG 0 address
 		ARG 1 port
 	METHOD a getAddress ()Ljava/lang/String;
-	METHOD a parse (Ljava/lang/String;)Lcso;
+	METHOD a parse (Ljava/lang/String;)Lcsq;
 		ARG 0 address
 	METHOD a portOrDefault (Ljava/lang/String;I)I
 		ARG 0 port

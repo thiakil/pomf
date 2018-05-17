@@ -1,2 +1,2 @@
-CLASS bme net/minecraft/block/entity/BlockEntityBed
-	METHOD Z_ getUpdatePacket ()Ljc;
+CLASS bmg net/minecraft/block/entity/BlockEntityBed
+	METHOD Z_ getUpdatePacket ()Ljd;

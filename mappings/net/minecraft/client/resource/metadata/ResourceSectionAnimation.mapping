@@ -1,5 +1,5 @@
-CLASS dfy net/minecraft/client/resource/metadata/ResourceSectionAnimation
-	FIELD a DESERIALISER Ldfz;
+CLASS dga net/minecraft/client/resource/metadata/ResourceSectionAnimation
+	FIELD a DESERIALISER Ldgb;
 	FIELD b frames Ljava/util/List;
 	FIELD c width I
 	FIELD d height I
@@ -19,7 +19,7 @@ CLASS dfy net/minecraft/client/resource/metadata/ResourceSectionAnimation
 	METHOD c getFrameIndex (I)I
 		ARG 0 pos
 	METHOD d getDefaultFrameTime ()I
-	METHOD d getFrame (I)Ldfx;
+	METHOD d getFrame (I)Ldfz;
 		ARG 0 pos
 	METHOD e shouldInterpolate ()Z
 	METHOD f getFrameIndexSet ()Ljava/util/Set;

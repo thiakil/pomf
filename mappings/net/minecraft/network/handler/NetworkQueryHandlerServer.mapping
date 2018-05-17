@@ -1,14 +1,14 @@
-CLASS tl net/minecraft/network/handler/NetworkQueryHandlerServer
-	FIELD a SUCCESS_MESSAGE Lic;
+CLASS tm net/minecraft/network/handler/NetworkQueryHandlerServer
+	FIELD a SUCCESS_MESSAGE Lid;
 	FIELD b server Lnet/minecraft/server/MinecraftServer;
-	FIELD c connection Lhr;
+	FIELD c connection Lhs;
 	FIELD d responseSent Z
-	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lhr;)V
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lhs;)V
 		ARG 0 server
 		ARG 1 connection
-	METHOD a onConnectionLost (Lic;)V
+	METHOD a onConnectionLost (Lid;)V
 		ARG 0 reason
-	METHOD a onQueryPing (Lnv;)V
+	METHOD a onQueryPing (Lnw;)V
 		ARG 0 packet
-	METHOD a onQueryRequest (Lnw;)V
+	METHOD a onQueryRequest (Lnx;)V
 		ARG 0 packet

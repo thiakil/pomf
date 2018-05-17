@@ -1,15 +1,15 @@
-CLASS axz net/minecraft/potion/Potion
-	FIELD a REGISTRY Lej;
-	FIELD b WATER_TEX Loj;
+CLASS ayb net/minecraft/potion/Potion
+	FIELD a REGISTRY Lek;
+	FIELD b WATER_TEX Lok;
 	FIELD c name Ljava/lang/String;
 	FIELD d effectList Lcom/google/common/collect/ImmutableList;
-	METHOD <init> (Ljava/lang/String;[Lahq;)V
+	METHOD <init> (Ljava/lang/String;[Lahs;)V
 		ARG 0 name
 		ARG 1 effects
-	METHOD <init> ([Lahq;)V
+	METHOD <init> ([Lahs;)V
 		ARG 0 effects
 	METHOD a getEffects ()Ljava/util/List;
-	METHOD a getPotionById (Ljava/lang/String;)Laxz;
+	METHOD a getPotionById (Ljava/lang/String;)Layb;
 		ARG 0 identifier
 	METHOD b registerDefaults ()V
 	METHOD b getName (Ljava/lang/String;)Ljava/lang/String;

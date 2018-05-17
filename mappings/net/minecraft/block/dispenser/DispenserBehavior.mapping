@@ -1,9 +1,9 @@
-CLASS en net/minecraft/block/dispenser/DispenserBehavior
-	CLASS en$1
-		METHOD a dispense (Leg;Lawk;)Lawk;
+CLASS eo net/minecraft/block/dispenser/DispenserBehavior
+	CLASS eo$1
+		METHOD a dispense (Leh;Lawm;)Lawm;
 			ARG 0 location
 			ARG 1 stack
-	FIELD a DEFAULT Len;
-	METHOD a dispense (Leg;Lawk;)Lawk;
+	FIELD a DEFAULT Leo;
+	METHOD a dispense (Leh;Lawm;)Lawm;
 		ARG 0 location
 		ARG 1 stack

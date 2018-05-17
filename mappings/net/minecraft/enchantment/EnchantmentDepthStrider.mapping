@@ -1,7 +1,7 @@
-CLASS bae net/minecraft/enchantment/EnchantmentDepthStrider
-	METHOD <init> (Lazj$a;[Laic;)V
+CLASS bag net/minecraft/enchantment/EnchantmentDepthStrider
+	METHOD <init> (Lazl$a;[Laie;)V
 		ARG 0 weight
 		ARG 1 slotTypes
-	METHOD a isEqual (Lazj;)Z
+	METHOD a isEqual (Lazl;)Z
 		ARG 0 other
 	METHOD b getHighestLevel ()I

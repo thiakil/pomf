@@ -1,32 +1,32 @@
-CLASS aqq net/minecraft/entity/mob/EntityShulker
-	CLASS aqq$a
+CLASS aqs net/minecraft/entity/mob/EntityShulker
+	CLASS aqs$a
 		METHOD a canStart ()Z
 		METHOD c start ()V
 		METHOD d stop ()V
 		METHOD e tick ()V
-	CLASS aqq$c
+	CLASS aqs$c
 		METHOD a canStart ()Z
-		METHOD a getFollowBounds (D)Lcgc;
+		METHOD a getFollowBounds (D)Lcge;
 			ARG 0 range
-		METHOD a canNavigateToEntity (Laig;)Z
+		METHOD a canNavigateToEntity (Laii;)Z
 			ARG 0 entity
-	CLASS aqq$d
+	CLASS aqs$d
 		METHOD a canStart ()Z
-		METHOD a getFollowBounds (D)Lcgc;
+		METHOD a getFollowBounds (D)Lcge;
 			ARG 0 range
-	CLASS aqq$e
+	CLASS aqs$e
 		METHOD a canStart ()Z
 		METHOD b shouldContinue ()Z
 		METHOD c start ()V
 		METHOD d stop ()V
 		METHOD e tick ()V
-	FIELD a ATTACHED_FACE Lny;
-	FIELD bB COVEREDARMORBONUS Laiu;
-	FIELD b ATTACHED_BLOCK Lny;
-	FIELD c PEEK_AMOUNT Lny;
+	FIELD a ATTACHED_FACE Lnz;
+	FIELD bB COVEREDARMORBONUS Laiw;
+	FIELD b ATTACHED_BLOCK Lnz;
+	FIELD c PEEK_AMOUNT Lnz;
 	METHOD B playSoundAmbient ()V
-	METHOD E getSoundAmbient ()Lvo;
-	METHOD H getLootTableId ()Loj;
+	METHOD E getSoundAmbient ()Lvp;
+	METHOD H getLootTableId ()Lok;
 	METHOD R_ update ()V
 	METHOD a setPositionAndRotations (DDDFFIZ)V
 		ARG 0 x
@@ -36,36 +36,36 @@ CLASS aqq net/minecraft/entity/mob/EntityShulker
 		ARG 4 pitch
 	METHOD a setPeekAmount (I)V
 		ARG 0 value
-	METHOD a (Lagp;Laij;Lawk;)Laij;
+	METHOD a (Lagr;Lail;Lawm;)Lail;
 		ARG 0 difficulty
-	METHOD a damage (Lahg;F)Z
+	METHOD a damage (Lahi;F)Z
 		ARG 0 source
 		ARG 1 damage
-	METHOD a move (Laim;DDD)V
+	METHOD a move (Laio;DDD)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
-	METHOD a onTrackedDataSet (Lny;)V
+	METHOD a onTrackedDataSet (Lnz;)V
 		ARG 0 data
 	METHOD b setPosition (DDD)V
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD bI getEyeHeight ()F
-	METHOD bX getSoundCategory ()Lvq;
+	METHOD bX getSoundCategory ()Lvr;
 	METHOD ca initAttributes ()V
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahg;)Lvo;
-	METHOD dC getAttachedFace ()Lel;
-	METHOD dD getAttachedBlock ()Lef;
+	METHOD ct getSoundDeath ()Lvp;
+	METHOD d getSoundHurt (Lahi;)Lvp;
+	METHOD dC getAttachedFace ()Lem;
+	METHOD dD getAttachedBlock ()Leg;
 	METHOD dE getPeekAmount ()I
-	METHOD g setAttachedBlock (Lef;)V
+	METHOD g setAttachedBlock (Leg;)V
 		ARG 0 value
-	METHOD i pushAwayFrom (Lahx;)V
+	METHOD i pushAwayFrom (Lahz;)V
 		ARG 0 other
 	METHOD k updateMovement ()V
 	METHOD w_ initDataTracker ()V

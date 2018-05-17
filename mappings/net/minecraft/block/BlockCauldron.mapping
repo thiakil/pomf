@@ -1,20 +1,20 @@
-CLASS bge net/minecraft/block/BlockCauldron
-	FIELD a LEVEL Lbox;
-	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+CLASS bgg net/minecraft/block/BlockCauldron
+	FIELD a LEVEL Lboz;
+	METHOD a getBlockFaceShape (Lbar;Lbob;Leg;Lem;)Lboa;
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
-	METHOD a isFullBlock (Lbnz;)Z
-	METHOD a isNotSolid (Lbnz;Lbap;Lef;)Z
+	METHOD a isFullBlock (Lbob;)Z
+	METHOD a isNotSolid (Lbob;Lbar;Leg;)Z
 		ARG 2 pos
-	METHOD a getComparatorOutput (Lbnz;Lbbb;Lef;)I
+	METHOD a getComparatorOutput (Lbob;Lbbd;Leg;)I
 		ARG 1 world
 		ARG 2 pos
-	METHOD a onEntityCollision (Lbnz;Lbbb;Lef;Lahx;)V
+	METHOD a onEntityCollision (Lbob;Lbbd;Leg;Lahz;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 entity
-	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z
+	METHOD a onActivated (Lbob;Lbbd;Leg;Larn;Lags;Lem;FFF)Z
 		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
@@ -24,6 +24,6 @@ CLASS bge net/minecraft/block/BlockCauldron
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
-	METHOD c onRainTick (Lbbb;Lef;)V
+	METHOD c onRainTick (Lbbd;Leg;)V
 		ARG 0 world
 		ARG 1 pos

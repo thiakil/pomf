@@ -1,16 +1,16 @@
-CLASS cqm net/minecraft/client/render/entity/model/EntityModelPlayer
-	FIELD a leftArmOverlay Lcsc;
-	FIELD b rightArmOverlay Lcsc;
-	FIELD t leftLegOverlay Lcsc;
-	FIELD u rightLegOverlay Lcsc;
-	FIELD v bodyOverlay Lcsc;
-	FIELD w cape Lcsc;
-	FIELD x mau5Ears Lcsc;
+CLASS cqo net/minecraft/client/render/entity/model/EntityModelPlayer
+	FIELD a leftArmOverlay Lcse;
+	FIELD b rightArmOverlay Lcse;
+	FIELD t leftLegOverlay Lcse;
+	FIELD u rightLegOverlay Lcse;
+	FIELD v bodyOverlay Lcse;
+	FIELD w cape Lcse;
+	FIELD x mau5Ears Lcse;
 	FIELD y thinArms Z
 	METHOD <init> (FZ)V
 		ARG 0 scale
 		ARG 1 thinArms
-	METHOD a setRotationAngles (FFFFFFLahx;)V
+	METHOD a setRotationAngles (FFFFFFLahz;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount
 		ARG 2 age
@@ -18,7 +18,7 @@ CLASS cqm net/minecraft/client/render/entity/model/EntityModelPlayer
 		ARG 4 headPitch
 		ARG 5 scale
 		ARG 6 entity
-	METHOD a render (Lahx;FFFFFF)V
+	METHOD a render (Lahz;FFFFFF)V
 		ARG 0 entity
 		ARG 1 limbMoveAngle
 		ARG 2 limbMoveAmount

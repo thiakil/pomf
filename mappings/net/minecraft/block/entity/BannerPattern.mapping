@@ -1,51 +1,51 @@
-CLASS bmc net/minecraft/block/entity/BannerPattern
-	FIELD A HALF_VERTICAL Lbmc;
-	FIELD B HALF_HORIZONTAL Lbmc;
-	FIELD C HALF_VERTICAL_MIRROR Lbmc;
-	FIELD D HALF_HORIZONTAL_MIRROR Lbmc;
-	FIELD E BORDER Lbmc;
-	FIELD F CURLY_BORDER Lbmc;
-	FIELD G CREEPER Lbmc;
-	FIELD H GRADIENT Lbmc;
-	FIELD I GRADIENT_UP Lbmc;
-	FIELD J BRICKS Lbmc;
-	FIELD K SKULL Lbmc;
-	FIELD L FLOWER Lbmc;
-	FIELD M MOJANG Lbmc;
+CLASS bme net/minecraft/block/entity/BannerPattern
+	FIELD A HALF_VERTICAL Lbme;
+	FIELD B HALF_HORIZONTAL Lbme;
+	FIELD C HALF_VERTICAL_MIRROR Lbme;
+	FIELD D HALF_HORIZONTAL_MIRROR Lbme;
+	FIELD E BORDER Lbme;
+	FIELD F CURLY_BORDER Lbme;
+	FIELD G CREEPER Lbme;
+	FIELD H GRADIENT Lbme;
+	FIELD I GRADIENT_UP Lbme;
+	FIELD J BRICKS Lbme;
+	FIELD K SKULL Lbme;
+	FIELD L FLOWER Lbme;
+	FIELD M MOJANG Lbme;
 	FIELD N name Ljava/lang/String;
 	FIELD O id Ljava/lang/String;
 	FIELD P recipePattern [Ljava/lang/String;
-	FIELD Q recipeStack Lawk;
-	FIELD a BASE Lbmc;
-	FIELD b SQUARE_BOTTOM_LEFT Lbmc;
-	FIELD c SQUARE_BOTTOM_RIGHT Lbmc;
-	FIELD d SQUARE_TOP_LEFT Lbmc;
-	FIELD e SQUARE_TOP_RIGHT Lbmc;
-	FIELD f STRIPE_BOTTOM Lbmc;
-	FIELD g STRIPE_TOP Lbmc;
-	FIELD h STRIPE_LEFT Lbmc;
-	FIELD i STRIPE_RIGHT Lbmc;
-	FIELD j STRIPE_CENTER Lbmc;
-	FIELD k STRIPE_MIDDLE Lbmc;
-	FIELD l STRIPE_DOWNRIGHT Lbmc;
-	FIELD m STRIPE_DOWNLEFT Lbmc;
-	FIELD n STRIPE_SMALL Lbmc;
-	FIELD o CROSS Lbmc;
-	FIELD p STRAIGHT_CROSS Lbmc;
-	FIELD q TRIANGLE_BOTTOM Lbmc;
-	FIELD r TRIANGLE_TOP Lbmc;
-	FIELD s TRIANGLES_BOTTOM Lbmc;
-	FIELD t TRIANGLES_TOP Lbmc;
-	FIELD u DIAGONAL_LEFT Lbmc;
-	FIELD v DIAGONAL_RIGHT Lbmc;
-	FIELD w DIAGONAL_LEFT_MIRROR Lbmc;
-	FIELD x DIAGONAL_RIGHT_MIRROR Lbmc;
-	FIELD y CIRCLE_MIDDLE Lbmc;
-	FIELD z RHOMBUS_MIDDLE Lbmc;
+	FIELD Q recipeStack Lawm;
+	FIELD a BASE Lbme;
+	FIELD b SQUARE_BOTTOM_LEFT Lbme;
+	FIELD c SQUARE_BOTTOM_RIGHT Lbme;
+	FIELD d SQUARE_TOP_LEFT Lbme;
+	FIELD e SQUARE_TOP_RIGHT Lbme;
+	FIELD f STRIPE_BOTTOM Lbme;
+	FIELD g STRIPE_TOP Lbme;
+	FIELD h STRIPE_LEFT Lbme;
+	FIELD i STRIPE_RIGHT Lbme;
+	FIELD j STRIPE_CENTER Lbme;
+	FIELD k STRIPE_MIDDLE Lbme;
+	FIELD l STRIPE_DOWNRIGHT Lbme;
+	FIELD m STRIPE_DOWNLEFT Lbme;
+	FIELD n STRIPE_SMALL Lbme;
+	FIELD o CROSS Lbme;
+	FIELD p STRAIGHT_CROSS Lbme;
+	FIELD q TRIANGLE_BOTTOM Lbme;
+	FIELD r TRIANGLE_TOP Lbme;
+	FIELD s TRIANGLES_BOTTOM Lbme;
+	FIELD t TRIANGLES_TOP Lbme;
+	FIELD u DIAGONAL_LEFT Lbme;
+	FIELD v DIAGONAL_RIGHT Lbme;
+	FIELD w DIAGONAL_LEFT_MIRROR Lbme;
+	FIELD x DIAGONAL_RIGHT_MIRROR Lbme;
+	FIELD y CIRCLE_MIDDLE Lbme;
+	FIELD z RHOMBUS_MIDDLE Lbme;
 	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
 		ARG 0 name
 		ARG 1 id
-	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Lawk;)V
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Lawm;)V
 		ARG 0 name
 		ARG 1 id
 		ARG 2 stack
@@ -56,10 +56,10 @@ CLASS bmc net/minecraft/block/entity/BannerPattern
 		ARG 3 recipePattern1
 		ARG 4 recipePattern2
 	METHOD a getName ()Ljava/lang/String;
-	METHOD a byId (Ljava/lang/String;)Lbmc;
+	METHOD a byId (Ljava/lang/String;)Lbme;
 		ARG 0 id
 	METHOD b getId ()Ljava/lang/String;
 	METHOD c getRecipePattern ()[Ljava/lang/String;
 	METHOD d isCraftable ()Z
 	METHOD e hasRecipeStack ()Z
-	METHOD f getRecipeStack ()Lawk;
+	METHOD f getRecipeStack ()Lawm;

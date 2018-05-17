@@ -1,17 +1,17 @@
-CLASS aqu net/minecraft/entity/EntityIllagerCaster
-	CLASS aqu$a
-		FIELD a NONE Laqu$a;
-		FIELD b SUMMON_VEX Laqu$a;
-		FIELD c FANGS Laqu$a;
-		FIELD d WOLOLO Laqu$a;
-		FIELD e DISAPPEAR Laqu$a;
-		FIELD f BLINDNESS Laqu$a;
-	CLASS aqu$b AiGoalLookAtTarget
+CLASS aqw net/minecraft/entity/EntityIllagerCaster
+	CLASS aqw$a
+		FIELD a NONE Laqw$a;
+		FIELD b SUMMON_VEX Laqw$a;
+		FIELD c FANGS Laqw$a;
+		FIELD d WOLOLO Laqw$a;
+		FIELD e DISAPPEAR Laqw$a;
+		FIELD f BLINDNESS Laqw$a;
+	CLASS aqw$b AiGoalLookAtTarget
 		METHOD a canStart ()Z
 		METHOD c start ()V
 		METHOD d stop ()V
 		METHOD e tick ()V
-	CLASS aqu$c AiGoalCastSpell
+	CLASS aqw$c AiGoalCastSpell
 		FIELD b spellCooldown I
 		FIELD c startTime I
 		METHOD a canStart ()Z
@@ -21,13 +21,13 @@ CLASS aqu net/minecraft/entity/EntityIllagerCaster
 		METHOD g getSpellTicks ()I
 		METHOD i startTimeDelay ()I
 		METHOD j castSpell ()V
-		METHOD k getSoundPrepare ()Lvo;
+		METHOD k getSoundPrepare ()Lvp;
 		METHOD m getInitialCooldown ()I
 	FIELD b spellTicks I
 	METHOD K mobTick ()V
 	METHOD R_ update ()V
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD w_ initDataTracker ()V

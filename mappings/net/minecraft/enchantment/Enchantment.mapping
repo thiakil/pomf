@@ -1,49 +1,49 @@
-CLASS azj net/minecraft/enchantment/Enchantment
-	CLASS azj$a Weight
-		FIELD a COMMON Lazj$a;
-		FIELD b UNCOMMON Lazj$a;
-		FIELD c RARE Lazj$a;
-		FIELD d VERY_RARE Lazj$a;
+CLASS azl net/minecraft/enchantment/Enchantment
+	CLASS azl$a Weight
+		FIELD a COMMON Lazl$a;
+		FIELD b UNCOMMON Lazl$a;
+		FIELD c RARE Lazl$a;
+		FIELD d VERY_RARE Lazl$a;
 		FIELD e weight I
 		METHOD a getWeight ()I
-	FIELD a slotTypes [Laic;
-	FIELD b REGISTRY Let;
-	FIELD c type Lazk;
+	FIELD a slotTypes [Laie;
+	FIELD b REGISTRY Leu;
+	FIELD c type Lazm;
 	FIELD d translationName Ljava/lang/String;
-	FIELD e weight Lazj$a;
-	METHOD <init> (Lazj$a;Lazk;[Laic;)V
+	FIELD e weight Lazl$a;
+	METHOD <init> (Lazl$a;Lazm;[Laie;)V
 		ARG 0 weight
 		ARG 1 type
 		ARG 2 slotTypes
 	METHOD a getTranslationKey ()Ljava/lang/String;
-	METHOD a getProtectionAmount (ILahg;)I
+	METHOD a getProtectionAmount (ILahi;)I
 		ARG 0 level
 		ARG 1 source
-	METHOD a getAdditionalDamge (ILail;)F
+	METHOD a getAdditionalDamge (ILain;)F
 		ARG 0 level
 		ARG 1 entityType
-	METHOD a getEquipment (Laig;)Ljava/util/List;
+	METHOD a getEquipment (Laii;)Ljava/util/List;
 		ARG 0 entity
-	METHOD a onTargetDamaged (Laig;Lahx;I)V
+	METHOD a onTargetDamaged (Laii;Lahz;I)V
 		ARG 0 user
 		ARG 1 target
 		ARG 2 level
-	METHOD a isAcceptableItem (Lawk;)Z
+	METHOD a isAcceptableItem (Lawm;)Z
 		ARG 0 item
-	METHOD a isEqual (Lazj;)Z
+	METHOD a isEqual (Lazl;)Z
 		ARG 0 other
 	METHOD b getHighestLevel ()I
-	METHOD b onUserDamaged (Laig;Lahx;I)V
+	METHOD b onUserDamaged (Laii;Lahz;I)V
 		ARG 0 user
 		ARG 1 attacker
 		ARG 2 level
-	METHOD b getRawIdFromEnchantment (Lazj;)I
+	METHOD b getRawIdFromEnchantment (Lazl;)I
 		ARG 0 enchantment
 	METHOD c isLootOnly ()Z
-	METHOD c getEnchantmentByRawId (I)Lazj;
+	METHOD c getEnchantmentByRawId (I)Lazl;
 		ARG 0 id
-	METHOD c setTranslationName (Ljava/lang/String;)Lazj;
+	METHOD c setTranslationName (Ljava/lang/String;)Lazl;
 		ARG 0 name
-	METHOD e getWeight ()Lazj$a;
+	METHOD e getWeight ()Lazl$a;
 	METHOD f getLowestLevel ()I
 	METHOD g registerDefaults ()V

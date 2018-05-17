@@ -1,6 +1,6 @@
-CLASS akb net/minecraft/entity/ai/AiGoalHarvestFarmland
-	FIELD f owner Larg;
-	METHOD <init> (Larg;D)V
+CLASS akd net/minecraft/entity/ai/AiGoalHarvestFarmland
+	FIELD f owner Lari;
+	METHOD <init> (Lari;D)V
 		ARG 0 owner
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z

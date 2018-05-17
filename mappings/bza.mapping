@@ -1,9 +1,4 @@
 CLASS bza
-	FIELD a width I
-	FIELD b height I
-	FIELD c depth I
-	FIELD d hPos I
-	METHOD a serializeStructureData (Lgu;)V
-		ARG 0 tag
-	METHOD a deserializeStructureData (Lgu;Lbzr;)V
-		ARG 0 tag
+	CLASS bza$b
+		FIELD a WARM Lbza$b;
+		FIELD b COLD Lbza$b;

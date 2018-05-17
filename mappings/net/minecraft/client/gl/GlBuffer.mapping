@@ -1,8 +1,8 @@
-CLASS dff net/minecraft/client/gl/GlBuffer
+CLASS dfh net/minecraft/client/gl/GlBuffer
 	FIELD a id I
-	FIELD b format Ldfg;
+	FIELD b format Ldfi;
 	FIELD c vertexCount I
-	METHOD <init> (Ldfg;)V
+	METHOD <init> (Ldfi;)V
 		ARG 0 vertexFormat
 	METHOD a bind ()V
 	METHOD a draw (I)V

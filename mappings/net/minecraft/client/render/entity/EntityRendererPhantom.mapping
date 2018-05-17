@@ -1,5 +1,5 @@
-CLASS dbd net/minecraft/client/render/entity/EntityRendererPhantom
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dbf net/minecraft/client/render/entity/EntityRendererPhantom
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Laqm;)Loj;
+	METHOD a getTexture (Laqo;)Lok;
 		ARG 0 model

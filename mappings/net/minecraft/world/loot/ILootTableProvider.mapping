@@ -1,2 +1,2 @@
-CLASS agy net/minecraft/world/loot/ILootTableProvider
-	METHOD Q_ getLootTable ()Loj;
+CLASS aha net/minecraft/world/loot/ILootTableProvider
+	METHOD Q_ getLootTable ()Lok;

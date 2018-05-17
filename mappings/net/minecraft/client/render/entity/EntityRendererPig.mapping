@@ -1,6 +1,6 @@
-CLASS dbe net/minecraft/client/render/entity/EntityRendererPig
-	FIELD a SKIN Loj;
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dbg net/minecraft/client/render/entity/EntityRendererPig
+	FIELD a SKIN Lok;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Lane;)Loj;
+	METHOD a getTexture (Lang;)Lok;
 		ARG 0 model

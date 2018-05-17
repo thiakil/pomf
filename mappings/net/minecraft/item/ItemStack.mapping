@@ -1,100 +1,100 @@
-CLASS awk net/minecraft/item/ItemStack
-	FIELD a NULL_STACK Lawk;
+CLASS awm net/minecraft/item/ItemStack
+	FIELD a NULL_STACK Lawm;
 	FIELD b MODIFIER_FORMAT Ljava/text/DecimalFormat;
 	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD d amount I
 	FIELD e updateCooldown I
-	FIELD f item Lawg;
-	FIELD g tag Lgu;
+	FIELD f item Lawi;
+	FIELD g tag Lgv;
 	FIELD h invalid Z
-	FIELD i holdingItemFrame Lapg;
-	METHOD A toTextComponent ()Lic;
+	FIELD i holdingItemFrame Lapi;
+	METHOD A toTextComponent ()Lid;
 	METHOD B getUpdateCooldown ()I
 	METHOD C getAmount ()I
 	METHOD D updateInvalidFlag ()V
 	METHOD a getTranslationKey ()Ljava/lang/String;
-	METHOD a split (I)Lawk;
+	METHOD a split (I)Lawm;
 		ARG 0 amount
-	METHOD a damage (ILaig;)V
+	METHOD a damage (ILaii;)V
 		ARG 0 amount
 		ARG 1 damager
-	METHOD a damageDirect (ILjava/util/Random;Lsl;)Z
+	METHOD a damageDirect (ILjava/util/Random;Lsm;)Z
 		ARG 0 amount
-	METHOD a getAttributeModifiers (Laic;)Lcom/google/common/collect/Multimap;
+	METHOD a getAttributeModifiers (Laie;)Lcom/google/common/collect/Multimap;
 		ARG 0 effectiveSlot
-	METHOD a onEntityDamaged (Laig;Larl;)V
+	METHOD a onEntityDamaged (Laii;Larn;)V
 		ARG 0 attacker
 		ARG 1 player
-	METHOD a setHoldingItemFrame (Lapg;)V
+	METHOD a setHoldingItemFrame (Lapi;)V
 		ARG 0 holdingItemFrame
-	METHOD a interactWithEntity (Larl;Laig;Lagq;)Z
+	METHOD a interactWithEntity (Larn;Laii;Lags;)Z
 		ARG 0 user
 		ARG 1 target
 		ARG 2 hand
-	METHOD a isEqualIgnoreTags (Lawk;)Z
+	METHOD a isEqualIgnoreTags (Lawm;)Z
 		ARG 0 other
-	METHOD a areTagsEqual (Lawk;Lawk;)Z
+	METHOD a areTagsEqual (Lawm;Lawm;)Z
 		ARG 0 a
 		ARG 1 b
-	METHOD a addEnchantment (Lazj;I)V
+	METHOD a addEnchantment (Lazl;I)V
 		ARG 0 enchantment
 		ARG 1 level
-	METHOD a update (Lbbb;Lahx;IZ)V
+	METHOD a update (Lbbd;Lahz;IZ)V
 		ARG 0 world
 		ARG 1 owner
 		ARG 2 invSlot
 		ARG 3 held
-	METHOD a onItemFinishedUsing (Lbbb;Laig;)Lawk;
+	METHOD a onItemFinishedUsing (Lbbd;Laii;)Lawm;
 		ARG 0 world
 		ARG 1 user
-	METHOD a onItemStopUsing (Lbbb;Laig;I)V
+	METHOD a onItemStopUsing (Lbbd;Laii;I)V
 		ARG 0 world
 		ARG 1 user
 		ARG 2 remainingTime
-	METHOD a onCrafted (Lbbb;Larl;I)V
+	METHOD a onCrafted (Lbbd;Larn;I)V
 		ARG 0 world
 		ARG 1 player
 		ARG 2 amount
-	METHOD a onRightClick (Lbbb;Larl;Lagq;)Lagt;
+	METHOD a onRightClick (Lbbd;Larn;Lags;)Lagv;
 		ARG 0 world
 		ARG 1 player
 		ARG 2 hand
-	METHOD a onBlockBroken (Lbbb;Lbnz;Lef;Larl;)V
+	METHOD a onBlockBroken (Lbbd;Lbob;Leg;Larn;)V
 		ARG 0 world
 		ARG 2 pos
 		ARG 3 user
-	METHOD a addAttributeModifier (Ljava/lang/String;Laiu;Laic;)V
+	METHOD a addAttributeModifier (Ljava/lang/String;Laiw;Laie;)V
 		ARG 0 attributeName
 		ARG 1 modifier
 		ARG 2 effectiveSlot
-	METHOD a setChildTag (Ljava/lang/String;Lhj;)V
+	METHOD a setChildTag (Ljava/lang/String;Lhk;)V
 		ARG 0 tagName
 		ARG 1 tag
 	METHOD b isEmpty ()Z
-	METHOD b isEqualIgnoreDurability (Lawk;)Z
+	METHOD b isEqualIgnoreDurability (Lawm;)Z
 		ARG 0 other
-	METHOD b areEqual (Lawk;Lawk;)Z
+	METHOD b areEqual (Lawm;Lawm;)Z
 		ARG 0 a
 		ARG 1 b
-	METHOD b serialize (Lgu;)Lgu;
+	METHOD b serialize (Lgv;)Lgv;
 		ARG 0 tag
-	METHOD c getItem ()Lawg;
-	METHOD c isEqual (Lawk;)Z
+	METHOD c getItem ()Lawi;
+	METHOD c isEqual (Lawm;)Z
 		ARG 0 other
-	METHOD c areEqualIgnoreTags (Lawk;Lawk;)Z
+	METHOD c areEqualIgnoreTags (Lawm;Lawm;)Z
 		ARG 0 a
 		ARG 1 b
-	METHOD c setTag (Lgu;)V
+	METHOD c setTag (Lgv;)V
 		ARG 0 tag
-	METHOD c getOrCreateTagCompound (Ljava/lang/String;)Lgu;
+	METHOD c getOrCreateTagCompound (Ljava/lang/String;)Lgv;
 		ARG 0 tagName
 	METHOD d getMaxAmount ()I
 	METHOD d setUpdateCooldown (I)V
 		ARG 0 cooldownAmount
-	METHOD d areEqualIgnoreDurability (Lawk;Lawk;)Z
+	METHOD d areEqualIgnoreDurability (Lawm;Lawm;)Z
 		ARG 0 a
 		ARG 1 b
-	METHOD d getTagCompound (Ljava/lang/String;)Lgu;
+	METHOD d getTagCompound (Ljava/lang/String;)Lgv;
 		ARG 0 tagName
 	METHOD e canBeStacked ()Z
 	METHOD e setAmount (I)V
@@ -106,18 +106,18 @@ CLASS awk net/minecraft/item/ItemStack
 	METHOD g subtract (I)V
 		ARG 0 amount
 	METHOD i getDurability ()I
-	METHOD j copy ()Lawk;
+	METHOD j copy ()Lawm;
 	METHOD k getMaxUseTime ()I
-	METHOD l getUseAction ()Laxu;
-	METHOD n getTag ()Lgu;
-	METHOD o getTagSafely ()Lgu;
-	METHOD p getEnchantmentList ()Lha;
+	METHOD l getUseAction ()Laxw;
+	METHOD n getTag ()Lgv;
+	METHOD o getTagSafely ()Lgv;
+	METHOD p getEnchantmentList ()Lhb;
 	METHOD r removeDisplayName ()V
 	METHOD s hasDisplayName ()Z
 	METHOD t hasEnchantmentGlow ()Z
-	METHOD u getRarity ()Laww;
+	METHOD u getRarity ()Lawy;
 	METHOD v isEnchantable ()Z
 	METHOD w hasEnchantments ()Z
 	METHOD x isHeldInItemFrame ()Z
-	METHOD y getHoldingItemFrame ()Lapg;
+	METHOD y getHoldingItemFrame ()Lapi;
 	METHOD z getRepairCost ()I

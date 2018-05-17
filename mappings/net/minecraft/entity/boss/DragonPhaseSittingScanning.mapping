@@ -1,2 +1,2 @@
-CLASS aov net/minecraft/entity/boss/DragonPhaseSittingScanning
-	METHOD i getType ()Laoy;
+CLASS aox net/minecraft/entity/boss/DragonPhaseSittingScanning
+	METHOD i getType ()Lapa;

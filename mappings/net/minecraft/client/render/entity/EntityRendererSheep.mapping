@@ -1,6 +1,6 @@
-CLASS dbk net/minecraft/client/render/entity/EntityRendererSheep
-	FIELD a SKIN Loj;
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dbm net/minecraft/client/render/entity/EntityRendererSheep
+	FIELD a SKIN Lok;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Lanj;)Loj;
+	METHOD a getTexture (Lanl;)Lok;
 		ARG 0 model

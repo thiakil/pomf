@@ -1,5 +1,5 @@
-CLASS dev net/minecraft/client/texture/TextureSpriteAtlas
-	FIELD f BLOCK_ATLAS_TEX Loj;
+CLASS dex net/minecraft/client/texture/TextureSpriteAtlas
+	FIELD f BLOCK_ATLAS_TEX Lok;
 	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD h animatedSprites Ljava/util/List;
 	FIELD j sprites Ljava/util/Map;
@@ -7,14 +7,14 @@ CLASS dev net/minecraft/client/texture/TextureSpriteAtlas
 	FIELD l mipLevel I
 	METHOD a setMipLevel (I)V
 		ARG 0 value
-	METHOD a load (Lul;)V
+	METHOD a load (Lum;)V
 		ARG 0 resourceContainer
-	METHOD a loadSprite (Lul;Ldew;)Z
+	METHOD a loadSprite (Lum;Ldey;)Z
 		ARG 0 container
 		ARG 1 sprite
-	METHOD b getResourceLocation (Loj;)Loj;
+	METHOD b getResourceLocation (Lok;)Lok;
 		ARG 0 sprite
-	METHOD b generateAtlas (Lul;)V
+	METHOD b generateAtlas (Lum;)V
 		ARG 0 container
 	METHOD d updateAnimatedSprites ()V
 	METHOD e updateTexture ()V

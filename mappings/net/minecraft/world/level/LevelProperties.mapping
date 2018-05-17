@@ -1,7 +1,7 @@
-CLASS ced net/minecraft/world/level/LevelProperties
+CLASS cef net/minecraft/world/level/LevelProperties
 	FIELD A commandsAllowed Z
 	FIELD B initialized Z
-	FIELD C difficulty Lago;
+	FIELD C difficulty Lagq;
 	FIELD D difficultyLocked Z
 	FIELD E borderCenterX D
 	FIELD F borderCenterZ D
@@ -13,14 +13,14 @@ CLASS ced net/minecraft/world/level/LevelProperties
 	FIELD L borderWarningBlocks I
 	FIELD M borderWarningTime I
 	FIELD P worldData Ljava/util/Map;
-	FIELD Q customBossEvents Lgu;
-	FIELD R gameRules Lbax;
-	FIELD a DEFAULT_DIFFICULTY Lago;
+	FIELD Q customBossEvents Lgv;
+	FIELD R gameRules Lbaz;
+	FIELD a DEFAULT_DIFFICULTY Lagq;
 	FIELD b versionName Ljava/lang/String;
 	FIELD c versionId I
 	FIELD d versionSnapshot Z
 	FIELD e randomSeed J
-	FIELD f generatorType Lbbi;
+	FIELD f generatorType Lbbk;
 	FIELD h spawnX I
 	FIELD i spawnY I
 	FIELD j spawnZ I
@@ -28,7 +28,7 @@ CLASS ced net/minecraft/world/level/LevelProperties
 	FIELD l timeOfDay J
 	FIELD m lastPlayed J
 	FIELD n sizeOnDisk J
-	FIELD o playerData Lgu;
+	FIELD o playerData Lgv;
 	FIELD p playerWorldId I
 	FIELD q levelName Ljava/lang/String;
 	FIELD r version I
@@ -37,10 +37,10 @@ CLASS ced net/minecraft/world/level/LevelProperties
 	FIELD u rainTime I
 	FIELD v thundering Z
 	FIELD w thunderTime I
-	FIELD x gameMode Lbay;
+	FIELD x gameMode Lbba;
 	FIELD y structures Z
 	FIELD z hardcore Z
-	METHOD <init> (Lgu;)V
+	METHOD <init> (Lgv;)V
 		ARG 0 tag
 	METHOD B getBorderCenterX ()D
 	METHOD C getBorderCenterZ ()D
@@ -54,32 +54,32 @@ CLASS ced net/minecraft/world/level/LevelProperties
 	METHOD K getVersionId ()I
 	METHOD L isVersionSnapshot ()Z
 	METHOD M getVersionName ()Ljava/lang/String;
-	METHOD P getCustomBossEvents ()Lgu;
+	METHOD P getCustomBossEvents ()Lgv;
 	METHOD a getSeed ()J
 	METHOD a setBorderSize (D)V
 		ARG 0 value
 	METHOD a setSpawnX (I)V
 		ARG 0 value
-	METHOD a setDifficulty (Lago;)V
+	METHOD a setDifficulty (Lagq;)V
 		ARG 0 value
-	METHOD a setGameMode (Lbay;)V
+	METHOD a setGameMode (Lbba;)V
 		ARG 0 value
-	METHOD a updateFromLevelInfo (Lbbg;)V
+	METHOD a updateFromLevelInfo (Lbbi;)V
 		ARG 0 info
-	METHOD a setGeneratorType (Lbbi;)V
+	METHOD a setGeneratorType (Lbbk;)V
 		ARG 0 value
-	METHOD a getWorldData (Lbqj;)Lgu;
+	METHOD a getWorldData (Lbql;)Lgv;
 		ARG 0 type
-	METHOD a setWorldData (Lbqj;Lgu;)V
+	METHOD a setWorldData (Lbql;Lgv;)V
 		ARG 0 type
 		ARG 1 value
 	METHOD a addToReport (Lc;)V
 		ARG 0 report
-	METHOD a setSpawnPos (Lef;)V
+	METHOD a setSpawnPos (Leg;)V
 		ARG 0 pos
-	METHOD a cloneWorldTag (Lgu;)Lgu;
+	METHOD a cloneWorldTag (Lgv;)Lgv;
 		ARG 0 playerTag
-	METHOD a updateProperties (Lgu;Lgu;)V
+	METHOD a updateProperties (Lgv;Lgv;)V
 		ARG 0 levelTag
 		ARG 1 playerTag
 	METHOD a setLevelName (Ljava/lang/String;)V
@@ -102,7 +102,7 @@ CLASS ced net/minecraft/world/level/LevelProperties
 		ARG 0 value
 	METHOD c setTimeOfDay (J)V
 		ARG 0 value
-	METHOD c setCustomBossEvents (Lgu;)V
+	METHOD c setCustomBossEvents (Lgv;)V
 	METHOD c setCommandsAllowed (Z)V
 		ARG 0 value
 	METHOD d getSpawnZ ()I
@@ -131,7 +131,7 @@ CLASS ced net/minecraft/world/level/LevelProperties
 		ARG 0 value
 	METHOD g setHardcore (Z)V
 		ARG 0 value
-	METHOD h getPlayerData ()Lgu;
+	METHOD h getPlayerData ()Lgv;
 	METHOD h setClearWeatherTime (I)V
 		ARG 0 value
 	METHOD i setBorderWarningBlocks (I)V
@@ -145,13 +145,13 @@ CLASS ced net/minecraft/world/level/LevelProperties
 	METHOD n getThunderTime ()I
 	METHOD o isRaining ()Z
 	METHOD p getRainTime ()I
-	METHOD q getGameMode ()Lbay;
+	METHOD q getGameMode ()Lbba;
 	METHOD r hasStructures ()Z
 	METHOD s isHardcore ()Z
-	METHOD t getGeneratorType ()Lbbi;
+	METHOD t getGeneratorType ()Lbbk;
 	METHOD u areCommandsAllowed ()Z
 	METHOD v isInitialized ()Z
-	METHOD w getGameRules ()Lbax;
-	METHOD x getDifficulty ()Lago;
+	METHOD w getGameRules ()Lbaz;
+	METHOD x getDifficulty ()Lagq;
 	METHOD y isDifficultyLocked ()Z
 	METHOD z getClearWeatherTime ()I

@@ -1,19 +1,19 @@
-CLASS lg net/minecraft/network/packet/client/CPacketScoreboardObjectiveUpdate
+CLASS lh net/minecraft/network/packet/client/CPacketScoreboardObjectiveUpdate
 	FIELD a name Ljava/lang/String;
 	FIELD b value Ljava/lang/String;
-	FIELD c type Lchg$a;
+	FIELD c type Lchi$a;
 	FIELD d mode I
-	METHOD <init> (Lcha;I)V
+	METHOD <init> (Lchc;I)V
 		ARG 1 mode
 	METHOD a getName ()Ljava/lang/String;
-	METHOD a readPacket (Lht;)V
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lis;)V
+	METHOD a applyPacket (Lit;)V
 		ARG 0 handler
 	METHOD b getValue ()Ljava/lang/String;
-	METHOD b writePacket (Lht;)V
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf
 	METHOD c getMode ()I
-	METHOD d getType ()Lchg$a;
+	METHOD d getType ()Lchi$a;

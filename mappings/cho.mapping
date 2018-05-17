@@ -1,8 +1,0 @@
-CLASS cho
-	CLASS cho$a
-		METHOD equals (Ljava/lang/Object;)Z
-			ARG 0 object
-	CLASS cho$b
-		FIELD a KEYSYM Lcho$b;
-		FIELD b SCANCODE Lcho$b;
-		FIELD c MOUSE Lcho$b;

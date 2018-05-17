@@ -1,13 +1,13 @@
-CLASS dt net/minecraft/command/argument/CommandArguments
-	CLASS dt$a ArgumentEntry
+CLASS du net/minecraft/command/argument/CommandArguments
+	CLASS du$a ArgumentEntry
 		FIELD a type Ljava/lang/Class;
-		FIELD b serializer Lds;
-		FIELD c identifier Loj;
+		FIELD b serializer Ldt;
+		FIELD c identifier Lok;
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD b CLASS_ENTRIES Ljava/util/Map;
 	FIELD c IDENTIFIER_ENTRIES Ljava/util/Map;
 	METHOD a serialize (Lcom/google/gson/JsonObject;Lcom/mojang/brigadier/arguments/ArgumentType;)V
 	METHOD a serialize (Lcom/mojang/brigadier/CommandDispatcher;Lcom/mojang/brigadier/tree/CommandNode;)Lcom/google/gson/JsonObject;
-	METHOD a deserialize (Lht;)Lcom/mojang/brigadier/arguments/ArgumentType;
-	METHOD a serialize (Lht;Lcom/mojang/brigadier/arguments/ArgumentType;)V
-	METHOD a register (Loj;Ljava/lang/Class;Lds;)V
+	METHOD a deserialize (Lhu;)Lcom/mojang/brigadier/arguments/ArgumentType;
+	METHOD a serialize (Lhu;Lcom/mojang/brigadier/arguments/ArgumentType;)V
+	METHOD a register (Lok;Ljava/lang/Class;Ldt;)V

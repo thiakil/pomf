@@ -1,10 +1,10 @@
-CLASS dan net/minecraft/client/render/entity/EntityRendererItem
-	FIELD a itemRenderer Ldap;
+CLASS dap net/minecraft/client/render/entity/EntityRendererItem
+	FIELD a itemRenderer Ldar;
 	FIELD f rand Ljava/util/Random;
-	METHOD <init> (Lczy;Ldap;)V
+	METHOD <init> (Ldaa;Ldar;)V
 		ARG 0 renderManager
 		ARG 1 itemRenderer
-	METHOD a getTexture (Lahx;)Loj;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Lapr;)Loj;
+	METHOD a getTexture (Lapt;)Lok;
 		ARG 0 model

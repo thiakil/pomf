@@ -1,7 +1,7 @@
-CLASS ddu net/minecraft/client/render/entity/EntityRendererWitherArmor
-	FIELD a SKIN Loj;
+CLASS ddw net/minecraft/client/render/entity/EntityRendererWitherArmor
+	FIELD a SKIN Lok;
 	METHOD a shouldMergeTextures ()Z
-	METHOD a render (Laig;FFFFFFF)V
+	METHOD a render (Laii;FFFFFFF)V
 		ARG 0 entity
-	METHOD a render (Lapc;FFFFFFF)V
+	METHOD a render (Lape;FFFFFFF)V
 		ARG 0 entity

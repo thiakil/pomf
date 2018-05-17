@@ -1,31 +1,31 @@
-CLASS mi net/minecraft/network/packet/server/SPacketEntityUse
-	CLASS mi$a Type
-		FIELD a INTERACT Lmi$a;
-		FIELD b ATTACK Lmi$a;
-		FIELD c INTERACT_AT Lmi$a;
+CLASS mj net/minecraft/network/packet/server/SPacketEntityUse
+	CLASS mj$a Type
+		FIELD a INTERACT Lmj$a;
+		FIELD b ATTACK Lmj$a;
+		FIELD c INTERACT_AT Lmj$a;
 	FIELD a targetId I
-	FIELD b type Lmi$a;
-	FIELD c pos Lcgg;
-	FIELD d hand Lagq;
-	METHOD <init> (Lahx;)V
+	FIELD b type Lmj$a;
+	FIELD c pos Lcgi;
+	FIELD d hand Lags;
+	METHOD <init> (Lahz;)V
 		ARG 0 target
-	METHOD <init> (Lahx;Lagq;)V
+	METHOD <init> (Lahz;Lags;)V
 		ARG 0 target
 		ARG 1 hand
-	METHOD <init> (Lahx;Lagq;Lcgg;)V
+	METHOD <init> (Lahz;Lags;Lcgi;)V
 		ARG 0 target
 		ARG 1 hand
 		ARG 2 pos
-	METHOD a getType ()Lmi$a;
-	METHOD a getTarget (Lbbb;)Lahx;
+	METHOD a getType ()Lmj$a;
+	METHOD a getTarget (Lbbd;)Lahz;
 		ARG 0 world
-	METHOD a readPacket (Lht;)V
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD a applyPacket (Llx;)V
+	METHOD a applyPacket (Lly;)V
 		ARG 0 handler
-	METHOD b getHand ()Lagq;
-	METHOD b writePacket (Lht;)V
+	METHOD b getHand ()Lags;
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf
-	METHOD c getPos ()Lcgg;
+	METHOD c getPos ()Lcgi;

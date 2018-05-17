@@ -1,39 +1,39 @@
-CLASS byv net/minecraft/world/gen/structure/StructurePiecesMineshaft
-	CLASS byv$a MineshaftPieceCorridor
-		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+CLASS byx net/minecraft/world/gen/structure/StructurePiecesMineshaft
+	CLASS byx$a MineshaftPieceCorridor
+		METHOD a generate (Lbbe;Ljava/util/Random;Lbyn;Lbat;)Z
 			ARG 1 rand
 			ARG 2 region
-		METHOD a serializeStructureData (Lgu;)V
+		METHOD a serializeStructureData (Lgv;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lgu;Lbzr;)V
+		METHOD a deserializeStructureData (Lgv;Lbzt;)V
 			ARG 0 tag
-	CLASS byv$b MineshaftPieceCrossing
-		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+	CLASS byx$b MineshaftPieceCrossing
+		METHOD a generate (Lbbe;Ljava/util/Random;Lbyn;Lbat;)Z
 			ARG 1 rand
 			ARG 2 region
-		METHOD a serializeStructureData (Lgu;)V
+		METHOD a serializeStructureData (Lgv;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lgu;Lbzr;)V
+		METHOD a deserializeStructureData (Lgv;Lbzt;)V
 			ARG 0 tag
-	CLASS byv$c MineshaftPiece
-		METHOD a serializeStructureData (Lgu;)V
+	CLASS byx$c MineshaftPiece
+		METHOD a serializeStructureData (Lgv;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lgu;Lbzr;)V
+		METHOD a deserializeStructureData (Lgv;Lbzt;)V
 			ARG 0 tag
-	CLASS byv$d MineshaftPieceRoom
+	CLASS byx$d MineshaftPieceRoom
 		METHOD a translate (III)V
 			ARG 0 x
 			ARG 1 y
 			ARG 2 z
-		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+		METHOD a generate (Lbbe;Ljava/util/Random;Lbyn;Lbat;)Z
 			ARG 1 rand
 			ARG 2 region
-		METHOD a serializeStructureData (Lgu;)V
+		METHOD a serializeStructureData (Lgv;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lgu;Lbzr;)V
+		METHOD a deserializeStructureData (Lgv;Lbzt;)V
 			ARG 0 tag
-	CLASS byv$e MineshaftPieceStairs
-		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+	CLASS byx$e MineshaftPieceStairs
+		METHOD a generate (Lbbe;Ljava/util/Random;Lbyn;Lbat;)Z
 			ARG 1 rand
 			ARG 2 region
 	METHOD a registerPieces ()V

@@ -1,31 +1,31 @@
-CLASS mq net/minecraft/network/packet/server/SPacketEntityAction
-	CLASS mq$a Type
-		FIELD a START_SNEAKING Lmq$a;
-		FIELD b STOP_SNEAKING Lmq$a;
-		FIELD c STOP_SLEEPING Lmq$a;
-		FIELD d START_SPRINTING Lmq$a;
-		FIELD e STOP_SPRINTING Lmq$a;
-		FIELD f START_RIDING_JUMP Lmq$a;
-		FIELD g STOP_RIDING_JUMP Lmq$a;
-		FIELD h OPEN_INVENTORY Lmq$a;
-		FIELD i START_FALL_FLYING Lmq$a;
+CLASS mr net/minecraft/network/packet/server/SPacketEntityAction
+	CLASS mr$a Type
+		FIELD a START_SNEAKING Lmr$a;
+		FIELD b STOP_SNEAKING Lmr$a;
+		FIELD c STOP_SLEEPING Lmr$a;
+		FIELD d START_SPRINTING Lmr$a;
+		FIELD e STOP_SPRINTING Lmr$a;
+		FIELD f START_RIDING_JUMP Lmr$a;
+		FIELD g STOP_RIDING_JUMP Lmr$a;
+		FIELD h OPEN_INVENTORY Lmr$a;
+		FIELD i START_FALL_FLYING Lmr$a;
 	FIELD a entityId I
-	FIELD b type Lmq$a;
+	FIELD b type Lmr$a;
 	FIELD c parameter I
-	METHOD <init> (Lahx;Lmq$a;)V
+	METHOD <init> (Lahz;Lmr$a;)V
 		ARG 0 entity
 		ARG 1 type
-	METHOD <init> (Lahx;Lmq$a;I)V
+	METHOD <init> (Lahz;Lmr$a;I)V
 		ARG 0 entity
 		ARG 1 type
 		ARG 2 parameter
-	METHOD a readPacket (Lht;)V
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD a applyPacket (Llx;)V
+	METHOD a applyPacket (Lly;)V
 		ARG 0 handler
-	METHOD b getType ()Lmq$a;
-	METHOD b writePacket (Lht;)V
+	METHOD b getType ()Lmr$a;
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf
 	METHOD c getParameter ()I

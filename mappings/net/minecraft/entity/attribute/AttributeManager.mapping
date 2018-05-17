@@ -1,20 +1,20 @@
-CLASS aqp net/minecraft/entity/attribute/AttributeManager
-	FIELD a MAX_HEALTH Lais;
-	FIELD b FOLLOW_RANGE Lais;
-	FIELD c KNOCKBACK_RESISTANCE Lais;
-	FIELD d MOVEMENT_SPEED Lais;
-	FIELD e GENERIC_FLYINGSPEED Lais;
-	FIELD f ATTACK_DAMAGE Lais;
-	FIELD g ATTACK_SPEED Lais;
-	FIELD h ARMOR Lais;
-	FIELD i ARMOR_TOUGHNESS Lais;
-	FIELD j LUCK Lais;
+CLASS aqr net/minecraft/entity/attribute/AttributeManager
+	FIELD a MAX_HEALTH Laiu;
+	FIELD b FOLLOW_RANGE Laiu;
+	FIELD c KNOCKBACK_RESISTANCE Laiu;
+	FIELD d MOVEMENT_SPEED Laiu;
+	FIELD e GENERIC_FLYINGSPEED Laiu;
+	FIELD f ATTACK_DAMAGE Laiu;
+	FIELD g ATTACK_SPEED Laiu;
+	FIELD h ARMOR Laiu;
+	FIELD i ARMOR_TOUGHNESS Laiu;
+	FIELD j LUCK Laiu;
 	FIELD k LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD a serializeToTag (Lait;)Lgu;
+	METHOD a serializeToTag (Laiv;)Lgv;
 		ARG 0 instance
-	METHOD a serializeToTag (Laiu;)Lgu;
+	METHOD a serializeToTag (Laiw;)Lgv;
 		ARG 0 modifier
-	METHOD a serializeToTag (Laiw;)Lha;
+	METHOD a serializeToTag (Laiy;)Lhb;
 		ARG 0 container
-	METHOD a deserializeFromTag (Lgu;)Laiu;
+	METHOD a deserializeFromTag (Lgv;)Laiw;
 		ARG 0 tag

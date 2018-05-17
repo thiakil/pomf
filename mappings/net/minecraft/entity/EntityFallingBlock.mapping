@@ -1,13 +1,13 @@
-CLASS apq net/minecraft/entity/EntityFallingBlock
+CLASS aps net/minecraft/entity/EntityFallingBlock
 	FIELD a time I
 	FIELD av fallHurtAmount F
 	FIELD b dropItem Z
-	FIELD c blockEntityData Lgu;
-	FIELD d BLOCK_POS Lny;
-	FIELD e blockState Lbnz;
+	FIELD c blockEntityData Lgv;
+	FIELD d BLOCK_POS Lnz;
+	FIELD e blockState Lbob;
 	FIELD g hurtEntities Z
 	FIELD h fallHurtMax I
-	METHOD <init> (Lbbb;DDDLbnz;)V
+	METHOD <init> (Lbbd;DDDLbob;)V
 		ARG 0 world
 		ARG 1 x
 		ARG 2 y
@@ -15,19 +15,19 @@ CLASS apq net/minecraft/entity/EntityFallingBlock
 	METHOD R_ update ()V
 	METHOD a addCrashReportDetails (Lc;)V
 		ARG 0 element
-	METHOD a setFallingBlockPos (Lef;)V
+	METHOD a setFallingBlockPos (Leg;)V
 		ARG 0 pos
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD a setHurtEntities (Z)V
 		ARG 0 value
 	METHOD aD doesCollide ()Z
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD bv doesRenderOnFire ()Z
 	METHOD c handleFallDamage (FF)V
 		ARG 0 fallDistance
-	METHOD f getFallingBlockPos ()Lef;
-	METHOD i getWorldClient ()Lbbb;
-	METHOD k getBlockState ()Lbnz;
+	METHOD f getFallingBlockPos ()Leg;
+	METHOD i getWorldClient ()Lbbd;
+	METHOD k getBlockState ()Lbob;
 	METHOD w_ initDataTracker ()V

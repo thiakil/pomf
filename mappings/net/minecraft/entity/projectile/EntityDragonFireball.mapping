@@ -1,8 +1,8 @@
-CLASS ars net/minecraft/entity/projectile/EntityDragonFireball
-	METHOD a damage (Lahg;F)Z
+CLASS aru net/minecraft/entity/projectile/EntityDragonFireball
+	METHOD a damage (Lahi;F)Z
 		ARG 0 source
 		ARG 1 damage
-	METHOD a onCollision (Lcgd;)V
+	METHOD a onCollision (Lcgf;)V
 		ARG 0 hit
 	METHOD aD doesCollide ()Z
-	METHOD i getParticleType ()Lfg;
+	METHOD i getParticleType ()Lfh;

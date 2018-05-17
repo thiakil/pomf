@@ -1,15 +1,15 @@
-CLASS azg net/minecraft/enchantment/EnchantmentDamage
+CLASS azi net/minecraft/enchantment/EnchantmentDamage
 	FIELD e ALL [Ljava/lang/String;
 	METHOD a getTranslationKey ()Ljava/lang/String;
-	METHOD a getAdditionalDamge (ILail;)F
+	METHOD a getAdditionalDamge (ILain;)F
 		ARG 0 level
 		ARG 1 entityType
-	METHOD a onTargetDamaged (Laig;Lahx;I)V
+	METHOD a onTargetDamaged (Laii;Lahz;I)V
 		ARG 0 user
 		ARG 1 target
 		ARG 2 level
-	METHOD a isAcceptableItem (Lawk;)Z
+	METHOD a isAcceptableItem (Lawm;)Z
 		ARG 0 item
-	METHOD a isEqual (Lazj;)Z
+	METHOD a isEqual (Lazl;)Z
 		ARG 0 other
 	METHOD b getHighestLevel ()I

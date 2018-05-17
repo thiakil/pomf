@@ -1,7 +1,7 @@
-CLASS asb net/minecraft/entity/projectile/EntitySmallFireball
-	METHOD a damage (Lahg;F)Z
+CLASS asd net/minecraft/entity/projectile/EntitySmallFireball
+	METHOD a damage (Lahi;F)Z
 		ARG 0 source
 		ARG 1 damage
-	METHOD a onCollision (Lcgd;)V
+	METHOD a onCollision (Lcgf;)V
 		ARG 0 hit
 	METHOD aD doesCollide ()Z

@@ -1,21 +1,21 @@
-CLASS lu net/minecraft/network/packet/client/CPacketEntityPotionEffect
+CLASS lv net/minecraft/network/packet/client/CPacketEntityPotionEffect
 	FIELD a entityId I
 	FIELD b id B
 	FIELD c amplifier B
 	FIELD d duration I
 	FIELD e flags B
-	METHOD <init> (ILahq;)V
+	METHOD <init> (ILahs;)V
 		ARG 0 entityId
 		ARG 1 effect
 	METHOD a isPermanent ()Z
-	METHOD a readPacket (Lht;)V
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lis;)V
+	METHOD a applyPacket (Lit;)V
 		ARG 0 handler
 	METHOD b getEntityId ()I
-	METHOD b writePacket (Lht;)V
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf
 	METHOD c getId ()B
 	METHOD d getAmplifier ()B

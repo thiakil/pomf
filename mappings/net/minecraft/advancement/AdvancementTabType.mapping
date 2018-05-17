@@ -1,14 +1,14 @@
-CLASS clw net/minecraft/advancement/AdvancementTabType
-	FIELD a ABOVE Lclw;
-	FIELD b BELOW Lclw;
-	FIELD c LEFT Lclw;
-	FIELD d RIGHT Lclw;
-	METHOD a drawIcon (IIILdap;Lawk;)V
+CLASS cly net/minecraft/advancement/AdvancementTabType
+	FIELD a ABOVE Lcly;
+	FIELD b BELOW Lcly;
+	FIELD c LEFT Lcly;
+	FIELD d RIGHT Lcly;
+	METHOD a drawIcon (IIILdar;Lawm;)V
 		ARG 0 x
 		ARG 1 y
 		ARG 3 itemRenderer
 		ARG 4 iconStack
-	METHOD a drawBackground (Lcim;IIZI)V
+	METHOD a drawBackground (Lcio;IIZI)V
 		ARG 0 drawable
 		ARG 1 x
 		ARG 2 y

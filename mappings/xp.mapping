@@ -1,4 +1,6 @@
 CLASS xp
 	CLASS xp$a
-		FIELD a INSTANCE Lxp$a;
-		METHOD d right (Labd;)Labd;
+		METHOD equals (Ljava/lang/Object;)Z
+			ARG 0 object
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 0 object

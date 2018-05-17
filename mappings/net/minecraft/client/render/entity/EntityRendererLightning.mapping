@@ -1,5 +1,5 @@
-CLASS das net/minecraft/client/render/entity/EntityRendererLightning
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dau net/minecraft/client/render/entity/EntityRendererLightning
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Lapo;)Loj;
+	METHOD a getTexture (Lapq;)Lok;
 		ARG 0 model

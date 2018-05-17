@@ -1,10 +1,10 @@
-CLASS csh net/minecraft/world/chunk/ChunkProviderClient
+CLASS csj net/minecraft/world/chunk/ChunkProviderClient
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b emptyChunk Lbpp;
+	FIELD b emptyChunk Lbpr;
 	FIELD c chunkByIdMap Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;
-	FIELD d world Lbbb;
-	METHOD <init> (Lbbb;)V
+	FIELD d world Lbbd;
+	METHOD <init> (Lbbd;)V
 		ARG 0 world
-	METHOD d generate (II)Lbpe;
+	METHOD d generate (II)Lbpg;
 		ARG 0 chunkX
 		ARG 1 chunkZ

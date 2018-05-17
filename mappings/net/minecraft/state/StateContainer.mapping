@@ -1,2 +1,2 @@
-CLASS bob net/minecraft/state/StateContainer
-	CLASS bob$a Builder
+CLASS bod net/minecraft/state/StateContainer
+	CLASS bod$a Builder

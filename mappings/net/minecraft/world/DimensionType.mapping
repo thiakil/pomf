@@ -1,7 +1,7 @@
-CLASS bqj net/minecraft/world/DimensionType
-	FIELD a OVERWORLD Lbqj;
-	FIELD b NETHER Lbqj;
-	FIELD c THE_END Lbqj;
+CLASS bql net/minecraft/world/DimensionType
+	FIELD a OVERWORLD Lbql;
+	FIELD b NETHER Lbql;
+	FIELD c THE_END Lbql;
 	FIELD d id I
 	FIELD e name Ljava/lang/String;
 	FIELD f suffix Ljava/lang/String;
@@ -11,8 +11,8 @@ CLASS bqj net/minecraft/world/DimensionType
 		ARG 2 suffix
 		ARG 3 providerClass
 	METHOD a getID ()I
-	METHOD a getById (I)Lbqj;
+	METHOD a getById (I)Lbql;
 		ARG 0 id
-	METHOD a getByName (Ljava/lang/String;)Lbqj;
+	METHOD a getByName (Ljava/lang/String;)Lbql;
 	METHOD b getName ()Ljava/lang/String;
 	METHOD c getSuffix ()Ljava/lang/String;

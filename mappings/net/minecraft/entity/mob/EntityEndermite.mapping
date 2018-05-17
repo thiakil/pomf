@@ -1,21 +1,21 @@
-CLASS aqc net/minecraft/entity/mob/EntityEndermite
+CLASS aqe net/minecraft/entity/mob/EntityEndermite
 	FIELD a lifetime I
 	FIELD b playerSpawned Z
-	METHOD E getSoundAmbient ()Lvo;
-	METHOD H getLootTableId ()Loj;
+	METHOD E getSoundAmbient ()Lvp;
+	METHOD H getLootTableId ()Lok;
 	METHOD R_ update ()V
-	METHOD a playStepSound (Lef;Lbfq;)V
+	METHOD a playStepSound (Leg;Lbfs;)V
 		ARG 0 pos
 		ARG 1 block
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD aK getHeightOffset ()D
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD bI getEyeHeight ()F
-	METHOD cB getEntityAttribute ()Lail;
+	METHOD cB getEntityAttribute ()Lain;
 	METHOD ca initAttributes ()V
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD ct getSoundDeath ()Lvp;
+	METHOD d getSoundHurt (Lahi;)Lvp;
 	METHOD k updateMovement ()V
 	METHOD k setYaw (F)V

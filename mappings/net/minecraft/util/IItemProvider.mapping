@@ -1,2 +1,2 @@
-CLASS bba net/minecraft/util/IItemProvider
-	METHOD h getItem ()Lawg;
+CLASS bbc net/minecraft/util/IItemProvider
+	METHOD h getItem ()Lawi;

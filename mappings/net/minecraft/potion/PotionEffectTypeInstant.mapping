@@ -1,4 +1,4 @@
-CLASS aho net/minecraft/potion/PotionEffectTypeInstant
+CLASS ahq net/minecraft/potion/PotionEffectTypeInstant
 	METHOD a canApplyUpdateEffect (II)Z
 		ARG 0 duration
 		ARG 1 amplifier

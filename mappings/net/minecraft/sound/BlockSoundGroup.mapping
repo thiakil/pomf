@@ -1,27 +1,27 @@
-CLASS bkp net/minecraft/sound/BlockSoundGroup
-	FIELD a WOOD Lbkp;
-	FIELD b GRAVEL Lbkp;
-	FIELD c GRASS Lbkp;
-	FIELD d STONE Lbkp;
-	FIELD e METAL Lbkp;
-	FIELD f GLASS Lbkp;
-	FIELD g CLOTH Lbkp;
-	FIELD h SAND Lbkp;
-	FIELD i SNOW Lbkp;
-	FIELD j LADDER Lbkp;
-	FIELD k ANVIL Lbkp;
-	FIELD l SLIME Lbkp;
+CLASS bkr net/minecraft/sound/BlockSoundGroup
+	FIELD a WOOD Lbkr;
+	FIELD b GRAVEL Lbkr;
+	FIELD c GRASS Lbkr;
+	FIELD d STONE Lbkr;
+	FIELD e METAL Lbkr;
+	FIELD f GLASS Lbkr;
+	FIELD g CLOTH Lbkr;
+	FIELD h SAND Lbkr;
+	FIELD i SNOW Lbkr;
+	FIELD j LADDER Lbkr;
+	FIELD k ANVIL Lbkr;
+	FIELD l SLIME Lbkr;
 	FIELD m volume F
 	FIELD n pitch F
-	FIELD o breakSound Lvo;
-	FIELD p stepSound Lvo;
-	FIELD q placeSound Lvo;
-	FIELD r hitSound Lvo;
-	FIELD s fallSound Lvo;
+	FIELD o breakSound Lvp;
+	FIELD p stepSound Lvp;
+	FIELD q placeSound Lvp;
+	FIELD r hitSound Lvp;
+	FIELD s fallSound Lvp;
 	METHOD a getVolume ()F
 	METHOD b getPitch ()F
-	METHOD c getBreakSound ()Lvo;
-	METHOD d getStepSound ()Lvo;
-	METHOD e getPlaceSound ()Lvo;
-	METHOD f getHitSound ()Lvo;
-	METHOD g getFallSound ()Lvo;
+	METHOD c getBreakSound ()Lvp;
+	METHOD d getStepSound ()Lvp;
+	METHOD e getPlaceSound ()Lvp;
+	METHOD f getHitSound ()Lvp;
+	METHOD g getFallSound ()Lvp;

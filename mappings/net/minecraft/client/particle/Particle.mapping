@@ -1,14 +1,14 @@
-CLASS cts net/minecraft/client/particle/Particle
+CLASS ctu net/minecraft/client/particle/Particle
 	FIELD A colorBlue F
 	FIELD B colorAlpha F
-	FIELD C sprite Ldew;
+	FIELD C sprite Ldey;
 	FIELD F lerpX D
 	FIELD G lerpY D
 	FIELD H lerpZ D
-	FIELD I billboardNormal Lcgg;
-	FIELD J EMPTY_BOUNDING_BOX Lcgc;
-	FIELD K boundingBox Lcgc;
-	FIELD a world Lbbb;
+	FIELD I billboardNormal Lcgi;
+	FIELD J EMPTY_BOUNDING_BOX Lcge;
+	FIELD K boundingBox Lcge;
+	FIELD a world Lbbd;
 	FIELD b prevPosX D
 	FIELD c prevPosY D
 	FIELD d prevPosZ D
@@ -32,12 +32,12 @@ CLASS cts net/minecraft/client/particle/Particle
 	FIELD x gravityStrength F
 	FIELD y colorRed F
 	FIELD z colorGreen F
-	METHOD <init> (Lbbb;DDD)V
+	METHOD <init> (Lbbd;DDD)V
 		ARG 0 world
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD <init> (Lbbb;DDDDDD)V
+	METHOD <init> (Lbbd;DDDDDD)V
 		ARG 0 world
 		ARG 1 x
 		ARG 2 y
@@ -60,13 +60,13 @@ CLASS cts net/minecraft/client/particle/Particle
 		ARG 2 blue
 	METHOD a setSpriteIndex (I)V
 		ARG 0 value
-	METHOD a setBoundingBox (Lcgc;)V
+	METHOD a setBoundingBox (Lcge;)V
 		ARG 0 boundingBox
-	METHOD a buildGeometry (Lcuw;Lahx;FFFFFF)V
+	METHOD a buildGeometry (Lcuy;Lahz;FFFFFF)V
 		ARG 0 vertexBuffer
 		ARG 1 entity
 		ARG 2 deltaTicks
-	METHOD a setSprite (Ldew;)V
+	METHOD a setSprite (Ldey;)V
 		ARG 0 value
 	METHOD b getParticleGroup ()I
 	METHOD b setPos (DDD)V
@@ -85,4 +85,4 @@ CLASS cts net/minecraft/client/particle/Particle
 	METHOD j markDead ()V
 	METHOD k repositionFromBoundingBox ()V
 	METHOD l isAlive ()Z
-	METHOD m getBoundingBox ()Lcgc;
+	METHOD m getBoundingBox ()Lcge;

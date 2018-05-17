@@ -1,39 +1,39 @@
-CLASS jf net/minecraft/network/packet/client/CPacketBossBar
-	CLASS jf$a Type
-		FIELD a ADD Ljf$a;
-		FIELD b REMOVE Ljf$a;
-		FIELD c UPDATE_PCT Ljf$a;
-		FIELD d UPDATE_NAME Ljf$a;
-		FIELD e UPDATE_STYLE Ljf$a;
-		FIELD f UPDATE_PROPERTIES Ljf$a;
+CLASS jg net/minecraft/network/packet/client/CPacketBossBar
+	CLASS jg$a Type
+		FIELD a ADD Ljg$a;
+		FIELD b REMOVE Ljg$a;
+		FIELD c UPDATE_PCT Ljg$a;
+		FIELD d UPDATE_NAME Ljg$a;
+		FIELD e UPDATE_STYLE Ljg$a;
+		FIELD f UPDATE_PROPERTIES Ljg$a;
 	FIELD a uuid Ljava/util/UUID;
-	FIELD b type Ljf$a;
-	FIELD c name Lic;
+	FIELD b type Ljg$a;
+	FIELD c name Lid;
 	FIELD d health F
-	FIELD e color Lagi$a;
-	FIELD f division Lagi$b;
+	FIELD e color Lagk$a;
+	FIELD f division Lagk$b;
 	FIELD g darkenSky Z
 	FIELD h dragonMusic Z
 	FIELD i thickenFog Z
-	METHOD <init> (Ljf$a;Lagi;)V
+	METHOD <init> (Ljg$a;Lagk;)V
 		ARG 0 action
 		ARG 1 bar
 	METHOD a getUuid ()Ljava/util/UUID;
 	METHOD a setFlagBitfield (I)V
 		ARG 0 flags
-	METHOD a readPacket (Lht;)V
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lis;)V
+	METHOD a applyPacket (Lit;)V
 		ARG 0 handler
-	METHOD b getType ()Ljf$a;
-	METHOD b writePacket (Lht;)V
+	METHOD b getType ()Ljg$a;
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf
-	METHOD c getName ()Lic;
+	METHOD c getName ()Lid;
 	METHOD d getHealth ()F
-	METHOD e getBarColor ()Lagi$a;
-	METHOD f getBarDivision ()Lagi$b;
+	METHOD e getBarColor ()Lagk$a;
+	METHOD f getBarDivision ()Lagk$b;
 	METHOD g shouldDarkenSky ()Z
 	METHOD h hasDragonMusic ()Z
 	METHOD i shouldThickenFog ()Z

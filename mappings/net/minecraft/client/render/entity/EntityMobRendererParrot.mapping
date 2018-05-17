@@ -1,5 +1,5 @@
-CLASS dbc net/minecraft/client/render/entity/EntityMobRendererParrot
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dbe net/minecraft/client/render/entity/EntityMobRendererParrot
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Land;)Loj;
+	METHOD a getTexture (Lanf;)Lok;
 		ARG 0 model

@@ -1,8 +1,8 @@
-CLASS aqk net/minecraft/entity/mob/EntityMagmaCube
-	METHOD H getLootTableId ()Loj;
+CLASS aqm net/minecraft/entity/mob/EntityMagmaCube
+	METHOD H getLootTableId ()Lok;
 	METHOD aX isOnFire ()Z
 	METHOD c handleFallDamage (FF)V
 		ARG 0 fallDistance
 	METHOD ca initAttributes ()V
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD ct getSoundDeath ()Lvp;
+	METHOD d getSoundHurt (Lahi;)Lvp;

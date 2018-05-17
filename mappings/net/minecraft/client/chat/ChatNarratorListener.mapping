@@ -1,8 +1,8 @@
-CLASS cip net/minecraft/client/chat/ChatNarratorListener
-	FIELD a INSTANCE Lcip;
+CLASS cir net/minecraft/client/chat/ChatNarratorListener
+	FIELD a INSTANCE Lcir;
 	FIELD b narrator Lcom/mojang/text2speech/Narrator;
 	METHOD a isActive ()Z
-	METHOD a onMessageReceived (Lia;Lic;)V
+	METHOD a onMessageReceived (Lib;Lid;)V
 		ARG 0 type
 		ARG 1 message
 	METHOD b clear ()V

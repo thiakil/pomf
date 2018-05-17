@@ -1,28 +1,28 @@
-CLASS cil net/minecraft/client/gui/hud/HudInGame
-	FIELD f VIGNETTE_TEX Loj;
-	FIELD g WIDGETS_TEX Loj;
-	FIELD h PUMPKIN_BLUR Loj;
+CLASS cin net/minecraft/client/gui/hud/HudInGame
+	FIELD f VIGNETTE_TEX Lok;
+	FIELD g WIDGETS_TEX Lok;
+	FIELD h PUMPKIN_BLUR Lok;
 	FIELD i rand Ljava/util/Random;
-	FIELD j game Lcht;
-	FIELD k itemRenderer Ldap;
-	FIELD l hudChat Lciv;
-	FIELD r currentStack Lawk;
-	FIELD s hudDebug Lcix;
-	FIELD t hudSubtitles Lcjo;
-	FIELD u hudSpectator Lcjv;
-	FIELD v hudScoreboard Lcjk;
-	FIELD w hudBossBar Lcit;
-	METHOD <init> (Lcht;)V
+	FIELD j game Lchv;
+	FIELD k itemRenderer Ldar;
+	FIELD l hudChat Lcix;
+	FIELD r currentStack Lawm;
+	FIELD s hudDebug Lciz;
+	FIELD t hudSubtitles Lcjq;
+	FIELD u hudSpectator Lcjx;
+	FIELD v hudScoreboard Lcjm;
+	FIELD w hudBossBar Lciv;
+	METHOD <init> (Lchv;)V
 		ARG 0 game
 	METHOD a draw (F)V
 		ARG 0 deltaTicks
-	METHOD a handleMessage (Lia;Lic;)V
+	METHOD a handleMessage (Lib;Lid;)V
 		ARG 0 chatType
 		ARG 1 message
-	METHOD a setStatusMessage (Lic;Z)V
+	METHOD a setStatusMessage (Lid;Z)V
 	METHOD a setStatusMessage (Ljava/lang/String;Z)V
-	METHOD f getHudChat ()Lciv;
-	METHOD h getFontRenderer ()Lcik;
-	METHOD i getSpectatorWidget ()Lcjv;
-	METHOD j getScoreboardWidget ()Lcjk;
-	METHOD l getHudBossBar ()Lcit;
+	METHOD f getHudChat ()Lcix;
+	METHOD h getFontRenderer ()Lcim;
+	METHOD i getSpectatorWidget ()Lcjx;
+	METHOD j getScoreboardWidget ()Lcjm;
+	METHOD l getHudBossBar ()Lciv;

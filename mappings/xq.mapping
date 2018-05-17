@@ -1,6 +1,4 @@
 CLASS xq
 	CLASS xq$a
-		METHOD equals (Ljava/lang/Object;)Z
-			ARG 0 object
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 0 object
+		FIELD a INSTANCE Lxq$a;
+		METHOD d right (Labf;)Labf;

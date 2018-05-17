@@ -1,4 +1,4 @@
-CLASS re net/minecraft/command/CommandTeam
+CLASS rf net/minecraft/command/CommandTeam
 	FIELD a COMMANDS_TEAM_ADD_DUPLICATE Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD b COMMANDS_TEAM_ADD_LONGNAME Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
 	FIELD c COMMANDS_TEAM_ADD_LONGDISPLAYNAME Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;

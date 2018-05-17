@@ -1,9 +1,9 @@
-CLASS axq net/minecraft/item/ToolMaterial
-	FIELD a WOOD Laxq;
-	FIELD b STONE Laxq;
-	FIELD c IRON Laxq;
-	FIELD d DIAMOND Laxq;
-	FIELD e GOLD Laxq;
+CLASS axs net/minecraft/item/ToolMaterial
+	FIELD a WOOD Laxs;
+	FIELD b STONE Laxs;
+	FIELD c IRON Laxs;
+	FIELD d DIAMOND Laxs;
+	FIELD e GOLD Laxs;
 	FIELD f miningLevel I
 	FIELD g durability I
 	FIELD h efficiency F
@@ -20,4 +20,4 @@ CLASS axq net/minecraft/item/ToolMaterial
 	METHOD c getWeaponDamage ()F
 	METHOD d getMiningSpeed ()I
 	METHOD e getEnchantability ()I
-	METHOD f getRepairItemPredicate ()Laym;
+	METHOD f getRepairItemPredicate ()Layo;

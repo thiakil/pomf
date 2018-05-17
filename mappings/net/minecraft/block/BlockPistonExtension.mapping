@@ -1,24 +1,24 @@
-CLASS bnr net/minecraft/block/BlockPistonExtension
-	FIELD a FACING Lbov;
-	FIELD b TYPE Lbow;
-	METHOD a createBlockEntity (Lbap;)Lbmf;
+CLASS bnt net/minecraft/block/BlockPistonExtension
+	FIELD a FACING Lbox;
+	FIELD b TYPE Lboy;
+	METHOD a createBlockEntity (Lbar;)Lbmh;
 		ARG 0 world
-	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+	METHOD a getBlockFaceShape (Lbar;Lbob;Leg;Lem;)Lboa;
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
-	METHOD a getBlockEntityPiston (Lbap;Lef;)Lbnu;
+	METHOD a getBlockEntityPiston (Lbar;Leg;)Lbnw;
 		ARG 0 world
 		ARG 1 pos
-	METHOD a getItem (Lbap;Lef;Lbnz;)Lawk;
-	METHOD a isFullBlock (Lbnz;)Z
-	METHOD a dropItems (Lbnz;Lbbb;Lef;FI)V
+	METHOD a getItem (Lbar;Leg;Lbob;)Lawm;
+	METHOD a isFullBlock (Lbob;)Z
+	METHOD a dropItems (Lbob;Lbbd;Leg;FI)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 dropChance
 		ARG 4 fortune
-	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;
-	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z
+	METHOD a getDroppedItem (Lbob;Lbbd;Leg;I)Lbbc;
+	METHOD a onActivated (Lbob;Lbbd;Leg;Larn;Lags;Lem;FFF)Z
 		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
@@ -28,11 +28,11 @@ CLASS bnr net/minecraft/block/BlockPistonExtension
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
-	METHOD a onBlockRemoved (Lbnz;Lbbb;Lef;Lbnz;)V
+	METHOD a onBlockRemoved (Lbob;Lbbd;Leg;Lbob;)V
 		ARG 1 world
 		ARG 2 pos
-	METHOD a withMirror (Lbnz;Lbiw;)Lbnz;
-	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;
-	METHOD a createBlockEntityPiston (Lbnz;Lel;ZZ)Lbmf;
+	METHOD a withMirror (Lbob;Lbiy;)Lbob;
+	METHOD a withRotation (Lbob;Lbkb;)Lbob;
+	METHOD a createBlockEntityPiston (Lbob;Lem;ZZ)Lbmh;
 		ARG 1 dir
 		ARG 2 extending

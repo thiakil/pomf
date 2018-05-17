@@ -1,5 +1,5 @@
-CLASS bkc net/minecraft/block/BlockSeaLantern
-	METHOD a getDropAmount (Lbnz;ILbbb;Lef;Ljava/util/Random;)I
-	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;
-	METHOD a getDropAmount (Lbnz;Ljava/util/Random;)I
+CLASS bke net/minecraft/block/BlockSeaLantern
+	METHOD a getDropAmount (Lbob;ILbbd;Leg;Ljava/util/Random;)I
+	METHOD a getDroppedItem (Lbob;Lbbd;Leg;I)Lbbc;
+	METHOD a getDropAmount (Lbob;Ljava/util/Random;)I
 	METHOD j canSilkHarvest ()Z

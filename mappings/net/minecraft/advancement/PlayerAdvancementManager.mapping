@@ -1,12 +1,12 @@
-CLASS ot net/minecraft/advancement/PlayerAdvancementManager
+CLASS ou net/minecraft/advancement/PlayerAdvancementManager
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD b GSON Lcom/google/gson/Gson;
 	FIELD c PROGRESSES_TYPE Lcom/google/gson/reflect/TypeToken;
 	FIELD d server Lnet/minecraft/server/MinecraftServer;
 	FIELD e file Ljava/io/File;
 	FIELD f progresses Ljava/util/Map;
-	FIELD j player Lsl;
-	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ljava/io/File;Lsl;)V
+	FIELD j player Lsm;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ljava/io/File;Lsm;)V
 		ARG 0 server
 		ARG 1 file
 		ARG 2 player
@@ -19,11 +19,11 @@ CLASS ot net/minecraft/advancement/PlayerAdvancementManager
 	METHOD a setProgress (Ll;Ln;)V
 		ARG 0 advancement
 		ARG 1 progress
-	METHOD a setPlayer (Lsl;)V
+	METHOD a setPlayer (Lsm;)V
 		ARG 0 player
 	METHOD b getProgress (Ll;)Ln;
 		ARG 0 advancement
-	METHOD b sync (Lsl;)V
+	METHOD b sync (Lsm;)V
 		ARG 0 player
 	METHOD c saveToFile ()V
 	METHOD e complete (Ll;)V

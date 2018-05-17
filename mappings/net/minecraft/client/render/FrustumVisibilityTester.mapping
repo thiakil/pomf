@@ -1,9 +1,9 @@
-CLASS cyl net/minecraft/client/render/FrustumVisibilityTester
-	FIELD a frustum Lcym;
+CLASS cyn net/minecraft/client/render/FrustumVisibilityTester
+	FIELD a frustum Lcyo;
 	FIELD b viewX D
 	FIELD c viewY D
 	FIELD d viewZ D
-	METHOD <init> (Lcym;)V
+	METHOD <init> (Lcyo;)V
 		ARG 0 frustum
 	METHOD a updateViewPosition (DDD)V
 		ARG 0 x
@@ -16,5 +16,5 @@ CLASS cyl net/minecraft/client/render/FrustumVisibilityTester
 		ARG 3 maxX
 		ARG 4 maxY
 		ARG 5 maxZ
-	METHOD a isVisible (Lcgc;)Z
+	METHOD a isVisible (Lcge;)Z
 		ARG 0 box

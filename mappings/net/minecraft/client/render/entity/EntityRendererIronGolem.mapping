@@ -1,6 +1,6 @@
-CLASS dcf net/minecraft/client/render/entity/EntityRendererIronGolem
-	FIELD a SKIN Loj;
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dch net/minecraft/client/render/entity/EntityRendererIronGolem
+	FIELD a SKIN Lok;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Lanp;)Loj;
+	METHOD a getTexture (Lanr;)Lok;
 		ARG 0 model

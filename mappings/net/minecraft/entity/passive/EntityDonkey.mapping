@@ -1,7 +1,7 @@
-CLASS anu net/minecraft/entity/passive/EntityDonkey
-	METHOD E getSoundAmbient ()Lvo;
-	METHOD H getLootTableId ()Loj;
-	METHOD a createChild (Lahu;)Lahu;
+CLASS anw net/minecraft/entity/passive/EntityDonkey
+	METHOD E getSoundAmbient ()Lvp;
+	METHOD H getLootTableId ()Lok;
+	METHOD a createChild (Lahw;)Lahw;
 		ARG 0 other
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD ct getSoundDeath ()Lvp;
+	METHOD d getSoundHurt (Lahi;)Lvp;

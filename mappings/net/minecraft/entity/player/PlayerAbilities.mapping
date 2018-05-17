@@ -1,4 +1,4 @@
-CLASS arj net/minecraft/entity/player/PlayerAbilities
+CLASS arl net/minecraft/entity/player/PlayerAbilities
 	FIELD a invulnerable Z
 	FIELD b flying Z
 	FIELD c allowFlying Z
@@ -9,8 +9,8 @@ CLASS arj net/minecraft/entity/player/PlayerAbilities
 	METHOD a getFlySpeed ()F
 	METHOD a setWalkSpeed (F)V
 		ARG 0 walkSpeed
-	METHOD a serialize (Lgu;)V
+	METHOD a serialize (Lgv;)V
 		ARG 0 tag
 	METHOD b getWalkSpeed ()F
-	METHOD b deserialize (Lgu;)V
+	METHOD b deserialize (Lgv;)V
 		ARG 0 tag

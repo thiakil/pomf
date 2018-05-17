@@ -1,7 +1,7 @@
-CLASS dcq net/minecraft/client/render/entity/EntityRendererStuckArrows
-	FIELD a renderer Ldat;
-	METHOD <init> (Ldat;)V
+CLASS dcs net/minecraft/client/render/entity/EntityRendererStuckArrows
+	FIELD a renderer Ldav;
+	METHOD <init> (Ldav;)V
 		ARG 0 renderer
 	METHOD a shouldMergeTextures ()Z
-	METHOD a render (Laig;FFFFFFF)V
+	METHOD a render (Laii;FFFFFFF)V
 		ARG 0 entity

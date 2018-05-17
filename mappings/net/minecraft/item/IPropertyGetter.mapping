@@ -1,5 +1,5 @@
-CLASS awj net/minecraft/item/IPropertyGetter
-	METHOD a getProperty (Lawk;Lbbb;Laig;)F
+CLASS awl net/minecraft/item/IPropertyGetter
+	METHOD a getProperty (Lawm;Lbbd;Laii;)F
 		ARG 0 stack
 		ARG 1 world
 		ARG 2 user

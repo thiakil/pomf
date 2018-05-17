@@ -1,5 +1,5 @@
-CLASS axj net/minecraft/item/ItemArrowSpectral
-	METHOD a createEntityArrow (Lbbb;Lawk;Laig;)Larp;
+CLASS axl net/minecraft/item/ItemArrowSpectral
+	METHOD a createEntityArrow (Lbbd;Lawm;Laii;)Larr;
 		ARG 0 world
 		ARG 1 stack
 		ARG 2 owner

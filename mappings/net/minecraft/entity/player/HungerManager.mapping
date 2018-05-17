@@ -1,4 +1,4 @@
-CLASS asy net/minecraft/entity/player/HungerManager
+CLASS ata net/minecraft/entity/player/HungerManager
 	FIELD a foodLevel I
 	FIELD b foodSaturationLevel F
 	FIELD c exhaustion F
@@ -12,16 +12,16 @@ CLASS asy net/minecraft/entity/player/HungerManager
 	METHOD a add (IF)V
 		ARG 0 food
 		ARG 1 saturation
-	METHOD a update (Larl;)V
+	METHOD a update (Larn;)V
 		ARG 0 player
-	METHOD a eat (Lawb;Lawk;)V
+	METHOD a eat (Lawd;Lawm;)V
 		ARG 0 item
 		ARG 1 stack
-	METHOD a deserialize (Lgu;)V
+	METHOD a deserialize (Lgv;)V
 		ARG 0 tag
 	METHOD b setSaturationLevelClient (F)V
 		ARG 0 value
-	METHOD b serialize (Lgu;)V
+	METHOD b serialize (Lgv;)V
 		ARG 0 tag
 	METHOD c isNotFull ()Z
 	METHOD e getSaturationLevel ()F

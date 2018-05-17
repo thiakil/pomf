@@ -1,11 +1,11 @@
-CLASS cmv net/minecraft/client/gui/container/GuiHorse
+CLASS cmx net/minecraft/client/gui/container/GuiHorse
 	FIELD A mouseY F
-	FIELD v BG_TEX Loj;
-	FIELD w playerInv Lagk;
-	FIELD x inventory Lagk;
-	FIELD y entity Lant;
+	FIELD v BG_TEX Lok;
+	FIELD w playerInv Lagm;
+	FIELD x inventory Lagm;
+	FIELD y entity Lanv;
 	FIELD z mouseX F
-	METHOD <init> (Lagk;Lagk;Lant;)V
+	METHOD <init> (Lagm;Lagm;Lanv;)V
 		ARG 0 playerInv
 		ARG 1 inventory
 		ARG 2 entity

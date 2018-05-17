@@ -1,3 +1,3 @@
-CLASS agq net/minecraft/util/Hand
-	FIELD a MAIN_HAND Lagq;
-	FIELD b OFF_HAND Lagq;
+CLASS ags net/minecraft/util/Hand
+	FIELD a MAIN_HAND Lags;
+	FIELD b OFF_HAND Lags;

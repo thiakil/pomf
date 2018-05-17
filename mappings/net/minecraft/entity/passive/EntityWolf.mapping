@@ -1,42 +1,42 @@
-CLASS anr net/minecraft/entity/passive/EntityWolf
-	CLASS anr$a
+CLASS ant net/minecraft/entity/passive/EntityWolf
+	CLASS ant$a
 		METHOD a canStart ()Z
 		METHOD c start ()V
 		METHOD e tick ()V
-	FIELD bD WOLF_HEALTH Lny;
-	FIELD bF COLLAR_COLOR Lny;
-	METHOD B attackEntity (Lahx;)Z
-	METHOD E getSoundAmbient ()Lvo;
-	METHOD H getLootTableId ()Loj;
+	FIELD bD WOLF_HEALTH Lnz;
+	FIELD bF COLLAR_COLOR Lnz;
+	METHOD B attackEntity (Lahz;)Z
+	METHOD E getSoundAmbient ()Lvp;
+	METHOD H getLootTableId ()Lok;
 	METHOD K mobTick ()V
 	METHOD R_ update ()V
-	METHOD a damage (Lahg;F)Z
+	METHOD a damage (Lahi;F)Z
 		ARG 0 source
 		ARG 1 damage
-	METHOD a createChild (Lahu;)Lahu;
+	METHOD a createChild (Lahw;)Lahw;
 		ARG 0 other
-	METHOD a canBeLeashedBy (Larl;)Z
+	METHOD a canBeLeashedBy (Larn;)Z
 		ARG 0 player
-	METHOD a interactMob (Larl;Lagq;)Z
+	METHOD a interactMob (Larn;Lags;)Z
 		ARG 0 player
 		ARG 1 playerHand
-	METHOD a playStepSound (Lef;Lbfq;)V
+	METHOD a playStepSound (Leg;Lbfs;)V
 		ARG 0 pos
 		ARG 1 block
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
-	METHOD b createChild (Lahu;)Lanr;
+	METHOD b createChild (Lahw;)Lant;
 		ARG 0 other
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD bI getEyeHeight ()F
 	METHOD cE getSoundVolume ()F
 	METHOD ca initAttributes ()V
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD ct getSoundDeath ()Lvp;
+	METHOD d getSoundHurt (Lahi;)Lvp;
 	METHOD dN isAngry ()Z
 	METHOD dk getLimitPerChunk ()I
-	METHOD e setTarget (Laig;)V
+	METHOD e setTarget (Laii;)V
 		ARG 0 value
 	METHOD k updateMovement ()V
 	METHOD t setTamed (Z)V

@@ -1,8 +1,8 @@
-CLASS cne net/minecraft/client/gui/menu/GuiMultiplayer
+CLASS cng net/minecraft/client/gui/menu/GuiMultiplayer
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD s selectserverEdit Lciu;
-	FIELD t selectserverSelect Lciu;
-	FIELD u selectserverDelete Lciu;
+	FIELD s selectserverEdit Lciw;
+	FIELD t selectserverSelect Lciw;
+	FIELD u selectserverDelete Lciw;
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY

@@ -1,5 +1,5 @@
-CLASS nl net/minecraft/network/handler/INetworkLoginHandlerServer
-	METHOD a onLoginStart (Lnm;)V
+CLASS nm net/minecraft/network/handler/INetworkLoginHandlerServer
+	METHOD a onLoginStart (Lnn;)V
 		ARG 0 packet
-	METHOD a onLoginEncryptionResponse (Lnn;)V
+	METHOD a onLoginEncryptionResponse (Lno;)V
 		ARG 0 packet

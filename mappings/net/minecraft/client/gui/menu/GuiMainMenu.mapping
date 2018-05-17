@@ -1,19 +1,19 @@
-CLASS clp net/minecraft/client/gui/menu/GuiMainMenu
+CLASS clr net/minecraft/client/gui/menu/GuiMainMenu
 	FIELD B openGlWarning1 Ljava/lang/String;
 	FIELD C openGlWarning2 Ljava/lang/String;
-	FIELD E SPLASH_TEXTS Loj;
-	FIELD F TITLE_TEXTURES Loj;
-	FIELD H PANORAMA_PATHS [Loj;
+	FIELD E SPLASH_TEXTS Lok;
+	FIELD F TITLE_TEXTURES Lok;
+	FIELD H PANORAMA_PATHS [Lok;
 	FIELD I hasCheckedRealmsNotification Z
-	FIELD J realmsNotification Lclk;
+	FIELD J realmsNotification Lclm;
 	FIELD K copyrightWidth I
 	FIELD L copyrightRest I
 	FIELD a MORE_INFO_TEXT Ljava/lang/String;
 	FIELD f RANDOM Ljava/util/Random;
 	FIELD g roll F
 	FIELD h splashText Ljava/lang/String;
-	FIELD i menuOptions Lciu;
-	FIELD s menuResetdemo Lciu;
+	FIELD i menuOptions Lciw;
+	FIELD s menuResetdemo Lciw;
 	FIELD t timer F
 	FIELD u threadLock Ljava/lang/Object;
 	METHOD a draw (IIF)V

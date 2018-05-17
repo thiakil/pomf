@@ -1,8 +1,8 @@
-CLASS aww net/minecraft/util/Rarity
-	FIELD a COMMON Laww;
-	FIELD b UNCOMMON Laww;
-	FIELD c RARE Laww;
-	FIELD d EPIC Laww;
+CLASS awy net/minecraft/util/Rarity
+	FIELD a COMMON Lawy;
+	FIELD b UNCOMMON Lawy;
+	FIELD c RARE Lawy;
+	FIELD d EPIC Lawy;
 	FIELD e formatting La;
 	METHOD <init> (Ljava/lang/String;ILa;)V
 		ARG 0 formatting

@@ -1,44 +1,44 @@
-CLASS arb net/minecraft/entity/mob/EntityZombie
+CLASS ard net/minecraft/entity/mob/EntityZombie
 	FIELD a BABY_SPEED_ID Ljava/util/UUID;
-	FIELD bB ARMS_RAISED Lny;
+	FIELD bB ARMS_RAISED Lnz;
 	FIELD bF inWaterTime I
-	FIELD b BABY_SPEED_BONUS Laiu;
-	FIELD bz BABY Lny;
-	FIELD c SPAWN_REINFORCEMENTS Lais;
-	METHOD B attackEntity (Lahx;)Z
-	METHOD E getSoundAmbient ()Lvo;
-	METHOD H getLootTableId ()Loj;
+	FIELD b BABY_SPEED_BONUS Laiw;
+	FIELD bz BABY Lnz;
+	FIELD c SPAWN_REINFORCEMENTS Laiu;
+	METHOD B attackEntity (Lahz;)Z
+	METHOD E getSoundAmbient ()Lvp;
+	METHOD H getLootTableId ()Lok;
 	METHOD R_ update ()V
 	METHOD a setSize (FF)V
 		ARG 0 width
 		ARG 1 height
-	METHOD a initEquipment (Lagp;)V
+	METHOD a initEquipment (Lagr;)V
 		ARG 0 difficulty
-	METHOD a (Lagp;Laij;Lawk;)Laij;
+	METHOD a (Lagr;Lail;Lawm;)Lail;
 		ARG 0 difficulty
-	METHOD a onDeath (Lahg;)V
+	METHOD a onDeath (Lahi;)V
 		ARG 0 damageSource
-	METHOD a damage (Lahg;F)Z
+	METHOD a damage (Lahi;F)Z
 		ARG 0 source
 		ARG 1 damage
-	METHOD a playStepSound (Lef;Lbfq;)V
+	METHOD a playStepSound (Leg;Lbfs;)V
 		ARG 0 pos
 		ARG 1 block
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
-	METHOD a onTrackedDataSet (Lny;)V
+	METHOD a onTrackedDataSet (Lnz;)V
 		ARG 0 data
 	METHOD aK getHeightOffset ()D
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD bI getEyeHeight ()F
-	METHOD cB getEntityAttribute ()Lail;
+	METHOD cB getEntityAttribute ()Lain;
 	METHOD ca initAttributes ()V
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD ct getSoundDeath ()Lvp;
+	METHOD d getSoundHurt (Lahi;)Lvp;
 	METHOD dC hasArmsRaised ()Z
-	METHOD dE getSoundStep ()Lvo;
-	METHOD dF getSkull ()Lawk;
+	METHOD dE getSoundStep ()Lvp;
+	METHOD dF getSkull ()Lawm;
 	METHOD dL canBreakDoors ()Z
 	METHOD k updateMovement ()V
 	METHOD s setArmsRaised (Z)V

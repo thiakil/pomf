@@ -1,56 +1,56 @@
-CLASS cif net/minecraft/client/render/block/BlockColorMap
-	CLASS cif$1
-		METHOD a getColor (Lbnz;Lbbf;Lef;I)I
+CLASS cih net/minecraft/client/render/block/BlockColorMap
+	CLASS cih$1
+		METHOD a getColor (Lbob;Lbbh;Leg;I)I
 			ARG 2 pos
 			ARG 3 tintIndex
-	CLASS cif$2
-		METHOD a getColor (Lbnz;Lbbf;Lef;I)I
+	CLASS cih$2
+		METHOD a getColor (Lbob;Lbbh;Leg;I)I
 			ARG 2 pos
 			ARG 3 tintIndex
-	CLASS cif$3
-		METHOD a getColor (Lbnz;Lbbf;Lef;I)I
+	CLASS cih$3
+		METHOD a getColor (Lbob;Lbbh;Leg;I)I
 			ARG 2 pos
 			ARG 3 tintIndex
-	CLASS cif$4
-		METHOD a getColor (Lbnz;Lbbf;Lef;I)I
+	CLASS cih$4
+		METHOD a getColor (Lbob;Lbbh;Leg;I)I
 			ARG 2 pos
 			ARG 3 tintIndex
-	CLASS cif$5
-		METHOD a getColor (Lbnz;Lbbf;Lef;I)I
+	CLASS cih$5
+		METHOD a getColor (Lbob;Lbbh;Leg;I)I
 			ARG 2 pos
 			ARG 3 tintIndex
-	CLASS cif$6
-		METHOD a getColor (Lbnz;Lbbf;Lef;I)I
+	CLASS cih$6
+		METHOD a getColor (Lbob;Lbbh;Leg;I)I
 			ARG 2 pos
 			ARG 3 tintIndex
-	CLASS cif$7
-		METHOD a getColor (Lbnz;Lbbf;Lef;I)I
+	CLASS cih$7
+		METHOD a getColor (Lbob;Lbbh;Leg;I)I
 			ARG 2 pos
 			ARG 3 tintIndex
-	CLASS cif$8
-		METHOD a getColor (Lbnz;Lbbf;Lef;I)I
+	CLASS cih$8
+		METHOD a getColor (Lbob;Lbbh;Leg;I)I
 			ARG 2 pos
 			ARG 3 tintIndex
-	CLASS cif$9
-		METHOD a getColor (Lbnz;Lbbf;Lef;I)I
+	CLASS cih$9
+		METHOD a getColor (Lbob;Lbbh;Leg;I)I
 			ARG 2 pos
 			ARG 3 tintIndex
-	CLASS cif$10
-		METHOD a getColor (Lbnz;Lbbf;Lef;I)I
+	CLASS cih$10
+		METHOD a getColor (Lbob;Lbbh;Leg;I)I
 			ARG 2 pos
 			ARG 3 tintIndex
-	CLASS cif$11
-		METHOD a getColor (Lbnz;Lbbf;Lef;I)I
+	CLASS cih$11
+		METHOD a getColor (Lbob;Lbbh;Leg;I)I
 			ARG 2 pos
 			ARG 3 tintIndex
-	CLASS cif$12
-		METHOD a getColor (Lbnz;Lbbf;Lef;I)I
+	CLASS cih$12
+		METHOD a getColor (Lbob;Lbbh;Leg;I)I
 			ARG 2 pos
 			ARG 3 tintIndex
-	CLASS cif$13
-		METHOD a getColor (Lbnz;Lbbf;Lef;I)I
+	CLASS cih$13
+		METHOD a getColor (Lbob;Lbbh;Leg;I)I
 			ARG 2 pos
 			ARG 3 tintIndex
-	FIELD a mappers Lep;
-	METHOD a create ()Lcif;
-	METHOD a getMapColor (Lbnz;Lbbb;Lef;)I
+	FIELD a mappers Leq;
+	METHOD a create ()Lcih;
+	METHOD a getMapColor (Lbob;Lbbd;Leg;)I

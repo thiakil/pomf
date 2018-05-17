@@ -1,4 +1,4 @@
-CLASS kc net/minecraft/network/packet/client/CPacketParticle
+CLASS kd net/minecraft/network/packet/client/CPacketParticle
 	FIELD a x F
 	FIELD b y F
 	FIELD c z F
@@ -8,14 +8,14 @@ CLASS kc net/minecraft/network/packet/client/CPacketParticle
 	FIELD h particleCount I
 	FIELD i longDistance Z
 	METHOD a isLongDistance ()Z
-	METHOD a readPacket (Lht;)V
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lis;)V
+	METHOD a applyPacket (Lit;)V
 		ARG 0 handler
 	METHOD b getX ()D
-	METHOD b writePacket (Lht;)V
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf
 	METHOD c getY ()D
 	METHOD d getZ ()D

@@ -1,4 +1,4 @@
-CLASS aya net/minecraft/potion/PotionBrewing
-	METHOD a register (Lawg;)V
-	METHOD a register (Lawg;Lawg;Lawg;)V
-	METHOD a register (Laxz;Lawg;Laxz;)V
+CLASS ayc net/minecraft/potion/PotionBrewing
+	METHOD a register (Lawi;)V
+	METHOD a register (Lawi;Lawi;Lawi;)V
+	METHOD a register (Layb;Lawi;Layb;)V

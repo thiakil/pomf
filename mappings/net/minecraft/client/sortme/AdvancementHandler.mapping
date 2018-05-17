@@ -1,4 +1,4 @@
-CLASS csg net/minecraft/client/sortme/AdvancementHandler
+CLASS csi net/minecraft/client/sortme/AdvancementHandler
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD a setGui (Lcsg$a;)V
-	METHOD a onAdvancements (Lls;)V
+	METHOD a setGui (Lcsi$a;)V
+	METHOD a onAdvancements (Llt;)V

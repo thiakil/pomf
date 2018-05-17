@@ -1,4 +1,4 @@
-CLASS cye net/minecraft/client/render/chunk/IChunkRendererFactory
-	METHOD a create (Lbbb;Lcvj;I)Lcyd;
+CLASS cyg net/minecraft/client/render/chunk/IChunkRendererFactory
+	METHOD a create (Lbbd;Lcvl;I)Lcyf;
 		ARG 0 world
 		ARG 1 renderer

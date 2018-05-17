@@ -1,11 +1,11 @@
-CLASS eu net/minecraft/util/DefaultedList
+CLASS ev net/minecraft/util/DefaultedList
 	FIELD a underlying Ljava/util/List;
 	FIELD b defaultValue Ljava/lang/Object;
 	METHOD <init> (Ljava/util/List;Ljava/lang/Object;)V
 		ARG 0 underlying
 		ARG 1 defaultValue
-	METHOD a create ()Leu;
-	METHOD a create (ILjava/lang/Object;)Leu;
+	METHOD a create ()Lev;
+	METHOD a create (ILjava/lang/Object;)Lev;
 		ARG 0 size
 		ARG 1 defaultVAlue
 	METHOD add (ILjava/lang/Object;)V

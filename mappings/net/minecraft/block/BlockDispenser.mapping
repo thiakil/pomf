@@ -1,21 +1,21 @@
-CLASS bgz net/minecraft/block/BlockDispenser
-	FIELD a FACING Lbov;
-	FIELD b TRIGGERED Lbou;
-	METHOD a getDefaultState (Laup;)Lbnz;
-	METHOD a getDispenserBehavior (Lawk;)Len;
+CLASS bhb net/minecraft/block/BlockDispenser
+	FIELD a FACING Lbox;
+	FIELD b TRIGGERED Lbow;
+	METHOD a getDefaultState (Laur;)Lbob;
+	METHOD a getDispenserBehavior (Lawm;)Leo;
 		ARG 0 stack
-	METHOD a createBlockEntity (Lbap;)Lbmf;
+	METHOD a createBlockEntity (Lbar;)Lbmh;
 		ARG 0 world
-	METHOD a addDispenserBehavior (Lbba;Len;)V
-	METHOD a onPlaced (Lbbb;Lef;Lbnz;Laig;Lawk;)V
+	METHOD a addDispenserBehavior (Lbbc;Leo;)V
+	METHOD a onPlaced (Lbbd;Leg;Lbob;Laii;Lawm;)V
 		ARG 0 world
 		ARG 1 pos
 		ARG 3 placer
 		ARG 4 stack
-	METHOD a getComparatorOutput (Lbnz;Lbbb;Lef;)I
+	METHOD a getComparatorOutput (Lbob;Lbbd;Leg;)I
 		ARG 1 world
 		ARG 2 pos
-	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z
+	METHOD a onActivated (Lbob;Lbbd;Leg;Larn;Lags;Lem;FFF)Z
 		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
@@ -25,24 +25,24 @@ CLASS bgz net/minecraft/block/BlockDispenser
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
-	METHOD a update (Lbnz;Lbbb;Lef;Lbfq;Lef;)V
+	METHOD a update (Lbob;Lbbd;Leg;Lbfs;Leg;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 block
 		ARG 4 updatePos
-	METHOD a onBlockRemoved (Lbnz;Lbbb;Lef;Lbnz;)V
+	METHOD a onBlockRemoved (Lbob;Lbbd;Leg;Lbob;)V
 		ARG 1 world
 		ARG 2 pos
-	METHOD a randomTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+	METHOD a randomTick (Lbob;Lbbd;Leg;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
-	METHOD a withMirror (Lbnz;Lbiw;)Lbnz;
-	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;
-	METHOD a getDispenseLocation (Leg;)Lev;
+	METHOD a withMirror (Lbob;Lbiy;)Lbob;
+	METHOD a withRotation (Lbob;Lbkb;)Lbob;
+	METHOD a getDispenseLocation (Leh;)Lew;
 		ARG 0 block
-	METHOD b updateTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+	METHOD b updateTick (Lbob;Lbbd;Leg;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
-	METHOD c getRenderType (Lbnz;)Lbjw;
+	METHOD c getRenderType (Lbob;)Lbjy;

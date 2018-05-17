@@ -1,2 +1,2 @@
-CLASS bgm net/minecraft/block/BlockConcretePowder
-	METHOD a getDefaultState (Laup;)Lbnz;
+CLASS bgo net/minecraft/block/BlockConcretePowder
+	METHOD a getDefaultState (Laur;)Lbob;

@@ -1,4 +1,4 @@
-CLASS qt net/minecraft/command/CommandScoreboard
+CLASS qu net/minecraft/command/CommandScoreboard
 	FIELD a COMMANDS_SCOREBOARD_OBJECTIVES_ADD_DUPLICATE Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD b COMMANDS_SCOREBOARD_OBJECTIVES_ADD_LONGDISPLAYNAME Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
 	FIELD c COMMANDS_SCOREBOARD_OBJECTIVES_DISPLAY_ALREADYEMPTY Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;

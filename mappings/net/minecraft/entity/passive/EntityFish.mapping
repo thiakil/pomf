@@ -1,24 +1,24 @@
-CLASS amt net/minecraft/entity/passive/EntityFish
-	CLASS amt$a
+CLASS amv net/minecraft/entity/passive/EntityFish
+	CLASS amv$a
 		METHOD a tick ()V
-	CLASS amt$b
+	CLASS amv$b
 		METHOD a canStart ()Z
 	FIELD a schoolSize I
-	FIELD b FROM_BUCKET Lny;
+	FIELD b FROM_BUCKET Lnz;
 	FIELD bz schooling Z
 	FIELD c leader Z
 	METHOD R_ update ()V
-	METHOD a interactMob (Larl;Lagq;)Z
+	METHOD a interactMob (Larn;Lags;)Z
 		ARG 0 player
 		ARG 1 playerHand
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD a setSchooling (Z)V
 		ARG 0 value
-	METHOD ae getSoundSwim ()Lvo;
-	METHOD b createNavigation (Lbbb;)Lamc;
+	METHOD ae getSoundSwim ()Lvp;
+	METHOD b createNavigation (Lbbd;)Lame;
 		ARG 0 world
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD ca initAttributes ()V
 	METHOD dC getMaxSchoolSize ()I

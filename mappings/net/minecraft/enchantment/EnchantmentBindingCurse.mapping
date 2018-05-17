@@ -1,3 +1,3 @@
-CLASS azf net/minecraft/enchantment/EnchantmentBindingCurse
+CLASS azh net/minecraft/enchantment/EnchantmentBindingCurse
 	METHOD b getHighestLevel ()I
 	METHOD c isLootOnly ()Z

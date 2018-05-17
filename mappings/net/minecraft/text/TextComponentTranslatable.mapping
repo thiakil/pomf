@@ -1,12 +1,12 @@
-CLASS il net/minecraft/text/TextComponentTranslatable
+CLASS im net/minecraft/text/TextComponentTranslatable
 	FIELD f key Ljava/lang/String;
 	FIELD g args [Ljava/lang/Object;
-	METHOD a setStyle (Lij;)Lic;
+	METHOD a setStyle (Lik;)Lid;
 		ARG 0 style
 	METHOD d getText ()Ljava/lang/String;
-	METHOD e getTextComponent ()Lic;
+	METHOD e getTextComponent ()Lid;
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object
-	METHOD g getTextComponent ()Lil;
+	METHOD g getTextComponent ()Lim;
 	METHOD h getKey ()Ljava/lang/String;
 	METHOD i getArgs ()[Ljava/lang/Object;

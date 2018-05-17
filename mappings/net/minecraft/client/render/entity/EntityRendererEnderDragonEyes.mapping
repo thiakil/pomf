@@ -1,7 +1,7 @@
-CLASS dda net/minecraft/client/render/entity/EntityRendererEnderDragonEyes
-	FIELD a SKIN Loj;
+CLASS ddc net/minecraft/client/render/entity/EntityRendererEnderDragonEyes
+	FIELD a SKIN Lok;
 	METHOD a shouldMergeTextures ()Z
-	METHOD a render (Laig;FFFFFFF)V
+	METHOD a render (Laii;FFFFFFF)V
 		ARG 0 entity
-	METHOD a render (Laoi;FFFFFFF)V
+	METHOD a render (Laok;FFFFFFF)V
 		ARG 0 entity

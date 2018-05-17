@@ -1,28 +1,28 @@
-CLASS aqn net/minecraft/entity/mob/EntityPigZombie
-	CLASS aqn$a
+CLASS aqp net/minecraft/entity/mob/EntityPigZombie
+	CLASS aqp$a
 		METHOD a canStart ()Z
-	FIELD b ATTACKINGSPEEDBOOST Laiu;
+	FIELD b ATTACKINGSPEEDBOOST Laiw;
 	FIELD bz anger I
-	METHOD E getSoundAmbient ()Lvo;
-	METHOD H getLootTableId ()Loj;
+	METHOD E getSoundAmbient ()Lvp;
+	METHOD H getLootTableId ()Lok;
 	METHOD K mobTick ()V
-	METHOD a initEquipment (Lagp;)V
+	METHOD a initEquipment (Lagr;)V
 		ARG 0 difficulty
-	METHOD a damage (Lahg;F)Z
+	METHOD a damage (Lahi;F)Z
 		ARG 0 source
 		ARG 1 damage
-	METHOD a copyEntityData (Lahx;)V
+	METHOD a copyEntityData (Lahz;)V
 		ARG 0 entity
-	METHOD a setAttacker (Laig;)V
+	METHOD a setAttacker (Laii;)V
 		ARG 0 value
-	METHOD a interactMob (Larl;Lagq;)Z
+	METHOD a interactMob (Larn;Lags;)Z
 		ARG 0 player
 		ARG 1 playerHand
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD ca initAttributes ()V
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahg;)Lvo;
-	METHOD dF getSkull ()Lawk;
+	METHOD ct getSoundDeath ()Lvp;
+	METHOD d getSoundHurt (Lahi;)Lvp;
+	METHOD dF getSkull ()Lawm;

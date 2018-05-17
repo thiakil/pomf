@@ -1,6 +1,6 @@
-CLASS dbl net/minecraft/client/render/entity/EntityRendererShulkerBullet
-	FIELD a SKIN Loj;
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dbn net/minecraft/client/render/entity/EntityRendererShulkerBullet
+	FIELD a SKIN Lok;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Lasa;)Loj;
+	METHOD a getTexture (Lasc;)Lok;
 		ARG 0 model

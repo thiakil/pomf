@@ -1,9 +1,5 @@
 CLASS ow
-	FIELD b _MCFUNCTION I
+	FIELD b _JSON I
 	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD d TICK Loj;
-	FIELD e LOAD Loj;
-	FIELD j function Lwg;
-	METHOD Y_ update ()V
-	METHOD a onResourceReload (Lul;)V
+	METHOD a onResourceReload (Lum;)V
 		ARG 0 container

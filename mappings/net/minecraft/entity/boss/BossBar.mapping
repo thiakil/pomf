@@ -1,50 +1,50 @@
-CLASS agi net/minecraft/entity/boss/BossBar
-	CLASS agi$a
-		FIELD a PINK Lagi$a;
-		FIELD b BLUE Lagi$a;
-		FIELD c RED Lagi$a;
-		FIELD d GREEN Lagi$a;
-		FIELD e YELLOW Lagi$a;
-		FIELD f PURPLE Lagi$a;
-		FIELD g WHITE Lagi$a;
-	CLASS agi$b
-		FIELD a PROGRESS Lagi$b;
-		FIELD b NOTCHED_6 Lagi$b;
-		FIELD c NOTCHED_10 Lagi$b;
-		FIELD d NOTCHED_12 Lagi$b;
-		FIELD e NOTCHED_20 Lagi$b;
-	FIELD a name Lic;
+CLASS agk net/minecraft/entity/boss/BossBar
+	CLASS agk$a
+		FIELD a PINK Lagk$a;
+		FIELD b BLUE Lagk$a;
+		FIELD c RED Lagk$a;
+		FIELD d GREEN Lagk$a;
+		FIELD e YELLOW Lagk$a;
+		FIELD f PURPLE Lagk$a;
+		FIELD g WHITE Lagk$a;
+	CLASS agk$b
+		FIELD a PROGRESS Lagk$b;
+		FIELD b NOTCHED_6 Lagk$b;
+		FIELD c NOTCHED_10 Lagk$b;
+		FIELD d NOTCHED_12 Lagk$b;
+		FIELD e NOTCHED_20 Lagk$b;
+	FIELD a name Lid;
 	FIELD b health F
-	FIELD c color Lagi$a;
-	FIELD d division Lagi$b;
+	FIELD c color Lagk$a;
+	FIELD d division Lagk$b;
 	FIELD e darkenSky Z
 	FIELD f dragonMusic Z
 	FIELD g thickenFog Z
 	FIELD h uuid Ljava/util/UUID;
-	METHOD <init> (Ljava/util/UUID;Lic;Lagi$a;Lagi$b;)V
+	METHOD <init> (Ljava/util/UUID;Lid;Lagk$a;Lagk$b;)V
 		ARG 0 uuid
 		ARG 1 name
 		ARG 2 color
 		ARG 3 division
 	METHOD a setHealth (F)V
 		ARG 0 health
-	METHOD a setColor (Lagi$a;)V
+	METHOD a setColor (Lagk$a;)V
 		ARG 0 color
-	METHOD a setDivision (Lagi$b;)V
+	METHOD a setDivision (Lagk$b;)V
 		ARG 0 division
-	METHOD a setName (Lic;)V
+	METHOD a setName (Lid;)V
 		ARG 0 name
-	METHOD a setDarkenSky (Z)Lagi;
+	METHOD a setDarkenSky (Z)Lagk;
 		ARG 0 darkenSky
-	METHOD b setDragonMusic (Z)Lagi;
+	METHOD b setDragonMusic (Z)Lagk;
 		ARG 0 dragonMusic
-	METHOD c setThickenFog (Z)Lagi;
+	METHOD c setThickenFog (Z)Lagk;
 		ARG 0 thickenFog
 	METHOD i getUuid ()Ljava/util/UUID;
-	METHOD j getName ()Lic;
+	METHOD j getName ()Lid;
 	METHOD k getHealth ()F
-	METHOD l getColor ()Lagi$a;
-	METHOD m getDivision ()Lagi$b;
+	METHOD l getColor ()Lagk$a;
+	METHOD m getDivision ()Lagk$b;
 	METHOD n getDarkenSky ()Z
 	METHOD o hasDragonMusic ()Z
 	METHOD p getThickenFog ()Z

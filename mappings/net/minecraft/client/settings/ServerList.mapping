@@ -1,23 +1,23 @@
-CLASS csq net/minecraft/client/settings/ServerList
+CLASS css net/minecraft/client/settings/ServerList
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b mc Lcht;
+	FIELD b mc Lchv;
 	FIELD c serverEntries Ljava/util/List;
-	METHOD <init> (Lcht;)V
+	METHOD <init> (Lchv;)V
 		ARG 0 mc
 	METHOD a loadFile ()V
-	METHOD a get (I)Lcsp;
+	METHOD a get (I)Lcsr;
 		ARG 0 index
 	METHOD a swapEntries (II)V
 		ARG 0 index1
 		ARG 1 index2
-	METHOD a set (ILcsp;)V
+	METHOD a set (ILcsr;)V
 		ARG 0 index
 		ARG 1 e
-	METHOD a add (Lcsp;)V
+	METHOD a add (Lcsr;)V
 		ARG 0 e
 	METHOD b saveFile ()V
 	METHOD b remove (I)V
 		ARG 0 index
-	METHOD b updateServerListEntry (Lcsp;)V
+	METHOD b updateServerListEntry (Lcsr;)V
 		ARG 0 e
 	METHOD c size ()I

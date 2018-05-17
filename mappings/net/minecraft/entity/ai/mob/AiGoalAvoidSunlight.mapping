@@ -1,5 +1,5 @@
-CLASS ald net/minecraft/entity/ai/mob/AiGoalAvoidSunlight
-	FIELD a owner Laio;
+CLASS alf net/minecraft/entity/ai/mob/AiGoalAvoidSunlight
+	FIELD a owner Laiq;
 	METHOD a canStart ()Z
 	METHOD c start ()V
 	METHOD d stop ()V

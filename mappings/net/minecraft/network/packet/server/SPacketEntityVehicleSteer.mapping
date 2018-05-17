@@ -1,11 +1,11 @@
-CLASS mr net/minecraft/network/packet/server/SPacketEntityVehicleSteer
+CLASS ms net/minecraft/network/packet/server/SPacketEntityVehicleSteer
 	FIELD c jump Z
 	FIELD d unmount Z
-	METHOD a readPacket (Lht;)V
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD a applyPacket (Llx;)V
+	METHOD a applyPacket (Lly;)V
 		ARG 0 handler
-	METHOD b writePacket (Lht;)V
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf

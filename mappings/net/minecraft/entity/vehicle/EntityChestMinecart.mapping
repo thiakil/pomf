@@ -1,11 +1,11 @@
-CLASS asq net/minecraft/entity/vehicle/EntityChestMinecart
-	METHOD A getDefaultContainedBlock ()Lbnz;
+CLASS ass net/minecraft/entity/vehicle/EntityChestMinecart
+	METHOD A getDefaultContainedBlock ()Lbob;
 	METHOD C getDefaultBlockOffset ()I
 	METHOD T_ getInvSize ()I
-	METHOD a dropItems (Lahg;)V
+	METHOD a dropItems (Lahi;)V
 		ARG 0 source
-	METHOD a createContainer (Lark;Larl;)Lata;
+	METHOD a createContainer (Larm;Larn;)Latc;
 		ARG 0 playerInv
 		ARG 1 player
 	METHOD l getContainerId ()Ljava/lang/String;
-	METHOD v getMinecartType ()Lasm$a;
+	METHOD v getMinecartType ()Laso$a;

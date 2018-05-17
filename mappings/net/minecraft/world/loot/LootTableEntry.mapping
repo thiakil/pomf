@@ -1,11 +1,11 @@
-CLASS cer net/minecraft/world/loot/LootTableEntry
-	CLASS cer$a DeSerializer
-		METHOD a serialize (Lcer;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
-		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lcer;
+CLASS cet net/minecraft/world/loot/LootTableEntry
+	CLASS cet$a DeSerializer
+		METHOD a serialize (Lcet;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lcet;
 	FIELD c weight I
 	FIELD d quality I
-	FIELD e conditions [Lcfm;
-	METHOD <init> (II[Lcfm;)V
+	FIELD e conditions [Lcfo;
+	METHOD <init> (II[Lcfo;)V
 		ARG 0 weight
 		ARG 1 quality
 		ARG 2 conditions
@@ -14,7 +14,7 @@ CLASS cer net/minecraft/world/loot/LootTableEntry
 	METHOD a serialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonSerializationContext;)V
 		ARG 0 json
 		ARG 1 serializationContext
-	METHOD a apply (Ljava/util/Collection;Ljava/util/Random;Lcet;)V
+	METHOD a apply (Ljava/util/Collection;Ljava/util/Random;Lcev;)V
 		ARG 0 stacks
 		ARG 1 rand
 		ARG 2 context

@@ -1,6 +1,6 @@
-CLASS dci net/minecraft/client/render/entity/EntityRendererWitch
-	FIELD a SKIN Loj;
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dck net/minecraft/client/render/entity/EntityRendererWitch
+	FIELD a SKIN Lok;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Laqz;)Loj;
+	METHOD a getTexture (Larb;)Lok;
 		ARG 0 model

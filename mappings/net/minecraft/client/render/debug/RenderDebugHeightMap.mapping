@@ -1,6 +1,6 @@
-CLASS cys net/minecraft/client/render/debug/RenderDebugHeightMap
-	FIELD a game Lcht;
-	METHOD <init> (Lcht;)V
+CLASS cyu net/minecraft/client/render/debug/RenderDebugHeightMap
+	FIELD a game Lchv;
+	METHOD <init> (Lchv;)V
 		ARG 0 game
 	METHOD a render (FJ)V
 		ARG 0 tickDelta

@@ -1,2 +1,2 @@
-CLASS cns net/minecraft/stat/IStatFormatter
+CLASS cnu net/minecraft/stat/IStatFormatter
 	METHOD a format (Ljava/util/List;)V

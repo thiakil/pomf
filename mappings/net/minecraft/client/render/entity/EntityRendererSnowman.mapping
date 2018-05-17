@@ -1,6 +1,6 @@
-CLASS dbq net/minecraft/client/render/entity/EntityRendererSnowman
-	FIELD a SKIN Loj;
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dbs net/minecraft/client/render/entity/EntityRendererSnowman
+	FIELD a SKIN Lok;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Lanl;)Loj;
+	METHOD a getTexture (Lann;)Lok;
 		ARG 0 model

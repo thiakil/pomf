@@ -1,4 +1,4 @@
-CLASS csd net/minecraft/client/render/TextureOffset
+CLASS csf net/minecraft/client/render/TextureOffset
 	FIELD a offsetX I
 	FIELD b offsetY I
 	METHOD <init> (II)V

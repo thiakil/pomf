@@ -1,8 +1,8 @@
-CLASS dck net/minecraft/client/render/entity/EntityRendererWitherSkeleton
-	FIELD a SKIN Loj;
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dcm net/minecraft/client/render/entity/EntityRendererWitherSkeleton
+	FIELD a SKIN Lok;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Laih;)Loj;
+	METHOD a getTexture (Laij;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Lapv;)Loj;
+	METHOD a getTexture (Lapx;)Lok;
 		ARG 0 model

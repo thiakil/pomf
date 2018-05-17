@@ -1,6 +1,6 @@
-CLASS el net/minecraft/util/math/Facing
-	CLASS el$a Axis
-		CLASS el$a$1
+CLASS em net/minecraft/util/math/Facing
+	CLASS em$a Axis
+		CLASS em$a$1
 			METHOD a getAxisValue (DDD)D
 				ARG 0 xIn
 				ARG 1 yIn
@@ -9,7 +9,7 @@ CLASS el net/minecraft/util/math/Facing
 				ARG 0 xIn
 				ARG 1 yIn
 				ARG 2 zIn
-		CLASS el$a$2
+		CLASS em$a$2
 			METHOD a getAxisValue (DDD)D
 				ARG 0 xIn
 				ARG 1 yIn
@@ -18,7 +18,7 @@ CLASS el net/minecraft/util/math/Facing
 				ARG 0 xIn
 				ARG 1 yIn
 				ARG 2 zIn
-		CLASS el$a$3
+		CLASS em$a$3
 			METHOD a getAxisValue (DDD)D
 				ARG 0 xIn
 				ARG 1 yIn
@@ -27,12 +27,12 @@ CLASS el net/minecraft/util/math/Facing
 				ARG 0 xIn
 				ARG 1 yIn
 				ARG 2 zIn
-		FIELD a X Lel$a;
-		FIELD b Y Lel$a;
-		FIELD c Z Lel$a;
+		FIELD a X Lem$a;
+		FIELD b Y Lem$a;
+		FIELD c Z Lem$a;
 		FIELD d NAME_TO_AXIS Ljava/util/Map;
 		FIELD e nameLowerCase Ljava/lang/String;
-		FIELD f plane Lel$c;
+		FIELD f plane Lem$c;
 		METHOD a getAxisName ()Ljava/lang/String;
 		METHOD a getAxisValue (DDD)D
 			ARG 0 xIn
@@ -42,44 +42,44 @@ CLASS el net/minecraft/util/math/Facing
 			ARG 0 xIn
 			ARG 1 yIn
 			ARG 2 zIn
-		METHOD a (Lel;)Z
+		METHOD a (Lem;)Z
 			ARG 0 facing
-		METHOD a byName (Ljava/lang/String;)Lel$a;
+		METHOD a byName (Ljava/lang/String;)Lem$a;
 		METHOD b isVertical ()Z
 		METHOD c isHorizontal ()Z
-		METHOD d getPlane ()Lel$c;
+		METHOD d getPlane ()Lem$c;
 		METHOD m asString ()Ljava/lang/String;
-	CLASS el$b Direction
-		FIELD a POSITIVE Lel$b;
-		FIELD b NEGATIVE Lel$b;
+	CLASS em$b Direction
+		FIELD a POSITIVE Lem$b;
+		FIELD b NEGATIVE Lem$b;
 		FIELD c offset I
 		FIELD d desc Ljava/lang/String;
 		METHOD a offset ()I
-	CLASS el$c Plane
-		FIELD a HORIZONTAL Lel$c;
-		FIELD b VERTICAL Lel$c;
-		METHOD a getFacings ()[Lel;
-		METHOD a apply (Lel;)Z
-		METHOD a getRandomFacing (Ljava/util/Random;)Lel;
+	CLASS em$c Plane
+		FIELD a HORIZONTAL Lem$c;
+		FIELD b VERTICAL Lem$c;
+		METHOD a getFacings ()[Lem;
+		METHOD a apply (Lem;)Z
+		METHOD a getRandomFacing (Ljava/util/Random;)Lem;
 		METHOD iterator iterator ()Ljava/util/Iterator;
-	FIELD a DOWN Lel;
-	FIELD b UP Lel;
-	FIELD c NORTH Lel;
-	FIELD d SOUTH Lel;
-	FIELD e WEST Lel;
-	FIELD f EAST Lel;
+	FIELD a DOWN Lem;
+	FIELD b UP Lem;
+	FIELD c NORTH Lem;
+	FIELD d SOUTH Lem;
+	FIELD e WEST Lem;
+	FIELD f EAST Lem;
 	FIELD g id I
 	FIELD h idOpposite I
 	FIELD i idHorizontal I
 	FIELD j name Ljava/lang/String;
-	FIELD k axis Lel$a;
-	FIELD l direction Lel$b;
-	FIELD m vector Lfb;
-	FIELD n VALUES_COPY [Lel;
+	FIELD k axis Lem$a;
+	FIELD l direction Lem$b;
+	FIELD m vector Lfc;
+	FIELD n VALUES_COPY [Lem;
 	FIELD o NAME_LOOKUP Ljava/util/Map;
-	FIELD p VALUES [Lel;
-	FIELD q HORIZONTALS [Lel;
-	METHOD <init> (Ljava/lang/String;IIIILjava/lang/String;Lel$b;Lel$a;Lfb;)V
+	FIELD p VALUES [Lem;
+	FIELD q HORIZONTALS [Lem;
+	METHOD <init> (Ljava/lang/String;IIIILjava/lang/String;Lem$b;Lem$a;Lfc;)V
 		ARG 0 id
 		ARG 1 idOpposite
 		ARG 2 index
@@ -90,38 +90,38 @@ CLASS el net/minecraft/util/math/Facing
 		ARG 7 axis
 		ARG 8 vec
 	METHOD a getId ()I
-	METHOD a fromRotation (D)Lel;
+	METHOD a fromRotation (D)Lem;
 		ARG 0 rotation
-	METHOD a getFacing (FFF)Lel;
+	METHOD a getFacing (FFF)Lem;
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
-	METHOD a byId (I)Lel;
+	METHOD a byId (I)Lem;
 		ARG 0 id
-	METHOD a rotateClockwise (Lel$a;)Lel;
+	METHOD a rotateClockwise (Lem$a;)Lem;
 		ARG 0 axis
-	METHOD a get (Lel$b;Lel$a;)Lel;
+	METHOD a get (Lem$b;Lem$a;)Lem;
 		ARG 0 direction
 		ARG 1 axis
-	METHOD a byName (Ljava/lang/String;)Lel;
+	METHOD a byName (Ljava/lang/String;)Lem;
 		ARG 0 name
-	METHOD a random (Ljava/util/Random;)Lel;
+	METHOD a random (Ljava/util/Random;)Lem;
 		ARG 0 rand
 	METHOD b getHorizontal ()I
-	METHOD b fromHorizontal (I)Lel;
+	METHOD b fromHorizontal (I)Lem;
 		ARG 0 value
-	METHOD c getDirection ()Lel$b;
-	METHOD d getOpposite ()Lel;
-	METHOD e rotateYClockwise ()Lel;
-	METHOD f rotateYCounterclockwise ()Lel;
+	METHOD c getDirection ()Lem$b;
+	METHOD d getOpposite ()Lem;
+	METHOD e rotateYClockwise ()Lem;
+	METHOD f rotateYCounterclockwise ()Lem;
 	METHOD g getOffsetX ()I
 	METHOD h getOffsetY ()I
 	METHOD i getOffsetZ ()I
 	METHOD j getName ()Ljava/lang/String;
-	METHOD k getAxis ()Lel$a;
+	METHOD k getAxis ()Lem$a;
 	METHOD l asRotation ()F
 	METHOD m asString ()Ljava/lang/String;
-	METHOD n getVector ()Lfb;
-	METHOD o rotateXClockwise ()Lel;
-	METHOD q rotateZClockwise ()Lel;
-	METHOD values values ()[Lel;
+	METHOD n getVector ()Lfc;
+	METHOD o rotateXClockwise ()Lem;
+	METHOD q rotateZClockwise ()Lem;
+	METHOD values values ()[Lem;

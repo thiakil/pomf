@@ -1,5 +1,5 @@
-CLASS et net/minecraft/util/registry/IntBackedRegistry
-	FIELD a idStore Lwm;
+CLASS eu net/minecraft/util/registry/IntBackedRegistry
+	FIELD a idStore Lwn;
 	FIELD b valueKeyMap Ljava/util/Map;
 	FIELD d currentIndex I
 	METHOD a get (I)Ljava/lang/Object;

@@ -1,12 +1,12 @@
-CLASS cba net/minecraft/fluid/Fluid
-	FIELD a EMPTY_IDENTIFIER Loj;
-	FIELD b defaultState Lcbb;
-	FIELD c REGISTRY Lej;
-	METHOD a getRenderLayer ()Lbaq;
-	METHOD a register (Ljava/lang/String;Lcba;)V
-	METHOD a register (Loj;Lcba;)V
+CLASS cbc net/minecraft/fluid/Fluid
+	FIELD a EMPTY_IDENTIFIER Lok;
+	FIELD b defaultState Lcbd;
+	FIELD c REGISTRY Lek;
+	METHOD a getRenderLayer ()Lbas;
+	METHOD a register (Ljava/lang/String;Lcbc;)V
+	METHOD a register (Lok;Lcbc;)V
 	METHOD c isEmpty ()Z
-	METHOD f getDefaultState ()Lcbb;
-	METHOD f setDefaultState (Lcbb;)V
+	METHOD f getDefaultState ()Lcbd;
+	METHOD f setDefaultState (Lcbd;)V
 		ARG 0 value
 	METHOD i registerFluids ()V

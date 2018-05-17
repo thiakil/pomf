@@ -1,9 +1,9 @@
-CLASS crs net/minecraft/client/render/entity/model/EntityModelWitch
-	FIELD h mole Lcsc;
-	FIELD i hat Lcsc;
+CLASS cru net/minecraft/client/render/entity/model/EntityModelWitch
+	FIELD h mole Lcse;
+	FIELD i hat Lcse;
 	METHOD <init> (F)V
 		ARG 0 scale
-	METHOD a setRotationAngles (FFFFFFLahx;)V
+	METHOD a setRotationAngles (FFFFFFLahz;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount
 		ARG 2 age

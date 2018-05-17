@@ -1,16 +1,16 @@
-CLASS ks net/minecraft/network/packet/client/CPacketResourcePackSend
+CLASS kt net/minecraft/network/packet/client/CPacketResourcePackSend
 	FIELD a url Ljava/lang/String;
 	FIELD b hash Ljava/lang/String;
 	METHOD <init> (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 0 url
 		ARG 1 hash
 	METHOD a getURL ()Ljava/lang/String;
-	METHOD a readPacket (Lht;)V
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lis;)V
+	METHOD a applyPacket (Lit;)V
 		ARG 0 handler
 	METHOD b getSHA1 ()Ljava/lang/String;
-	METHOD b writePacket (Lht;)V
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf

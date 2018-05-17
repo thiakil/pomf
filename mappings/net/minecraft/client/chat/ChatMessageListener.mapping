@@ -1,7 +1,7 @@
-CLASS cir net/minecraft/client/chat/ChatMessageListener
-	FIELD a game Lcht;
-	METHOD <init> (Lcht;)V
+CLASS cit net/minecraft/client/chat/ChatMessageListener
+	FIELD a game Lchv;
+	METHOD <init> (Lchv;)V
 		ARG 0 game
-	METHOD a onMessageReceived (Lia;Lic;)V
+	METHOD a onMessageReceived (Lib;Lid;)V
 		ARG 0 type
 		ARG 1 message

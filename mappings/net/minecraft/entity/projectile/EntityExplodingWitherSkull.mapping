@@ -1,12 +1,12 @@
-CLASS ask net/minecraft/entity/projectile/EntityExplodingWitherSkull
-	FIELD e CHARGED Lny;
-	METHOD a damage (Lahg;F)Z
+CLASS asm net/minecraft/entity/projectile/EntityExplodingWitherSkull
+	FIELD e CHARGED Lnz;
+	METHOD a damage (Lahi;F)Z
 		ARG 0 source
 		ARG 1 damage
-	METHOD a getEffectiveExplosionResistance (Lbav;Lbap;Lef;Lbnz;)F
+	METHOD a getEffectiveExplosionResistance (Lbax;Lbar;Leg;Lbob;)F
 		ARG 0 explosion
 		ARG 2 pos
-	METHOD a onCollision (Lcgd;)V
+	METHOD a onCollision (Lcgf;)V
 		ARG 0 hit
 	METHOD a setCharged (Z)V
 		ARG 0 value

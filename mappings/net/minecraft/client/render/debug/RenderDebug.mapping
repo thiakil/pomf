@@ -1,18 +1,18 @@
-CLASS cyr net/minecraft/client/render/debug/RenderDebug
-	CLASS cyr$a IRenderDebug
+CLASS cyt net/minecraft/client/render/debug/RenderDebug
+	CLASS cyt$a IRenderDebug
 		METHOD a render (FJ)V
 			ARG 0 tickDelta
-	FIELD a pathRenderer Lcyv;
-	FIELD b waterRenderer Lcyr$a;
-	FIELD c chunkBorderRenderer Lcyr$a;
-	FIELD d heightMapRenderer Lcyr$a;
-	FIELD e boundingBoxRenderer Lcyr$a;
-	FIELD f neighborUpdateRenderer Lcyr$a;
-	FIELD g cavesRenderer Lcyo;
-	FIELD h structureRenderer Lcyx;
-	FIELD i skylightRenderer Lcyr$a;
-	FIELD j worldGenAttemptRenderer Lcyr$a;
-	FIELD k blockFaceRenderer Lcyr$a;
+	FIELD a pathRenderer Lcyx;
+	FIELD b waterRenderer Lcyt$a;
+	FIELD c chunkBorderRenderer Lcyt$a;
+	FIELD d heightMapRenderer Lcyt$a;
+	FIELD e boundingBoxRenderer Lcyt$a;
+	FIELD f neighborUpdateRenderer Lcyt$a;
+	FIELD g cavesRenderer Lcyq;
+	FIELD h structureRenderer Lcyz;
+	FIELD i skylightRenderer Lcyt$a;
+	FIELD j worldGenAttemptRenderer Lcyt$a;
+	FIELD k blockFaceRenderer Lcyt$a;
 	FIELD l showChunkBorder Z
 	FIELD m showPathfinding Z
 	FIELD n showWater Z
@@ -24,7 +24,7 @@ CLASS cyr net/minecraft/client/render/debug/RenderDebug
 	FIELD t showSkylight Z
 	FIELD u showWorldGenAttempts Z
 	FIELD v showBlockFaces Z
-	METHOD <init> (Lcht;)V
+	METHOD <init> (Lchv;)V
 		ARG 0 game
 	METHOD a isEnabled ()Z
 	METHOD a renderDebuggers (FJ)V

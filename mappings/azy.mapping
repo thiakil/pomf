@@ -1,4 +1,0 @@
-CLASS azy
-	METHOD a isEqual (Lazj;)Z
-		ARG 0 other
-	METHOD b getHighestLevel ()I

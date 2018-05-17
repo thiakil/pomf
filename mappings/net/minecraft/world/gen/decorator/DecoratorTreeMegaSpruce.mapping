@@ -1,4 +1,4 @@
-CLASS btv net/minecraft/world/gen/decorator/DecoratorTreeMegaSpruce
+CLASS btx net/minecraft/world/gen/decorator/DecoratorTreeMegaSpruce
 	FIELD aJ useMinHeight Z
 	METHOD <init> (ZZ)V
 		ARG 0 doBlockUpdates

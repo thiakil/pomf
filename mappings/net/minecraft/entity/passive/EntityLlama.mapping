@@ -1,36 +1,36 @@
-CLASS anx net/minecraft/entity/passive/EntityLlama
-	CLASS anx$a
+CLASS anz net/minecraft/entity/passive/EntityLlama
+	CLASS anz$a
 		METHOD a canStart ()Z
 		METHOD i getFollowRange ()D
-	CLASS anx$c
+	CLASS anz$c
 		METHOD b shouldContinue ()Z
-	FIELD bJ ATTR_STRENGTH Lny;
-	FIELD bL ATTR_VARIANT Lny;
-	METHOD E getSoundAmbient ()Lvo;
-	METHOD H getLootTableId ()Loj;
-	METHOD a onInvChange (Lagk;)V
+	FIELD bJ ATTR_STRENGTH Lnz;
+	FIELD bL ATTR_VARIANT Lnz;
+	METHOD E getSoundAmbient ()Lvp;
+	METHOD H getLootTableId ()Lok;
+	METHOD a onInvChange (Lagm;)V
 		ARG 0 inventory
-	METHOD a (Lagp;Laij;Lawk;)Laij;
+	METHOD a (Lagr;Lail;Lawm;)Lail;
 		ARG 0 difficulty
-	METHOD a createChild (Lahu;)Lahu;
+	METHOD a createChild (Lahw;)Lahw;
 		ARG 0 other
-	METHOD a attackDistant (Laig;F)V
+	METHOD a attackDistant (Laii;F)V
 		ARG 0 target
-	METHOD a playStepSound (Lef;Lbfq;)V
+	METHOD a playStepSound (Leg;Lbfs;)V
 		ARG 0 pos
 		ARG 1 block
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD aL getMountedHeightOffset ()D
-	METHOD b createChild (Lahu;)Lanx;
+	METHOD b createChild (Lahw;)Lanz;
 		ARG 0 other
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD c handleFallDamage (FF)V
 		ARG 0 fallDistance
 	METHOD ca initAttributes ()V
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD ct getSoundDeath ()Lvp;
+	METHOD d getSoundHurt (Lahi;)Lvp;
 	METHOD dE getInventorySize ()I
 	METHOD ek getStrength ()I
 	METHOD el getVariant ()I

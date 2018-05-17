@@ -1,9 +1,9 @@
-CLASS awf net/minecraft/item/ItemHoe
+CLASS awh net/minecraft/item/ItemHoe
 	FIELD b swingSpeed F
-	METHOD a getAttributeModifiers (Laic;)Lcom/google/common/collect/Multimap;
+	METHOD a getAttributeModifiers (Laie;)Lcom/google/common/collect/Multimap;
 		ARG 0 effectiveSlot
-	METHOD a onEntityDamaged (Lawk;Laig;Laig;)Z
+	METHOD a onEntityDamaged (Lawm;Laii;Laii;)Z
 		ARG 0 stack
 		ARG 1 target
 		ARG 2 user
-	METHOD a activate (Laxv;)Lags;
+	METHOD a activate (Laxx;)Lagu;

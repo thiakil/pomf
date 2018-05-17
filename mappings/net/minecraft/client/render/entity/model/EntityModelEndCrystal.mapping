@@ -1,10 +1,10 @@
-CLASS cry net/minecraft/client/render/entity/model/EntityModelEndCrystal
-	FIELD a cube Lcsc;
-	FIELD b glass Lcsc;
-	FIELD c base Lcsc;
+CLASS csa net/minecraft/client/render/entity/model/EntityModelEndCrystal
+	FIELD a cube Lcse;
+	FIELD b glass Lcse;
+	FIELD c base Lcse;
 	METHOD <init> (FZ)V
 		ARG 1 renderBase
-	METHOD a render (Lahx;FFFFFF)V
+	METHOD a render (Lahz;FFFFFF)V
 		ARG 0 entity
 		ARG 1 limbMoveAngle
 		ARG 2 limbMoveAmount

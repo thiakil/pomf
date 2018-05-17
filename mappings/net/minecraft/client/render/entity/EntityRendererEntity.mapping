@@ -1,3 +1,3 @@
-CLASS czo net/minecraft/client/render/entity/EntityRendererEntity
-	METHOD a getTexture (Lahx;)Loj;
+CLASS czq net/minecraft/client/render/entity/EntityRendererEntity
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model

@@ -1,30 +1,30 @@
-CLASS anf net/minecraft/entity/passive/EntityPolarBear
-	CLASS anf$a
+CLASS anh net/minecraft/entity/passive/EntityPolarBear
+	CLASS anh$a
 		METHOD a canStart ()Z
 		METHOD i getFollowRange ()D
-	CLASS anf$c
+	CLASS anh$c
 		METHOD c start ()V
-	CLASS anf$d
-		METHOD a getAttackRangeSquared (Laig;)D
+	CLASS anh$d
+		METHOD a getAttackRangeSquared (Laii;)D
 			ARG 0 target
-		METHOD a attackTarget (Laig;D)V
+		METHOD a attackTarget (Laii;D)V
 			ARG 0 target
 			ARG 1 squaredDistance
 		METHOD d stop ()V
-	CLASS anf$e
+	CLASS anh$e
 		METHOD a canStart ()Z
-	METHOD B attackEntity (Lahx;)Z
-	METHOD E getSoundAmbient ()Lvo;
-	METHOD H getLootTableId ()Loj;
+	METHOD B attackEntity (Lahz;)Z
+	METHOD E getSoundAmbient ()Lvp;
+	METHOD H getLootTableId ()Lok;
 	METHOD R_ update ()V
-	METHOD a (Lagp;Laij;Lawk;)Laij;
+	METHOD a (Lagr;Lail;Lawm;)Lail;
 		ARG 0 difficulty
-	METHOD a createChild (Lahu;)Lahu;
+	METHOD a createChild (Lahw;)Lahw;
 		ARG 0 other
-	METHOD a playStepSound (Lef;Lbfq;)V
+	METHOD a playStepSound (Leg;Lbfs;)V
 		ARG 0 pos
 		ARG 1 block
 	METHOD ca initAttributes ()V
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD ct getSoundDeath ()Lvp;
+	METHOD d getSoundHurt (Lahi;)Lvp;
 	METHOD w_ initDataTracker ()V

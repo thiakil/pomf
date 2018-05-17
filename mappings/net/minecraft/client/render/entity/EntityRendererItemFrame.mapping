@@ -1,13 +1,13 @@
-CLASS dao net/minecraft/client/render/entity/EntityRendererItemFrame
-	FIELD a MAP_BACKGROUND_TEX Loj;
-	FIELD f game Lcht;
-	FIELD g MODEL_NORMAL Ldgn;
-	FIELD h MODEL_MAP Ldgn;
-	FIELD i itemRenderer Ldap;
-	METHOD <init> (Lczy;Ldap;)V
+CLASS daq net/minecraft/client/render/entity/EntityRendererItemFrame
+	FIELD a MAP_BACKGROUND_TEX Lok;
+	FIELD f game Lchv;
+	FIELD g MODEL_NORMAL Ldgp;
+	FIELD h MODEL_MAP Ldgp;
+	FIELD i itemRenderer Ldar;
+	METHOD <init> (Ldaa;Ldar;)V
 		ARG 0 renderManager
 		ARG 1 itemRenderer
-	METHOD a getTexture (Lahx;)Loj;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Lapg;)Loj;
+	METHOD a getTexture (Lapi;)Lok;
 		ARG 0 model

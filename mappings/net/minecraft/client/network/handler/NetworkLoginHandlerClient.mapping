@@ -1,21 +1,21 @@
-CLASS csi net/minecraft/client/network/handler/NetworkLoginHandlerClient
+CLASS csk net/minecraft/client/network/handler/NetworkLoginHandlerClient
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b game Lcht;
-	FIELD c parentGui Lclk;
-	FIELD d connection Lhr;
+	FIELD b game Lchv;
+	FIELD c parentGui Lclm;
+	FIELD d connection Lhs;
 	FIELD e playerProfile Lcom/mojang/authlib/GameProfile;
-	METHOD <init> (Lhr;Lcht;Lclk;)V
+	METHOD <init> (Lhs;Lchv;Lclm;)V
 		ARG 0 connection
 		ARG 1 game
 		ARG 2 parentGui
-	METHOD a onConnectionLost (Lic;)V
+	METHOD a onConnectionLost (Lid;)V
 		ARG 0 reason
-	METHOD a onLoginSuccess (Lnh;)V
+	METHOD a onLoginSuccess (Lni;)V
 		ARG 0 packet
-	METHOD a onLoginEncryptionRequest (Lni;)V
+	METHOD a onLoginEncryptionRequest (Lnj;)V
 		ARG 0 packet
-	METHOD a onLoginCompression (Lnj;)V
+	METHOD a onLoginCompression (Lnk;)V
 		ARG 0 packet
-	METHOD a onLoginDisconnect (Lnk;)V
+	METHOD a onLoginDisconnect (Lnl;)V
 		ARG 0 packet
 	METHOD b getSessionService ()Lcom/mojang/authlib/minecraft/MinecraftSessionService;

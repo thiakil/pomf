@@ -1,2 +1,2 @@
-CLASS cgx net/minecraft/util/math/shapes/VoxelShape
-	METHOD a createBoundingBox ()Lcgc;
+CLASS cgz net/minecraft/util/math/shapes/VoxelShape
+	METHOD a createBoundingBox ()Lcge;

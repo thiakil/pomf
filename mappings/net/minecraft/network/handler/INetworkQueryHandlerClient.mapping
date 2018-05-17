@@ -1,5 +1,5 @@
-CLASS nq net/minecraft/network/handler/INetworkQueryHandlerClient
-	METHOD a onQueryPong (Lnr;)V
+CLASS nr net/minecraft/network/handler/INetworkQueryHandlerClient
+	METHOD a onQueryPong (Lns;)V
 		ARG 0 packet
-	METHOD a onQueryResponse (Lns;)V
+	METHOD a onQueryResponse (Lnt;)V
 		ARG 0 packet

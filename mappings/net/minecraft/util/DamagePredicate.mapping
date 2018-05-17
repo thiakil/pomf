@@ -12,7 +12,7 @@ CLASS ag net/minecraft/util/DamagePredicate
 		ARG 4 type
 	METHOD a (Lcom/google/gson/JsonElement;)Lag;
 		ARG 0 jsonElement
-	METHOD a (Lsl;Lahg;FFZ)Z
+	METHOD a (Lsm;Lahi;FFZ)Z
 		ARG 0 serverPlayer
 		ARG 1 source
 		ARG 2 dealt

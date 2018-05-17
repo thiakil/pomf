@@ -1,11 +1,11 @@
-CLASS cuq net/minecraft/client/player/EntityPlayerOther
+CLASS cus net/minecraft/client/player/EntityPlayerOther
 	FIELD bZ pitch D
 	FIELD d rotationUpdates I
 	FIELD e clientX D
 	FIELD f clientY D
 	FIELD g clientZ D
 	FIELD h yaw D
-	METHOD <init> (Lbbb;Lcom/mojang/authlib/GameProfile;)V
+	METHOD <init> (Lbbd;Lcom/mojang/authlib/GameProfile;)V
 		ARG 0 world
 		ARG 1 profile
 	METHOD R_ update ()V
@@ -17,10 +17,10 @@ CLASS cuq net/minecraft/client/player/EntityPlayerOther
 		ARG 2 z
 		ARG 3 yaw
 		ARG 4 pitch
-	METHOD a damage (Lahg;F)Z
+	METHOD a damage (Lahi;F)Z
 		ARG 0 source
 		ARG 1 damage
-	METHOD a appendCommandFeedback (Lic;)V
+	METHOD a appendCommandFeedback (Lid;)V
 		ARG 0 feedback
 	METHOD k updateMovement ()V
-	METHOD y getBlockPos ()Lef;
+	METHOD y getBlockPos ()Leg;

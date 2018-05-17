@@ -1,9 +1,9 @@
-CLASS axb net/minecraft/entity/player/ItemCooldownManagerServer
-	FIELD a player Lsl;
-	METHOD <init> (Lsl;)V
+CLASS axd net/minecraft/entity/player/ItemCooldownManagerServer
+	FIELD a player Lsm;
+	METHOD <init> (Lsm;)V
 		ARG 0 player
-	METHOD b onCooldownUpdate (Lawg;I)V
+	METHOD b onCooldownUpdate (Lawi;I)V
 		ARG 0 item
 		ARG 1 cooldown
-	METHOD c onCooldownUpdate (Lawg;)V
+	METHOD c onCooldownUpdate (Lawi;)V
 		ARG 0 item

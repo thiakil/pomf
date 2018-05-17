@@ -1,7 +1,7 @@
-CLASS dag net/minecraft/client/render/entity/EntityRendererGhast
-	FIELD a SKIN Loj;
-	FIELD j ANGRY_SKIN Loj;
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dai net/minecraft/client/render/entity/EntityRendererGhast
+	FIELD a SKIN Lok;
+	FIELD j ANGRY_SKIN Lok;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Laqf;)Loj;
+	METHOD a getTexture (Laqh;)Lok;
 		ARG 0 model

@@ -1,92 +1,92 @@
-CLASS bzc net/minecraft/world/gen/structure/StructurePiecesStronghold
-	CLASS bzc$a
-		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+CLASS bze net/minecraft/world/gen/structure/StructurePiecesStronghold
+	CLASS bze$a
+		METHOD a generate (Lbbe;Ljava/util/Random;Lbyn;Lbat;)Z
 			ARG 1 rand
 			ARG 2 region
-		METHOD a serializeStructureData (Lgu;)V
+		METHOD a serializeStructureData (Lgv;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lgu;Lbzr;)V
+		METHOD a deserializeStructureData (Lgv;Lbzt;)V
 			ARG 0 tag
-	CLASS bzc$b
-		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+	CLASS bze$b
+		METHOD a generate (Lbbe;Ljava/util/Random;Lbyn;Lbat;)Z
 			ARG 1 rand
 			ARG 2 region
-		METHOD a serializeStructureData (Lgu;)V
+		METHOD a serializeStructureData (Lgv;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lgu;Lbzr;)V
+		METHOD a deserializeStructureData (Lgv;Lbzt;)V
 			ARG 0 tag
-	CLASS bzc$c
-		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+	CLASS bze$c
+		METHOD a generate (Lbbe;Ljava/util/Random;Lbyn;Lbat;)Z
 			ARG 1 rand
 			ARG 2 region
-		METHOD a serializeStructureData (Lgu;)V
+		METHOD a serializeStructureData (Lgv;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lgu;Lbzr;)V
+		METHOD a deserializeStructureData (Lgv;Lbzt;)V
 			ARG 0 tag
-	CLASS bzc$d
-		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+	CLASS bze$d
+		METHOD a generate (Lbbe;Ljava/util/Random;Lbyn;Lbat;)Z
 			ARG 1 rand
 			ARG 2 region
-	CLASS bzc$e
-		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+	CLASS bze$e
+		METHOD a generate (Lbbe;Ljava/util/Random;Lbyn;Lbat;)Z
 			ARG 1 rand
 			ARG 2 region
-		METHOD a serializeStructureData (Lgu;)V
+		METHOD a serializeStructureData (Lgv;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lgu;Lbzr;)V
+		METHOD a deserializeStructureData (Lgv;Lbzt;)V
 			ARG 0 tag
-	CLASS bzc$g
-		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+	CLASS bze$g
+		METHOD a generate (Lbbe;Ljava/util/Random;Lbyn;Lbat;)Z
 			ARG 1 rand
 			ARG 2 region
-		METHOD a serializeStructureData (Lgu;)V
+		METHOD a serializeStructureData (Lgv;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lgu;Lbzr;)V
+		METHOD a deserializeStructureData (Lgv;Lbzt;)V
 			ARG 0 tag
-	CLASS bzc$h
-		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+	CLASS bze$h
+		METHOD a generate (Lbbe;Ljava/util/Random;Lbyn;Lbat;)Z
 			ARG 1 rand
 			ARG 2 region
-	CLASS bzc$i
-		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+	CLASS bze$i
+		METHOD a generate (Lbbe;Ljava/util/Random;Lbyn;Lbat;)Z
 			ARG 1 rand
 			ARG 2 region
-	CLASS bzc$j
-		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+	CLASS bze$j
+		METHOD a generate (Lbbe;Ljava/util/Random;Lbyn;Lbat;)Z
 			ARG 1 rand
 			ARG 2 region
-		METHOD a serializeStructureData (Lgu;)V
+		METHOD a serializeStructureData (Lgv;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lgu;Lbzr;)V
+		METHOD a deserializeStructureData (Lgv;Lbzt;)V
 			ARG 0 tag
-	CLASS bzc$l
-		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+	CLASS bze$l
+		METHOD a generate (Lbbe;Ljava/util/Random;Lbyn;Lbat;)Z
 			ARG 1 rand
 			ARG 2 region
-		METHOD a serializeStructureData (Lgu;)V
+		METHOD a serializeStructureData (Lgv;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lgu;Lbzr;)V
+		METHOD a deserializeStructureData (Lgv;Lbzt;)V
 			ARG 0 tag
-	CLASS bzc$n
-		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+	CLASS bze$n
+		METHOD a generate (Lbbe;Ljava/util/Random;Lbyn;Lbat;)Z
 			ARG 1 rand
 			ARG 2 region
-		METHOD a serializeStructureData (Lgu;)V
+		METHOD a serializeStructureData (Lgv;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lgu;Lbzr;)V
+		METHOD a deserializeStructureData (Lgv;Lbzt;)V
 			ARG 0 tag
-	CLASS bzc$o
-		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+	CLASS bze$o
+		METHOD a generate (Lbbe;Ljava/util/Random;Lbyn;Lbat;)Z
 			ARG 1 rand
 			ARG 2 region
-	CLASS bzc$p
-		CLASS bzc$p$a
-			FIELD a OPENING Lbzc$p$a;
-			FIELD b WOOD_DOOR Lbzc$p$a;
-			FIELD c GRATES Lbzc$p$a;
-			FIELD d IRON_DOOR Lbzc$p$a;
-		METHOD a serializeStructureData (Lgu;)V
+	CLASS bze$p
+		CLASS bze$p$a
+			FIELD a OPENING Lbze$p$a;
+			FIELD b WOOD_DOOR Lbze$p$a;
+			FIELD c GRATES Lbze$p$a;
+			FIELD d IRON_DOOR Lbze$p$a;
+		METHOD a serializeStructureData (Lgv;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lgu;Lbzr;)V
+		METHOD a deserializeStructureData (Lgv;Lbzt;)V
 			ARG 0 tag
 	METHOD a registerPieces ()V

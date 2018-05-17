@@ -1,12 +1,12 @@
-CLASS asu net/minecraft/entity/vehicle/EntityMobSpawnerMinecart
-	CLASS asu$1
-		METHOD a getWorld ()Lbbb;
-		METHOD b getPos ()Lef;
-	FIELD a logic Lban;
-	METHOD A getDefaultContainedBlock ()Lbnz;
+CLASS asw net/minecraft/entity/vehicle/EntityMobSpawnerMinecart
+	CLASS asw$1
+		METHOD a getWorld ()Lbbd;
+		METHOD b getPos ()Leg;
+	FIELD a logic Lbap;
+	METHOD A getDefaultContainedBlock ()Lbob;
 	METHOD R_ update ()V
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
-	METHOD v getMinecartType ()Lasm$a;
+	METHOD v getMinecartType ()Laso$a;

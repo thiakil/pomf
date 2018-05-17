@@ -1,28 +1,28 @@
-CLASS bie net/minecraft/block/BlockHopper
-	FIELD a FACING Lbov;
-	FIELD b ENABLED Lbou;
-	METHOD X_ getRenderLayer ()Lbaq;
-	METHOD a getDefaultState (Laup;)Lbnz;
-	METHOD a createBlockEntity (Lbap;)Lbmf;
+CLASS big net/minecraft/block/BlockHopper
+	FIELD a FACING Lbox;
+	FIELD b ENABLED Lbow;
+	METHOD X_ getRenderLayer ()Lbas;
+	METHOD a getDefaultState (Laur;)Lbob;
+	METHOD a createBlockEntity (Lbar;)Lbmh;
 		ARG 0 world
-	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+	METHOD a getBlockFaceShape (Lbar;Lbob;Leg;Lem;)Lboa;
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
-	METHOD a onPlaced (Lbbb;Lef;Lbnz;Laig;Lawk;)V
+	METHOD a onPlaced (Lbbd;Leg;Lbob;Laii;Lawm;)V
 		ARG 0 world
 		ARG 1 pos
 		ARG 3 placer
 		ARG 4 stack
-	METHOD a isFullBlock (Lbnz;)Z
-	METHOD a getComparatorOutput (Lbnz;Lbbb;Lef;)I
+	METHOD a isFullBlock (Lbob;)Z
+	METHOD a getComparatorOutput (Lbob;Lbbd;Leg;)I
 		ARG 1 world
 		ARG 2 pos
-	METHOD a onEntityCollision (Lbnz;Lbbb;Lef;Lahx;)V
+	METHOD a onEntityCollision (Lbob;Lbbd;Leg;Lahz;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 entity
-	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z
+	METHOD a onActivated (Lbob;Lbbd;Leg;Larn;Lags;Lem;FFF)Z
 		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
@@ -32,17 +32,17 @@ CLASS bie net/minecraft/block/BlockHopper
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
-	METHOD a update (Lbnz;Lbbb;Lef;Lbfq;Lef;)V
+	METHOD a update (Lbob;Lbbd;Leg;Lbfs;Leg;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 block
 		ARG 4 updatePos
-	METHOD a onBlockRemoved (Lbnz;Lbbb;Lef;Lbnz;)V
+	METHOD a onBlockRemoved (Lbob;Lbbd;Leg;Lbob;)V
 		ARG 1 world
 		ARG 2 pos
-	METHOD a withMirror (Lbnz;Lbiw;)Lbnz;
-	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;
-	METHOD b onBlockAdded (Lbnz;Lbbb;Lef;Lbnz;)V
+	METHOD a withMirror (Lbob;Lbiy;)Lbob;
+	METHOD a withRotation (Lbob;Lbkb;)Lbob;
+	METHOD b onBlockAdded (Lbob;Lbbd;Leg;Lbob;)V
 		ARG 1 world
 		ARG 2 pos
-	METHOD c getRenderType (Lbnz;)Lbjw;
+	METHOD c getRenderType (Lbob;)Lbjy;

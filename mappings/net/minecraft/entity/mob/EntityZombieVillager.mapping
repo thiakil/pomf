@@ -1,27 +1,27 @@
-CLASS arc net/minecraft/entity/mob/EntityZombieVillager
-	FIELD a CONVERTING Lny;
-	FIELD b PROFESSION Lny;
+CLASS are net/minecraft/entity/mob/EntityZombieVillager
+	FIELD a CONVERTING Lnz;
+	FIELD b PROFESSION Lnz;
 	FIELD bz conversionTimer I
-	METHOD E getSoundAmbient ()Lvo;
-	METHOD H getLootTableId ()Loj;
+	METHOD E getSoundAmbient ()Lvp;
+	METHOD H getLootTableId ()Lok;
 	METHOD R_ update ()V
 	METHOD a setProfession (I)V
 		ARG 0 value
-	METHOD a (Lagp;Laij;Lawk;)Laij;
+	METHOD a (Lagr;Lail;Lawm;)Lail;
 		ARG 0 difficulty
-	METHOD a interactMob (Larl;Lagq;)Z
+	METHOD a interactMob (Larn;Lags;)Z
 		ARG 0 player
 		ARG 1 playerHand
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD a setConverting (Ljava/util/UUID;I)V
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD cF getSoundPitch ()F
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahg;)Lvo;
-	METHOD dE getSoundStep ()Lvo;
-	METHOD dF getSkull ()Lawk;
+	METHOD ct getSoundDeath ()Lvp;
+	METHOD d getSoundHurt (Lahi;)Lvp;
+	METHOD dE getSoundStep ()Lvp;
+	METHOD dF getSkull ()Lawm;
 	METHOD dJ getProfession ()I
 	METHOD dM isConverting ()Z
 	METHOD dN finishConversion ()V

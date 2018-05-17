@@ -1,12 +1,12 @@
-CLASS blj net/minecraft/block/BlockTrappedChest
-	METHOD a createBlockEntity (Lbap;)Lbmf;
+CLASS bll net/minecraft/block/BlockTrappedChest
+	METHOD a createBlockEntity (Lbar;)Lbmh;
 		ARG 0 world
-	METHOD a getWeakRedstonePower (Lbnz;Lbap;Lef;Lel;)I
+	METHOD a getWeakRedstonePower (Lbob;Lbar;Leg;Lem;)I
 		ARG 1 view
 		ARG 2 pos
 		ARG 3 facingFrom
-	METHOD b getStrongRedstonePower (Lbnz;Lbap;Lef;Lel;)I
+	METHOD b getStrongRedstonePower (Lbob;Lbar;Leg;Lem;)I
 		ARG 1 view
 		ARG 2 pos
 		ARG 3 facingFrom
-	METHOD h canProvidePower (Lbnz;)Z
+	METHOD h canProvidePower (Lbob;)Z

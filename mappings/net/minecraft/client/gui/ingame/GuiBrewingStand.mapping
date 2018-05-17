@@ -1,8 +1,8 @@
-CLASS cmj net/minecraft/client/gui/ingame/GuiBrewingStand
-	FIELD v BG_TEX Loj;
-	FIELD x playerInv Lark;
-	FIELD y inventory Lagk;
-	METHOD <init> (Lark;Lagk;)V
+CLASS cml net/minecraft/client/gui/ingame/GuiBrewingStand
+	FIELD v BG_TEX Lok;
+	FIELD x playerInv Larm;
+	FIELD y inventory Lagm;
+	METHOD <init> (Larm;Lagm;)V
 		ARG 0 playerInv
 		ARG 1 inventory
 	METHOD a drawBackground (FII)V

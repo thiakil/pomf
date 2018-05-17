@@ -1,3 +1,3 @@
-CLASS bzs net/minecraft/world/gen/structure/template/PlacementSettings
-	METHOD b getRandom (Lef;)Ljava/util/Random;
+CLASS bzu net/minecraft/world/gen/structure/template/PlacementSettings
+	METHOD b getRandom (Leg;)Ljava/util/Random;
 	METHOD g getIntegrity ()F

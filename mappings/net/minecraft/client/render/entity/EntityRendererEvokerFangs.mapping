@@ -1,13 +1,13 @@
-CLASS daa net/minecraft/client/render/entity/EntityRendererEvokerFangs
-	FIELD a FANGS_TEXTURE Loj;
-	FIELD f model Lcpv;
-	METHOD <init> (Lczy;)V
+CLASS dac net/minecraft/client/render/entity/EntityRendererEvokerFangs
+	FIELD a FANGS_TEXTURE Lok;
+	FIELD f model Lcpx;
+	METHOD <init> (Ldaa;)V
 		ARG 0 entityRenderManager
-	METHOD a getTexture (Lahx;)Loj;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Lart;)Loj;
+	METHOD a getTexture (Larv;)Lok;
 		ARG 0 model
-	METHOD a (Lart;DDDFF)V
+	METHOD a (Larv;DDDFF)V
 		ARG 0 model
 		ARG 1 x
 		ARG 2 y

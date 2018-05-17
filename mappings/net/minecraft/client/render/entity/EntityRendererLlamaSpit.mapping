@@ -1,5 +1,5 @@
-CLASS dav net/minecraft/client/render/entity/EntityRendererLlamaSpit
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dax net/minecraft/client/render/entity/EntityRendererLlamaSpit
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Larx;)Loj;
+	METHOD a getTexture (Larz;)Lok;
 		ARG 0 model

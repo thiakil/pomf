@@ -1,15 +1,15 @@
-CLASS bai net/minecraft/village/IVillager
-	METHOD M_ getCurrentCustomer ()Larl;
-	METHOD P getDisplayName ()Lic;
-	METHOD a onSellingItem (Lawk;)V
+CLASS bak net/minecraft/village/IVillager
+	METHOD M_ getCurrentCustomer ()Larn;
+	METHOD P getDisplayName ()Lid;
+	METHOD a onSellingItem (Lawm;)V
 		ARG 0 stack
-	METHOD a useRecipe (Lbaj;)V
+	METHOD a useRecipe (Lbal;)V
 		ARG 0 recipe
-	METHOD a setRecipeList (Lbak;)V
+	METHOD a setRecipeList (Lbam;)V
 		ARG 0 recipeLIst
-	METHOD a_ setCurrentCustomer (Larl;)V
+	METHOD a_ setCurrentCustomer (Larn;)V
 		ARG 0 currentCustomer
-	METHOD b_ getRecipes (Larl;)Lbak;
+	METHOD b_ getRecipes (Larn;)Lbam;
 		ARG 0 player
-	METHOD c getWorld ()Lbbb;
-	METHOD d getPos ()Lef;
+	METHOD c getWorld ()Lbbd;
+	METHOD d getPos ()Leg;

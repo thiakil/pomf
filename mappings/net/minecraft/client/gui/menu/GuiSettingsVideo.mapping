@@ -1,9 +1,9 @@
-CLASS clq net/minecraft/client/gui/menu/GuiSettingsVideo
+CLASS cls net/minecraft/client/gui/menu/GuiSettingsVideo
 	FIELD a title Ljava/lang/String;
-	FIELD f parent Lclk;
-	FIELD g settings Lchw;
-	FIELD i MENU_OPTIONS [Lchw$a;
-	METHOD <init> (Lclk;Lchw;)V
+	FIELD f parent Lclm;
+	FIELD g settings Lchy;
+	FIELD i MENU_OPTIONS [Lchy$a;
+	METHOD <init> (Lclm;Lchy;)V
 		ARG 0 parent
 		ARG 1 settings
 	METHOD a draw (IIF)V

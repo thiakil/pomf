@@ -1,14 +1,14 @@
-CLASS ns net/minecraft/network/packet/client/CPacketQueryResponse
+CLASS nt net/minecraft/network/packet/client/CPacketQueryResponse
 	FIELD a SERIALIZER Lcom/google/gson/Gson;
-	FIELD b metadata Lnt;
-	METHOD <init> (Lnt;)V
+	FIELD b metadata Lnu;
+	METHOD <init> (Lnu;)V
 		ARG 0 metadata
-	METHOD a getMetadata ()Lnt;
-	METHOD a readPacket (Lht;)V
+	METHOD a getMetadata ()Lnu;
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lnq;)V
+	METHOD a applyPacket (Lnr;)V
 		ARG 0 handler
-	METHOD b writePacket (Lht;)V
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf

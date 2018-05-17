@@ -1,2 +1,0 @@
-CLASS csk
-	METHOD m getTeamNames ()Ljava/util/Collection;

@@ -1,13 +1,13 @@
-CLASS bbi net/minecraft/world/level/LevelGeneratorType
-	FIELD a TYPES [Lbbi;
-	FIELD b DEFAULT Lbbi;
-	FIELD c FLAT Lbbi;
-	FIELD d LARGE_BIOMES Lbbi;
-	FIELD e AMPLIFIED Lbbi;
-	FIELD f CUSTOMIZED Lbbi;
-	FIELD g BUFFET Lbbi;
-	FIELD h DEBUG_ALL_BLOCK_STATES Lbbi;
-	FIELD i DEFAULT_1_1 Lbbi;
+CLASS bbk net/minecraft/world/level/LevelGeneratorType
+	FIELD a TYPES [Lbbk;
+	FIELD b DEFAULT Lbbk;
+	FIELD c FLAT Lbbk;
+	FIELD d LARGE_BIOMES Lbbk;
+	FIELD e AMPLIFIED Lbbk;
+	FIELD f CUSTOMIZED Lbbk;
+	FIELD g BUFFET Lbbk;
+	FIELD h DEBUG_ALL_BLOCK_STATES Lbbk;
+	FIELD i DEFAULT_1_1 Lbbk;
 	FIELD j id I
 	FIELD k name Ljava/lang/String;
 	FIELD l version I
@@ -21,17 +21,17 @@ CLASS bbi net/minecraft/world/level/LevelGeneratorType
 		ARG 1 name
 		ARG 2 version
 	METHOD a getName ()Ljava/lang/String;
-	METHOD a getTypeForVersion (I)Lbbi;
+	METHOD a getTypeForVersion (I)Lbbk;
 		ARG 0 version
-	METHOD a getTypeFromName (Ljava/lang/String;)Lbbi;
+	METHOD a getTypeFromName (Ljava/lang/String;)Lbbk;
 		ARG 0 name
 	METHOD b getTranslationKey ()Ljava/lang/String;
-	METHOD b setVisible (Z)Lbbi;
+	METHOD b setVisible (Z)Lbbk;
 		ARG 0 value
 	METHOD c getInfoTranslationKey ()Ljava/lang/String;
 	METHOD d getVersion ()I
 	METHOD g isVersioned ()Z
 	METHOD h getId ()I
 	METHOD i hasInfo ()Z
-	METHOD j setVersioned ()Lbbi;
-	METHOD k setHasInfo ()Lbbi;
+	METHOD j setVersioned ()Lbbk;
+	METHOD k setHasInfo ()Lbbk;

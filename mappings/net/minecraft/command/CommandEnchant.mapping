@@ -1,4 +1,4 @@
-CLASS ps net/minecraft/command/CommandEnchant
+CLASS pt net/minecraft/command/CommandEnchant
 	FIELD a COMMANDS_ENCHANT_FAILED_ENTITY Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
 	FIELD b COMMANDS_ENCHANT_FAILED_ITEMLESS Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
 	FIELD c COMMANDS_ENCHANT_FAILED_INCOMPATIBLE Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;

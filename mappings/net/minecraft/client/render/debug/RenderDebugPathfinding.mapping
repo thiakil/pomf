@@ -1,6 +1,6 @@
-CLASS cyv net/minecraft/client/render/debug/RenderDebugPathfinding
-	FIELD a game Lcht;
-	FIELD e player Larl;
+CLASS cyx net/minecraft/client/render/debug/RenderDebugPathfinding
+	FIELD a game Lchv;
+	FIELD e player Larn;
 	FIELD f viewX D
 	FIELD g viewY D
 	FIELD h viewZ D

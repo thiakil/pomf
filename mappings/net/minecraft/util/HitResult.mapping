@@ -1,20 +1,20 @@
-CLASS cgd net/minecraft/util/HitResult
-	CLASS cgd$a Type
-		FIELD a MISS Lcgd$a;
-		FIELD b BLOCK Lcgd$a;
-		FIELD c ENTITY Lcgd$a;
-	FIELD a type Lcgd$a;
-	FIELD c pos Lcgg;
-	FIELD d entity Lahx;
-	FIELD e blockPos Lef;
-	METHOD <init> (Lahx;)V
+CLASS cgf net/minecraft/util/HitResult
+	CLASS cgf$a Type
+		FIELD a MISS Lcgf$a;
+		FIELD b BLOCK Lcgf$a;
+		FIELD c ENTITY Lcgf$a;
+	FIELD a type Lcgf$a;
+	FIELD c pos Lcgi;
+	FIELD d entity Lahz;
+	FIELD e blockPos Leg;
+	METHOD <init> (Lahz;)V
 		ARG 0 entity
-	METHOD <init> (Lahx;Lcgg;)V
+	METHOD <init> (Lahz;Lcgi;)V
 		ARG 0 entity
 		ARG 1 pos
-	METHOD <init> (Lcgd$a;Lcgg;Lel;Lef;)V
+	METHOD <init> (Lcgf$a;Lcgi;Lem;Leg;)V
 		ARG 0 type
 		ARG 1 pos
 		ARG 2 side
 		ARG 3 blockPos
-	METHOD a getBlockPos ()Lef;
+	METHOD a getBlockPos ()Leg;

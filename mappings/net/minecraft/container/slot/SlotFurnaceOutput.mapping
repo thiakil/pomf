@@ -1,20 +1,20 @@
-CLASS atn net/minecraft/container/slot/SlotFurnaceOutput
-	FIELD a player Larl;
-	METHOD <init> (Larl;Lagk;III)V
+CLASS atp net/minecraft/container/slot/SlotFurnaceOutput
+	FIELD a player Larn;
+	METHOD <init> (Larn;Lagm;III)V
 		ARG 0 player
 		ARG 1 inventory
 		ARG 2 invSlot
 		ARG 3 x
 		ARG 4 y
-	METHOD a takeStack (I)Lawk;
+	METHOD a takeStack (I)Lawm;
 		ARG 0 amount
-	METHOD a onTakeItem (Larl;Lawk;)Lawk;
+	METHOD a onTakeItem (Larn;Lawm;)Lawm;
 		ARG 0 player
 		ARG 1 stack
-	METHOD a canInsert (Lawk;)Z
+	METHOD a canInsert (Lawm;)Z
 		ARG 0 stack
-	METHOD a onCrafted (Lawk;I)V
+	METHOD a onCrafted (Lawm;I)V
 		ARG 0 stack
 		ARG 1 amount
-	METHOD c onCrafted (Lawk;)V
+	METHOD c onCrafted (Lawm;)V
 		ARG 0 stack

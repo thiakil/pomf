@@ -1,7 +1,7 @@
-CLASS apx net/minecraft/entity/mob/EntityCaveSpider
-	METHOD B attackEntity (Lahx;)Z
-	METHOD H getLootTableId ()Loj;
-	METHOD a (Lagp;Laij;Lawk;)Laij;
+CLASS apz net/minecraft/entity/mob/EntityCaveSpider
+	METHOD B attackEntity (Lahz;)Z
+	METHOD H getLootTableId ()Lok;
+	METHOD a (Lagr;Lail;Lawm;)Lail;
 		ARG 0 difficulty
 	METHOD bI getEyeHeight ()F
 	METHOD ca initAttributes ()V

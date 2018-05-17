@@ -1,10 +1,10 @@
-CLASS ur net/minecraft/util/UserCache
-	CLASS ur$a Entry
+CLASS us net/minecraft/util/UserCache
+	CLASS us$a Entry
 		FIELD b profile Lcom/mojang/authlib/GameProfile;
 		FIELD c expirationDate Ljava/util/Date;
 		METHOD a getProfile ()Lcom/mojang/authlib/GameProfile;
 		METHOD b getExpirationDate ()Ljava/util/Date;
-	CLASS ur$b JsonConverter
+	CLASS us$b JsonConverter
 	FIELD a EXPIRATION_DATE_FORMAT Ljava/text/SimpleDateFormat;
 	FIELD b gson Lcom/google/gson/Gson;
 	FIELD c useRemote Z
@@ -34,7 +34,7 @@ CLASS ur net/minecraft/util/UserCache
 	METHOD a setUseRemote (Z)V
 		ARG 0 value
 	METHOD b load ()V
-	METHOD b getEntry (Ljava/util/UUID;)Lur$a;
+	METHOD b getEntry (Ljava/util/UUID;)Lus$a;
 		ARG 0 uuid
 	METHOD c save ()V
 	METHOD d shouldUseRemote ()Z

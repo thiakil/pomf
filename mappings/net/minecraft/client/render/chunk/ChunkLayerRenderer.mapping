@@ -1,4 +1,4 @@
-CLASS cuz net/minecraft/client/render/chunk/ChunkLayerRenderer
+CLASS cvb net/minecraft/client/render/chunk/ChunkLayerRenderer
 	FIELD c viewX D
 	FIELD d viewY D
 	FIELD e viewZ D
@@ -6,5 +6,5 @@ CLASS cuz net/minecraft/client/render/chunk/ChunkLayerRenderer
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
-	METHOD a renderLayer (Lbaq;)V
+	METHOD a renderLayer (Lbas;)V
 		ARG 0 layer

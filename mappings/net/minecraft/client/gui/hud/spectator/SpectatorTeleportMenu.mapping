@@ -1,9 +1,9 @@
-CLASS cot net/minecraft/client/gui/hud/spectator/SpectatorTeleportMenu
+CLASS cov net/minecraft/client/gui/hud/spectator/SpectatorTeleportMenu
 	FIELD a PLAYER_ORDER Lcom/google/common/collect/Ordering;
 	FIELD b elements Ljava/util/List;
 	METHOD a getElements ()Ljava/util/List;
 	METHOD a renderIcon (FI)V
-	METHOD a selectElement (Lcoo;)V
+	METHOD a selectElement (Lcoq;)V
 		ARG 0 menu
 	METHOD am_ enabled ()Z
-	METHOD b getMessage ()Lic;
+	METHOD b getMessage ()Lid;

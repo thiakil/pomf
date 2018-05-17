@@ -1,4 +1,4 @@
-CLASS lc net/minecraft/network/packet/client/CPacketEntityVelocityUpdate
+CLASS ld net/minecraft/network/packet/client/CPacketEntityVelocityUpdate
 	FIELD a id I
 	FIELD b velocityX I
 	FIELD c velocityY I
@@ -8,17 +8,17 @@ CLASS lc net/minecraft/network/packet/client/CPacketEntityVelocityUpdate
 		ARG 1 velocityX
 		ARG 2 velocityY
 		ARG 3 velocityZ
-	METHOD <init> (Lahx;)V
+	METHOD <init> (Lahz;)V
 		ARG 0 entity
 	METHOD a getId ()I
-	METHOD a readPacket (Lht;)V
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lis;)V
+	METHOD a applyPacket (Lit;)V
 		ARG 0 handler
 	METHOD b getVelocityX ()I
-	METHOD b writePacket (Lht;)V
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf
 	METHOD c getVelocityY ()I
 	METHOD d getVelocityZ ()I

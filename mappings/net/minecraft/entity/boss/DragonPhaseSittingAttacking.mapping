@@ -1,2 +1,2 @@
-CLASS aot net/minecraft/entity/boss/DragonPhaseSittingAttacking
-	METHOD i getType ()Laoy;
+CLASS aov net/minecraft/entity/boss/DragonPhaseSittingAttacking
+	METHOD i getType ()Lapa;

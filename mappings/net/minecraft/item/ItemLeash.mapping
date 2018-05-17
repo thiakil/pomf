@@ -1,2 +1,2 @@
-CLASS awn net/minecraft/item/ItemLeash
-	METHOD a activate (Laxv;)Lags;
+CLASS awp net/minecraft/item/ItemLeash
+	METHOD a activate (Laxx;)Lagu;

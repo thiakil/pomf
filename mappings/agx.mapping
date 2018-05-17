@@ -1,5 +1,0 @@
-CLASS agx
-	METHOD N_ getNameAsComponent ()Lic;
-	METHOD O_ hasCustomName ()Z
-	METHOD P getDisplayName ()Lic;
-	METHOD e getTextComponent ()Lic;

@@ -1,36 +1,36 @@
-CLASS anj net/minecraft/entity/passive/EntitySheep
-	CLASS anj$1
-		METHOD a canUse (Larl;)Z
+CLASS anl net/minecraft/entity/passive/EntitySheep
+	CLASS anl$1
+		METHOD a canUse (Larn;)Z
 			ARG 0 player
-	FIELD bz COLOR Lny;
-	METHOD E getSoundAmbient ()Lvo;
-	METHOD H getLootTableId ()Loj;
+	FIELD bz COLOR Lnz;
+	METHOD E getSoundAmbient ()Lvp;
+	METHOD H getLootTableId ()Lok;
 	METHOD K mobTick ()V
-	METHOD a (Lagp;Laij;Lawk;)Laij;
+	METHOD a (Lagr;Lail;Lawm;)Lail;
 		ARG 0 difficulty
-	METHOD a createChild (Lahu;)Lahu;
+	METHOD a createChild (Lahw;)Lahw;
 		ARG 0 other
-	METHOD a interactMob (Larl;Lagq;)Z
+	METHOD a interactMob (Larn;Lags;)Z
 		ARG 0 player
 		ARG 1 playerHand
-	METHOD a getRgbColor (Lavi;)[F
+	METHOD a getRgbColor (Lavk;)[F
 		ARG 0 dyeColor
-	METHOD a playStepSound (Lef;Lbfq;)V
+	METHOD a playStepSound (Leg;Lbfs;)V
 		ARG 0 pos
 		ARG 1 block
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
-	METHOD b createChild (Lahu;)Lanj;
+	METHOD b createChild (Lahw;)Lanl;
 		ARG 0 other
-	METHOD b setColor (Lavi;)V
+	METHOD b setColor (Lavk;)V
 		ARG 0 value
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD bI getEyeHeight ()F
 	METHOD ca initAttributes ()V
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahg;)Lvo;
-	METHOD dC getColor ()Lavi;
+	METHOD ct getSoundDeath ()Lvp;
+	METHOD d getSoundHurt (Lahi;)Lvp;
+	METHOD dC getColor ()Lavk;
 	METHOD dD isSheared ()Z
 	METHOD k updateMovement ()V
 	METHOD s setSheared (Z)V

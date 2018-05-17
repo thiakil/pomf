@@ -1,10 +1,10 @@
-CLASS awr net/minecraft/item/ItemMinecart
-	CLASS awr$1
-		METHOD a playSound (Leg;)V
+CLASS awt net/minecraft/item/ItemMinecart
+	CLASS awt$1
+		METHOD a playSound (Leh;)V
 			ARG 0 block
-		METHOD b doDispense (Leg;Lawk;)Lawk;
+		METHOD b doDispense (Leh;Lawm;)Lawm;
 			ARG 0 block
 			ARG 1 stack
-	FIELD a DISPENSER_BEHAVIOR Len;
-	FIELD b type Lasm$a;
-	METHOD a activate (Laxv;)Lags;
+	FIELD a DISPENSER_BEHAVIOR Leo;
+	FIELD b type Laso$a;
+	METHOD a activate (Laxx;)Lagu;

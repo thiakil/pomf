@@ -1,9 +1,9 @@
-CLASS bqk net/minecraft/world/DimensionNether
-	CLASS bqk$1
+CLASS bqm net/minecraft/world/DimensionNether
+	CLASS bqm$1
 		METHOD f getCenterX ()D
 		METHOD g getCenterZ ()D
-	METHOD b getFogColor (FF)Lcgg;
-	METHOD j createWorldBorderHandler ()Lbpc;
+	METHOD b getFogColor (FF)Lcgi;
+	METHOD j createWorldBorderHandler ()Lbpe;
 	METHOD m setupBiomeProvider ()V
 	METHOD o hasClouds ()Z
-	METHOD q getWorldType ()Lbqj;
+	METHOD q getWorldType ()Lbql;

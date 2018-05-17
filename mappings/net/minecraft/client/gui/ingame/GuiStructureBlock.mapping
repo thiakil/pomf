@@ -1,40 +1,40 @@
-CLASS cnb net/minecraft/client/gui/ingame/GuiStructureBlock
-	CLASS cnb$7
+CLASS cnd net/minecraft/client/gui/ingame/GuiStructureBlock
+	CLASS cnd$7
 		METHOD charTyped onKeyPressed (CI)Z
 			ARG 0 keyChar
 			ARG 1 keyCode
-	FIELD A inputSizeY Lciy;
-	FIELD B inputSizeZ Lciy;
-	FIELD C inputIntegrity Lciy;
-	FIELD D inputSeed Lciy;
-	FIELD E inputMetadata Lciy;
-	FIELD F guiDone Lciu;
-	FIELD G guiCancel Lciu;
-	FIELD H buttonSave Lciu;
-	FIELD I buttonLoad Lciu;
-	FIELD J buttonRotate0 Lciu;
-	FIELD K buttonRotate90 Lciu;
-	FIELD L buttonRotate180 Lciu;
-	FIELD M buttonRotate270 Lciu;
-	FIELD N buttonMode Lciu;
-	FIELD O buttonDetect Lciu;
-	FIELD P buttonEntities Lciu;
-	FIELD Q buttonMirror Lciu;
-	FIELD R buttonShowAir Lciu;
-	FIELD S buttonShowBoundingBox Lciu;
+	FIELD A inputSizeY Lcja;
+	FIELD B inputSizeZ Lcja;
+	FIELD C inputIntegrity Lcja;
+	FIELD D inputSeed Lcja;
+	FIELD E inputMetadata Lcja;
+	FIELD F guiDone Lciw;
+	FIELD G guiCancel Lciw;
+	FIELD H buttonSave Lciw;
+	FIELD I buttonLoad Lciw;
+	FIELD J buttonRotate0 Lciw;
+	FIELD K buttonRotate90 Lciw;
+	FIELD L buttonRotate180 Lciw;
+	FIELD M buttonRotate270 Lciw;
+	FIELD N buttonMode Lciw;
+	FIELD O buttonDetect Lciw;
+	FIELD P buttonEntities Lciw;
+	FIELD Q buttonMirror Lciw;
+	FIELD R buttonShowAir Lciw;
+	FIELD S buttonShowBoundingBox Lciw;
 	FIELD T textFields Ljava/util/List;
 	FIELD U decimalFormat Ljava/text/DecimalFormat;
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD f structureBlock Lbnc;
-	FIELD g mirror Lbiw;
-	FIELD h rotation Lbjz;
-	FIELD i mode Lbnc$a;
-	FIELD v inputName Lciy;
-	FIELD w inputPosX Lciy;
-	FIELD x inputPosY Lciy;
-	FIELD y inputPosZ Lciy;
-	FIELD z inputSizeX Lciy;
-	METHOD <init> (Lbnc;)V
+	FIELD f structureBlock Lbne;
+	FIELD g mirror Lbiy;
+	FIELD h rotation Lbkb;
+	FIELD i mode Lbne$a;
+	FIELD v inputName Lcja;
+	FIELD w inputPosX Lcja;
+	FIELD x inputPosY Lcja;
+	FIELD y inputPosZ Lcja;
+	FIELD z inputSizeX Lcja;
+	METHOD <init> (Lbne;)V
 		ARG 0 structureBlock
 	METHOD a draw (IIF)V
 		ARG 0 mouseX

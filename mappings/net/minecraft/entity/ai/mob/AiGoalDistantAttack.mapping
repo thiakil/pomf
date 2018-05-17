@@ -1,7 +1,7 @@
-CLASS ala net/minecraft/entity/ai/mob/AiGoalDistantAttack
-	FIELD a owner Laql;
+CLASS alc net/minecraft/entity/ai/mob/AiGoalDistantAttack
+	FIELD a owner Laqn;
 	FIELD d rangeSquared F
-	METHOD <init> (Laql;DIF)V
+	METHOD <init> (Laqn;DIF)V
 		ARG 0 owner
 		ARG 3 range
 	METHOD a canStart ()Z

@@ -1,5 +1,5 @@
-CLASS bhd net/minecraft/block/BlockDropper
-	METHOD a getDispenserBehavior (Lawk;)Len;
+CLASS bhf net/minecraft/block/BlockDropper
+	METHOD a getDispenserBehavior (Lawm;)Leo;
 		ARG 0 stack
-	METHOD a createBlockEntity (Lbap;)Lbmf;
+	METHOD a createBlockEntity (Lbar;)Lbmh;
 		ARG 0 world

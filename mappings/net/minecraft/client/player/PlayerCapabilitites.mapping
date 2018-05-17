@@ -1,19 +1,19 @@
-CLASS csl net/minecraft/client/player/PlayerCapabilitites
-	FIELD a game Lcht;
-	FIELD b networkHandler Lcsj;
-	FIELD c currentBreakingPos Lef;
+CLASS csn net/minecraft/client/player/PlayerCapabilitites
+	FIELD a game Lchv;
+	FIELD b networkHandler Lcsl;
+	FIELD c currentBreakingPos Leg;
 	FIELD e currentBreakingProgress F
 	FIELD h breakingBlock Z
-	FIELD i currentGameMode Lbay;
-	METHOD <init> (Lcht;Lcsj;)V
+	FIELD i currentGameMode Lbba;
+	METHOD <init> (Lchv;Lcsl;)V
 		ARG 0 game
 		ARG 1 networkHandler
 	METHOD a hasStatusBars ()Z
 	METHOD a sendItemPickPacket (I)V
 		ARG 0 selectedSlot
-	METHOD a copyAbilities (Larl;)V
+	METHOD a copyAbilities (Larn;)V
 		ARG 0 playerEntity
-	METHOD a setCurrentGameMode (Lbay;)V
+	METHOD a setCurrentGameMode (Lbba;)V
 		ARG 0 value
 	METHOD b cancelBlockBreaking ()V
 	METHOD e hasExperienceBar ()Z
@@ -22,5 +22,5 @@ CLASS csl net/minecraft/client/player/PlayerCapabilitites
 	METHOD h hasExtendedReach ()Z
 	METHOD i hasRidingInventory ()Z
 	METHOD j isFlyingLocked ()Z
-	METHOD k getCurrentGameMode ()Lbay;
+	METHOD k getCurrentGameMode ()Lbba;
 	METHOD l isBreakingBlock ()Z

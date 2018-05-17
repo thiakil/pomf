@@ -1,6 +1,6 @@
-CLASS dfs net/minecraft/client/resource/language/I18n
-	FIELD a storage Ldfv;
-	METHOD a setLanguage (Ldfv;)V
+CLASS dfu net/minecraft/client/resource/language/I18n
+	FIELD a storage Ldfx;
+	METHOD a setLanguage (Ldfx;)V
 		ARG 0 storage
 	METHOD a hasTranslation (Ljava/lang/String;)Z
 		ARG 0 key

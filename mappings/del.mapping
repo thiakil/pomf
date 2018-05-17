@@ -1,3 +1,0 @@
-CLASS del
-	METHOD a load (Lul;)V
-		ARG 0 resourceContainer

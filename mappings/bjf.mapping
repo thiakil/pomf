@@ -1,2 +1,0 @@
-CLASS bjf
-	METHOD a getDropAmount (Lbnz;Ljava/util/Random;)I

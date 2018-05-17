@@ -1,14 +1,14 @@
-CLASS dhe net/minecraft/client/audio/ISoundEvent
-	CLASS dhe$a AttenuationType
-		FIELD a NONE Ldhe$a;
-		FIELD b LINEAR Ldhe$a;
+CLASS dhg net/minecraft/client/audio/ISoundEvent
+	CLASS dhg$a AttenuationType
+		FIELD a NONE Ldhg$a;
+		FIELD b LINEAR Ldhg$a;
 		FIELD c TYPE I
 		METHOD a getType ()I
-	METHOD a getId ()Loj;
-	METHOD a getAccess (Ldib;)Ldie;
+	METHOD a getId ()Lok;
+	METHOD a getAccess (Ldid;)Ldig;
 		ARG 0 loader
-	METHOD b getSound ()Ldhb;
-	METHOD c getCategory ()Lvq;
+	METHOD b getSound ()Ldhd;
+	METHOD c getCategory ()Lvr;
 	METHOD d isRepeatable ()Z
 	METHOD e getRepeatDelay ()I
 	METHOD f getVolume ()F
@@ -16,4 +16,4 @@ CLASS dhe net/minecraft/client/audio/ISoundEvent
 	METHOD h getX ()F
 	METHOD i getY ()F
 	METHOD j getZ ()F
-	METHOD k getAttenuationType ()Ldhe$a;
+	METHOD k getAttenuationType ()Ldhg$a;

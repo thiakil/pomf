@@ -1,7 +1,7 @@
-CLASS dgt net/minecraft/client/audio/SoundEvent
-	FIELD a sound Ldhb;
-	FIELD b category Lvq;
-	FIELD c id Loj;
+CLASS dgv net/minecraft/client/audio/SoundEvent
+	FIELD a sound Ldhd;
+	FIELD b category Lvr;
+	FIELD c id Lok;
 	FIELD d volume F
 	FIELD e pitch F
 	FIELD f x F
@@ -9,19 +9,19 @@ CLASS dgt net/minecraft/client/audio/SoundEvent
 	FIELD h z F
 	FIELD i repeat Z
 	FIELD j repeatDelay I
-	FIELD k attenuationType Ldhe$a;
-	FIELD m accessor Ldie;
-	METHOD <init> (Loj;Lvq;)V
+	FIELD k attenuationType Ldhg$a;
+	FIELD m accessor Ldig;
+	METHOD <init> (Lok;Lvr;)V
 		ARG 0 soundId
 		ARG 1 category
-	METHOD <init> (Lvo;Lvq;)V
+	METHOD <init> (Lvp;Lvr;)V
 		ARG 0 sound
 		ARG 1 category
-	METHOD a getId ()Loj;
-	METHOD a getAccess (Ldib;)Ldie;
+	METHOD a getId ()Lok;
+	METHOD a getAccess (Ldid;)Ldig;
 		ARG 0 loader
-	METHOD b getSound ()Ldhb;
-	METHOD c getCategory ()Lvq;
+	METHOD b getSound ()Ldhd;
+	METHOD c getCategory ()Lvr;
 	METHOD d isRepeatable ()Z
 	METHOD e getRepeatDelay ()I
 	METHOD f getVolume ()F
@@ -29,4 +29,4 @@ CLASS dgt net/minecraft/client/audio/SoundEvent
 	METHOD h getX ()F
 	METHOD i getY ()F
 	METHOD j getZ ()F
-	METHOD k getAttenuationType ()Ldhe$a;
+	METHOD k getAttenuationType ()Ldhg$a;

@@ -1,4 +1,4 @@
-CLASS gm net/minecraft/generator/GeneratorTags
+CLASS gn net/minecraft/generator/GeneratorTags
 	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD e GSON Lcom/google/gson/Gson;
 	METHOD a generate ()V

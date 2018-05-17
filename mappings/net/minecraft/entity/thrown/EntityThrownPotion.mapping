@@ -1,10 +1,10 @@
-CLASS asi net/minecraft/entity/thrown/EntityThrownPotion
+CLASS ask net/minecraft/entity/thrown/EntityThrownPotion
 	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD a onCollision (Lcgd;)V
+	METHOD a onCollision (Lcgf;)V
 		ARG 0 hitResult
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD f getGravity ()F
 	METHOD w_ initDataTracker ()V

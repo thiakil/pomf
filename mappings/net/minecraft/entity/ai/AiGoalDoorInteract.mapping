@@ -1,8 +1,8 @@
-CLASS ajp net/minecraft/entity/ai/AiGoalDoorInteract
-	FIELD a owner Laih;
-	FIELD b doorPos Lef;
+CLASS ajr net/minecraft/entity/ai/AiGoalDoorInteract
+	FIELD a owner Laij;
+	FIELD b doorPos Leg;
 	FIELD d shouldStop Z
-	METHOD <init> (Laih;)V
+	METHOD <init> (Laij;)V
 		ARG 0 owner
 	METHOD a canStart ()Z
 	METHOD b shouldContinue ()Z

@@ -1,125 +1,125 @@
-CLASS bfq net/minecraft/block/Block
-	CLASS bfq$a OffsetType
-		FIELD a NONE Lbfq$a;
-		FIELD b XZ Lbfq$a;
-		FIELD c XYZ Lbfq$a;
-	CLASS bfq$b Builder
-		FIELD a material Lcbf;
-		FIELD b mapColor Lcbg;
-		FIELD d soundGroup Lbkp;
+CLASS bfs net/minecraft/block/Block
+	CLASS bfs$a OffsetType
+		FIELD a NONE Lbfs$a;
+		FIELD b XZ Lbfs$a;
+		FIELD c XYZ Lbfs$a;
+	CLASS bfs$b Builder
+		FIELD a material Lcbh;
+		FIELD b mapColor Lcbi;
+		FIELD d soundGroup Lbkr;
 		FIELD e lightValue I
 		FIELD f resistance F
 		FIELD g hardness F
 		FIELD h tickRandomly Z
 		FIELD i slipperiness F
-		METHOD a withSlipperiness (F)Lbfq$b;
+		METHOD a withSlipperiness (F)Lbfs$b;
 			ARG 0 value
-		METHOD a withLightValue (I)Lbfq$b;
+		METHOD a withLightValue (I)Lbfs$b;
 			ARG 0 lightValue
-		METHOD a from (Lbfq;)Lbfq$b;
+		METHOD a from (Lbfs;)Lbfs$b;
 			ARG 0 block
-		METHOD a withSoundGroup (Lbkp;)Lbfq$b;
+		METHOD a withSoundGroup (Lbkr;)Lbfs$b;
 			ARG 0 value
-		METHOD a of (Lcbf;)Lbfq$b;
-		METHOD a of (Lcbf;Lavi;)Lbfq$b;
-		METHOD a of (Lcbf;Lcbg;)Lbfq$b;
-		METHOD c setTickRandomly ()Lbfq$b;
-	FIELD a AIR_ID Loj;
-	FIELD c defaultState Lbnz;
+		METHOD a of (Lcbh;)Lbfs$b;
+		METHOD a of (Lcbh;Lavk;)Lbfs$b;
+		METHOD a of (Lcbh;Lcbi;)Lbfs$b;
+		METHOD c setTickRandomly ()Lbfs$b;
+	FIELD a AIR_ID Lok;
+	FIELD c defaultState Lbob;
 	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD e REGISTRY Lej;
-	FIELD f STATE_IDS Lep;
+	FIELD e REGISTRY Lek;
+	FIELD f STATE_IDS Leq;
 	FIELD g lightValue I
 	FIELD h hardness F
 	FIELD i resistance F
 	FIELD j tickRandomly Z
 	FIELD k blockEntity Z
-	FIELD l soundGroup Lbkp;
+	FIELD l soundGroup Lbkr;
 	FIELD m particleGravity F
-	FIELD n material Lcbf;
-	FIELD o mapColor Lcbg;
+	FIELD n material Lcbh;
+	FIELD o mapColor Lcbi;
 	FIELD p slipperiness F
-	FIELD q stateContainer Lbob;
+	FIELD q stateContainer Lbod;
 	FIELD s translationKey Ljava/lang/String;
-	METHOD <init> (Lbfq$b;)V
+	METHOD <init> (Lbfs$b;)V
 		ARG 0 builder
-	METHOD X_ getRenderLayer ()Lbaq;
+	METHOD X_ getRenderLayer ()Lbas;
 	METHOD a canEntitiesSpawnInside ()Z
-	METHOD a get (I)Lbfq;
+	METHOD a get (I)Lbfs;
 		ARG 0 id
-	METHOD a getDefaultState (Laup;)Lbnz;
-	METHOD a getSubBlocks (Lave;Leu;)V
-	METHOD a getBlockFromItem (Lawg;)Lbfq;
+	METHOD a getDefaultState (Laur;)Lbob;
+	METHOD a getSubBlocks (Lavg;Lev;)V
+	METHOD a getBlockFromItem (Lawi;)Lbfs;
 		ARG 0 item
-	METHOD a getTooltipInformation (Lawk;Lbap;Ljava/util/List;Laxs;)V
+	METHOD a getTooltipInformation (Lawm;Lbar;Ljava/util/List;Laxu;)V
 		ARG 0 stack
 		ARG 1 world
 		ARG 2 tooltip
 		ARG 3 flag
-	METHOD a onEntityLand (Lbap;Lahx;)V
+	METHOD a onEntityLand (Lbar;Lahz;)V
 		ARG 1 entity
-	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+	METHOD a getBlockFaceShape (Lbar;Lbob;Leg;Lem;)Lboa;
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
-	METHOD a getItem (Lbap;Lef;Lbnz;)Lawk;
-	METHOD a canDropFromExplosion (Lbav;)Z
+	METHOD a getItem (Lbar;Leg;Lbob;)Lawm;
+	METHOD a canDropFromExplosion (Lbax;)Z
 		ARG 0 explosion
-	METHOD a afterBreak (Lbbb;Larl;Lef;Lbnz;Lbmf;Lawk;)V
+	METHOD a afterBreak (Lbbd;Larn;Leg;Lbob;Lbmh;Lawm;)V
 		ARG 0 world
 		ARG 1 player
 		ARG 2 pos
 		ARG 4 blockEntity
 		ARG 5 stack
-	METHOD a onSteppedOn (Lbbb;Lef;Lahx;)V
+	METHOD a onSteppedOn (Lbbd;Leg;Lahz;)V
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 entity
-	METHOD a onLandedUpon (Lbbb;Lef;Lahx;F)V
+	METHOD a onLandedUpon (Lbbd;Leg;Lahz;F)V
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 entity
 		ARG 3 fallDistance
-	METHOD a onPlaced (Lbbb;Lef;Lbnz;Laig;Lawk;)V
+	METHOD a onPlaced (Lbbd;Leg;Lbob;Laii;Lawm;)V
 		ARG 0 world
 		ARG 1 pos
 		ARG 3 placer
 		ARG 4 stack
-	METHOD a onBreak (Lbbb;Lef;Lbnz;Larl;)V
+	METHOD a onBreak (Lbbd;Leg;Lbob;Larn;)V
 		ARG 0 world
 		ARG 1 pos
 		ARG 3 player
-	METHOD a modifyAcceleration (Lbbf;Lef;Lahx;Lcgg;)Lcgg;
-	METHOD a isFullBlock (Lbnz;)Z
-	METHOD a getDropAmount (Lbnz;ILbbb;Lef;Ljava/util/Random;)I
-	METHOD a canEntitySpawn (Lbnz;Lahx;)Z
-	METHOD a isNotSolid (Lbnz;Lbap;Lef;)Z
+	METHOD a modifyAcceleration (Lbbh;Leg;Lahz;Lcgi;)Lcgi;
+	METHOD a isFullBlock (Lbob;)Z
+	METHOD a getDropAmount (Lbob;ILbbd;Leg;Ljava/util/Random;)I
+	METHOD a canEntitySpawn (Lbob;Lahz;)Z
+	METHOD a isNotSolid (Lbob;Lbar;Leg;)Z
 		ARG 2 pos
-	METHOD a getWeakRedstonePower (Lbnz;Lbap;Lef;Lel;)I
+	METHOD a getWeakRedstonePower (Lbob;Lbar;Leg;Lem;)I
 		ARG 1 view
 		ARG 2 pos
 		ARG 3 facingFrom
-	METHOD a getComparatorOutput (Lbnz;Lbbb;Lef;)I
+	METHOD a getComparatorOutput (Lbob;Lbbd;Leg;)I
 		ARG 1 world
 		ARG 2 pos
-	METHOD a dropItems (Lbnz;Lbbb;Lef;FI)V
+	METHOD a dropItems (Lbob;Lbbd;Leg;FI)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 dropChance
 		ARG 4 fortune
-	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;
-	METHOD a onBlockAction (Lbnz;Lbbb;Lef;II)Z
+	METHOD a getDroppedItem (Lbob;Lbbd;Leg;I)Lbbc;
+	METHOD a onBlockAction (Lbob;Lbbd;Leg;II)Z
 		ARG 1 world
 		ARG 2 pos
-	METHOD a onEntityCollision (Lbnz;Lbbb;Lef;Lahx;)V
+	METHOD a onEntityCollision (Lbob;Lbbd;Leg;Lahz;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 entity
-	METHOD a onBlockBreakStart (Lbnz;Lbbb;Lef;Larl;)V
+	METHOD a onBlockBreakStart (Lbob;Lbbd;Leg;Larn;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 player
-	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z
+	METHOD a onActivated (Lbob;Lbbd;Leg;Larn;Lags;Lem;FFF)Z
 		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
@@ -129,74 +129,74 @@ CLASS bfq net/minecraft/block/Block
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
-	METHOD a update (Lbnz;Lbbb;Lef;Lbfq;Lef;)V
+	METHOD a update (Lbob;Lbbd;Leg;Lbfs;Leg;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 block
 		ARG 4 updatePos
-	METHOD a onBlockRemoved (Lbnz;Lbbb;Lef;Lbnz;)V
+	METHOD a onBlockRemoved (Lbob;Lbbd;Leg;Lbob;)V
 		ARG 1 world
 		ARG 2 pos
-	METHOD a randomTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+	METHOD a randomTick (Lbob;Lbbd;Leg;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
-	METHOD a withMirror (Lbnz;Lbiw;)Lbnz;
-	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;
-	METHOD a (Lbnz;Lbnz;Lbbc;Lef;)Lbnz;
+	METHOD a withMirror (Lbob;Lbiy;)Lbob;
+	METHOD a withRotation (Lbob;Lbkb;)Lbob;
+	METHOD a (Lbob;Lbob;Lbbe;Leg;)Lbob;
 		ARG 1 state
 		ARG 2 world
 		ARG 3 pos
-	METHOD a getDropAmount (Lbnz;Ljava/util/Random;)I
-	METHOD a get (Ljava/lang/String;)Lbfq;
+	METHOD a getDropAmount (Lbob;Ljava/util/Random;)I
+	METHOD a get (Ljava/lang/String;)Lbfs;
 		ARG 0 identifier
-	METHOD a register (Ljava/lang/String;Lbfq;)V
-	METHOD a register (Loj;Lbfq;)V
-	METHOD a hasTag (Lwf;)Z
+	METHOD a register (Ljava/lang/String;Lbfs;)V
+	METHOD a register (Lok;Lbfs;)V
+	METHOD a hasTag (Lwg;)Z
 		ARG 0 tag
-	METHOD b getState (I)Lbnz;
-	METHOD b getStrongRedstonePower (Lbnz;Lbap;Lef;Lel;)I
+	METHOD b getState (I)Lbob;
+	METHOD b getStrongRedstonePower (Lbob;Lbar;Leg;Lem;)I
 		ARG 1 view
 		ARG 2 pos
 		ARG 3 facingFrom
-	METHOD b onBlockAdded (Lbnz;Lbbb;Lef;Lbnz;)V
+	METHOD b onBlockAdded (Lbob;Lbbd;Leg;Lbob;)V
 		ARG 1 world
 		ARG 2 pos
-	METHOD b updateTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+	METHOD b updateTick (Lbob;Lbbd;Leg;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
-	METHOD c onRainTick (Lbbb;Lef;)V
+	METHOD c onRainTick (Lbbd;Leg;)V
 		ARG 0 world
 		ARG 1 pos
-	METHOD c isStone (Lbfq;)Z
-	METHOD c getRenderType (Lbnz;)Lbjw;
-	METHOD c getMapColor (Lbnz;Lbap;Lef;)Lcbg;
-	METHOD c randomDisplayTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+	METHOD c isStone (Lbfs;)Z
+	METHOD c getRenderType (Lbob;)Lbjy;
+	METHOD c randomDisplayTick (Lbob;Lbbd;Leg;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 rand
-	METHOD d isDirt (Lbfq;)Z
-	METHOD d getHardness (Lbnz;Lbap;Lef;)F
+	METHOD d isDirt (Lbfs;)Z
+	METHOD d getMapColor (Lbob;Lbar;Leg;)Lcbi;
+	METHOD e getHardness (Lbob;Lbar;Leg;)F
 	METHOD g hasBlockEntity ()Z
-	METHOD g getAmbientOcclusionLightValue (Lbnz;)F
-	METHOD h getItem ()Lawg;
-	METHOD h canProvidePower (Lbnz;)Z
-	METHOD i getPistonBehavior (Lbnz;)Lcbh;
+	METHOD g getAmbientOcclusionLightValue (Lbob;)F
+	METHOD h getItem ()Lawi;
+	METHOD h canProvidePower (Lbob;)Z
+	METHOD i getPistonBehavior (Lbob;)Lcbj;
 	METHOD j canSilkHarvest ()Z
-	METHOD k getTranslationName ()Lic;
-	METHOD k getStateId (Lbnz;)I
+	METHOD k getTranslationName ()Lid;
+	METHOD k getStateId (Lbob;)I
 		ARG 0 state
 	METHOD l getTranslationKey ()Ljava/lang/String;
-	METHOD l getLightValue (Lbnz;)I
-	METHOD m getMaterial (Lbnz;)Lcbf;
-	METHOD m getOffset (Lbnz;Lbap;Lef;)Lcgg;
-	METHOD n getDefaultState ()Lbnz;
-	METHOD o getOffsetType ()Lbfq$a;
-	METHOD p getSoundGroup ()Lbkp;
+	METHOD l getLightValue (Lbob;)I
+	METHOD m getMaterial (Lbob;)Lcbh;
+	METHOD m getOffset (Lbob;Lbar;Leg;)Lcgi;
+	METHOD n getDefaultState ()Lbob;
+	METHOD o getOffsetType ()Lbfs$a;
+	METHOD p getSoundGroup ()Lbkr;
 	METHOD q registerBlocks ()V
-	METHOD r shouldTickRandomly (Lbnz;)Z
-	METHOD s getSilkDrop (Lbnz;)Lawk;
-	METHOD t getFluidState (Lbnz;)Lcbb;
-	METHOD v setDefaultState (Lbnz;)V
+	METHOD r shouldTickRandomly (Lbob;)Z
+	METHOD s getSilkDrop (Lbob;)Lawm;
+	METHOD t getFluidState (Lbob;)Lcbd;
+	METHOD v setDefaultState (Lbob;)V
 		ARG 0 state

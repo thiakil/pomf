@@ -1,5 +1,5 @@
-CLASS ir net/minecraft/network/NetworkThreadUtils
-	METHOD a forceMainThread (Lip;Lhw;Lage;)V
+CLASS is net/minecraft/network/NetworkThreadUtils
+	METHOD a forceMainThread (Liq;Lhx;Lagg;)V
 		ARG 0 packet
 		ARG 1 packetListener
 		ARG 2 thread

@@ -1,27 +1,27 @@
-CLASS nt net/minecraft/server/ServerMetadata
-	CLASS nt$a PlayerInfo
+CLASS nu net/minecraft/server/ServerMetadata
+	CLASS nu$a PlayerInfo
 		FIELD a maxPlayers I
 		FIELD b onlinePlayers I
 		METHOD a getMaxPlayers ()I
 		METHOD b getOnlinePlayers ()I
-	CLASS nt$c VersionInfo
+	CLASS nu$c VersionInfo
 		FIELD a name Ljava/lang/String;
 		FIELD b protocolVersion I
 		METHOD a getName ()Ljava/lang/String;
 		METHOD b getProtocolVersion ()I
-	FIELD a description Lic;
-	FIELD b playerInfo Lnt$a;
-	FIELD c versionInfo Lnt$c;
+	FIELD a description Lid;
+	FIELD b playerInfo Lnu$a;
+	FIELD c versionInfo Lnu$c;
 	FIELD d iconData Ljava/lang/String;
-	METHOD a getDescription ()Lic;
-	METHOD a setDescription (Lic;)V
+	METHOD a getDescription ()Lid;
+	METHOD a setDescription (Lid;)V
 		ARG 0 value
 	METHOD a setIconData (Ljava/lang/String;)V
 		ARG 0 value
-	METHOD a setPlayerInfo (Lnt$a;)V
+	METHOD a setPlayerInfo (Lnu$a;)V
 		ARG 0 value
-	METHOD a setVersionInfo (Lnt$c;)V
+	METHOD a setVersionInfo (Lnu$c;)V
 		ARG 0 value
-	METHOD b getPlayerInfo ()Lnt$a;
-	METHOD c getVersionInfo ()Lnt$c;
+	METHOD b getPlayerInfo ()Lnu$a;
+	METHOD c getVersionInfo ()Lnu$c;
 	METHOD d getIconData ()Ljava/lang/String;

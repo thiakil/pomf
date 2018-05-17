@@ -1,5 +1,5 @@
-CLASS crv net/minecraft/client/render/entity/model/EntityModelZombie
-	METHOD a setRotationAngles (FFFFFFLahx;)V
+CLASS crx net/minecraft/client/render/entity/model/EntityModelZombie
+	METHOD a setRotationAngles (FFFFFFLahz;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount
 		ARG 2 age

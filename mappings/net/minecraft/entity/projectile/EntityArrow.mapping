@@ -1,29 +1,29 @@
-CLASS arr net/minecraft/entity/projectile/EntityArrow
-	FIELD f COLOR Lny;
-	FIELD g potion Laxz;
+CLASS art net/minecraft/entity/projectile/EntityArrow
+	FIELD f COLOR Lnz;
+	FIELD g potion Layb;
 	FIELD h effects Ljava/util/Set;
-	METHOD <init> (Lbbb;DDD)V
+	METHOD <init> (Lbbd;DDD)V
 		ARG 0 world
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD <init> (Lbbb;Laig;)V
+	METHOD <init> (Lbbd;Laii;)V
 		ARG 0 world
 		ARG 1 owner
 	METHOD R_ update ()V
-	METHOD a addEffect (Lahq;)V
+	METHOD a addEffect (Lahs;)V
 		ARG 0 effect
-	METHOD a onHit (Laig;)V
+	METHOD a onHit (Laii;)V
 		ARG 0 entity
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD b spawnParticles (I)V
 		ARG 0 count
-	METHOD b initFromStack (Lawk;)V
+	METHOD b initFromStack (Lawm;)V
 		ARG 0 stack
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
-	METHOD k asItemStack ()Lawk;
+	METHOD k asItemStack ()Lawm;
 	METHOD q getColor ()I
 	METHOD r initColor ()V
 	METHOD w_ initDataTracker ()V

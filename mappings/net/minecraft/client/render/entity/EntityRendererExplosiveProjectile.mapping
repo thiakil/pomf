@@ -1,5 +1,5 @@
-CLASS dae net/minecraft/client/render/entity/EntityRendererExplosiveProjectile
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dag net/minecraft/client/render/entity/EntityRendererExplosiveProjectile
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Larq;)Loj;
+	METHOD a getTexture (Lars;)Lok;
 		ARG 0 model

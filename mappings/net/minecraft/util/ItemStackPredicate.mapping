@@ -1,29 +1,29 @@
-CLASS aym net/minecraft/util/ItemStackPredicate
-	CLASS aym$1
-		METHOD a matchesItem (Lawk;)Z
-	CLASS aym$a SingleStack
-		FIELD a sourceStack Lawk;
+CLASS ayo net/minecraft/util/ItemStackPredicate
+	CLASS ayo$1
+		METHOD a matchesItem (Lawm;)Z
+	CLASS ayo$a SingleStack
+		FIELD a sourceStack Lawm;
 		METHOD a getStackCollection ()Ljava/util/Collection;
 		METHOD b getAsJSON ()Lcom/google/gson/JsonObject;
-	CLASS aym$b TagSource
-		FIELD a sourceTag Lwf;
+	CLASS ayo$b TagSource
+		FIELD a sourceTag Lwg;
 		METHOD a getStackCollection ()Ljava/util/Collection;
 		METHOD b getAsJSON ()Lcom/google/gson/JsonObject;
-	CLASS aym$c SerializableSource
+	CLASS ayo$c SerializableSource
 		METHOD a getStackCollection ()Ljava/util/Collection;
 		METHOD b getAsJSON ()Lcom/google/gson/JsonObject;
-	FIELD c explodedStacks [Lawk;
+	FIELD c explodedStacks [Lawm;
 	FIELD d explodedIds Lit/unimi/dsi/fastutil/ints/IntList;
-	METHOD a getExplodedStacks ()[Lawk;
-	METHOD a matchesItem (Lawk;)Z
-	METHOD a deserializeList (Lcom/google/gson/JsonElement;)Laym;
-	METHOD a deserializeEntry (Lcom/google/gson/JsonObject;)Laym$c;
-	METHOD a writeExplodedStacks (Lht;)V
-	METHOD a from (Lwf;)Laym;
-	METHOD a from ([Lawk;)Laym;
-	METHOD a from ([Lbba;)Laym;
+	METHOD a getExplodedStacks ()[Lawm;
+	METHOD a matchesItem (Lawm;)Z
+	METHOD a deserializeList (Lcom/google/gson/JsonElement;)Layo;
+	METHOD a deserializeEntry (Lcom/google/gson/JsonObject;)Layo$c;
+	METHOD a writeExplodedStacks (Lhu;)V
+	METHOD a from (Lwg;)Layo;
+	METHOD a from ([Lawm;)Layo;
+	METHOD a from ([Lbbc;)Layo;
 	METHOD b getExplodedIds ()Lit/unimi/dsi/fastutil/ints/IntList;
-	METHOD b readFrom (Lht;)Laym;
+	METHOD b readFrom (Lhu;)Layo;
 	METHOD c getAsJSON ()Lcom/google/gson/JsonElement;
 	METHOD d isEmpty ()Z
 	METHOD e explode ()V

@@ -1,6 +1,6 @@
-CLASS dbb net/minecraft/client/render/entity/EntityRendererPainting
-	FIELD a TEX Loj;
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dbd net/minecraft/client/render/entity/EntityRendererPainting
+	FIELD a TEX Lok;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Lapj;)Loj;
+	METHOD a getTexture (Lapl;)Lok;
 		ARG 0 model

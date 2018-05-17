@@ -1,4 +1,4 @@
-CLASS ce net/minecraft/command/argument/ArgumentObjective
+CLASS cf net/minecraft/command/argument/ArgumentObjective
 	FIELD a COMMANDS_SCOREBOARD_OBJECTIVES_ADD_LONGNAME Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
 	FIELD b FOO Ljava/util/Collection;
 	FIELD c ARGUMENTS_OBJECTIVE_NOTFOUND Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;

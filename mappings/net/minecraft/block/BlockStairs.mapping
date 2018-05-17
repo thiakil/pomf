@@ -1,36 +1,36 @@
-CLASS bku net/minecraft/block/BlockStairs
-	CLASS bku$a
-		FIELD a TOP Lbku$a;
-		FIELD b BOTTOM Lbku$a;
+CLASS bkw net/minecraft/block/BlockStairs
+	CLASS bkw$a
+		FIELD a TOP Lbkw$a;
+		FIELD b BOTTOM Lbkw$a;
 		METHOD m asString ()Ljava/lang/String;
-	CLASS bku$b Shape
-		FIELD a STRAIGHT Lbku$b;
-		FIELD b INNER_LEFT Lbku$b;
-		FIELD c INNER_RIGHT Lbku$b;
-		FIELD d OUTER_LEFT Lbku$b;
-		FIELD e OUTER_RIGHT Lbku$b;
+	CLASS bkw$b Shape
+		FIELD a STRAIGHT Lbkw$b;
+		FIELD b INNER_LEFT Lbkw$b;
+		FIELD c INNER_RIGHT Lbkw$b;
+		FIELD d OUTER_LEFT Lbkw$b;
+		FIELD e OUTER_RIGHT Lbkw$b;
 		FIELD f name Ljava/lang/String;
 		METHOD m asString ()Ljava/lang/String;
-	FIELD b HALF Lbow;
-	FIELD c SHAPE Lbow;
-	FIELD t WATERLOGGED Lbou;
-	METHOD X_ getRenderLayer ()Lbaq;
-	METHOD a getDefaultState (Laup;)Lbnz;
-	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+	FIELD b HALF Lboy;
+	FIELD c SHAPE Lboy;
+	FIELD t WATERLOGGED Lbow;
+	METHOD X_ getRenderLayer ()Lbas;
+	METHOD a getDefaultState (Laur;)Lbob;
+	METHOD a getBlockFaceShape (Lbar;Lbob;Leg;Lem;)Lboa;
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
-	METHOD a onSteppedOn (Lbbb;Lef;Lahx;)V
+	METHOD a onSteppedOn (Lbbd;Leg;Lahz;)V
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 entity
-	METHOD a modifyAcceleration (Lbbf;Lef;Lahx;Lcgg;)Lcgg;
-	METHOD a isFullBlock (Lbnz;)Z
-	METHOD a onBlockBreakStart (Lbnz;Lbbb;Lef;Larl;)V
+	METHOD a modifyAcceleration (Lbbh;Leg;Lahz;Lcgi;)Lcgi;
+	METHOD a isFullBlock (Lbob;)Z
+	METHOD a onBlockBreakStart (Lbob;Lbbd;Leg;Larn;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 player
-	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z
+	METHOD a onActivated (Lbob;Lbbd;Leg;Larn;Lags;Lem;FFF)Z
 		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
@@ -40,20 +40,20 @@ CLASS bku net/minecraft/block/BlockStairs
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
-	METHOD a onBlockRemoved (Lbnz;Lbbb;Lef;Lbnz;)V
+	METHOD a onBlockRemoved (Lbob;Lbbd;Leg;Lbob;)V
 		ARG 1 world
 		ARG 2 pos
-	METHOD a withMirror (Lbnz;Lbiw;)Lbnz;
-	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;
-	METHOD b onBlockAdded (Lbnz;Lbbb;Lef;Lbnz;)V
+	METHOD a withMirror (Lbob;Lbiy;)Lbob;
+	METHOD a withRotation (Lbob;Lbkb;)Lbob;
+	METHOD b onBlockAdded (Lbob;Lbbd;Leg;Lbob;)V
 		ARG 1 world
 		ARG 2 pos
-	METHOD b updateTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+	METHOD b updateTick (Lbob;Lbbd;Leg;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 random
-	METHOD c randomDisplayTick (Lbnz;Lbbb;Lef;Ljava/util/Random;)V
+	METHOD c randomDisplayTick (Lbob;Lbbd;Leg;Ljava/util/Random;)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 rand
-	METHOD t getFluidState (Lbnz;)Lcbb;
+	METHOD t getFluidState (Lbob;)Lcbd;

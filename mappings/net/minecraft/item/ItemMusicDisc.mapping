@@ -1,6 +1,6 @@
-CLASS awx net/minecraft/item/ItemMusicDisc
-	METHOD a addInformation (Lawk;Lbbb;Ljava/util/List;Laxs;)V
+CLASS awz net/minecraft/item/ItemMusicDisc
+	METHOD a addInformation (Lawm;Lbbd;Ljava/util/List;Laxu;)V
 		ARG 0 stack
 		ARG 2 tooltip
-	METHOD e getRarity (Lawk;)Laww;
+	METHOD e getRarity (Lawm;)Lawy;
 		ARG 0 stack

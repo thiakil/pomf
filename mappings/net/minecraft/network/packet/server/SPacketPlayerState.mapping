@@ -1,27 +1,27 @@
-CLASS mp net/minecraft/network/packet/server/SPacketPlayerState
-	CLASS mp$a State
-		FIELD a START_DESTROY_BLOCK Lmp$a;
-		FIELD b ABORT_DESTROY_BLOCK Lmp$a;
-		FIELD c STOP_DESTROY_BLOCK Lmp$a;
-		FIELD d DROP_ALL_ITEMS Lmp$a;
-		FIELD e DROP_ITEM Lmp$a;
-		FIELD f RELEASE_USE_ITEM Lmp$a;
-		FIELD g SWAP_HELD_ITEMS Lmp$a;
-	FIELD a pos Lef;
-	FIELD b hitFace Lel;
-	FIELD c state Lmp$a;
-	METHOD <init> (Lmp$a;Lef;Lel;)V
+CLASS mq net/minecraft/network/packet/server/SPacketPlayerState
+	CLASS mq$a State
+		FIELD a START_DESTROY_BLOCK Lmq$a;
+		FIELD b ABORT_DESTROY_BLOCK Lmq$a;
+		FIELD c STOP_DESTROY_BLOCK Lmq$a;
+		FIELD d DROP_ALL_ITEMS Lmq$a;
+		FIELD e DROP_ITEM Lmq$a;
+		FIELD f RELEASE_USE_ITEM Lmq$a;
+		FIELD g SWAP_HELD_ITEMS Lmq$a;
+	FIELD a pos Leg;
+	FIELD b hitFace Lem;
+	FIELD c state Lmq$a;
+	METHOD <init> (Lmq$a;Leg;Lem;)V
 		ARG 0 state
 		ARG 1 pos
 		ARG 2 facing
-	METHOD a getPos ()Lef;
-	METHOD a readPacket (Lht;)V
+	METHOD a getPos ()Leg;
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD a applyPacket (Llx;)V
+	METHOD a applyPacket (Lly;)V
 		ARG 0 handler
-	METHOD b getHitFace ()Lel;
-	METHOD b writePacket (Lht;)V
+	METHOD b getHitFace ()Lem;
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf
-	METHOD c getState ()Lmp$a;
+	METHOD c getState ()Lmq$a;

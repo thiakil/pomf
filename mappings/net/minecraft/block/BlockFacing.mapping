@@ -1,2 +1,2 @@
-CLASS bgy net/minecraft/block/BlockFacing
-	FIELD a FACING Lbov;
+CLASS bha net/minecraft/block/BlockFacing
+	FIELD a FACING Lbox;

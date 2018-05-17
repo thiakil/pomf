@@ -1,6 +1,6 @@
-CLASS rt net/minecraft/server/dedicated/DedicatedServerConfigurationManager
+CLASS ru net/minecraft/server/dedicated/DedicatedServerConfigurationManager
 	FIELD f LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD <init> (Lru;)V
+	METHOD <init> (Lrv;)V
 		ARG 0 server
 	METHOD A loadBannedIps ()V
 	METHOD B loadBannedProfiles ()V
@@ -13,7 +13,7 @@ CLASS rt net/minecraft/server/dedicated/DedicatedServerConfigurationManager
 		ARG 0 profile
 	METHOD a setWhitelistEnabled (Z)V
 		ARG 0 value
-	METHOD b getServer ()Lru;
+	METHOD b getServer ()Lrv;
 	METHOD b removeFromOperators (Lcom/mojang/authlib/GameProfile;)V
 		ARG 0 profile
 	METHOD c getServer ()Lnet/minecraft/server/MinecraftServer;

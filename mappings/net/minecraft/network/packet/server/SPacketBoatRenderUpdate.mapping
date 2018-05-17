@@ -1,9 +1,9 @@
-CLASS mm net/minecraft/network/packet/server/SPacketBoatRenderUpdate
-	METHOD a readPacket (Lht;)V
+CLASS mn net/minecraft/network/packet/server/SPacketBoatRenderUpdate
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD a applyPacket (Llx;)V
+	METHOD a applyPacket (Lly;)V
 		ARG 0 handler
-	METHOD b writePacket (Lht;)V
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf

@@ -1,5 +1,5 @@
-CLASS btu net/minecraft/world/gen/decorator/DecoratorTreeJungle
-	METHOD a generateVines (Lbbc;Ljava/util/Random;Lef;Lbou;)V
+CLASS btw net/minecraft/world/gen/decorator/DecoratorTreeJungle
+	METHOD a generateVines (Lbbe;Ljava/util/Random;Leg;Lbow;)V
 		ARG 1 random
 		ARG 2 pos
 		ARG 3 property

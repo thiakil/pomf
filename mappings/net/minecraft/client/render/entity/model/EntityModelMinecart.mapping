@@ -1,5 +1,5 @@
-CLASS cqg net/minecraft/client/render/entity/model/EntityModelMinecart
-	METHOD a render (Lahx;FFFFFF)V
+CLASS cqi net/minecraft/client/render/entity/model/EntityModelMinecart
+	METHOD a render (Lahz;FFFFFF)V
 		ARG 0 entity
 		ARG 1 limbMoveAngle
 		ARG 2 limbMoveAmount

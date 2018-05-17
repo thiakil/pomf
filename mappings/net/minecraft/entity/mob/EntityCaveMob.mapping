@@ -1,3 +1,3 @@
-CLASS amq net/minecraft/entity/mob/EntityCaveMob
-	METHOD a canBeLeashedBy (Larl;)Z
+CLASS ams net/minecraft/entity/mob/EntityCaveMob
+	METHOD a canBeLeashedBy (Larn;)Z
 		ARG 0 player

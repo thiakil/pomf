@@ -1,6 +1,6 @@
-CLASS csw net/minecraft/client/particle/ParticleCrack
-	CLASS csw$a
-		METHOD a createParticle (Lff;Lbbb;DDDDDD)Lcts;
+CLASS csy net/minecraft/client/particle/ParticleCrack
+	CLASS csy$a
+		METHOD a createParticle (Lfg;Lbbd;DDDDDD)Lctu;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -8,7 +8,7 @@ CLASS csw net/minecraft/client/particle/ParticleCrack
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lcts;
+		METHOD a createParticle (Lfh;Lbbd;DDDDDD)Lctu;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -16,8 +16,8 @@ CLASS csw net/minecraft/client/particle/ParticleCrack
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-	CLASS csw$b
-		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lcts;
+	CLASS csy$b
+		METHOD a createParticle (Lfh;Lbbd;DDDDDD)Lctu;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -25,7 +25,7 @@ CLASS csw net/minecraft/client/particle/ParticleCrack
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lcts;
+		METHOD a createParticle (Lfk;Lbbd;DDDDDD)Lctu;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -33,8 +33,8 @@ CLASS csw net/minecraft/client/particle/ParticleCrack
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-	CLASS csw$c
-		METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lcts;
+	CLASS csy$c
+		METHOD a createParticle (Lfh;Lbbd;DDDDDD)Lctu;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -42,7 +42,7 @@ CLASS csw net/minecraft/client/particle/ParticleCrack
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-		METHOD a createParticle (Lfj;Lbbb;DDDDDD)Lcts;
+		METHOD a createParticle (Lfk;Lbbd;DDDDDD)Lctu;
 			ARG 1 world
 			ARG 2 x
 			ARG 3 y
@@ -50,9 +50,9 @@ CLASS csw net/minecraft/client/particle/ParticleCrack
 			ARG 5 velocityX
 			ARG 6 velocityY
 			ARG 7 velocityZ
-	METHOD <init> (Lbbb;DDDDDDLawk;)V
+	METHOD <init> (Lbbd;DDDDDDLawm;)V
 		ARG 0 world
-	METHOD a buildGeometry (Lcuw;Lahx;FFFFFF)V
+	METHOD a buildGeometry (Lcuy;Lahz;FFFFFF)V
 		ARG 0 vertexBuffer
 		ARG 1 entity
 		ARG 2 deltaTicks

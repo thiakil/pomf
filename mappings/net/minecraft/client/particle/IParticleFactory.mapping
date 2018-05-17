@@ -1,5 +1,5 @@
-CLASS ctu net/minecraft/client/particle/IParticleFactory
-	METHOD a createParticle (Lfg;Lbbb;DDDDDD)Lcts;
+CLASS ctw net/minecraft/client/particle/IParticleFactory
+	METHOD a createParticle (Lfh;Lbbd;DDDDDD)Lctu;
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y

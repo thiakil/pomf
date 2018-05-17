@@ -1,10 +1,10 @@
-CLASS clz net/minecraft/client/gui/menu/GuiAdvancements
-	FIELD a WINDOW_TEX Loj;
-	FIELD f TABS_TEX Loj;
-	FIELD g advancementHandler Lcsg;
+CLASS cmb net/minecraft/client/gui/menu/GuiAdvancements
+	FIELD a WINDOW_TEX Lok;
+	FIELD f TABS_TEX Lok;
+	FIELD g advancementHandler Lcsi;
 	FIELD h widgetMap Ljava/util/Map;
-	FIELD i selectedWidget Lclv;
-	METHOD <init> (Lcsg;)V
+	FIELD i selectedWidget Lclx;
+	METHOD <init> (Lcsi;)V
 		ARG 0 advancementHandler
 	METHOD a draw (IIF)V
 		ARG 0 mouseX

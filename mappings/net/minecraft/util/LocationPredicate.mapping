@@ -2,10 +2,10 @@ CLASS ax net/minecraft/util/LocationPredicate
 	FIELD b x Laz;
 	FIELD c y Laz;
 	FIELD d z Laz;
-	FIELD e biome Lbbv;
+	FIELD e biome Lbbx;
 	FIELD f feature Ljava/lang/String;
-	FIELD g dimension Lbqj;
-	METHOD <init> (Laz;Laz;Laz;Lbbv;Ljava/lang/String;Lbqj;)V
+	FIELD g dimension Lbql;
+	METHOD <init> (Laz;Laz;Laz;Lbbx;Ljava/lang/String;Lbql;)V
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
@@ -13,12 +13,12 @@ CLASS ax net/minecraft/util/LocationPredicate
 		ARG 4 feature
 		ARG 5 dimension
 	METHOD a deserialize (Lcom/google/gson/JsonElement;)Lax;
-	METHOD a matches (Lsj;DDD)Z
+	METHOD a matches (Lsk;DDD)Z
 		ARG 0 world
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD a matches (Lsj;FFF)Z
+	METHOD a matches (Lsk;FFF)Z
 		ARG 0 world
 		ARG 1 x
 		ARG 2 y

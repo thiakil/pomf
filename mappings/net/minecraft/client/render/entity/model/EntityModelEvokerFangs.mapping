@@ -1,5 +1,5 @@
-CLASS cpv net/minecraft/client/render/entity/model/EntityModelEvokerFangs
-	METHOD a render (Lahx;FFFFFF)V
+CLASS cpx net/minecraft/client/render/entity/model/EntityModelEvokerFangs
+	METHOD a render (Lahz;FFFFFF)V
 		ARG 0 entity
 		ARG 1 limbMoveAngle
 		ARG 2 limbMoveAmount

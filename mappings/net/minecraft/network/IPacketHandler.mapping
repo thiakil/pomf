@@ -1,7 +1,7 @@
-CLASS ip net/minecraft/network/IPacketHandler
-	METHOD a readPacket (Lht;)V
+CLASS iq net/minecraft/network/IPacketHandler
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD b writePacket (Lht;)V
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf

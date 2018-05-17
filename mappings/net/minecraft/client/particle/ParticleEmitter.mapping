@@ -1,16 +1,16 @@
-CLASS cuh net/minecraft/client/particle/ParticleEmitter
-	FIELD J entity Lahx;
-	FIELD M type Lfg;
-	METHOD <init> (Lbbb;Lahx;Lfg;)V
+CLASS cuj net/minecraft/client/particle/ParticleEmitter
+	FIELD J entity Lahz;
+	FIELD M type Lfh;
+	METHOD <init> (Lbbd;Lahz;Lfh;)V
 		ARG 0 world
 		ARG 1 entity
 		ARG 2 type
-	METHOD <init> (Lbbb;Lahx;Lfg;I)V
+	METHOD <init> (Lbbd;Lahz;Lfh;I)V
 		ARG 0 world
 		ARG 1 entity
 		ARG 2 type
 	METHOD a update ()V
-	METHOD a buildGeometry (Lcuw;Lahx;FFFFFF)V
+	METHOD a buildGeometry (Lcuy;Lahz;FFFFFF)V
 		ARG 0 vertexBuffer
 		ARG 1 entity
 		ARG 2 deltaTicks

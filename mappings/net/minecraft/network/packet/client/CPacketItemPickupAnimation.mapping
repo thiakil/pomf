@@ -1,4 +1,4 @@
-CLASS lq net/minecraft/network/packet/client/CPacketItemPickupAnimation
+CLASS lr net/minecraft/network/packet/client/CPacketItemPickupAnimation
 	FIELD a entityId I
 	FIELD b collectorEntityId I
 	FIELD c stackAmount I
@@ -7,13 +7,13 @@ CLASS lq net/minecraft/network/packet/client/CPacketItemPickupAnimation
 		ARG 1 collectorId
 		ARG 2 stackAmount
 	METHOD a getEntityId ()I
-	METHOD a readPacket (Lht;)V
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD a applyPacket (Lis;)V
+	METHOD a applyPacket (Lit;)V
 		ARG 0 handler
 	METHOD b getCollectorEntityId ()I
-	METHOD b writePacket (Lht;)V
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf
 	METHOD c getStackAmount ()I

@@ -1,6 +1,6 @@
-CLASS ani net/minecraft/entity/passive/EntitySalmon
-	METHOD E getSoundAmbient ()Lvo;
-	METHOD H getLootTableId ()Loj;
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahg;)Lvo;
+CLASS ank net/minecraft/entity/passive/EntitySalmon
+	METHOD E getSoundAmbient ()Lvp;
+	METHOD H getLootTableId ()Lok;
+	METHOD ct getSoundDeath ()Lvp;
+	METHOD d getSoundHurt (Lahi;)Lvp;
 	METHOD dC getMaxSchoolSize ()I

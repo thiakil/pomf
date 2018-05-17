@@ -1,53 +1,53 @@
-CLASS ef net/minecraft/util/math/BlockPos
-	CLASS ef$a Mutable
+CLASS eg net/minecraft/util/math/BlockPos
+	CLASS eg$a Mutable
 		FIELD b x I
 		FIELD c y I
 		FIELD d z I
-		METHOD a add (DDD)Lef;
+		METHOD a add (DDD)Leg;
 			ARG 0 x
 			ARG 1 y
 			ARG 2 z
-		METHOD a add (III)Lef;
+		METHOD a add (III)Leg;
 			ARG 0 x
 			ARG 1 y
 			ARG 2 z
-		METHOD a set (Lahx;)Lef$a;
-		METHOD a offset (Lel;I)Lef;
+		METHOD a set (Lahz;)Leg$a;
+		METHOD a offset (Lem;I)Leg;
 			ARG 0 facing
 			ARG 1 distance
-		METHOD c set (DDD)Lef$a;
-		METHOD c set (III)Lef$a;
-		METHOD c setOffset (Lel;)Lef$a;
-		METHOD c setOffset (Lel;I)Lef$a;
-		METHOD d crossProduct (Lfb;)Lfb;
+		METHOD c set (DDD)Leg$a;
+		METHOD c set (III)Leg$a;
+		METHOD c setOffset (Lem;)Leg$a;
+		METHOD c setOffset (Lem;I)Leg$a;
+		METHOD d crossProduct (Lfc;)Lfc;
 			ARG 0 vec
-		METHOD g set (Lfb;)Lef$a;
-		METHOD h toImmutable ()Lef;
+		METHOD g set (Lfc;)Leg$a;
+		METHOD h toImmutable ()Leg;
 		METHOD p getX ()I
 		METHOD p setY (I)V
 		METHOD q getY ()I
 		METHOD r getZ ()I
-	CLASS ef$b PooledMutable
+	CLASS eg$b PooledMutable
 		FIELD f usable Z
 		FIELD g POOL Ljava/util/List;
-		METHOD a set (Lahx;)Lef$a;
-		METHOD c set (DDD)Lef$a;
-		METHOD c set (III)Lef$a;
-		METHOD c set (Lahx;)Lef$b;
-		METHOD c setOffset (Lel;)Lef$a;
-		METHOD c setOffset (Lel;I)Lef$a;
-		METHOD d get (DDD)Lef$b;
-		METHOD d setOffset (Lel;)Lef$b;
-		METHOD d setOffset (Lel;I)Lef$b;
-		METHOD e set (DDD)Lef$b;
-		METHOD e get (III)Lef$b;
-		METHOD f set (III)Lef$b;
-		METHOD g set (Lfb;)Lef$a;
-		METHOD i get (Lfb;)Lef$b;
-		METHOD j set (Lfb;)Lef$b;
-		METHOD s get ()Lef$b;
+		METHOD a set (Lahz;)Leg$a;
+		METHOD c set (DDD)Leg$a;
+		METHOD c set (III)Leg$a;
+		METHOD c set (Lahz;)Leg$b;
+		METHOD c setOffset (Lem;)Leg$a;
+		METHOD c setOffset (Lem;I)Leg$a;
+		METHOD d get (DDD)Leg$b;
+		METHOD d setOffset (Lem;)Leg$b;
+		METHOD d setOffset (Lem;I)Leg$b;
+		METHOD e set (DDD)Leg$b;
+		METHOD e get (III)Leg$b;
+		METHOD f set (III)Leg$b;
+		METHOD g set (Lfc;)Leg$a;
+		METHOD i get (Lfc;)Leg$b;
+		METHOD j set (Lfc;)Leg$b;
+		METHOD s get ()Leg$b;
 		METHOD t free ()V
-	FIELD a ORIGIN Lef;
+	FIELD a ORIGIN Leg;
 	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD c BITS_X I
 	FIELD d BITS_Z I
@@ -65,18 +65,18 @@ CLASS ef net/minecraft/util/math/BlockPos
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
-	METHOD <init> (Lahx;)V
+	METHOD <init> (Lahz;)V
 		ARG 0 entity
-	METHOD <init> (Lcgg;)V
+	METHOD <init> (Lcgi;)V
 		ARG 0 vec
-	METHOD <init> (Lfb;)V
+	METHOD <init> (Lfc;)V
 		ARG 0 vec
-	METHOD a up ()Lef;
-	METHOD a add (DDD)Lef;
+	METHOD a up ()Leg;
+	METHOD a add (DDD)Leg;
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
-	METHOD a add (III)Lef;
+	METHOD a add (III)Leg;
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
@@ -87,20 +87,20 @@ CLASS ef net/minecraft/util/math/BlockPos
 		ARG 3 maxX
 		ARG 4 maxY
 		ARG 5 maxZ
-	METHOD a fromLong (J)Lef;
+	METHOD a fromLong (J)Leg;
 		ARG 0 l
-	METHOD a iterateBoxPositions (Lef;Lef;)Ljava/lang/Iterable;
+	METHOD a iterateBoxPositions (Leg;Leg;)Ljava/lang/Iterable;
 		ARG 0 pos1
 		ARG 1 pos2
-	METHOD a offset (Lel;)Lef;
+	METHOD a offset (Lem;)Leg;
 		ARG 0 facing
-	METHOD a offset (Lel;I)Lef;
+	METHOD a offset (Lem;I)Leg;
 		ARG 0 facing
 		ARG 1 distance
-	METHOD a add (Lfb;)Lef;
+	METHOD a add (Lfc;)Leg;
 		ARG 0 vec
-	METHOD b down ()Lef;
-	METHOD b up (I)Lef;
+	METHOD b down ()Leg;
+	METHOD b up (I)Leg;
 		ARG 0 distance
 	METHOD b iterateBoxPositionsMutable (IIIIII)Ljava/lang/Iterable;
 		ARG 0 minX
@@ -109,28 +109,28 @@ CLASS ef net/minecraft/util/math/BlockPos
 		ARG 3 maxX
 		ARG 4 maxY
 		ARG 5 maxZ
-	METHOD b iterateBoxPositionsMutable (Lef;Lef;)Ljava/lang/Iterable;
+	METHOD b iterateBoxPositionsMutable (Leg;Leg;)Ljava/lang/Iterable;
 		ARG 0 pos1
 		ARG 1 pos2
-	METHOD b subtract (Lfb;)Lef;
+	METHOD b subtract (Lfc;)Leg;
 		ARG 0 vec
-	METHOD c north ()Lef;
-	METHOD c down (I)Lef;
+	METHOD c north ()Leg;
+	METHOD c down (I)Leg;
 		ARG 0 distance
-	METHOD c crossProduct (Lfb;)Lef;
+	METHOD c crossProduct (Lfc;)Leg;
 		ARG 0 vec
-	METHOD d south ()Lef;
-	METHOD d north (I)Lef;
+	METHOD d south ()Leg;
+	METHOD d north (I)Leg;
 		ARG 0 distance
-	METHOD d crossProduct (Lfb;)Lfb;
+	METHOD d crossProduct (Lfc;)Lfc;
 		ARG 0 vec
-	METHOD e west ()Lef;
-	METHOD e south (I)Lef;
+	METHOD e west ()Leg;
+	METHOD e south (I)Leg;
 		ARG 0 distance
-	METHOD f east ()Lef;
-	METHOD f west (I)Lef;
+	METHOD f east ()Leg;
+	METHOD f west (I)Leg;
 		ARG 0 distance
 	METHOD g toLong ()J
-	METHOD g east (I)Lef;
+	METHOD g east (I)Leg;
 		ARG 0 distance
-	METHOD h toImmutable ()Lef;
+	METHOD h toImmutable ()Leg;

@@ -1,9 +1,9 @@
-CLASS dds net/minecraft/client/render/entity/EntityRendererIronGolemFlower
-	FIELD a golem Ldcf;
-	METHOD <init> (Ldcf;)V
+CLASS ddu net/minecraft/client/render/entity/EntityRendererIronGolemFlower
+	FIELD a golem Ldch;
+	METHOD <init> (Ldch;)V
 		ARG 0 goldem
 	METHOD a shouldMergeTextures ()Z
-	METHOD a render (Laig;FFFFFFF)V
+	METHOD a render (Laii;FFFFFFF)V
 		ARG 0 entity
-	METHOD a render (Lanp;FFFFFFF)V
+	METHOD a render (Lanr;FFFFFFF)V
 		ARG 0 entity

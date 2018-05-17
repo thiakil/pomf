@@ -1,6 +1,6 @@
-CLASS dbn net/minecraft/client/render/entity/EntityRendererSilverfish
-	FIELD a SKIN Loj;
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dbp net/minecraft/client/render/entity/EntityRendererSilverfish
+	FIELD a SKIN Lok;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD b getTexture (Laqr;)Loj;
+	METHOD b getTexture (Laqt;)Lok;
 		ARG 0 model

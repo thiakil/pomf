@@ -1,4 +1,4 @@
-CLASS bpj net/minecraft/world/chunk/IChunkProvider
-	METHOD d generate (II)Lbpe;
+CLASS bpl net/minecraft/world/chunk/IChunkProvider
+	METHOD d generate (II)Lbpg;
 		ARG 0 chunkX
 		ARG 1 chunkZ

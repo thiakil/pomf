@@ -1,5 +1,5 @@
-CLASS cvt net/minecraft/client/render/ChunkRendererCache
-	FIELD b world Lbbb;
-	METHOD <init> (Lbbb;ILcvj;Lcye;)V
+CLASS cvv net/minecraft/client/render/ChunkRendererCache
+	FIELD b world Lbbd;
+	METHOD <init> (Lbbd;ILcvl;Lcyg;)V
 		ARG 0 world
 	METHOD a markRegionForRenderUpdate (IIIIIIZ)V

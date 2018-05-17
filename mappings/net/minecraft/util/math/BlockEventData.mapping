@@ -1,15 +1,15 @@
-CLASS bao net/minecraft/util/math/BlockEventData
-	FIELD a pos Lef;
-	FIELD b block Lbfq;
+CLASS baq net/minecraft/util/math/BlockEventData
+	FIELD a pos Leg;
+	FIELD b block Lbfs;
 	FIELD c id I
 	FIELD d parameter I
-	METHOD <init> (Lef;Lbfq;II)V
+	METHOD <init> (Leg;Lbfs;II)V
 		ARG 0 pos
 		ARG 1 block
 		ARG 2 id
 		ARG 3 parameter
-	METHOD a getPos ()Lef;
-	METHOD b getBlock ()Lbfq;
+	METHOD a getPos ()Leg;
+	METHOD b getBlock ()Lbfs;
 	METHOD c getId ()I
 	METHOD d getParameter ()I
 	METHOD equals (Ljava/lang/Object;)Z

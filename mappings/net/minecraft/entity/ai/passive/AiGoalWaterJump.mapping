@@ -1,7 +1,7 @@
-CLASS ajn net/minecraft/entity/ai/passive/AiGoalWaterJump
-	FIELD a ower Laio;
+CLASS ajp net/minecraft/entity/ai/passive/AiGoalWaterJump
+	FIELD a ower Laiq;
 	METHOD a canStart ()Z
-	METHOD a canBreath (Lbbf;Lef;)Z
+	METHOD a canBreath (Lbbh;Leg;)Z
 	METHOD b shouldContinue ()Z
 	METHOD c start ()V
 	METHOD e tick ()V

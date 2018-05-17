@@ -1,5 +1,5 @@
-CLASS bfi net/minecraft/block/BlockBanner
-	FIELD a ROTATION Lbox;
-	METHOD a getDefaultState (Laup;)Lbnz;
-	METHOD a withMirror (Lbnz;Lbiw;)Lbnz;
-	METHOD a withRotation (Lbnz;Lbjz;)Lbnz;
+CLASS bfk net/minecraft/block/BlockBanner
+	FIELD a ROTATION Lboz;
+	METHOD a getDefaultState (Laur;)Lbob;
+	METHOD a withMirror (Lbob;Lbiy;)Lbob;
+	METHOD a withRotation (Lbob;Lbkb;)Lbob;

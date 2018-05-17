@@ -1,16 +1,16 @@
-CLASS cfc net/minecraft/world/loot/function/LootTableFunctionLootingEnchant
-	CLASS cfc$a DeSerializer
-		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfa;Lcom/google/gson/JsonSerializationContext;)V
+CLASS cfe net/minecraft/world/loot/function/LootTableFunctionLootingEnchant
+	CLASS cfe$a DeSerializer
 		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfc;Lcom/google/gson/JsonSerializationContext;)V
-		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfm;)Lcfc;
-		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfm;)Lcfa;
-	FIELD a range Lcew;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcfe;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfo;)Lcfe;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcfo;)Lcfc;
+	FIELD a range Lcey;
 	FIELD b amount I
-	METHOD <init> ([Lcfm;Lcew;I)V
+	METHOD <init> ([Lcfo;Lcey;I)V
 		ARG 0 conditions
 		ARG 1 range
 		ARG 2 amount
-	METHOD a apply (Lawk;Ljava/util/Random;Lcet;)Lawk;
+	METHOD a apply (Lawm;Ljava/util/Random;Lcev;)Lawm;
 		ARG 0 stack
 		ARG 1 rand
 		ARG 2 context

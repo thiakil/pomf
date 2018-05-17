@@ -1,2 +1,2 @@
-CLASS bfs net/minecraft/block/BlockBlueIce
-	METHOD a getDropAmount (Lbnz;Ljava/util/Random;)I
+CLASS bfu net/minecraft/block/BlockBlueIce
+	METHOD a getDropAmount (Lbob;Ljava/util/Random;)I

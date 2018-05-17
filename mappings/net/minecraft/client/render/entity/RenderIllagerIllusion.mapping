@@ -1,9 +1,9 @@
-CLASS dam net/minecraft/client/render/entity/RenderIllagerIllusion
-	CLASS dam$1
-		METHOD a render (Laig;FFFFFFF)V
+CLASS dao net/minecraft/client/render/entity/RenderIllagerIllusion
+	CLASS dao$1
+		METHOD a render (Laii;FFFFFFF)V
 			ARG 0 entity
-	FIELD a TEXTURE Loj;
-	METHOD a getTexture (Lahx;)Loj;
+	FIELD a TEXTURE Lok;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Laql;)Loj;
+	METHOD a getTexture (Laqn;)Lok;
 		ARG 0 model

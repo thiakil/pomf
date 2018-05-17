@@ -1,9 +1,9 @@
 CLASS bzb
 	CLASS bzb$a
-		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
+		METHOD a generate (Lbbe;Ljava/util/Random;Lbyn;Lbat;)Z
 			ARG 1 rand
 			ARG 2 region
-		METHOD a serializeStructureData (Lgu;)V
+		METHOD a serializeStructureData (Lgv;)V
 			ARG 0 tag
-		METHOD a deserializeStructureData (Lgu;Lbzr;)V
+		METHOD a deserializeStructureData (Lgv;Lbzt;)V
 			ARG 0 tag

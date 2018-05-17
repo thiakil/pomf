@@ -1,18 +1,18 @@
-CLASS bhs net/minecraft/block/BlockFlowerPot
-	METHOD X_ getRenderLayer ()Lbaq;
-	METHOD a getBlockFaceShape (Lbap;Lbnz;Lef;Lel;)Lbny;
+CLASS bhu net/minecraft/block/BlockFlowerPot
+	METHOD X_ getRenderLayer ()Lbas;
+	METHOD a getBlockFaceShape (Lbar;Lbob;Leg;Lem;)Lboa;
 		ARG 0 blockView
 		ARG 2 pos
 		ARG 3 face
-	METHOD a getItem (Lbap;Lef;Lbnz;)Lawk;
-	METHOD a isFullBlock (Lbnz;)Z
-	METHOD a dropItems (Lbnz;Lbbb;Lef;FI)V
+	METHOD a getItem (Lbar;Leg;Lbob;)Lawm;
+	METHOD a isFullBlock (Lbob;)Z
+	METHOD a dropItems (Lbob;Lbbd;Leg;FI)V
 		ARG 1 world
 		ARG 2 pos
 		ARG 3 dropChance
 		ARG 4 fortune
-	METHOD a getDroppedItem (Lbnz;Lbbb;Lef;I)Lbba;
-	METHOD a onActivated (Lbnz;Lbbb;Lef;Larl;Lagq;Lel;FFF)Z
+	METHOD a getDroppedItem (Lbob;Lbbd;Leg;I)Lbbc;
+	METHOD a onActivated (Lbob;Lbbd;Leg;Larn;Lags;Lem;FFF)Z
 		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
@@ -22,5 +22,5 @@ CLASS bhs net/minecraft/block/BlockFlowerPot
 		ARG 6 hitX
 		ARG 7 hitY
 		ARG 8 hitZ
-	METHOD c getRenderType (Lbnz;)Lbjw;
-	METHOD k getTranslationName ()Lic;
+	METHOD c getRenderType (Lbob;)Lbjy;
+	METHOD k getTranslationName ()Lid;

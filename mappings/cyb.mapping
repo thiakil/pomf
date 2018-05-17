@@ -1,4 +1,0 @@
-CLASS cyb
-	METHOD a create (Lbbb;Lcvj;I)Lcyd;
-		ARG 0 world
-		ARG 1 renderer

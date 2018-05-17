@@ -1,11 +1,11 @@
-CLASS mb net/minecraft/network/packet/server/SPacketClientSettings
+CLASS mc net/minecraft/network/packet/server/SPacketClientSettings
 	FIELD a language Ljava/lang/String;
 	FIELD b renderDistance I
-	FIELD c chatVisibilityMode Larl$b;
+	FIELD c chatVisibilityMode Larn$b;
 	FIELD d colorsEnabled Z
 	FIELD e skinBitfield I
-	FIELD f mainHand Laif;
-	METHOD <init> (Ljava/lang/String;ILarl$b;ZILaif;)V
+	FIELD f mainHand Laih;
+	METHOD <init> (Ljava/lang/String;ILarn$b;ZILaih;)V
 		ARG 0 language
 		ARG 1 renderDistance
 		ARG 2 chatVisibility
@@ -13,15 +13,15 @@ CLASS mb net/minecraft/network/packet/server/SPacketClientSettings
 		ARG 4 skinBitfield
 		ARG 5 mainHand
 	METHOD a getLanguage ()Ljava/lang/String;
-	METHOD a readPacket (Lht;)V
+	METHOD a readPacket (Lhu;)V
 		ARG 0 buf
-	METHOD a applyPacket (Lhw;)V
+	METHOD a applyPacket (Lhx;)V
 		ARG 0 handler
-	METHOD a applyPacket (Llx;)V
+	METHOD a applyPacket (Lly;)V
 		ARG 0 handler
-	METHOD b writePacket (Lht;)V
+	METHOD b writePacket (Lhu;)V
 		ARG 0 buf
-	METHOD c getChatVisibilityMode ()Larl$b;
+	METHOD c getChatVisibilityMode ()Larn$b;
 	METHOD d areChatColorsEnabled ()Z
 	METHOD e getSkinBitfield ()I
-	METHOD f getMainHand ()Laif;
+	METHOD f getMainHand ()Laih;

@@ -1,3 +1,3 @@
-CLASS bbd net/minecraft/util/MinecraftException
+CLASS bbf net/minecraft/util/MinecraftException
 	METHOD <init> (Ljava/lang/String;)V
 		ARG 0 message

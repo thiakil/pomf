@@ -1,33 +1,33 @@
-CLASS ht net/minecraft/util/PacketByteBuf
+CLASS hu net/minecraft/util/PacketByteBuf
 	FIELD a parent Lio/netty/buffer/ByteBuf;
 	METHOD <init> (Lio/netty/buffer/ByteBuf;)V
 		ARG 0 underlying
 	METHOD a readByteArray ()[B
 	METHOD a getVarIntSizeBytes (I)I
-	METHOD a writeItemStack (Lawk;)Lht;
+	METHOD a writeItemStack (Lawm;)Lhu;
 		ARG 0 stack
-	METHOD a writeBlockPos (Lef;)Lht;
+	METHOD a writeBlockPos (Leg;)Lhu;
 		ARG 0 pos
-	METHOD a writeTagCompound (Lgu;)Lht;
+	METHOD a writeTagCompound (Lgv;)Lhu;
 		ARG 0 tag
-	METHOD a writeTextComponent (Lic;)Lht;
+	METHOD a writeTextComponent (Lid;)Lhu;
 		ARG 0 component
 	METHOD a readEnumConstant (Ljava/lang/Class;)Ljava/lang/Enum;
 		ARG 0 enumClass
-	METHOD a writeEnumConstant (Ljava/lang/Enum;)Lht;
+	METHOD a writeEnumConstant (Ljava/lang/Enum;)Lhu;
 		ARG 0 value
-	METHOD a writeString (Ljava/lang/String;)Lht;
+	METHOD a writeString (Ljava/lang/String;)Lhu;
 		ARG 0 str
-	METHOD a writeDate (Ljava/util/Date;)Lht;
-	METHOD a writeUUID (Ljava/util/UUID;)Lht;
+	METHOD a writeDate (Ljava/util/Date;)Lhu;
+	METHOD a writeUUID (Ljava/util/UUID;)Lhu;
 		ARG 0 uuid
-	METHOD a writeIdentifier (Loj;)Lht;
+	METHOD a writeIdentifier (Lok;)Lhu;
 		ARG 0 id
-	METHOD a writeByteArray ([B)Lht;
+	METHOD a writeByteArray ([B)Lhu;
 		ARG 0 array
-	METHOD a writeIntArray ([I)Lht;
+	METHOD a writeIntArray ([I)Lhu;
 		ARG 0 array
-	METHOD a writeLongArray ([J)Lht;
+	METHOD a writeLongArray ([J)Lhu;
 		ARG 0 array
 	METHOD a readLongArray ([JI)[J
 		ARG 0 toArray
@@ -35,22 +35,22 @@ CLASS ht net/minecraft/util/PacketByteBuf
 	METHOD b readIntArray ()[I
 	METHOD b readByteArray (I)[B
 		ARG 0 length
-	METHOD b writeVarLong (J)Lht;
+	METHOD b writeVarLong (J)Lhu;
 		ARG 0 value
 	METHOD b readLongArray ([J)[J
 		ARG 0 toArray
 	METHOD c readIntArray (I)[I
 		ARG 0 size
-	METHOD d writeVarInt (I)Lht;
+	METHOD d writeVarInt (I)Lhu;
 		ARG 0 value
-	METHOD e readBlockPos ()Lef;
+	METHOD e readBlockPos ()Leg;
 	METHOD e readString (I)Ljava/lang/String;
 		ARG 0 maxLength
-	METHOD f readTextComponent ()Lic;
+	METHOD f readTextComponent ()Lid;
 	METHOD g readVarInt ()I
 	METHOD h readVarLong ()J
 	METHOD i readUUID ()Ljava/util/UUID;
-	METHOD j readTagCompound ()Lgu;
-	METHOD k readItemStack ()Lawk;
-	METHOD l readIdentifier ()Loj;
+	METHOD j readTagCompound ()Lgv;
+	METHOD k readItemStack ()Lawm;
+	METHOD l readIdentifier ()Lok;
 	METHOD m readDate ()Ljava/util/Date;

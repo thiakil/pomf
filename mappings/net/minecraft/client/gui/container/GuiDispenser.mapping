@@ -1,8 +1,8 @@
-CLASS cmp net/minecraft/client/gui/container/GuiDispenser
-	FIELD v inventory Lagk;
-	FIELD w BG_TEX Loj;
-	FIELD x playerInv Lark;
-	METHOD <init> (Lark;Lagk;)V
+CLASS cmr net/minecraft/client/gui/container/GuiDispenser
+	FIELD v inventory Lagm;
+	FIELD w BG_TEX Lok;
+	FIELD x playerInv Larm;
+	METHOD <init> (Larm;Lagm;)V
 		ARG 0 playerInv
 		ARG 1 inventory
 	METHOD a drawBackground (FII)V

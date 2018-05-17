@@ -1,6 +1,7 @@
 CLASS bji
-	METHOD a onPlaced (Lbbb;Lef;Lbnz;Laig;Lawk;)V
-		ARG 0 world
-		ARG 1 pos
-		ARG 3 placer
-		ARG 4 stack
+	FIELD a NORTH Lbow;
+	FIELD b EAST Lbow;
+	FIELD c SOUTH Lbow;
+	FIELD t WEST Lbow;
+	FIELD u UP Lbow;
+	FIELD v DOWN Lbow;

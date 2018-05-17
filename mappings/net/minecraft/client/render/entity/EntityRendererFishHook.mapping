@@ -1,6 +1,6 @@
-CLASS daf net/minecraft/client/render/entity/EntityRendererFishHook
-	FIELD a TEX Loj;
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dah net/minecraft/client/render/entity/EntityRendererFishHook
+	FIELD a TEX Lok;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Lapl;)Loj;
+	METHOD a getTexture (Lapn;)Lok;
 		ARG 0 model

@@ -1,40 +1,40 @@
-CLASS aqf net/minecraft/entity/mob/EntityGhast
-	CLASS aqf$a
+CLASS aqh net/minecraft/entity/mob/EntityGhast
+	CLASS aqh$a
 		METHOD a canStart ()Z
 		METHOD e tick ()V
-	CLASS aqf$b
+	CLASS aqh$b
 		METHOD a tick ()V
-	CLASS aqf$c AiGoalShootFireball
+	CLASS aqh$c AiGoalShootFireball
 		FIELD a cooldown I
-		FIELD b owner Laqf;
+		FIELD b owner Laqh;
 		METHOD a canStart ()Z
 		METHOD c start ()V
 		METHOD d stop ()V
 		METHOD e tick ()V
-	CLASS aqf$d AiGoalFlyRandomly
+	CLASS aqh$d AiGoalFlyRandomly
 		METHOD a canStart ()Z
 		METHOD b shouldContinue ()Z
 		METHOD c start ()V
-	FIELD a SHOOTING Lny;
+	FIELD a SHOOTING Lnz;
 	FIELD b fireballStrength I
-	METHOD E getSoundAmbient ()Lvo;
-	METHOD H getLootTableId ()Loj;
+	METHOD E getSoundAmbient ()Lvp;
+	METHOD H getLootTableId ()Lok;
 	METHOD R_ update ()V
-	METHOD a damage (Lahg;F)Z
+	METHOD a damage (Lahi;F)Z
 		ARG 0 source
 		ARG 1 damage
-	METHOD a deserializeCustomData (Lgu;)V
+	METHOD a deserializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD a setShooting (Z)V
 		ARG 0 value
-	METHOD b serializeCustomData (Lgu;)V
+	METHOD b serializeCustomData (Lgv;)V
 		ARG 0 tag
 	METHOD bI getEyeHeight ()F
-	METHOD bX getSoundCategory ()Lvq;
+	METHOD bX getSoundCategory ()Lvr;
 	METHOD cE getSoundVolume ()F
 	METHOD ca initAttributes ()V
-	METHOD ct getSoundDeath ()Lvo;
-	METHOD d getSoundHurt (Lahg;)Lvo;
+	METHOD ct getSoundDeath ()Lvp;
+	METHOD d getSoundHurt (Lahi;)Lvp;
 	METHOD dk getLimitPerChunk ()I
 	METHOD dv getFireballStrength ()I
 	METHOD l isShooting ()Z

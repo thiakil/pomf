@@ -1,9 +1,9 @@
-CLASS ddm net/minecraft/client/render/entity/EntityRendererSnowmanPumpkin
-	FIELD a renderer Ldbq;
-	METHOD <init> (Ldbq;)V
+CLASS ddo net/minecraft/client/render/entity/EntityRendererSnowmanPumpkin
+	FIELD a renderer Ldbs;
+	METHOD <init> (Ldbs;)V
 		ARG 0 renderer
 	METHOD a shouldMergeTextures ()Z
-	METHOD a render (Laig;FFFFFFF)V
+	METHOD a render (Laii;FFFFFFF)V
 		ARG 0 entity
-	METHOD a render (Lanl;FFFFFFF)V
+	METHOD a render (Lann;FFFFFFF)V
 		ARG 0 entity

@@ -1,21 +1,21 @@
-CLASS bax net/minecraft/world/GameRules
-	CLASS bax$a Value
+CLASS baz net/minecraft/world/GameRules
+	CLASS baz$a Value
 		FIELD a asString Ljava/lang/String;
 		FIELD b asBoolean Z
 		FIELD c asInteger I
 		FIELD d asDouble D
-		FIELD e type Lbax$c;
+		FIELD e type Lbaz$c;
 		METHOD a getString ()Ljava/lang/String;
 		METHOD b getBoolean ()Z
 		METHOD c getInteger ()I
-		METHOD e getType ()Lbax$c;
-	CLASS bax$c
-		FIELD a ANY_VALUE Lbax$c;
-		FIELD b BOOLEAN_VALUE Lbax$c;
-		FIELD c NUMERICAL_VALUE Lbax$c;
+		METHOD e getType ()Lbaz$c;
+	CLASS baz$c
+		FIELD a ANY_VALUE Lbaz$c;
+		FIELD b BOOLEAN_VALUE Lbaz$c;
+		FIELD c NUMERICAL_VALUE Lbaz$c;
 	FIELD b rules Ljava/util/TreeMap;
-	METHOD a serialize ()Lgu;
-	METHOD a deserialize (Lgu;)V
+	METHOD a serialize ()Lgv;
+	METHOD a deserialize (Lgv;)V
 		ARG 0 tag
 	METHOD b getBoolean (Ljava/lang/String;)Z
 		ARG 0 name

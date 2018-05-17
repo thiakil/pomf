@@ -1,3 +1,0 @@
-CLASS bqv
-	FIELD f LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD a decorate (Lso;Lbqw$a;)V

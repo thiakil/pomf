@@ -1,10 +1,10 @@
-CLASS gu net/minecraft/nbt/TagCompound
+CLASS gv net/minecraft/nbt/TagCompound
 	FIELD f LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD h tagMap Ljava/util/Map;
 	METHOD a getType ()B
-	METHOD a (Lgu;)Lgu;
+	METHOD a (Lgv;)Lgv;
 		ARG 0 tag
-	METHOD a read (Ljava/io/DataInput;ILhd;)V
+	METHOD a read (Ljava/io/DataInput;ILhe;)V
 		ARG 0 input
 		ARG 1 depth
 		ARG 2 tracker
@@ -21,11 +21,11 @@ CLASS gu net/minecraft/nbt/TagCompound
 	METHOD a setFloat (Ljava/lang/String;F)V
 		ARG 0 name
 		ARG 1 value
-	METHOD a getTextComponent (Ljava/lang/String;I)Lic;
+	METHOD a getTextComponent (Ljava/lang/String;I)Lid;
 	METHOD a setLong (Ljava/lang/String;J)V
 		ARG 0 name
 		ARG 1 value
-	METHOD a setTag (Ljava/lang/String;Lhj;)V
+	METHOD a setTag (Ljava/lang/String;Lhk;)V
 		ARG 0 name
 		ARG 1 value
 	METHOD a setString (Ljava/lang/String;Ljava/lang/String;)V
@@ -49,7 +49,7 @@ CLASS gu net/minecraft/nbt/TagCompound
 	METHOD a setLongArray (Ljava/lang/String;[J)V
 		ARG 0 name
 		ARG 1 value
-	METHOD b copy ()Lhj;
+	METHOD b copy ()Lhk;
 	METHOD b hasUniqueId (Ljava/lang/String;)Z
 		ARG 0 value
 	METHOD b setInt (Ljava/lang/String;I)V
@@ -59,7 +59,7 @@ CLASS gu net/minecraft/nbt/TagCompound
 		ARG 0 name
 		ARG 1 value
 	METHOD c keySet ()Ljava/util/Set;
-	METHOD c getTag (Ljava/lang/String;)Lhj;
+	METHOD c getTag (Ljava/lang/String;)Lhk;
 		ARG 0 name
 	METHOD c hasKey (Ljava/lang/String;I)Z
 	METHOD c setLongList (Ljava/lang/String;Ljava/util/List;)V
@@ -70,5 +70,5 @@ CLASS gu net/minecraft/nbt/TagCompound
 	METHOD e hasKey (Ljava/lang/String;)Z
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 0 object
-	METHOD f copy ()Lgu;
+	METHOD f copy ()Lgv;
 	METHOD i getLong (Ljava/lang/String;)J

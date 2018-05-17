@@ -1,3 +1,3 @@
-CLASS bhx net/minecraft/block/BlockTerracotta
-	METHOD a getDefaultState (Laup;)Lbnz;
-	METHOD i getPistonBehavior (Lbnz;)Lcbh;
+CLASS bhz net/minecraft/block/BlockTerracotta
+	METHOD a getDefaultState (Laur;)Lbob;
+	METHOD i getPistonBehavior (Lbob;)Lcbj;

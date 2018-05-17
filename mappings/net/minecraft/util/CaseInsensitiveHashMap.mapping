@@ -1,2 +1,2 @@
-CLASS ws net/minecraft/util/CaseInsensitiveHashMap
+CLASS wt net/minecraft/util/CaseInsensitiveHashMap
 	FIELD a parent Ljava/util/Map;

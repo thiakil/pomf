@@ -1,7 +1,7 @@
-CLASS alo net/minecraft/entity/ai/mob/AiGoalZombieAttack
-	FIELD d zombie Larb;
+CLASS alq net/minecraft/entity/ai/mob/AiGoalZombieAttack
+	FIELD d zombie Lard;
 	FIELD e armRaiseTimer I
-	METHOD <init> (Larb;DZ)V
+	METHOD <init> (Lard;DZ)V
 		ARG 0 zombie
 		ARG 1 speed
 	METHOD c start ()V

@@ -1,11 +1,11 @@
-CLASS ckt net/minecraft/client/gui/menu/GuiNewLevelCustomizeFlat
-	CLASS ckt$a
+CLASS ckv net/minecraft/client/gui/menu/GuiNewLevelCustomizeFlat
+	CLASS ckv$a
 		METHOD a isSelected (I)Z
 			ARG 0 index
 		METHOD a drawEntry (IIIIIIF)V
 			ARG 0 x
 			ARG 1 y
-		METHOD a renderGuiItemStack (IILawk;)V
+		METHOD a renderGuiItemStack (IILawm;)V
 			ARG 0 x
 			ARG 1 y
 			ARG 2 itemStack
@@ -17,14 +17,14 @@ CLASS ckt net/minecraft/client/gui/menu/GuiNewLevelCustomizeFlat
 			ARG 0 x
 			ARG 1 y
 		METHOD f getScrollbarPosition ()I
-	FIELD a parent Lcof;
+	FIELD a parent Lcoh;
 	FIELD g titleText Ljava/lang/String;
 	FIELD h tileText Ljava/lang/String;
 	FIELD i heightText Ljava/lang/String;
-	FIELD t widgetButtonAddLayer Lciu;
-	FIELD u widgetButtonEditLayer Lciu;
-	FIELD v widgetButtonRemoveLayer Lciu;
-	METHOD <init> (Lcof;Lcom/google/gson/JsonElement;)V
+	FIELD t widgetButtonAddLayer Lciw;
+	FIELD u widgetButtonEditLayer Lciw;
+	FIELD v widgetButtonRemoveLayer Lciw;
+	METHOD <init> (Lcoh;Lcom/google/gson/JsonElement;)V
 		ARG 0 parent
 	METHOD a draw (IIF)V
 		ARG 0 mouseX

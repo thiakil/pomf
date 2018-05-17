@@ -1,2 +1,2 @@
-CLASS rh net/minecraft/command/CommandTime
+CLASS ri net/minecraft/command/CommandTime
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

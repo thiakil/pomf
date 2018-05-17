@@ -1,4 +1,4 @@
-CLASS bpc net/minecraft/world/WorldBorder
+CLASS bpe net/minecraft/world/WorldBorder
 	FIELD a listeners Ljava/util/List;
 	FIELD b centerX D
 	FIELD c centerZ D
@@ -19,15 +19,15 @@ CLASS bpc net/minecraft/world/WorldBorder
 		ARG 2 duration
 	METHOD a setPortalTeleportPosLimit (I)V
 		ARG 0 value
-	METHOD a distanceFromBorder (Lahx;)D
+	METHOD a distanceFromBorder (Lahz;)D
 		ARG 0 entity
-	METHOD a containsFully (Lbar;)Z
+	METHOD a containsFully (Lbat;)Z
 		ARG 0 pos
-	METHOD a registerListener (Lbpa;)V
+	METHOD a registerListener (Lbpc;)V
 		ARG 0 listener
-	METHOD a containsFully (Lcgc;)Z
+	METHOD a containsFully (Lcge;)Z
 		ARG 0 box
-	METHOD a containsFully (Lef;)Z
+	METHOD a containsFully (Leg;)Z
 		ARG 0 pos
 	METHOD b getXMin ()D
 	METHOD b setSafeZone (D)V

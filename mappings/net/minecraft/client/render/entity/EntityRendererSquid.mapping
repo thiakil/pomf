@@ -1,6 +1,6 @@
-CLASS dbt net/minecraft/client/render/entity/EntityRendererSquid
-	FIELD a SKIN Loj;
-	METHOD a getTexture (Lahx;)Loj;
+CLASS dbv net/minecraft/client/render/entity/EntityRendererSquid
+	FIELD a SKIN Lok;
+	METHOD a getTexture (Lahz;)Lok;
 		ARG 0 model
-	METHOD a getTexture (Lanm;)Loj;
+	METHOD a getTexture (Lano;)Lok;
 		ARG 0 model

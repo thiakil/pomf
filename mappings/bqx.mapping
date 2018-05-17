@@ -1,11 +1,3 @@
 CLASS bqx
-	CLASS bqx$a
-		FIELD a WORLD_SURFACE_WG Lbqx$a;
-		FIELD b OCEAN_FLOOR_WG Lbqx$a;
-		FIELD c LIGHT_BLOCKING Lbqx$a;
-		FIELD d MOTION_BLOCKING Lbqx$a;
-		FIELD e MOTION_BLOCKING_NO_LEAVES Lbqx$a;
-		FIELD f OCEAN_FLOOR Lbqx$a;
-	CLASS bqx$b
-		FIELD a WORLDGEN Lbqx$b;
-		FIELD b LIVE_WORLD Lbqx$b;
+	FIELD f LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a decorate (Lsp;Lbqy$a;)V

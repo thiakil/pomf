@@ -1,2 +1,2 @@
-CLASS qc net/minecraft/command/CommandKill
+CLASS qd net/minecraft/command/CommandKill
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

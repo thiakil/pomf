@@ -1,7 +1,7 @@
-CLASS cmb net/minecraft/sortme/KeyBindingGui
-	FIELD v gui Lcmc;
-	FIELD w game Lcht;
-	METHOD <init> (Lcmc;Lcht;)V
+CLASS cmd net/minecraft/sortme/KeyBindingGui
+	FIELD v gui Lcme;
+	FIELD w game Lchv;
+	METHOD <init> (Lcme;Lchv;)V
 		ARG 0 gui
 		ARG 1 game
 	METHOD e getEntryWidth ()I

@@ -1,4 +1,4 @@
-CLASS clf net/minecraft/client/gui/menu/GuiOutOfMemory
+CLASS clh net/minecraft/client/gui/menu/GuiOutOfMemory
 	METHOD a draw (IIF)V
 		ARG 0 mouseX
 		ARG 1 mouseY

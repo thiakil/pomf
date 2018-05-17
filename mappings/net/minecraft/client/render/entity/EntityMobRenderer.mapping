@@ -1,4 +1,4 @@
-CLASS day net/minecraft/client/render/entity/EntityMobRenderer
-	METHOD <init> (Lczy;Lcqh;F)V
+CLASS dba net/minecraft/client/render/entity/EntityMobRenderer
+	METHOD <init> (Ldaa;Lcqj;F)V
 		ARG 0 renderManager
 		ARG 1 model

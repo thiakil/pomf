@@ -1,5 +1,5 @@
-CLASS bit net/minecraft/block/BlockLog
-	METHOD a onBlockRemoved (Lbnz;Lbbb;Lef;Lbnz;)V
+CLASS biv net/minecraft/block/BlockLog
+	METHOD a onBlockRemoved (Lbob;Lbbd;Leg;Lbob;)V
 		ARG 1 world
 		ARG 2 pos
-	METHOD c getMapColor (Lbnz;Lbap;Lef;)Lcbg;
+	METHOD d getMapColor (Lbob;Lbar;Leg;)Lcbi;
