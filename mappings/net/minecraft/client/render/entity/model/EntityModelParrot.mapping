@@ -1,4 +1,10 @@
 CLASS cqj net/minecraft/client/render/entity/model/EntityModelParrot
+	CLASS cqj$a
+		FIELD a FLYING Lcqj$a;
+		FIELD b STANDING Lcqj$a;
+		FIELD c SITTING Lcqj$a;
+		FIELD d PARTY Lcqj$a;
+		FIELD e ON_SHOULDER Lcqj$a;
 	METHOD a setRotationAngles (FFFFFFLahx;)V
 		ARG 0 limbMoveAngle
 		ARG 1 limbMoveAmount

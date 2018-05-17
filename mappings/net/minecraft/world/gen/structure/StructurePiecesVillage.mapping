@@ -67,6 +67,11 @@ CLASS bzm net/minecraft/world/gen/structure/StructurePiecesVillage
 		METHOD a generate (Lbbc;Ljava/util/Random;Lbyl;Lbar;)Z
 			ARG 1 rand
 			ARG 2 region
+	CLASS bzm$n
+		FIELD a OAK Lbzm$n;
+		FIELD b SANDSTONE Lbzm$n;
+		FIELD c ACACIA Lbzm$n;
+		FIELD d SPRUCE Lbzm$n;
 	CLASS bzm$o
 		METHOD a serializeStructureData (Lgu;)V
 			ARG 0 tag

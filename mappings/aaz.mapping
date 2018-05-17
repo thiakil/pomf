@@ -1,4 +1,20 @@
 CLASS aaz
+	CLASS aaz$b
+		FIELD a INSTANCE Laaz$b;
+	CLASS aaz$d
+		FIELD a INSTANCE Laaz$d;
+	CLASS aaz$e
+		FIELD a INSTANCE Laaz$e;
+	CLASS aaz$f
+		FIELD a INSTANCE Laaz$f;
+	CLASS aaz$h
+		FIELD a INSTANCE Laaz$h;
+	CLASS aaz$i
+		FIELD a INSTANCE Laaz$i;
+	CLASS aaz$j
+		FIELD a INSTANCE Laaz$j;
+	CLASS aaz$k
+		FIELD a INSTANCE Laaz$k;
 	CLASS aaz$l
 		METHOD equals (Ljava/lang/Object;)Z
 			ARG 0 object
@@ -8,3 +24,7 @@ CLASS aaz
 	CLASS aaz$n
 		METHOD equals (Ljava/lang/Object;)Z
 			ARG 0 object
+	CLASS aaz$o
+		FIELD a INSTANCE Laaz$o;
+	CLASS aaz$p
+		FIELD a INSTANCE Laaz$p;

@@ -1,4 +1,14 @@
 CLASS chf net/minecraft/scoreboard/ScoreboardTeamBase
+	CLASS chf$a
+		FIELD a ALWAYS Lchf$a;
+		FIELD b NEVER Lchf$a;
+		FIELD c PUSH_OTHER_TEAMS Lchf$a;
+		FIELD d PUSH_OWN_TEAM Lchf$a;
+	CLASS chf$b
+		FIELD a ALWAYS Lchf$b;
+		FIELD b NEVER Lchf$b;
+		FIELD c HIDE_FOR_OTHER_TEAMS Lchf$b;
+		FIELD d HIDE_FOR_OWN_TEAM Lchf$b;
 	METHOD a isEqual (Lchf;)Z
 		ARG 0 team
 	METHOD b getName ()Ljava/lang/String;
