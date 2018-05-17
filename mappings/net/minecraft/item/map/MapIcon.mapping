@@ -1,4 +1,32 @@
 CLASS cdu net/minecraft/item/map/MapIcon
+	CLASS cdu$a
+		FIELD A RED_X Lcdu$a;
+		FIELD a PLAYER Lcdu$a;
+		FIELD b FRAME Lcdu$a;
+		FIELD c RED_MARKER Lcdu$a;
+		FIELD d BLUE_MARKER Lcdu$a;
+		FIELD e TARGET_X Lcdu$a;
+		FIELD f TARGET_POINT Lcdu$a;
+		FIELD g PLAYER_OFF_MAP Lcdu$a;
+		FIELD h PLAYER_OFF_LIMITS Lcdu$a;
+		FIELD i MANSION Lcdu$a;
+		FIELD j MONUMENT Lcdu$a;
+		FIELD k BANNER_WHITE Lcdu$a;
+		FIELD l BANNER_ORANGE Lcdu$a;
+		FIELD m BANNER_MAGENTA Lcdu$a;
+		FIELD n BANNER_LIGHT_BLUE Lcdu$a;
+		FIELD o BANNER_YELLOW Lcdu$a;
+		FIELD p BANNER_LIME Lcdu$a;
+		FIELD q BANNER_PINK Lcdu$a;
+		FIELD r BANNER_GRAY Lcdu$a;
+		FIELD s BANNER_LIGHT_GRAY Lcdu$a;
+		FIELD t BANNER_CYAN Lcdu$a;
+		FIELD u BANNER_PURPLE Lcdu$a;
+		FIELD v BANNER_BLUE Lcdu$a;
+		FIELD w BANNER_BROWN Lcdu$a;
+		FIELD x BANNER_GREEN Lcdu$a;
+		FIELD y BANNER_RED Lcdu$a;
+		FIELD z BANNER_BLACK Lcdu$a;
 	FIELD a direction Lcdu$a;
 	FIELD b x B
 	FIELD c z B

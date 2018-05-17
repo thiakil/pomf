@@ -1,4 +1,11 @@
 CLASS aqu net/minecraft/entity/EntityIllagerCaster
+	CLASS aqu$a
+		FIELD a NONE Laqu$a;
+		FIELD b SUMMON_VEX Laqu$a;
+		FIELD c FANGS Laqu$a;
+		FIELD d WOLOLO Laqu$a;
+		FIELD e DISAPPEAR Laqu$a;
+		FIELD f BLINDNESS Laqu$a;
 	CLASS aqu$b AiGoalLookAtTarget
 		METHOD a canStart ()Z
 		METHOD c start ()V

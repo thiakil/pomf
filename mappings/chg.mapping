@@ -1,4 +1,7 @@
 CLASS chg
+	CLASS chg$a
+		FIELD a INTEGER Lchg$a;
+		FIELD b HEARTS Lchg$a;
 	FIELD b DUMMY Lchg;
 	FIELD c TRIGGER Lchg;
 	FIELD d DEATH_COUNT Lchg;

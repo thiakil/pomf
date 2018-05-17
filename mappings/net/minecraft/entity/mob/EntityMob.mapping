@@ -1,4 +1,7 @@
 CLASS aih net/minecraft/entity/mob/EntityMob
+	CLASS aih$a
+		FIELD a ON_GROUND Laih$a;
+		FIELD b IN_WATER Laih$a;
 	FIELD a MOB_FLAGS Lny;
 	FIELD bA handItems Leu;
 	FIELD bB armorItems Leu;

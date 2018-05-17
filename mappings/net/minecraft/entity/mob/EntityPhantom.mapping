@@ -1,4 +1,7 @@
 CLASS aqm net/minecraft/entity/mob/EntityPhantom
+	CLASS aqm$a
+		FIELD a CIRCLE Laqm$a;
+		FIELD b SWOOP Laqm$a;
 	CLASS aqm$b
 		METHOD a canStart ()Z
 		METHOD b shouldContinue ()Z

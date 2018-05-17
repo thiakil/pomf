@@ -1,1 +1,6 @@
 CLASS cwk net/minecraft/client/render/model/json/bqb
+	CLASS cwk$b
+		FIELD a UP Lcwk$b;
+		FIELD b DOWN Lcwk$b;
+		FIELD c LEFT Lcwk$b;
+		FIELD d RIGHT Lcwk$b;
