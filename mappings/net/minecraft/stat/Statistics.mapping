@@ -59,3 +59,4 @@ CLASS vy net/minecraft/stat/Statistics
 	FIELD x MINECART_ONE_CM Loj;
 	FIELD y BOAT_ONE_CM Loj;
 	FIELD z PIG_ONE_CM Loj;
+	METHOD a setTargetRegistry (Ljava/lang/String;Let;)Lvx;

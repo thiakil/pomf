@@ -555,6 +555,7 @@ CLASS bfr net/minecraft/block/Blocks
 	FIELD jy KELP Lbfq;
 	FIELD jz DRIED_KELP_BLOCK Lbfq;
 	FIELD k COARSE_DIRT Lbfq;
+	FIELD ka BLOCK_DUPE_TRACKER Ljava/util/Set;
 	FIELD l PODZOL Lbfq;
 	FIELD m COBBLESTONE Lbfq;
 	FIELD n OAK_PLANKS Lbfq;

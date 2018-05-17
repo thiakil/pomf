@@ -1,1 +1,6 @@
 CLASS cgo net/minecraft/util/math/shapes/VoxelShapePart
+	CLASS cgo$1
+		METHOD a getMinMaybe (Lel$a;)I
+		METHOD b getMaxMaybe (Lel$a;)I
+	METHOD a getMinMaybe (Lel$a;)I
+	METHOD b getMaxMaybe (Lel$a;)I

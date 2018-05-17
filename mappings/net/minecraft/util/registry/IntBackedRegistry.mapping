@@ -1,6 +1,7 @@
-CLASS et net/minecraft/util/registry/IdRegistry
+CLASS et net/minecraft/util/registry/IntBackedRegistry
 	FIELD a idStore Lwm;
 	FIELD b valueKeyMap Ljava/util/Map;
+	FIELD d currentIndex I
 	METHOD a get (I)Ljava/lang/Object;
 		ARG 0 id
 	METHOD a register (ILjava/lang/Object;Ljava/lang/Object;)V
@@ -19,3 +20,4 @@ CLASS et net/minecraft/util/registry/IdRegistry
 		ARG 0 key
 	METHOD d containsKey (Ljava/lang/Object;)Z
 		ARG 0 key
+	METHOD iterator iterator ()Ljava/util/Iterator;
