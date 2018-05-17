@@ -1,1 +1,32 @@
 CLASS dew net/minecraft/client/render/TextureAtlasSprite
+	FIELD a width I
+	FIELD b height I
+	FIELD d frames [I
+	FIELD g rotated Z
+	FIELD h x I
+	FIELD i y I
+	FIELD l name Loj;
+	FIELD m animationData Ldfy;
+	FIELD n u0 F
+	FIELD o u1 F
+	FIELD p v0 F
+	FIELD q v1 F
+	METHOD <init> (Loj;II)V
+		ARG 0 nameIn
+		ARG 1 widthIn
+		ARG 2 heightIn
+	METHOD <init> (Loj;Lder;Ldfy;)V
+		ARG 0 nameIn
+		ARG 1 imageInfoIn
+	METHOD a doInterpolate ()V
+	METHOD a generateMipMapLevel (I)V
+	METHOD b tryMipMap (I)V
+	METHOD g getWidth ()I
+	METHOD h getHeight ()I
+	METHOD i getU0 ()F
+	METHOD j getU1 ()F
+	METHOD k getV0 ()F
+	METHOD l getV1 ()F
+	METHOD m getIdentifier ()Loj;
+	METHOD o getFrameCount ()I
+	METHOD p isAnimated ()Z
