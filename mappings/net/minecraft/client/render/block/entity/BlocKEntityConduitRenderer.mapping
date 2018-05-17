@@ -1,4 +1,4 @@
-CLASS cxm
+CLASS cxm net/minecraft/client/render/block/entity/BlocKEntityConduitRenderer
 	CLASS cxm$a
 		METHOD a render (Lahx;FFFFFF)V
 			ARG 0 entity
