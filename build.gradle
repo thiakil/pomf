@@ -50,97 +50,100 @@ boolean validateChecksum(File file, String checksum) {
   return false
 }
 
-task download << {
-  def cacheFiles = new File(".gradle/minecraft")
-  if (!cacheFiles.exists()) cacheFiles.mkdirs()
-
-  def manifestFile = new File(cacheFiles, "version_manifest.json")
-
-  logger.lifecycle(":downloading minecraft json")
-  FileUtils.copyURLToFile(new URL("https://launchermeta.mojang.com/mc/game/version_manifest.json"), manifestFile)
-
-  def manifest = new JsonSlurper().parseText(FileUtils.readFileToString(manifestFile))
-  def manifestVersion = manifest.versions.stream().filter({ it.id.equals(minecraft_version) }).findFirst()
-  if (manifestVersion.isPresent()) {
-
-    def versionFile = new File(cacheFiles, "${minecraft_version}.json")
-    FileUtils.copyURLToFile(new URL(manifestVersion.get().url), versionFile)
-    def version = new JsonSlurper().parseText(FileUtils.readFileToString(versionFile))
-
-    def clientJar = new File(cacheFiles, "${minecraft_version}-client.jar")
-    def serverJar = new File(cacheFiles, "${minecraft_version}-server.jar")
-
-    if (!clientJar.exists() || !validateChecksum(clientJar, version.downloads.client.sha1)) {
-      logger.lifecycle(":downloading minecraft client")
-      FileUtils.copyURLToFile(new URL(version.downloads.client.url), clientJar)
-    }
-
-    if (!serverJar.exists() || !validateChecksum(serverJar, version.downloads.server.sha1)) {
-      logger.lifecycle(":downloading minecraft server")
-      FileUtils.copyURLToFile(new URL(version.downloads.server.url), serverJar)
-    }
-
-  } else {
-    throw new RuntimeException("No version data for Minecraft version ${minecraft_version}")
-  }
-}
-
-task mergeJars << {
-  def mergedFile = new File("${minecraft_version}-merged.jar")
-
-  if (!mergedFile.exists()) {
+task download {
+  doLast {
     def cacheFiles = new File(".gradle/minecraft")
+    if (!cacheFiles.exists()) cacheFiles.mkdirs()
 
-    def client = new FileInputStream(new File(cacheFiles, "${minecraft_version}-client.jar"))
-    def server = new FileInputStream(new File(cacheFiles, "${minecraft_version}-server.jar"))
-    def merged = new FileOutputStream(mergedFile)
+    def manifestFile = new File(cacheFiles, "version_manifest.json")
 
-    def jarMerger = new JarMerger(client, server, merged)
-    jarMerger.merge()
-    jarMerger.close()
+    logger.lifecycle(":downloading minecraft json")
+    FileUtils.copyURLToFile(new URL("https://launchermeta.mojang.com/mc/game/version_manifest.json"), manifestFile)
 
-    client.close()
-    server.close()
-    merged.close()
-  }
+    def manifest = new JsonSlurper().parseText(FileUtils.readFileToString(manifestFile))
+    def manifestVersion = manifest.versions.stream().filter({ it.id.equals(minecraft_version) }).findFirst()
+    if (manifestVersion.isPresent()) {
 
-}
-tasks.mergeJars.dependsOn "download"
+      def versionFile = new File(cacheFiles, "${minecraft_version}.json")
+      FileUtils.copyURLToFile(new URL(manifestVersion.get().url), versionFile)
+      def version = new JsonSlurper().parseText(FileUtils.readFileToString(versionFile))
 
-task setupPomf << {
+      def clientJar = new File(cacheFiles, "${minecraft_version}-client.jar")
+      def serverJar = new File(cacheFiles, "${minecraft_version}-server.jar")
 
-}
-tasks.setupPomf.dependsOn "mergeJars"
+      if (!clientJar.exists() || !validateChecksum(clientJar, version.downloads.client.sha1)) {
+        logger.lifecycle(":downloading minecraft client")
+        FileUtils.copyURLToFile(new URL(version.downloads.client.url), clientJar)
+      }
 
-task pomf << {
-  def cacheFiles = new File(".gradle/enigma")
-  if (!cacheFiles.exists()) cacheFiles.mkdirs()
+      if (!serverJar.exists() || !validateChecksum(serverJar, version.downloads.server.sha1)) {
+        logger.lifecycle(":downloading minecraft server")
+        FileUtils.copyURLToFile(new URL(version.downloads.server.url), serverJar)
+      }
 
-  def mavenMetadata = new File(cacheFiles, "maven-metadata.xml")
-  def localEnigmaVersion = mavenMetadata.exists() ? new XmlSlurper().parseText(FileUtils.readFileToString(mavenMetadata)).versioning.release : ""
-
-  logger.lifecycle(":downloading enigma metadata")
-  FileUtils.copyURLToFile(new URL("http://maven.fabricmc.net/cuchaz/enigma/maven-metadata.xml"), mavenMetadata)
-
-  def metadata = new XmlSlurper().parseText(FileUtils.readFileToString(mavenMetadata))
-  def enigmaVersion = metadata.versioning.release
-
-  def enigma = new File(cacheFiles, "${enigmaVersion}.jar")
-
-  if (localEnigmaVersion != enigmaVersion || !enigma.exists()) {
-    logger.lifecycle(":downloading enigma")
-    FileUtils.copyURLToFile(new URL("http://maven.fabricmc.net/cuchaz/enigma/${enigmaVersion}/enigma-${enigmaVersion}-all.jar"), enigma)
-  } else {
-    logger.lifecycle(":skipping enigma download")
-  }
-
-  logger.lifecycle(":launching enigma")
-  ant.java(jar: enigma.getAbsolutePath(), fork: true, spawn: true) {
-    arg(value: new File("${minecraft_version}-merged.jar").getAbsolutePath())
-    arg(value: new File("mappings/").getAbsolutePath())
+    } else {
+      throw new RuntimeException("No version data for Minecraft version ${minecraft_version}")
+    }
   }
 }
-tasks.pomf.dependsOn "setupPomf"
+
+task mergeJars(dependsOn: "download") {
+  doLast {
+    def mergedFile = new File("${minecraft_version}-merged.jar")
+
+    if (!mergedFile.exists()) {
+      def cacheFiles = new File(".gradle/minecraft")
+
+      def client = new FileInputStream(new File(cacheFiles, "${minecraft_version}-client.jar"))
+      def server = new FileInputStream(new File(cacheFiles, "${minecraft_version}-server.jar"))
+      def merged = new FileOutputStream(mergedFile)
+
+      def jarMerger = new JarMerger(client, server, merged)
+      jarMerger.merge()
+      jarMerger.close()
+
+      client.close()
+      server.close()
+      merged.close()
+    }
+
+  }
+}
+
+task setupPomf (dependsOn: mergeJars) {
+
+}
+
+task pomf(dependsOn: setupPomf) {
+  doLast {
+    def cacheFiles = new File(".gradle/enigma")
+    if (!cacheFiles.exists()) cacheFiles.mkdirs()
+
+    def mavenMetadata = new File(cacheFiles, "maven-metadata.xml")
+    def localEnigmaVersion = mavenMetadata.exists() ? new XmlSlurper().parseText(FileUtils.readFileToString(mavenMetadata)).versioning.release : ""
+
+    logger.lifecycle(":downloading enigma metadata")
+    FileUtils.copyURLToFile(new URL("http://maven.fabricmc.net/cuchaz/enigma/maven-metadata.xml"), mavenMetadata)
+
+    def metadata = new XmlSlurper().parseText(FileUtils.readFileToString(mavenMetadata))
+    def enigmaVersion = metadata.versioning.release
+
+    def enigma = new File(cacheFiles, "${enigmaVersion}.jar")
+
+    if (localEnigmaVersion != enigmaVersion || !enigma.exists()) {
+      logger.lifecycle(":downloading enigma")
+      FileUtils.copyURLToFile(new URL("http://maven.fabricmc.net/cuchaz/enigma/${enigmaVersion}/enigma-${enigmaVersion}-all.jar"), enigma)
+    } else {
+      logger.lifecycle(":skipping enigma download")
+    }
+
+    logger.lifecycle(":launching enigma")
+    ant.java(jar: enigma.getAbsolutePath(), fork: true, spawn: true) {
+      arg(value: new File("${minecraft_version}-merged.jar").getAbsolutePath())
+      arg(value: new File("mappings/").getAbsolutePath())
+    }
+  }
+}
 
 task build(type: Zip) {
   from "mappings/"
@@ -149,51 +152,54 @@ task build(type: Zip) {
   destinationDir(file("build/libs"))
 }
 
-task checkMappings << {
-  logger.lifecycle(":checking mappings")
+task checkMappings {
+  doLast {
+    logger.lifecycle(":checking mappings")
 
-  String[] args = [
-      new File("${minecraft_version}-merged.jar").getAbsolutePath(),
-      new File("mappings").getAbsolutePath()
-  ]
+    String[] args = [
+            new File("${minecraft_version}-merged.jar").getAbsolutePath(),
+            new File("mappings").getAbsolutePath()
+    ]
 
-  new CommandFindMappingErrors().run(args)
-}
-
-task buildTiny << {
-  logger.lifecycle(":generating tiny mappings")
-
-  String[] args = [
-      new File("${minecraft_version}-merged.jar").getAbsolutePath(),
-      new File("mappings").getAbsolutePath(),
-      "mappings.tiny",
-      "mojang",
-      "pomf"
-  ]
-
-  new CommandTinyify().run(args)
-
-  logger.lifecycle(":compressing tiny mappings")
-  def libs = new File("build/libs/")
-  if (!libs.exists()) libs.mkdirs()
-
-  def buffer = new byte[1024]
-  def outputFile = new File(libs, "pomf-tiny-${pomfVersion}.gz")
-  def fileOutputStream = new FileOutputStream(outputFile)
-  def outputStream = new GZIPOutputStream(fileOutputStream)
-  def inputFile = new File("mappings.tiny")
-  def fileInputStream = new FileInputStream(inputFile)
-
-  def length
-  while ((length = fileInputStream.read(buffer)) > 0) {
-    outputStream.write(buffer, 0, length)
+    new CommandFindMappingErrors().run(args)
   }
-
-  fileInputStream.close()
-  outputStream.finish()
-  outputStream.close()
-  inputFile.delete()
 }
 
-tasks.buildTiny.dependsOn "mergeJars"
+task buildTiny(dependsOn: "mergeJars") {
+  doLast {
+    logger.lifecycle(":generating tiny mappings")
+
+    String[] args = [
+            new File("${minecraft_version}-merged.jar").getAbsolutePath(),
+            new File("mappings").getAbsolutePath(),
+            "mappings.tiny",
+            "mojang",
+            "pomf"
+    ]
+
+    new CommandTinyify().run(args)
+
+    logger.lifecycle(":compressing tiny mappings")
+    def libs = new File("build/libs/")
+    if (!libs.exists()) libs.mkdirs()
+
+    def buffer = new byte[1024]
+    def outputFile = new File(libs, "pomf-tiny-${pomfVersion}.gz")
+    def fileOutputStream = new FileOutputStream(outputFile)
+    def outputStream = new GZIPOutputStream(fileOutputStream)
+    def inputFile = new File("mappings.tiny")
+    def fileInputStream = new FileInputStream(inputFile)
+
+    def length
+    while ((length = fileInputStream.read(buffer)) > 0) {
+      outputStream.write(buffer, 0, length)
+    }
+
+    fileInputStream.close()
+    outputStream.finish()
+    outputStream.close()
+    inputFile.delete()
+  }
+}
+
 tasks.build.dependsOn "buildTiny"
