@@ -1,0 +1,39 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            name = "Fabric"
+            url = "http://maven.fabricmc.net/"
+        }
+        maven {
+            name "Modmuss50 Repository"
+            url 'https://maven.modmuss50.me'
+        }
+        maven {
+            name = "forge"
+            url = "http://files.minecraftforge.net/maven"
+        }
+    }
+    dependencies {
+        classpath 'net.minecraftforge:forgeflower:1.5.380-SNAPSHOT'
+    }
+}
+
+task decompObf(dependsOn: mergeJars) {
+    doLast {
+        def cacheFilesDecomp = file(".gradle/decompCache")
+        cacheFilesDecomp.mkdirs()
+        org.jetbrains.java.decompiler.main.decompiler.ConsoleDecompiler.main((String[]) [
+                "-dgs=true",
+                "-rbr=false",
+                "-jvn=1",
+                inputs.files.singleFile.toString(),
+                cacheFilesDecomp.toString()
+        ])
+        def decompFile = new File(cacheFilesDecomp, getInputs().files.singleFile.getName())
+        def destFile = outputs.files.singleFile
+        if (destFile.exists())
+            destFile.delete()
+        decompFile.renameTo(destFile)
+    }
+}

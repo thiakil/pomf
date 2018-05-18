@@ -238,3 +238,10 @@ task buildTiny(dependsOn: "mergeJars") {
 }
 
 tasks.build.dependsOn "buildTiny"
+
+if (hasProperty("pomf.enableforgeflower") && Boolean.parseBoolean(getProperty("pomf.enableforgeflower"))) {
+  apply from: "forgeflower.gradle"
+  File destFile = file(mergedFile.name.replace(".jar", "-sources.jar"))
+  decompObf.outputs.file(destFile)
+  decompObf.inputs.file(mergedFile)
+}
